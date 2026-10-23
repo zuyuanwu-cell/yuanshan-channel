@@ -118,3 +118,14 @@ npm run build
 ```
 
 校验失败就改 `content/`，不要为了通过去改页面组件。
+
+
+## 抓不到时的处理
+
+不做假榜。按原因选路径，并写入 `site.json` 的 `rankingGaps`（`reason` ≤120 字）：
+
+1. **反爬/403**（eBay、Target、部分 Walmart）：用已登录浏览器打开榜页或 Best Sellers 子类；仍失败只记缺口。
+2. **纯 SPA**（Shopee、Lazada）：必须浏览器渲染后再读销量排序；日常更新固定走浏览器，不用裸 HTTP。
+3. **地区墙**（Ozon、Wildberries）：浏览器 + 能打开目标站的出口；打不开则记缺口。
+4. **无公开网页榜**（TikTok Shop 等）：卖家后台导出/截屏录入，或标明出处的第三方周报；否则只记缺口。
+5. **字段不全**：照发并设 `partial: true` + `coverage_note`；无公开销量就省略，不编数字；中文标题可译但原文可核对。

@@ -6,7 +6,7 @@
   "tagline": "美妆日化的平台规则、目的国法规和热销结构，一页看完。",
   "focus": "美妆日化",
   "locale": "zh-CN",
-  "updated": "2026-10-22",
+  "updated": "2026-10-23",
   "disclaimer": "每条资讯都附来源链接。标了「待核实」的条目来自媒体或第三方转述，引用前打开原文。费用、排名和法规以官方页面为准。",
   "footerNote": "个人资讯站，不提供入驻代办，也不替代平台规则中心或法律意见。",
   "featuredPlatformIds": [
@@ -269,15 +269,51 @@
   "rankingGaps": [
     {
       "platform": "ozon",
-      "tried": "2026-10-22",
-      "reason": "Ozon 的公开类目页对本站抓取环境返回反爬验证页（307 → 403），没有拿到可核对的名次，所以本期不发 Ozon 榜。",
+      "tried": "2026-10-23",
+      "reason": "反爬/地区墙；下步用浏览器俄区出口再试，仍失败只记缺口不发假榜。",
       "source_url": "https://www.ozon.ru/category/kosmetika-i-uhod-6500/"
     },
     {
+      "platform": "wildberries",
+      "tried": "2026-10-23",
+      "reason": "俄区页难直连；下步浏览器+可用出口，通了再发榜。",
+      "source_url": "https://www.wildberries.ru/catalog/krasota"
+    },
+    {
       "platform": "shopee-sg",
-      "tried": "2026-10-22",
-      "reason": "Shopee 和 Lazada 的热销页对本站抓取环境返回验证页或脚本空壳，拿不到名次。东南亚先用 Amazon 新加坡站的公开榜。",
-      "source_url": "https://shopee.sg/top_products"
+      "tried": "2026-10-23",
+      "reason": "纯 SPA/验证页；下步浏览器打开销量排序页抓可见字段。",
+      "source_url": "https://shopee.sg/Beauty-Personal-Care-cat.11012301?sortBy=sales"
+    },
+    {
+      "platform": "shopee-id",
+      "tried": "2026-10-23",
+      "reason": "同 Shopee：须浏览器渲染；日常优先 SG 通后再铺 ID。",
+      "source_url": "https://shopee.co.id/"
+    },
+    {
+      "platform": "lazada-id",
+      "tried": "2026-10-23",
+      "reason": "热销页常空壳；下步浏览器抓 trending/Best Sellers 子类。",
+      "source_url": "https://www.lazada.co.id/"
+    },
+    {
+      "platform": "ebay",
+      "tried": "2026-10-23",
+      "reason": "直连 403；下步浏览器 Best selling 排序，仍失败只记缺口。",
+      "source_url": "https://www.ebay.com/b/Beauty/26395/bn_1850232"
+    },
+    {
+      "platform": "tiktok-shop-us",
+      "tried": "2026-10-23",
+      "reason": "无稳定公开网页榜；需卖家后台导出或可信第三方，暂不发榜。",
+      "source_url": "https://www.tiktok.com/shop"
+    },
+    {
+      "platform": "coupang",
+      "tried": "2026-10-23",
+      "reason": "韩站反爬强；下步浏览器 Best Sellers，失败则轮换记缺口。",
+      "source_url": "https://www.coupang.com/"
     }
   ],
   "rankingPlatforms": [
