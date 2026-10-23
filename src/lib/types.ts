@@ -1,6 +1,6 @@
 export type NewsCategory = 'rules' | 'regulation';
 export type HeroStatKey = 'news' | 'platforms' | 'rankings' | NewsCategory;
-export type NavIcon = 'home' | 'news' | 'rankings' | 'platforms' | 'about';
+export type NavIcon = 'home' | 'news' | 'rankings' | 'platforms' | 'about' | 'compliance';
 
 export interface HeroCard {
   title: string;
@@ -164,6 +164,7 @@ export interface NewsItem {
   date: string;
   category: NewsCategory;
   platforms: string[];
+  countries: string[];
   tags: string[];
   source_url: string;
   source_name: string;
@@ -237,4 +238,17 @@ export interface AboutPage {
   title: string;
   summary: string;
   html: string;
+}
+
+export type ComplianceType = 'local-rep' | 'registration' | 'safety' | 'testing' | 'label' | 'packaging' | 'marking' | 'halal' | 'platform' | 'tax-customs';
+export interface ComplianceItem {
+  id: string; name_zh: string; authority: string; type: ComplianceType; mandatory: boolean;
+  cost: string; time: string; docs: string[]; who: string; note?: string;
+  official_url: string; source_checked: string; needs_review: boolean;
+}
+export interface ComplianceCountry {
+  country: string; name_zh: string; flag: string; region: string; difficulty: 1 | 2 | 3;
+  summary: string; last_verified: string; steps: { title: string; type: ComplianceType }[];
+  items: ComplianceItem[];
+  hs_codes: { status: 'pending' | 'ready'; items: { code: string; name_zh: string; duty?: string; source_url?: string }[] };
 }

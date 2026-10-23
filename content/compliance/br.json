@@ -1,0 +1,101 @@
+{
+  "country": "br",
+  "name_zh": "巴西",
+  "flag": "🇧🇷",
+  "region": "拉美",
+  "difficulty": 3,
+  "summary": "本地公司持 ANVISA 经营许可 AFE，产品分 1/2 级通报或注册。",
+  "items": [
+    {
+      "id": "br-afe",
+      "name_zh": "ANVISA 经营许可 AFE + 地方卫生许可",
+      "authority": "ANVISA",
+      "type": "local-rep",
+      "mandatory": true,
+      "cost": "未知",
+      "time": "未知",
+      "docs": [
+        "AFE",
+        "地方卫生许可"
+      ],
+      "who": "巴西本地公司",
+      "note": "",
+      "official_url": "https://www.gov.br/anvisa/pt-br/assuntos/cosmeticos",
+      "source_checked": "2026-10-23",
+      "needs_review": false
+    },
+    {
+      "id": "br-notif",
+      "name_zh": "产品通报 / 注册（Grau 1/2）",
+      "authority": "ANVISA",
+      "type": "registration",
+      "mandatory": true,
+      "cost": "未知",
+      "time": "未知",
+      "docs": [
+        "配方",
+        "安全/功效证明（2 级）"
+      ],
+      "who": "AFE 持有人",
+      "note": "RDC 752/2022；需注册的须审批",
+      "official_url": "https://www.gov.br/anvisa/pt-br/setorregulado/regularizacao/cosmeticos/informes/regularizacao-de-produtos",
+      "source_checked": "2026-10-23",
+      "needs_review": false
+    },
+    {
+      "id": "br-label",
+      "name_zh": "葡萄牙语标签",
+      "authority": "ANVISA",
+      "type": "label",
+      "mandatory": true,
+      "cost": "未知",
+      "time": "未知",
+      "docs": [
+        "葡语标签"
+      ],
+      "who": "进口商",
+      "note": "",
+      "official_url": "https://www.gov.br/anvisa/pt-br/assuntos/cosmeticos",
+      "source_checked": "2026-10-23",
+      "needs_review": true
+    },
+    {
+      "id": "br-hs",
+      "name_zh": "HS 编码与关税",
+      "authority": "巴西联邦税务局",
+      "type": "tax-customs",
+      "mandatory": true,
+      "cost": "未知",
+      "time": "未知",
+      "docs": [],
+      "who": "进口商",
+      "note": "HS 编码待补",
+      "official_url": "https://www.gov.br/receitafederal/",
+      "source_checked": "2026-10-23",
+      "needs_review": false
+    }
+  ],
+  "steps": [
+    {
+      "title": "找本地代表",
+      "type": "local-rep"
+    },
+    {
+      "title": "备案/注册",
+      "type": "registration"
+    },
+    {
+      "title": "做标签",
+      "type": "label"
+    },
+    {
+      "title": "清关",
+      "type": "tax-customs"
+    }
+  ],
+  "last_verified": "2026-10-23",
+  "hs_codes": {
+    "status": "pending",
+    "items": []
+  }
+}

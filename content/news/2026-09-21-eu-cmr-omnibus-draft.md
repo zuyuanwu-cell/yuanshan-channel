@@ -8,6 +8,8 @@ platforms:
   - "zalando"
   - "allegro"
   - "temu"
+countries:
+  - "eu"
 tags:
   - "ingredients"
 source_url: "https://data.consilium.europa.eu/doc/document/ST-13462-2026-INIT/en/pdf"

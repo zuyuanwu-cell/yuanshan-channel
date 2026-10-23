@@ -4,6 +4,8 @@ date: "2026-10-16"
 category: "rules"
 platforms:
   - "ozon"
+countries:
+  - "ru"
 tags:
   - "fees"
 source_url: "https://ferta.su/ozon/polnyy-spisok-komissiy-tarifov/2026-10-16-schitaet-komissiyu-prodazhu-novoy-formule-620"

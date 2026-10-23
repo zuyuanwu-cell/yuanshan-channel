@@ -1,0 +1,103 @@
+{
+  "country": "my",
+  "name_zh": "马来西亚",
+  "flag": "🇲🇾",
+  "region": "东南亚",
+  "difficulty": 2,
+  "summary": "须由马来西亚本地公司在 NPRA 逐品通报，有效期 2 年。",
+  "items": [
+    {
+      "id": "my-cnh",
+      "name_zh": "本地通报持有人 CNH",
+      "authority": "NPRA",
+      "type": "local-rep",
+      "mandatory": true,
+      "cost": "未知",
+      "time": "未知",
+      "docs": [
+        "SSM 公司注册",
+        "授权书"
+      ],
+      "who": "马来西亚本地公司",
+      "note": "",
+      "official_url": "https://www.npra.gov.my/index.php/en/frequently-asked-questions-faqs.html",
+      "source_checked": "2026-10-23",
+      "needs_review": false
+    },
+    {
+      "id": "my-notif",
+      "name_zh": "NPRA 化妆品通报（QUEST3+）",
+      "authority": "NPRA",
+      "type": "registration",
+      "mandatory": true,
+      "cost": "RM50/品",
+      "time": "未知",
+      "docs": [
+        "产品资料",
+        "数字令牌"
+      ],
+      "who": "CNH",
+      "note": "有效 2 年，到期前至少 1 个月续",
+      "official_url": "https://quest3plus.bpfk.gov.my/front-end/m-register.php",
+      "source_checked": "2026-10-23",
+      "needs_review": false
+    },
+    {
+      "id": "my-pif",
+      "name_zh": "PIF + 安全评估",
+      "authority": "NPRA",
+      "type": "safety",
+      "mandatory": true,
+      "cost": "未知",
+      "time": "未知",
+      "docs": [
+        "PIF",
+        "安全评估",
+        "GMP 证明"
+      ],
+      "who": "CNH",
+      "note": "",
+      "official_url": "https://www.npra.gov.my/images/Guidelines_Central/Guidelines_on_Cosmetic/GUIDELINES_FOR_CONTROL_OF_COSMETIC_PRODUCTS_IN_MALAYSIA.pdf",
+      "source_checked": "2026-10-23",
+      "needs_review": false
+    },
+    {
+      "id": "my-hs",
+      "name_zh": "HS 编码与关税",
+      "authority": "马来西亚海关",
+      "type": "tax-customs",
+      "mandatory": true,
+      "cost": "未知",
+      "time": "未知",
+      "docs": [],
+      "who": "进口商",
+      "note": "HS 编码待补",
+      "official_url": "https://www.customs.gov.my/",
+      "source_checked": "2026-10-23",
+      "needs_review": false
+    }
+  ],
+  "steps": [
+    {
+      "title": "找本地代表",
+      "type": "local-rep"
+    },
+    {
+      "title": "安全档案",
+      "type": "safety"
+    },
+    {
+      "title": "备案/注册",
+      "type": "registration"
+    },
+    {
+      "title": "清关",
+      "type": "tax-customs"
+    }
+  ],
+  "last_verified": "2026-10-23",
+  "hs_codes": {
+    "status": "pending",
+    "items": []
+  }
+}

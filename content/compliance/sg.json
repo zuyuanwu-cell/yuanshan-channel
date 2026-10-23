@@ -1,0 +1,79 @@
+{
+  "country": "sg",
+  "name_zh": "新加坡",
+  "flag": "🇸🇬",
+  "region": "东南亚",
+  "difficulty": 1,
+  "summary": "本地公司在 HSA 做产品通报即可，标签按东盟化妆品指令。",
+  "items": [
+    {
+      "id": "sg-notif",
+      "name_zh": "HSA 化妆品通报",
+      "authority": "HSA",
+      "type": "registration",
+      "mandatory": true,
+      "cost": "未知",
+      "time": "未知",
+      "docs": [
+        "产品信息",
+        "本地公司信息"
+      ],
+      "who": "新加坡本地公司",
+      "note": "PRISM 系统提交；有效 1 年，每年重新通报",
+      "official_url": "https://www.hsa.gov.sg/cosmetic-products/cosmetic-product-notification/submit/",
+      "source_checked": "2026-10-23",
+      "needs_review": false
+    },
+    {
+      "id": "sg-pif",
+      "name_zh": "产品信息档案 PIF",
+      "authority": "HSA / ASEAN",
+      "type": "safety",
+      "mandatory": true,
+      "cost": "未知",
+      "time": "未知",
+      "docs": [
+        "PIF"
+      ],
+      "who": "本地公司",
+      "note": "",
+      "official_url": "https://www.hsa.gov.sg/cosmetic-products/notification",
+      "source_checked": "2026-10-23",
+      "needs_review": true
+    },
+    {
+      "id": "sg-hs",
+      "name_zh": "HS 编码与关税",
+      "authority": "新加坡海关",
+      "type": "tax-customs",
+      "mandatory": true,
+      "cost": "未知",
+      "time": "未知",
+      "docs": [],
+      "who": "进口商",
+      "note": "HS 编码待补",
+      "official_url": "https://www.customs.gov.sg/",
+      "source_checked": "2026-10-23",
+      "needs_review": false
+    }
+  ],
+  "steps": [
+    {
+      "title": "安全档案",
+      "type": "safety"
+    },
+    {
+      "title": "备案/注册",
+      "type": "registration"
+    },
+    {
+      "title": "清关",
+      "type": "tax-customs"
+    }
+  ],
+  "last_verified": "2026-10-23",
+  "hs_codes": {
+    "status": "pending",
+    "items": []
+  }
+}

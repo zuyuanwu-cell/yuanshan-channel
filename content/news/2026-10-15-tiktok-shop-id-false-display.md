@@ -5,6 +5,8 @@ category: "rules"
 platforms:
   - "tiktok-shop"
   - "tokopedia"
+countries:
+  - "id"
 tags:
   - "listing"
   - "penalties"

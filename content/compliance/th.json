@@ -1,0 +1,102 @@
+{
+  "country": "th",
+  "name_zh": "泰国",
+  "flag": "🇹🇭",
+  "region": "东南亚",
+  "difficulty": 2,
+  "summary": "本地进口商在泰国 FDA 逐品通报，标签要有泰文。",
+  "items": [
+    {
+      "id": "th-importer",
+      "name_zh": "本地进口商（需泰国身份号开户）",
+      "authority": "Thai FDA",
+      "type": "local-rep",
+      "mandatory": true,
+      "cost": "未知",
+      "time": "未知",
+      "docs": [
+        "营业资料",
+        "仓储场所"
+      ],
+      "who": "泰国本地公司",
+      "note": "",
+      "official_url": "https://en.fda.moph.go.th/entrepreneurs-cosmetics/category/how-to-apply-for-permission-on-cosmetics",
+      "source_checked": "2026-10-23",
+      "needs_review": false
+    },
+    {
+      "id": "th-notif",
+      "name_zh": "化妆品通报 e-Submission",
+      "authority": "Thai FDA",
+      "type": "registration",
+      "mandatory": true,
+      "cost": "未知",
+      "time": "未知",
+      "docs": [
+        "产品名称类型",
+        "成分",
+        "用法"
+      ],
+      "who": "本地进口商",
+      "note": "收据有效 3 年",
+      "official_url": "https://www.fda.moph.go.th/e-serivice/e-submission/",
+      "source_checked": "2026-10-23",
+      "needs_review": false
+    },
+    {
+      "id": "th-label",
+      "name_zh": "泰文标签",
+      "authority": "Thai FDA",
+      "type": "label",
+      "mandatory": true,
+      "cost": "未知",
+      "time": "未知",
+      "docs": [
+        "泰文标签"
+      ],
+      "who": "进口商",
+      "note": "",
+      "official_url": "https://catalog.fda.moph.go.th/dataset/1e51956a-5718-4aa9-8b23-076349ed1856/resource/848bf9fe-ee17-4d7d-89e3-f4d6e304e6eb/download/cosmetics-act-b.e.-2015.pdf",
+      "source_checked": "2026-10-23",
+      "needs_review": false
+    },
+    {
+      "id": "th-hs",
+      "name_zh": "HS 编码与关税",
+      "authority": "泰国海关",
+      "type": "tax-customs",
+      "mandatory": true,
+      "cost": "未知",
+      "time": "未知",
+      "docs": [],
+      "who": "进口商",
+      "note": "HS 编码待补",
+      "official_url": "https://www.customs.go.th/",
+      "source_checked": "2026-10-23",
+      "needs_review": false
+    }
+  ],
+  "steps": [
+    {
+      "title": "找本地代表",
+      "type": "local-rep"
+    },
+    {
+      "title": "备案/注册",
+      "type": "registration"
+    },
+    {
+      "title": "做标签",
+      "type": "label"
+    },
+    {
+      "title": "清关",
+      "type": "tax-customs"
+    }
+  ],
+  "last_verified": "2026-10-23",
+  "hs_codes": {
+    "status": "pending",
+    "items": []
+  }
+}

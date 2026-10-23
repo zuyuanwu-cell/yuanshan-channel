@@ -1,0 +1,196 @@
+{
+  "country": "eu",
+  "name_zh": "欧盟·德国",
+  "flag": "🇪🇺",
+  "region": "欧洲",
+  "difficulty": 3,
+  "summary": "必须有欧盟责任人，上市前在 CPNP 通报，并备好安全报告。",
+  "items": [
+    {
+      "id": "eu-rp",
+      "name_zh": "欧盟责任人 RP",
+      "authority": "欧盟 1223/2009",
+      "type": "local-rep",
+      "mandatory": true,
+      "cost": "未知",
+      "time": "未知",
+      "docs": [
+        "RP 委托协议"
+      ],
+      "who": "欧盟境内企业",
+      "note": "名称地址须印在包装上",
+      "official_url": "https://eur-lex.europa.eu/eli/reg/2009/1223/oj",
+      "source_checked": "2026-10-23",
+      "needs_review": false
+    },
+    {
+      "id": "eu-pif",
+      "name_zh": "产品信息档案 PIF + 安全报告 CPSR",
+      "authority": "欧盟 1223/2009",
+      "type": "safety",
+      "mandatory": true,
+      "cost": "未知",
+      "time": "未知",
+      "docs": [
+        "配方",
+        "CPSR 安全评估",
+        "GMP 声明",
+        "功效证据"
+      ],
+      "who": "RP 保存",
+      "note": "上市后保存 10 年",
+      "official_url": "https://eur-lex.europa.eu/eli/reg/2009/1223/oj",
+      "source_checked": "2026-10-23",
+      "needs_review": false
+    },
+    {
+      "id": "eu-cpnp",
+      "name_zh": "CPNP 通报",
+      "authority": "欧盟委员会",
+      "type": "registration",
+      "mandatory": true,
+      "cost": "免费",
+      "time": "未知",
+      "docs": [
+        "产品类别名称",
+        "框架配方",
+        "标签图片",
+        "RP 信息"
+      ],
+      "who": "RP",
+      "note": "一次通报全欧盟有效；含纳米须另报",
+      "official_url": "https://single-market-economy.ec.europa.eu/sectors/cosmetics/cosmetic-product-notification-portal_en",
+      "source_checked": "2026-10-23",
+      "needs_review": false
+    },
+    {
+      "id": "eu-label",
+      "name_zh": "标签与 INCI 成分",
+      "authority": "欧盟 1223/2009",
+      "type": "label",
+      "mandatory": true,
+      "cost": "未知",
+      "time": "未知",
+      "docs": [
+        "INCI 成分表",
+        "RP 名称地址",
+        "保质期/开封后期限",
+        "批号",
+        "当地语言用途与警示"
+      ],
+      "who": "品牌",
+      "note": "",
+      "official_url": "https://eur-lex.europa.eu/eli/reg/2009/1223/oj",
+      "source_checked": "2026-10-23",
+      "needs_review": false
+    },
+    {
+      "id": "eu-annex",
+      "name_zh": "禁限用物质清单",
+      "authority": "欧盟委员会 CosIng",
+      "type": "testing",
+      "mandatory": true,
+      "cost": "未知",
+      "time": "未知",
+      "docs": [
+        "配方逐项比对附件 II–VI"
+      ],
+      "who": "品牌/RP",
+      "note": "",
+      "official_url": "https://ec.europa.eu/growth/tools-databases/cosing/",
+      "source_checked": "2026-10-23",
+      "needs_review": false
+    },
+    {
+      "id": "eu-gpsr",
+      "name_zh": "GPSR 远程销售信息",
+      "authority": "欧盟 2023/988",
+      "type": "platform",
+      "mandatory": false,
+      "cost": "未知",
+      "time": "未知",
+      "docs": [
+        "欧盟经营者联系信息",
+        "产品标识与图片"
+      ],
+      "who": "卖家",
+      "note": "化妆品以 1223/2009 为主；平台按 GPSR 要求展示经营者信息",
+      "official_url": "https://eur-lex.europa.eu/eli/reg/2023/988/oj",
+      "source_checked": "2026-10-23",
+      "needs_review": true
+    },
+    {
+      "id": "de-lucid",
+      "name_zh": "德国包装注册 LUCID + 加入回收系统",
+      "authority": "ZSVR",
+      "type": "packaging",
+      "mandatory": true,
+      "cost": "注册免费；回收系统收费",
+      "time": "未知",
+      "docs": [
+        "企业信息",
+        "包装品牌名",
+        "回收系统合同"
+      ],
+      "who": "首次在德国投放包装的卖家",
+      "note": "平台会核查注册号",
+      "official_url": "https://www.verpackungsregister.org/registrierung/alle-informationen-zur-registrierung",
+      "source_checked": "2026-10-23",
+      "needs_review": false
+    },
+    {
+      "id": "eu-hs",
+      "name_zh": "HS 编码与关税",
+      "authority": "欧盟海关",
+      "type": "tax-customs",
+      "mandatory": true,
+      "cost": "未知",
+      "time": "未知",
+      "docs": [],
+      "who": "进口商",
+      "note": "HS 编码待补",
+      "official_url": "https://taxation-customs.ec.europa.eu/",
+      "source_checked": "2026-10-23",
+      "needs_review": false
+    }
+  ],
+  "steps": [
+    {
+      "title": "找本地代表",
+      "type": "local-rep"
+    },
+    {
+      "title": "配方检测",
+      "type": "testing"
+    },
+    {
+      "title": "安全档案",
+      "type": "safety"
+    },
+    {
+      "title": "备案/注册",
+      "type": "registration"
+    },
+    {
+      "title": "做标签",
+      "type": "label"
+    },
+    {
+      "title": "包装注册",
+      "type": "packaging"
+    },
+    {
+      "title": "平台资质",
+      "type": "platform"
+    },
+    {
+      "title": "清关",
+      "type": "tax-customs"
+    }
+  ],
+  "last_verified": "2026-10-23",
+  "hs_codes": {
+    "status": "pending",
+    "items": []
+  }
+}

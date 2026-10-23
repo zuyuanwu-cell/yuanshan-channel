@@ -7,6 +7,8 @@ platforms:
   - "lazada"
   - "tokopedia"
   - "tiktok-shop"
+countries:
+  - "id"
 tags:
   - "ingredients"
   - "compliance"

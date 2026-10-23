@@ -5,6 +5,8 @@ category: "regulation"
 platforms:
   - "temu"
   - "amazon-eu"
+countries:
+  - "eu"
 tags:
   - "customs"
 source_url: "https://thelogisticnews.com/temu-owner-invests-in-local-fulfillment-as-de-minimis-rules-reshape-global-trade/"

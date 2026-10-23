@@ -1,0 +1,165 @@
+{
+  "country": "us",
+  "name_zh": "美国",
+  "flag": "🇺🇸",
+  "region": "北美",
+  "difficulty": 2,
+  "summary": "不用事先审批，但要注册设施、列名产品、标签合规。",
+  "items": [
+    {
+      "id": "mocra-facility",
+      "name_zh": "设施注册",
+      "authority": "FDA",
+      "type": "registration",
+      "mandatory": true,
+      "cost": "免费",
+      "time": "未知",
+      "docs": [
+        "工厂名称地址",
+        "FEI 编号",
+        "美国代理人（境外工厂）"
+      ],
+      "who": "生产工厂",
+      "note": "经 Cosmetics Direct 提交；FDA 不发证书",
+      "official_url": "https://www.fda.gov/cosmetics/registration-listing-cosmetic-product-facilities-and-products",
+      "source_checked": "2026-10-23",
+      "needs_review": false
+    },
+    {
+      "id": "mocra-listing",
+      "name_zh": "产品列名",
+      "authority": "FDA",
+      "type": "registration",
+      "mandatory": true,
+      "cost": "免费",
+      "time": "未知",
+      "docs": [
+        "产品名称",
+        "全成分",
+        "产品类别",
+        "对应设施编号"
+      ],
+      "who": "责任人（品牌/经销商）",
+      "note": "每年更新",
+      "official_url": "https://www.fda.gov/cosmetics/registration-listing-cosmetic-product-facilities-and-products",
+      "source_checked": "2026-10-23",
+      "needs_review": false
+    },
+    {
+      "id": "fda-label",
+      "name_zh": "英文标签",
+      "authority": "FDA",
+      "type": "label",
+      "mandatory": true,
+      "cost": "未知",
+      "time": "未知",
+      "docs": [
+        "品名与用途",
+        "净含量（英制+公制）",
+        "成分（降序）",
+        "责任人名称地址",
+        "警示语"
+      ],
+      "who": "品牌",
+      "note": "21 CFR 701/740",
+      "official_url": "https://www.fda.gov/cosmetics/cosmetics-labeling-regulations/summary-cosmetics-labeling-requirements",
+      "source_checked": "2026-10-23",
+      "needs_review": false
+    },
+    {
+      "id": "mocra-ae",
+      "name_zh": "严重不良事件 15 个工作日上报",
+      "authority": "FDA",
+      "type": "safety",
+      "mandatory": true,
+      "cost": "免费",
+      "time": "未知",
+      "docs": [
+        "上报表 3500A",
+        "产品标签"
+      ],
+      "who": "责任人",
+      "note": "",
+      "official_url": "https://www.fda.gov/cosmetics/cosmetics-compliance-enforcement/how-report-cosmetic-product-related-complaint",
+      "source_checked": "2026-10-23",
+      "needs_review": false
+    },
+    {
+      "id": "mocra-safety",
+      "name_zh": "安全性证据留档",
+      "authority": "FDA",
+      "type": "safety",
+      "mandatory": true,
+      "cost": "未知",
+      "time": "未知",
+      "docs": [
+        "安全评估资料"
+      ],
+      "who": "责任人",
+      "note": "MoCRA 要求责任人保有安全性证明",
+      "official_url": "https://www.fda.gov/cosmetics/cosmetics-laws-regulations/modernization-cosmetics-regulation-act-2022-mocra",
+      "source_checked": "2026-10-23",
+      "needs_review": false
+    },
+    {
+      "id": "amazon-beauty",
+      "name_zh": "亚马逊美妆类目合规资料",
+      "authority": "Amazon",
+      "type": "platform",
+      "mandatory": false,
+      "cost": "未知",
+      "time": "未知",
+      "docs": [
+        "产品图片",
+        "成分/安全资料（按需）"
+      ],
+      "who": "卖家",
+      "note": "部分子类需审核，以后台提示为准",
+      "official_url": "https://sellercentral.amazon.com/help/hub/reference/external/G200332540",
+      "source_checked": "2026-10-23",
+      "needs_review": true
+    },
+    {
+      "id": "us-hs",
+      "name_zh": "HS 编码与关税",
+      "authority": "CBP",
+      "type": "tax-customs",
+      "mandatory": true,
+      "cost": "未知",
+      "time": "未知",
+      "docs": [],
+      "who": "进口商",
+      "note": "HS 编码待补",
+      "official_url": "https://www.cbp.gov/",
+      "source_checked": "2026-10-23",
+      "needs_review": false
+    }
+  ],
+  "steps": [
+    {
+      "title": "安全档案",
+      "type": "safety"
+    },
+    {
+      "title": "备案/注册",
+      "type": "registration"
+    },
+    {
+      "title": "做标签",
+      "type": "label"
+    },
+    {
+      "title": "平台资质",
+      "type": "platform"
+    },
+    {
+      "title": "清关",
+      "type": "tax-customs"
+    }
+  ],
+  "last_verified": "2026-10-23",
+  "hs_codes": {
+    "status": "pending",
+    "items": []
+  }
+}

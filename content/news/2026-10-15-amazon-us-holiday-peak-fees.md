@@ -4,6 +4,8 @@ date: "2026-10-15"
 category: "rules"
 platforms:
   - "amazon-us"
+countries:
+  - "us"
 tags:
   - "fees"
 source_url: "https://sellercentral.amazon.com/seller-forums/discussions/t/3e31fbb7-04e0-4ed4-873e-f74b1052e2ff"

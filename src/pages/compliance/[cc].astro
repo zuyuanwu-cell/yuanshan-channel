@@ -1,0 +1,60 @@
+---
+import NewsCard from '../../components/NewsCard.astro';
+import Base from '../../layouts/Base.astro';
+import { complianceTypeLabels, getCompliance, getComplianceCountry, newsForCountry } from '../../lib/content';
+import { formatDate, url } from '../../lib/format';
+
+export function getStaticPaths() {
+  return getCompliance().map((c) => ({ params: { cc: c.country } }));
+}
+const c = getComplianceCountry(Astro.params.cc!)!;
+const news = newsForCountry(c.country);
+const items = [...c.items].sort((a, b) => Number(b.mandatory) - Number(a.mandatory));
+const host = (u: string) => { try { return new URL(u).hostname.replace(/^www\./, ''); } catch { return u; } };
+---
+
+<Base title={`${c.name_zh} 合规速查`} description={c.summary}>
+  <header class="page-head">
+    <p class="kicker"><a href={url('/compliance')}>← 国家合规速查</a></p>
+    <h1><span class="cc-flag-lg" aria-hidden="true">{c.flag}</span> {c.name_zh}</h1>
+    <p class="lede">{c.summary}</p>
+    <p class="updated-line"><span class="live-dot" aria-hidden="true"></span>核实于 <time datetime={c.last_verified}>{formatDate(c.last_verified)}</time>
+      <span class="cc-diff" aria-label={`难度 ${c.difficulty}/3`}>{[1, 2, 3].map((n) => <i class={n <= c.difficulty ? 'on' : ''} />)}</span></p>
+  </header>
+
+  <ol class="cc-steps scroll-x" aria-label="办理顺序">
+    {c.steps.map((s, i) => <li><span class="cc-step-no">{i + 1}</span><span>{s.title}</span></li>)}
+  </ol>
+
+  <div class="cc-items">
+    {items.map((it) => (
+      <article class={`cc-item card ${it.mandatory ? 'is-must' : ''}`} id={it.id}>
+        <div class="card-top">
+          <span class={`pill ${it.mandatory ? 'pill-must' : 'pill-opt'}`}>{it.mandatory ? '必须' : '建议'}</span>
+          <span class="pill pill-teal">{complianceTypeLabels[it.type]}</span>
+          {it.needs_review && <span class="stamp stamp-review">待核实</span>}
+        </div>
+        <h2 class="cc-item-title">{it.name_zh}</h2>
+        <p class="cc-auth">🏛 {it.authority}{it.who && <span class="muted"> · 👤 {it.who}</span>}</p>
+        <p class="cc-facts"><span>💰 {it.cost}</span><span>⏱ {it.time}</span></p>
+        {it.type === 'tax-customs' && c.hs_codes.status === 'pending' && <p class="cc-hs muted">HS 编码整理中</p>}
+        {it.type === 'tax-customs' && c.hs_codes.items.length > 0 && (
+          <ul class="cc-hs-list">{c.hs_codes.items.map((h) => <li><code>{h.code}</code> {h.name_zh}{h.duty && <span class="muted"> · {h.duty}</span>}</li>)}</ul>
+        )}
+        {it.note && <p class="cc-note">{it.note}</p>}
+        {it.docs.length > 0 && (
+          <details class="cc-docs"><summary>📄 材料 {it.docs.length}</summary><ul>{it.docs.map((d) => <li>{d}</li>)}</ul></details>
+        )}
+        <a class="text-link cc-src" href={it.official_url} target="_blank" rel="noopener noreferrer">官方来源 · {host(it.official_url)} ↗</a>
+      </article>
+    ))}
+  </div>
+
+  {news.length > 0 && (
+    <section class="cc-news">
+      <h2 class="section-title">最近变化</h2>
+      <div class="news-grid">{news.map((n) => <NewsCard item={n} />)}</div>
+    </section>
+  )}
+  <p class="muted cc-disclaimer">仅供参考，以官方最新规定为准。</p>
+</Base>

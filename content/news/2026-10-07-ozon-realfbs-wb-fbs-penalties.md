@@ -5,6 +5,8 @@ category: "rules"
 platforms:
   - "ozon"
   - "wildberries"
+countries:
+  - "ru"
 tags:
   - "penalties"
 source_url: "https://ecomhub.ru/ozon-realfbs-wildberries-fbs-penalties-seller-warehouse-2026/"

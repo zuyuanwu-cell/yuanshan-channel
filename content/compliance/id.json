@@ -1,0 +1,129 @@
+{
+  "country": "id",
+  "name_zh": "印度尼西亚",
+  "flag": "🇮🇩",
+  "region": "东南亚",
+  "difficulty": 3,
+  "summary": "须由印尼本地公司做 BPOM 备案，标签部分内容要印尼语；清真认证 2028 年起强制。",
+  "items": [
+    {
+      "id": "id-importer",
+      "name_zh": "本地进口商/备案人",
+      "authority": "BPOM",
+      "type": "local-rep",
+      "mandatory": true,
+      "cost": "未知",
+      "time": "未知",
+      "docs": [
+        "NIB 营业号",
+        "NPWP 税号",
+        "品牌授权书",
+        "CFS/GMP 证明"
+      ],
+      "who": "印尼本地公司",
+      "note": "",
+      "official_url": "https://notifkos.pom.go.id/frontend/informasi",
+      "source_checked": "2026-10-23",
+      "needs_review": false
+    },
+    {
+      "id": "id-notif",
+      "name_zh": "BPOM 化妆品备案 Notifikasi",
+      "authority": "BPOM",
+      "type": "registration",
+      "mandatory": true,
+      "cost": "未知",
+      "time": "未知",
+      "docs": [
+        "配方",
+        "标签设计",
+        "授权书"
+      ],
+      "who": "本地备案人",
+      "note": "上架电商平台须填备案号",
+      "official_url": "https://notifkos.pom.go.id/frontend/informasi",
+      "source_checked": "2026-10-23",
+      "needs_review": false
+    },
+    {
+      "id": "id-label",
+      "name_zh": "印尼语标签",
+      "authority": "BPOM 2024 年第 18 号",
+      "type": "label",
+      "mandatory": true,
+      "cost": "未知",
+      "time": "未知",
+      "docs": [
+        "用途/用法/警示用印尼语",
+        "备案号",
+        "批号",
+        "有效期",
+        "2D 条码"
+      ],
+      "who": "品牌",
+      "note": "",
+      "official_url": "https://jdih.pom.go.id/download/rule/1623/18/2024/Peraturan%20Badan%20Pengawas%20Obat%20dan%20Makanan%20Nomor%2018%20Tahun%202024%20tentang%20Penandaan,%20Promosi,%20dan%20Iklan%20Kosmetik",
+      "source_checked": "2026-10-23",
+      "needs_review": false
+    },
+    {
+      "id": "id-halal",
+      "name_zh": "清真认证",
+      "authority": "BPJPH",
+      "type": "halal",
+      "mandatory": true,
+      "cost": "未知",
+      "time": "未知",
+      "docs": [
+        "清真认证申请资料"
+      ],
+      "who": "品牌/进口商",
+      "note": "化妆品强制期顺延至 2028-10-17（媒体报道，待正文核实）",
+      "official_url": "https://halal.go.id/",
+      "source_checked": "2026-10-23",
+      "needs_review": true
+    },
+    {
+      "id": "id-hs",
+      "name_zh": "HS 编码与关税",
+      "authority": "印尼海关",
+      "type": "tax-customs",
+      "mandatory": true,
+      "cost": "未知",
+      "time": "未知",
+      "docs": [],
+      "who": "进口商",
+      "note": "HS 编码待补",
+      "official_url": "https://www.beacukai.go.id/",
+      "source_checked": "2026-10-23",
+      "needs_review": false
+    }
+  ],
+  "steps": [
+    {
+      "title": "找本地代表",
+      "type": "local-rep"
+    },
+    {
+      "title": "备案/注册",
+      "type": "registration"
+    },
+    {
+      "title": "做标签",
+      "type": "label"
+    },
+    {
+      "title": "清真",
+      "type": "halal"
+    },
+    {
+      "title": "清关",
+      "type": "tax-customs"
+    }
+  ],
+  "last_verified": "2026-10-23",
+  "hs_codes": {
+    "status": "pending",
+    "items": []
+  }
+}

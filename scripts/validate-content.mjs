@@ -67,6 +67,7 @@ const validateSite = ajv.compile(readJson(path.join(schemaDir, 'site.schema.json
 const validateNews = ajv.compile(readJson(path.join(schemaDir, 'news.schema.json')));
 const validateRanking = ajv.compile(readJson(path.join(schemaDir, 'ranking.schema.json')));
 const validateAbout = ajv.compile(readJson(path.join(schemaDir, 'about.schema.json')));
+const validateCompliance = ajv.compile(readJson(path.join(schemaDir, 'compliance.schema.json')));
 
 const allowedRoot = new Set([
   'site.json',
@@ -77,6 +78,7 @@ const allowedRoot = new Set([
   'news',
   'rankings',
   'assets',
+  'compliance',
 ]);
 
 if (!fs.existsSync(contentDir)) {
@@ -138,6 +140,32 @@ for (const [index, board] of (site?.rankingPlatforms ?? []).entries()) {
   }
 }
 
+const complianceDir = path.join(contentDir, 'compliance');
+const countryIds = new Set();
+let complianceItems = 0;
+if (fs.existsSync(complianceDir)) {
+  for (const fileName of fs.readdirSync(complianceDir)) {
+    const file = path.join(complianceDir, fileName);
+    if (!/^[a-z]{2}\.json$/.test(fileName)) {
+      fail(`${rel(file)}: 文件名须为两位国家代码 xx.json`);
+      continue;
+    }
+    const data = readJson(file);
+    if (!data) continue;
+    schemaErrors(file, validateCompliance, data);
+    if (data.country !== fileName.slice(0, 2)) fail(`${rel(file)}: country 与文件名不一致`);
+    countryIds.add(data.country);
+    if (data.last_verified && !isRealDate(data.last_verified)) fail(`${rel(file)}: last_verified 不是真实日期`);
+    const ids = new Set();
+    for (const item of data.items ?? []) {
+      complianceItems += 1;
+      if (ids.has(item.id)) fail(`${rel(file)}: item id「${item.id}」重复`);
+      ids.add(item.id);
+      if (item.source_checked && !isRealDate(item.source_checked)) fail(`${rel(file)}: ${item.id} source_checked 不是真实日期`);
+    }
+  }
+}
+
 const newsDir = path.join(contentDir, 'news');
 const newsName = /^\d{4}-\d{2}-\d{2}-[a-z0-9]+(?:-[a-z0-9]+)*\.md$/;
 let newsCount = 0;
@@ -173,6 +201,9 @@ if (!fs.existsSync(newsDir)) {
     }
     for (const id of data.platforms ?? []) {
       if (!platformIds.has(id)) fail(`${rel(file)}: platforms 含未知 id「${id}」`);
+    }
+    for (const cc of data.countries ?? []) {
+      if (countryIds.size && !countryIds.has(cc)) fail(`${rel(file)}: countries 含未知国家「${cc}」`);
     }
     for (const tag of data.tags ?? []) {
       if (!site?.newsTags?.[tag]) fail(`${rel(file)}: tags 含 site.json newsTags 里没有的「${tag}」`);
@@ -309,5 +340,6 @@ if (errors.length > 0) {
 console.log('内容校验通过');
 console.log(`- 平台 ${platformIds.size}`);
 console.log(`- 资讯 ${newsCount}`);
+console.log(`- 合规国家 ${countryIds.size}（${complianceItems} 项）`);
 console.log(`- 榜单 ${rankingCount}`);
 console.log(`- 榜位 ${boardIds.size}（缺口 ${site?.rankingGaps?.length ?? 0}）`);

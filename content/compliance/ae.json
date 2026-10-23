@@ -1,0 +1,79 @@
+{
+  "country": "ae",
+  "name_zh": "阿联酋",
+  "flag": "🇦🇪",
+  "region": "中东",
+  "difficulty": 2,
+  "summary": "向工业和先进技术部 MoIAT 申请 ECAS 符合性证书；迪拜另需市政局注册。",
+  "items": [
+    {
+      "id": "ae-ecas",
+      "name_zh": "ECAS 符合性证书",
+      "authority": "MoIAT",
+      "type": "registration",
+      "mandatory": true,
+      "cost": "未知",
+      "time": "未知",
+      "docs": [
+        "阿联酋营业执照",
+        "GSO 1943 检测报告",
+        "成分声明",
+        "标签",
+        "GMP",
+        "自由销售证明"
+      ],
+      "who": "阿联酋本地公司",
+      "note": "",
+      "official_url": "https://www.moiat.gov.ae/en/services/issue-conformity-certificates-for-regulated-products",
+      "source_checked": "2026-10-23",
+      "needs_review": false
+    },
+    {
+      "id": "ae-montaji",
+      "name_zh": "迪拜市政局产品注册 Montaji",
+      "authority": "Dubai Municipality",
+      "type": "registration",
+      "mandatory": true,
+      "cost": "未知",
+      "time": "未知",
+      "docs": [
+        "产品资料"
+      ],
+      "who": "本地公司",
+      "note": "仅迪拜销售适用",
+      "official_url": "https://dmpmedia.dm.gov.ae/uploads/2026/01/DM-HSD-GU116-CPCP2_Technical-Guidelines-for-Cosmetic-Personal-Care-Products_V2.1.pdf",
+      "source_checked": "2026-10-23",
+      "needs_review": false
+    },
+    {
+      "id": "ae-hs",
+      "name_zh": "HS 编码与关税",
+      "authority": "阿联酋海关",
+      "type": "tax-customs",
+      "mandatory": true,
+      "cost": "未知",
+      "time": "未知",
+      "docs": [],
+      "who": "进口商",
+      "note": "HS 编码待补",
+      "official_url": "https://www.moiat.gov.ae/",
+      "source_checked": "2026-10-23",
+      "needs_review": false
+    }
+  ],
+  "steps": [
+    {
+      "title": "备案/注册",
+      "type": "registration"
+    },
+    {
+      "title": "清关",
+      "type": "tax-customs"
+    }
+  ],
+  "last_verified": "2026-10-23",
+  "hs_codes": {
+    "status": "pending",
+    "items": []
+  }
+}

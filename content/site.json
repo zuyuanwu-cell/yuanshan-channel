@@ -30,6 +30,11 @@
       "icon": "news"
     },
     {
+      "href": "/compliance",
+      "label": "合规",
+      "icon": "compliance"
+    },
+    {
       "href": "/rankings",
       "label": "热销榜",
       "icon": "rankings"

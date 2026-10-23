@@ -1447,7 +1447,7 @@ time {
     bottom: calc(10px + var(--safe-b));
     z-index: 40;
     display: grid;
-    grid-template-columns: repeat(5, 1fr);
+    grid-template-columns: repeat(6, 1fr);
     height: var(--tab-h);
     padding: 6px;
     border-radius: 22px;
@@ -2918,3 +2918,50 @@ button.rank-thumb:focus-visible .zoom-badge {
     transition: none;
   }
 }
+
+/* Compliance quick-check */
+.cc-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); gap: 12px; margin-top: 16px; }
+.cc-card { display: flex; flex-direction: column; gap: 6px; padding: 16px; text-decoration: none; color: var(--ink); transition: transform .2s var(--ease), border-color .2s; }
+.cc-card:hover { transform: translateY(-2px); border-color: var(--line-2); }
+.cc-card[hidden] { display: none; }
+.cc-flag { font-size: 40px; line-height: 1; }
+.cc-flag-lg { font-size: 1.1em; }
+.cc-name { font-weight: 700; font-size: 17px; }
+.cc-hot { color: var(--coral); font-size: 10px; margin-left: 6px; vertical-align: super; }
+.cc-meta { display: flex; justify-content: space-between; align-items: center; font-size: 13px; color: var(--muted); }
+.cc-must { color: var(--coral); font-weight: 600; }
+.cc-diff { display: inline-flex; gap: 3px; margin-left: 8px; vertical-align: middle; }
+.cc-diff i { width: 8px; height: 8px; border-radius: 50%; background: var(--line-2); }
+.cc-diff i.on { background: var(--amber); }
+.cc-steps { display: flex; gap: 8px; list-style: none; padding: 0; margin: 8px 0 20px; overflow-x: auto; }
+.cc-steps li { flex: 0 0 auto; display: flex; align-items: center; gap: 8px; padding: 8px 14px 8px 8px; border-radius: 999px; background: var(--card-2); border: 1px solid var(--line); font-size: 14px; white-space: nowrap; }
+.cc-steps li + li::before { content: "→"; color: var(--dim); margin-left: -4px; margin-right: 4px; order: -1; }
+.cc-step-no { width: 24px; height: 24px; border-radius: 50%; display: grid; place-items: center; background: var(--violet); color: #fff; font-size: 12px; font-weight: 700; }
+.cc-items { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 12px; }
+.cc-item { padding: 16px; display: flex; flex-direction: column; gap: 6px; border-left: 3px solid var(--line-2); }
+.cc-item.is-must { border-left-color: var(--coral); }
+.cc-item-title { font-size: 17px; margin: 4px 0 0; }
+.cc-auth, .cc-facts, .cc-note, .cc-hs { margin: 0; font-size: 14px; }
+.cc-facts { display: flex; gap: 14px; color: var(--muted); }
+.cc-note { color: var(--muted); }
+.cc-docs summary { cursor: pointer; font-size: 14px; color: var(--teal); }
+.cc-docs ul { margin: 6px 0 0; padding-left: 18px; font-size: 14px; color: var(--muted); }
+.cc-src { font-size: 13px; margin-top: auto; }
+.pill-must { background: rgba(248, 100, 90, .16); color: var(--coral); }
+.pill-opt { background: rgba(255, 255, 255, .08); color: var(--muted); }
+.cc-news { margin-top: 28px; }
+.news-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 12px; }
+.cc-disclaimer { font-size: 12px; margin-top: 20px; }
+.cc-table-wrap { overflow-x: auto; padding: 0; }
+.cc-table { border-collapse: collapse; width: 100%; font-size: 14px; }
+.cc-table th, .cc-table td { padding: 10px 8px; text-align: center; border-bottom: 1px solid var(--line); white-space: nowrap; }
+.cc-table thead th { color: var(--muted); font-weight: 500; font-size: 12px; }
+.cc-table tbody th { text-align: left; position: sticky; left: 0; background: var(--card); }
+.cc-table a { color: var(--ink); text-decoration: none; }
+.cc-cell { display: inline-grid; place-items: center; width: 26px; height: 26px; border-radius: 8px; font-weight: 700; }
+.cc-cell.must { background: rgba(248, 100, 90, .18); color: var(--coral); }
+.cc-cell.opt { background: rgba(255, 255, 255, .08); color: var(--muted); }
+.cc-cell.review { background: rgba(251, 191, 90, .18); color: var(--amber); }
+.cc-cell.none { color: var(--dim); }
+.cc-legend { display: flex; gap: 6px; align-items: center; flex-wrap: wrap; font-size: 13px; color: var(--muted); }
+.cc-hs-list { margin: 0; padding-left: 18px; font-size: 13px; }

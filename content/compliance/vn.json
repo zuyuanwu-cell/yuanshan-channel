@@ -1,0 +1,80 @@
+{
+  "country": "vn",
+  "name_zh": "越南",
+  "flag": "🇻🇳",
+  "region": "东南亚",
+  "difficulty": 2,
+  "summary": "向越南药品管理局 DAV 提交产品公告，通常要附自由销售证明 CFS。",
+  "items": [
+    {
+      "id": "vn-notif",
+      "name_zh": "化妆品公告 Phiếu công bố",
+      "authority": "DAV",
+      "type": "registration",
+      "mandatory": true,
+      "cost": "未知",
+      "time": "未知",
+      "docs": [
+        "公告表",
+        "厂商授权书",
+        "CFS（领事认证）"
+      ],
+      "who": "越南本地公司",
+      "note": "CPTPP 国家生产/出口的产品可免 CFS（第 34/2025 号通知）",
+      "official_url": "https://dav.gov.vn/qtmp0103---quy-trinh-tiep-nhan-va-xu-ly-ho-so-cong-bo-san-pham-my-pham-nhap-khau-n35.html",
+      "source_checked": "2026-10-23",
+      "needs_review": false
+    },
+    {
+      "id": "vn-label",
+      "name_zh": "越南语副标签",
+      "authority": "卫生部",
+      "type": "label",
+      "mandatory": true,
+      "cost": "未知",
+      "time": "未知",
+      "docs": [
+        "越南语副标签"
+      ],
+      "who": "进口商",
+      "note": "",
+      "official_url": "https://dav.gov.vn/",
+      "source_checked": "2026-10-23",
+      "needs_review": true
+    },
+    {
+      "id": "vn-hs",
+      "name_zh": "HS 编码与关税",
+      "authority": "越南海关",
+      "type": "tax-customs",
+      "mandatory": true,
+      "cost": "未知",
+      "time": "未知",
+      "docs": [],
+      "who": "进口商",
+      "note": "HS 编码待补",
+      "official_url": "https://www.customs.gov.vn/",
+      "source_checked": "2026-10-23",
+      "needs_review": false
+    }
+  ],
+  "steps": [
+    {
+      "title": "备案/注册",
+      "type": "registration"
+    },
+    {
+      "title": "做标签",
+      "type": "label"
+    },
+    {
+      "title": "清关",
+      "type": "tax-customs"
+    }
+  ],
+  "last_verified": "2026-10-23",
+  "hs_codes": {
+    "status": "pending",
+    "items": []
+  }
+}

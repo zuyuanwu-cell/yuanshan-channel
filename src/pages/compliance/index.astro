@@ -1,0 +1,51 @@
+---
+import Base from '../../layouts/Base.astro';
+import { getCompliance, recentNewsForCountry } from '../../lib/content';
+import { formatDate, url } from '../../lib/format';
+
+const countries = getCompliance();
+const regions = [...new Set(countries.map((c) => c.region))];
+const latest = countries.map((c) => c.last_verified).sort().at(-1) ?? '';
+---
+
+<Base title="国家合规速查" description="选一个国家，一眼看清美妆日化要办哪些合规手续。">
+  <header class="page-head">
+    <p class="kicker">美妆日化 · 上市前要办什么</p>
+    <h1>国家合规速查</h1>
+    <p class="updated-line"><span class="live-dot" aria-hidden="true"></span>核实于 <time datetime={latest}>{formatDate(latest)}</time><span class="muted"> · {countries.length} 个市场</span></p>
+    <p><a class="text-link" href={url('/compliance/compare')}>横向对比表 →</a></p>
+  </header>
+  <div data-cc-browser>
+    <div class="filters scroll-x" role="group" aria-label="地区">
+      <button type="button" class="chip" data-region="all" aria-pressed="true">全部</button>
+      {regions.map((r) => <button type="button" class="chip" data-region={r} aria-pressed="false">{r}</button>)}
+    </div>
+    <div class="cc-grid">
+      {countries.map((c) => {
+        const must = c.items.filter((i) => i.mandatory).length;
+        const fresh = recentNewsForCountry(c.country);
+        return (
+          <a class="cc-card card" href={url(`/compliance/${c.country}`)} data-region={c.region}>
+            <span class="cc-flag" aria-hidden="true">{c.flag}</span>
+            <span class="cc-name">{c.name_zh}{fresh > 0 && <span class="cc-hot" title="近 30 天有新变化">●</span>}</span>
+            <span class="cc-meta">
+              <span class="cc-must">{must} 项必办</span>
+              <span class="cc-diff" aria-label={`难度 ${c.difficulty}/3`}>{[1, 2, 3].map((n) => <i class={n <= c.difficulty ? 'on' : ''} />)}</span>
+            </span>
+          </a>
+        );
+      })}
+    </div>
+  </div>
+  <script>
+    const root = document.querySelector('[data-cc-browser]');
+    root?.querySelectorAll<HTMLButtonElement>('[data-region]').forEach((btn) => {
+      if (btn.tagName !== 'BUTTON') return;
+      btn.addEventListener('click', () => {
+        const r = btn.dataset.region;
+        root.querySelectorAll('button[data-region]').forEach((b) => b.setAttribute('aria-pressed', String(b === btn)));
+        root.querySelectorAll<HTMLElement>('a[data-region]').forEach((a) => (a.hidden = r !== 'all' && a.dataset.region !== r));
+      });
+    });
+  </script>
+</Base>

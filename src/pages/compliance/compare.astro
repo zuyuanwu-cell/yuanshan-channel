@@ -1,0 +1,36 @@
+---
+import Base from '../../layouts/Base.astro';
+import { complianceTypeLabels, getCompliance } from '../../lib/content';
+import { url } from '../../lib/format';
+
+const countries = getCompliance();
+const cols = ['local-rep', 'registration', 'safety', 'label', 'halal', 'marking', 'packaging', 'platform'] as const;
+const cell = (c: (typeof countries)[number], t: string) => {
+  const its = c.items.filter((i) => i.type === t);
+  if (!its.length) return { mark: '—', cls: 'none', title: '无此项' };
+  const must = its.some((i) => i.mandatory);
+  const review = its.some((i) => i.needs_review);
+  return { mark: must ? '✓' : '○', cls: review ? 'review' : must ? 'must' : 'opt', title: its.map((i) => i.name_zh).join(' / ') };
+};
+---
+
+<Base title="合规横向对比" description="各国美妆合规要求一张表看完。">
+  <header class="page-head">
+    <p class="kicker"><a href={url('/compliance')}>← 国家合规速查</a></p>
+    <h1>横向对比</h1>
+    <p class="cc-legend"><span class="cc-cell must">✓</span>必须 <span class="cc-cell opt">○</span>建议 <span class="cc-cell review">✓</span>待核实 <span class="cc-cell none">—</span>无</p>
+  </header>
+  <div class="cc-table-wrap card">
+    <table class="cc-table">
+      <thead><tr><th>市场</th>{cols.map((t) => <th>{complianceTypeLabels[t]}</th>)}</tr></thead>
+      <tbody>
+        {countries.map((c) => (
+          <tr>
+            <th><a href={url(`/compliance/${c.country}`)}>{c.flag} {c.name_zh}</a></th>
+            {cols.map((t) => { const x = cell(c, t); return <td><span class={`cc-cell ${x.cls}`} title={x.title}>{x.mark}</span></td>; })}
+          </tr>
+        ))}
+      </tbody>
+    </table>
+  </div>
+</Base>

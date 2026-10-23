@@ -7,6 +7,8 @@ platforms:
   - "walmart"
   - "tiktok-shop"
   - "temu"
+countries:
+  - "us"
 tags:
   - "compliance"
   - "labeling"

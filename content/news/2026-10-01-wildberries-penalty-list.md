@@ -4,6 +4,8 @@ date: "2026-10-01"
 category: "rules"
 platforms:
   - "wildberries"
+countries:
+  - "ru"
 tags:
   - "penalties"
   - "labeling"

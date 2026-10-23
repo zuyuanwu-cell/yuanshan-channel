@@ -6,6 +6,8 @@ platforms:
   - "amazon-us"
   - "walmart"
   - "tiktok-shop"
+countries:
+  - "us"
 tags:
   - "compliance"
   - "listing"

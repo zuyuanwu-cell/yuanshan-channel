@@ -7,6 +7,7 @@ import { Marked } from 'marked';
 import { url } from './format';
 import type {
   AboutPage,
+  ComplianceCountry,
   BoardStatus,
   KeyDate,
   NewsCategory,
@@ -86,6 +87,7 @@ function readNews(): NewsItem[] {
         date: String(data.date ?? ''),
         category: category as NewsCategory,
         platforms: Array.isArray(data.platforms) ? data.platforms.map(String) : [],
+        countries: Array.isArray((data as any).countries) ? (data as any).countries.map(String) : [],
         tags: Array.isArray(data.tags) ? data.tags.map(String) : [],
         source_url: String(data.source_url ?? ''),
         source_name: String(data.source_name ?? ''),
@@ -326,3 +328,28 @@ export function newsPlatformFacets(): { id: string; label: string; count: number
 export function getRankingGaps(): RankingGap[] {
   return getSite().rankingGaps.filter((gap) => !hasRanking(gap.platform));
 }
+
+const REGION_ORDER = ['北美', '欧洲', '东南亚', '东亚', '俄语区', '中东', '拉美'];
+let complianceCache: ComplianceCountry[] | undefined;
+export function getCompliance(): ComplianceCountry[] {
+  if (complianceCache) return complianceCache;
+  const dir = path.join(contentDir, 'compliance');
+  const list = fs.existsSync(dir)
+    ? fs.readdirSync(dir).filter((f) => f.endsWith('.json')).map((f) => JSON.parse(fs.readFileSync(path.join(dir, f), 'utf8')) as ComplianceCountry)
+    : [];
+  complianceCache = list.sort((a, b) => REGION_ORDER.indexOf(a.region) - REGION_ORDER.indexOf(b.region) || a.country.localeCompare(b.country));
+  return complianceCache;
+}
+export function getComplianceCountry(cc: string): ComplianceCountry | undefined {
+  return getCompliance().find((c) => c.country === cc);
+}
+export function newsForCountry(cc: string, limit = 6) {
+  return getNews().filter((n) => n.countries.includes(cc)).slice(0, limit);
+}
+export function recentNewsForCountry(cc: string, days = 30): number {
+  return getNews().filter((n) => n.countries.includes(cc) && daysFromToday(n.date) <= days).length;
+}
+export const complianceTypeLabels: Record<string, string> = {
+  'local-rep': '本地代表', registration: '备案注册', safety: '安全档案', testing: '配方检测', label: '标签',
+  packaging: '包装注册', marking: '赋码', halal: '清真', platform: '平台资质', 'tax-customs': '清关税号',
+};

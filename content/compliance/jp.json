@@ -1,0 +1,118 @@
+{
+  "country": "jp",
+  "name_zh": "日本",
+  "flag": "🇯🇵",
+  "region": "东亚",
+  "difficulty": 3,
+  "summary": "须由持「化妆品制造销售业许可」的日本公司进口，逐品备案。",
+  "items": [
+    {
+      "id": "jp-license",
+      "name_zh": "化粧品製造販売業許可",
+      "authority": "都道府県 / 厚生労働省",
+      "type": "local-rep",
+      "mandatory": true,
+      "cost": "未知",
+      "time": "未知",
+      "docs": [
+        "許可申請"
+      ],
+      "who": "日本本地公司",
+      "note": "另需化粧品製造業許可（包装/标示/保管）",
+      "official_url": "https://www.tmiph.metro.tokyo.lg.jp/k_yakuji/i-sinsa/cosmetics/todokede/",
+      "source_checked": "2026-10-23",
+      "needs_review": false
+    },
+    {
+      "id": "jp-fd",
+      "name_zh": "化粧品製造販売届（逐品）",
+      "authority": "都道府県",
+      "type": "registration",
+      "mandatory": true,
+      "cost": "未知",
+      "time": "未知",
+      "docs": [
+        "FD 様式届书"
+      ],
+      "who": "制造销售业者",
+      "note": "",
+      "official_url": "https://www.tmiph.metro.tokyo.lg.jp/k_yakuji/i-sinsa/cosmetics/todokede/",
+      "source_checked": "2026-10-23",
+      "needs_review": false
+    },
+    {
+      "id": "jp-foreign",
+      "name_zh": "外国製造業者届",
+      "authority": "PMDA / 厚生労働省",
+      "type": "registration",
+      "mandatory": true,
+      "cost": "未知",
+      "time": "未知",
+      "docs": [
+        "工厂信息"
+      ],
+      "who": "制造销售业者代办",
+      "note": "",
+      "official_url": "https://www.pmda.go.jp/review-services/drug-reviews/foreign-mfr/0004.html",
+      "source_checked": "2026-10-23",
+      "needs_review": false
+    },
+    {
+      "id": "jp-label",
+      "name_zh": "日文全成分标示",
+      "authority": "厚生労働省",
+      "type": "label",
+      "mandatory": true,
+      "cost": "未知",
+      "time": "未知",
+      "docs": [
+        "全成分",
+        "制造销售业者名称地址",
+        "批号"
+      ],
+      "who": "制造销售业者",
+      "note": "",
+      "official_url": "https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/kenkou_iryou/iyakuhin/keshouhin/index.html",
+      "source_checked": "2026-10-23",
+      "needs_review": true
+    },
+    {
+      "id": "jp-hs",
+      "name_zh": "HS 编码与关税",
+      "authority": "日本税关",
+      "type": "tax-customs",
+      "mandatory": true,
+      "cost": "未知",
+      "time": "未知",
+      "docs": [],
+      "who": "进口商",
+      "note": "HS 编码待补",
+      "official_url": "https://www.customs.go.jp/",
+      "source_checked": "2026-10-23",
+      "needs_review": false
+    }
+  ],
+  "steps": [
+    {
+      "title": "找本地代表",
+      "type": "local-rep"
+    },
+    {
+      "title": "备案/注册",
+      "type": "registration"
+    },
+    {
+      "title": "做标签",
+      "type": "label"
+    },
+    {
+      "title": "清关",
+      "type": "tax-customs"
+    }
+  ],
+  "last_verified": "2026-10-23",
+  "hs_codes": {
+    "status": "pending",
+    "items": []
+  }
+}

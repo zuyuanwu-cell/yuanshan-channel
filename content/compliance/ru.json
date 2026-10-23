@@ -1,0 +1,151 @@
+{
+  "country": "ru",
+  "name_zh": "俄罗斯",
+  "flag": "🇷🇺",
+  "region": "俄语区",
+  "difficulty": 3,
+  "summary": "要做 EAC 符合性声明，2025 年起化妆品必须贴「诚信标志」码。",
+  "items": [
+    {
+      "id": "ru-applicant",
+      "name_zh": "欧亚经济联盟境内申请人",
+      "authority": "EAEU",
+      "type": "local-rep",
+      "mandatory": true,
+      "cost": "未知",
+      "time": "未知",
+      "docs": [
+        "授权书"
+      ],
+      "who": "联盟境内法人/个体户",
+      "note": "声明须由境内申请人办理",
+      "official_url": "https://eec.eaeunion.org/comission/department/deptexreg/tr/bezopParfum.php",
+      "source_checked": "2026-10-23",
+      "needs_review": false
+    },
+    {
+      "id": "ru-dc",
+      "name_zh": "EAC 符合性声明（ТР ТС 009/2011）",
+      "authority": "EAEU / 俄联邦认可局",
+      "type": "registration",
+      "mandatory": true,
+      "cost": "未知",
+      "time": "未知",
+      "docs": [
+        "成分",
+        "实验室检测报告",
+        "标签",
+        "GMP/质量体系证明（6d 方案）"
+      ],
+      "who": "境内申请人",
+      "note": "附件 12 所列产品需国家注册而非声明",
+      "official_url": "https://eec.eaeunion.org/comission/department/deptexreg/tr/bezopParfum.php",
+      "source_checked": "2026-10-23",
+      "needs_review": false
+    },
+    {
+      "id": "ru-label",
+      "name_zh": "俄语标签 + EAC 标志",
+      "authority": "EAEU",
+      "type": "label",
+      "mandatory": true,
+      "cost": "未知",
+      "time": "未知",
+      "docs": [
+        "俄语名称用途",
+        "成分",
+        "制造商与进口商",
+        "EAC 标志"
+      ],
+      "who": "品牌/进口商",
+      "note": "",
+      "official_url": "https://eec.eaeunion.org/comission/department/deptexreg/tr/bezopParfum.php",
+      "source_checked": "2026-10-23",
+      "needs_review": false
+    },
+    {
+      "id": "ru-marking",
+      "name_zh": "「诚信标志」数据矩阵码",
+      "authority": "Честный ЗНАК",
+      "type": "marking",
+      "mandatory": true,
+      "cost": "未知",
+      "time": "未知",
+      "docs": [
+        "系统注册",
+        "每件商品赋码",
+        "入流通报告"
+      ],
+      "who": "进口商/生产商",
+      "note": "化妆品 2025-10-01 起须赋码",
+      "official_url": "https://xn--80ajghhoc2aj1c8b.xn--p1ai/business/projects/cosmetics/marking/",
+      "source_checked": "2026-10-23",
+      "needs_review": false
+    },
+    {
+      "id": "ru-platform",
+      "name_zh": "Ozon/WB 上架资质",
+      "authority": "Ozon / Wildberries",
+      "type": "platform",
+      "mandatory": true,
+      "cost": "未知",
+      "time": "未知",
+      "docs": [
+        "符合性声明号",
+        "标识码",
+        "ТН ВЭД 编码"
+      ],
+      "who": "卖家",
+      "note": "填错会被罚，见资讯",
+      "official_url": "https://seller.ozon.ru/",
+      "source_checked": "2026-10-23",
+      "needs_review": true
+    },
+    {
+      "id": "ru-hs",
+      "name_zh": "ТН ВЭД 编码与关税",
+      "authority": "俄联邦海关",
+      "type": "tax-customs",
+      "mandatory": true,
+      "cost": "未知",
+      "time": "未知",
+      "docs": [],
+      "who": "进口商",
+      "note": "HS 编码待补",
+      "official_url": "https://customs.gov.ru/",
+      "source_checked": "2026-10-23",
+      "needs_review": false
+    }
+  ],
+  "steps": [
+    {
+      "title": "找本地代表",
+      "type": "local-rep"
+    },
+    {
+      "title": "备案/注册",
+      "type": "registration"
+    },
+    {
+      "title": "做标签",
+      "type": "label"
+    },
+    {
+      "title": "赋码",
+      "type": "marking"
+    },
+    {
+      "title": "平台资质",
+      "type": "platform"
+    },
+    {
+      "title": "清关",
+      "type": "tax-customs"
+    }
+  ],
+  "last_verified": "2026-10-23",
+  "hs_codes": {
+    "status": "pending",
+    "items": []
+  }
+}

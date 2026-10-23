@@ -1,0 +1,103 @@
+{
+  "country": "sa",
+  "name_zh": "沙特",
+  "flag": "🇸🇦",
+  "region": "中东",
+  "difficulty": 2,
+  "summary": "上市前在 SFDA 系统（eCosma/GHAD）逐品列名，标签按 GSO 1943。",
+  "items": [
+    {
+      "id": "sa-rep",
+      "name_zh": "本地商业登记 / 授权代表",
+      "authority": "SFDA",
+      "type": "local-rep",
+      "mandatory": true,
+      "cost": "未知",
+      "time": "未知",
+      "docs": [
+        "商业登记",
+        "厂商授权书"
+      ],
+      "who": "沙特本地公司",
+      "note": "",
+      "official_url": "https://www.sfda.gov.sa/sites/default/files/2025-01/GuidanceRequirementsCosmeticProductNotification_compressed.pdf",
+      "source_checked": "2026-10-23",
+      "needs_review": false
+    },
+    {
+      "id": "sa-listing",
+      "name_zh": "SFDA 化妆品列名",
+      "authority": "SFDA",
+      "type": "registration",
+      "mandatory": true,
+      "cost": "未知",
+      "time": "未知",
+      "docs": [
+        "标签图片",
+        "全成分及浓度",
+        "每个规格条码"
+      ],
+      "who": "本地公司",
+      "note": "提交即生效，数据责任在通报人",
+      "official_url": "https://sfda.gov.sa/ar/eservices/307",
+      "source_checked": "2026-10-23",
+      "needs_review": false
+    },
+    {
+      "id": "sa-label",
+      "name_zh": "GSO 1943 标签",
+      "authority": "SFDA",
+      "type": "label",
+      "mandatory": true,
+      "cost": "未知",
+      "time": "未知",
+      "docs": [
+        "阿拉伯语信息",
+        "唯一条码"
+      ],
+      "who": "品牌",
+      "note": "",
+      "official_url": "https://www.sfda.gov.sa/sites/default/files/2025-01/GuidanceRequirementsCosmeticProductNotification_compressed.pdf",
+      "source_checked": "2026-10-23",
+      "needs_review": true
+    },
+    {
+      "id": "sa-hs",
+      "name_zh": "HS 编码与关税",
+      "authority": "ZATCA",
+      "type": "tax-customs",
+      "mandatory": true,
+      "cost": "未知",
+      "time": "未知",
+      "docs": [],
+      "who": "进口商",
+      "note": "HS 编码待补",
+      "official_url": "https://zatca.gov.sa/",
+      "source_checked": "2026-10-23",
+      "needs_review": false
+    }
+  ],
+  "steps": [
+    {
+      "title": "找本地代表",
+      "type": "local-rep"
+    },
+    {
+      "title": "备案/注册",
+      "type": "registration"
+    },
+    {
+      "title": "做标签",
+      "type": "label"
+    },
+    {
+      "title": "清关",
+      "type": "tax-customs"
+    }
+  ],
+  "last_verified": "2026-10-23",
+  "hs_codes": {
+    "status": "pending",
+    "items": []
+  }
+}
