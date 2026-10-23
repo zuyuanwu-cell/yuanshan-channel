@@ -304,10 +304,10 @@ function initTopMarquee(): void {
 function initContactDock(): void {
   const dialog = document.querySelector<HTMLDialogElement>('[data-contact-dialog]');
   const form = dialog?.querySelector<HTMLFormElement>('[data-contact-form]');
-  const openBtn = document.querySelector<HTMLButtonElement>('[data-contact-open]');
+  const openButtons = [...document.querySelectorAll<HTMLButtonElement>('[data-contact-open]')];
   const status = dialog?.querySelector<HTMLElement>('[data-contact-status]');
   const success = dialog?.querySelector<HTMLElement>('[data-contact-success]');
-  if (!dialog || !form || !openBtn || !status || !success || typeof dialog.showModal !== 'function') return;
+  if (!dialog || !form || openButtons.length === 0 || !status || !success || typeof dialog.showModal !== 'function') return;
 
   const notes = {
     error: form.dataset.error ?? '',
@@ -368,11 +368,13 @@ function initContactDock(): void {
     }
   });
 
-  openBtn.addEventListener('click', () => {
-    resetForm();
-    dialog.showModal();
-    form.querySelector<HTMLInputElement>('input[name="name"]')?.focus();
-  });
+  for (const openBtn of openButtons) {
+    openBtn.addEventListener('click', () => {
+      resetForm();
+      dialog.showModal();
+      form.querySelector<HTMLInputElement>('input[name="name"]')?.focus();
+    });
+  }
 
   dialog.addEventListener('click', (event) => {
     const target = event.target;

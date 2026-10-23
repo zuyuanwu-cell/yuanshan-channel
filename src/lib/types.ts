@@ -264,10 +264,65 @@ export interface Ranking {
   items: RankingItem[];
 }
 
+export interface AboutCard {
+  group: 'scope' | 'question';
+  label: string;
+  title: string;
+  text: string;
+}
+
+export interface AboutPhoto {
+  src: string;
+  alt: string;
+  caption: string;
+}
+
+export interface AboutTool {
+  label: string;
+  text: string;
+  href?: string;
+}
+
 export interface AboutPage {
   title: string;
   summary: string;
-  html: string;
+  opening: {
+    motto: string;
+    meaning: string;
+    paragraphs: string[];
+    highlights: string[];
+  };
+  scope: {
+    title: string;
+    cards: AboutCard[];
+    questionsTitle: string;
+    questionsIntro: string;
+    bridge: string;
+    highlights: string[];
+    photos: AboutPhoto[];
+  };
+  channel: {
+    title: string;
+    audience: string;
+    paragraphs: string[];
+    toolsLead: string;
+    tools: AboutTool[];
+    hope: string;
+    highlights: string[];
+  };
+  boundary: {
+    title: string;
+    lead: string;
+    cautions: string[];
+    note: string;
+    highlights: string[];
+  };
+  close: {
+    paragraphs: string[];
+    cta: string;
+    note: string;
+    highlights: string[];
+  };
 }
 
 export type ComplianceType = 'local-rep' | 'registration' | 'safety' | 'testing' | 'label' | 'packaging' | 'marking' | 'halal' | 'platform' | 'tax-customs';

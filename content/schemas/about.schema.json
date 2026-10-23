@@ -3,9 +3,136 @@
   "title": "AboutFrontmatter",
   "type": "object",
   "additionalProperties": false,
-  "required": ["title", "summary"],
+  "required": ["title", "summary", "opening", "scope", "channel", "boundary", "close"],
+  "definitions": {
+    "highlights": {
+      "type": "array",
+      "minItems": 2,
+      "maxItems": 4,
+      "items": { "type": "string", "minLength": 4, "maxLength": 80 }
+    },
+    "paragraphs": {
+      "type": "array",
+      "minItems": 1,
+      "maxItems": 6,
+      "items": { "type": "string", "minLength": 8, "maxLength": 220 }
+    },
+    "card": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["group", "label", "title", "text"],
+      "properties": {
+        "group": { "enum": ["scope", "question"] },
+        "label": { "type": "string", "minLength": 2, "maxLength": 12 },
+        "title": { "type": "string", "minLength": 2, "maxLength": 24 },
+        "text": { "type": "string", "minLength": 4, "maxLength": 120 }
+      }
+    },
+    "photo": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["src", "alt", "caption"],
+      "properties": {
+        "src": { "type": "string", "pattern": "^/media/about/[a-z0-9-]+\\.webp$" },
+        "alt": { "type": "string", "minLength": 2, "maxLength": 40 },
+        "caption": { "type": "string", "minLength": 2, "maxLength": 40 }
+      }
+    },
+    "tool": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["label", "text"],
+      "properties": {
+        "label": { "type": "string", "minLength": 1, "maxLength": 8 },
+        "text": { "type": "string", "minLength": 4, "maxLength": 40 },
+        "href": { "type": "string", "pattern": "^/(news|platforms|rankings|compliance|hs-codes)$" }
+      }
+    }
+  },
   "properties": {
     "title": { "type": "string", "minLength": 2, "maxLength": 40 },
-    "summary": { "type": "string", "minLength": 8, "maxLength": 160 }
+    "summary": { "type": "string", "minLength": 8, "maxLength": 160 },
+    "opening": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["motto", "meaning", "paragraphs", "highlights"],
+      "properties": {
+        "motto": { "type": "string", "minLength": 4, "maxLength": 40 },
+        "meaning": { "type": "string", "minLength": 8, "maxLength": 80 },
+        "paragraphs": { "$ref": "#/definitions/paragraphs" },
+        "highlights": { "$ref": "#/definitions/highlights" }
+      }
+    },
+    "scope": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["title", "cards", "questionsTitle", "questionsIntro", "bridge", "highlights", "photos"],
+      "properties": {
+        "title": { "type": "string", "minLength": 2, "maxLength": 40 },
+        "cards": {
+          "type": "array",
+          "minItems": 3,
+          "maxItems": 6,
+          "items": { "$ref": "#/definitions/card" }
+        },
+        "questionsTitle": { "type": "string", "minLength": 2, "maxLength": 24 },
+        "questionsIntro": { "type": "string", "minLength": 8, "maxLength": 160 },
+        "bridge": { "type": "string", "minLength": 8, "maxLength": 160 },
+        "highlights": { "$ref": "#/definitions/highlights" },
+        "photos": {
+          "type": "array",
+          "minItems": 3,
+          "maxItems": 6,
+          "items": { "$ref": "#/definitions/photo" }
+        }
+      }
+    },
+    "channel": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["title", "audience", "paragraphs", "toolsLead", "tools", "hope", "highlights"],
+      "properties": {
+        "title": { "type": "string", "minLength": 2, "maxLength": 40 },
+        "audience": { "type": "string", "minLength": 8, "maxLength": 80 },
+        "paragraphs": { "$ref": "#/definitions/paragraphs" },
+        "toolsLead": { "type": "string", "minLength": 8, "maxLength": 180 },
+        "tools": {
+          "type": "array",
+          "minItems": 4,
+          "maxItems": 6,
+          "items": { "$ref": "#/definitions/tool" }
+        },
+        "hope": { "type": "string", "minLength": 8, "maxLength": 120 },
+        "highlights": { "$ref": "#/definitions/highlights" }
+      }
+    },
+    "boundary": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["title", "lead", "cautions", "note", "highlights"],
+      "properties": {
+        "title": { "type": "string", "minLength": 2, "maxLength": 24 },
+        "lead": { "type": "string", "minLength": 4, "maxLength": 80 },
+        "cautions": {
+          "type": "array",
+          "minItems": 2,
+          "maxItems": 4,
+          "items": { "type": "string", "minLength": 4, "maxLength": 80 }
+        },
+        "note": { "type": "string", "minLength": 8, "maxLength": 160 },
+        "highlights": { "$ref": "#/definitions/highlights" }
+      }
+    },
+    "close": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["paragraphs", "cta", "note", "highlights"],
+      "properties": {
+        "paragraphs": { "$ref": "#/definitions/paragraphs" },
+        "cta": { "type": "string", "minLength": 4, "maxLength": 80 },
+        "note": { "type": "string", "minLength": 8, "maxLength": 160 },
+        "highlights": { "$ref": "#/definitions/highlights" }
+      }
+    }
   }
 }

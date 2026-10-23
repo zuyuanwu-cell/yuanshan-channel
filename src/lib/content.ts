@@ -143,7 +143,10 @@ function loadContent(): Cache {
     platforms: Platform[];
   };
   const aboutFile = parseFile(path.join(contentDir, 'about.md'));
-  const aboutData = aboutFile.data as { title?: string; summary?: string };
+  const aboutData = aboutFile.data as AboutPage;
+  if (!aboutData.opening || !aboutData.scope || !aboutData.channel || !aboutData.boundary || !aboutData.close) {
+    throw new Error('content/about.md: 缺少开场、业务范围、频道、使用说明或收尾字段');
+  }
   cache = {
     site,
     platforms: catalog.platforms,
@@ -151,11 +154,7 @@ function loadContent(): Cache {
     platformSourceNote: catalog.source_note,
     news: readNews(),
     rankings: readRankings(),
-    about: {
-      title: String(aboutData.title ?? ''),
-      summary: String(aboutData.summary ?? ''),
-      html: renderMarkdown(aboutFile.content.trim()),
-    },
+    about: aboutData,
   };
   return cache;
 }
