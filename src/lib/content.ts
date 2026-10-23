@@ -353,3 +353,41 @@ export const complianceTypeLabels: Record<string, string> = {
   'local-rep': '本地代表', registration: '备案注册', safety: '安全档案', testing: '配方检测', label: '标签',
   packaging: '包装注册', marking: '赋码', halal: '清真', platform: '平台资质', 'tax-customs': '清关税号',
 };
+
+
+export interface HsCodeItem {
+  country: string;
+  country_code: string;
+  product_zh: string;
+  product_en: string;
+  hs6: string;
+  national_code: string | null;
+  official_description: string | null;
+  description_zh: string | null;
+  import_duty: string | null;
+  vat_or_gst: string | null;
+  other_tax_notes: string | null;
+  fta_china: string | null;
+  export_rebate: string | null;
+  source_url: string | null;
+  source_type: string | null;
+  verification: string;
+  verified_date: string | null;
+}
+
+export interface HsCodesDataset {
+  version: string;
+  title: string;
+  products_count: number;
+  countries: Record<string, { name_zh: string; rows: number; with_duty: number; verification: Record<string, number> }>;
+  items: HsCodeItem[];
+  verification_legend: Record<string, string>;
+}
+
+let hsCache: HsCodesDataset | undefined;
+export function getHsCodesDataset(): HsCodesDataset {
+  if (hsCache) return hsCache;
+  const file = path.join(contentDir, 'datasets/hs-codes/beauty.json');
+  hsCache = JSON.parse(fs.readFileSync(file, 'utf8')) as HsCodesDataset;
+  return hsCache;
+}

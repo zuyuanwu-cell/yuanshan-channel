@@ -1447,7 +1447,7 @@ time {
     bottom: calc(10px + var(--safe-b));
     z-index: 40;
     display: grid;
-    grid-template-columns: repeat(6, 1fr);
+    grid-template-columns: repeat(7, 1fr);
     height: var(--tab-h);
     padding: 6px;
     border-radius: 22px;
@@ -1467,7 +1467,7 @@ time {
     border-radius: 16px;
     color: var(--dim);
     text-decoration: none;
-    font-size: 0.7rem;
+    font-size: 0.62rem;
     transition: color 0.2s, background 0.2s;
   }
 
@@ -3074,3 +3074,147 @@ button.rank-thumb:focus-visible .zoom-badge {
 .site-footer .admin-entry a:hover {
   opacity: 1;
 }
+
+/* HS codes search */
+.hs-head .lede { max-width: 42rem; }
+.hs-browser { margin-top: 8px; }
+.hs-search-sticky {
+  position: sticky;
+  top: 8px;
+  z-index: 20;
+  display: grid;
+  gap: 8px;
+  padding: 10px 0 12px;
+  background: linear-gradient(180deg, rgba(11,11,13,.96) 60%, rgba(11,11,13,.0));
+}
+.hs-search-box {
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  align-items: center;
+  gap: 10px;
+  padding: 12px 14px;
+  border-radius: 18px;
+  border: 1px solid var(--line-2);
+  background: rgba(28, 28, 34, 0.92);
+  box-shadow: 0 0 0 0 rgba(232, 197, 71, 0);
+  transition: border-color .2s, box-shadow .25s ease, transform .2s;
+}
+.hs-search-box:focus-within {
+  border-color: rgba(232, 197, 71, .55);
+  box-shadow: 0 0 0 4px rgba(232, 197, 71, .16), 0 12px 30px -18px rgba(232, 197, 71, .45);
+  transform: translateY(-1px);
+}
+.hs-search-icon { color: var(--amber); font-size: 1.1rem; }
+.hs-search-input {
+  width: 100%;
+  border: 0;
+  outline: 0;
+  background: transparent;
+  color: var(--ink);
+  font: inherit;
+  font-size: 1rem;
+}
+.hs-search-input::placeholder { color: var(--dim); }
+.hs-search-clear {
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  border: 0;
+  background: rgba(255,255,255,.08);
+  color: var(--muted);
+  cursor: pointer;
+}
+.hs-count { margin: 0; font-size: 13px; color: var(--muted); }
+.hs-filters { margin: 4px 0 8px; }
+.chip-soft { opacity: .9; }
+.hs-results { display: grid; gap: 10px; margin-top: 12px; }
+.hs-card {
+  padding: 0;
+  overflow: hidden;
+  opacity: 0;
+  transform: translateY(8px);
+  transition: opacity .35s ease, transform .35s ease, border-color .2s;
+  transition-delay: calc(var(--i, 0) * 18ms);
+}
+.hs-card.is-in { opacity: 1; transform: none; }
+.hs-card[open] { border-color: rgba(232, 197, 71, .35); }
+.hs-card summary {
+  list-style: none;
+  cursor: pointer;
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  grid-template-areas:
+    "flag main ver"
+    "flag codes codes"
+    "flag tax tax";
+  gap: 4px 12px;
+  padding: 14px 16px;
+  align-items: center;
+}
+.hs-card summary::-webkit-details-marker { display: none; }
+.hs-flag { grid-area: flag; font-size: 28px; line-height: 1; }
+.hs-main { grid-area: main; display: flex; flex-direction: column; gap: 2px; min-width: 0; }
+.hs-main strong { font-size: 1rem; }
+.hs-main em { font-style: normal; color: var(--muted); font-size: 13px; }
+.hs-codes { grid-area: codes; display: flex; gap: 8px; align-items: baseline; flex-wrap: wrap; }
+.hs-codes code {
+  font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+  font-size: 0.95rem;
+  color: var(--amber);
+  background: rgba(232, 197, 71, .1);
+  padding: 2px 8px;
+  border-radius: 8px;
+}
+.hs-codes .hs6 { font-size: 12px; }
+.hs-tax { grid-area: tax; display: flex; gap: 12px; flex-wrap: wrap; font-size: 13px; color: var(--muted); }
+.hs-ver { grid-area: ver; justify-self: end; font-size: 11px; max-width: 9rem; text-align: center; white-space: normal; line-height: 1.2; }
+.hs-detail {
+  margin: 0;
+  padding: 0 16px 16px;
+  display: grid;
+  gap: 8px;
+  border-top: 1px solid var(--line);
+  padding-top: 12px;
+}
+.hs-detail > div { display: grid; grid-template-columns: 5.5rem 1fr; gap: 8px; font-size: 14px; }
+.hs-detail dt { color: var(--dim); margin: 0; }
+.hs-detail dd { margin: 0; color: var(--ink); }
+.hs-detail a { color: var(--teal); }
+.hs-empty { text-align: center; padding: 28px 16px; color: var(--muted); margin-top: 12px; }
+.cc-hs-more { display: inline-block; margin-top: 8px; font-size: 13px; }
+.hs-entry-home {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  padding: 14px 16px;
+  margin: 8px 0 20px;
+  text-decoration: none;
+  color: var(--ink);
+  border: 1px solid rgba(232, 197, 71, .28);
+  background: linear-gradient(120deg, rgba(232,197,71,.08), rgba(255,255,255,.02));
+  transition: transform .2s, border-color .2s;
+}
+.hs-entry-home:hover { transform: translateY(-2px); border-color: rgba(232, 197, 71, .5); }
+.hs-entry-home strong { display: block; }
+.hs-entry-home span { color: var(--muted); font-size: 13px; }
+
+@media (min-width: 760px) {
+  .hs-card summary {
+    grid-template-columns: auto minmax(0, 1.2fr) minmax(0, 1fr) auto auto;
+    grid-template-areas: "flag main codes tax ver";
+    align-items: center;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .hs-search-box,
+  .hs-card,
+  .hs-entry-home {
+    transition: none !important;
+    transform: none !important;
+  }
+  .hs-card { opacity: 1; }
+}
+
+.cc-head-links { display: flex; flex-wrap: wrap; gap: 12px 18px; }

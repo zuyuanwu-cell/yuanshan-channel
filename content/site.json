@@ -35,6 +35,11 @@
       "icon": "compliance"
     },
     {
+      "href": "/hs-codes",
+      "label": "编码",
+      "icon": "codes"
+    },
+    {
       "href": "/rankings",
       "label": "热销榜",
       "icon": "rankings"

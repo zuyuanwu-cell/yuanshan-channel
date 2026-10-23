@@ -39,7 +39,13 @@ const host = (u: string) => { try { return new URL(u).hostname.replace(/^www\./,
         <p class="cc-facts"><span>💰 {it.cost}</span><span>⏱ {it.time}</span></p>
         {it.type === 'tax-customs' && c.hs_codes.status === 'pending' && <p class="cc-hs muted">HS 编码整理中</p>}
         {it.type === 'tax-customs' && c.hs_codes.items.length > 0 && (
-          <ul class="cc-hs-list">{c.hs_codes.items.map((h) => <li><code>{h.code}</code> {h.name_zh}{h.duty && <span class="muted"> · {h.duty}</span>}</li>)}</ul>
+          <>
+            <ul class="cc-hs-list">{c.hs_codes.items.map((h) => <li><code>{h.code}</code> {h.name_zh}{h.duty && <span class="muted"> · {h.duty}</span>}</li>)}</ul>
+            <a class="text-link cc-hs-more" href={url(`/hs-codes?country=${c.country}`)}>查看全部编码 →</a>
+          </>
+        )}
+        {it.type === 'tax-customs' && c.hs_codes.items.length === 0 && (
+          <a class="text-link cc-hs-more" href={url(`/hs-codes?country=${c.country}`)}>去海关编码页查看 →</a>
         )}
         {it.note && <p class="cc-note">{it.note}</p>}
         {it.docs.length > 0 && (

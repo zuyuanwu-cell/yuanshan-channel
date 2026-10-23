@@ -1,6 +1,6 @@
 export type NewsCategory = 'rules' | 'regulation';
 export type HeroStatKey = 'news' | 'platforms' | 'rankings' | NewsCategory;
-export type NavIcon = 'home' | 'news' | 'rankings' | 'platforms' | 'about' | 'compliance';
+export type NavIcon = 'home' | 'news' | 'rankings' | 'platforms' | 'about' | 'compliance' | 'codes';
 
 export interface HeroCard {
   title: string;

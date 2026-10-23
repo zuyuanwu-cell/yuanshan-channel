@@ -13,7 +13,10 @@ const latest = countries.map((c) => c.last_verified).sort().at(-1) ?? '';
     <p class="kicker">美妆日化 · 上市前要办什么</p>
     <h1>国家合规速查</h1>
     <p class="updated-line"><span class="live-dot" aria-hidden="true"></span>核实于 <time datetime={latest}>{formatDate(latest)}</time><span class="muted"> · {countries.length} 个市场</span></p>
-    <p><a class="text-link" href={url('/compliance/compare')}>横向对比表 →</a></p>
+    <p class="cc-head-links">
+      <a class="text-link" href={url('/compliance/compare')}>横向对比表 →</a>
+      <a class="text-link" href={url('/hs-codes')}>海关编码搜索 →</a>
+    </p>
   </header>
   <div data-cc-browser>
     <div class="filters scroll-x" role="group" aria-label="地区">

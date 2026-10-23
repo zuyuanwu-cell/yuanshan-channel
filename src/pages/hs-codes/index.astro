@@ -1,0 +1,293 @@
+---
+import Base from '../../layouts/Base.astro';
+import { getHsCodesDataset } from '../../lib/content';
+import { url } from '../../lib/format';
+
+const data = getHsCodesDataset();
+const flags: Record<string, string> = {
+  ru: '🇷🇺', ph: '🇵🇭', vn: '🇻🇳', id: '🇮🇩', sg: '🇸🇬',
+  my: '🇲🇾', th: '🇹🇭', ae: '🇦🇪', sa: '🇸🇦', cn: '🇨🇳',
+};
+const countryOrder = ['ru', 'id', 'my', 'th', 'vn', 'ph', 'sg', 'ae', 'sa', 'cn'];
+const countries = countryOrder
+  .filter((cc) => data.countries[cc])
+  .map((cc) => ({
+    code: cc,
+    name: data.countries[cc].name_zh,
+    flag: flags[cc] ?? '',
+    rows: data.countries[cc].rows,
+  }));
+
+const payload = {
+  items: data.items.map((it) => ({
+    country: it.country,
+    country_code: it.country_code,
+    flag: flags[it.country_code] ?? '',
+    product_zh: it.product_zh,
+    product_en: it.product_en,
+    hs6: it.hs6 ?? '',
+    national_code: it.national_code ?? '',
+    description_zh: it.description_zh ?? '',
+    official_description: it.official_description ?? '',
+    import_duty: it.import_duty ?? '',
+    vat_or_gst: it.vat_or_gst ?? '',
+    other_tax_notes: it.other_tax_notes ?? '',
+    fta_china: it.fta_china ?? '',
+    export_rebate: it.export_rebate ?? '',
+    source_url: it.source_url ?? '',
+    source_type: it.source_type ?? '',
+    verification: it.verification,
+    verified_date: it.verified_date ?? '',
+  })),
+  legend: data.verification_legend,
+};
+const legendEntries = Object.entries(data.verification_legend);
+const payloadJson = JSON.stringify(payload).replace(/</g, '\\u003c');
+---
+
+<Base title="海关编码" description="美妆日化各国税则编码与税率，支持按品类、编码、国家搜索。">
+  <header class="page-head hs-head">
+    <p class="kicker"><a href={url('/compliance')}>← 国家合规速查</a></p>
+    <h1>海关编码</h1>
+    <p class="lede">美妆日化 · {data.products_count} 个品类 × {countries.length} 国 · 共 {data.items.length} 条。查不到的税率留空，不编造。</p>
+  </header>
+
+  <div class="hs-browser" data-hs-browser>
+    <div class="hs-search-sticky">
+      <label class="hs-search-box" for="hs-q">
+        <span class="hs-search-icon" aria-hidden="true">⌕</span>
+        <input
+          id="hs-q"
+          class="hs-search-input"
+          type="search"
+          placeholder="搜品类、编码、国家…"
+          autocomplete="off"
+          enterkeyhint="search"
+        />
+        <button type="button" class="hs-search-clear" data-hs-clear hidden aria-label="清除">×</button>
+      </label>
+      <p class="hs-count" data-hs-count>共 {data.items.length} 条</p>
+    </div>
+
+    <div class="filters scroll-x hs-filters" role="group" aria-label="国家">
+      <button type="button" class="chip" data-hs-country="all" aria-pressed="true">全部</button>
+      {
+        countries.map((c) => (
+          <button type="button" class="chip" data-hs-country={c.code} aria-pressed="false">
+            <span aria-hidden="true">{c.flag}</span> {c.name.replace(/（出口）|\/EAEU/g, '')}
+            <span class="chip-count">{c.rows}</span>
+          </button>
+        ))
+      }
+    </div>
+
+    <div class="filters scroll-x hs-filters" role="group" aria-label="核实状态">
+      <button type="button" class="chip" data-hs-ver="all" aria-pressed="true">全部状态</button>
+      {
+        legendEntries.map(([id, label]) => (
+          <button type="button" class="chip chip-soft" data-hs-ver={id} aria-pressed="false">
+            {label}
+          </button>
+        ))
+      }
+    </div>
+
+    <div class="hs-results" data-hs-results aria-live="polite"></div>
+    <p class="hs-empty card" data-hs-empty hidden>没有匹配的编码。试试别的品类或国家名。</p>
+  </div>
+
+  <script id="hs-payload" type="application/json" set:html={payloadJson} />
+  <script>
+    const root = document.querySelector('[data-hs-browser]');
+    const raw = document.getElementById('hs-payload');
+    if (!root || !raw?.textContent) throw new Error('hs browser missing');
+
+    type HsItem = {
+      country: string;
+      country_code: string;
+      flag: string;
+      product_zh: string;
+      product_en: string;
+      hs6: string;
+      national_code: string;
+      description_zh: string;
+      official_description: string;
+      import_duty: string;
+      vat_or_gst: string;
+      other_tax_notes: string;
+      fta_china: string;
+      export_rebate: string;
+      source_url: string;
+      source_type: string;
+      verification: string;
+      verified_date: string;
+    };
+
+    const payload = JSON.parse(raw.textContent) as {
+      items: HsItem[];
+      legend: Record<string, string>;
+    };
+
+    const resultsEl = root.querySelector('[data-hs-results]') as HTMLElement;
+    const emptyEl = root.querySelector('[data-hs-empty]') as HTMLElement;
+    const countEl = root.querySelector('[data-hs-count]') as HTMLElement;
+    const input = root.querySelector('#hs-q') as HTMLInputElement;
+    const clearBtn = root.querySelector('[data-hs-clear]') as HTMLButtonElement;
+    const reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+    const params = new URLSearchParams(location.search);
+    let country = params.get('country') || 'all';
+    let ver = params.get('ver') || 'all';
+    let q = params.get('q') || '';
+    if (q) input.value = q;
+
+    function setPressed(attr: string, value: string) {
+      root.querySelectorAll(`[${attr}]`).forEach((btn) => {
+        btn.setAttribute('aria-pressed', String(btn.getAttribute(attr) === value));
+      });
+    }
+    setPressed('data-hs-country', country);
+    setPressed('data-hs-ver', ver);
+
+    function syncUrl() {
+      const next = new URL(location.href);
+      if (country === 'all') next.searchParams.delete('country');
+      else next.searchParams.set('country', country);
+      if (ver === 'all') next.searchParams.delete('ver');
+      else next.searchParams.set('ver', ver);
+      if (!q) next.searchParams.delete('q');
+      else next.searchParams.set('q', q);
+      history.replaceState(null, '', next.pathname + next.search);
+    }
+
+    function host(u: string) {
+      try {
+        return new URL(u).hostname.replace(/^www\./, '');
+      } catch {
+        return u;
+      }
+    }
+
+    function escapeHtml(s: string) {
+      return s
+        .replace(/&/g, '&amp;')
+        .replace(/</g, '&lt;')
+        .replace(/>/g, '&gt;')
+        .replace(/"/g, '&quot;');
+    }
+
+    function matches(item: HsItem) {
+      if (country !== 'all' && item.country_code !== country) return false;
+      if (ver !== 'all' && item.verification !== ver) return false;
+      if (!q) return true;
+      const hay = [
+        item.product_zh,
+        item.product_en,
+        item.hs6,
+        item.national_code,
+        item.country,
+        item.description_zh,
+        item.official_description,
+      ]
+        .join(' ')
+        .toLowerCase();
+      return q
+        .toLowerCase()
+        .split(/\s+/)
+        .filter(Boolean)
+        .every((tok) => hay.includes(tok));
+    }
+
+    function card(item: HsItem, i: number) {
+      const duty = item.import_duty || '—';
+      const vat = item.vat_or_gst || '—';
+      const code = item.national_code || item.hs6 || '—';
+      const legend = payload.legend[item.verification] || item.verification;
+      const details = [
+        item.description_zh &&
+          `<div><dt>说明</dt><dd>${escapeHtml(item.description_zh)}${
+            item.official_description
+              ? ` <span class="muted">(${escapeHtml(item.official_description)})</span>`
+              : ''
+          }</dd></div>`,
+        item.fta_china && `<div><dt>对华优惠</dt><dd>${escapeHtml(item.fta_china)}</dd></div>`,
+        item.export_rebate && `<div><dt>出口退税</dt><dd>${escapeHtml(item.export_rebate)}</dd></div>`,
+        item.other_tax_notes && `<div><dt>备注</dt><dd>${escapeHtml(item.other_tax_notes)}</dd></div>`,
+        item.verified_date && `<div><dt>核实日</dt><dd>${escapeHtml(item.verified_date)}</dd></div>`,
+        item.source_url &&
+          `<div><dt>来源</dt><dd><a href="${escapeHtml(item.source_url)}" target="_blank" rel="noopener noreferrer">${escapeHtml(
+            item.source_type || host(item.source_url),
+          )} ↗</a></dd></div>`,
+      ]
+        .filter(Boolean)
+        .join('');
+
+      return `<details class="hs-card card" data-hs-card style="--i:${i}">
+        <summary>
+          <span class="hs-flag" aria-hidden="true">${item.flag}</span>
+          <span class="hs-main">
+            <strong>${escapeHtml(item.product_zh)}</strong>
+            <em>${escapeHtml(item.country)}</em>
+          </span>
+          <span class="hs-codes">
+            <code>${escapeHtml(code)}</code>
+            ${
+              item.hs6 && item.national_code && item.national_code !== item.hs6
+                ? `<span class="muted hs6">HS6 ${escapeHtml(item.hs6)}</span>`
+                : ''
+            }
+          </span>
+          <span class="hs-tax"><span>关税 ${escapeHtml(duty)}</span><span>增值税/消费税 ${escapeHtml(vat)}</span></span>
+          <span class="pill hs-ver">${escapeHtml(legend)}</span>
+        </summary>
+        <dl class="hs-detail">${details || '<p class="muted">暂无更多字段</p>'}</dl>
+      </details>`;
+    }
+
+    function render() {
+      const list = payload.items.filter(matches);
+      countEl.textContent = `共 ${list.length} 条`;
+      clearBtn.hidden = !q;
+      emptyEl.hidden = list.length > 0;
+      resultsEl.innerHTML = list.slice(0, 220).map(card).join('');
+      resultsEl.querySelectorAll('[data-hs-card]').forEach((el) => {
+        if (reduceMotion) el.classList.add('is-in');
+        else {
+          el.classList.remove('is-in');
+          requestAnimationFrame(() => el.classList.add('is-in'));
+        }
+      });
+      syncUrl();
+    }
+
+    root.querySelectorAll('[data-hs-country]').forEach((btn) => {
+      btn.addEventListener('click', () => {
+        country = btn.getAttribute('data-hs-country') || 'all';
+        setPressed('data-hs-country', country);
+        render();
+      });
+    });
+    root.querySelectorAll('[data-hs-ver]').forEach((btn) => {
+      btn.addEventListener('click', () => {
+        ver = btn.getAttribute('data-hs-ver') || 'all';
+        setPressed('data-hs-ver', ver);
+        render();
+      });
+    });
+
+    let timer = 0;
+    input.addEventListener('input', () => {
+      q = input.value.trim();
+      window.clearTimeout(timer);
+      timer = window.setTimeout(render, 120);
+    });
+    clearBtn.addEventListener('click', () => {
+      input.value = '';
+      q = '';
+      input.focus();
+      render();
+    });
+
+    render();
+  </script>
+</Base>
