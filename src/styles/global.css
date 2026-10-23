@@ -3017,8 +3017,21 @@ button.rank-thumb:focus-visible .zoom-badge {
 .cc-card { display: flex; flex-direction: column; gap: 6px; padding: 16px; text-decoration: none; color: var(--ink); transition: transform .2s var(--ease), border-color .2s; }
 .cc-card:hover { transform: translateY(-2px); border-color: var(--line-2); }
 .cc-card[hidden] { display: none; }
-.cc-flag { font-size: 40px; line-height: 1; }
-.cc-flag-lg { font-size: 1.1em; }
+.flag-img {
+  display: inline-block;
+  vertical-align: middle;
+  object-fit: cover;
+  border-radius: 3px;
+  box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.12);
+  flex-shrink: 0;
+}
+.flag-img--sm { width: 18px; height: 14px; }
+.flag-img--md { width: 28px; height: 21px; }
+.flag-img--lg { width: 36px; height: 27px; }
+.cc-flag { width: 40px; height: 30px; border-radius: 4px; }
+.cc-flag-lg { width: 1.15em; height: 0.86em; margin-right: 0.25em; vertical-align: -0.1em; }
+.chip-flag { display: inline-flex; align-items: center; gap: 6px; }
+.cc-compare-link { display: inline-flex; align-items: center; gap: 8px; }
 .cc-name { font-weight: 700; font-size: 17px; }
 .cc-hot { color: var(--coral); font-size: 10px; margin-left: 6px; vertical-align: super; }
 .cc-meta { display: flex; justify-content: space-between; align-items: center; font-size: 13px; color: var(--muted); }
@@ -3152,7 +3165,8 @@ button.rank-thumb:focus-visible .zoom-badge {
   align-items: center;
 }
 .hs-card summary::-webkit-details-marker { display: none; }
-.hs-flag { grid-area: flag; font-size: 28px; line-height: 1; }
+.hs-flag { grid-area: flag; display: flex; align-items: center; line-height: 1; }
+.hs-flag .flag-img, .hs-flag-img { width: 28px; height: 21px; }
 .hs-main { grid-area: main; display: flex; flex-direction: column; gap: 2px; min-width: 0; }
 .hs-main strong { font-size: 1rem; }
 .hs-main em { font-style: normal; color: var(--muted); font-size: 13px; }

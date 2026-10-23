@@ -1,0 +1,24 @@
+---
+import { flagSrc } from '../lib/flags';
+
+interface Props {
+  cc: string;
+  class?: string;
+  size?: 'sm' | 'md' | 'lg';
+}
+
+const { cc, class: className = '', size = 'md' } = Astro.props;
+const src = flagSrc(cc);
+const dims = size === 'lg' ? { w: 36, h: 27 } : size === 'sm' ? { w: 18, h: 14 } : { w: 28, h: 21 };
+---
+
+<img
+  class:list={['flag-img', `flag-img--${size}`, className]}
+  src={src}
+  alt=""
+  width={dims.w}
+  height={dims.h}
+  loading="lazy"
+  decoding="async"
+  aria-hidden="true"
+/>

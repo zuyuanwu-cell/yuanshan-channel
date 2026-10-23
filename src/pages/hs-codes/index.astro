@@ -1,20 +1,17 @@
 ---
+import Flag from '../../components/Flag.astro';
 import Base from '../../layouts/Base.astro';
 import { getHsCodesDataset } from '../../lib/content';
+import { flagImgHtml } from '../../lib/flags';
 import { url } from '../../lib/format';
 
 const data = getHsCodesDataset();
-const flags: Record<string, string> = {
-  ru: '🇷🇺', ph: '🇵🇭', vn: '🇻🇳', id: '🇮🇩', sg: '🇸🇬',
-  my: '🇲🇾', th: '🇹🇭', ae: '🇦🇪', sa: '🇸🇦', cn: '🇨🇳',
-};
 const countryOrder = ['ru', 'id', 'my', 'th', 'vn', 'ph', 'sg', 'ae', 'sa', 'cn'];
 const countries = countryOrder
   .filter((cc) => data.countries[cc])
   .map((cc) => ({
     code: cc,
     name: data.countries[cc].name_zh,
-    flag: flags[cc] ?? '',
     rows: data.countries[cc].rows,
   }));
 
@@ -22,7 +19,7 @@ const payload = {
   items: data.items.map((it) => ({
     country: it.country,
     country_code: it.country_code,
-    flag: flags[it.country_code] ?? '',
+    flag_html: flagImgHtml(it.country_code, 'flag-img flag-img--md hs-flag-img'),
     product_zh: it.product_zh,
     product_en: it.product_en,
     hs6: it.hs6 ?? '',
@@ -73,8 +70,8 @@ const payloadJson = JSON.stringify(payload).replace(/</g, '\\u003c');
       <button type="button" class="chip" data-hs-country="all" aria-pressed="true">全部</button>
       {
         countries.map((c) => (
-          <button type="button" class="chip" data-hs-country={c.code} aria-pressed="false">
-            <span aria-hidden="true">{c.flag}</span> {c.name.replace(/（出口）|\/EAEU/g, '')}
+          <button type="button" class="chip chip-flag" data-hs-country={c.code} aria-pressed="false">
+            <Flag cc={c.code} size="sm" /> {c.name.replace(/（出口）|\/EAEU/g, '')}
             <span class="chip-count">{c.rows}</span>
           </button>
         ))
@@ -105,7 +102,7 @@ const payloadJson = JSON.stringify(payload).replace(/</g, '\\u003c');
     type HsItem = {
       country: string;
       country_code: string;
-      flag: string;
+      flag_html: string;
       product_zh: string;
       product_en: string;
       hs6: string;
@@ -224,7 +221,7 @@ const payloadJson = JSON.stringify(payload).replace(/</g, '\\u003c');
 
       return `<details class="hs-card card" data-hs-card style="--i:${i}">
         <summary>
-          <span class="hs-flag" aria-hidden="true">${item.flag}</span>
+          <span class="hs-flag" aria-hidden="true">${item.flag_html}</span>
           <span class="hs-main">
             <strong>${escapeHtml(item.product_zh)}</strong>
             <em>${escapeHtml(item.country)}</em>

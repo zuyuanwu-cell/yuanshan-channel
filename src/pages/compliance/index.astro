@@ -1,4 +1,5 @@
 ---
+import Flag from '../../components/Flag.astro';
 import Base from '../../layouts/Base.astro';
 import { getCompliance, recentNewsForCountry } from '../../lib/content';
 import { formatDate, url } from '../../lib/format';
@@ -29,7 +30,7 @@ const latest = countries.map((c) => c.last_verified).sort().at(-1) ?? '';
         const fresh = recentNewsForCountry(c.country);
         return (
           <a class="cc-card card" href={url(`/compliance/${c.country}`)} data-region={c.region}>
-            <span class="cc-flag" aria-hidden="true">{c.flag}</span>
+            <Flag cc={c.country} size="lg" class="cc-flag" />
             <span class="cc-name">{c.name_zh}{fresh > 0 && <span class="cc-hot" title="近 30 天有新变化">●</span>}</span>
             <span class="cc-meta">
               <span class="cc-must">{must} 项必办</span>

@@ -1,4 +1,5 @@
 ---
+import Flag from '../../components/Flag.astro';
 import NewsCard from '../../components/NewsCard.astro';
 import Base from '../../layouts/Base.astro';
 import { complianceTypeLabels, getCompliance, getComplianceCountry, newsForCountry } from '../../lib/content';
@@ -16,7 +17,7 @@ const host = (u: string) => { try { return new URL(u).hostname.replace(/^www\./,
 <Base title={`${c.name_zh} 合规速查`} description={c.summary}>
   <header class="page-head">
     <p class="kicker"><a href={url('/compliance')}>← 国家合规速查</a></p>
-    <h1><span class="cc-flag-lg" aria-hidden="true">{c.flag}</span> {c.name_zh}</h1>
+    <h1><Flag cc={c.country} size="lg" class="cc-flag-lg" /> {c.name_zh}</h1>
     <p class="lede">{c.summary}</p>
     <p class="updated-line"><span class="live-dot" aria-hidden="true"></span>核实于 <time datetime={c.last_verified}>{formatDate(c.last_verified)}</time>
       <span class="cc-diff" aria-label={`难度 ${c.difficulty}/3`}>{[1, 2, 3].map((n) => <i class={n <= c.difficulty ? 'on' : ''} />)}</span></p>
