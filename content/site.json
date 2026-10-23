@@ -270,8 +270,8 @@
     {
       "platform": "noon",
       "tried": "2026-10-23",
-      "reason": "本机 CDP 打开 beauty 页仍 0 条商品卡；无可用公开热销榜，暂不发榜。",
-      "source_url": "https://www.noon.com/uae-en/beauty/"
+      "reason": "CDP 重试 makeup/bestsellers 均 Access Denied（Akamai）；无商品卡，暂不发榜。",
+      "source_url": "https://www.noon.com/uae-en/search/?q=makeup"
     },
     {
       "platform": "shopee-my",
