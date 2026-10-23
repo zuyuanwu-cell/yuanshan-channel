@@ -280,12 +280,6 @@
       "source_url": "https://www.ebay.com/b/Beauty/26395/bn_1850232"
     },
     {
-      "platform": "lazada-id",
-      "tried": "2026-10-23",
-      "reason": "热销页常空壳；下步浏览器抓 trending/Best Sellers 子类。",
-      "source_url": "https://www.lazada.co.id/"
-    },
-    {
       "platform": "lazada-th",
       "tried": "2026-10-23",
       "reason": "热销页常空壳/反爬；通 ID 后再铺。",
