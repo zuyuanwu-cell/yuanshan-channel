@@ -1,0 +1,45 @@
+---
+import { getSite } from '../lib/content';
+import { formatPrice } from '../lib/format';
+import type { RankingItem } from '../lib/types';
+
+interface Props {
+  item: RankingItem;
+  compact?: boolean;
+}
+
+const site = getSite();
+const { item, compact = false } = Astro.props;
+const priced = item.price !== null && item.price !== undefined && item.price !== '';
+const sales = item.sales_text ?? item.bought_text;
+const reviews =
+  typeof item.reviews_count === 'number' ? new Intl.NumberFormat('zh-CN').format(item.reviews_count) : item.reviews_count;
+---
+
+<span class:list={['rank-stats', { compact }]}>
+  <span class:list={['stat stat-price', { pending: !priced }]} title={priced ? undefined : site.ui.pricePending}>
+    {formatPrice(item.price, item.currency, site.ui.pricePending)}
+  </span>
+  {
+    sales && (
+      <span class="stat stat-sales" title={`${site.ui.sales}：${sales}`}>
+        <svg viewBox="0 0 24 24" aria-hidden="true" fill="currentColor">
+          <path d="M12 2.5c.6 3.2 4.8 5.6 4.8 10.4A4.8 4.8 0 0 1 12 17.7a4.8 4.8 0 0 1-4.8-4.8c0-2 1-3.3 2-4.3.2 1.6 1 2.6 2.1 3.1C10.6 8.6 11.4 5 12 2.5Z" />
+          <path d="M6.5 19h11v2.5h-11z" opacity=".45" />
+        </svg>
+        <span class="clamp-1">{sales}</span>
+      </span>
+    )
+  }
+  {
+    item.rating !== undefined && (
+      <span class="stat stat-rating" title={`${site.ui.rating} ${item.rating}${reviews ? ` · ${reviews} ${site.ui.reviews}` : ''}`}>
+        <svg viewBox="0 0 24 24" aria-hidden="true" fill="currentColor">
+          <path d="m12 3 2.7 5.6 6.1.9-4.4 4.3 1 6.1L12 17l-5.4 2.9 1-6.1-4.4-4.3 6.1-.9z" />
+        </svg>
+        {item.rating.toFixed(1)}
+        {reviews && !compact && <small>({reviews})</small>}
+      </span>
+    )
+  }
+</span>

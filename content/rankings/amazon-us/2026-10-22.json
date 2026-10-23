@@ -1,0 +1,292 @@
+{
+  "platform": "amazon-us",
+  "date": "2026-10-22",
+  "captured_at": "2026-10-22T20:38:00+08:00",
+  "category": "beauty-personal-care",
+  "sample": false,
+  "needs_review": false,
+  "partial": true,
+  "coverage_note": "部分数据：只收第 1 页的前 30 名。页面首屏只输出 30 名，第 31–50 名靠脚本加载，本期没收。价格是抓取时的展示价，会随促销变动。",
+  "source_name": "Amazon Best Sellers · Beauty & Personal Care",
+  "source_url": "https://www.amazon.com/Best-Sellers-Beauty-Personal-Care/zgbs/beauty",
+  "source_note": "Amazon 美国站公开的 Beauty & Personal Care 热销榜，按销量排序，页面注明「Updated frequently」。名次、标题、价格照抄抓取时的页面；品牌取自各商品页的品牌栏，商品页被验证码挡住的 7 条取标题里的品牌名，并在条目上注明。",
+  "items": [
+    {
+      "rank": 1,
+      "title": "Mighty Patch Hero Cosmetics Original Nighttime Acne Pimple Patches, 36 Ct | #1 Hydrocolloid Acne Patches, Shrinking Zits & Whiteheads in 1 Use, Spot Treatment, Pimple Stickers for Face",
+      "brand": "Mighty Patch",
+      "price": 11.97,
+      "currency": "USD",
+      "url": "https://www.amazon.com/dp/B074PVTPBW",
+      "needs_review": false
+    },
+    {
+      "rank": 2,
+      "title": "medicube Toner Pads Zero Pore Pad 2.0 for Exfoliation and Pore Care | Dual-Textured Facial Pad with 4.5% AHA Lactic Acid, 0.45% BHA Salicylic Acid - For All, Korean Skin Care, 70 Pads, 1 Pack",
+      "brand": "medicube",
+      "price": 18.9,
+      "currency": "USD",
+      "url": "https://www.amazon.com/dp/B09V7Z4TJG",
+      "needs_review": false
+    },
+    {
+      "rank": 3,
+      "title": "eos Shea Better Body Lotion- Vanilla Cashmere,  24-Hour Moisture, 16 fl oz | Natural Shea Butter & Oil, Whipped Vanilla & Caramel, Lasting Hydration, 100% Vegan & Cruelty-Free, Apply to Dry Skin",
+      "brand": "eos",
+      "price": 9.97,
+      "currency": "USD",
+      "url": "https://www.amazon.com/dp/B08KT2Z93D",
+      "needs_review": false
+    },
+    {
+      "rank": 4,
+      "title": "Clean Skin Club Clean Towels XL®, 100% USDA Biobased Face Towel, Disposable Face Towelette, Eczema Association Accepted, Makeup Remover Dry Wipes, Ultra Soft, 1 Pack, 50 Ct",
+      "brand": "CLEAN SKIN CLUB",
+      "price": 17.95,
+      "currency": "USD",
+      "url": "https://www.amazon.com/dp/B07PBXXNCY",
+      "needs_review": false
+    },
+    {
+      "rank": 5,
+      "title": "Amazon Essentials Cotton Swabs, 500 Count (Previously Amazon Basics)",
+      "brand": "Amazon Basics",
+      "price": 2.55,
+      "currency": "USD",
+      "url": "https://www.amazon.com/dp/B09541P9WH",
+      "needs_review": false
+    },
+    {
+      "rank": 6,
+      "title": "Neutrogena Makeup Remover Micellar Wipes, 2 Pack of 25 Ct | Plant-Based Micellar Water Cleansing Cloths, Gently Removes Oil, Dirt & Waterproof Makeup, No Heavy Residue, Alcohol-Free",
+      "brand": "Neutrogena",
+      "price": 9.97,
+      "currency": "USD",
+      "url": "https://www.amazon.com/dp/B00U2VQZDS",
+      "needs_review": false
+    },
+    {
+      "rank": 7,
+      "title": "Amazon Essentials 100% Cotton Rounds, 100 Count (Previously Amazon Basics)",
+      "brand": "Amazon Essentials",
+      "price": 2.96,
+      "currency": "USD",
+      "url": "https://www.amazon.com/dp/B09542G9ZN",
+      "needs_review": false
+    },
+    {
+      "rank": 8,
+      "title": "Maybelline Lash Sensational Sky High Washable Mascara Makeup, Volumizing, Lengthening, Defining, Curling, Multiplying, Buildable Formula, Blackest Black, 1 Count",
+      "brand": "MAYBELLINE",
+      "price": 10.8,
+      "currency": "USD",
+      "url": "https://www.amazon.com/dp/B08H3JPH74",
+      "needs_review": false
+    },
+    {
+      "rank": 9,
+      "title": "La Roche-Posay Toleriane Double Repair Face Moisturizer | Daily face cream with glycerin, niacinamide and ceramide for all skin types. Oil free and fragrance free.",
+      "brand": "La Roche-Posay",
+      "price": 24.99,
+      "currency": "USD",
+      "url": "https://www.amazon.com/dp/B01N9SPQHQ",
+      "needs_review": false,
+      "note": "品牌据标题"
+    },
+    {
+      "rank": 10,
+      "title": "Luxe Color Changing Foundation – Medium",
+      "brand": "Luxe Cosmetics",
+      "price": 24.99,
+      "currency": "USD",
+      "url": "https://www.amazon.com/dp/B0G1VBDXYF",
+      "needs_review": false
+    },
+    {
+      "rank": 11,
+      "title": "BIODANCE Bio-Collagen Real Deep Mask for Hydrating & Plumping (4ea) | Overnight Hydrogel Face Mask, Pore Minimizing, Elasticity, Korean Skin Care, Self Care Gifts for Women, Travel Essentials",
+      "brand": "BIODANCE",
+      "price": 19.0,
+      "currency": "USD",
+      "url": "https://www.amazon.com/dp/B0B2RM68G2",
+      "needs_review": false
+    },
+    {
+      "rank": 12,
+      "title": "Native Aluminum-Free Deodorant for Women & Men, Coconut & Vanilla, 2.65oz | Contains Naturally Derived Ingredients | 72-Hour Odor Control | Smooth Glide & Odor Fighting Formula | Vegan & Cruelty-Free",
+      "brand": "Native",
+      "price": 13.97,
+      "currency": "USD",
+      "url": "https://www.amazon.com/dp/B07GB3NVN1",
+      "needs_review": false
+    },
+    {
+      "rank": 13,
+      "title": "PanOxyl Acne Foaming Wash, 10% Benzoyl Peroxide, For Face & Body, 5.5 oz | Maximum Strength, Antibacterial Daily Cleanser, Treats & Prevents Acne, Non-Comedogenic, Vegan, Unscented, All Skin Types",
+      "brand": "PanOxyl",
+      "price": 9.89,
+      "currency": "USD",
+      "url": "https://www.amazon.com/dp/B081KL2QYJ",
+      "needs_review": false
+    },
+    {
+      "rank": 14,
+      "title": "MRS. MEYER'S CLEAN DAY Hand Soap Refill, Lemon Verbena Scent, 33 Fl Oz Bottle",
+      "brand": "Mrs. Meyer's Clean Day",
+      "price": 7.61,
+      "currency": "USD",
+      "url": "https://www.amazon.com/dp/B00F1U0YB4",
+      "needs_review": false,
+      "note": "品牌据标题"
+    },
+    {
+      "rank": 15,
+      "title": "eos Cashmere Body Wash- Vanilla Cashmere, Creamy Gel with Shea Butter, 16 fl oz",
+      "brand": "eos",
+      "price": 9.98,
+      "currency": "USD",
+      "url": "https://www.amazon.com/dp/B0DPHQRLJC",
+      "needs_review": false
+    },
+    {
+      "rank": 16,
+      "title": "Revlon ColorStay Pencil Waterproof Eyeliner, 203 Brown, 0.01 oz | Waterproof pencil eyeliner with built-in sharpener. Smudge-proof, long-lasting, intense matte color.",
+      "brand": "REVLON",
+      "price": 4.98,
+      "currency": "USD",
+      "url": "https://www.amazon.com/dp/B000H3EO34",
+      "needs_review": false
+    },
+    {
+      "rank": 17,
+      "title": "Amazon Basics Gentle & Mild Clear Liquid Hand Soap Refill, Triclosan-Free, Dermatologist-Tested, pH Balanced, Cruelty-Free, 50 Fluid Ounces, 1-Pack (Previously Solimo)",
+      "brand": "Amazon Basics",
+      "price": 3.86,
+      "currency": "USD",
+      "url": "https://www.amazon.com/dp/B09HHDHXWX",
+      "needs_review": false
+    },
+    {
+      "rank": 18,
+      "title": "Nizoral Anti-Dandruff Shampoo with 1% Ketoconazole, Fresh Scent, 7 Fl Oz | Anti-Fungal Shampoo, Dandruff Shampoo for Dandruff Relief, Ketoconazole Shampoo, Dandruff Treatment, 1% Ketoconazole",
+      "brand": "Nizoral",
+      "price": 16.88,
+      "currency": "USD",
+      "url": "https://www.amazon.com/dp/B00AINMFAC",
+      "needs_review": false
+    },
+    {
+      "rank": 19,
+      "title": "essence Lash Princess False Lash Effect Mascara, Black (Pack of 1) | Volumizing & Lengthening, Clump-Free Fiber Brush, Defines and Separates; Vegan, Cruelty Free, Paraben Free, Oil Free",
+      "brand": "Essence Cosmetics",
+      "price": 4.93,
+      "currency": "USD",
+      "url": "https://www.amazon.com/dp/B00T0C9XRK",
+      "needs_review": false
+    },
+    {
+      "rank": 20,
+      "title": "Vanicream Daily Facial Moisturizer, Lightweight, Non-Greasy, 3 Fl Oz | Formulated Without Common Irritants for Sensitive Skin, Moisturizing Face Cream with 5 Key Cermides and Hyaluronic Acid",
+      "brand": "Vanicream",
+      "price": 13.97,
+      "currency": "USD",
+      "url": "https://www.amazon.com/dp/B08BW46XXK",
+      "needs_review": false
+    },
+    {
+      "rank": 21,
+      "title": "medicube Jelly Gel Mask with Salmon DNA PDRN Pink Collagen, Plump & Hydrate | Overnight Face Mask for Glass Glow Skin - Hydration, Firming, Moisturizing & Elasticity Care, Korean Skincare, 28g x 4ea",
+      "brand": "medicube",
+      "price": 14.2,
+      "currency": "USD",
+      "url": "https://www.amazon.com/dp/B0DGTMR754",
+      "needs_review": false
+    },
+    {
+      "rank": 22,
+      "title": "The Ordinary Glycolic Acid 7% Exfoliating Toner, Brightening and Smoothing Daily Toner for More Even-Looking Skin Tone",
+      "brand": "The Ordinary",
+      "price": 13.5,
+      "currency": "USD",
+      "url": "https://www.amazon.com/dp/B071914GGL",
+      "needs_review": false,
+      "note": "品牌据标题"
+    },
+    {
+      "rank": 23,
+      "title": "Q-tips Cotton Swabs For Hygiene and Beauty Care Original Cotton Swab Made With 100% Cotton 750 Count",
+      "brand": "Q-tips",
+      "price": 4.73,
+      "currency": "USD",
+      "url": "https://www.amazon.com/dp/B00J4YYFYA",
+      "needs_review": false
+    },
+    {
+      "rank": 24,
+      "title": "La Roche-Posay Cicaplast Balm B5, Barrier Repair Cream for Dry Skin | Skin healing cream with centella asiatica, shea butter & panthenol. Multi-purpose face, body & hand balm. Baby safe.",
+      "brand": "La Roche-Posay",
+      "price": 13.69,
+      "currency": "USD",
+      "url": "https://www.amazon.com/dp/B0060OUV5Y",
+      "needs_review": false,
+      "note": "品牌据标题"
+    },
+    {
+      "rank": 25,
+      "title": "e.l.f. Cream Glide Lip Liner, Highly-Pigmented Pencil For Shaping & Sculpting Lips, Semi-Matte Finish, Vegan & Cruelty-Free",
+      "brand": "e.l.f.",
+      "price": 2.0,
+      "currency": "USD",
+      "url": "https://www.amazon.com/dp/B0CMYR1CNK",
+      "needs_review": false,
+      "note": "品牌据标题"
+    },
+    {
+      "rank": 26,
+      "title": "Degree Men UltraClear Antiperspirant Deodorant, 2 Count, 2.7 oz | For long days, provides 72-hour sweat and odor protection with MotionSense Technology.",
+      "brand": "Degree",
+      "price": 6.88,
+      "currency": "USD",
+      "url": "https://www.amazon.com/dp/B075JRT85B",
+      "needs_review": false
+    },
+    {
+      "rank": 27,
+      "title": "CeraVe Hydrating Cleanser with Hyaluronic Acid, Gentle Face Cleanser,16oz | Daily Face Wash & Makeup Remover with Glycerin, Skin Care for Men and Women, National Eczema Association Certified",
+      "brand": "CeraVe",
+      "price": 15.48,
+      "currency": "USD",
+      "url": "https://www.amazon.com/dp/B01MSSDEPK",
+      "needs_review": false
+    },
+    {
+      "rank": 28,
+      "title": "Garnier Micellar Water, Hydrating Facial Cleanser & Makeup Remover, Suitable for Sensitive Skin, Vegan, Cruelty Free, 13.5 Fl Oz (400mL), 1 Count",
+      "brand": "Garnier",
+      "price": 8.82,
+      "currency": "USD",
+      "url": "https://www.amazon.com/dp/B017PCGABI",
+      "needs_review": false,
+      "note": "品牌据标题"
+    },
+    {
+      "rank": 29,
+      "title": "The Ordinary Niacinamide 10% + Zinc 1%, Smoothing Serum for Blemish-Prone Skin",
+      "brand": "The Ordinary",
+      "price": 6.0,
+      "currency": "USD",
+      "url": "https://www.amazon.com/dp/B01MDTVZTZ",
+      "needs_review": false,
+      "note": "品牌据标题"
+    },
+    {
+      "rank": 30,
+      "title": "e.l.f. Instant Lift Brow Pencil, Dual-Sided, Neutral Brown | Retractable Precision-Tip Brow Pencil with Grooming Spoolie for Buildable Natural-Looking Color, Vegan & Cruelty-Free",
+      "brand": "e.l.f.",
+      "price": 4.0,
+      "currency": "USD",
+      "url": "https://www.amazon.com/dp/B00WAJAKOU",
+      "needs_review": false
+    }
+  ]
+}

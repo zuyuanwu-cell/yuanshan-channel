@@ -1,0 +1,100 @@
+---
+import Stamps from '../../components/Stamps.astro';
+import NewsCard from '../../components/NewsCard.astro';
+import Base from '../../layouts/Base.astro';
+import { daysFromToday, getNews, getNewsBySlug, getPlatform, getSite, liveBoardFor, relatedNews } from '../../lib/content';
+import { fill, formatDate, url } from '../../lib/format';
+
+export function getStaticPaths() {
+  return getNews().map((item) => ({ params: { slug: item.slug } }));
+}
+
+const site = getSite();
+const slug = Astro.params.slug;
+if (!slug) throw new Error('缺少资讯 slug');
+const item = getNewsBySlug(slug);
+if (!item) throw new Error(`找不到资讯 ${slug}`);
+const related = relatedNews(item);
+const showBanner = item.sample || item.needs_review;
+const days = item.key_date ? daysFromToday(item.key_date.date) : null;
+---
+
+<Base title={item.title} description={item.summary}>
+  <a class="back-link" href={url("/news")}>{site.ui.backNews}</a>
+  <header class="page-head">
+    <div class="meta-row">
+      <span class:list={['pill', item.category === 'rules' ? 'pill-rules' : 'pill-regulation']}>
+        {site.categoryLabels[item.category]}
+      </span>
+      <Stamps sample={item.sample} needsReview={item.needs_review} />
+    </div>
+    <h1>{item.title}</h1>
+    <p class="lede">{item.summary}</p>
+    <p class="dateline">
+      <span>{site.ui.publishedAt} <time datetime={item.date}>{formatDate(item.date)}</time></span>
+      <span>{site.ui.checkedAt} <time datetime={item.checked}>{formatDate(item.checked)}</time></span>
+      <span>{site.ui.sourceName} · {item.source_name}</span>
+    </p>
+    <div class="tag-row">
+      {item.tags.map((tag) => (
+        <a class="tag" href={url(`/news?tag=${tag}`)}>#{site.newsTags[tag] ?? tag}</a>
+      ))}
+    </div>
+  </header>
+  {showBanner && <p class="banner" role="note">{site.reviewBanner}</p>}
+  <div class="detail-grid">
+    <article class="prose" set:html={item.bodyHtml} />
+    <aside class="source-card card">
+      {item.key_date && days !== null && (
+        <div class:list={['key-box', { past: days < 0 }]}>
+          <p class="kicker">{site.ui.keyDate}</p>
+          <strong>{formatDate(item.key_date.date)}</strong>
+          <span>
+            {item.key_date.label} ·{' '}
+            {days === 0 ? site.ui.today : days > 0 ? fill(site.ui.daysLeft, days) : fill(site.ui.daysPast, -days)}
+          </span>
+        </div>
+      )}
+      <p class="kicker">{site.ui.sourceLabel}</p>
+      <p class="source-name">{item.source_name}</p>
+      <a class="source-button" href={item.source_url} target="_blank" rel="noreferrer">{site.ui.viewSource}</a>
+      <p class="source-url">{item.source_url}</p>
+      {
+        item.platforms.length > 0 && (
+          <div>
+            <p class="kicker">{site.ui.platformsLabel}</p>
+            <ul>
+              {item.platforms.map((id) => {
+                const platform = getPlatform(id);
+                const board = liveBoardFor(id);
+                return (
+                  <li>
+                    <a href={url(`/news?platform=${id}`)}>{platform?.name ?? id}</a>
+                    {board && (
+                      <>
+                        {' · '}
+                        <a href={url(`/rankings/${board.id}`)}>{site.ui.viewRanking}</a>
+                      </>
+                    )}
+                  </li>
+                );
+              })}
+            </ul>
+          </div>
+        )
+      }
+    </aside>
+  </div>
+  {
+    related.length > 0 && (
+      <section class="related">
+        <h2>{site.ui.related}</h2>
+        <div class="grid-3 related-grid">
+          {related.map((entry) => (
+            <NewsCard item={entry} />
+          ))}
+        </div>
+      </section>
+    )
+  }
+</Base>

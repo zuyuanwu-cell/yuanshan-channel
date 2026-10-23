@@ -1,0 +1,41 @@
+---
+import { getSite, itemImage, itemTitle } from '../lib/content';
+import type { RankingItem } from '../lib/types';
+
+interface Props {
+  item: RankingItem;
+  size?: 'sm' | 'md' | 'lg';
+}
+
+const site = getSite();
+const { item, size = 'md' } = Astro.props;
+const image = itemImage(item);
+const { main } = itemTitle(item);
+const initial = Array.from(item.brand.trim())[0]?.toUpperCase() ?? '?';
+const hue = Array.from(item.brand).reduce((sum, char) => sum + (char.codePointAt(0) ?? 0), 0) % 360;
+---
+
+{
+  image ? (
+    <button
+      type="button"
+      class:list={['rank-thumb', `is-${size}`]}
+      data-zoom={image.zoom}
+      data-zoom-caption={`${String(item.rank).padStart(2, '0')} · ${main}`}
+      aria-label={`${site.ui.zoomImage}：${main}`}
+    >
+      <img src={image.thumb} alt="" loading="lazy" decoding="async" referrerpolicy="no-referrer" />
+      <span class="zoom-badge" aria-hidden="true">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round">
+          <circle cx="11" cy="11" r="6" />
+          <path d="m20 20-4.2-4.2M11 8.5v5M8.5 11h5" />
+        </svg>
+      </span>
+    </button>
+  ) : (
+    <span class:list={['rank-thumb', 'is-empty', `is-${size}`]} style={`--thumb-hue:${hue}`} title={site.ui.noImage}>
+      <span class="thumb-initial" aria-hidden="true">{initial}</span>
+      {size !== 'sm' && <span class="thumb-note">{site.ui.noImage}</span>}
+    </span>
+  )
+}

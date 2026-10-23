@@ -1,0 +1,30 @@
+---
+title: "FDA：化妆品注册和列名不发证书，也不出核验信"
+date: "2026-09-09"
+category: "regulation"
+platforms:
+  - "amazon-us"
+  - "walmart"
+  - "tiktok-shop"
+tags:
+  - "compliance"
+  - "listing"
+source_url: "https://www.fda.gov/cosmetics/registration-listing-cosmetic-product-facilities-and-products"
+source_name: "FDA · 化妆品设施注册与产品列名页"
+checked: "2026-10-22"
+summary: "FDA 提醒工厂、零售商和责任人：注册号和列名号不是批准，FDA 不签发任何证书、信函或「无需注册」证明。"
+needs_review: false
+sample: false
+---
+
+FDA 9月9日在化妆品注册与列名页面加了一条提示：它**不提供**证明合规的证书或其他文件。具体包括：
+
+- 证明已注册设施或已列名产品的证书
+- 写明「已注册」「已列名」的信函或邮件
+- 证明某设施或责任人「无需注册」的文件
+
+页面同时写明，注册和列名既不是化妆品审批程序，也不是宣传工具。拿到注册号或列名号，不代表 FDA 批准了工厂或产品。
+
+页面给出的统计（截至 2026年6月30日）：MoCRA 下有效设施注册 16,398 个，有效产品列名 1,298,361 个。
+
+对卖家：零售商或平台要「FDA 证书」时，能交的是注册号、列名号和提交记录，不是 FDA 盖章文件。第三方代办机构出的「证书」是它们自己的文件。商品页写「FDA 认证」「FDA 批准」之类的说法，和这条提示直接冲突（这是编辑建议，不是 FDA 原话）。

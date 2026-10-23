@@ -1,0 +1,100 @@
+---
+import { formatShortDate, url } from '../lib/format';
+import { getNews, getPlatforms, getSite, latestContentDate, latestRankingByPlatform } from '../lib/content';
+import type { HeroStatKey } from '../lib/types';
+import Icon from './Icon.astro';
+
+const site = getSite();
+const hero = site.hero;
+const news = getNews();
+const counts: Record<HeroStatKey, number> = {
+  news: news.length,
+  rules: news.filter((item) => item.category === 'rules').length,
+  regulation: news.filter((item) => item.category === 'regulation').length,
+  rankings: latestRankingByPlatform().length,
+  platforms: getPlatforms().length,
+};
+
+const featuredIndex = Math.max(
+  0,
+  hero.cards.findIndex((card) => card.featured),
+);
+const center = hero.cards.some((card) => card.featured) ? featuredIndex : Math.floor(hero.cards.length / 2);
+const firstChar = Array.from(hero.titleLine2)[0] ?? '';
+const restLine2 = Array.from(hero.titleLine2).slice(1).join('');
+---
+
+<section class="hero" aria-labelledby="hero-title">
+  <div class="hero-sparkles" aria-hidden="true">
+    {Array.from({ length: 7 }, (_, i) => <span class={`spark s${i + 1}`}>+</span>)}
+  </div>
+
+  <div class="hero-copy">
+    <p class="hero-badge" data-hero-in>
+      <span class="badge-dot" aria-hidden="true"></span>
+      <span class="badge-strong">{hero.badge}</span>
+      <span class="badge-sep">—</span>
+      <span>{hero.badgeNote}</span>
+      <span class="badge-date">{site.ui.updatedAt} {formatShortDate(latestContentDate())}</span>
+    </p>
+    <h1 id="hero-title" class="hero-title" data-hero-in>
+      <span class="line-1">{hero.titleLine1}</span>
+      <span class="line-2"><span class="first-char">{firstChar}</span>{restLine2}</span>
+    </h1>
+    <p class="hero-lede" data-hero-in>{hero.lede}</p>
+
+    {
+      hero.tags.map((tag, i) => (
+        <span class:list={['float-tag', `tone-${tag.tone}`, `side-${tag.side}`, `tag-${i + 1}`]} aria-hidden="true">
+          <svg class="cursor" viewBox="0 0 20 20">
+            <path d="M3 2 17 9l-6 1.6L8 17z" />
+          </svg>
+          {tag.label}
+        </span>
+      ))
+    }
+  </div>
+
+  <div class="hero-deck" data-hero-deck>
+    <div class="deck-track" data-deck-track>
+      {
+        hero.cards.map((card, i) => {
+          const offset = i - center;
+          const stat = card.statKey ? counts[card.statKey] : undefined;
+          return (
+            <a
+              class:list={['deck-card', { featured: i === center }]}
+              href={url(card.href)}
+              data-deck-card
+              style={`--c1:${card.colorTop};--c2:${card.colorBottom};--off:${offset};--abs:${Math.abs(offset)};--i:${i}`}
+            >
+              <span class="deck-head">
+                <span class="deck-title">{card.title}</span>
+                <span class="deck-sub">{card.subtitle}</span>
+                {stat !== undefined && (
+                  <span class="deck-stat">
+                    <strong>{stat}</strong>
+                    {card.statLabel}
+                  </span>
+                )}
+              </span>
+              {i === center && (
+                <span class="deck-cta">
+                  {hero.cardCta}
+                  <span class="deck-cta-icon">
+                    <Icon name="arrow" />
+                  </span>
+                </span>
+              )}
+              <img class="deck-art" src={url(card.image)} alt="" loading={i === center ? 'eager' : 'lazy'} decoding="async" />
+            </a>
+          );
+        })
+      }
+    </div>
+    <div class="deck-dots" aria-hidden="true">
+      {hero.cards.map((_, i) => <span class:list={['dot', { active: i === center }]} data-deck-dot={i}></span>)}
+    </div>
+    <p class="deck-hint">{hero.swipeHint}</p>
+  </div>
+</section>

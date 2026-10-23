@@ -1,0 +1,96 @@
+---
+import NewsCard from '../../components/NewsCard.astro';
+import Base from '../../layouts/Base.astro';
+import { getNews, getSite, latestNewsCheck, newsPlatformFacets, newsTagFacets } from '../../lib/content';
+import { formatDate } from '../../lib/format';
+
+const site = getSite();
+const news = getNews();
+const tags = newsTagFacets();
+const platforms = newsPlatformFacets();
+const checked = latestNewsCheck();
+const categories = (['rules', 'regulation'] as const).map((id) => ({
+  id,
+  label: site.categoryLabels[id],
+  count: news.filter((item) => item.category === id).length,
+}));
+---
+
+<Base title={site.pages.news.title} description={site.pages.news.note}>
+  <header class="page-head">
+    <p class="kicker">{site.focus}</p>
+    <h1>{site.pages.news.title}</h1>
+    <p class="lede">{site.pages.news.note}</p>
+    <p class="updated-line">
+      <span class="live-dot" aria-hidden="true"></span>
+      {site.ui.updatedAt} <time datetime={checked}>{formatDate(checked)}</time>
+      <span class="muted">· {news.length} 条</span>
+    </p>
+  </header>
+  {
+    news.length === 0 ? (
+      <p class="empty card">{site.empty.news}</p>
+    ) : (
+      <div data-news-list>
+        <div class="filter-panel card">
+          <div class="filter-group">
+            <span class="filter-label">{site.ui.filterNews}</span>
+            <div class="filters scroll-x" role="group" aria-label={site.ui.filterNews} data-filter-group="category">
+              <button type="button" class="chip" data-value="all" aria-pressed="true">
+                {site.ui.all}
+              </button>
+              {categories.map((category) => (
+                <button type="button" class="chip" data-value={category.id} aria-pressed="false">
+                  {category.label}
+                  <span class="chip-count">{category.count}</span>
+                </button>
+              ))}
+            </div>
+          </div>
+          <div class="filter-group">
+            <span class="filter-label">{site.ui.filterTag}</span>
+            <div class="filters scroll-x" role="group" aria-label={site.ui.filterTag} data-filter-group="tag">
+              <button type="button" class="chip" data-value="all" aria-pressed="true">
+                {site.ui.all}
+              </button>
+              {tags.map((tag) => (
+                <button type="button" class="chip" data-value={tag.id} aria-pressed="false">
+                  #{tag.label}
+                  <span class="chip-count">{tag.count}</span>
+                </button>
+              ))}
+            </div>
+          </div>
+          <div class="filter-group">
+            <span class="filter-label">{site.ui.filterPlatform}</span>
+            <div class="filters scroll-x" role="group" aria-label={site.ui.filterPlatform} data-filter-group="platform">
+              <button type="button" class="chip" data-value="all" aria-pressed="true">
+                {site.ui.all}
+              </button>
+              {platforms.map((platform) => (
+                <button type="button" class="chip" data-value={platform.id} aria-pressed="false">
+                  {platform.label}
+                  <span class="chip-count">{platform.count}</span>
+                </button>
+              ))}
+            </div>
+          </div>
+          <div class="filter-status">
+            <span class="muted" data-filter-count aria-live="polite">{news.length} 条</span>
+            <button type="button" class="text-link" data-filter-reset hidden>
+              {site.ui.resetFilters}
+            </button>
+          </div>
+        </div>
+        <div class="grid-3 news-grid">
+          {news.map((item) => (
+            <NewsCard item={item} />
+          ))}
+        </div>
+        <p class="empty card" data-filter-empty hidden>
+          {site.ui.filterEmpty}
+        </p>
+      </div>
+    )
+  }
+</Base>

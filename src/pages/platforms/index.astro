@@ -1,0 +1,49 @@
+---
+import PlatformCard from '../../components/PlatformCard.astro';
+import Base from '../../layouts/Base.astro';
+import { getPlatformMeta, getPlatforms, getSite } from '../../lib/content';
+import { formatDate } from '../../lib/format';
+
+const site = getSite();
+const platforms = getPlatforms();
+const meta = getPlatformMeta();
+---
+
+<Base title={site.pages.platforms.title} description={meta.sourceNote}>
+  <header class="page-head">
+    <p class="kicker">
+      {site.ui.updatedPrefix} {formatDate(meta.updated)} · {platforms.length} 个平台
+    </p>
+    <h1>{site.pages.platforms.title}</h1>
+    <p class="lede">{meta.sourceNote}</p>
+  </header>
+  {
+    platforms.length === 0 ? (
+      <p class="empty card">{site.empty.platforms}</p>
+    ) : (
+      <div data-platform-browser>
+        <div class="filters" role="group" aria-label={site.ui.filterRegion}>
+          <button type="button" class="chip" data-region="all" aria-pressed="true">
+            {site.ui.all}
+          </button>
+          {site.regions.map((region) => (
+            <button type="button" class="chip" data-region={region} aria-pressed="false">
+              {region}
+            </button>
+          ))}
+          <button type="button" class="chip" data-beauty-toggle aria-pressed="false">
+            {site.ui.beautyOnly}
+          </button>
+        </div>
+        <div class="platform-grid">
+          {platforms.map((platform) => (
+            <PlatformCard platform={platform} detailed />
+          ))}
+        </div>
+        <p class="empty card" data-filter-empty hidden>
+          {site.ui.filterEmpty}
+        </p>
+      </div>
+    )
+  }
+</Base>

@@ -1,0 +1,121 @@
+---
+import {
+  boardName,
+  daysFromToday,
+  itemImage,
+  itemTitle,
+  getNews,
+  getPlatform,
+  getSite,
+  highlightNews,
+  latestCapture,
+  latestContentDate,
+  latestRankingByPlatform,
+} from '../lib/content';
+import { fill, formatDate, formatDateTime, url } from '../lib/format';
+import Icon from './Icon.astro';
+import SectionHead from './SectionHead.astro';
+
+const site = getSite();
+const items = highlightNews(4);
+const updated = latestContentDate();
+const capture = latestCapture();
+const newsCount = getNews().length;
+const tops = latestRankingByPlatform().flatMap((ranking) => {
+  const first = [...ranking.items].sort((a, b) => a.rank - b.rank)[0];
+  return first ? [{ ranking, first }] : [];
+});
+---
+
+<section class="highlights" aria-labelledby="highlights-title">
+  <SectionHead
+    id="highlights-title"
+    index={site.sections.highlights.index}
+    title={site.sections.highlights.title}
+    note={site.sections.highlights.note}
+  />
+  <p class="update-strip" data-reveal>
+    <span class="live-dot" aria-hidden="true"></span>
+    <span>{site.ui.updatedAt} <time datetime={updated}>{formatDate(updated)}</time></span>
+    <span class="sep" aria-hidden="true"></span>
+    <span>{newsCount} 条资讯已核对来源</span>
+    {
+      capture && (
+        <>
+          <span class="sep" aria-hidden="true"></span>
+          <span>
+            {site.ui.capturedAt} <time datetime={capture}>{formatDateTime(capture)}</time>
+          </span>
+        </>
+      )
+    }
+  </p>
+  {
+    items.length === 0 ? (
+      <p class="empty card">{site.empty.highlights}</p>
+    ) : (
+      <div class="highlight-grid">
+        {items.map((item, index) => {
+          const key = item.key_date!;
+          const days = daysFromToday(key.date);
+          const [, month, day] = key.date.split('-');
+          const names = item.platforms.slice(0, 3).map((id) => getPlatform(id)?.name ?? id);
+          return (
+            <a
+              class:list={['highlight-card card', { lead: index === 0, past: days < 0 }]}
+              href={url(`/news/${item.slug}`)}
+              data-category={item.category}
+              data-reveal
+            >
+              <div class="date-tile">
+                <span class="date-year">{key.date.slice(0, 4)}</span>
+                <strong>
+                  {Number(month)}
+                  <small>月</small>
+                  {Number(day)}
+                  <small>日</small>
+                </strong>
+                <span class="date-label">{key.label}</span>
+              </div>
+              <div class="highlight-body">
+                <p class="countdown">
+                  {days === 0 ? site.ui.today : days > 0 ? fill(site.ui.daysLeft, days) : fill(site.ui.daysPast, -days)}
+                </p>
+                <h3 class="clamp-2">{item.title}</h3>
+                <p class="muted clamp-1">
+                  <span class:list={['pill', item.category === 'rules' ? 'pill-rules' : 'pill-regulation']}>
+                    {site.categoryLabels[item.category]}
+                  </span>{' '}
+                  {names.join(' · ')}
+                </p>
+              </div>
+              <span class="more-icon" aria-hidden="true">
+                <Icon name="arrow" />
+              </span>
+            </a>
+          );
+        })}
+      </div>
+    )
+  }
+  {
+    tops.length > 0 && (
+      <div class="top-strip scroll-x" data-reveal>
+        {tops.map(({ ranking, first }) => {
+          const image = itemImage(first);
+          return (
+            <a class:list={['top-tile', { 'has-image': image }]} href={url(`/rankings/${ranking.platform}`)}>
+              {image && <img class="top-image" src={image.thumb} alt="" loading="lazy" referrerpolicy="no-referrer" />}
+              <span class="top-text">
+                <span class="top-crown">{site.ui.rankingTop}</span>
+                <span class="top-platform">{boardName(ranking.platform)}</span>
+                <strong class="clamp-2">{itemTitle(first).main}</strong>
+                <span class="muted">{first.brand}</span>
+              </span>
+            </a>
+          );
+        })}
+      </div>
+    )
+  }
+</section>

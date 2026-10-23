@@ -1,0 +1,11 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "AboutFrontmatter",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["title", "summary"],
+  "properties": {
+    "title": { "type": "string", "minLength": 2, "maxLength": 40 },
+    "summary": { "type": "string", "minLength": 8, "maxLength": 160 }
+  }
+}

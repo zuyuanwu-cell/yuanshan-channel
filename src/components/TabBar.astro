@@ -1,0 +1,19 @@
+---
+import { getSite } from '../lib/content';
+import { isActivePath, url } from '../lib/format';
+import Icon from './Icon.astro';
+
+const site = getSite();
+const path = Astro.url.pathname;
+---
+
+<nav class="tab-bar" aria-label="底部导航">
+  {
+    site.nav.map((item) => (
+      <a href={url(item.href)} aria-current={isActivePath(path, item.href) ? 'page' : undefined}>
+        <Icon name={item.icon} />
+        <span>{item.label}</span>
+      </a>
+    ))
+  }
+</nav>

@@ -1,0 +1,17 @@
+---
+import { getSite } from '../lib/content';
+
+const site = getSite();
+---
+
+<dialog class="lightbox" data-lightbox aria-label={site.ui.zoomImage}>
+  <figure>
+    <img data-lightbox-img alt="" referrerpolicy="no-referrer" />
+    <figcaption data-lightbox-caption></figcaption>
+  </figure>
+  <button type="button" class="lightbox-close" data-lightbox-close aria-label={site.ui.closeImage}>
+    <svg viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round">
+      <path d="M6 6l12 12M18 6 6 18" />
+    </svg>
+  </button>
+</dialog>

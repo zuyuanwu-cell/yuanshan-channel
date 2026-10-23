@@ -1,0 +1,74 @@
+---
+import { url } from '../lib/format';
+import { getSite, liveBoardFor } from '../lib/content';
+import type { Platform } from '../lib/types';
+
+interface Props {
+  platform: Platform;
+  detailed?: boolean;
+}
+
+const site = getSite();
+const { platform, detailed = false } = Astro.props;
+const board = liveBoardFor(platform.id);
+---
+
+<article
+  class="platform-card card"
+  id={platform.id}
+  data-platform-card
+  data-region={platform.region}
+  data-beauty={platform.mentions_beauty ? 'true' : 'false'}
+  data-reveal
+>
+  <div class="card-top">
+    <span class="pill">{platform.region}</span>
+    {
+      platform.mentions_beauty && (
+        <span class="pill pill-beauty" title={site.ui.beautyOnly}>
+          {site.ui.beautyPill}
+        </span>
+      )
+    }
+  </div>
+  <h3>{platform.name}</h3>
+  <p class="muted clamp-3">{platform.pitch}</p>
+  <div class="card-links">
+    <a href={platform.url} target="_blank" rel="noreferrer">{site.ui.officialSite}</a>
+    <a href={platform.seller_url} target="_blank" rel="noreferrer">{site.ui.sellerEntry}</a>
+    {board && <a class="is-primary" href={url(`/rankings/${board.id}`)}>{site.ui.viewRanking}</a>}
+  </div>
+  {
+    detailed && (
+      <details>
+        <summary>{site.ui.entryFees}</summary>
+        <p>
+          <strong>{site.ui.market}：</strong>
+          {platform.market}
+        </p>
+        <p>
+          <strong>{site.ui.focus}：</strong>
+          {platform.focus}
+        </p>
+        {platform.entry && (
+          <p>
+            <strong>{site.ui.entry}：</strong>
+            {platform.entry}
+          </p>
+        )}
+        {platform.fees && (
+          <p>
+            <strong>{site.ui.fees}：</strong>
+            {platform.fees}
+          </p>
+        )}
+        {platform.note && (
+          <p>
+            <strong>{site.ui.note}：</strong>
+            {platform.note}
+          </p>
+        )}
+      </details>
+    )
+  }
+</article>

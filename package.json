@@ -1,0 +1,34 @@
+{
+  "name": "yuanshan-channel",
+  "private": true,
+  "type": "module",
+  "version": "0.1.0",
+  "description": "同舟跨境·远山频道：美妆日化跨境资讯与热销榜",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "dev": "npm run validate:content && ASTRO_TELEMETRY_DISABLED=1 astro dev --host 0.0.0.0 --port 4477",
+    "build": "npm run validate:content && ASTRO_TELEMETRY_DISABLED=1 astro build",
+    "build:baota": "BASE_PATH=/ SITE_URL=https://ys.tongzhoukuajing.com npm run build",
+    "preview": "astro preview --host 0.0.0.0 --port 4477",
+    "validate:content": "node scripts/validate-content.mjs",
+    "check": "astro check",
+    "astro": "astro"
+  },
+  "dependencies": {
+    "@fontsource/noto-sans-sc": "^5.3.1",
+    "@fontsource/noto-serif-sc": "^5.3.1",
+    "ajv": "^8.20.0",
+    "ajv-formats": "^3.0.1",
+    "astro": "^7.4.2",
+    "gray-matter": "^4.0.3",
+    "js-yaml": "^5.5.0",
+    "marked": "^18.1.1"
+  },
+  "devDependencies": {
+    "@astrojs/check": "^0.9.12",
+    "@types/node": "^22.20.5",
+    "typescript": "^6.0.3"
+  }
+}

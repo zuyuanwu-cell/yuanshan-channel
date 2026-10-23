@@ -1,0 +1,29 @@
+---
+import { getSite } from '../lib/content';
+import { isActivePath, url } from '../lib/format';
+
+const site = getSite();
+const path = Astro.url.pathname;
+---
+
+<header class="site-header">
+  <div class="wrap inner">
+    <a class="brand" href={url("/")} aria-label={site.name}>
+      <span class="brand-mark" aria-hidden="true">{site.ui.brandMark}</span>
+      <span class="brand-text">
+        <strong>{site.channel}</strong>
+        <em>{site.brand}</em>
+      </span>
+    </a>
+    <nav class="pill-nav" aria-label="主导航">
+      {
+        site.nav.map((item) => (
+          <a href={url(item.href)} aria-current={isActivePath(path, item.href) ? 'page' : undefined}>
+            {item.label}
+          </a>
+        ))
+      }
+    </nav>
+    <a class="header-cta" href={url(site.headerCta.href)}>{site.headerCta.label}</a>
+  </div>
+</header>

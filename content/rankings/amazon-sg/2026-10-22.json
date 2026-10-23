@@ -1,0 +1,285 @@
+{
+  "platform": "amazon-sg",
+  "date": "2026-10-22",
+  "captured_at": "2026-10-22T20:44:00+08:00",
+  "category": "beauty-personal-care",
+  "sample": false,
+  "needs_review": false,
+  "partial": true,
+  "coverage_note": "部分数据：只收第 1 页的前 30 名，第 31–50 名靠脚本加载，本期没收。有 8 条在榜单页上没有直接标价，价格留空。这是东南亚的替代样本：Shopee、Lazada 的热销页本期抓不到。",
+  "source_name": "Amazon.sg Best Sellers · Beauty",
+  "source_url": "https://www.amazon.sg/gp/bestsellers/beauty",
+  "source_note": "Amazon 新加坡站公开的 Beauty 热销榜，按销量排序，页面注明「Updated frequently」。名次、标题、价格照抄抓取时的页面；品牌取自各商品页的品牌栏。",
+  "items": [
+    {
+      "rank": 1,
+      "title": "Wet Brush Original Detangler Hair Brush, Color Wash, Watermark, Ultra-Soft IntelliFlex Bristles - Detangling Hairbrush Glides Through Tangles For Wet, Dry & Damaged Hair, Women & Men",
+      "brand": "Wet Brush",
+      "price": 7.54,
+      "currency": "SGD",
+      "url": "https://www.amazon.sg/dp/B09RFJNVZ1",
+      "needs_review": false
+    },
+    {
+      "rank": 2,
+      "title": "CETAPHIL Redness Relieving Foaming Face Wash for Sensitive Skin , 8 fl oz , Gently Cleanses & Calms Sensitive Skin Without Over Drying, (Packaging May Vary)",
+      "brand": "Cetaphil",
+      "price": null,
+      "currency": "SGD",
+      "url": "https://www.amazon.sg/dp/B01MG4OX6Q",
+      "needs_review": false
+    },
+    {
+      "rank": 3,
+      "title": "Burt's Bees 100% Natural Moisturizing Lip Balm, Superfruit - Pink Grapefruit, Mango, Coconut & Pear, Pomegranate - 4 Tubes",
+      "brand": "Burt's Bees",
+      "price": 12.9,
+      "currency": "SGD",
+      "url": "https://www.amazon.sg/dp/B00HJZT0YQ",
+      "needs_review": false
+    },
+    {
+      "rank": 4,
+      "title": "CeraVe Moisturizing Cream for Normal to Dry Skin | 19 Ounce | Fragrance Free | Packaging May Vary",
+      "brand": "CeraVe",
+      "price": null,
+      "currency": "SGD",
+      "url": "https://www.amazon.sg/dp/B00TTD9BRC",
+      "needs_review": false
+    },
+    {
+      "rank": 5,
+      "title": "Skater TOC11-A Sanrio Cinnamoroll Nemu Absorbent and Quick Drying Towel Cap for Hair Drying",
+      "brand": "SKATER",
+      "price": 15.09,
+      "currency": "SGD",
+      "url": "https://www.amazon.sg/dp/B0GMQ51PSP",
+      "needs_review": false
+    },
+    {
+      "rank": 6,
+      "title": "L'Oreal Paris Le Color One Step Toning Hair Gloss, Cool Brunette, 4 Ounce",
+      "brand": "L'Oreal Paris",
+      "price": 25.21,
+      "currency": "SGD",
+      "url": "https://www.amazon.sg/dp/B08HNX5DVB",
+      "needs_review": false
+    },
+    {
+      "rank": 7,
+      "title": "Aveeno Skin Relief Fragrance-Free Body Wash with Triple Oat Formula Soothes Itchy, Dry Skin, Formulated for Sensitive Skin, Fragrance-, Paraben-, Dye- & Soap-Free, 33 fl. oz",
+      "brand": "Aveeno",
+      "price": 25.25,
+      "currency": "SGD",
+      "url": "https://www.amazon.sg/dp/B075X2KL5C",
+      "needs_review": false
+    },
+    {
+      "rank": 8,
+      "title": "eos Shea Better Body Lotion- Vanilla Cashmere, 24-Hour Moisture, 16 fl oz | Natural Shea Butter & Oil, Whipped Vanilla & Caramel, Lasting Hydration, 100% Vegan & Cruelty-Free, Apply to Dry Skin",
+      "brand": "eos",
+      "price": null,
+      "currency": "SGD",
+      "url": "https://www.amazon.sg/dp/B08KT2Z93D",
+      "needs_review": false
+    },
+    {
+      "rank": 9,
+      "title": "RAW Batana Oil for Hair Growth, Dr Sebi Organic Unrefined Batana Oil from Honduran, 100% Pure & Natural Hair Growth Oil for Thicker & Stronger Hair - 2 FL OZ - 60Ml - 1Pack",
+      "brand": "Lampolar",
+      "price": 15.66,
+      "currency": "SGD",
+      "url": "https://www.amazon.sg/dp/B0DBJBHMYC",
+      "needs_review": false
+    },
+    {
+      "rank": 10,
+      "title": "HourGlass Ambient Lighting Blush - # Mood Exposure (Soft Plum) 4.2g",
+      "brand": "HOURGLASS",
+      "price": 73.37,
+      "currency": "SGD",
+      "url": "https://www.amazon.sg/dp/B00I65VJ3I",
+      "needs_review": false
+    },
+    {
+      "rank": 11,
+      "title": "KAI KE0101 Nail Clippers Type001 M Curved Blade Made in Japan",
+      "brand": "KAI",
+      "price": null,
+      "currency": "SGD",
+      "url": "https://www.amazon.sg/dp/B002EQASKA",
+      "needs_review": false
+    },
+    {
+      "rank": 12,
+      "title": "Philips Norelco Quick Clean Pod Cartridge, Lubricates Shaver and Eliminates Cut Hair, 2x 5.4 fl oz Cartridges (Up to 6m Supply), CC12/52",
+      "brand": "Norelco",
+      "price": 11.63,
+      "currency": "SGD",
+      "url": "https://www.amazon.sg/dp/B08RKP4M7F",
+      "needs_review": false
+    },
+    {
+      "rank": 13,
+      "title": "Wet Brush Mini Detangler Hair Brush, Peach",
+      "brand": "Wet Brush",
+      "price": 7.53,
+      "currency": "SGD",
+      "url": "https://www.amazon.sg/dp/B082P37H4B",
+      "needs_review": false
+    },
+    {
+      "rank": 14,
+      "title": "Cerave Cerave Resurfacing Retinol Serum For Post Acne Marks 30ml | Skin Care Brightening Serum with Licorice Root, Acne Scar & Hyperpigmentation Treatment, Dark Spot Corrector, Skin Repair",
+      "brand": "CeraVe",
+      "price": null,
+      "currency": "SGD",
+      "url": "https://www.amazon.sg/dp/B07VWSN95S",
+      "needs_review": false
+    },
+    {
+      "rank": 15,
+      "title": "L'Oreal Paris Makeup True Match Lumi Glotion, Natural Glow Enhancer, Illuminator Highlighter, Bronzing Drops For a Sun-Kissed Glow, 903 Medium",
+      "brand": "L'Oreal Paris",
+      "price": 22.89,
+      "currency": "SGD",
+      "url": "https://www.amazon.sg/dp/B074PTZCNX",
+      "needs_review": false
+    },
+    {
+      "rank": 16,
+      "title": "CeraVe Ultra-Light Moisturizing Gel | Hydrating Gel Face Moisturizer with Ceramides, Niacinamide, Hyaluronic Acid | Fragrance Free | Oil-Free | Weightless Mattifying Moisturizer | 1.75 FL Oz",
+      "brand": "CeraVe",
+      "price": 23.47,
+      "currency": "SGD",
+      "url": "https://www.amazon.sg/dp/B0C7HHKH3G",
+      "needs_review": false
+    },
+    {
+      "rank": 17,
+      "title": "BLUE LIZARD Kids Sunscreen Lotion SPF 50+ 5oz Tube, cream | Kids sunscreen for face and body, mineral sunscreen SPF 50, water-resistant, paraben-free, fragrance-free, UV protection",
+      "brand": "BLUE LIZARD",
+      "price": 21.08,
+      "currency": "SGD",
+      "url": "https://www.amazon.sg/dp/B08Y8KT28V",
+      "needs_review": false
+    },
+    {
+      "rank": 18,
+      "title": "CeraVe Foaming Facial Cleanser for Daily Face Washing, Normal to Oily Skin, 16 oz",
+      "brand": "CeraVe",
+      "price": 25.7,
+      "currency": "SGD",
+      "url": "https://www.amazon.sg/dp/B01N1LL62W",
+      "needs_review": false
+    },
+    {
+      "rank": 19,
+      "title": "LA ROCHE-POSAY Mela B3 Serum 30ml",
+      "brand": "La Roche-Posay",
+      "price": 68.7,
+      "currency": "SGD",
+      "url": "https://www.amazon.sg/dp/B0CM4B43DZ",
+      "needs_review": false
+    },
+    {
+      "rank": 20,
+      "title": "CeraVe Skin Renewing Night Cream | Niacinamide, Peptide Complex, and Hyaluronic Acid Moisturizer for Face | 1.7 Ounce, Packaging may Vary",
+      "brand": "CeraVe",
+      "price": null,
+      "currency": "SGD",
+      "url": "https://www.amazon.sg/dp/B00SNPCSUY",
+      "needs_review": false
+    },
+    {
+      "rank": 21,
+      "title": "Canmake Mermaid Skin Gel UV C03 Pure Purple 40g Sunscreen Niacinamide Purple SPF50+ PA++++ Facial Wash Off",
+      "brand": "Canmake",
+      "price": 13.19,
+      "currency": "SGD",
+      "url": "https://www.amazon.sg/dp/B0CV5WT8CD",
+      "needs_review": false
+    },
+    {
+      "rank": 22,
+      "title": "Wet Brush Ceramic Speed Dry Hair Brush, Black - Vented Design & Soft HeatFlex Bristles Are Blow Dry Safe - Ergonomic Handle Manages Tangles - Pain-Free Hair Accessories",
+      "brand": "Wet Brush",
+      "price": 11.07,
+      "currency": "SGD",
+      "url": "https://www.amazon.sg/dp/B0DMZSD9LW",
+      "needs_review": false
+    },
+    {
+      "rank": 23,
+      "title": "Kirei Kirei Medicated Foaming Hand Soap, 4 L, Fruit Mix Scent Refill, Commercial Use, Large Quantity",
+      "brand": "キレイキレイ",
+      "price": null,
+      "currency": "SGD",
+      "url": "https://www.amazon.sg/dp/B01CFHQG6C",
+      "needs_review": false
+    },
+    {
+      "rank": 24,
+      "title": "Gillette Fusion Razor with 16 Blade Refills, For Men, Close Shave",
+      "brand": "Gillette",
+      "price": 54.63,
+      "currency": "SGD",
+      "url": "https://www.amazon.sg/dp/B098WCDXBG",
+      "needs_review": false
+    },
+    {
+      "rank": 25,
+      "title": "Gillette ProGlide Razor with 16 Blade Refills, Men’s, Close Shave",
+      "brand": "Gillette",
+      "price": null,
+      "currency": "SGD",
+      "url": "https://www.amazon.sg/dp/B098W96N23",
+      "needs_review": false
+    },
+    {
+      "rank": 26,
+      "title": "Schick Quattro Titanium Razor, 1 Razor Handle and 4 Cartridges | Shaving Razors for Men, 4 Blade Mens Razors for Shaving, Razor Blades for Men, 1 Handle with 4 Razor Blades Refills",
+      "brand": "SCHICK",
+      "price": 9.46,
+      "currency": "SGD",
+      "url": "https://www.amazon.sg/dp/B0CQ9K7WDN",
+      "needs_review": false
+    },
+    {
+      "rank": 27,
+      "title": "ZELSO (1 Pack) Total Relief Magnesium Cream – TotalRelief Magnesium Cream, Total Relief Soothing Relief Formula – TotalReliefCream with Magnesium Comfort & Relief Cream.",
+      "brand": "ZELSO",
+      "price": 47.31,
+      "currency": "SGD",
+      "url": "https://www.amazon.sg/dp/B0HFXJQFM6",
+      "needs_review": false
+    },
+    {
+      "rank": 28,
+      "title": "CeraVe Eye Repair Cream for Dark Circles Under Eyes and Puffiness, 0.5 oz | Skin Care, Under Eye Treatment for Puffiness with Niacinamide, Ceramides & Marine Botanical Complex, Ophthalmologist Tested",
+      "brand": "CeraVe",
+      "price": 22.95,
+      "currency": "SGD",
+      "url": "https://www.amazon.sg/dp/B00JJPMXDO",
+      "needs_review": false
+    },
+    {
+      "rank": 29,
+      "title": "Wet Brush Thin Detangler Comb - Purple, Custom Care - All Hair Types - Ultra-Soft IntelliFlex Bristles Glide Through Tangles with Ease - Pain-Free Comb for Men & Women (Pack of 2)",
+      "brand": "Wet Brush",
+      "price": 17.57,
+      "currency": "SGD",
+      "url": "https://www.amazon.sg/dp/B0DPJB6WW2",
+      "needs_review": false
+    },
+    {
+      "rank": 30,
+      "title": "RoC Retinol Correxion Anti-Aging Wrinkle Night Serum, Daily Line Smoothing Skin Care Treatment for Fine Lines, Dark Spots, Post-Acne Scars, 30 Individual Capsules, Unscented, 0.35 Fl Oz",
+      "brand": "RoC",
+      "price": 30.88,
+      "currency": "SGD",
+      "url": "https://www.amazon.sg/dp/B088419TZG",
+      "needs_review": false
+    }
+  ]
+}

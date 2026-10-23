@@ -1,0 +1,60 @@
+---
+import { boardName, getBoard, getSite, itemTitle } from '../lib/content';
+import { formatDateTime, padRank, url } from '../lib/format';
+import type { Ranking } from '../lib/types';
+import Icon from './Icon.astro';
+import RankStats from './RankStats.astro';
+import RankThumb from './RankThumb.astro';
+import Stamps from './Stamps.astro';
+
+interface Props {
+  ranking: Ranking;
+  dateCount?: number;
+  limit?: number;
+}
+
+const site = getSite();
+const { ranking, dateCount = 1, limit = 5 } = Astro.props;
+const board = getBoard(ranking.platform);
+const href = url(`/rankings/${ranking.platform}`);
+const items = [...ranking.items].sort((a, b) => a.rank - b.rank).slice(0, limit);
+---
+
+<article class="rank-card card" data-reveal>
+  <div class="card-top">
+    <span class="stamp-row">
+      {board && <span class="code-chip">{board.code}</span>}
+      <span class="pill pill-teal">{site.categoryLabels['beauty-personal-care']}</span>
+    </span>
+    <span class="stamp-row">
+      {ranking.partial && <span class="stamp stamp-partial">{site.ui.partial}</span>}
+      <Stamps sample={ranking.sample} needsReview={ranking.needs_review} />
+    </span>
+  </div>
+  <h3><a class="rank-card-link" href={href}>{boardName(ranking.platform)}</a></h3>
+  <p class="capture-line">
+    {site.ui.capturedAt} <time datetime={ranking.captured_at}>{formatDateTime(ranking.captured_at)}</time>
+    <span class="muted">· 共 {ranking.items.length} 名</span>
+  </p>
+  <ol class="rank-list">
+    {
+      items.map((item) => {
+        const { main } = itemTitle(item);
+        return (
+          <li class="rank-row has-thumb">
+            <span class:list={['rank-no', { top: item.rank <= 3 }]}>{padRank(item.rank)}</span>
+            <RankThumb item={item} size="sm" />
+            <span class="rank-main">
+              <strong class="clamp-1" title={item.title}>{main}</strong>
+              <RankStats item={item} compact />
+            </span>
+          </li>
+        );
+      })
+    }
+  </ol>
+  <a class="more" href={href}>
+    {site.ui.openFull}{dateCount > 1 ? ` · ${dateCount} 个日期` : ''}
+    <span class="more-icon"><Icon name="arrow" /></span>
+  </a>
+</article>

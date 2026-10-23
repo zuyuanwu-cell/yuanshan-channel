@@ -1,0 +1,17 @@
+---
+import Base from '../layouts/Base.astro';
+import { getAbout, getSite } from '../lib/content';
+
+const site = getSite();
+const about = getAbout();
+---
+
+<Base title={about.title} description={about.summary}>
+  <header class="page-head">
+    <p class="kicker">{site.brand}</p>
+    <h1>{about.title}</h1>
+    <p class="lede">{about.summary}</p>
+  </header>
+  <article class="prose" set:html={about.html} />
+  <p class="banner about-banner" role="note">{site.disclaimer}</p>
+</Base>

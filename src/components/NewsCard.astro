@@ -1,0 +1,49 @@
+---
+import { daysFromToday, getPlatform, getSite } from '../lib/content';
+import { fill, formatDate, formatShortDate, url } from '../lib/format';
+import type { NewsItem } from '../lib/types';
+import Stamps from './Stamps.astro';
+
+interface Props {
+  item: NewsItem;
+}
+
+const site = getSite();
+const { item } = Astro.props;
+const names = item.platforms.map((id) => getPlatform(id)?.name ?? id);
+const days = item.key_date ? daysFromToday(item.key_date.date) : null;
+---
+
+<a
+  class="news-card card"
+  href={url(`/news/${item.slug}`)}
+  data-category={item.category}
+  data-tags={item.tags.join(' ')}
+  data-platforms={item.platforms.join(' ')}
+  data-reveal
+>
+  <div class="card-top">
+    <span class:list={['pill', item.category === 'rules' ? 'pill-rules' : 'pill-regulation']}>
+      {site.categoryLabels[item.category]}
+    </span>
+    <time datetime={item.date}>{formatDate(item.date)}</time>
+  </div>
+  <h3>{item.title}</h3>
+  <p class="muted clamp-3">{item.summary}</p>
+  {
+    item.key_date && days !== null && (
+      <p class:list={['key-chip', { past: days < 0 }]}>
+        <strong>{formatShortDate(item.key_date.date)}</strong>
+        <span>{item.key_date.label}</span>
+        <em>{days === 0 ? site.ui.today : days > 0 ? fill(site.ui.daysLeft, days) : fill(site.ui.daysPast, -days)}</em>
+      </p>
+    )
+  }
+  <div class="tag-row">
+    {item.tags.map((tag) => <span class="tag">#{site.newsTags[tag] ?? tag}</span>)}
+  </div>
+  <div class="card-foot">
+    {names.length > 0 && <span class="muted clamp-1">{names.join(' · ')}</span>}
+    <Stamps sample={item.sample} needsReview={item.needs_review} />
+  </div>
+</a>

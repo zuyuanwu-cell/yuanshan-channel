@@ -1,0 +1,17 @@
+---
+import { getSite, latestContentDate } from '../lib/content';
+import { formatDate } from '../lib/format';
+
+const site = getSite();
+---
+
+<footer class="site-footer">
+  <div class="wrap inner">
+    <strong>{site.name}</strong>
+    <p>
+      {site.ui.updatedAt} <time datetime={latestContentDate()}>{formatDate(latestContentDate())}</time>
+    </p>
+    <p>{site.disclaimer}</p>
+    <p>{site.footerNote}</p>
+  </div>
+</footer>

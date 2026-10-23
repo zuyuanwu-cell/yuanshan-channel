@@ -1,0 +1,50 @@
+---
+import { boardStatus, getBoards, getSite } from '../lib/content';
+import { url } from '../lib/format';
+
+const site = getSite();
+const boards = getBoards().map((board, index) => ({ board, index, status: boardStatus(board.id) }));
+const labels = { live: site.ui.boardLive, gap: site.ui.noRanking, planned: site.ui.boardPlanned };
+const counts = {
+  live: boards.filter((entry) => entry.status === 'live').length,
+  gap: boards.filter((entry) => entry.status === 'gap').length,
+  planned: boards.filter((entry) => entry.status === 'planned').length,
+};
+---
+
+<section class="board-plan" aria-labelledby="board-plan-title">
+  <div class="board-plan-head">
+    <h2 id="board-plan-title">{site.ui.boardPlan}</h2>
+    <p class="board-legend">
+      <span class="legend live"><i aria-hidden="true"></i>{labels.live} {counts.live}</span>
+      <span class="legend gap"><i aria-hidden="true"></i>{labels.gap} {counts.gap}</span>
+      <span class="legend planned"><i aria-hidden="true"></i>{labels.planned} {counts.planned}</span>
+    </p>
+  </div>
+  <p class="muted">{site.ui.boardPlanNote}</p>
+  <ol class="board-grid" data-reveal>
+    {
+      boards.map(({ board, index, status }) => {
+        const body = (
+          <>
+            <span class="board-order">{String(index + 1).padStart(2, '0')}</span>
+            <span class="board-code">{board.code}</span>
+            <strong class="clamp-1">{board.name}</strong>
+            <span class="board-status">{labels[status]}</span>
+          </>
+        );
+        return (
+          <li class:list={['board-tile', `is-${status}`]}>
+            {status === 'live' ? (
+              <a href={url(`/rankings/${board.id}`)}>{body}</a>
+            ) : status === 'gap' ? (
+              <a href={`#gap-${board.id}`}>{body}</a>
+            ) : (
+              <div>{body}</div>
+            )}
+          </li>
+        );
+      })
+    }
+  </ol>
+</section>

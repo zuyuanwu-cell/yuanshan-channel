@@ -1,0 +1,18 @@
+---
+import { url } from '../lib/format';
+import Base from '../layouts/Base.astro';
+import { getSite } from '../lib/content';
+
+const site = getSite();
+---
+
+<Base title={site.notFound.title} description={site.notFound.body}>
+  <header class="page-head">
+    <p class="kicker">404</p>
+    <h1>{site.notFound.title}</h1>
+    <p class="lede">{site.notFound.body}</p>
+  </header>
+  <p>
+    <a class="source-button" href={url("/")}>{site.nav[0]?.label ?? site.channel}</a>
+  </p>
+</Base>

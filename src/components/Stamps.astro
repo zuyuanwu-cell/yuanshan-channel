@@ -1,0 +1,16 @@
+---
+import { getSite } from '../lib/content';
+
+interface Props {
+  sample?: boolean;
+  needsReview?: boolean;
+}
+
+const site = getSite();
+const { sample = false, needsReview = false } = Astro.props;
+---
+
+<span class="stamp-row">
+  {sample && <span class="stamp stamp-sample">{site.stamps.sample}</span>}
+  {needsReview && <span class="stamp stamp-review">{site.stamps.needsReview}</span>}
+</span>

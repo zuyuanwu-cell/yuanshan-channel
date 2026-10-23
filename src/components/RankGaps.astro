@@ -1,0 +1,35 @@
+---
+import { boardName, getSite } from '../lib/content';
+import { formatDate } from '../lib/format';
+import type { RankingGap } from '../lib/types';
+
+interface Props {
+  gaps: RankingGap[];
+  compact?: boolean;
+}
+
+const site = getSite();
+const { gaps, compact = false } = Astro.props;
+---
+
+<div class:list={['gap-list', { compact }]} data-reveal>
+  {
+    gaps.map((gap) => (
+      <div class="gap-card card" id={compact ? undefined : `gap-${gap.platform}`}>
+        <div class="card-top">
+          <span class="pill">{boardName(gap.platform)}</span>
+          <span class="stamp stamp-review">{site.ui.noRanking}</span>
+        </div>
+        {!compact && <p class="muted">{gap.reason}</p>}
+        <p class="gap-meta">
+          <span>
+            尝试于 <time datetime={gap.tried}>{formatDate(gap.tried)}</time>
+          </span>
+          <a class="text-link" href={gap.source_url} target="_blank" rel="noreferrer">
+            {site.ui.viewSource}
+          </a>
+        </p>
+      </div>
+    ))
+  }
+</div>

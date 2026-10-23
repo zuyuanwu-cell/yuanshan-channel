@@ -1,0 +1,50 @@
+---
+import BoardPlan from '../../components/BoardPlan.astro';
+import RankGaps from '../../components/RankGaps.astro';
+import RankPreview from '../../components/RankPreview.astro';
+import Base from '../../layouts/Base.astro';
+import { getRankingGaps, getSite, latestCapture, latestRankingByPlatform, rankingDateCount } from '../../lib/content';
+import { formatDateTime } from '../../lib/format';
+
+const site = getSite();
+const rankings = latestRankingByPlatform();
+const gaps = getRankingGaps();
+const capture = latestCapture();
+---
+
+<Base title={site.pages.rankings.title} description={site.pages.rankings.note}>
+  <header class="page-head">
+    <p class="kicker">{site.categoryLabels['beauty-personal-care']}</p>
+    <h1>{site.pages.rankings.title}</h1>
+    <p class="lede">{site.pages.rankings.note}</p>
+    {
+      capture && (
+        <p class="updated-line">
+          <span class="live-dot" aria-hidden="true"></span>
+          {site.ui.capturedAt} <time datetime={capture}>{formatDateTime(capture)}</time>
+          <span class="muted">· {rankings.length} 个站点</span>
+        </p>
+      )
+    }
+  </header>
+  {
+    rankings.length === 0 ? (
+      <p class="empty card">{site.empty.rankings}</p>
+    ) : (
+      <div class="grid-2">
+        {rankings.map((ranking) => (
+          <RankPreview ranking={ranking} dateCount={rankingDateCount(ranking.platform)} limit={10} />
+        ))}
+      </div>
+    )
+  }
+  <BoardPlan />
+  {
+    gaps.length > 0 && (
+      <section class="related">
+        <h2>{site.ui.noRanking}</h2>
+        <RankGaps gaps={gaps} />
+      </section>
+    )
+  }
+</Base>

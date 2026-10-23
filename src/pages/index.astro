@@ -1,0 +1,102 @@
+---
+import Hero from '../components/Hero.astro';
+import Highlights from '../components/Highlights.astro';
+import NewsCard from '../components/NewsCard.astro';
+import PlatformCard from '../components/PlatformCard.astro';
+import RankPreview from '../components/RankPreview.astro';
+import RankGaps from '../components/RankGaps.astro';
+import SectionHead from '../components/SectionHead.astro';
+import Base from '../layouts/Base.astro';
+import { featuredPlatforms, getNews, getRankingGaps, getSite, latestRankingByPlatform, rankingDateCount } from '../lib/content';
+import { formatDate, url } from '../lib/format';
+
+const site = getSite();
+const news = getNews();
+const regulations = news.filter((item) => item.category === 'regulation');
+const rankings = latestRankingByPlatform();
+const featured = featuredPlatforms();
+const gaps = getRankingGaps();
+---
+
+<Base>
+  <Hero />
+  <Highlights />
+
+  <SectionHead
+    index={site.sections.news.index}
+    title={site.sections.news.title}
+    note={site.sections.news.note}
+    href={url("/news")}
+    linkLabel={site.ui.allNews}
+  />
+  {
+    news.length === 0 ? (
+      <p class="empty card">{site.empty.news}</p>
+    ) : (
+      <div class="grid-3 news-grid">
+        {news.slice(0, 6).map((item) => (
+          <NewsCard item={item} />
+        ))}
+      </div>
+    )
+  }
+
+  <SectionHead
+    index={site.sections.regulation.index}
+    title={site.sections.regulation.title}
+    note={site.sections.regulation.note}
+    href={url("/news?category=regulation")}
+    linkLabel={site.categoryLabels.regulation}
+  />
+  {
+    regulations.length === 0 ? (
+      <p class="empty card">{site.empty.regulation}</p>
+    ) : (
+      <div class="reg-list" data-reveal>
+        {regulations.slice(0, 4).map((item) => (
+          <a class="reg-row" href={url(`/news/${item.slug}`)}>
+            <span class="pill pill-regulation">{site.categoryLabels.regulation}</span>
+            <strong>{item.title}</strong>
+            <time datetime={item.date}>{formatDate(item.date)}</time>
+          </a>
+        ))}
+      </div>
+    )
+  }
+
+  <SectionHead
+    index={site.sections.rankings.index}
+    title={site.sections.rankings.title}
+    note={site.sections.rankings.note}
+    href={url("/rankings")}
+    linkLabel={site.ui.allRankings}
+  />
+  {
+    rankings.length === 0 ? (
+      <p class="empty card">{site.empty.rankings}</p>
+    ) : (
+      <div class="grid-2">
+        {rankings.map((ranking) => (
+          <RankPreview ranking={ranking} dateCount={rankingDateCount(ranking.platform)} />
+        ))}
+      </div>
+    )
+  }
+  {gaps.length > 0 && <RankGaps gaps={gaps} compact />}
+
+  <SectionHead
+    index={site.sections.platforms.index}
+    title={site.sections.platforms.title}
+    note={site.sections.platforms.note}
+    href={url("/platforms")}
+    linkLabel={site.ui.allPlatforms}
+  />
+  <div class="filters scroll-x" role="group" aria-label={site.ui.filterRegion}>
+    <a class="chip" href={url("/platforms?beauty=1")}>{site.ui.beautyOnly}</a>
+    {site.regions.map((region) => <a class="chip" href={url(`/platforms?region=${encodeURIComponent(region)}`)}>{region}</a>)}
+  </div>
+  <p class="muted featured-note">{site.featuredNote}</p>
+  <div class="platform-grid">
+    {featured.map((platform) => <PlatformCard platform={platform} />)}
+  </div>
+</Base>

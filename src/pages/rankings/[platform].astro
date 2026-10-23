@@ -1,0 +1,133 @@
+---
+import RankStats from '../../components/RankStats.astro';
+import RankThumb from '../../components/RankThumb.astro';
+import Stamps from '../../components/Stamps.astro';
+import Base from '../../layouts/Base.astro';
+import { getBoard, getPlatform, getRankings, getRankingsFor, getSite, itemTitle } from '../../lib/content';
+import { formatDate, formatDateTime, padRank, url } from '../../lib/format';
+
+export function getStaticPaths() {
+  return [...new Set(getRankings().map((ranking) => ranking.platform))].map((platform) => ({
+    params: { platform },
+  }));
+}
+
+const site = getSite();
+const platformId = Astro.params.platform;
+if (!platformId) throw new Error('缺少平台');
+const board = getBoard(platformId);
+const platform = board?.platform ? getPlatform(board.platform) : undefined;
+const rankings = getRankingsFor(platformId);
+if (!board || rankings.length === 0) throw new Error(`找不到榜单 ${platformId}`);
+const latest = rankings[0];
+if (!latest) throw new Error(`找不到榜单 ${platformId}`);
+---
+
+<Base title={board.name} description={site.pages.rankings.note}>
+  <a class="back-link" href={url("/rankings")}>{site.ui.backRankings}</a>
+  <header class="page-head">
+    <div class="meta-row">
+      <span class="code-chip">{board.code}</span>
+      <span class="pill">{board.market}</span>
+      <span class="pill pill-teal">{site.categoryLabels['beauty-personal-care']}</span>
+    </div>
+    <h1>{board.name}</h1>
+    {platform && <p class="lede">{platform.pitch}</p>}
+  </header>
+  <div data-ranking-switch>
+    <div class="filters" role="group" aria-label={site.ui.switchDate} hidden={rankings.length < 2}>
+      {
+        rankings.map((ranking) => (
+          <button
+            type="button"
+            class="chip"
+            data-date={ranking.date}
+            aria-pressed={ranking.date === latest.date ? 'true' : 'false'}
+          >
+            {formatDate(ranking.date)}
+          </button>
+        ))
+      }
+    </div>
+    <noscript>
+      <style>
+        [data-ranking-date][hidden] {
+          display: block !important;
+        }
+      </style>
+    </noscript>
+    {
+      rankings.map((ranking) => (
+        <section data-ranking-date={ranking.date} hidden={ranking.date !== latest.date}>
+          <div class="rank-meta card">
+            <dl>
+              <div>
+                <dt>{site.ui.capturedAt}</dt>
+                <dd>
+                  <time datetime={ranking.captured_at}>{formatDateTime(ranking.captured_at)}</time>
+                </dd>
+              </div>
+              <div>
+                <dt>{site.ui.sourceName}</dt>
+                <dd>{ranking.source_name}</dd>
+              </div>
+              <div>
+                <dt>{site.ui.coverage}</dt>
+                <dd>
+                  {ranking.items.length} 名
+                  {ranking.partial && <span class="stamp stamp-partial">{site.ui.partial}</span>}
+                  <Stamps sample={ranking.sample} needsReview={ranking.needs_review} />
+                </dd>
+              </div>
+            </dl>
+            {(ranking.partial || ranking.sample || ranking.needs_review) && (
+              <p class="banner" role="note">
+                {ranking.coverage_note ?? site.rankingBanner}
+              </p>
+            )}
+            <p class="source-note">{ranking.source_note}</p>
+            <p class="meta-row">
+              <a class="source-button" href={ranking.source_url} target="_blank" rel="noreferrer">
+                {site.ui.viewSource}
+              </a>
+              <span class="source-url">{ranking.source_url}</span>
+            </p>
+          </div>
+          <ol class="rank-list card rank-panel">
+            {[...ranking.items]
+              .sort((a, b) => a.rank - b.rank)
+              .map((item) => {
+                  const { main, original } = itemTitle(item);
+                  return (
+                    <li class="rank-row has-thumb is-full">
+                      <span class:list={['rank-no', { top: item.rank <= 3 }]}>{padRank(item.rank)}</span>
+                      <RankThumb item={item} size="lg" />
+                      <div class="rank-main">
+                        {item.url ? (
+                          <a class="clamp-2" href={item.url} target="_blank" rel="noreferrer" title={item.title}>
+                            {main}
+                          </a>
+                        ) : (
+                          <strong class="clamp-2">{main}</strong>
+                        )}
+                        {original && (
+                          <span class="rank-original clamp-1" title={original}>
+                            <span class="sr-only">{site.ui.originalTitle}：</span>
+                            {original}
+                          </span>
+                        )}
+                        <em>
+                          {item.brand}
+                          {item.note ? ` · ${item.note}` : ''}
+                        </em>
+                        <RankStats item={item} />
+                      </div>
+                    </li>
+                  );
+                })}
+          </ol>
+        </section>
+      ))
+    }
+  </div>
+</Base>

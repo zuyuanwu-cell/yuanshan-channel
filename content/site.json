@@ -1,0 +1,449 @@
+{
+  "name": "同舟跨境·远山频道",
+  "slug": "yuanshan-channel",
+  "brand": "同舟跨境",
+  "channel": "远山频道",
+  "tagline": "美妆日化的平台规则、目的国法规和热销结构，一页看完。",
+  "focus": "美妆日化",
+  "locale": "zh-CN",
+  "updated": "2026-10-22",
+  "disclaimer": "每条资讯都附来源链接。标了「待核实」的条目来自媒体或第三方转述，引用前打开原文。费用、排名和法规以官方页面为准。",
+  "footerNote": "个人资讯站，不提供入驻代办，也不替代平台规则中心或法律意见。",
+  "featuredPlatformIds": [
+    "amazon-us",
+    "tiktok-shop",
+    "ozon",
+    "wildberries",
+    "shopee",
+    "temu"
+  ],
+  "featuredNote": "这六个是编辑放在首页的常看平台，不是热度或优先级排名。",
+  "nav": [
+    {
+      "href": "/",
+      "label": "首页",
+      "icon": "home"
+    },
+    {
+      "href": "/news",
+      "label": "资讯",
+      "icon": "news"
+    },
+    {
+      "href": "/rankings",
+      "label": "热销榜",
+      "icon": "rankings"
+    },
+    {
+      "href": "/platforms",
+      "label": "平台",
+      "icon": "platforms"
+    },
+    {
+      "href": "/about",
+      "label": "关于",
+      "icon": "about"
+    }
+  ],
+  "headerCta": {
+    "label": "看热销榜",
+    "href": "/rankings"
+  },
+  "hero": {
+    "badge": "每日更新",
+    "badgeNote": "美妆日化跨境资讯",
+    "titleLine1": "看清平台规则",
+    "titleLine2": "卖好每一瓶货",
+    "lede": "平台规则、目的国法规和各站点美妆日化热销榜，按卡片摊开。每条都附来源链接，盖章的先核实再引用。",
+    "cardCta": "进入",
+    "swipeHint": "左右滑动看全部卡片",
+    "tags": [
+      {
+        "label": "Amazon US",
+        "tone": "coral",
+        "side": "right"
+      },
+      {
+        "label": "TikTok Shop",
+        "tone": "teal",
+        "side": "left"
+      }
+    ],
+    "cards": [
+      {
+        "title": "法规速览",
+        "subtitle": "目的国合规",
+        "href": "/news?category=regulation",
+        "image": "/media/hero/regulation.webp",
+        "colorTop": "#7c51bf",
+        "colorBottom": "#6a3fb0",
+        "statKey": "regulation",
+        "statLabel": "条法规"
+      },
+      {
+        "title": "平台规则",
+        "subtitle": "费用 · 入驻 · 物流",
+        "href": "/news?category=rules",
+        "image": "/media/hero/rules.webp",
+        "colorTop": "#f55046",
+        "colorBottom": "#fb6158",
+        "statKey": "rules",
+        "statLabel": "条规则"
+      },
+      {
+        "title": "热销榜",
+        "subtitle": "美妆日化 · 按站点",
+        "href": "/rankings",
+        "image": "/media/hero/rankings.webp",
+        "colorTop": "#0195a0",
+        "colorBottom": "#33dfe5",
+        "statKey": "rankings",
+        "statLabel": "个站点在榜",
+        "featured": true
+      },
+      {
+        "title": "平台",
+        "subtitle": "入驻与费用要点",
+        "href": "/platforms",
+        "image": "/media/hero/platforms.webp",
+        "colorTop": "#5cb860",
+        "colorBottom": "#88e08e",
+        "statKey": "platforms",
+        "statLabel": "个平台"
+      },
+      {
+        "title": "远山频道",
+        "subtitle": "关于与编辑规则",
+        "href": "/about",
+        "image": "/media/hero/about.webp",
+        "colorTop": "#014bbf",
+        "colorBottom": "#0063da"
+      }
+    ]
+  },
+  "categoryLabels": {
+    "rules": "平台规则",
+    "regulation": "市场法规",
+    "beauty-personal-care": "美妆日化"
+  },
+  "regions": [
+    "中国",
+    "中国出海",
+    "美国",
+    "东南亚",
+    "欧洲",
+    "中东",
+    "俄罗斯/CIS",
+    "拉美",
+    "印度",
+    "日韩",
+    "社交电商"
+  ],
+  "stamps": {
+    "sample": "示例",
+    "needsReview": "待核实"
+  },
+  "reviewBanner": "这条标了待核实：来源是媒体或第三方转述，还没对上官方原文。引用数字或日期前，先打开来源链接。",
+  "rankingBanner": "这份榜单是部分数据，只收了公开页面能直接看到的名次。不是平台官方完整榜单。",
+  "sections": {
+    "highlights": {
+      "index": "01",
+      "title": "今日看点",
+      "note": "临近的生效日和截止日"
+    },
+    "news": {
+      "index": "02",
+      "title": "最新资讯",
+      "note": "规则与法规"
+    },
+    "regulation": {
+      "index": "03",
+      "title": "法规速览",
+      "note": "目的国合规"
+    },
+    "rankings": {
+      "index": "04",
+      "title": "热销榜",
+      "note": "美妆日化"
+    },
+    "platforms": {
+      "index": "05",
+      "title": "平台",
+      "note": "按市场去看"
+    }
+  },
+  "pages": {
+    "news": {
+      "title": "资讯",
+      "note": "平台规则与目的国法规，2026年9–10月。每条都附来源链接；盖了「待核实」的来自媒体转述。"
+    },
+    "rankings": {
+      "title": "热销榜",
+      "note": "只收美妆日化，取自平台公开的热销页。每张榜写明抓取时间和覆盖范围。"
+    },
+    "platforms": {
+      "title": "平台",
+      "note": ""
+    }
+  },
+  "empty": {
+    "news": "还没有资讯。在 content/news 添加 Markdown 后再构建。",
+    "regulation": "还没有法规条目。",
+    "rankings": "还没有榜单。在 content/rankings 按平台和日期添加 JSON 后再构建。",
+    "platforms": "还没有平台。",
+    "highlights": "最近没有临近的生效日或截止日。"
+  },
+  "notFound": {
+    "title": "这一页不在目录里",
+    "body": "回到首页，或去资讯、热销榜、平台索引。"
+  },
+  "ui": {
+    "skip": "跳到内容",
+    "all": "全部",
+    "beautyOnly": "文中写到美妆",
+    "beautyPill": "美妆",
+    "allNews": "全部资讯",
+    "allRankings": "全部榜单",
+    "allPlatforms": "全部平台",
+    "viewRanking": "看榜单",
+    "viewSource": "查看来源",
+    "officialSite": "官网",
+    "sellerEntry": "卖家入口",
+    "entryFees": "入驻与费用",
+    "entry": "入驻",
+    "fees": "费用",
+    "note": "备注",
+    "pricePending": "未显示价格",
+    "filterEmpty": "这个筛选下没有条目。",
+    "updatedPrefix": "整理日",
+    "backNews": "返回资讯",
+    "backRankings": "返回热销榜",
+    "related": "同分类还有",
+    "market": "主要市场",
+    "focus": "类目",
+    "filterNews": "分类",
+    "filterRegion": "按市场筛选平台",
+    "openFull": "看完整榜单",
+    "sourceLabel": "来源",
+    "platformsLabel": "相关平台",
+    "switchDate": "切换日期",
+    "brandMark": "远",
+    "filterTag": "主题",
+    "filterPlatform": "平台",
+    "updatedAt": "更新于",
+    "checkedAt": "核对于",
+    "capturedAt": "抓取于",
+    "publishedAt": "发布",
+    "partial": "部分数据",
+    "daysLeft": "还有 {n} 天",
+    "daysPast": "已过 {n} 天",
+    "today": "就是今天",
+    "noRanking": "本期未抓到",
+    "rankingTop": "榜首",
+    "resetFilters": "清除筛选",
+    "sourceName": "来源",
+    "coverage": "覆盖范围",
+    "keyDate": "关键日期",
+    "boardPlan": "覆盖计划",
+    "boardPlanNote": "按优先序排列。有榜的点进去看；抓不到的写明原因，不做假榜。",
+    "boardLive": "已上榜",
+    "boardPlanned": "待抓取",
+    "zoomImage": "放大图片",
+    "closeImage": "关闭",
+    "noImage": "暂无图",
+    "originalTitle": "原文",
+    "rating": "评分",
+    "reviews": "评价",
+    "sales": "销量"
+  },
+  "newsTags": {
+    "fees": "费用佣金",
+    "listing": "商品与内容",
+    "compliance": "准入备案",
+    "ingredients": "成分禁限",
+    "labeling": "标签标识",
+    "customs": "关税清关",
+    "penalties": "罚则考核",
+    "ai": "AI 内容"
+  },
+  "rankingGaps": [
+    {
+      "platform": "ozon",
+      "tried": "2026-10-22",
+      "reason": "Ozon 的公开类目页对本站抓取环境返回反爬验证页（307 → 403），没有拿到可核对的名次，所以本期不发 Ozon 榜。",
+      "source_url": "https://www.ozon.ru/category/kosmetika-i-uhod-6500/"
+    },
+    {
+      "platform": "shopee-sg",
+      "tried": "2026-10-22",
+      "reason": "Shopee 和 Lazada 的热销页对本站抓取环境返回验证页或脚本空壳，拿不到名次。东南亚先用 Amazon 新加坡站的公开榜。",
+      "source_url": "https://shopee.sg/top_products"
+    }
+  ],
+  "rankingPlatforms": [
+    {
+      "id": "amazon-us",
+      "name": "Amazon 美国站",
+      "code": "US",
+      "market": "美国",
+      "platform": "amazon-us",
+      "board_url": "https://www.amazon.com/Best-Sellers-Beauty-Personal-Care/zgbs/beauty"
+    },
+    {
+      "id": "tiktok-shop-us",
+      "name": "TikTok Shop 美国",
+      "code": "US",
+      "market": "美国",
+      "platform": "tiktok-shop"
+    },
+    {
+      "id": "temu",
+      "name": "Temu",
+      "code": "GL",
+      "market": "全球",
+      "platform": "temu"
+    },
+    {
+      "id": "amazon-uk",
+      "name": "Amazon 英国站",
+      "code": "UK",
+      "market": "英国",
+      "platform": "amazon-eu",
+      "board_url": "https://www.amazon.co.uk/gp/bestsellers/beauty"
+    },
+    {
+      "id": "amazon-de",
+      "name": "Amazon 德国站",
+      "code": "DE",
+      "market": "德国",
+      "platform": "amazon-eu",
+      "board_url": "https://www.amazon.de/gp/bestsellers/beauty"
+    },
+    {
+      "id": "amazon-jp",
+      "name": "Amazon 日本站",
+      "code": "JP",
+      "market": "日本",
+      "board_url": "https://www.amazon.co.jp/gp/bestsellers/beauty"
+    },
+    {
+      "id": "shopee-sg",
+      "name": "Shopee 新加坡",
+      "code": "SG",
+      "market": "新加坡",
+      "platform": "shopee"
+    },
+    {
+      "id": "shopee-id",
+      "name": "Shopee 印尼",
+      "code": "ID",
+      "market": "印尼",
+      "platform": "shopee"
+    },
+    {
+      "id": "shopee-th",
+      "name": "Shopee 泰国",
+      "code": "TH",
+      "market": "泰国",
+      "platform": "shopee"
+    },
+    {
+      "id": "shopee-my",
+      "name": "Shopee 马来西亚",
+      "code": "MY",
+      "market": "马来西亚",
+      "platform": "shopee"
+    },
+    {
+      "id": "shopee-vn",
+      "name": "Shopee 越南",
+      "code": "VN",
+      "market": "越南",
+      "platform": "shopee"
+    },
+    {
+      "id": "lazada-id",
+      "name": "Lazada 印尼",
+      "code": "ID",
+      "market": "印尼",
+      "platform": "lazada"
+    },
+    {
+      "id": "lazada-th",
+      "name": "Lazada 泰国",
+      "code": "TH",
+      "market": "泰国",
+      "platform": "lazada"
+    },
+    {
+      "id": "tiktok-shop-sea",
+      "name": "TikTok Shop 东南亚",
+      "code": "SEA",
+      "market": "东南亚",
+      "platform": "tiktok-shop"
+    },
+    {
+      "id": "amazon-sg",
+      "name": "Amazon 新加坡站",
+      "code": "SG",
+      "market": "新加坡",
+      "platform": "amazon-sg",
+      "board_url": "https://www.amazon.sg/gp/bestsellers/beauty"
+    },
+    {
+      "id": "ozon",
+      "name": "Ozon",
+      "code": "RU",
+      "market": "俄罗斯",
+      "platform": "ozon"
+    },
+    {
+      "id": "wildberries",
+      "name": "Wildberries",
+      "code": "RU",
+      "market": "俄罗斯",
+      "platform": "wildberries"
+    },
+    {
+      "id": "walmart",
+      "name": "Walmart",
+      "code": "US",
+      "market": "美国",
+      "platform": "walmart"
+    },
+    {
+      "id": "ebay",
+      "name": "eBay",
+      "code": "US",
+      "market": "美国",
+      "platform": "ebay"
+    },
+    {
+      "id": "mercado-livre",
+      "name": "Mercado Livre 巴西",
+      "code": "BR",
+      "market": "巴西",
+      "platform": "mercado-libre"
+    },
+    {
+      "id": "aliexpress",
+      "name": "AliExpress",
+      "code": "GL",
+      "market": "全球"
+    },
+    {
+      "id": "noon",
+      "name": "noon",
+      "code": "AE",
+      "market": "阿联酋/沙特",
+      "platform": "noon"
+    },
+    {
+      "id": "coupang",
+      "name": "Coupang",
+      "code": "KR",
+      "market": "韩国",
+      "platform": "coupang"
+    }
+  ]
+}
