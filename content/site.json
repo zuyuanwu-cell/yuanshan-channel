@@ -270,37 +270,37 @@
     {
       "platform": "coupang",
       "tried": "2026-10-23",
-      "reason": "韩站反爬强；下步浏览器 Best Sellers，失败则轮换记缺口。",
+      "reason": "本轮未跑通韩站 Best Sellers；反爬强，记缺口待浏览器重试。",
       "source_url": "https://www.coupang.com/"
     },
     {
       "platform": "ebay",
       "tried": "2026-10-23",
-      "reason": "Beauty 类目 URL 被跳到游戏机页；直连亦 403。无可用美妆热销序，只记缺口。",
+      "reason": "Apify Beauty 列表仅约 6 条，低于入库阈值；不发残榜。",
       "source_url": "https://www.ebay.com/b/Beauty/26395/bn_1850232"
     },
     {
       "platform": "noon",
       "tried": "2026-10-23",
-      "reason": "best-sellers URL 仅返回导航壳无商品卡；暂无可用 noon Actor，记缺口。",
+      "reason": "Apify/公开页未凑满可用美妆热销（与 eBay 同批过少）；不发残榜。",
       "source_url": "https://www.noon.com/uae-en/beauty-and-health/best-sellers/"
     },
     {
       "platform": "shopee-my",
       "tried": "2026-10-23",
-      "reason": "Shopee SG 已用本机浏览器打通；本市场仍待同法抓取（反爬/登录墙）。",
+      "reason": "语言弹窗/反爬导致 0 条；SG/ID 已通，本市场待同法重抓。",
       "source_url": "https://shopee.com.my/"
     },
     {
       "platform": "shopee-th",
       "tried": "2026-10-23",
-      "reason": "Shopee SG 已用本机浏览器打通；本市场仍待同法抓取（反爬/登录墙）。",
+      "reason": "语言弹窗/反爬导致 0 条；SG/ID 已通，本市场待同法重抓。",
       "source_url": "https://shopee.co.th/"
     },
     {
       "platform": "shopee-vn",
       "tried": "2026-10-23",
-      "reason": "Shopee SG 已用本机浏览器打通；本市场仍待同法抓取（反爬/登录墙）。",
+      "reason": "本轮未产出 JSON（抓取中断/登录墙）；SG/ID 已通，待同法重抓。",
       "source_url": "https://shopee.vn/"
     },
     {
@@ -318,8 +318,8 @@
     {
       "platform": "wildberries",
       "tried": "2026-10-23",
-      "reason": "俄区页难直连；下步浏览器+可用出口，通了再发榜。",
-      "source_url": "https://www.wildberries.ru/catalog/krasota"
+      "reason": "本机 CDP 打开化妆类目页但抽取器 0 条；待改选择器后重试，暂不发假榜。",
+      "source_url": "https://www.wildberries.ru/catalog/krasota/makiyazh"
     }
   ],
   "rankingPlatforms": [
