@@ -298,39 +298,27 @@
       "source_url": "https://www.noon.com/uae-en/beauty-and-health/best-sellers/"
     },
     {
-      "platform": "ozon",
-      "tried": "2026-10-23",
-      "reason": "反爬/地区墙；下步用浏览器俄区出口再试，仍失败只记缺口不发假榜。",
-      "source_url": "https://www.ozon.ru/category/kosmetika-i-uhod-6500/"
-    },
-    {
       "platform": "shopee-id",
       "tried": "2026-10-23",
-      "reason": "同 Shopee：反爬/登录墙；优先 SG 打通后再铺 ID。",
+      "reason": "Shopee SG 已用本机浏览器打通；本市场仍待同法抓取（反爬/登录墙）。",
       "source_url": "https://shopee.co.id/"
     },
     {
       "platform": "shopee-my",
       "tried": "2026-10-23",
-      "reason": "同 Shopee 反爬；优先 SG。",
+      "reason": "Shopee SG 已用本机浏览器打通；本市场仍待同法抓取（反爬/登录墙）。",
       "source_url": "https://shopee.com.my/"
-    },
-    {
-      "platform": "shopee-sg",
-      "tried": "2026-10-23",
-      "reason": "Apify kazkn LOGIN_GATE；parseforge 住宅代理仍 HTTP 403/0 商品。暂不发假榜。",
-      "source_url": "https://shopee.sg/Beauty-Personal-Care-cat.11012301?sortBy=sales"
     },
     {
       "platform": "shopee-th",
       "tried": "2026-10-23",
-      "reason": "同 Shopee 反爬；优先 SG。",
+      "reason": "Shopee SG 已用本机浏览器打通；本市场仍待同法抓取（反爬/登录墙）。",
       "source_url": "https://shopee.co.th/"
     },
     {
       "platform": "shopee-vn",
       "tried": "2026-10-23",
-      "reason": "同 Shopee 反爬；优先 SG。",
+      "reason": "Shopee SG 已用本机浏览器打通；本市场仍待同法抓取（反爬/登录墙）。",
       "source_url": "https://shopee.vn/"
     },
     {
