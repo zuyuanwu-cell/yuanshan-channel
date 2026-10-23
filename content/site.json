@@ -314,12 +314,6 @@
       "tried": "2026-10-23",
       "reason": "无稳定公开网页榜；需卖家后台或可信第三方，暂不发榜。",
       "source_url": "https://www.tiktok.com/shop"
-    },
-    {
-      "platform": "wildberries",
-      "tried": "2026-10-23",
-      "reason": "本机 CDP 打开化妆类目页但抽取器 0 条；待改选择器后重试，暂不发假榜。",
-      "source_url": "https://www.wildberries.ru/catalog/krasota/makiyazh"
     }
   ],
   "rankingPlatforms": [
