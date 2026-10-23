@@ -6,7 +6,7 @@
 2. **编辑账号**：谁有 GitHub 仓库写权限，谁就能进后台（不做客服式访客会员）。
 3. **访问量**：自建 Umami，看 PV / 访客 / 来源；脚本由构建环境变量注入。
 
-> 仓库已提交静态页与安装文件，**OAuth 与 Umami 还要你在宝塔上做一次**，没做完之前 `/admin/` 能打开但点 Login 会失败；统计脚本也不会出现。
+> 仓库已提交静态页与安装文件。线上编辑后台与 Umami 已在跑：看板是主站路径 `https://ys.tongzhoukuajing.com/umami/`，统计脚本由 Actions Secrets 注入。下面保留首次安装步骤，换机器时按同一套重做。
 
 ---
 
@@ -16,8 +16,8 @@
 | --- | --- |
 | `https://ys.tongzhoukuajing.com/admin/` 静态页 | 推 `main` 后约 5–10 分钟可打开 |
 | 页脚「编辑入口」 | 同上 |
-| GitHub 登录写资讯 | **需**创建 OAuth App + 起 OAuth 桥 |
-| Umami 看板 | **需** Docker 安装 + 反代 + 填 Actions Secrets |
+| GitHub 登录写资讯 | OAuth 桥已在 `/oauth/health`；仓库写权限即可登录 |
+| Umami 看板 | 已在主站 `/umami/`；`PUBLIC_UMAMI_URL` 为 `https://ys.tongzhoukuajing.com/umami`（无末尾 `/`） |
 | 访客会员体系 | 不做（按你的选择） |
 
 ---
@@ -99,7 +99,7 @@ backend:
 
 ## C. 安装 Umami（访问统计）
 
-详见 [`deploy/umami/README.md`](./umami/README.md)。摘要：
+生产入口是主站路径 **`https://ys.tongzhoukuajing.com/umami/`**，不要再开 `stats.` 子域。详见 [`deploy/umami/README.md`](./umami/README.md)。摘要：
 
 ```bash
 cd /www/server/yuanshan-umami   # 拷入 deploy/umami/
@@ -107,23 +107,26 @@ cp .env.example .env            # 填 POSTGRES_PASSWORD、APP_SECRET
 docker compose up -d
 ```
 
-反代到子域（如 `stats.tongzhoukuajing.com`）或主站 `/umami/`。  
-浏览器打开 → 默认 `admin` / `umami` → **立刻改密** → Settings → Websites → 添加 `ys.tongzhoukuajing.com` → 复制 Website ID。
+`docker-compose.yml` 已包含 `BASE_PATH=/umami`、`DATABASE_TYPE=postgresql`，只监听 `127.0.0.1:3001`，并等数据库健康后再启动。这台 VPS 上 Postgres **必须** `privileged: true` 且 `security_opt: ["seccomp:unconfined"]`，否则 `initdb` 报 `Operation not permitted`。
+
+在 `ys.tongzhoukuajing.com` 用 `location ^~ /umami/` 反代到 `127.0.0.1:3001/`（`^~` 避免宝塔把 `script.js` 当主站静态文件）。看板样式还要放行 `/_next/`，片段见 Umami README。
+
+浏览器打开 `https://ys.tongzhoukuajing.com/umami/` → 默认 `admin` / `umami` → **第一次登录后立刻改掉默认密码** → Settings → Websites → 添加 `ys.tongzhoukuajing.com` → 复制 Website ID。
 
 ---
 
 ## D. 把 Umami 接到站点构建
 
-GitHub 仓库 → **Settings → Secrets and variables → Actions → New repository secret**：
+GitHub 仓库 → **Settings → Secrets and variables → Actions**。这两个 Secret 已经设好，保持原值，不要改成别的地址，也不要新造：
 
 | Name | Value |
 | --- | --- |
-| `PUBLIC_UMAMI_URL` | 例如 `https://stats.tongzhoukuajing.com`（无末尾 `/`） |
+| `PUBLIC_UMAMI_URL` | `https://ys.tongzhoukuajing.com/umami`（无末尾 `/`） |
 | `PUBLIC_UMAMI_WEBSITE_ID` | Umami 给出的 UUID |
 
-推一次 `main`（或手动跑 workflow **Build for Baota**）。构建后页面 `<head>` 才会出现统计脚本；两个 Secret 任一为空则不加载。
+推一次 `main`（或手动跑 workflow **Build for Baota**）后，页面 `<head>` 才会出现统计脚本；两个 Secret 任一为空则不加载。
 
-本地：复制根目录 `.env.example` 为 `.env` 填同样两项，再 `npm run build:baota`。
+本地：复制根目录 `.env.example` 为 `.env`，`PUBLIC_UMAMI_URL` 同样不要末尾斜杠，再 `npm run build:baota`。
 
 ---
 
@@ -164,5 +167,6 @@ GitHub 仓库 → **Settings → Secrets and variables → Actions → New repos
 | Login 弹窗一闪关掉 / authorizing 卡住 | 查 `/oauth/health`、Client Secret、callback URL 是否完全一致 |
 | 登录成功但 repo not found | `config.yml` 的 `repo` 是否 `zuyuanwu-cell/yuanshan-channel`；账号是否有写权限 |
 | 保存后站点没变 | Actions 是否失败（validate:content）；宝塔 cron 是否在拉 `deploy` |
-| 没有统计数据 | Secrets 是否已设并重新构建；浏览器是否拦广告；Website ID 是否对 |
+| 没有统计数据 | `PUBLIC_UMAMI_URL` 是否为 `https://ys.tongzhoukuajing.com/umami`（无末尾 `/`）并已重新构建；`/umami/script.js` 是否被主站 404（Nginx 要用 `location ^~ /umami/`）；Website ID 是否对；浏览器是否拦广告 |
+| `umami-db` 起不来，日志 `Operation not permitted` | 保留 compose 里 Postgres 的 `privileged: true` 和 `seccomp:unconfined` |
 | OAuth 进程挂了 | `pm2 status` / 宝塔 Node 项目日志；`pm2 restart yuanshan-decap-oauth` |
