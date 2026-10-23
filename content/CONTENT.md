@@ -15,6 +15,7 @@
 | `rankings/<platform-id>/YYYY-MM-DD.json` | 某平台某天的美妆日化榜 |
 | `assets/` | 可选图片，页面里用 `/media/文件名` |
 | `schemas/` | 校验合同。每日更新不要改 schema |
+| `datasets/hs-codes/` | 美妆日化海关编码与税率数据集；同步到各国 `compliance/<cc>.json` 的 `hs_codes` |
 
 ### 首页动效卡片
 

@@ -79,6 +79,7 @@ const allowedRoot = new Set([
   'rankings',
   'assets',
   'compliance',
+  'datasets',
 ]);
 
 if (!fs.existsSync(contentDir)) {
@@ -341,5 +342,15 @@ console.log('内容校验通过');
 console.log(`- 平台 ${platformIds.size}`);
 console.log(`- 资讯 ${newsCount}`);
 console.log(`- 合规国家 ${countryIds.size}（${complianceItems} 项）`);
+const hsDataset = path.join(contentDir, 'datasets', 'hs-codes', 'beauty.json');
+if (fs.existsSync(hsDataset)) {
+  const hs = readJson(hsDataset);
+  const n = Array.isArray(hs.items) ? hs.items.length : 0;
+  if (n < 1) fail('content/datasets/hs-codes/beauty.json: items 为空');
+  console.log(`- HS 数据集 ${n} 行（countries ${Object.keys(hs.countries || {}).length}）`);
+} else {
+  console.log('- HS 数据集 未就绪');
+}
+
 console.log(`- 榜单 ${rankingCount}`);
 console.log(`- 榜位 ${boardIds.size}（缺口 ${site?.rankingGaps?.length ?? 0}）`);

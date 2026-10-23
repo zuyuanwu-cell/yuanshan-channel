@@ -74,7 +74,182 @@
   ],
   "last_verified": "2026-10-23",
   "hs_codes": {
-    "status": "pending",
-    "items": []
+    "status": "ready",
+    "items": [
+      {
+        "code": "33030000",
+        "name_zh": "香水",
+        "duty": "18%",
+        "source_url": "https://hscodevn.com/hs/33030000"
+      },
+      {
+        "code": "33030000",
+        "name_zh": "淡香水",
+        "duty": "18%",
+        "source_url": "https://hscodevn.com/hs/33030000"
+      },
+      {
+        "code": "33041000",
+        "name_zh": "唇部彩妆",
+        "duty": "20%",
+        "source_url": "https://hscodevn.com/hs/33041000"
+      },
+      {
+        "code": "33042000",
+        "name_zh": "眼部彩妆",
+        "duty": "22%",
+        "source_url": "https://hscodevn.com/hs/33042000"
+      },
+      {
+        "code": "33043000",
+        "name_zh": "美甲产品",
+        "duty": "22%",
+        "source_url": "https://hscodevn.com/hs/33043000"
+      },
+      {
+        "code": "33049100",
+        "name_zh": "粉类（散粉/粉饼）",
+        "duty": "22%",
+        "source_url": "https://hscodevn.com/hs/33049100"
+      },
+      {
+        "code": "33049930",
+        "name_zh": "面霜/乳液/精华（护肤）",
+        "duty": "18%",
+        "source_url": "https://hscodevn.com/hs/33049930"
+      },
+      {
+        "code": "33049990",
+        "name_zh": "防晒",
+        "duty": "18%",
+        "source_url": "https://hscodevn.com/hs/33049990"
+      },
+      {
+        "code": "33049990",
+        "name_zh": "卸妆产品",
+        "duty": "18%",
+        "source_url": "https://hscodevn.com/hs/33049990"
+      },
+      {
+        "code": "33051090",
+        "name_zh": "洗发水",
+        "duty": "15%",
+        "source_url": "https://hscodevn.com/hs/33051090"
+      },
+      {
+        "code": "33059000",
+        "name_zh": "护发素",
+        "duty": "20%",
+        "source_url": "https://hscodevn.com/hs/33059000"
+      },
+      {
+        "code": "33059000",
+        "name_zh": "染发剂",
+        "duty": "20%",
+        "source_url": "https://hscodevn.com/hs/33059000"
+      },
+      {
+        "code": "33053000",
+        "name_zh": "发胶/定型喷雾",
+        "duty": "15%",
+        "source_url": "https://hscodevn.com/hs/33053000"
+      },
+      {
+        "code": "33061090",
+        "name_zh": "牙膏",
+        "duty": "20%",
+        "source_url": "https://hscodevn.com/hs/33061090"
+      },
+      {
+        "code": "33069000",
+        "name_zh": "漱口水",
+        "duty": "20%",
+        "source_url": "https://hscodevn.com/hs/33069000"
+      },
+      {
+        "code": "33062000",
+        "name_zh": "牙线",
+        "duty": "6%",
+        "source_url": "https://hscodevn.com/hs/33062000"
+      },
+      {
+        "code": "33072000",
+        "name_zh": "止汗/香体",
+        "duty": "20%",
+        "source_url": "https://hscodevn.com/hs/33072000"
+      },
+      {
+        "code": "33071000",
+        "name_zh": "剃须膏",
+        "duty": "18%",
+        "source_url": "https://hscodevn.com/hs/33071000"
+      },
+      {
+        "code": "34013000",
+        "name_zh": "沐浴露",
+        "duty": "27%",
+        "source_url": "https://hscodevn.com/hs/34013000"
+      },
+      {
+        "code": "34011150",
+        "name_zh": "香皂（块）",
+        "duty": "20%",
+        "source_url": "https://hscodevn.com/hs/34011150"
+      },
+      {
+        "code": "34013000",
+        "name_zh": "液体洗手液",
+        "duty": "27%",
+        "source_url": "https://hscodevn.com/hs/34013000"
+      },
+      {
+        "code": "33079040",
+        "name_zh": "脱毛膏",
+        "duty": "20%",
+        "source_url": "https://hscodevn.com/hs/33079040"
+      },
+      {
+        "code": "33049990",
+        "name_zh": "面膜（片状）",
+        "duty": "18%",
+        "source_url": "https://hscodevn.com/hs/33049990"
+      },
+      {
+        "code": "96032900",
+        "name_zh": "化妆刷",
+        "duty": "25%",
+        "source_url": "https://hscodevn.com/hs/96032900"
+      },
+      {
+        "code": "96162000",
+        "name_zh": "化妆海绵/粉扑",
+        "duty": "25%",
+        "source_url": "https://hscodevn.com/hs/96162000"
+      },
+      {
+        "code": "67041900",
+        "name_zh": "假睫毛（合成纤维）",
+        "duty": "25%",
+        "source_url": "https://hscodevn.com/hs/67041900"
+      },
+      {
+        "code": "85103000",
+        "name_zh": "电动脱毛器",
+        "duty": "20%",
+        "source_url": "https://hscodevn.com/hs/85103000"
+      },
+      {
+        "code": "85163200",
+        "name_zh": "美发电器（卷/直发器）",
+        "duty": "25%",
+        "source_url": "https://hscodevn.com/hs/85163200"
+      },
+      {
+        "code": "85437090",
+        "name_zh": "电动美容仪（面部）",
+        "duty": "0%",
+        "source_url": "https://hscodevn.com/hs/85437090"
+      }
+    ]
   }
 }
