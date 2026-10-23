@@ -268,28 +268,16 @@
   },
   "rankingGaps": [
     {
-      "platform": "ozon",
+      "platform": "coupang",
       "tried": "2026-10-23",
-      "reason": "反爬/地区墙；下步用浏览器俄区出口再试，仍失败只记缺口不发假榜。",
-      "source_url": "https://www.ozon.ru/category/kosmetika-i-uhod-6500/"
+      "reason": "韩站反爬强；下步浏览器 Best Sellers，失败则轮换记缺口。",
+      "source_url": "https://www.coupang.com/"
     },
     {
-      "platform": "wildberries",
+      "platform": "ebay",
       "tried": "2026-10-23",
-      "reason": "俄区页难直连；下步浏览器+可用出口，通了再发榜。",
-      "source_url": "https://www.wildberries.ru/catalog/krasota"
-    },
-    {
-      "platform": "shopee-sg",
-      "tried": "2026-10-23",
-      "reason": "纯 SPA/验证页；下步浏览器打开销量排序页抓可见字段。",
-      "source_url": "https://shopee.sg/Beauty-Personal-Care-cat.11012301?sortBy=sales"
-    },
-    {
-      "platform": "shopee-id",
-      "tried": "2026-10-23",
-      "reason": "同 Shopee：须浏览器渲染；日常优先 SG 通后再铺 ID。",
-      "source_url": "https://shopee.co.id/"
+      "reason": "Beauty 类目 URL 被跳到游戏机页；直连亦 403。无可用美妆热销序，只记缺口。",
+      "source_url": "https://www.ebay.com/b/Beauty/26395/bn_1850232"
     },
     {
       "platform": "lazada-id",
@@ -298,22 +286,70 @@
       "source_url": "https://www.lazada.co.id/"
     },
     {
-      "platform": "ebay",
+      "platform": "lazada-th",
       "tried": "2026-10-23",
-      "reason": "直连 403；下步浏览器 Best selling 排序，仍失败只记缺口。",
-      "source_url": "https://www.ebay.com/b/Beauty/26395/bn_1850232"
+      "reason": "热销页常空壳/反爬；通 ID 后再铺。",
+      "source_url": "https://www.lazada.co.th/"
+    },
+    {
+      "platform": "noon",
+      "tried": "2026-10-23",
+      "reason": "best-sellers URL 仅返回导航壳无商品卡；暂无可用 noon Actor，记缺口。",
+      "source_url": "https://www.noon.com/uae-en/beauty-and-health/best-sellers/"
+    },
+    {
+      "platform": "ozon",
+      "tried": "2026-10-23",
+      "reason": "反爬/地区墙；下步用浏览器俄区出口再试，仍失败只记缺口不发假榜。",
+      "source_url": "https://www.ozon.ru/category/kosmetika-i-uhod-6500/"
+    },
+    {
+      "platform": "shopee-id",
+      "tried": "2026-10-23",
+      "reason": "同 Shopee：反爬/登录墙；优先 SG 打通后再铺 ID。",
+      "source_url": "https://shopee.co.id/"
+    },
+    {
+      "platform": "shopee-my",
+      "tried": "2026-10-23",
+      "reason": "同 Shopee 反爬；优先 SG。",
+      "source_url": "https://shopee.com.my/"
+    },
+    {
+      "platform": "shopee-sg",
+      "tried": "2026-10-23",
+      "reason": "Apify kazkn LOGIN_GATE；parseforge 住宅代理仍 HTTP 403/0 商品。暂不发假榜。",
+      "source_url": "https://shopee.sg/Beauty-Personal-Care-cat.11012301?sortBy=sales"
+    },
+    {
+      "platform": "shopee-th",
+      "tried": "2026-10-23",
+      "reason": "同 Shopee 反爬；优先 SG。",
+      "source_url": "https://shopee.co.th/"
+    },
+    {
+      "platform": "shopee-vn",
+      "tried": "2026-10-23",
+      "reason": "同 Shopee 反爬；优先 SG。",
+      "source_url": "https://shopee.vn/"
+    },
+    {
+      "platform": "tiktok-shop-sea",
+      "tried": "2026-10-23",
+      "reason": "同 TikTok Shop：无稳定公开网页榜，暂不发假榜。",
+      "source_url": "https://www.tiktok.com/shop"
     },
     {
       "platform": "tiktok-shop-us",
       "tried": "2026-10-23",
-      "reason": "无稳定公开网页榜；需卖家后台导出或可信第三方，暂不发榜。",
+      "reason": "无稳定公开网页榜；需卖家后台或可信第三方，暂不发榜。",
       "source_url": "https://www.tiktok.com/shop"
     },
     {
-      "platform": "coupang",
+      "platform": "wildberries",
       "tried": "2026-10-23",
-      "reason": "韩站反爬强；下步浏览器 Best Sellers，失败则轮换记缺口。",
-      "source_url": "https://www.coupang.com/"
+      "reason": "俄区页难直连；下步浏览器+可用出口，通了再发榜。",
+      "source_url": "https://www.wildberries.ru/catalog/krasota"
     }
   ],
   "rankingPlatforms": [
