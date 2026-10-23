@@ -130,3 +130,20 @@ npm run build
 3. **地区墙**（Ozon、Wildberries）：浏览器 + 能打开目标站的出口；打不开则记缺口。
 4. **无公开网页榜**（TikTok Shop 等）：卖家后台导出/截屏录入，或标明出处的第三方周报；否则只记缺口。
 5. **字段不全**：照发并设 `partial: true` + `coverage_note`；无公开销量就省略，不编数字；中文标题可译但原文可核对。
+
+## Apify-first ranking sources
+
+B/C 层榜单优先用 Apify 专用 Actor（云端住宅代理，无需本机过验证）；失败再降级本机 CDP；仍失败才写 `rankingGaps`。每次调用加 `callOptions.maxTotalChargeUsd: 0.5`，取数用 `get-dataset-items` 并设 `limit: 50`（默认只回 20 条）。入库时必须补 `title_zh`，`source_note` 写明 Actor 与排序口径。
+
+| 榜位 | Actor | 输入模板 | 排名口径 / 备注 |
+|---|---|---|---|
+| shopee-sg/my/th/vn/id | `xtracto/shopee-search` | `{country:'my', mode:'keyword', keyword:'skincare', sort:'sales', maxProducts:30}`（mode 仅 keyword/category/url；TH 用「สกินแคร์」，VN 用「kem dưỡng da」） | 关键词销量排序；备选 `zen-studio/shopee-product-scraper`（best_selling） |
+| lazada-* | `fatihtahta/lazada-scraper` | 美妆类目/关键词，按销量，30 条 | 备选 `lergassy/lazada-scraper` |
+| ozon | `zen-studio/ozon-scraper-pro` | 美妆类目或关键词，按热度，30 条 | |
+| coupang | `zen-studio/coupang-search-scraper` | 关键词 `스킨케어`，按销量，30 条 | |
+| wildberries | `zen-studio/wildberries-scraper` | `{searchTerms:['уход за кожей'], sortBy:'popular', maxResults:30}` | 备选 `memo23/wildberries-scraper`；未实跑验证 |
+| noon | `memo23/noon-scraper` | `{startUrls:['https://www.noon.com/uae-en/beauty/?sort[by]=popularity&sort[dir]=desc'], country:'uae', maxItems:30}` | 已验证；备选 `saswave/noon-product-scraper` |
+| tiktok-shop-us | `pro100chok/tiktok-shop-scraper-usage` | `{region:'us', scrapeType:'search', searchKeywords:['skincare'], sortBy:'best_sellers', maxItems:30}` | 关键词热销近似榜，`partial:true`，coverage_note 注明非官方榜 |
+| tiktok-shop-sea | 同上（region my/th/sg） | 同上 | 2026-10-23 实测多为零销量小店，质量不足，记缺口 |
+
+**兜底（本机 CDP）**：用户电脑 machine `896edebb-180c-4ced-8d9b-8ec73cf13908`，脚本目录 `C:\Users\Administrator\yuanshan-scrape`，运行 `run_b_tier_scrape.bat`（独立 `chrome-profile`，端口 9222）；验证码页记 blocked，不等人。
