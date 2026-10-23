@@ -339,6 +339,35 @@ function initContactDock(): void {
     form.removeAttribute('aria-busy');
   };
 
+  const focusable = () =>
+    [...dialog.querySelectorAll<HTMLElement>('button, input, textarea, select, a[href]')].filter((el) => {
+      if (el.tabIndex < 0 || el.hasAttribute('disabled')) return false;
+      if (el.closest('[hidden]') || el.closest('[aria-hidden="true"]')) return false;
+      return true;
+    });
+
+  dialog.addEventListener('keydown', (event) => {
+    if (event.key !== 'Tab' || !dialog.open) return;
+    const items = focusable();
+    if (items.length === 0) {
+      event.preventDefault();
+      return;
+    }
+    const first = items[0];
+    const last = items[items.length - 1];
+    const active = document.activeElement;
+    const inside = active instanceof HTMLElement && items.includes(active);
+    if (event.shiftKey) {
+      if (!inside || active === first) {
+        event.preventDefault();
+        last.focus();
+      }
+    } else if (!inside || active === last) {
+      event.preventDefault();
+      first.focus();
+    }
+  });
+
   openBtn.addEventListener('click', () => {
     resetForm();
     dialog.showModal();

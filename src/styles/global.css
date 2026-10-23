@@ -1311,7 +1311,7 @@ time {
 
 .site-footer {
   margin-top: 72px;
-  padding: 48px 0 248px;
+  padding: 48px 0 300px;
   border-top: 1px solid var(--line);
   background: linear-gradient(180deg, rgba(255, 255, 255, 0.03), transparent 140px);
 }
@@ -1554,7 +1554,7 @@ a.social-link:hover {
 
 @media (max-width: 760px) {
   body {
-    padding-bottom: calc(var(--tab-h) + var(--safe-b) + 128px);
+    padding-bottom: calc(var(--tab-h) + var(--safe-b) + 210px);
   }
 
   .wrap {
@@ -3376,7 +3376,7 @@ button.rank-thumb:focus-visible .zoom-badge {
 }
 
 .contact-qr {
-  width: 132px;
+  width: 168px;
   margin: 0;
   padding: 10px 10px 8px;
   border-radius: 22px;
@@ -3580,9 +3580,9 @@ button.rank-thumb:focus-visible .zoom-badge {
   }
 
   .contact-qr {
-    width: 84px;
-    padding: 6px 6px 5px;
-    border-radius: 16px;
+    width: 148px;
+    padding: 8px 8px 6px;
+    border-radius: 18px;
   }
 
   .contact-qr figcaption {
