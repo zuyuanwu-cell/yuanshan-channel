@@ -268,33 +268,27 @@
   },
   "rankingGaps": [
     {
-      "platform": "ebay",
-      "tried": "2026-10-23",
-      "reason": "Apify Beauty 列表仅约 6 条，低于入库阈值；不发残榜。",
-      "source_url": "https://www.ebay.com/b/Beauty/26395/bn_1850232"
-    },
-    {
       "platform": "noon",
       "tried": "2026-10-23",
-      "reason": "Apify/公开页未凑满可用美妆热销（与 eBay 同批过少）；不发残榜。",
-      "source_url": "https://www.noon.com/uae-en/beauty-and-health/best-sellers/"
+      "reason": "本机 CDP 打开 beauty 页仍 0 条商品卡；无可用公开热销榜，暂不发榜。",
+      "source_url": "https://www.noon.com/uae-en/beauty/"
     },
     {
       "platform": "shopee-my",
       "tried": "2026-10-23",
-      "reason": "语言弹窗/反爬导致 0 条；SG/ID 已通，本市场待同法重抓。",
+      "reason": "本机标签未再产出商品卡（仍 0）；SG/ID 已通，MY 待过验证后重抓。",
       "source_url": "https://shopee.com.my/"
     },
     {
       "platform": "shopee-th",
       "tried": "2026-10-23",
-      "reason": "语言弹窗/反爬导致 0 条；SG/ID 已通，本市场待同法重抓。",
+      "reason": "本机有 TH 标签但抽取 0 条（语言/反爬）；SG/ID 已通，待过验证后重抓。",
       "source_url": "https://shopee.co.th/"
     },
     {
       "platform": "shopee-vn",
       "tried": "2026-10-23",
-      "reason": "本轮未产出 JSON（抓取中断/登录墙）；SG/ID 已通，待同法重抓。",
+      "reason": "本机无 VN 美妆标签/无 JSON；SG/ID 已通，待打开销量页后重抓。",
       "source_url": "https://shopee.vn/"
     },
     {
