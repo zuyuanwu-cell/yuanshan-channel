@@ -1,5 +1,6 @@
 # Umami 自建访问统计（免费、开源、无 Cookie）
 # 用法见 README.md
+# 线上入口：https://ys.tongzhoukuajing.com/umami/ （主站路径反代，不是独立子域）
 services:
   umami:
     image: ghcr.io/umami-software/umami:postgresql-latest
@@ -9,6 +10,10 @@ services:
       - "127.0.0.1:3001:3000"
     environment:
       DATABASE_URL: postgresql://umami:${POSTGRES_PASSWORD}@umami-db:5432/umami
+      DATABASE_TYPE: postgresql
+      # 公网挂在 /umami。官方镜像的页面资源仍在容器根路径 /_next，
+      # Nginx 用 proxy_pass 去掉前缀；见 README。
+      BASE_PATH: /umami
       APP_SECRET: ${APP_SECRET}
       DISABLE_TELEMETRY: "1"
     depends_on:
@@ -24,6 +29,10 @@ services:
     image: postgres:16-alpine
     container_name: yuanshan-umami-db
     restart: unless-stopped
+    # 这台 VPS 上不加这两项，initdb 会 Operation not permitted，库起不来。
+    privileged: true
+    security_opt:
+      - "seccomp:unconfined"
     volumes:
       - umami-postgres-data:/var/lib/postgresql/data
     environment:
@@ -31,7 +40,7 @@ services:
       POSTGRES_USER: umami
       POSTGRES_PASSWORD: ${POSTGRES_PASSWORD}
     healthcheck:
-      test: ["CMD-SHELL", "pg_isready -U umami"]
+      test: ["CMD-SHELL", "pg_isready -U umami -d umami"]
       interval: 10s
       timeout: 5s
       retries: 5
