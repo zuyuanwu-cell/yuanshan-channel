@@ -1187,7 +1187,13 @@ time {
 }
 
 .prose img {
-  border-radius: var(--radius-sm);
+  display: block;
+  width: 100%;
+  max-width: 920px;
+  height: auto;
+  margin: 1.35rem auto;
+  border-radius: 14px;
+  box-shadow: 0 12px 40px rgba(20, 16, 40, 0.12);
 }
 
 .back-link {
