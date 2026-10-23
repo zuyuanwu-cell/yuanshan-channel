@@ -73,13 +73,14 @@
 
 ### 单品字段
 
-必填：`rank`、`title`（页面原文）、`brand`、`needs_review`。`needs_review: false` 时必须有单品 `url`。
+必填：`rank`、`title`（页面原文）、`brand`、`needs_review`、`title_zh`（可读中文品名）。`needs_review: false` 时必须有单品 `url`。
+
+已上架发布的榜单（`sample: false`）每条都必须有 `title_zh`：读者只看中文，外文 `title` 保留作核对，不能当页面主显。`title_zh` 须含汉字，品牌+品类+关键规格（容量/片数等原文有的才写），不要和 `title` 相同，也不要编造原文没有的卖点。
 
 可选，页面上看得到才写：
 
 | 字段 | 写什么 |
 | --- | --- |
-| `title_zh` | 中文标题，页面主显；不要和 `title` 一样 |
 | `image_url` | 主图，必须 `https://`，可直接用平台 CDN |
 | `image_zoom_url` | 大图，点开放大时用；不写就用 `image_url` |
 | `image` | 站内镜像图 `/media/...`，文件放 `content/assets/`；有它时优先用它 |

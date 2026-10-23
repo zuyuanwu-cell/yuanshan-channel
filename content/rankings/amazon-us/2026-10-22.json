@@ -18,7 +18,8 @@
       "price": 11.97,
       "currency": "USD",
       "url": "https://www.amazon.com/dp/B074PVTPBW",
-      "needs_review": false
+      "needs_review": false,
+      "title_zh": "Mighty Patch Hero Cosmetics 原版夜间痘痘贴，36片｜水胶体隐形贴，一夜消白头"
     },
     {
       "rank": 2,
@@ -27,7 +28,8 @@
       "price": 18.9,
       "currency": "USD",
       "url": "https://www.amazon.com/dp/B09V7Z4TJG",
-      "needs_review": false
+      "needs_review": false,
+      "title_zh": "medicube Zero Pore Pad 2.0 毛孔护理化妆棉，70片｜4.5% AHA + 0.45% BHA 双面垫"
     },
     {
       "rank": 3,
@@ -36,7 +38,8 @@
       "price": 9.97,
       "currency": "USD",
       "url": "https://www.amazon.com/dp/B08KT2Z93D",
-      "needs_review": false
+      "needs_review": false,
+      "title_zh": "eos Shea Better 身体乳-香草羊绒，24小时保湿，16 fl oz｜乳木果油，纯素"
     },
     {
       "rank": 4,
@@ -45,7 +48,8 @@
       "price": 17.95,
       "currency": "USD",
       "url": "https://www.amazon.com/dp/B07PBXXNCY",
-      "needs_review": false
+      "needs_review": false,
+      "title_zh": "Clean Skin Club Clean Towels XL 一次性洁面巾，50片｜USDA 生物基，超柔软"
     },
     {
       "rank": 5,
@@ -54,7 +58,8 @@
       "price": 2.55,
       "currency": "USD",
       "url": "https://www.amazon.com/dp/B09541P9WH",
-      "needs_review": false
+      "needs_review": false,
+      "title_zh": "Amazon Essentials 棉签，500支（原 Amazon Basics）"
     },
     {
       "rank": 6,
@@ -63,7 +68,8 @@
       "price": 9.97,
       "currency": "USD",
       "url": "https://www.amazon.com/dp/B00U2VQZDS",
-      "needs_review": false
+      "needs_review": false,
+      "title_zh": "露得清（Neutrogena）卸妆棉，2×25片｜植物基微米净水配方，温和卸防水妆"
     },
     {
       "rank": 7,
@@ -72,7 +78,8 @@
       "price": 2.96,
       "currency": "USD",
       "url": "https://www.amazon.com/dp/B09542G9ZN",
-      "needs_review": false
+      "needs_review": false,
+      "title_zh": "Amazon Essentials 100% 纯棉化妆棉，100片"
     },
     {
       "rank": 8,
@@ -81,7 +88,8 @@
       "price": 10.8,
       "currency": "USD",
       "url": "https://www.amazon.com/dp/B08H3JPH74",
-      "needs_review": false
+      "needs_review": false,
+      "title_zh": "美宝莲（Maybelline）Lash Sensational Sky High 睫毛膏，浓密纤长，极黑色"
     },
     {
       "rank": 9,
@@ -91,7 +99,8 @@
       "currency": "USD",
       "url": "https://www.amazon.com/dp/B01N9SPQHQ",
       "needs_review": false,
-      "note": "品牌据标题"
+      "note": "品牌据标题",
+      "title_zh": "理肤泉（La Roche-Posay）Toleriane Double Repair 面部保湿霜｜烟酰胺+神经酰胺"
     },
     {
       "rank": 10,
@@ -100,16 +109,18 @@
       "price": 24.99,
       "currency": "USD",
       "url": "https://www.amazon.com/dp/B0G1VBDXYF",
-      "needs_review": false
+      "needs_review": false,
+      "title_zh": "Luxe 变色粉底液 – 中色号"
     },
     {
       "rank": 11,
       "title": "BIODANCE Bio-Collagen Real Deep Mask for Hydrating & Plumping (4ea) | Overnight Hydrogel Face Mask, Pore Minimizing, Elasticity, Korean Skin Care, Self Care Gifts for Women, Travel Essentials",
       "brand": "BIODANCE",
-      "price": 19.0,
+      "price": 19,
       "currency": "USD",
       "url": "https://www.amazon.com/dp/B0B2RM68G2",
-      "needs_review": false
+      "needs_review": false,
+      "title_zh": "BIODANCE Bio-Collagen 生物胶原深层面膜（4片）｜过夜水凝胶面膜，韩国护肤"
     },
     {
       "rank": 12,
@@ -118,7 +129,8 @@
       "price": 13.97,
       "currency": "USD",
       "url": "https://www.amazon.com/dp/B07GB3NVN1",
-      "needs_review": false
+      "needs_review": false,
+      "title_zh": "Native 无铝香体膏，椰子香草，2.65oz｜72小时控味，纯素"
     },
     {
       "rank": 13,
@@ -127,7 +139,8 @@
       "price": 9.89,
       "currency": "USD",
       "url": "https://www.amazon.com/dp/B081KL2QYJ",
-      "needs_review": false
+      "needs_review": false,
+      "title_zh": "PanOxyl 痤疮泡沫洁面，10% 过氧化苯甲酰，5.5 oz｜强效抗菌"
     },
     {
       "rank": 14,
@@ -137,7 +150,8 @@
       "currency": "USD",
       "url": "https://www.amazon.com/dp/B00F1U0YB4",
       "needs_review": false,
-      "note": "品牌据标题"
+      "note": "品牌据标题",
+      "title_zh": "Mrs. Meyer's Clean Day 洗手液补充装，柠檬马鞭草，33 Fl Oz"
     },
     {
       "rank": 15,
@@ -146,7 +160,8 @@
       "price": 9.98,
       "currency": "USD",
       "url": "https://www.amazon.com/dp/B0DPHQRLJC",
-      "needs_review": false
+      "needs_review": false,
+      "title_zh": "eos Cashmere 沐浴露-香草羊绒，乳木果油，16 fl oz"
     },
     {
       "rank": 16,
@@ -155,7 +170,8 @@
       "price": 4.98,
       "currency": "USD",
       "url": "https://www.amazon.com/dp/B000H3EO34",
-      "needs_review": false
+      "needs_review": false,
+      "title_zh": "露华浓（Revlon）ColorStay 防水眼线笔，203 棕色"
     },
     {
       "rank": 17,
@@ -164,7 +180,8 @@
       "price": 3.86,
       "currency": "USD",
       "url": "https://www.amazon.com/dp/B09HHDHXWX",
-      "needs_review": false
+      "needs_review": false,
+      "title_zh": "Amazon Basics 温和透明洗手液补充装，50 fl oz"
     },
     {
       "rank": 18,
@@ -173,7 +190,8 @@
       "price": 16.88,
       "currency": "USD",
       "url": "https://www.amazon.com/dp/B00AINMFAC",
-      "needs_review": false
+      "needs_review": false,
+      "title_zh": "Nizoral 去屑洗发水，1% 酮康唑，7 Fl Oz"
     },
     {
       "rank": 19,
@@ -182,7 +200,8 @@
       "price": 4.93,
       "currency": "USD",
       "url": "https://www.amazon.com/dp/B00T0C9XRK",
-      "needs_review": false
+      "needs_review": false,
+      "title_zh": "essence Lash Princess 假睫毛效果睫毛膏，黑色｜浓密纤长，纯素"
     },
     {
       "rank": 20,
@@ -191,7 +210,8 @@
       "price": 13.97,
       "currency": "USD",
       "url": "https://www.amazon.com/dp/B08BW46XXK",
-      "needs_review": false
+      "needs_review": false,
+      "title_zh": "Vanicream 日常面部保湿霜，3 Fl Oz｜敏感肌，神经酰胺+玻尿酸"
     },
     {
       "rank": 21,
@@ -200,7 +220,8 @@
       "price": 14.2,
       "currency": "USD",
       "url": "https://www.amazon.com/dp/B0DGTMR754",
-      "needs_review": false
+      "needs_review": false,
+      "title_zh": "medicube 三文鱼 DNA PDRN 粉胶原果冻凝胶面膜，28g×4｜过夜面膜"
     },
     {
       "rank": 22,
@@ -210,7 +231,8 @@
       "currency": "USD",
       "url": "https://www.amazon.com/dp/B071914GGL",
       "needs_review": false,
-      "note": "品牌据标题"
+      "note": "品牌据标题",
+      "title_zh": "The Ordinary 7% 甘醇酸去角质爽肤水｜提亮平滑肤色"
     },
     {
       "rank": 23,
@@ -219,7 +241,8 @@
       "price": 4.73,
       "currency": "USD",
       "url": "https://www.amazon.com/dp/B00J4YYFYA",
-      "needs_review": false
+      "needs_review": false,
+      "title_zh": "Q-tips 棉签，750支｜100% 纯棉"
     },
     {
       "rank": 24,
@@ -229,17 +252,19 @@
       "currency": "USD",
       "url": "https://www.amazon.com/dp/B0060OUV5Y",
       "needs_review": false,
-      "note": "品牌据标题"
+      "note": "品牌据标题",
+      "title_zh": "理肤泉 Cicaplast Balm B5 屏障修复霜｜积雪草+泛醇，婴幼儿可用"
     },
     {
       "rank": 25,
       "title": "e.l.f. Cream Glide Lip Liner, Highly-Pigmented Pencil For Shaping & Sculpting Lips, Semi-Matte Finish, Vegan & Cruelty-Free",
       "brand": "e.l.f.",
-      "price": 2.0,
+      "price": 2,
       "currency": "USD",
       "url": "https://www.amazon.com/dp/B0CMYR1CNK",
       "needs_review": false,
-      "note": "品牌据标题"
+      "note": "品牌据标题",
+      "title_zh": "e.l.f. Cream Glide 唇线笔｜半哑光，纯素"
     },
     {
       "rank": 26,
@@ -248,7 +273,8 @@
       "price": 6.88,
       "currency": "USD",
       "url": "https://www.amazon.com/dp/B075JRT85B",
-      "needs_review": false
+      "needs_review": false,
+      "title_zh": "Degree Men UltraClear 止汗香体膏，2支×2.7 oz｜72小时防护"
     },
     {
       "rank": 27,
@@ -257,7 +283,8 @@
       "price": 15.48,
       "currency": "USD",
       "url": "https://www.amazon.com/dp/B01MSSDEPK",
-      "needs_review": false
+      "needs_review": false,
+      "title_zh": "适乐肤 CeraVe 玻尿酸保湿洁面乳，温和洁面 16 oz｜干性至正常肤质"
     },
     {
       "rank": 28,
@@ -267,26 +294,29 @@
       "currency": "USD",
       "url": "https://www.amazon.com/dp/B017PCGABI",
       "needs_review": false,
-      "note": "品牌据标题"
+      "note": "品牌据标题",
+      "title_zh": "卡尼尔 Garnier 胶束卸妆水，保湿洁面+卸妆，适合敏感肌"
     },
     {
       "rank": 29,
       "title": "The Ordinary Niacinamide 10% + Zinc 1%, Smoothing Serum for Blemish-Prone Skin",
       "brand": "The Ordinary",
-      "price": 6.0,
+      "price": 6,
       "currency": "USD",
       "url": "https://www.amazon.com/dp/B01MDTVZTZ",
       "needs_review": false,
-      "note": "品牌据标题"
+      "note": "品牌据标题",
+      "title_zh": "The Ordinary 烟酰胺 10% + 锌 1% 精华｜控油平滑痘肌"
     },
     {
       "rank": 30,
       "title": "e.l.f. Instant Lift Brow Pencil, Dual-Sided, Neutral Brown | Retractable Precision-Tip Brow Pencil with Grooming Spoolie for Buildable Natural-Looking Color, Vegan & Cruelty-Free",
       "brand": "e.l.f.",
-      "price": 4.0,
+      "price": 4,
       "currency": "USD",
       "url": "https://www.amazon.com/dp/B00WAJAKOU",
-      "needs_review": false
+      "needs_review": false,
+      "title_zh": "e.l.f. Instant Lift 眉笔双头，Neutral Brown｜可伸缩刷头"
     }
   ]
 }

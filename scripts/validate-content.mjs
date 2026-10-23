@@ -262,7 +262,15 @@ if (!fs.existsSync(rankingsDir)) {
         if (item.reviews_count !== undefined && item.rating === undefined) {
           fail(`${itemLabel}: 有 reviews_count 时要同时写页面上的 rating`);
         }
-        if (item.title_zh && item.title_zh === item.title) {
+        if (data.sample !== true) {
+          if (!item.title_zh || !String(item.title_zh).trim()) {
+            fail(`${itemLabel}: 发布榜单必须有中文 title_zh（读者看不懂外文标题）`);
+          } else if (!/[\u4e00-\u9fff]/.test(item.title_zh)) {
+            fail(`${itemLabel}: title_zh 须含汉字，不能只是外文或品牌前缀`);
+          } else if (item.title_zh === item.title) {
+            fail(`${itemLabel}: title_zh 与 title 相同，不是中文标题就别填`);
+          }
+        } else if (item.title_zh && item.title_zh === item.title) {
           fail(`${itemLabel}: title_zh 与 title 相同，不是中文标题就别填`);
         }
       }

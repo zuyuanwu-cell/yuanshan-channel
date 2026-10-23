@@ -56,7 +56,8 @@ sample: false
 - `captured_at` 写抓取时刻和时区，例如 `2026-10-22T20:38:00+08:00`，日期部分等于 `date`
 - `source_name`、`source_url` 指向你打开的榜单页
 - `partial: true` 时必须写 `coverage_note`，说清楚收了第几名到第几名、缺了什么
-- 每一条有 `rank`、`title`、`brand`、`needs_review`；已核实条目要有单品 `url`
+- 每一条有 `rank`、`title`、`title_zh`、`brand`、`needs_review`；已核实条目要有单品 `url`
+- **`title_zh` 必填（发布榜）**：可读中文品名（含汉字），品牌+品类+规格；保留外文 `title` 对照；不要和 `title` 相同，不要编卖点。读者看不懂外文标题。
 - 价格照抄页面并写 `currency`；页面没显示价格就 `"price": null`，不要发明价格
 - 品牌取商品页品牌栏；拿不到时取标题里的品牌名，并在 `note` 写「品牌据标题」
 
@@ -81,7 +82,7 @@ sample: false
 ```
 
 - 图片：`image_url` 用页面 `<img>` 的 https 地址；Amazon 把 `._AC_..._.` 换成 `._AC_SL1000_.` 就是大图，填 `image_zoom_url`
-- `title_zh`：忠实翻译品名、规格；不加原文没有的功效词
+- `title_zh`（必填）：忠实翻译品名、规格为中文；不加原文没有的功效词；缺中文名的条目不要推送上线
 - 销量：页面有「10万+」「月销」就照抄进 `sales_text`，Amazon 的「bought in past month」进 `bought_text`；没有就省略，不要估
 - 评分、评价数：榜单页或商品页显示的才写
 
