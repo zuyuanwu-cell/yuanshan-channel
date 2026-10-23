@@ -1,0 +1,44 @@
+---
+interface Props {
+  text: string;
+  phrases?: string[];
+}
+
+const { text, phrases = [] } = Astro.props;
+
+function escapeRegExp(value: string): string {
+  return value.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+}
+
+const hits = [...new Set(phrases.filter((phrase) => phrase && text.includes(phrase)))].sort(
+  (a, b) => b.length - a.length,
+);
+
+const parts: { text: string; hit: boolean }[] = [];
+if (hits.length === 0) {
+  parts.push({ text, hit: false });
+} else {
+  const pattern = new RegExp(hits.map(escapeRegExp).join('|'), 'g');
+  let last = 0;
+  for (const match of text.matchAll(pattern)) {
+    const index = match.index ?? 0;
+    if (index > last) parts.push({ text: text.slice(last, index), hit: false });
+    parts.push({ text: match[0], hit: true });
+    last = index + match[0].length;
+  }
+  if (last < text.length) parts.push({ text: text.slice(last), hit: false });
+}
+---
+
+{parts.map((part) => (part.hit ? <mark>{part.text}</mark> : part.text))}
+
+<style>
+  mark {
+    background: color-mix(in srgb, var(--violet) 34%, transparent);
+    color: inherit;
+    padding: 0.06em 0.28em;
+    border-radius: 0.32em;
+    box-decoration-break: clone;
+    -webkit-box-decoration-break: clone;
+  }
+</style>

@@ -10,7 +10,7 @@
 | --- | --- |
 | `site.json` | 站名、导航、栏目名、空状态、免责声明、页脚社交和合作入口 |
 | `platforms.json` | 平台名单。`id` 必须和元数据一致 |
-| `about.md` | 关于页 |
+| `about.md` | 关于页。版面来自文首字段，正文不直接渲染 |
 | `news/YYYY-MM-DD-slug.md` | 一条资讯 |
 | `rankings/<platform-id>/YYYY-MM-DD.json` | 某平台某天的美妆日化榜 |
 | `assets/` | 可选图片，页面里用 `/media/文件名` |
@@ -34,6 +34,10 @@
 - `social`：抖音、视频号、小红书、微博。`href` 以 `https://` 开头才是可点链接；留空则图标变灰。没有主页地址时写 `hint`（视频号目前是「微信搜：同舟跨境远山」）。
 - `contact.wechatQr` 指向 `/media/contact/wechat-qr.webp`，文件放在 `content/assets/contact/wechat-qr.webp`。换二维码只替换这个文件，再推送构建。
 - 合作表单的企业微信地址不写在 `site.json`，只放在宝塔 OAuth 桥的环境变量里。见 `deploy/ADMIN.md`。
+
+### 关于页
+
+`about.md` 的文首字段决定版面：开场、业务范围卡片、工厂照片、频道在做什么、使用说明、收尾。正文不直接渲染。高亮短语必须能在同一节原文里原样找到；使用说明里的「不提供入驻代办」来自 `site.json` 的 `footerNote`。照片放 `content/assets/about/`，`src` 写 `/media/about/文件名.webp`，`alt` 用中文。不要写客户数量、成交额或其他没有来源的证明。
 
 `news` 文件名里的日期必须等于 frontmatter 的 `date`。榜单文件名必须等于 JSON 里的 `date`，目录名必须等于 `platform`。
 

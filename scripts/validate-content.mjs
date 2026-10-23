@@ -326,6 +326,28 @@ for (const [index, gap] of (site?.rankingGaps ?? []).entries()) {
   if (gap.tried && !isRealDate(gap.tried)) fail(`${label}: tried 不是真实日期`);
 }
 
+function joinedText(value) {
+  if (typeof value === 'string') return value;
+  if (Array.isArray(value)) return value.map(joinedText).filter(Boolean).join('\n');
+  if (value && typeof value === 'object') {
+    return Object.entries(value)
+      .filter(([key]) => key !== 'highlights')
+      .map(([, item]) => joinedText(item))
+      .filter(Boolean)
+      .join('\n');
+  }
+  return '';
+}
+
+function requireHighlights(label, phrases, blob) {
+  if (!Array.isArray(phrases)) return;
+  for (const phrase of phrases) {
+    if (typeof phrase !== 'string' || !blob.includes(phrase)) {
+      fail(`${label}: 高亮「${phrase}」不在本节原文里`);
+    }
+  }
+}
+
 const aboutPath = path.join(contentDir, 'about.md');
 if (!fs.existsSync(aboutPath)) {
   fail('缺少 content/about.md');
@@ -334,6 +356,29 @@ if (!fs.existsSync(aboutPath)) {
   if (parsed) {
     schemaErrors(aboutPath, validateAbout, parsed.data);
     if (parsed.content.trim().length < 40) fail('content/about.md: 正文过短');
+    const data = parsed.data ?? {};
+    const cards = data.scope?.cards ?? [];
+    if (!cards.some((card) => card.group === 'scope') || !cards.some((card) => card.group === 'question')) {
+      fail('content/about.md: 业务范围需要同时有工厂供应链卡片和三个具体问题');
+    }
+    for (const [index, photo] of (data.scope?.photos ?? []).entries()) {
+      if (typeof photo?.alt === 'string' && !/[\u4e00-\u9fff]/.test(photo.alt)) {
+        fail(`content/about.md: scope.photos[${index}].alt 须含汉字`);
+      }
+      if (typeof photo?.src === 'string' && photo.src.startsWith('/media/')) {
+        const file = path.join(contentDir, 'assets', photo.src.slice('/media/'.length));
+        if (!fs.existsSync(file)) fail(`content/about.md: scope.photos[${index}] 找不到文件 ${rel(file)}`);
+      }
+    }
+    requireHighlights('content/about.md opening', data.opening?.highlights, joinedText(data.opening));
+    requireHighlights('content/about.md scope', data.scope?.highlights, joinedText(data.scope));
+    requireHighlights('content/about.md channel', data.channel?.highlights, joinedText(data.channel));
+    requireHighlights(
+      'content/about.md boundary',
+      data.boundary?.highlights,
+      `${joinedText(data.boundary)}\n${site?.footerNote ?? ''}\n${site?.disclaimer ?? ''}`,
+    );
+    requireHighlights('content/about.md close', data.close?.highlights, joinedText(data.close));
   }
 }
 

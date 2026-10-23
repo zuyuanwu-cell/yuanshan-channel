@@ -1,17 +1,561 @@
 ---
+import MarkText from '../components/MarkText.astro';
+import SectionHead from '../components/SectionHead.astro';
 import Base from '../layouts/Base.astro';
 import { getAbout, getSite } from '../lib/content';
+import { url } from '../lib/format';
 
 const site = getSite();
 const about = getAbout();
+const scopeCards = about.scope.cards.filter((card) => card.group === 'scope');
+const questionCards = about.scope.cards.filter((card) => card.group === 'question');
 ---
 
 <Base title={about.title} description={about.summary}>
-  <header class="page-head">
-    <p class="kicker">{site.brand}</p>
-    <h1>{about.title}</h1>
-    <p class="lede">{about.summary}</p>
-  </header>
-  <article class="prose" set:html={about.html} />
-  <p class="banner about-banner" role="note">{site.disclaimer}</p>
+  <div class="about-page">
+    <header class="page-head" id="opening">
+      <p class="kicker">{about.title}</p>
+      <div class="about-lead">
+        <div>
+          <h1 class="about-motto">{about.opening.motto}</h1>
+          <p class="about-meaning">
+            <mark>{about.opening.meaning}</mark>
+          </p>
+        </div>
+        <div class="about-copy">
+          {
+            about.opening.paragraphs.map((paragraph) => (
+              <p>
+                <MarkText text={paragraph} phrases={about.opening.highlights} />
+              </p>
+            ))
+          }
+        </div>
+      </div>
+    </header>
+
+    <SectionHead index="01" title={about.scope.title} id="scope" />
+    <ul class="about-cards">
+      {
+        scopeCards.map((card) => (
+          <li class="about-card card" data-reveal>
+            <span class="about-label">{card.label}</span>
+            <h3>
+              <MarkText text={card.title} phrases={about.scope.highlights} />
+            </h3>
+            <p>
+              <MarkText text={card.text} phrases={about.scope.highlights} />
+            </p>
+          </li>
+        ))
+      }
+    </ul>
+
+    <h3 class="about-subhead" id="questions">{about.scope.questionsTitle}</h3>
+    <p class="about-copy about-intro">
+      <MarkText text={about.scope.questionsIntro} phrases={about.scope.highlights} />
+    </p>
+    <ol class="about-cards">
+      {
+        questionCards.map((card) => (
+          <li class="about-card card" data-reveal>
+            <span class="about-label">{card.label}</span>
+            <h3>
+              <MarkText text={card.title} phrases={about.scope.highlights} />
+            </h3>
+            <p>
+              <MarkText text={card.text} phrases={about.scope.highlights} />
+            </p>
+          </li>
+        ))
+      }
+    </ol>
+    <p class="about-bridge">
+      <MarkText text={about.scope.bridge} phrases={about.scope.highlights} />
+    </p>
+
+    <ul class="about-photos" aria-label="化妆品工厂">
+      {
+        about.scope.photos.map((photo) => (
+          <li>
+            <figure>
+              <button
+                type="button"
+                class="about-shot"
+                data-zoom={url(photo.src)}
+                data-zoom-caption={photo.caption}
+                aria-label={`${site.ui.zoomImage}：${photo.alt}`}
+              >
+                <img src={url(photo.src)} alt={photo.alt} width="1280" height="720" loading="lazy" decoding="async" />
+                <span class="about-shot-zoom" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round">
+                    <circle cx="11" cy="11" r="6" />
+                    <path d="m20 20-4.2-4.2M11 8.5v5M8.5 11h5" />
+                  </svg>
+                </span>
+              </button>
+              <figcaption>{photo.caption}</figcaption>
+            </figure>
+          </li>
+        ))
+      }
+    </ul>
+
+    <SectionHead index="02" title={about.channel.title} id="channel" />
+    <p class="about-audience">
+      <MarkText text={about.channel.audience} phrases={about.channel.highlights} />
+    </p>
+    <div class="about-copy">
+      {
+        about.channel.paragraphs.map((paragraph) => (
+          <p>
+            <MarkText text={paragraph} phrases={about.channel.highlights} />
+          </p>
+        ))
+      }
+      <p>
+        <MarkText text={about.channel.toolsLead} phrases={about.channel.highlights} />
+      </p>
+    </div>
+    <ul class="about-tools">
+      {
+        about.channel.tools.map((tool) =>
+          tool.href ? (
+            <li>
+              <a class="about-tool card" href={url(tool.href)} data-reveal>
+                <span class="about-label">{tool.label}</span>
+                <strong>{tool.text}</strong>
+              </a>
+            </li>
+          ) : (
+            <li>
+              <div class="about-tool card" data-reveal>
+                <span class="about-label">{tool.label}</span>
+                <strong>{tool.text}</strong>
+              </div>
+            </li>
+          ),
+        )
+      }
+    </ul>
+    <p class="about-hope">
+      <MarkText text={about.channel.hope} phrases={about.channel.highlights} />
+    </p>
+
+    <SectionHead index="03" title={about.boundary.title} id="boundary" />
+    <div class="about-boundary card">
+      <p>
+        <MarkText text={about.boundary.lead} phrases={about.boundary.highlights} />
+      </p>
+      <ul class="about-cautions">
+        {
+          about.boundary.cautions.map((item) => (
+            <li>
+              <MarkText text={item} phrases={about.boundary.highlights} />
+            </li>
+          ))
+        }
+      </ul>
+      <p>
+        <MarkText text={about.boundary.note} phrases={about.boundary.highlights} />
+      </p>
+      <p class="about-limit">
+        <MarkText text={site.footerNote} phrases={about.boundary.highlights} />
+      </p>
+    </div>
+
+    <section class="about-close" id="contact">
+      <div class="about-copy">
+        {
+          about.close.paragraphs.map((paragraph) => (
+            <p>
+              <MarkText text={paragraph} phrases={about.close.highlights} />
+            </p>
+          ))
+        }
+      </div>
+      <div class="about-cta card">
+        <h2>
+          <MarkText text={about.close.cta} phrases={about.close.highlights} />
+        </h2>
+        <p>
+          <MarkText text={about.close.note} phrases={about.close.highlights} />
+        </p>
+        <button
+          type="button"
+          class="contact-submit about-contact"
+          data-contact-open
+          aria-haspopup="dialog"
+          aria-controls="contact-sheet"
+        >
+          <svg viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M5 7.5h14a1 1 0 0 1 1 1v6.2a1 1 0 0 1-1 1H9.2L5 19.2z" />
+          </svg>
+          {site.contact.collabLabel}
+        </button>
+      </div>
+    </section>
+
+    <p class="banner about-banner" role="note">{site.disclaimer}</p>
+  </div>
 </Base>
+
+<style>
+  .about-page {
+    --about: var(--violet);
+  }
+
+  .about-page :global(.section-head),
+  .about-page :global(.section-head h2),
+  #opening,
+  #contact {
+    scroll-margin-top: 84px;
+  }
+
+  .about-motto {
+    font-family: var(--serif);
+    max-width: 8em;
+    font-size: clamp(2.35rem, 7vw, 3.8rem);
+    line-height: 1.18;
+  }
+
+  .about-lead {
+    display: grid;
+    gap: 22px;
+    margin-top: 8px;
+  }
+
+  .about-meaning {
+    margin-top: 16px;
+    max-width: 16em;
+    font-size: clamp(1.12rem, 2.5vw, 1.4rem);
+    line-height: 1.5;
+    color: var(--ink);
+  }
+
+  .about-meaning mark {
+    background: color-mix(in srgb, var(--about) 34%, transparent);
+    color: inherit;
+    padding: 0.08em 0.28em;
+    border-radius: 0.32em;
+    box-decoration-break: clone;
+    -webkit-box-decoration-break: clone;
+  }
+
+  .about-copy {
+    display: grid;
+    gap: 12px;
+    max-width: 42rem;
+    color: #d4d4d8;
+    font-size: 1.02rem;
+  }
+
+  .about-cards {
+    display: grid;
+    gap: 12px;
+    grid-template-columns: 1fr;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+
+  .about-card {
+    --accent: var(--about);
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    min-height: 100%;
+    padding: 18px 18px 16px;
+    overflow: hidden;
+  }
+
+  .about-card::before {
+    content: "";
+    position: absolute;
+    inset: 0 0 auto;
+    height: 92px;
+    pointer-events: none;
+    background: radial-gradient(220px 90px at 12% 0%, color-mix(in srgb, var(--accent) 26%, transparent), transparent 72%);
+  }
+
+  .about-card > * {
+    position: relative;
+  }
+
+  .about-card h3 {
+    font-size: 1.12rem;
+  }
+
+  .about-card p {
+    color: var(--muted);
+    font-size: 0.92rem;
+  }
+
+  .about-label {
+    align-self: flex-start;
+    display: inline-flex;
+    align-items: center;
+    min-height: 22px;
+    padding: 0 8px;
+    border: 1px solid color-mix(in srgb, var(--about) 48%, transparent);
+    border-radius: 999px;
+    color: #ddd6fe;
+    font-size: 0.72rem;
+    font-weight: 700;
+    letter-spacing: 0.06em;
+  }
+
+  .about-subhead {
+    margin: 26px 0 8px;
+    font-size: 1.05rem;
+  }
+
+  .about-intro {
+    margin-bottom: 12px;
+  }
+
+  .about-bridge {
+    max-width: 42rem;
+    margin-top: 16px;
+    color: #d4d4d8;
+    font-size: 1.05rem;
+  }
+
+  .about-photos {
+    display: flex;
+    gap: 12px;
+    margin: 18px 0 0;
+    padding: 0 0 6px;
+    list-style: none;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    scroll-padding-inline: 2px;
+    scrollbar-color: rgba(255, 255, 255, 0.28) transparent;
+  }
+
+  .about-photos > li {
+    flex: 0 0 min(82%, 440px);
+    scroll-snap-align: start;
+    min-width: 0;
+  }
+
+  .about-photos figure {
+    margin: 0;
+  }
+
+  .about-shot {
+    position: relative;
+    display: block;
+    width: 100%;
+    padding: 0;
+    border: 0;
+    background: transparent;
+    color: inherit;
+    cursor: zoom-in;
+  }
+
+  .about-shot img {
+    width: 100%;
+    height: auto;
+    aspect-ratio: 16 / 9;
+    object-fit: cover;
+    border-radius: 18px;
+    border: 1px solid var(--line);
+  }
+
+  .about-shot-zoom {
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+    display: grid;
+    place-items: center;
+    width: 32px;
+    height: 32px;
+    border-radius: 999px;
+    background: rgba(9, 9, 11, 0.72);
+    color: var(--ink);
+  }
+
+  .about-shot-zoom svg {
+    width: 16px;
+    height: 16px;
+  }
+
+  .about-photos figcaption {
+    margin-top: 8px;
+    color: var(--muted);
+    font-size: 0.86rem;
+  }
+
+  .about-audience {
+    max-width: 40rem;
+    margin: 0 0 14px;
+    font-size: 1.12rem;
+    line-height: 1.5;
+  }
+
+  .about-tools {
+    display: grid;
+    gap: 10px;
+    grid-template-columns: 1fr;
+    margin: 16px 0 0;
+    padding: 0;
+    list-style: none;
+  }
+
+  .about-tool {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    min-height: 100%;
+    padding: 14px 14px 12px;
+    color: inherit;
+    text-decoration: none;
+  }
+
+  .about-tool strong {
+    font-size: 0.95rem;
+    font-weight: 700;
+    line-height: 1.4;
+  }
+
+  a.about-tool::after {
+    content: "→";
+    color: var(--dim);
+    font-size: 0.95rem;
+  }
+
+  .about-hope {
+    max-width: 40rem;
+    margin-top: 16px;
+    color: #d4d4d8;
+    font-size: 1.05rem;
+  }
+
+  .about-boundary {
+    display: grid;
+    gap: 12px;
+    padding: 18px 18px 16px;
+    color: #d4d4d8;
+  }
+
+  .about-cautions {
+    display: grid;
+    gap: 8px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+
+  .about-cautions li {
+    color: var(--ink);
+    font-size: 1.02rem;
+  }
+
+  .about-limit {
+    margin: 0;
+    padding-top: 12px;
+    border-top: 1px solid var(--line);
+    color: var(--muted);
+    font-size: 0.92rem;
+  }
+
+  .about-close {
+    display: grid;
+    gap: 18px;
+    margin-top: 56px;
+  }
+
+  .about-cta {
+    padding: 22px 18px 20px;
+    background:
+      radial-gradient(480px 200px at 0% 0%, color-mix(in srgb, var(--about) 30%, transparent), transparent 70%),
+      linear-gradient(180deg, var(--card-2), var(--card));
+  }
+
+  .about-cta h2 {
+    font-family: var(--serif);
+    max-width: 12em;
+    margin-bottom: 10px;
+    font-size: clamp(1.55rem, 3vw, 2.15rem);
+  }
+
+  .about-cta p {
+    max-width: 40rem;
+    color: var(--muted);
+  }
+
+  .about-contact {
+    margin-top: 16px;
+  }
+
+  .about-contact svg {
+    width: 18px;
+    height: 18px;
+  }
+
+  .about-banner {
+    margin-top: 28px;
+  }
+
+  @media (min-width: 640px) {
+    .about-cards,
+    .about-tools {
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+  }
+
+  @media (min-width: 900px) {
+    .about-lead {
+      grid-template-columns: minmax(0, 0.9fr) minmax(0, 1.1fr);
+      gap: 48px;
+      align-items: end;
+    }
+
+    .about-cards {
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+    }
+
+    .about-photos {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      overflow: visible;
+      scroll-snap-type: none;
+    }
+
+    .about-photos > li {
+      flex: none;
+    }
+
+    .about-cta {
+      padding: 28px 28px 24px;
+    }
+  }
+
+  @media (min-width: 1040px) {
+    .about-tools {
+      grid-template-columns: repeat(5, minmax(0, 1fr));
+    }
+  }
+
+  @media (hover: hover) and (prefers-reduced-motion: no-preference) {
+    .about-card,
+    a.about-tool {
+      transition:
+        transform 0.35s var(--ease),
+        border-color 0.35s;
+    }
+
+    .about-card:hover,
+    a.about-tool:hover {
+      transform: translateY(-3px);
+      border-color: color-mix(in srgb, var(--about) 45%, transparent);
+    }
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    .about-photos {
+      scroll-snap-type: none;
+    }
+  }
+</style>
