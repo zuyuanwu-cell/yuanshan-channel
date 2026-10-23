@@ -1,19 +1,116 @@
 ---
-import { getSite } from '../lib/content';
+import { getCompliance, getSite } from '../lib/content';
 import { isActivePath, url } from '../lib/format';
+import Flag from './Flag.astro';
 import Icon from './Icon.astro';
 
 const site = getSite();
 const path = Astro.url.pathname;
+const primaryHrefs = ['/', '/news', '/rankings', '/compliance'];
+const moreHrefs = ['/hs-codes', '/platforms', '/about'];
+const moreLabels: Record<string, string> = {
+  '/hs-codes': '海关编码',
+  '/platforms': '平台',
+  '/about': '关于',
+};
+const byHref = new Map(site.nav.map((item) => [item.href, item]));
+const primary = primaryHrefs.flatMap((href) => {
+  const item = byHref.get(href);
+  return item ? [item] : [];
+});
+const more = moreHrefs.flatMap((href) => {
+  const item = byHref.get(href);
+  return item ? [item] : [];
+});
+const countries = getCompliance();
+const regions: string[] = [];
+for (const country of countries) {
+  if (!regions.includes(country.region)) regions.push(country.region);
+}
+const countryCurrent = countries.some((country) => isActivePath(path, `/compliance/${country.country}`));
+const compareCurrent = isActivePath(path, '/compliance/compare');
+const moreCurrent = more.some((item) => isActivePath(path, item.href)) || isActivePath(path, '/admin');
 ---
 
 <nav class="tab-bar" aria-label="底部导航">
   {
-    site.nav.map((item) => (
+    primary.map((item) => (
       <a href={url(item.href)} aria-current={isActivePath(path, item.href) ? 'page' : undefined}>
         <Icon name={item.icon} />
         <span>{item.label}</span>
       </a>
     ))
   }
+  <button
+    type="button"
+    data-nav-open
+    aria-haspopup="dialog"
+    aria-controls="nav-sheet"
+    aria-expanded="false"
+    aria-current={moreCurrent ? 'page' : undefined}
+  >
+    <svg class="icon" viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+      <rect x="4" y="4" width="6.5" height="6.5" rx="1.6" />
+      <rect x="13.5" y="4" width="6.5" height="6.5" rx="1.6" />
+      <rect x="4" y="13.5" width="6.5" height="6.5" rx="1.6" />
+      <rect x="13.5" y="13.5" width="6.5" height="6.5" rx="1.6" />
+    </svg>
+    <span>更多</span>
+  </button>
 </nav>
+
+<dialog id="nav-sheet" class="nav-sheet" data-nav-dialog aria-labelledby="nav-sheet-title">
+  <div class="nav-sheet-head">
+    <h2 id="nav-sheet-title">更多</h2>
+    <button type="button" class="nav-sheet-close" data-nav-close aria-label="关闭">
+      <svg viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round">
+        <path d="M6 6l12 12M18 6 6 18" />
+      </svg>
+    </button>
+  </div>
+  <div class="nav-sheet-body">
+    <ul class="nav-sheet-links">
+      {
+        more.map((item) => (
+          <li>
+            <a href={url(item.href)} aria-current={isActivePath(path, item.href) ? 'page' : undefined}>
+              <Icon name={item.icon} />
+              <span>{moreLabels[item.href] ?? item.label}</span>
+            </a>
+          </li>
+        ))
+      }
+    </ul>
+    <details class="nav-sheet-group" open={countryCurrent || compareCurrent || undefined}>
+      <summary>各国合规</summary>
+      {
+        regions.map((region) => (
+          <section>
+            <p class="nav-region">{region}</p>
+            <ul class="nav-countries">
+              {countries
+                .filter((country) => country.region === region)
+                .map((country) => (
+                  <li>
+                    <a
+                      href={url(`/compliance/${country.country}`)}
+                      aria-current={isActivePath(path, `/compliance/${country.country}`) ? 'page' : undefined}
+                    >
+                      <Flag cc={country.country} size="sm" />
+                      <span>{country.name_zh}</span>
+                    </a>
+                  </li>
+                ))}
+            </ul>
+          </section>
+        ))
+      }
+      <a class="nav-compare" href={url('/compliance/compare')} aria-current={compareCurrent ? 'page' : undefined}>
+        横向对比
+      </a>
+    </details>
+    <p class="nav-sheet-admin">
+      <a href={url('/admin/')} aria-current={isActivePath(path, '/admin') ? 'page' : undefined}>编辑入口</a>
+    </p>
+  </div>
+</dialog>
