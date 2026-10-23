@@ -280,12 +280,6 @@
       "source_url": "https://www.ebay.com/b/Beauty/26395/bn_1850232"
     },
     {
-      "platform": "lazada-th",
-      "tried": "2026-10-23",
-      "reason": "热销页常空壳/反爬；通 ID 后再铺。",
-      "source_url": "https://www.lazada.co.th/"
-    },
-    {
       "platform": "noon",
       "tried": "2026-10-23",
       "reason": "best-sellers URL 仅返回导航壳无商品卡；暂无可用 noon Actor，记缺口。",
