@@ -100,21 +100,43 @@ const tops = latestRankingByPlatform().flatMap((ranking) => {
   }
   {
     tops.length > 0 && (
-      <div class="top-strip scroll-x" data-reveal>
-        {tops.map(({ ranking, first }) => {
-          const image = itemImage(first);
-          return (
-            <a class:list={['top-tile', { 'has-image': image }]} href={url(`/rankings/${ranking.platform}`)}>
-              {image && <img class="top-image" src={image.thumb} alt="" loading="lazy" referrerpolicy="no-referrer" />}
-              <span class="top-text">
-                <span class="top-crown">{site.ui.rankingTop}</span>
-                <span class="top-platform">{boardName(ranking.platform)}</span>
-                <strong class="clamp-2">{itemTitle(first).main}</strong>
-                <span class="muted">{first.brand}</span>
-              </span>
-            </a>
-          );
-        })}
+      <div class="top-strip" data-top-marquee>
+        <div class="top-marquee" aria-label="各平台榜首">
+          <div class="top-marquee-track">
+            <div class="top-marquee-group">
+              {tops.map(({ ranking, first }) => {
+                const image = itemImage(first);
+                return (
+                  <a class:list={['top-tile', { 'has-image': image }]} href={url(`/rankings/${ranking.platform}`)} data-reveal>
+                    {image && <img class="top-image" src={image.thumb} alt="" loading="lazy" referrerpolicy="no-referrer" />}
+                    <span class="top-text">
+                      <span class="top-crown">{site.ui.rankingTop}</span>
+                      <span class="top-platform">{boardName(ranking.platform)}</span>
+                      <strong class="clamp-2">{itemTitle(first).main}</strong>
+                      <span class="muted">{first.brand}</span>
+                    </span>
+                  </a>
+                );
+              })}
+            </div>
+            <div class="top-marquee-group" aria-hidden="true" inert>
+              {tops.map(({ ranking, first }) => {
+                const image = itemImage(first);
+                return (
+                  <a class:list={['top-tile', { 'has-image': image }]} href={url(`/rankings/${ranking.platform}`)} tabindex="-1">
+                    {image && <img class="top-image" src={image.thumb} alt="" loading="lazy" referrerpolicy="no-referrer" />}
+                    <span class="top-text">
+                      <span class="top-crown">{site.ui.rankingTop}</span>
+                      <span class="top-platform">{boardName(ranking.platform)}</span>
+                      <strong class="clamp-2">{itemTitle(first).main}</strong>
+                      <span class="muted">{first.brand}</span>
+                    </span>
+                  </a>
+                );
+              })}
+            </div>
+          </div>
+        </div>
       </div>
     )
   }

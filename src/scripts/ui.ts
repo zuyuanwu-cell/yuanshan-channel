@@ -284,6 +284,23 @@ function initLightbox(): void {
   });
 }
 
+
+function initTopMarquee(): void {
+  const strip = document.querySelector<HTMLElement>('[data-top-marquee]');
+  if (!strip || reducedMotion) {
+    strip?.classList.add('is-static');
+    return;
+  }
+  const pause = () => strip.classList.add('is-paused');
+  const resume = () => strip.classList.remove('is-paused');
+  strip.addEventListener('pointerdown', (event) => {
+    if (event.pointerType === 'touch' || event.pointerType === 'pen') pause();
+  });
+  strip.addEventListener('pointerup', resume);
+  strip.addEventListener('pointercancel', resume);
+  strip.addEventListener('pointerleave', resume);
+}
+
 initNewsFilters();
 initPlatformBrowser();
 initRankingDates();
@@ -291,3 +308,4 @@ initLightbox();
 initReveal();
 initDeckTilt();
 initDeckCarousel();
+initTopMarquee();
