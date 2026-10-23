@@ -5,7 +5,7 @@
   "version": "0.1.0",
   "description": "同舟跨境·远山频道：美妆日化跨境资讯与热销榜",
   "engines": {
-    "node": ">=22"
+    "node": ">=22.23.4"
   },
   "scripts": {
     "dev": "npm run validate:content && ASTRO_TELEMETRY_DISABLED=1 astro dev --host 0.0.0.0 --port 4477",
