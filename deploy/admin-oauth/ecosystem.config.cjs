@@ -13,6 +13,7 @@ module.exports = {
         // Set secrets via Baota env / system env, not here:
         // OAUTH_CLIENT_ID
         // OAUTH_CLIENT_SECRET
+        // WECOM_WEBHOOK_URL   (empty = contact form returns 503)
       },
     },
   ],

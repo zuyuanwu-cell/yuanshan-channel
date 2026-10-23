@@ -1,6 +1,7 @@
 /**
- * Minimal GitHub OAuth bridge for Decap CMS.
+ * Minimal GitHub OAuth bridge for Decap CMS, plus the collab-form proxy.
  * Exposes /auth and /callback (also under /oauth/* when reverse-proxied).
+ * POST /api/contact (public path /oauth/api/contact) forwards to WeCom.
  *
  * Env:
  *   OAUTH_CLIENT_ID       GitHub OAuth App client id
@@ -10,9 +11,12 @@
  *   TRUSTED_ORIGINS       comma-separated origins allowed to receive the token
  *                         e.g. https://ys.tongzhoukuajing.com
  *                         (localhost origins always allowed for local smoke tests)
+ *   WECOM_WEBHOOK_URL     企业微信群机器人 webhook。留空则联系表单返回 503。
+ *                         不要写入仓库。
  */
 import express from "express";
 import { URLSearchParams } from "node:url";
+import { createContactHandler, resolveWebhook } from "./contact.js";
 
 const CLIENT_ID = process.env.OAUTH_CLIENT_ID || "";
 const CLIENT_SECRET = process.env.OAUTH_CLIENT_SECRET || "";
@@ -134,7 +138,20 @@ async function callbackHandler(req, res) {
 }
 
 function health(_req, res) {
-  res.json({ ok: true, service: "yuanshan-decap-oauth" });
+  const contact = resolveWebhook(process.env.WECOM_WEBHOOK_URL || "");
+  res.json({
+    ok: true,
+    service: "yuanshan-decap-oauth",
+    contact: contact.state === "ok" ? "configured" : "unconfigured",
+  });
+}
+
+function jsonBody(req, res, next) {
+  express.json({ limit: "16kb" })(req, res, (err) => {
+    if (!err) return next();
+    const tooLarge = err.status === 413 || err.type === "entity.too.large";
+    res.status(tooLarge ? 413 : 400).json({ ok: false, error: "invalid" });
+  });
 }
 
 // Mount both at root and under /oauth so either nginx style works.
@@ -142,6 +159,7 @@ const router = express.Router();
 router.get("/auth", authHandler);
 router.get("/callback", callbackHandler);
 router.get("/health", health);
+router.post("/api/contact", jsonBody, createContactHandler());
 
 app.use("/", router);
 app.use("/oauth", router);

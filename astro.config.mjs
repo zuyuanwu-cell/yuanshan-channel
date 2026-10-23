@@ -63,7 +63,13 @@ export default defineConfig({
   server: { host: true, port: 4477 },
   preview: { host: true, port: 4477 },
   vite: {
-    server: { allowedHosts: true },
+    server: {
+      allowedHosts: true,
+      // Dev only: collab form posts to the OAuth bridge, same path Nginx uses on Baota.
+      proxy: {
+        '/oauth': 'http://127.0.0.1:4181',
+      },
+    },
     plugins: [
       {
         name: 'yuanshan-content-watch',

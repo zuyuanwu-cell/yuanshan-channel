@@ -1,20 +1,100 @@
 ---
 import { getSite, latestContentDate } from '../lib/content';
-import { formatDate, url } from '../lib/format';
+import { formatDate, isActivePath, url } from '../lib/format';
+import SocialIcon from './SocialIcon.astro';
 
 const site = getSite();
+const path = Astro.url.pathname;
+const quietNotes = site.social.filter((item) => !item.href.startsWith('https://') && item.hint);
 ---
 
 <footer class="site-footer">
-  <div class="wrap inner">
-    <strong>{site.name}</strong>
-    <p>
-      {site.ui.updatedAt} <time datetime={latestContentDate()}>{formatDate(latestContentDate())}</time>
-    </p>
-    <p>{site.disclaimer}</p>
-    <p>{site.footerNote}</p>
-    <p class="admin-entry">
-      <a href={url("/admin/")}>编辑入口</a>
-    </p>
+  <div class="wrap">
+    <div class="footer-main">
+      <div class="footer-brand">
+        <a class="brand" href={url('/')} aria-label={site.name}>
+          <span class="brand-mark" aria-hidden="true">{site.ui.brandMark}</span>
+          <span class="brand-text">
+            <strong>{site.channel}</strong>
+            <em>{site.brand}</em>
+          </span>
+        </a>
+        <p class="footer-tagline">{site.tagline}</p>
+      </div>
+      <nav class="footer-nav" aria-label="页脚导航">
+        <p class="footer-kicker">栏目</p>
+        <ul>
+          {
+            site.nav.map((item) => (
+              <li>
+                <a href={url(item.href)} aria-current={isActivePath(path, item.href) ? 'page' : undefined}>
+                  {item.label}
+                </a>
+              </li>
+            ))
+          }
+        </ul>
+      </nav>
+      <div class="footer-social">
+        <p class="footer-kicker">关注</p>
+        <ul class="social-row">
+          {
+            site.social.map((item) => {
+              const linked = item.href.startsWith('https://');
+              const known = linked || Boolean(item.hint);
+              const caption = item.hint ? `${item.label}，${item.hint}` : item.label;
+              return (
+                <li>
+                  {linked ? (
+                    <a
+                      class="social-link"
+                      href={item.href}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      aria-label={`${caption}，新窗口`}
+                      title={item.hint}
+                    >
+                      <SocialIcon id={item.id} />
+                      <span>{item.label}</span>
+                    </a>
+                  ) : (
+                    <span
+                      class:list={['social-link', known ? 'is-known' : 'is-off']}
+                      aria-disabled={known ? undefined : 'true'}
+                      aria-label={known ? caption : `${item.label}，链接待补充`}
+                      title={item.hint}
+                    >
+                      <SocialIcon id={item.id} />
+                      <span>{item.label}</span>
+                    </span>
+                  )}
+                </li>
+              );
+            })
+          }
+        </ul>
+        {
+          quietNotes.length > 0 && (
+            <ul class="social-notes">
+              {quietNotes.map((item) => (
+                <li>
+                  {item.label}：{item.hint}
+                </li>
+              ))}
+            </ul>
+          )
+        }
+      </div>
+    </div>
+    <div class="footer-quiet">
+      <p>
+        {site.ui.updatedAt} <time datetime={latestContentDate()}>{formatDate(latestContentDate())}</time>
+      </p>
+      <p>{site.disclaimer}</p>
+      <p>{site.footerNote}</p>
+      <p class="admin-entry">
+        <a href={url('/admin/')}>编辑入口</a>
+      </p>
+    </div>
   </div>
 </footer>

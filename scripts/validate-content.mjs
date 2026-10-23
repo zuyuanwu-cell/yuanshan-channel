@@ -103,6 +103,16 @@ if (site) {
   if ((site.hero?.cards ?? []).filter((card) => card.featured).length > 1) {
     fail('content/site.json: hero.cards 里最多一张 featured');
   }
+  if (typeof site.contact?.wechatQr === 'string' && site.contact.wechatQr.startsWith('/media/')) {
+    const qrFile = path.join(contentDir, 'assets', site.contact.wechatQr.slice('/media/'.length));
+    if (!fs.existsSync(qrFile)) fail(`content/site.json: contact.wechatQr 找不到文件 ${rel(qrFile)}`);
+  }
+  const socialIds = new Set();
+  for (const [index, item] of (site.social ?? []).entries()) {
+    if (!item || typeof item !== 'object') continue;
+    if (socialIds.has(item.id)) fail(`content/site.json: social[${index}] id「${item.id}」重复`);
+    if (item.id) socialIds.add(item.id);
+  }
 }
 
 const platformsPath = path.join(contentDir, 'platforms.json');

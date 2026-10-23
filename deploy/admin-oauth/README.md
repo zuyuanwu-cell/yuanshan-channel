@@ -1,7 +1,7 @@
 # Decap CMS · GitHub OAuth 桥（宝塔）
 
 静态站本身不能保管 OAuth Client Secret，所以要在宝塔上跑这个很小的 Node 服务。
-它只负责：`/auth` → 跳 GitHub → `/callback` 换 token → 用 `postMessage` 还给 `/admin/` 弹窗。
+它负责两件事：`/auth` → 跳 GitHub → `/callback` 换 token → 用 `postMessage` 还给 `/admin/` 弹窗；以及 `POST /api/contact`（经 Nginx 后是 `/oauth/api/contact`）把合作表单转到企业微信群机器人。Webhook 读 `WECOM_WEBHOOK_URL`，留空返回 503。不要把 key 写进仓库。步骤见 [ADMIN.md](../ADMIN.md) 的「合作浮层与企业微信」。
 
 ## 安装
 
@@ -52,7 +52,8 @@ backend:
 
 ```bash
 curl -sS https://ys.tongzhoukuajing.com/oauth/health
-# 期望 {"ok":true,"service":"yuanshan-decap-oauth"}
+# 期望 {"ok":true,"service":"yuanshan-decap-oauth","contact":"unconfigured"}
+# 配好 WECOM_WEBHOOK_URL 并重启后，contact 变为 "configured"
 ```
 
 完整步骤见上级目录的 [ADMIN.md](../ADMIN.md)。

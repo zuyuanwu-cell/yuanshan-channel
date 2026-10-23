@@ -9,6 +9,49 @@
   "updated": "2026-10-23",
   "disclaimer": "每条资讯都附来源链接。标了「待核实」的条目来自媒体或第三方转述，引用前打开原文。费用、排名和法规以官方页面为准。",
   "footerNote": "个人资讯站，不提供入驻代办，也不替代平台规则中心或法律意见。",
+  "social": [
+    {
+      "id": "douyin",
+      "label": "抖音",
+      "href": "https://www.douyin.com/search/%E5%90%8C%E8%88%9F%E8%B7%A8%E5%A2%83%E8%BF%9C%E5%B1%B1",
+      "hint": "同舟跨境远山"
+    },
+    {
+      "id": "channels",
+      "label": "视频号",
+      "href": "",
+      "hint": "微信搜：同舟跨境远山"
+    },
+    {
+      "id": "xiaohongshu",
+      "label": "小红书",
+      "href": ""
+    },
+    {
+      "id": "weibo",
+      "label": "微博",
+      "href": ""
+    }
+  ],
+  "contact": {
+    "wechatQr": "/media/contact/wechat-qr.webp",
+    "wechatQrNote": "扫码添加微信",
+    "collabLabel": "洽谈合作",
+    "webhookPath": "/oauth/api/contact",
+    "sheetTitle": "洽谈合作",
+    "nameLabel": "姓名",
+    "contactLabel": "联系方式",
+    "contactPlaceholder": "手机、微信或邮箱",
+    "messageLabel": "留言",
+    "submitLabel": "发送",
+    "sendingLabel": "发送中",
+    "cancelLabel": "取消",
+    "closeLabel": "关闭",
+    "successNote": "已收到。我们会尽快联系你。",
+    "errorNote": "发送失败，请稍后再试，或直接扫码添加微信。",
+    "unconfiguredNote": "推送未配置。请先扫码添加微信。",
+    "rateLimitNote": "发送太频繁，请稍后再试。"
+  },
   "featuredPlatformIds": [
     "amazon-us",
     "tiktok-shop",
