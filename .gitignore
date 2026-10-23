@@ -22,3 +22,9 @@ pnpm-debug.log*
 
 # jetbrains setting folder
 .idea/
+
+# local OAuth bridge / Umami secrets if copied into repo tree
+deploy/admin-oauth/node_modules/
+deploy/admin-oauth/.env
+deploy/umami/.env
+_ingest/

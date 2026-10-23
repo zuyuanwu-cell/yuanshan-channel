@@ -18,6 +18,9 @@ interface Props {
 const site = getSite();
 const { title, description = site.tagline } = Astro.props;
 const fullTitle = title ? `${title} · ${site.name}` : site.name;
+const umamiUrl = (import.meta.env.PUBLIC_UMAMI_URL || "").replace(/\/$/, "");
+const umamiId = import.meta.env.PUBLIC_UMAMI_WEBSITE_ID || "";
+const umamiEnabled = Boolean(umamiUrl && umamiId);
 ---
 
 <!doctype html>
@@ -34,6 +37,15 @@ const fullTitle = title ? `${title} · ${site.name}` : site.name;
     <title>{fullTitle}</title>
     <link rel="icon" type="image/svg+xml" href={url("/favicon.svg")} />
     <script is:inline>document.documentElement.classList.add('js');</script>
+    {umamiEnabled && (
+      <script
+        defer
+        src={`${umamiUrl}/script.js`}
+        data-website-id={umamiId}
+        data-host-url={umamiUrl}
+        is:inline
+      />
+    )}
   </head>
   <body>
     <a class="skip" href="#content">{site.ui.skip}</a>

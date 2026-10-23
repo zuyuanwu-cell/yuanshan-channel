@@ -1,6 +1,6 @@
 ---
 import { getSite, latestContentDate } from '../lib/content';
-import { formatDate } from '../lib/format';
+import { formatDate, url } from '../lib/format';
 
 const site = getSite();
 ---
@@ -13,5 +13,8 @@ const site = getSite();
     </p>
     <p>{site.disclaimer}</p>
     <p>{site.footerNote}</p>
+    <p class="admin-entry">
+      <a href={url("/admin/")}>编辑入口</a>
+    </p>
   </div>
 </footer>

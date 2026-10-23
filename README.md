@@ -114,6 +114,15 @@ location /_astro/ {
 git push github main
 ```
 
+## 管理后台（免费）
+
+编辑资讯用 Decap CMS（`/admin/`），访问统计用自建 Umami。编辑账号 = GitHub 仓库写权限，不做访客会员。
+
+**首次要在宝塔配一次**：GitHub OAuth App + OAuth 桥 +（可选）Umami。逐步说明见 [`deploy/ADMIN.md`](deploy/ADMIN.md)。
+
+未完成 OAuth 前，`/admin/` 页面能打开，但 Login 会失败，属正常。
+
 ## 声明
+
 
 仓库里的示例资讯和榜单标了「示例 / 待核实」。它们用来把栏目跑通，不能当作当期行情、费用或法律意见。引用前打开条目里的来源链接。

@@ -1,0 +1,16 @@
+{
+  "name": "yuanshan-decap-oauth",
+  "private": true,
+  "version": "1.0.0",
+  "description": "GitHub OAuth bridge for Decap CMS on 远山频道 (Baota)",
+  "type": "module",
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.21.2"
+  }
+}

@@ -1,0 +1,40 @@
+# Umami 自建访问统计（免费、开源、无 Cookie）
+# 用法见 README.md
+services:
+  umami:
+    image: ghcr.io/umami-software/umami:postgresql-latest
+    container_name: yuanshan-umami
+    restart: unless-stopped
+    ports:
+      - "127.0.0.1:3001:3000"
+    environment:
+      DATABASE_URL: postgresql://umami:${POSTGRES_PASSWORD}@umami-db:5432/umami
+      APP_SECRET: ${APP_SECRET}
+      DISABLE_TELEMETRY: "1"
+    depends_on:
+      umami-db:
+        condition: service_healthy
+    healthcheck:
+      test: ["CMD-SHELL", "curl -f http://localhost:3000/api/heartbeat || exit 1"]
+      interval: 30s
+      timeout: 5s
+      retries: 3
+
+  umami-db:
+    image: postgres:16-alpine
+    container_name: yuanshan-umami-db
+    restart: unless-stopped
+    volumes:
+      - umami-postgres-data:/var/lib/postgresql/data
+    environment:
+      POSTGRES_DB: umami
+      POSTGRES_USER: umami
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD}
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U umami"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+volumes:
+  umami-postgres-data:

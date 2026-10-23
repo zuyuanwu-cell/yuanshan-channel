@@ -2965,3 +2965,19 @@ button.rank-thumb:focus-visible .zoom-badge {
 .cc-cell.none { color: var(--dim); }
 .cc-legend { display: flex; gap: 6px; align-items: center; flex-wrap: wrap; font-size: 13px; color: var(--muted); }
 .cc-hs-list { margin: 0; padding-left: 18px; font-size: 13px; }
+
+
+/* 页脚编辑入口：低调，不进 Tab 栏 */
+.site-footer .admin-entry {
+  margin-top: 0.75rem;
+  opacity: 0.55;
+  font-size: 0.85rem;
+}
+.site-footer .admin-entry a {
+  color: inherit;
+  text-decoration: underline;
+  text-underline-offset: 0.2em;
+}
+.site-footer .admin-entry a:hover {
+  opacity: 1;
+}
