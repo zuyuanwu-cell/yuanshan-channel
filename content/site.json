@@ -298,12 +298,6 @@
       "source_url": "https://www.noon.com/uae-en/beauty-and-health/best-sellers/"
     },
     {
-      "platform": "shopee-id",
-      "tried": "2026-10-23",
-      "reason": "Shopee SG 已用本机浏览器打通；本市场仍待同法抓取（反爬/登录墙）。",
-      "source_url": "https://shopee.co.id/"
-    },
-    {
       "platform": "shopee-my",
       "tried": "2026-10-23",
       "reason": "Shopee SG 已用本机浏览器打通；本市场仍待同法抓取（反爬/登录墙）。",
