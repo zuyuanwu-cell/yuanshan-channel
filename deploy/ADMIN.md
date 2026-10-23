@@ -47,6 +47,7 @@ mkdir -p /www/wwwroot/yuanshan-decap-oauth
 cd /www/wwwroot/yuanshan-decap-oauth
 cp .env.example .env
 # 编辑 .env：填 OAUTH_CLIENT_ID、OAUTH_CLIENT_SECRET
+# 合作表单要推企业微信时再填 WECOM_WEBHOOK_URL；留空则页面提示「推送未配置」
 npm install
 # 宝塔「Node 项目」指向 server.js，或：
 export $(grep -v '^#' .env | xargs)
@@ -77,7 +78,8 @@ location /oauth/ {
 
 ```bash
 curl -sS https://ys.tongzhoukuajing.com/oauth/health
-# {"ok":true,"service":"yuanshan-decap-oauth"}
+# {"ok":true,"service":"yuanshan-decap-oauth","contact":"unconfigured"}
+# contact 为 configured 表示已读到 WECOM_WEBHOOK_URL，响应里不会带出 key
 ```
 
 然后打开 `https://ys.tongzhoukuajing.com/admin/` → **Login with GitHub**。
@@ -170,3 +172,51 @@ GitHub 仓库 → **Settings → Secrets and variables → Actions**。这两个
 | 没有统计数据 | `PUBLIC_UMAMI_URL` 是否为 `https://ys.tongzhoukuajing.com/umami`（无末尾 `/`）并已重新构建；`/umami/script.js` 是否被主站 404（Nginx 要用 `location ^~ /umami/`）；Website ID 是否对；浏览器是否拦广告 |
 | `umami-db` 起不来，日志 `Operation not permitted` | 保留 compose 里 Postgres 的 `privileged: true` 和 `seccomp:unconfined` |
 | OAuth 进程挂了 | `pm2 status` / 宝塔 Node 项目日志；`pm2 restart yuanshan-decap-oauth` |
+| 洽谈合作提示「推送未配置」 | 服务器 `.env` 的 `WECOM_WEBHOOK_URL` 为空或进程没重启。见下方「合作浮层与企业微信」 |
+| 洽谈合作提示发送失败 | webhook 须为 `https://qyapi.weixin.qq.com/...`；机器人被移出群也会失败。`pm2 logs yuanshan-decap-oauth` 只看状态，不要把 key 打进日志 |
+
+---
+
+## F. 合作浮层与企业微信
+
+页脚和右下角「洽谈合作」随静态站发布。表单不直连企业微信（浏览器会被 CORS 拦住），而是 `POST /oauth/api/contact`，由已经在跑的 OAuth 桥转发。**不用新加 Nginx**：现有 `location /oauth/` 会把这个路径转到 `127.0.0.1:4181`。
+
+静态构建**不会**更新这台 Node 进程。这次改了 `deploy/admin-oauth/server.js` 之后，把新的 `server.js` 和 `contact.js` 拷到服务器同一目录，再执行：
+
+```bash
+cd /www/wwwroot/yuanshan-decap-oauth
+pm2 restart yuanshan-decap-oauth
+```
+
+### 填 webhook
+
+1. 企业微信群 → 群机器人 → 添加 → 复制 Webhook 地址（形如 `https://qyapi.weixin.qq.com/cgi-bin/webhook/send?key=...`）。
+2. 只写进服务器上的 `.env`：
+
+   ```bash
+   WECOM_WEBHOOK_URL=https://qyapi.weixin.qq.com/cgi-bin/webhook/send?key=替换成你的key
+   ```
+
+3. `pm2 restart yuanshan-decap-oauth`（或在宝塔 Node 项目里把该变量加进环境后重启）。
+4. 自检：
+
+   ```bash
+   curl -sS https://ys.tongzhoukuajing.com/oauth/health
+   # contact 应为 "configured"
+
+   curl -sS -X POST https://ys.tongzhoukuajing.com/oauth/api/contact \
+     -H 'Content-Type: application/json' \
+     -d '{"name":"测试","contact":"wx","message":"连通测试","page":"https://ys.tongzhoukuajing.com/"}'
+   ```
+
+留空 `WECOM_WEBHOOK_URL` 时，接口返回 `503` 和 `{"ok":false,"error":"unconfigured"}`，页面写「推送未配置」。不要把真实 key 提交进仓库，也不要写进 GitHub Actions Secrets（静态站用不到）。
+
+消息正文是 markdown：姓名、联系方式、留言、页面 URL、Asia/Shanghai 时间。同一 IP 约 10 分钟内最多 8 次。
+
+### 换微信二维码
+
+1. 用新图覆盖 `content/assets/contact/wechat-qr.webp`（正方形 webp 即可）。
+2. `content/site.json` 里 `contact.wechatQr` 保持 `/media/contact/wechat-qr.webp`，`wechatQrNote` 是卡片上的那句说明。
+3. 推 `main`。构建会把文件复制到站点的 `/media/contact/wechat-qr.webp`。不要只改服务器上的 `dist/`，下次部署会盖掉。
+
+社交链接同样只改 `site.json` 的 `social[].href`。没有 `https://` 且没有 `hint` 的项是占位图标；视频号没有主页时把搜索提示写在 `hint`，图标保持实心。

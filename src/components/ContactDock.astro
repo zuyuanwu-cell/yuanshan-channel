@@ -1,0 +1,95 @@
+---
+import { getSite } from '../lib/content';
+import { url } from '../lib/format';
+
+const site = getSite();
+const contact = site.contact;
+const qr = url(contact.wechatQr);
+---
+
+<div class="contact-dock">
+  <figure class="contact-qr">
+    <img
+      src={qr}
+      alt=""
+      width="607"
+      height="607"
+      decoding="async"
+      fetchpriority="low"
+    />
+    <figcaption>{contact.wechatQrNote}</figcaption>
+  </figure>
+  <button
+    type="button"
+    class="contact-cta"
+    data-contact-open
+    aria-haspopup="dialog"
+    aria-controls="contact-sheet"
+  >
+    <svg viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M5 7.5h14a1 1 0 0 1 1 1v6.2a1 1 0 0 1-1 1H9.2L5 19.2z" />
+    </svg>
+    {contact.collabLabel}
+  </button>
+</div>
+
+<dialog
+  id="contact-sheet"
+  class="contact-sheet"
+  data-contact-dialog
+  aria-labelledby="contact-sheet-title"
+>
+  <button type="button" class="contact-sheet-close" data-contact-close aria-label={contact.closeLabel}>
+    <svg viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round">
+      <path d="M6 6l12 12M18 6 6 18" />
+    </svg>
+  </button>
+  <h2 id="contact-sheet-title">{contact.sheetTitle}</h2>
+  <form
+    class="contact-form"
+    data-contact-form
+    data-webhook={contact.webhookPath}
+    data-submit={contact.submitLabel}
+    data-sending={contact.sendingLabel}
+    data-error={contact.errorNote}
+    data-unconfigured={contact.unconfiguredNote}
+    data-rate={contact.rateLimitNote}
+    novalidate
+  >
+    <p class="contact-sheet-note">{contact.wechatQrNote}</p>
+    <label class="contact-field">
+      <span>{contact.nameLabel}</span>
+      <input name="name" type="text" required maxlength="40" autocomplete="name" />
+    </label>
+    <label class="contact-field">
+      <span>{contact.contactLabel}</span>
+      <input
+        name="contact"
+        type="text"
+        required
+        maxlength="80"
+        autocomplete="on"
+        placeholder={contact.contactPlaceholder}
+      />
+    </label>
+    <label class="contact-field">
+      <span>{contact.messageLabel}</span>
+      <textarea name="message" required maxlength="500" rows="4"></textarea>
+    </label>
+    <div class="contact-hp" aria-hidden="true">
+      <label>
+        请留空
+        <input name="ys_leave_blank" type="text" tabindex="-1" autocomplete="off" />
+      </label>
+    </div>
+    <p class="contact-status" data-contact-status role="alert" hidden></p>
+    <div class="contact-actions">
+      <button type="button" class="contact-cancel" data-contact-close>{contact.cancelLabel}</button>
+      <button type="submit" class="contact-submit">{contact.submitLabel}</button>
+    </div>
+  </form>
+  <div class="contact-success" data-contact-success hidden tabindex="-1">
+    <p>{contact.successNote}</p>
+    <button type="button" class="contact-submit" data-contact-close>{contact.closeLabel}</button>
+  </div>
+</dialog>

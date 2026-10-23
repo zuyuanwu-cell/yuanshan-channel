@@ -301,6 +301,148 @@ function initTopMarquee(): void {
   strip.addEventListener('pointerleave', resume);
 }
 
+function initContactDock(): void {
+  const dialog = document.querySelector<HTMLDialogElement>('[data-contact-dialog]');
+  const form = dialog?.querySelector<HTMLFormElement>('[data-contact-form]');
+  const openBtn = document.querySelector<HTMLButtonElement>('[data-contact-open]');
+  const status = dialog?.querySelector<HTMLElement>('[data-contact-status]');
+  const success = dialog?.querySelector<HTMLElement>('[data-contact-success]');
+  if (!dialog || !form || !openBtn || !status || !success || typeof dialog.showModal !== 'function') return;
+
+  const notes = {
+    error: form.dataset.error ?? '',
+    unconfigured: form.dataset.unconfigured ?? '',
+    rate: form.dataset.rate ?? '',
+  };
+  const webhook = form.dataset.webhook ?? '';
+  const submitIdle = form.dataset.submit ?? '';
+  const submitBusy = form.dataset.sending ?? submitIdle;
+  let requestId = 0;
+
+  const setStatus = (message: string) => {
+    status.textContent = message;
+    status.hidden = message.length === 0;
+  };
+
+  const submitButton = () => form.querySelector<HTMLButtonElement>('[type="submit"]');
+
+  const resetForm = () => {
+    form.reset();
+    form.hidden = false;
+    success.hidden = true;
+    setStatus('');
+    const submit = submitButton();
+    if (submit) {
+      submit.disabled = false;
+      if (submitIdle) submit.textContent = submitIdle;
+    }
+    form.removeAttribute('aria-busy');
+  };
+
+  const focusable = () =>
+    [...dialog.querySelectorAll<HTMLElement>('button, input, textarea, select, a[href]')].filter((el) => {
+      if (el.tabIndex < 0 || el.hasAttribute('disabled')) return false;
+      if (el.closest('[hidden]') || el.closest('[aria-hidden="true"]')) return false;
+      return true;
+    });
+
+  dialog.addEventListener('keydown', (event) => {
+    if (event.key !== 'Tab' || !dialog.open) return;
+    const items = focusable();
+    if (items.length === 0) {
+      event.preventDefault();
+      return;
+    }
+    const first = items[0];
+    const last = items[items.length - 1];
+    const active = document.activeElement;
+    const inside = active instanceof HTMLElement && items.includes(active);
+    if (event.shiftKey) {
+      if (!inside || active === first) {
+        event.preventDefault();
+        last.focus();
+      }
+    } else if (!inside || active === last) {
+      event.preventDefault();
+      first.focus();
+    }
+  });
+
+  openBtn.addEventListener('click', () => {
+    resetForm();
+    dialog.showModal();
+    form.querySelector<HTMLInputElement>('input[name="name"]')?.focus();
+  });
+
+  dialog.addEventListener('click', (event) => {
+    const target = event.target;
+    if (!(target instanceof Element)) return;
+    if (target === dialog || target.closest('[data-contact-close]')) dialog.close();
+  });
+
+  dialog.addEventListener('close', () => {
+    requestId += 1;
+    resetForm();
+  });
+
+  form.addEventListener('submit', async (event) => {
+    event.preventDefault();
+    const current = ++requestId;
+    for (const field of form.querySelectorAll<HTMLInputElement | HTMLTextAreaElement>('input, textarea')) {
+      if (field.name === 'ys_leave_blank') continue;
+      field.value = field.value.trim();
+    }
+    if (!form.reportValidity()) return;
+
+    const data = new FormData(form);
+    const submit = submitButton();
+    if (submit) {
+      submit.disabled = true;
+      if (submitBusy) submit.textContent = submitBusy;
+    }
+    form.setAttribute('aria-busy', 'true');
+    setStatus('');
+    try {
+      const res = await fetch(webhook, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json', Accept: 'application/json' },
+        body: JSON.stringify({
+          name: String(data.get('name') ?? ''),
+          contact: String(data.get('contact') ?? ''),
+          message: String(data.get('message') ?? ''),
+          page: location.href,
+          ys_leave_blank: String(data.get('ys_leave_blank') ?? ''),
+        }),
+      });
+      let body: { ok?: boolean; error?: string } = {};
+      try {
+        body = (await res.json()) as { ok?: boolean; error?: string };
+      } catch {
+        body = {};
+      }
+      if (current !== requestId || !dialog.open) return;
+      if (res.ok && body.ok) {
+        form.hidden = true;
+        success.hidden = false;
+        success.focus();
+        return;
+      }
+      if (res.status === 503 || body.error === 'unconfigured') setStatus(notes.unconfigured);
+      else if (res.status === 429 || body.error === 'rate_limited') setStatus(notes.rate);
+      else setStatus(notes.error);
+    } catch {
+      if (current === requestId && dialog.open) setStatus(notes.error);
+    } finally {
+      if (current !== requestId) return;
+      form.removeAttribute('aria-busy');
+      if (submit && !form.hidden) {
+        submit.disabled = false;
+        if (submitIdle) submit.textContent = submitIdle;
+      }
+    }
+  });
+}
+
 initNewsFilters();
 initPlatformBrowser();
 initRankingDates();
@@ -309,3 +451,4 @@ initReveal();
 initDeckTilt();
 initDeckCarousel();
 initTopMarquee();
+initContactDock();

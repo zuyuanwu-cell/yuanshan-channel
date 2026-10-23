@@ -1,6 +1,34 @@
 export type NewsCategory = 'rules' | 'regulation';
 export type HeroStatKey = 'news' | 'platforms' | 'rankings' | NewsCategory;
 export type NavIcon = 'home' | 'news' | 'rankings' | 'platforms' | 'about' | 'compliance' | 'codes';
+export type SocialId = 'douyin' | 'channels' | 'xiaohongshu' | 'weibo';
+
+export interface SocialLink {
+  id: SocialId;
+  label: string;
+  href: string;
+  hint?: string;
+}
+
+export interface ContactConfig {
+  wechatQr: string;
+  wechatQrNote: string;
+  collabLabel: string;
+  webhookPath: string;
+  sheetTitle: string;
+  nameLabel: string;
+  contactLabel: string;
+  contactPlaceholder: string;
+  messageLabel: string;
+  submitLabel: string;
+  sendingLabel: string;
+  cancelLabel: string;
+  closeLabel: string;
+  successNote: string;
+  errorNote: string;
+  unconfiguredNote: string;
+  rateLimitNote: string;
+}
 
 export interface HeroCard {
   title: string;
@@ -48,6 +76,8 @@ export interface SiteConfig {
   updated: string;
   disclaimer: string;
   footerNote: string;
+  social: SocialLink[];
+  contact: ContactConfig;
   featuredPlatformIds: string[];
   featuredNote: string;
   nav: { href: string; label: string; icon: NavIcon }[];

@@ -8,7 +8,7 @@
 
 | 路径 | 作用 |
 | --- | --- |
-| `site.json` | 站名、导航、栏目名、空状态、免责声明 |
+| `site.json` | 站名、导航、栏目名、空状态、免责声明、页脚社交和合作入口 |
 | `platforms.json` | 平台名单。`id` 必须和元数据一致 |
 | `about.md` | 关于页 |
 | `news/YYYY-MM-DD-slug.md` | 一条资讯 |
@@ -28,6 +28,12 @@
 - `href` 只能是站内路径，例如 `/news?category=regulation`
 
 插画建议 600×800 的 webp，纯色背景、主体在下半部分。底部导航（手机端）用 `nav` 里的 `icon`，最多 5 项。
+
+### 页脚社交与合作入口
+
+- `social`：抖音、视频号、小红书、微博。`href` 以 `https://` 开头才是可点链接；留空则图标变灰。没有主页地址时写 `hint`（视频号目前是「微信搜：同舟跨境远山」）。
+- `contact.wechatQr` 指向 `/media/contact/wechat-qr.webp`，文件放在 `content/assets/contact/wechat-qr.webp`。换二维码只替换这个文件，再推送构建。
+- 合作表单的企业微信地址不写在 `site.json`，只放在宝塔 OAuth 桥的环境变量里。见 `deploy/ADMIN.md`。
 
 `news` 文件名里的日期必须等于 frontmatter 的 `date`。榜单文件名必须等于 JSON 里的 `date`，目录名必须等于 `platform`。
 
