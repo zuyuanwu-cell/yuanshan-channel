@@ -1,0 +1,208 @@
+{
+  "api": "yuanshan-channel/v1",
+  "access": "public-read",
+  "auth": null,
+  "generated": "2026-10-23",
+  "disclaimer": "每条资讯都附来源链接。标了「待核实」的条目来自媒体或第三方转述，引用前打开原文。费用、排名和法规以官方页面为准。",
+  "kind": "feed",
+  "id": "us/rules+rankings",
+  "title": "美国",
+  "markets": [
+    "us"
+  ],
+  "types": [
+    "rules",
+    "rankings"
+  ],
+  "filter": {
+    "markets": [
+      "us"
+    ],
+    "types": [
+      "rules",
+      "rankings"
+    ],
+    "include_global": false
+  },
+  "count": 8,
+  "items": [
+    {
+      "kind": "ranking",
+      "id": "amazon-us/2026-10-23",
+      "type": "rankings",
+      "date": "2026-10-23",
+      "title": "Amazon 美国站 · 2026-10-23",
+      "summary": "30 个单品 · Amazon Best Sellers · Beauty & Personal Care · 部分数据 · 待核实",
+      "markets": [
+        "us"
+      ],
+      "board": "amazon-us",
+      "source_url": "https://www.amazon.com/Best-Sellers-Beauty-Personal-Care/zgbs/beauty",
+      "source_name": "Amazon Best Sellers · Beauty & Personal Care",
+      "needs_review": true,
+      "sample": false,
+      "partial": true,
+      "page": "/rankings/amazon-us",
+      "detail": "/v1/rankings/amazon-us/2026-10-23.json"
+    },
+    {
+      "kind": "ranking",
+      "id": "ebay/2026-10-23",
+      "type": "rankings",
+      "date": "2026-10-23",
+      "title": "eBay · 2026-10-23",
+      "summary": "30 个单品 · eBay · skincare search Beauty · 部分数据 · 待核实",
+      "markets": [
+        "us"
+      ],
+      "board": "ebay",
+      "source_url": "https://www.ebay.com/sch/i.html?_nkw=skincare&_sacat=26395&_sop=12",
+      "source_name": "eBay · skincare search Beauty",
+      "needs_review": true,
+      "sample": false,
+      "partial": true,
+      "page": "/rankings/ebay",
+      "detail": "/v1/rankings/ebay/2026-10-23.json"
+    },
+    {
+      "kind": "ranking",
+      "id": "tiktok-shop-us/2026-10-23",
+      "type": "rankings",
+      "date": "2026-10-23",
+      "title": "TikTok Shop 美国 · 2026-10-23",
+      "summary": "30 个单品 · TikTok Shop US · skincare (best sellers) · 部分数据 · 待核实",
+      "markets": [
+        "us"
+      ],
+      "board": "tiktok-shop-us",
+      "source_url": "https://shop.tiktok.com/us/search?q=skincare",
+      "source_name": "TikTok Shop US · skincare (best sellers)",
+      "needs_review": true,
+      "sample": false,
+      "partial": true,
+      "page": "/rankings/tiktok-shop-us",
+      "detail": "/v1/rankings/tiktok-shop-us/2026-10-23.json"
+    },
+    {
+      "kind": "ranking",
+      "id": "walmart/2026-10-23",
+      "type": "rankings",
+      "date": "2026-10-23",
+      "title": "Walmart · 2026-10-23",
+      "summary": "9 个单品 · Walmart Best Sellers · Face Moisturizers · 部分数据 · 待核实",
+      "markets": [
+        "us"
+      ],
+      "board": "walmart",
+      "source_url": "https://www.walmart.com/c/best-sellers/face-moisturizers",
+      "source_name": "Walmart Best Sellers · Face Moisturizers",
+      "needs_review": true,
+      "sample": false,
+      "partial": true,
+      "page": "/rankings/walmart",
+      "detail": "/v1/rankings/walmart/2026-10-23.json"
+    },
+    {
+      "kind": "ranking",
+      "id": "amazon-us/2026-10-22",
+      "type": "rankings",
+      "date": "2026-10-22",
+      "title": "Amazon 美国站 · 2026-10-22",
+      "summary": "30 个单品 · Amazon Best Sellers · Beauty & Personal Care · 部分数据",
+      "markets": [
+        "us"
+      ],
+      "board": "amazon-us",
+      "source_url": "https://www.amazon.com/Best-Sellers-Beauty-Personal-Care/zgbs/beauty",
+      "source_name": "Amazon Best Sellers · Beauty & Personal Care",
+      "needs_review": false,
+      "sample": false,
+      "partial": true,
+      "page": "/rankings/amazon-us",
+      "detail": "/v1/rankings/amazon-us/2026-10-22.json"
+    },
+    {
+      "kind": "news",
+      "id": "2026-10-15-amazon-us-holiday-peak-fees",
+      "type": "rules",
+      "date": "2026-10-15",
+      "title": "亚马逊美国站旺季配送费 10月15日起生效，平均每件多 $0.32",
+      "summary": "FBA、远程配送、MCF 和 Buy with Prime 都按旺季费率收，到 2027年1月14日。3.5% 燃油与物流附加费照收。",
+      "body_text": "亚马逊在 Seller Central 发的《Holiday 2026》公告写明，美国站旺季配送费 2026年10月15日 起生效，到 2027年1月14日 结束，日期和去年一样。\n\n适用范围：\n\n- FBA\n\n- Remote Fulfillment with FBA\n\n- Multi-Channel Fulfillment（MCF）\n\n- Buy with Prime\n\n和非旺季比，每件平均多 $0.32，涨幅和去年相同。3.5% 的燃油与物流附加费叠加在旺季费率上。\n\n同一公告里另外两个时间点：\n\n- 黑五周和网一的秒杀提交窗口 10月20日 已关闭\n\n- 走 AWD 并开启自动补货到 FBA 的库存，按非旺季月度仓储费计到 10月31日\n\n美妆小件单价低，每件多几毛钱对毛利影响不小。具体费率按尺寸和重量查 Revenue Calculator 或 Fee and Economics Preview 报表。",
+      "markets": [
+        "us"
+      ],
+      "platforms": [
+        "amazon-us"
+      ],
+      "tags": [
+        "fees"
+      ],
+      "source_url": "https://sellercentral.amazon.com/seller-forums/discussions/t/3e31fbb7-04e0-4ed4-873e-f74b1052e2ff",
+      "source_name": "Amazon Seller Central · Holiday 2026 公告",
+      "checked": "2026-10-22",
+      "needs_review": false,
+      "sample": false,
+      "key_date": {
+        "date": "2027-01-14",
+        "label": "旺季费结束"
+      },
+      "page": "/news/2026-10-15-amazon-us-holiday-peak-fees"
+    },
+    {
+      "kind": "news",
+      "id": "2026-10-09-tiktok-shop-us-content-policy",
+      "type": "rules",
+      "date": "2026-10-09",
+      "title": "TikTok Shop 美国站更新达人内容政策：化妆品不能暗示治病",
+      "summary": "政策页 10月9日更新。化妆品内容不得宣称治疗或预防疾病、改变生理功能，误导性美颜滤镜也被禁止。",
+      "body_text": "TikTok Shop 美国站的《Content Policy》页面标注更新日期 2026年10月9日，适用于所有达人推广内容：直播、短视频、图片和标题。\n\n化妆品一节写明，不得出现：\n\n- 治疗或预防任何疾病的说法或暗示\n\n- 治愈、诊断、纠正、调节或改变生理功能的说法\n\n- 暗示产品有药理、免疫或代谢作用\n\n- 暗示产品能更新、纠正或改变生理功能\n\n- 引用药品效果的表述\n\n另外两条和美妆直接相关：\n\n- 禁止推广使用误导性美颜滤镜的内容\n\n- 高风险体重管理内容（含 GLP-1 类比、前后体型对比）单独受限\n\n违规后果包括删除内容、限制功能、违规扣分和账号限制，可在 Seller Center 或 TikTok 应用里申诉。\n\n给达人发脚本前，先把「祛痘」「治疗湿疹」「生发」这类词过一遍。",
+      "markets": [
+        "us"
+      ],
+      "platforms": [
+        "tiktok-shop"
+      ],
+      "tags": [
+        "listing",
+        "penalties"
+      ],
+      "source_url": "https://seller-us.tiktok.com/university/essay?knowledge_id=6837891779151617&lang=en",
+      "source_name": "TikTok Shop 美国卖家大学 · Content Policy",
+      "checked": "2026-10-22",
+      "needs_review": false,
+      "sample": false,
+      "key_date": null,
+      "page": "/news/2026-10-09-tiktok-shop-us-content-policy"
+    },
+    {
+      "kind": "news",
+      "id": "2026-09-03-amazon-us-cosmetic-liability-insurance",
+      "type": "rules",
+      "date": "2026-09-03",
+      "title": "亚马逊美国站：美妆不论销量都要买百万责任险，11月2日起生效",
+      "summary": "增强安全类目（含化妆品）listing 不论月销是否过万美元，都要维持单次与累计各 100 万美元商业责任险；中国大陆卖家新保单须走 AIA。",
+      "body_text": "亚马逊美国站 2026年9月3日 在卖家论坛发布：自 11月2日 起，商业责任险规则加了两条。美妆日化卖家要特别盯：化妆品被点名落在「增强安全上架要求」类目里。\n\n改了什么\n\n原先：任意品类只要 Amazon.com 单月毛收入超过 1 万美元，须在 30 天内办妥商业责任险（单次与累计各至少 100 万美元）。这条还在。\n\n新增两条：\n\n- 按类目强制，不看销量\n商品落在「增强安全上架要求」类目时，不论是否达到 1 万美元月销门槛，都要为这些商品维持上述保额。新旧 listing 都算。\n公告举例包括：儿童用品、化妆品与可摄入类、锂电池产品等；完整名单在卖家中心「Product categories with enhanced safety listing requirements」页（需登录），且会增补。\n\n- 中国大陆卖家新保单走 AIA\n注册地在中国大陆的卖家，新提交的保单须通过 Amazon Insurance Accelerator（AIA） 渠道；11月2日起，非 AIA 的新保单会被拒。\n11月2日前已提交、且符合要求的第三方保单，可继续用到期满；期满后也须改走 AIA。\n\n对谁有影响\n\n- 美国站美妆/个护卖家：小店、新店、月销不到 1 万美元的，以前能拖，现在有美妆 listing 就要保。\n\n- 中国大陆跨境卖家：投保通道收窄到 AIA；投保、出单、上传 COI、审核都要时间，别卡到 11月2日。\n\n- 只卖非安全类目的卖家：仍按原来的 1 万美元门槛，不受本条类目强制。\n\n意味着什么\n\n- 卡在哪：没交合规保单证明，相关安全类目可能被停售；旺季（站内已有 10月15日起的旺季配送费）正赶上，listing 一停广告和排名都难救。\n\n- 现在注意什么：对照后台类目名单核对自己的 ASIN；核对保单是否覆盖在售美妆、保额、免赔（一般不超过 1 万美元）、附加被保险人（Amazon.com Services LLC 及其关联方）、是否 occurrence 基础；中国大陆卖家优先走 AIA 询价。\n增强安全类目往往还另有第三方检测/认证要求，有保险不等于马上能卖。\n\n原文见亚马逊卖家论坛 News_Amazon 公告；细则以卖家中心 Business Insurance / Commercial Liability Insurance requirements 页为准。",
+      "markets": [
+        "us"
+      ],
+      "platforms": [
+        "amazon-us"
+      ],
+      "tags": [
+        "compliance",
+        "fees"
+      ],
+      "source_url": "https://sellercentral.amazon.com/seller-forums/discussions/t/287d5c33-8278-4802-ba69-2f58f7dda408",
+      "source_name": "Amazon Seller Forums (News_Amazon)",
+      "checked": "2026-10-24",
+      "needs_review": false,
+      "sample": false,
+      "key_date": {
+        "date": "2026-11-02",
+        "label": "生效"
+      },
+      "page": "/news/2026-09-03-amazon-us-cosmetic-liability-insurance"
+    }
+  ]
+}

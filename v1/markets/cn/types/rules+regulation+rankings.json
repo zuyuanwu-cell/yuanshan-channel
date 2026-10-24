@@ -1,0 +1,58 @@
+{
+  "api": "yuanshan-channel/v1",
+  "access": "public-read",
+  "auth": null,
+  "generated": "2026-10-23",
+  "disclaimer": "每条资讯都附来源链接。标了「待核实」的条目来自媒体或第三方转述，引用前打开原文。费用、排名和法规以官方页面为准。",
+  "kind": "feed",
+  "id": "cn/rules+regulation+rankings",
+  "title": "中国",
+  "markets": [
+    "cn"
+  ],
+  "types": [
+    "rules",
+    "regulation",
+    "rankings"
+  ],
+  "filter": {
+    "markets": [
+      "cn"
+    ],
+    "types": [
+      "rules",
+      "regulation",
+      "rankings"
+    ],
+    "include_global": false
+  },
+  "count": 1,
+  "items": [
+    {
+      "kind": "news",
+      "id": "2026-10-15-china-nidc-freeze-dried-single-dose",
+      "type": "regulation",
+      "date": "2026-10-15",
+      "title": "中检院征求冻干、次抛化妆品标准：11月22日截止",
+      "summary": "中检院10月15日公开征求《化妆品冻干产品》《次抛型化妆品》两项标准意见，11月22日截止。冻干面膜、试用装不在范围。做冻干粉/安瓶精华的工厂与品牌宜对照草案自查。",
+      "body_text": "中国药品检定研究院（中检院）2026年10月15日发通知，公开征求两项化妆品标准意见稿，反馈截止 2026年11月22日，须在「化妆品标准制修订管理系统」提交：\n\n- 《化妆品冻干产品》\n\n- 《次抛型化妆品》\n\n冻干产品大致指：用真空冷冻干燥做成片、块、球、絮或粉，复溶后再涂在皮肤上的化妆品。官方起草说明写明——冻干面膜不适用；冻干原料、非化妆品用途也不适用。\n\n次抛型大致指：一次独立包装、开封后一次性用完的护肤类（常见吹灌封软管、软胶囊、安瓿等）。试用装、赠品等不适用。\n\n草案在建统一的质量指标、检验方法和标签/包装/运输/贮存要求；常规 pH、微生物、重金属等仍对齐《化妆品安全技术规范》等现有规则，复溶性、耐热/耐寒等品类特有指标是新方法。\n\n意味着什么\n\n- 还在征求意见，现在不是强制标准；但国内此前几乎没有专门国标/行标覆盖这两类热销形态\n\n- 在中国备案/注册、或在国内代工冻干粉、次抛精华再出口的品牌与工厂：趁截止前对照草案看水分、复溶、包装密封、标签表述会不会卡检测\n\n- 别把「冻干面膜」「小样试用装」误套进这两份标准的范围里做错误整改\n\n官方原文与附件下载：中检院通知 (https://www.nidc.org.cn/xxgk/ggtzh/tongzhi/202610151546212245658.html)。",
+      "markets": [
+        "cn"
+      ],
+      "platforms": [],
+      "tags": [
+        "compliance"
+      ],
+      "source_url": "https://www.nidc.org.cn/xxgk/ggtzh/tongzhi/202610151546212245658.html",
+      "source_name": "中国药品检定研究院",
+      "checked": "2026-10-24",
+      "needs_review": true,
+      "sample": false,
+      "key_date": {
+        "date": "2026-11-22",
+        "label": "意见截止"
+      },
+      "page": "/news/2026-10-15-china-nidc-freeze-dried-single-dose"
+    }
+  ]
+}

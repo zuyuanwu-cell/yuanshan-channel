@@ -1,0 +1,84 @@
+{
+  "api": "yuanshan-channel/v1",
+  "access": "public-read",
+  "auth": null,
+  "generated": "2026-10-23",
+  "disclaimer": "每条资讯都附来源链接。标了「待核实」的条目来自媒体或第三方转述，引用前打开原文。费用、排名和法规以官方页面为准。",
+  "kind": "feed",
+  "id": "ph/regulation",
+  "title": "菲律宾",
+  "markets": [
+    "ph"
+  ],
+  "types": [
+    "regulation"
+  ],
+  "filter": {
+    "markets": [
+      "ph"
+    ],
+    "types": [
+      "regulation"
+    ],
+    "include_global": false
+  },
+  "count": 2,
+  "items": [
+    {
+      "kind": "news",
+      "id": "2026-02-15-ph-fda-circular-2026-0001-acd",
+      "type": "regulation",
+      "date": "2026-02-15",
+      "title": "菲律宾 FDA 发布 2026-0001 号令：合并落实 ACD 附件修订",
+      "summary": "菲 FDA 将第 40–42 届东盟化妆品委员会通过的 ACD 附件修订合并发布，本地以菲律宾过渡期为准，覆盖生产与进口商。",
+      "body_text": "菲律宾食品药品管理局（FDA）发布 Circular No.2026-0001，把第 40 至 42 届东盟化妆品委员会（ACC）及其相关会议通过的《东盟化妆品指令》（ACD）附件修订合并落地。\n\n适用对象包括化妆品的生产、进口、出口、销售与广告等环节。文中说明：除菲律宾另行给出的过渡期外，按 ACD 附件修订执行。\n\n在 Shopee / Lazada 菲律宾站上架前，应核对产品是否仍持有有效 Cosmetic Product Notification，并对照最新禁限用成分表。发布日取自文号年份，精确日历日仍建议打开 FDA 原文核对，故标待核实。",
+      "markets": [
+        "ph"
+      ],
+      "platforms": [
+        "shopee",
+        "lazada"
+      ],
+      "tags": [
+        "ingredients",
+        "compliance"
+      ],
+      "source_url": "https://www.fda.gov.ph/fda-circular-no-2026-0001-consolidated-amendments-to-the-asean-cosmetic-directive-acd-as-adopted-during-the-40th-to-42nd-asean-cosmetic-committee-acc-meeting-and-their-related-meetings/",
+      "source_name": "Philippines FDA",
+      "checked": "2026-10-23",
+      "needs_review": true,
+      "sample": false,
+      "key_date": null,
+      "page": "/news/2026-02-15-ph-fda-circular-2026-0001-acd"
+    },
+    {
+      "kind": "news",
+      "id": "2025-05-20-ph-fda-circular-2025-002-acd",
+      "type": "regulation",
+      "date": "2025-05-20",
+      "title": "菲律宾 FDA 2025-002：跟进第 39 届 ACC 的 ACD 修订",
+      "summary": "菲 FDA 通报第 39 届 ACC 对 ACD 的更新；吡啶硫酮锌等成分限制多数东盟成员设 24 个月过渡，菲律宾部分议程另议。",
+      "body_text": "菲律宾 FDA Circular No.2025-002 汇总第 39 届东盟化妆品委员会会议对 ACD 的更新，并给出实施/过渡安排，方便企业改配方与下架旧配方。\n\n文中举例：吡啶硫酮锌（ZPT）在多数东盟成员按附件限制继续使用，并设约 24 个月过渡；2026年5月14日起不合规产品应退出市场。菲律宾对部分议程保留内部协商后再行动。\n\n卖家应打开 FDA 原文核对完整禁限用清单，不要只看转述摘要。",
+      "markets": [
+        "ph"
+      ],
+      "platforms": [
+        "shopee",
+        "lazada"
+      ],
+      "tags": [
+        "ingredients"
+      ],
+      "source_url": "https://www.fda.gov.ph/fda-circular-no-2025-002-updates-and-amendments-to-the-asean-cosmetic-directive-acd-as-adopted-during-the-39th-asean-cosmetic-committee-acc-meeting-and-its-related-meetings/",
+      "source_name": "Philippines FDA",
+      "checked": "2026-10-23",
+      "needs_review": false,
+      "sample": false,
+      "key_date": {
+        "date": "2026-05-14",
+        "label": "ZPT宽限"
+      },
+      "page": "/news/2025-05-20-ph-fda-circular-2025-002-acd"
+    }
+  ]
+}

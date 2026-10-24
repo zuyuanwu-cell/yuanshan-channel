@@ -1,0 +1,123 @@
+{
+  "api": "yuanshan-channel/v1",
+  "access": "public-read",
+  "auth": null,
+  "generated": "2026-10-23",
+  "disclaimer": "每条资讯都附来源链接。标了「待核实」的条目来自媒体或第三方转述，引用前打开原文。费用、排名和法规以官方页面为准。",
+  "kind": "feed",
+  "id": "us/rankings",
+  "title": "美国",
+  "markets": [
+    "us"
+  ],
+  "types": [
+    "rankings"
+  ],
+  "filter": {
+    "markets": [
+      "us"
+    ],
+    "types": [
+      "rankings"
+    ],
+    "include_global": false
+  },
+  "count": 5,
+  "items": [
+    {
+      "kind": "ranking",
+      "id": "amazon-us/2026-10-23",
+      "type": "rankings",
+      "date": "2026-10-23",
+      "title": "Amazon 美国站 · 2026-10-23",
+      "summary": "30 个单品 · Amazon Best Sellers · Beauty & Personal Care · 部分数据 · 待核实",
+      "markets": [
+        "us"
+      ],
+      "board": "amazon-us",
+      "source_url": "https://www.amazon.com/Best-Sellers-Beauty-Personal-Care/zgbs/beauty",
+      "source_name": "Amazon Best Sellers · Beauty & Personal Care",
+      "needs_review": true,
+      "sample": false,
+      "partial": true,
+      "page": "/rankings/amazon-us",
+      "detail": "/v1/rankings/amazon-us/2026-10-23.json"
+    },
+    {
+      "kind": "ranking",
+      "id": "ebay/2026-10-23",
+      "type": "rankings",
+      "date": "2026-10-23",
+      "title": "eBay · 2026-10-23",
+      "summary": "30 个单品 · eBay · skincare search Beauty · 部分数据 · 待核实",
+      "markets": [
+        "us"
+      ],
+      "board": "ebay",
+      "source_url": "https://www.ebay.com/sch/i.html?_nkw=skincare&_sacat=26395&_sop=12",
+      "source_name": "eBay · skincare search Beauty",
+      "needs_review": true,
+      "sample": false,
+      "partial": true,
+      "page": "/rankings/ebay",
+      "detail": "/v1/rankings/ebay/2026-10-23.json"
+    },
+    {
+      "kind": "ranking",
+      "id": "tiktok-shop-us/2026-10-23",
+      "type": "rankings",
+      "date": "2026-10-23",
+      "title": "TikTok Shop 美国 · 2026-10-23",
+      "summary": "30 个单品 · TikTok Shop US · skincare (best sellers) · 部分数据 · 待核实",
+      "markets": [
+        "us"
+      ],
+      "board": "tiktok-shop-us",
+      "source_url": "https://shop.tiktok.com/us/search?q=skincare",
+      "source_name": "TikTok Shop US · skincare (best sellers)",
+      "needs_review": true,
+      "sample": false,
+      "partial": true,
+      "page": "/rankings/tiktok-shop-us",
+      "detail": "/v1/rankings/tiktok-shop-us/2026-10-23.json"
+    },
+    {
+      "kind": "ranking",
+      "id": "walmart/2026-10-23",
+      "type": "rankings",
+      "date": "2026-10-23",
+      "title": "Walmart · 2026-10-23",
+      "summary": "9 个单品 · Walmart Best Sellers · Face Moisturizers · 部分数据 · 待核实",
+      "markets": [
+        "us"
+      ],
+      "board": "walmart",
+      "source_url": "https://www.walmart.com/c/best-sellers/face-moisturizers",
+      "source_name": "Walmart Best Sellers · Face Moisturizers",
+      "needs_review": true,
+      "sample": false,
+      "partial": true,
+      "page": "/rankings/walmart",
+      "detail": "/v1/rankings/walmart/2026-10-23.json"
+    },
+    {
+      "kind": "ranking",
+      "id": "amazon-us/2026-10-22",
+      "type": "rankings",
+      "date": "2026-10-22",
+      "title": "Amazon 美国站 · 2026-10-22",
+      "summary": "30 个单品 · Amazon Best Sellers · Beauty & Personal Care · 部分数据",
+      "markets": [
+        "us"
+      ],
+      "board": "amazon-us",
+      "source_url": "https://www.amazon.com/Best-Sellers-Beauty-Personal-Care/zgbs/beauty",
+      "source_name": "Amazon Best Sellers · Beauty & Personal Care",
+      "needs_review": false,
+      "sample": false,
+      "partial": true,
+      "page": "/rankings/amazon-us",
+      "detail": "/v1/rankings/amazon-us/2026-10-22.json"
+    }
+  ]
+}

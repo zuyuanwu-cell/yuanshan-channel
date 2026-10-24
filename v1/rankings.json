@@ -1,0 +1,407 @@
+{
+  "api": "yuanshan-channel/v1",
+  "access": "public-read",
+  "auth": null,
+  "generated": "2026-10-23",
+  "disclaimer": "每条资讯都附来源链接。标了「待核实」的条目来自媒体或第三方转述，引用前打开原文。费用、排名和法规以官方页面为准。",
+  "kind": "rankings",
+  "count": 23,
+  "boards": [
+    {
+      "id": "amazon-us",
+      "name": "Amazon 美国站",
+      "code": "US",
+      "market_label": "美国",
+      "markets": [
+        "us"
+      ],
+      "scope": "markets",
+      "status": "live",
+      "latest": "2026-10-23",
+      "dates": [
+        "2026-10-23",
+        "2026-10-22"
+      ],
+      "page": "/rankings/amazon-us",
+      "detail": "/v1/rankings/amazon-us.json"
+    },
+    {
+      "id": "tiktok-shop-us",
+      "name": "TikTok Shop 美国",
+      "code": "US",
+      "market_label": "美国",
+      "markets": [
+        "us"
+      ],
+      "scope": "markets",
+      "status": "live",
+      "latest": "2026-10-23",
+      "dates": [
+        "2026-10-23"
+      ],
+      "page": "/rankings/tiktok-shop-us",
+      "detail": "/v1/rankings/tiktok-shop-us.json"
+    },
+    {
+      "id": "temu",
+      "name": "Temu",
+      "code": "GL",
+      "market_label": "全球",
+      "markets": [],
+      "scope": "global",
+      "status": "live",
+      "latest": "2026-10-23",
+      "dates": [
+        "2026-10-23"
+      ],
+      "page": "/rankings/temu",
+      "detail": "/v1/rankings/temu.json"
+    },
+    {
+      "id": "amazon-uk",
+      "name": "Amazon 英国站",
+      "code": "UK",
+      "market_label": "英国",
+      "markets": [
+        "uk"
+      ],
+      "scope": "markets",
+      "status": "live",
+      "latest": "2026-10-23",
+      "dates": [
+        "2026-10-23"
+      ],
+      "page": "/rankings/amazon-uk",
+      "detail": "/v1/rankings/amazon-uk.json"
+    },
+    {
+      "id": "amazon-de",
+      "name": "Amazon 德国站",
+      "code": "DE",
+      "market_label": "德国",
+      "markets": [
+        "de"
+      ],
+      "scope": "markets",
+      "status": "live",
+      "latest": "2026-10-23",
+      "dates": [
+        "2026-10-23"
+      ],
+      "page": "/rankings/amazon-de",
+      "detail": "/v1/rankings/amazon-de.json"
+    },
+    {
+      "id": "amazon-jp",
+      "name": "Amazon 日本站",
+      "code": "JP",
+      "market_label": "日本",
+      "markets": [
+        "jp"
+      ],
+      "scope": "markets",
+      "status": "live",
+      "latest": "2026-10-23",
+      "dates": [
+        "2026-10-23"
+      ],
+      "page": "/rankings/amazon-jp",
+      "detail": "/v1/rankings/amazon-jp.json"
+    },
+    {
+      "id": "shopee-sg",
+      "name": "Shopee 新加坡",
+      "code": "SG",
+      "market_label": "新加坡",
+      "markets": [
+        "sg"
+      ],
+      "scope": "markets",
+      "status": "live",
+      "latest": "2026-10-23",
+      "dates": [
+        "2026-10-23"
+      ],
+      "page": "/rankings/shopee-sg",
+      "detail": "/v1/rankings/shopee-sg.json"
+    },
+    {
+      "id": "shopee-id",
+      "name": "Shopee 印尼",
+      "code": "ID",
+      "market_label": "印尼",
+      "markets": [
+        "id"
+      ],
+      "scope": "markets",
+      "status": "live",
+      "latest": "2026-10-23",
+      "dates": [
+        "2026-10-23"
+      ],
+      "page": "/rankings/shopee-id",
+      "detail": "/v1/rankings/shopee-id.json"
+    },
+    {
+      "id": "shopee-th",
+      "name": "Shopee 泰国",
+      "code": "TH",
+      "market_label": "泰国",
+      "markets": [
+        "th"
+      ],
+      "scope": "markets",
+      "status": "live",
+      "latest": "2026-10-23",
+      "dates": [
+        "2026-10-23"
+      ],
+      "page": "/rankings/shopee-th",
+      "detail": "/v1/rankings/shopee-th.json"
+    },
+    {
+      "id": "shopee-my",
+      "name": "Shopee 马来西亚",
+      "code": "MY",
+      "market_label": "马来西亚",
+      "markets": [
+        "my"
+      ],
+      "scope": "markets",
+      "status": "live",
+      "latest": "2026-10-23",
+      "dates": [
+        "2026-10-23"
+      ],
+      "page": "/rankings/shopee-my",
+      "detail": "/v1/rankings/shopee-my.json"
+    },
+    {
+      "id": "shopee-vn",
+      "name": "Shopee 越南",
+      "code": "VN",
+      "market_label": "越南",
+      "markets": [
+        "vn"
+      ],
+      "scope": "markets",
+      "status": "live",
+      "latest": "2026-10-23",
+      "dates": [
+        "2026-10-23"
+      ],
+      "page": "/rankings/shopee-vn",
+      "detail": "/v1/rankings/shopee-vn.json"
+    },
+    {
+      "id": "lazada-id",
+      "name": "Lazada 印尼",
+      "code": "ID",
+      "market_label": "印尼",
+      "markets": [
+        "id"
+      ],
+      "scope": "markets",
+      "status": "live",
+      "latest": "2026-10-23",
+      "dates": [
+        "2026-10-23"
+      ],
+      "page": "/rankings/lazada-id",
+      "detail": "/v1/rankings/lazada-id.json"
+    },
+    {
+      "id": "lazada-th",
+      "name": "Lazada 泰国",
+      "code": "TH",
+      "market_label": "泰国",
+      "markets": [
+        "th"
+      ],
+      "scope": "markets",
+      "status": "live",
+      "latest": "2026-10-23",
+      "dates": [
+        "2026-10-23"
+      ],
+      "page": "/rankings/lazada-th",
+      "detail": "/v1/rankings/lazada-th.json"
+    },
+    {
+      "id": "tiktok-shop-sea",
+      "name": "TikTok Shop 东南亚",
+      "code": "SEA",
+      "market_label": "东南亚",
+      "markets": [
+        "bn",
+        "id",
+        "kh",
+        "la",
+        "my",
+        "ph",
+        "sg",
+        "th",
+        "vn"
+      ],
+      "scope": "markets",
+      "status": "gap",
+      "latest": null,
+      "dates": [],
+      "page": null,
+      "detail": null
+    },
+    {
+      "id": "amazon-sg",
+      "name": "Amazon 新加坡站",
+      "code": "SG",
+      "market_label": "新加坡",
+      "markets": [
+        "sg"
+      ],
+      "scope": "markets",
+      "status": "live",
+      "latest": "2026-10-23",
+      "dates": [
+        "2026-10-23",
+        "2026-10-22"
+      ],
+      "page": "/rankings/amazon-sg",
+      "detail": "/v1/rankings/amazon-sg.json"
+    },
+    {
+      "id": "ozon",
+      "name": "Ozon",
+      "code": "RU",
+      "market_label": "俄罗斯",
+      "markets": [
+        "ru"
+      ],
+      "scope": "markets",
+      "status": "live",
+      "latest": "2026-10-23",
+      "dates": [
+        "2026-10-23"
+      ],
+      "page": "/rankings/ozon",
+      "detail": "/v1/rankings/ozon.json"
+    },
+    {
+      "id": "wildberries",
+      "name": "Wildberries",
+      "code": "RU",
+      "market_label": "俄罗斯",
+      "markets": [
+        "ru"
+      ],
+      "scope": "markets",
+      "status": "live",
+      "latest": "2026-10-23",
+      "dates": [
+        "2026-10-23"
+      ],
+      "page": "/rankings/wildberries",
+      "detail": "/v1/rankings/wildberries.json"
+    },
+    {
+      "id": "walmart",
+      "name": "Walmart",
+      "code": "US",
+      "market_label": "美国",
+      "markets": [
+        "us"
+      ],
+      "scope": "markets",
+      "status": "live",
+      "latest": "2026-10-23",
+      "dates": [
+        "2026-10-23"
+      ],
+      "page": "/rankings/walmart",
+      "detail": "/v1/rankings/walmart.json"
+    },
+    {
+      "id": "ebay",
+      "name": "eBay",
+      "code": "US",
+      "market_label": "美国",
+      "markets": [
+        "us"
+      ],
+      "scope": "markets",
+      "status": "live",
+      "latest": "2026-10-23",
+      "dates": [
+        "2026-10-23"
+      ],
+      "page": "/rankings/ebay",
+      "detail": "/v1/rankings/ebay.json"
+    },
+    {
+      "id": "mercado-livre",
+      "name": "Mercado Livre 巴西",
+      "code": "BR",
+      "market_label": "巴西",
+      "markets": [
+        "br"
+      ],
+      "scope": "markets",
+      "status": "live",
+      "latest": "2026-10-23",
+      "dates": [
+        "2026-10-23"
+      ],
+      "page": "/rankings/mercado-livre",
+      "detail": "/v1/rankings/mercado-livre.json"
+    },
+    {
+      "id": "aliexpress",
+      "name": "AliExpress",
+      "code": "GL",
+      "market_label": "全球",
+      "markets": [],
+      "scope": "global",
+      "status": "live",
+      "latest": "2026-10-23",
+      "dates": [
+        "2026-10-23"
+      ],
+      "page": "/rankings/aliexpress",
+      "detail": "/v1/rankings/aliexpress.json"
+    },
+    {
+      "id": "noon",
+      "name": "noon",
+      "code": "AE",
+      "market_label": "阿联酋/沙特",
+      "markets": [
+        "ae",
+        "sa"
+      ],
+      "scope": "markets",
+      "status": "live",
+      "latest": "2026-10-23",
+      "dates": [
+        "2026-10-23"
+      ],
+      "page": "/rankings/noon",
+      "detail": "/v1/rankings/noon.json"
+    },
+    {
+      "id": "coupang",
+      "name": "Coupang",
+      "code": "KR",
+      "market_label": "韩国",
+      "markets": [
+        "kr"
+      ],
+      "scope": "markets",
+      "status": "live",
+      "latest": "2026-10-23",
+      "dates": [
+        "2026-10-23"
+      ],
+      "page": "/rankings/coupang",
+      "detail": "/v1/rankings/coupang.json"
+    }
+  ]
+}

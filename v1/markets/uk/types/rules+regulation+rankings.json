@@ -1,0 +1,103 @@
+{
+  "api": "yuanshan-channel/v1",
+  "access": "public-read",
+  "auth": null,
+  "generated": "2026-10-23",
+  "disclaimer": "每条资讯都附来源链接。标了「待核实」的条目来自媒体或第三方转述，引用前打开原文。费用、排名和法规以官方页面为准。",
+  "kind": "feed",
+  "id": "uk/rules+regulation+rankings",
+  "title": "英国",
+  "markets": [
+    "uk"
+  ],
+  "types": [
+    "rules",
+    "regulation",
+    "rankings"
+  ],
+  "filter": {
+    "markets": [
+      "uk"
+    ],
+    "types": [
+      "rules",
+      "regulation",
+      "rankings"
+    ],
+    "include_global": false
+  },
+  "count": 3,
+  "items": [
+    {
+      "kind": "news",
+      "id": "2026-10-23-uk-hexyl-salicylate-2027",
+      "type": "regulation",
+      "date": "2026-10-23",
+      "title": "英国第二批修订：水杨酸己酯限量，2027年3月23日生效",
+      "summary": "英国 2026 年第 109 号条例限制香料成分水杨酸己酯，并新增一批 CMR 禁用物质；2027年3月23日生效，清库存到 2027年9月22日。",
+      "body_text": "- 限制香料成分 水杨酸己酯（hexyl salicylate）\n\n- 新增一批 CMR 禁用物质\n\n- 2027年3月23日生效，已上市产品可卖到 2027年9月22日\n\n香水、香氛身体护理类要提前查配方。",
+      "markets": [
+        "uk"
+      ],
+      "platforms": [],
+      "tags": [
+        "ingredients"
+      ],
+      "source_url": "https://www.legislation.gov.uk/uksi/2026/109/body/made",
+      "source_name": "legislation.gov.uk",
+      "checked": "2026-10-23",
+      "needs_review": false,
+      "sample": false,
+      "key_date": {
+        "date": "2027-03-23",
+        "label": "生效"
+      },
+      "page": "/news/2026-10-23-uk-hexyl-salicylate-2027"
+    },
+    {
+      "kind": "ranking",
+      "id": "amazon-uk/2026-10-23",
+      "type": "rankings",
+      "date": "2026-10-23",
+      "title": "Amazon 英国站 · 2026-10-23",
+      "summary": "30 个单品 · Amazon.co.uk Best Sellers · Beauty · 部分数据 · 待核实",
+      "markets": [
+        "uk"
+      ],
+      "board": "amazon-uk",
+      "source_url": "https://www.amazon.co.uk/Best-Sellers-Beauty/zgbs/beauty",
+      "source_name": "Amazon.co.uk Best Sellers · Beauty",
+      "needs_review": true,
+      "sample": false,
+      "partial": true,
+      "page": "/rankings/amazon-uk",
+      "detail": "/v1/rankings/amazon-uk/2026-10-23.json"
+    },
+    {
+      "kind": "news",
+      "id": "2026-07-15-uk-4mbc-cmr-ban",
+      "type": "regulation",
+      "date": "2026-07-15",
+      "title": "英国禁用 4-MBC 和 16 种 CMR 物质，含美甲常用 TPO",
+      "summary": "英国 2026 年第 23 号条例：4-MBC 禁用、甲醛释放体警示阈值降到 0.001%（7月15日起）；16 种 CMR 物质（含 TPO）8月15日起禁用。",
+      "body_text": "- 7月15日起：禁用防晒剂 4-MBC；甲醛释放体警示阈值降到 0.001%\n\n- 8月15日起：禁用 16 种 CMR 物质，包括美甲胶常用的光引发剂 TPO\n\n- 已上市产品清库存截止：2027年1月14日 / 2月14日\n\n卖英国的美甲、防晒产品先核对配方。",
+      "markets": [
+        "uk"
+      ],
+      "platforms": [],
+      "tags": [
+        "ingredients"
+      ],
+      "source_url": "https://www.legislation.gov.uk/uksi/2026/23/made",
+      "source_name": "legislation.gov.uk",
+      "checked": "2026-10-23",
+      "needs_review": false,
+      "sample": false,
+      "key_date": {
+        "date": "2027-02-14",
+        "label": "清库存止"
+      },
+      "page": "/news/2026-07-15-uk-4mbc-cmr-ban"
+    }
+  ]
+}

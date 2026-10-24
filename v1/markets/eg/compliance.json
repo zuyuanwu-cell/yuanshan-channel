@@ -1,0 +1,123 @@
+{
+  "api": "yuanshan-channel/v1",
+  "access": "public-read",
+  "auth": null,
+  "generated": "2026-10-23",
+  "disclaimer": "每条资讯都附来源链接。标了「待核实」的条目来自媒体或第三方转述，引用前打开原文。费用、排名和法规以官方页面为准。",
+  "kind": "compliance",
+  "id": "eg",
+  "name_zh": "埃及",
+  "region": "非洲",
+  "region_slug": "africa",
+  "page": "/compliance/eg",
+  "market": {
+    "country": "eg",
+    "name_zh": "埃及",
+    "flag": "🇪🇬",
+    "region": "非洲",
+    "difficulty": 3,
+    "summary": "进口化妆品须在埃及药品管理局电子库通报后才能流通。费用金额未写。",
+    "items": [
+      {
+        "id": "eg-notify",
+        "name_zh": "化妆品通报",
+        "authority": "埃及药品管理局",
+        "type": "registration",
+        "mandatory": true,
+        "cost": "未知",
+        "time": "普通10个工作日，快速3个工作日；有效期十年",
+        "docs": [
+          "商品名",
+          "成分及功能",
+          "图稿",
+          "缴费收据",
+          "保质期"
+        ],
+        "who": "负责该产品的公司",
+        "note": "在埃及流通或进口前，须先在药品管理局电子数据库通报。同名仅颜色、香型或容量不同的可一次通报。",
+        "official_url": "https://edaegypt.gov.eg/media/1zjbwa1w/regulatory-guide-for-cosmetics-notification.pdf",
+        "source_checked": "2026-10-24",
+        "needs_review": false
+      },
+      {
+        "id": "eg-factory",
+        "name_zh": "工厂列入生产名单",
+        "authority": "埃及药品管理局",
+        "type": "platform",
+        "mandatory": true,
+        "cost": "未知",
+        "time": "3个工作日",
+        "docs": [],
+        "who": "生产企业",
+        "note": "将生产该产品的国外或本地工厂须通过电子平台列入生产名单，每厂一次。",
+        "official_url": "https://edaegypt.gov.eg/media/1zjbwa1w/regulatory-guide-for-cosmetics-notification.pdf",
+        "source_checked": "2026-10-24",
+        "needs_review": false
+      },
+      {
+        "id": "eg-agent",
+        "name_zh": "进口授权",
+        "authority": "埃及药品管理局",
+        "type": "local-rep",
+        "mandatory": true,
+        "cost": "未知",
+        "time": "未知",
+        "docs": [],
+        "who": "埃及代理人",
+        "note": "境外产品所有人给埃及代理人的通报授权，须由认证机关盖章并由埃及驻原产国使领馆认证。",
+        "official_url": "https://edaegypt.gov.eg/media/1zjbwa1w/regulatory-guide-for-cosmetics-notification.pdf",
+        "source_checked": "2026-10-24",
+        "needs_review": false
+      },
+      {
+        "id": "eg-label",
+        "name_zh": "英文成分表",
+        "authority": "埃及药品管理局",
+        "type": "label",
+        "mandatory": true,
+        "cost": "未知",
+        "time": "未知",
+        "docs": [],
+        "who": "通报公司",
+        "note": "成分表须以 Ingredients 开头，成分名用英文，并与已通报配方一致。",
+        "official_url": "https://edaegypt.gov.eg/media/1zjbwa1w/regulatory-guide-for-cosmetics-notification.pdf",
+        "source_checked": "2026-10-24",
+        "needs_review": false
+      },
+      {
+        "id": "eg-annex",
+        "name_zh": "采用欧盟化妆品法规附件",
+        "authority": "埃及药品管理局",
+        "type": "safety",
+        "mandatory": true,
+        "cost": "未知",
+        "time": "未知",
+        "docs": [],
+        "who": "通报公司",
+        "note": "禁用、限用、着色剂、防腐剂和紫外线过滤剂指向欧盟1223/2009附件二至六及其修订。",
+        "official_url": "https://edaegypt.gov.eg/media/1zjbwa1w/regulatory-guide-for-cosmetics-notification.pdf",
+        "source_checked": "2026-10-24",
+        "needs_review": false
+      }
+    ],
+    "steps": [
+      {
+        "title": "工厂名单",
+        "type": "platform"
+      },
+      {
+        "title": "通报",
+        "type": "registration"
+      },
+      {
+        "title": "标签",
+        "type": "label"
+      }
+    ],
+    "last_verified": "2026-10-24",
+    "hs_codes": {
+      "status": "pending",
+      "items": []
+    }
+  }
+}

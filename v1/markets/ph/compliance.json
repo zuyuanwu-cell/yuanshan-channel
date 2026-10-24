@@ -1,0 +1,290 @@
+{
+  "api": "yuanshan-channel/v1",
+  "access": "public-read",
+  "auth": null,
+  "generated": "2026-10-23",
+  "disclaimer": "每条资讯都附来源链接。标了「待核实」的条目来自媒体或第三方转述，引用前打开原文。费用、排名和法规以官方页面为准。",
+  "kind": "compliance",
+  "id": "ph",
+  "name_zh": "菲律宾",
+  "region": "东南亚",
+  "region_slug": "southeast-asia",
+  "page": "/compliance/ph",
+  "market": {
+    "country": "ph",
+    "name_zh": "菲律宾",
+    "flag": "🇵🇭",
+    "region": "东南亚",
+    "difficulty": 2,
+    "summary": "本地公司先拿化妆品进口商营业许可 LTO，再逐品办 CPN。",
+    "items": [
+      {
+        "id": "ph-lto",
+        "name_zh": "化妆品进口商营业许可 LTO",
+        "authority": "FDA Philippines",
+        "type": "local-rep",
+        "mandatory": true,
+        "cost": "未知",
+        "time": "约 20–40 个工作日",
+        "docs": [
+          "营业登记",
+          "资本证明"
+        ],
+        "who": "菲律宾本地公司",
+        "note": "",
+        "official_url": "https://lic-public.wto.org/en/product-categories/673/procedure",
+        "source_checked": "2026-10-23",
+        "needs_review": true
+      },
+      {
+        "id": "ph-cpn",
+        "name_zh": "产品通报证书 CPN",
+        "authority": "FDA Philippines",
+        "type": "registration",
+        "mandatory": true,
+        "cost": "未知",
+        "time": "未知",
+        "docs": [
+          "LTO 号",
+          "全成分",
+          "厂商信息"
+        ],
+        "who": "LTO 持有人",
+        "note": "",
+        "official_url": "https://www.fda.gov.ph/wp-content/uploads/2021/03/Cosmetic-e-Notification-v.2.0-User-Manual-for-Applicants.pdf",
+        "source_checked": "2026-10-23",
+        "needs_review": false
+      },
+      {
+        "id": "ph-pif",
+        "name_zh": "产品信息档案 PIF",
+        "authority": "FDA Philippines",
+        "type": "safety",
+        "mandatory": true,
+        "cost": "未知",
+        "time": "未知",
+        "docs": [
+          "PIF"
+        ],
+        "who": "上市许可持有人",
+        "note": "",
+        "official_url": "https://www.fda.gov.ph/fda-circular-no-2023-0001-updated-guidelines-on-product-information-file-pif-for-cosmetic-products-repealing-fda-circular-no-2018-001-reiterating-the-mandatory-implementation-of-article/",
+        "source_checked": "2026-10-23",
+        "needs_review": false
+      },
+      {
+        "id": "ph-hs",
+        "name_zh": "HS 编码与关税",
+        "authority": "菲律宾海关",
+        "type": "tax-customs",
+        "mandatory": true,
+        "cost": "未知",
+        "time": "未知",
+        "docs": [],
+        "who": "进口商",
+        "note": "HS 编码待补",
+        "official_url": "https://customs.gov.ph/",
+        "source_checked": "2026-10-23",
+        "needs_review": false
+      }
+    ],
+    "steps": [
+      {
+        "title": "找本地代表",
+        "type": "local-rep"
+      },
+      {
+        "title": "安全档案",
+        "type": "safety"
+      },
+      {
+        "title": "备案/注册",
+        "type": "registration"
+      },
+      {
+        "title": "清关",
+        "type": "tax-customs"
+      }
+    ],
+    "last_verified": "2026-10-23",
+    "hs_codes": {
+      "status": "ready",
+      "items": [
+        {
+          "code": "33030000",
+          "name_zh": "香水",
+          "duty": "7%",
+          "source_url": "https://finder.tariffcommission.gov.ph/search-by-code"
+        },
+        {
+          "code": "33030000",
+          "name_zh": "淡香水",
+          "duty": "7%",
+          "source_url": "https://finder.tariffcommission.gov.ph/search-by-code"
+        },
+        {
+          "code": "33041000",
+          "name_zh": "唇部彩妆",
+          "duty": "7%",
+          "source_url": "https://finder.tariffcommission.gov.ph/search-by-code"
+        },
+        {
+          "code": "33042000",
+          "name_zh": "眼部彩妆",
+          "duty": "7%",
+          "source_url": "https://finder.tariffcommission.gov.ph/search-by-code"
+        },
+        {
+          "code": "33043000",
+          "name_zh": "美甲产品",
+          "duty": "7%",
+          "source_url": "https://finder.tariffcommission.gov.ph/search-by-code"
+        },
+        {
+          "code": "33049100",
+          "name_zh": "粉类（散粉/粉饼）",
+          "duty": "7%",
+          "source_url": "https://finder.tariffcommission.gov.ph/search-by-code"
+        },
+        {
+          "code": "33049930",
+          "name_zh": "面霜/乳液/精华（护肤）",
+          "duty": "7%",
+          "source_url": "https://finder.tariffcommission.gov.ph/search-by-code"
+        },
+        {
+          "code": "33049990",
+          "name_zh": "防晒",
+          "duty": "7%",
+          "source_url": "https://finder.tariffcommission.gov.ph/search-by-code"
+        },
+        {
+          "code": "33049990",
+          "name_zh": "卸妆产品",
+          "duty": "7%",
+          "source_url": "https://finder.tariffcommission.gov.ph/search-by-code"
+        },
+        {
+          "code": "33051090",
+          "name_zh": "洗发水",
+          "duty": "10%",
+          "source_url": "https://finder.tariffcommission.gov.ph/search-by-code"
+        },
+        {
+          "code": "33059000",
+          "name_zh": "护发素",
+          "duty": "10%",
+          "source_url": "https://finder.tariffcommission.gov.ph/search-by-code"
+        },
+        {
+          "code": "33059000",
+          "name_zh": "染发剂",
+          "duty": "10%",
+          "source_url": "https://finder.tariffcommission.gov.ph/search-by-code"
+        },
+        {
+          "code": "33053000",
+          "name_zh": "发胶/定型喷雾",
+          "duty": "10%",
+          "source_url": "https://finder.tariffcommission.gov.ph/search-by-code"
+        },
+        {
+          "code": "33061090",
+          "name_zh": "牙膏",
+          "duty": "7%",
+          "source_url": "https://finder.tariffcommission.gov.ph/search-by-code"
+        },
+        {
+          "code": "33069000",
+          "name_zh": "漱口水",
+          "duty": "7%",
+          "source_url": "https://finder.tariffcommission.gov.ph/search-by-code"
+        },
+        {
+          "code": "33062000",
+          "name_zh": "牙线",
+          "duty": "3%",
+          "source_url": "https://finder.tariffcommission.gov.ph/search-by-code"
+        },
+        {
+          "code": "33072000",
+          "name_zh": "止汗/香体",
+          "duty": "5%",
+          "source_url": "https://finder.tariffcommission.gov.ph/search-by-code"
+        },
+        {
+          "code": "33071000",
+          "name_zh": "剃须膏",
+          "duty": "7%",
+          "source_url": "https://finder.tariffcommission.gov.ph/search-by-code"
+        },
+        {
+          "code": "34013000",
+          "name_zh": "沐浴露",
+          "duty": "10%",
+          "source_url": "https://finder.tariffcommission.gov.ph/search-by-code"
+        },
+        {
+          "code": "34011150",
+          "name_zh": "香皂（块）",
+          "duty": "10%",
+          "source_url": "https://finder.tariffcommission.gov.ph/search-by-code"
+        },
+        {
+          "code": "34013000",
+          "name_zh": "液体洗手液",
+          "duty": "10%",
+          "source_url": "https://finder.tariffcommission.gov.ph/search-by-code"
+        },
+        {
+          "code": "33079040",
+          "name_zh": "脱毛膏",
+          "duty": "7%",
+          "source_url": "https://finder.tariffcommission.gov.ph/search-by-code"
+        },
+        {
+          "code": "33049990",
+          "name_zh": "面膜（片状）",
+          "duty": "7%",
+          "source_url": "https://finder.tariffcommission.gov.ph/search-by-code"
+        },
+        {
+          "code": "96032900",
+          "name_zh": "化妆刷",
+          "duty": "10%",
+          "source_url": "https://finder.tariffcommission.gov.ph/search-by-code"
+        },
+        {
+          "code": "96162000",
+          "name_zh": "化妆海绵/粉扑",
+          "duty": "7%",
+          "source_url": "https://finder.tariffcommission.gov.ph/search-by-code"
+        },
+        {
+          "code": "67041900",
+          "name_zh": "假睫毛（合成纤维）",
+          "duty": "10%",
+          "source_url": "https://finder.tariffcommission.gov.ph/search-by-code"
+        },
+        {
+          "code": "85103000",
+          "name_zh": "电动脱毛器",
+          "duty": "3%",
+          "source_url": "https://finder.tariffcommission.gov.ph/search-by-code"
+        },
+        {
+          "code": "85163200",
+          "name_zh": "美发电器（卷/直发器）",
+          "duty": "3%",
+          "source_url": "https://finder.tariffcommission.gov.ph/search-by-code"
+        },
+        {
+          "code": "85437090",
+          "name_zh": "电动美容仪（面部）",
+          "duty": "1%",
+          "source_url": "https://finder.tariffcommission.gov.ph/search-by-code"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,291 @@
+{
+  "api": "yuanshan-channel/v1",
+  "access": "public-read",
+  "auth": null,
+  "generated": "2026-10-23",
+  "disclaimer": "每条资讯都附来源链接。标了「待核实」的条目来自媒体或第三方转述，引用前打开原文。费用、排名和法规以官方页面为准。",
+  "kind": "compliance",
+  "id": "sa",
+  "name_zh": "沙特",
+  "region": "中东",
+  "region_slug": "middle-east",
+  "page": "/compliance/sa",
+  "market": {
+    "country": "sa",
+    "name_zh": "沙特",
+    "flag": "🇸🇦",
+    "region": "中东",
+    "difficulty": 2,
+    "summary": "上市前在 SFDA 系统（eCosma/GHAD）逐品列名，标签按 GSO 1943。",
+    "items": [
+      {
+        "id": "sa-rep",
+        "name_zh": "本地商业登记 / 授权代表",
+        "authority": "SFDA",
+        "type": "local-rep",
+        "mandatory": true,
+        "cost": "未知",
+        "time": "未知",
+        "docs": [
+          "商业登记",
+          "厂商授权书"
+        ],
+        "who": "沙特本地公司",
+        "note": "",
+        "official_url": "https://www.sfda.gov.sa/sites/default/files/2025-01/GuidanceRequirementsCosmeticProductNotification_compressed.pdf",
+        "source_checked": "2026-10-23",
+        "needs_review": false
+      },
+      {
+        "id": "sa-listing",
+        "name_zh": "SFDA 化妆品列名",
+        "authority": "SFDA",
+        "type": "registration",
+        "mandatory": true,
+        "cost": "未知",
+        "time": "未知",
+        "docs": [
+          "标签图片",
+          "全成分及浓度",
+          "每个规格条码"
+        ],
+        "who": "本地公司",
+        "note": "提交即生效，数据责任在通报人",
+        "official_url": "https://sfda.gov.sa/ar/eservices/307",
+        "source_checked": "2026-10-23",
+        "needs_review": false
+      },
+      {
+        "id": "sa-label",
+        "name_zh": "GSO 1943 标签",
+        "authority": "SFDA",
+        "type": "label",
+        "mandatory": true,
+        "cost": "未知",
+        "time": "未知",
+        "docs": [
+          "阿拉伯语信息",
+          "唯一条码"
+        ],
+        "who": "品牌",
+        "note": "",
+        "official_url": "https://www.sfda.gov.sa/sites/default/files/2025-01/GuidanceRequirementsCosmeticProductNotification_compressed.pdf",
+        "source_checked": "2026-10-23",
+        "needs_review": true
+      },
+      {
+        "id": "sa-hs",
+        "name_zh": "HS 编码与关税",
+        "authority": "ZATCA",
+        "type": "tax-customs",
+        "mandatory": true,
+        "cost": "未知",
+        "time": "未知",
+        "docs": [],
+        "who": "进口商",
+        "note": "HS 编码待补",
+        "official_url": "https://zatca.gov.sa/",
+        "source_checked": "2026-10-23",
+        "needs_review": false
+      }
+    ],
+    "steps": [
+      {
+        "title": "找本地代表",
+        "type": "local-rep"
+      },
+      {
+        "title": "备案/注册",
+        "type": "registration"
+      },
+      {
+        "title": "做标签",
+        "type": "label"
+      },
+      {
+        "title": "清关",
+        "type": "tax-customs"
+      }
+    ],
+    "last_verified": "2026-10-23",
+    "hs_codes": {
+      "status": "ready",
+      "items": [
+        {
+          "code": "330300100000",
+          "name_zh": "香水",
+          "duty": "5%",
+          "source_url": "https://zatca.gov.sa/ar/RulesRegulations/Taxes/Pages/Integrated-Tarrifs.aspx"
+        },
+        {
+          "code": "330300900000",
+          "name_zh": "淡香水",
+          "duty": "5%",
+          "source_url": "https://zatca.gov.sa/ar/RulesRegulations/Taxes/Pages/Integrated-Tarrifs.aspx"
+        },
+        {
+          "code": "330410000000",
+          "name_zh": "唇部彩妆",
+          "duty": "5%",
+          "source_url": "https://zatca.gov.sa/ar/RulesRegulations/Taxes/Pages/Integrated-Tarrifs.aspx"
+        },
+        {
+          "code": "330420000000",
+          "name_zh": "眼部彩妆",
+          "duty": "5%",
+          "source_url": "https://zatca.gov.sa/ar/RulesRegulations/Taxes/Pages/Integrated-Tarrifs.aspx"
+        },
+        {
+          "code": "330430900000",
+          "name_zh": "美甲产品",
+          "duty": "5%",
+          "source_url": "https://zatca.gov.sa/ar/RulesRegulations/Taxes/Pages/Integrated-Tarrifs.aspx"
+        },
+        {
+          "code": "330491900000",
+          "name_zh": "粉类（散粉/粉饼）",
+          "duty": "5%",
+          "source_url": "https://zatca.gov.sa/ar/RulesRegulations/Taxes/Pages/Integrated-Tarrifs.aspx"
+        },
+        {
+          "code": "330499300000",
+          "name_zh": "面霜/乳液/精华（护肤）",
+          "duty": "5%",
+          "source_url": "https://zatca.gov.sa/ar/RulesRegulations/Taxes/Pages/Integrated-Tarrifs.aspx"
+        },
+        {
+          "code": "330499200000",
+          "name_zh": "防晒",
+          "duty": "5%",
+          "source_url": "https://zatca.gov.sa/ar/RulesRegulations/Taxes/Pages/Integrated-Tarrifs.aspx"
+        },
+        {
+          "code": "330499400000",
+          "name_zh": "卸妆产品",
+          "duty": "5%",
+          "source_url": "https://zatca.gov.sa/ar/RulesRegulations/Taxes/Pages/Integrated-Tarrifs.aspx"
+        },
+        {
+          "code": "330510000000",
+          "name_zh": "洗发水",
+          "duty": "5%",
+          "source_url": "https://zatca.gov.sa/ar/RulesRegulations/Taxes/Pages/Integrated-Tarrifs.aspx"
+        },
+        {
+          "code": "330590900000",
+          "name_zh": "护发素",
+          "duty": "5%",
+          "source_url": "https://zatca.gov.sa/ar/RulesRegulations/Taxes/Pages/Integrated-Tarrifs.aspx"
+        },
+        {
+          "code": "330590300000",
+          "name_zh": "染发剂",
+          "duty": "5%",
+          "source_url": "https://zatca.gov.sa/ar/RulesRegulations/Taxes/Pages/Integrated-Tarrifs.aspx"
+        },
+        {
+          "code": "330530000000",
+          "name_zh": "发胶/定型喷雾",
+          "duty": "5%",
+          "source_url": "https://zatca.gov.sa/ar/RulesRegulations/Taxes/Pages/Integrated-Tarrifs.aspx"
+        },
+        {
+          "code": "330610900000",
+          "name_zh": "牙膏",
+          "duty": "5%",
+          "source_url": "https://zatca.gov.sa/ar/RulesRegulations/Taxes/Pages/Integrated-Tarrifs.aspx"
+        },
+        {
+          "code": "330690900000",
+          "name_zh": "漱口水",
+          "duty": "5%",
+          "source_url": "https://zatca.gov.sa/ar/RulesRegulations/Taxes/Pages/Integrated-Tarrifs.aspx"
+        },
+        {
+          "code": "330620000000",
+          "name_zh": "牙线",
+          "duty": "5%",
+          "source_url": "https://zatca.gov.sa/ar/RulesRegulations/Taxes/Pages/Integrated-Tarrifs.aspx"
+        },
+        {
+          "code": "330720000000",
+          "name_zh": "止汗/香体",
+          "duty": "5%",
+          "source_url": "https://zatca.gov.sa/ar/RulesRegulations/Taxes/Pages/Integrated-Tarrifs.aspx"
+        },
+        {
+          "code": "330710900000",
+          "name_zh": "剃须膏",
+          "duty": "5%",
+          "source_url": "https://zatca.gov.sa/ar/RulesRegulations/Taxes/Pages/Integrated-Tarrifs.aspx"
+        },
+        {
+          "code": "340130000000",
+          "name_zh": "沐浴露",
+          "duty": "5%",
+          "source_url": "https://zatca.gov.sa/ar/RulesRegulations/Taxes/Pages/Integrated-Tarrifs.aspx"
+        },
+        {
+          "code": "340111800000",
+          "name_zh": "香皂（块）",
+          "duty": "5%",
+          "source_url": "https://zatca.gov.sa/ar/RulesRegulations/Taxes/Pages/Integrated-Tarrifs.aspx"
+        },
+        {
+          "code": "340130000000",
+          "name_zh": "液体洗手液",
+          "duty": "5%",
+          "source_url": "https://zatca.gov.sa/ar/RulesRegulations/Taxes/Pages/Integrated-Tarrifs.aspx"
+        },
+        {
+          "code": "330790400000",
+          "name_zh": "脱毛膏",
+          "duty": "5%",
+          "source_url": "https://zatca.gov.sa/ar/RulesRegulations/Taxes/Pages/Integrated-Tarrifs.aspx"
+        },
+        {
+          "code": "330499900000",
+          "name_zh": "面膜（片状）",
+          "duty": "5%",
+          "source_url": "https://zatca.gov.sa/ar/RulesRegulations/Taxes/Pages/Integrated-Tarrifs.aspx"
+        },
+        {
+          "code": "960329900000",
+          "name_zh": "化妆刷",
+          "duty": "5%",
+          "source_url": "https://zatca.gov.sa/ar/RulesRegulations/Taxes/Pages/Integrated-Tarrifs.aspx"
+        },
+        {
+          "code": "961620000000",
+          "name_zh": "化妆海绵/粉扑",
+          "duty": "5%",
+          "source_url": "https://zatca.gov.sa/ar/RulesRegulations/Taxes/Pages/Integrated-Tarrifs.aspx"
+        },
+        {
+          "code": "670419000000",
+          "name_zh": "假睫毛（合成纤维）",
+          "duty": "5%",
+          "source_url": "https://zatca.gov.sa/ar/RulesRegulations/Taxes/Pages/Integrated-Tarrifs.aspx"
+        },
+        {
+          "code": "851030000000",
+          "name_zh": "电动脱毛器",
+          "duty": "5%",
+          "source_url": "https://zatca.gov.sa/ar/RulesRegulations/Taxes/Pages/Integrated-Tarrifs.aspx"
+        },
+        {
+          "code": "851632000000",
+          "name_zh": "美发电器（卷/直发器）",
+          "duty": "5%",
+          "source_url": "https://zatca.gov.sa/ar/RulesRegulations/Taxes/Pages/Integrated-Tarrifs.aspx"
+        },
+        {
+          "code": "854370900000",
+          "name_zh": "电动美容仪（面部）",
+          "duty": "0%",
+          "source_url": "https://zatca.gov.sa/ar/RulesRegulations/Taxes/Pages/Integrated-Tarrifs.aspx"
+        }
+      ]
+    }
+  }
+}

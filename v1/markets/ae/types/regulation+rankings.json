@@ -1,0 +1,80 @@
+{
+  "api": "yuanshan-channel/v1",
+  "access": "public-read",
+  "auth": null,
+  "generated": "2026-10-23",
+  "disclaimer": "每条资讯都附来源链接。标了「待核实」的条目来自媒体或第三方转述，引用前打开原文。费用、排名和法规以官方页面为准。",
+  "kind": "feed",
+  "id": "ae/regulation+rankings",
+  "title": "阿联酋",
+  "markets": [
+    "ae"
+  ],
+  "types": [
+    "regulation",
+    "rankings"
+  ],
+  "filter": {
+    "markets": [
+      "ae"
+    ],
+    "types": [
+      "regulation",
+      "rankings"
+    ],
+    "include_global": false
+  },
+  "count": 2,
+  "items": [
+    {
+      "kind": "ranking",
+      "id": "noon/2026-10-23",
+      "type": "rankings",
+      "date": "2026-10-23",
+      "title": "noon · 2026-10-23",
+      "summary": "30 个单品 · noon UAE · Beauty (popularity) · 待核实",
+      "markets": [
+        "ae",
+        "sa"
+      ],
+      "board": "noon",
+      "source_url": "https://www.noon.com/uae-en/beauty/?sort[by]=popularity&sort[dir]=desc",
+      "source_name": "noon UAE · Beauty (popularity)",
+      "needs_review": true,
+      "sample": false,
+      "partial": false,
+      "page": "/rankings/noon",
+      "detail": "/v1/rankings/noon/2026-10-23.json"
+    },
+    {
+      "kind": "news",
+      "id": "2025-09-15-dubai-montaji-cosmetics-v21",
+      "type": "regulation",
+      "date": "2025-09-15",
+      "title": "迪拜市政厅更新化妆品 Montaji 注册技术指南 V2.1",
+      "summary": "迪拜要求化妆品与个护产品在生产、进口、销售前完成 Montaji 注册；申请人须有迪拜执照，并提交自由销售证明与成分资料。",
+      "body_text": "迪拜市政厅 Health & Safety 发布《化妆品与个护产品技术指南》V2.1（Doc Ref: DM-HSD-GU116-CPCP2，Issue Date 2025年9月15日）。\n\n要点：\n\n- 在迪拜制造、进口、广告、销售或分销化妆品前，须先在 Montaji 完成产品注册\n\n- 申请人须为迪拜注册公司，或在迪拜有仓库并持有相关贸易执照\n\n- 常见材料含自由销售证明、含 CAS 号的成分报告、本地厂 GMP/ISO 22716，以及认可实验室检测报告\n\n阿联酋卖家在 noon、Amazon AE 上架美妆时，应先确认目的酋长国的注册是否齐备。指南 PDF 由迪拜市政厅官网提供。",
+      "markets": [
+        "ae"
+      ],
+      "platforms": [
+        "noon",
+        "amazon-ae"
+      ],
+      "tags": [
+        "compliance",
+        "listing"
+      ],
+      "source_url": "https://dmpmedia.dm.gov.ae/uploads/2026/01/DM-HSD-GU116-CPCP2_Technical-Guidelines-for-Cosmetic-Personal-Care-Products_V2.1.pdf",
+      "source_name": "Dubai Municipality",
+      "checked": "2026-10-23",
+      "needs_review": false,
+      "sample": false,
+      "key_date": {
+        "date": "2025-09-15",
+        "label": "指南生效"
+      },
+      "page": "/news/2025-09-15-dubai-montaji-cosmetics-v21"
+    }
+  ]
+}

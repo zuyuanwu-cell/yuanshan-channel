@@ -1,0 +1,337 @@
+{
+  "api": "yuanshan-channel/v1",
+  "access": "public-read",
+  "auth": null,
+  "generated": "2026-10-23",
+  "disclaimer": "每条资讯都附来源链接。标了「待核实」的条目来自媒体或第三方转述，引用前打开原文。费用、排名和法规以官方页面为准。",
+  "kind": "compliance",
+  "id": "fr",
+  "name_zh": "法国",
+  "region": "欧洲",
+  "region_slug": "europe",
+  "page": "/compliance/fr",
+  "market": {
+    "country": "fr",
+    "name_zh": "法国",
+    "flag": "🇫🇷",
+    "region": "欧洲",
+    "difficulty": 2,
+    "summary": "欧盟通报之外，须分类收集的包装要标Triman。设在法国的制造或灌装场所须向DGCCRF申报。",
+    "items": [
+      {
+        "id": "fr-cpnp",
+        "name_zh": "上市前CPNP通报",
+        "authority": "竞争、消费与反欺诈总局",
+        "type": "registration",
+        "mandatory": true,
+        "cost": "免费",
+        "time": "未知",
+        "docs": [],
+        "who": "责任人",
+        "note": "每个化妆品在欧盟上市前须经CPNP向欧盟委员会通报。该局写明通报免费。",
+        "official_url": "https://www.economie.gouv.fr/dgccrf/les-fiches-pratiques/les-produits-cosmetiques",
+        "source_checked": "2026-10-24",
+        "needs_review": true
+      },
+      {
+        "id": "fr-plant",
+        "name_zh": "法国境内制造或灌装场所申报",
+        "authority": "竞争、消费与反欺诈总局",
+        "type": "registration",
+        "mandatory": true,
+        "cost": "免费",
+        "time": "未知",
+        "docs": [],
+        "who": "法国境内场所经营者",
+        "note": "只适用于设在法国的制造或灌装场所，即使附带经营。没有法国工厂的境外卖家不适用这一条。",
+        "official_url": "https://www.economie.gouv.fr/dgccrf/les-fiches-pratiques/les-produits-cosmetiques",
+        "source_checked": "2026-10-24",
+        "needs_review": true
+      },
+      {
+        "id": "fr-triman",
+        "name_zh": "包装须标Triman和分类信息",
+        "authority": "生态转型署",
+        "type": "marking",
+        "mandatory": true,
+        "cost": "未知",
+        "time": "未知",
+        "docs": [],
+        "who": "投放该类包装的经营者",
+        "note": "须分类收集以回收的产品包装，必须标示该标志。费用未知。",
+        "official_url": "https://agirpourlatransition.ademe.fr/particuliers/reduire-dechets/bien-jeter/comprendre-symboles-tri",
+        "source_checked": "2026-10-24",
+        "needs_review": true
+      },
+      {
+        "id": "fr-ctrl",
+        "name_zh": "市场监管由DGCCRF负责",
+        "authority": "竞争、消费与反欺诈总局",
+        "type": "safety",
+        "mandatory": true,
+        "cost": "未知",
+        "time": "未知",
+        "docs": [],
+        "who": "在法国经营的人",
+        "note": "2024年起化妆品产品和场所的市场监管由该局单独负责，不再与药品局共同承担。",
+        "official_url": "https://www.economie.gouv.fr/dgccrf/actualites-dgccrf/produits-cosmetiques-la-dgccrf-assure-desormais-seule-le-controle-des-produits-et-etablissements",
+        "source_checked": "2026-10-24",
+        "needs_review": true
+      }
+    ],
+    "steps": [
+      {
+        "title": "CPNP",
+        "type": "registration"
+      },
+      {
+        "title": "Triman",
+        "type": "marking"
+      },
+      {
+        "title": "法国工厂申报",
+        "type": "registration"
+      }
+    ],
+    "last_verified": "2026-10-24",
+    "hs_codes": {
+      "status": "ready",
+      "items": [
+        {
+          "code": "3303001000",
+          "name_zh": "香水",
+          "duty": "0%",
+          "source_url": "https://ec.europa.eu/taxation_customs/dds2/taric/measures.jsp?Lang=en&SimDate=20261024&Taric=3303001000&MeasType=103&Domain=TARIC"
+        },
+        {
+          "code": "3303009000",
+          "name_zh": "淡香水",
+          "duty": "0%",
+          "source_url": "https://ec.europa.eu/taxation_customs/dds2/taric/measures.jsp?Lang=en&SimDate=20261024&Taric=3303009000&MeasType=103&Domain=TARIC"
+        },
+        {
+          "code": "3304100000",
+          "name_zh": "唇部彩妆",
+          "duty": "0%",
+          "source_url": "https://ec.europa.eu/taxation_customs/dds2/taric/measures.jsp?Lang=en&SimDate=20261024&Taric=3304100000&MeasType=103&Domain=TARIC"
+        },
+        {
+          "code": "3304200000",
+          "name_zh": "眼部彩妆",
+          "duty": "0%",
+          "source_url": "https://ec.europa.eu/taxation_customs/dds2/taric/measures.jsp?Lang=en&SimDate=20261024&Taric=3304200000&MeasType=103&Domain=TARIC"
+        },
+        {
+          "code": "3304300000",
+          "name_zh": "美甲产品",
+          "duty": "0%",
+          "source_url": "https://ec.europa.eu/taxation_customs/dds2/taric/measures.jsp?Lang=en&SimDate=20261024&Taric=3304300000&MeasType=103&Domain=TARIC"
+        },
+        {
+          "code": "3304910000",
+          "name_zh": "粉类（散粉/粉饼）",
+          "duty": "0%",
+          "source_url": "https://ec.europa.eu/taxation_customs/dds2/taric/measures.jsp?Lang=en&SimDate=20261024&Taric=3304910000&MeasType=103&Domain=TARIC"
+        },
+        {
+          "code": "3304990000",
+          "name_zh": "面霜/乳液/精华（护肤）",
+          "duty": "0%",
+          "source_url": "https://ec.europa.eu/taxation_customs/dds2/taric/measures.jsp?Lang=en&SimDate=20261024&Taric=3304990000&MeasType=103&Domain=TARIC"
+        },
+        {
+          "code": "3304990000",
+          "name_zh": "防晒",
+          "duty": "0%",
+          "source_url": "https://ec.europa.eu/taxation_customs/dds2/taric/measures.jsp?Lang=en&SimDate=20261024&Taric=3304990000&MeasType=103&Domain=TARIC"
+        },
+        {
+          "code": "3304990000",
+          "name_zh": "卸妆产品",
+          "duty": "0%",
+          "source_url": "https://ec.europa.eu/taxation_customs/dds2/taric/measures.jsp?Lang=en&SimDate=20261024&Taric=3304990000&MeasType=103&Domain=TARIC"
+        },
+        {
+          "code": "3305100000",
+          "name_zh": "洗发水",
+          "duty": "0%",
+          "source_url": "https://ec.europa.eu/taxation_customs/dds2/taric/measures.jsp?Lang=en&SimDate=20261024&Taric=3305100000&MeasType=103&Domain=TARIC"
+        },
+        {
+          "code": "3305900000",
+          "name_zh": "护发素",
+          "duty": "0%",
+          "source_url": "https://ec.europa.eu/taxation_customs/dds2/taric/measures.jsp?Lang=en&SimDate=20261024&Taric=3305900000&MeasType=103&Domain=TARIC"
+        },
+        {
+          "code": "3305900000",
+          "name_zh": "染发剂",
+          "duty": "0%",
+          "source_url": "https://ec.europa.eu/taxation_customs/dds2/taric/measures.jsp?Lang=en&SimDate=20261024&Taric=3305900000&MeasType=103&Domain=TARIC"
+        },
+        {
+          "code": "3305300000",
+          "name_zh": "发胶/定型喷雾",
+          "duty": "0%",
+          "source_url": "https://ec.europa.eu/taxation_customs/dds2/taric/measures.jsp?Lang=en&SimDate=20261024&Taric=3305300000&MeasType=103&Domain=TARIC"
+        },
+        {
+          "code": "3306100000",
+          "name_zh": "牙膏",
+          "duty": "0%",
+          "source_url": "https://ec.europa.eu/taxation_customs/dds2/taric/measures.jsp?Lang=en&SimDate=20261024&Taric=3306100000&MeasType=103&Domain=TARIC"
+        },
+        {
+          "code": "3306900000",
+          "name_zh": "漱口水",
+          "duty": "0%",
+          "source_url": "https://ec.europa.eu/taxation_customs/dds2/taric/measures.jsp?Lang=en&SimDate=20261024&Taric=3306900000&MeasType=103&Domain=TARIC"
+        },
+        {
+          "code": "3306200000",
+          "name_zh": "牙线",
+          "duty": "4.00%",
+          "source_url": "https://ec.europa.eu/taxation_customs/dds2/taric/measures.jsp?Lang=en&SimDate=20261024&Taric=3306200000&MeasType=103&Domain=TARIC"
+        },
+        {
+          "code": "3307200000",
+          "name_zh": "止汗/香体",
+          "duty": "6.50%",
+          "source_url": "https://ec.europa.eu/taxation_customs/dds2/taric/measures.jsp?Lang=en&SimDate=20261024&Taric=3307200000&MeasType=103&Domain=TARIC"
+        },
+        {
+          "code": "3307100000",
+          "name_zh": "剃须膏",
+          "duty": "6.50%",
+          "source_url": "https://ec.europa.eu/taxation_customs/dds2/taric/measures.jsp?Lang=en&SimDate=20261024&Taric=3307100000&MeasType=103&Domain=TARIC"
+        },
+        {
+          "code": "3401300000",
+          "name_zh": "沐浴露",
+          "duty": "4.00%",
+          "source_url": "https://ec.europa.eu/taxation_customs/dds2/taric/measures.jsp?Lang=en&SimDate=20261024&Taric=3401300000&MeasType=103&Domain=TARIC"
+        },
+        {
+          "code": "3401110000",
+          "name_zh": "香皂（块）",
+          "duty": "0%",
+          "source_url": "https://ec.europa.eu/taxation_customs/dds2/taric/measures.jsp?Lang=en&SimDate=20261024&Taric=3401110000&MeasType=103&Domain=TARIC"
+        },
+        {
+          "code": "3401300000",
+          "name_zh": "液体洗手液",
+          "duty": "4.00%",
+          "source_url": "https://ec.europa.eu/taxation_customs/dds2/taric/measures.jsp?Lang=en&SimDate=20261024&Taric=3401300000&MeasType=103&Domain=TARIC"
+        },
+        {
+          "code": "3307900000",
+          "name_zh": "脱毛膏",
+          "duty": "6.50%",
+          "source_url": "https://ec.europa.eu/taxation_customs/dds2/taric/measures.jsp?Lang=en&SimDate=20261024&Taric=3307900000&MeasType=103&Domain=TARIC"
+        },
+        {
+          "code": "3304990000",
+          "name_zh": "面膜（片状）",
+          "duty": "0%",
+          "source_url": "https://ec.europa.eu/taxation_customs/dds2/taric/measures.jsp?Lang=en&SimDate=20261024&Taric=3304990000&MeasType=103&Domain=TARIC"
+        },
+        {
+          "code": "9603298000",
+          "name_zh": "化妆刷",
+          "duty": "3.70%",
+          "source_url": "https://ec.europa.eu/taxation_customs/dds2/taric/measures.jsp?Lang=en&SimDate=20261024&Taric=9603298000&MeasType=103&Domain=TARIC"
+        },
+        {
+          "code": "9616200000",
+          "name_zh": "化妆海绵/粉扑",
+          "duty": "2.70%",
+          "source_url": "https://ec.europa.eu/taxation_customs/dds2/taric/measures.jsp?Lang=en&SimDate=20261024&Taric=9616200000&MeasType=103&Domain=TARIC"
+        },
+        {
+          "code": "6704190000",
+          "name_zh": "假睫毛（合成纤维）",
+          "duty": "2.20%",
+          "source_url": "https://ec.europa.eu/taxation_customs/dds2/taric/measures.jsp?Lang=en&SimDate=20261024&Taric=6704190000&MeasType=103&Domain=TARIC"
+        },
+        {
+          "code": "8510300000",
+          "name_zh": "电动脱毛器",
+          "duty": "2.20%",
+          "source_url": "https://ec.europa.eu/taxation_customs/dds2/taric/measures.jsp?Lang=en&SimDate=20261024&Taric=8510300000&MeasType=103&Domain=TARIC"
+        },
+        {
+          "code": "8516320000",
+          "name_zh": "美发电器（卷/直发器）",
+          "duty": "2.70%",
+          "source_url": "https://ec.europa.eu/taxation_customs/dds2/taric/measures.jsp?Lang=en&SimDate=20261024&Taric=8516320000&MeasType=103&Domain=TARIC"
+        },
+        {
+          "code": "8543709099",
+          "name_zh": "电动美容仪（面部）",
+          "duty": "3.70%",
+          "source_url": "https://ec.europa.eu/taxation_customs/dds2/taric/measures.jsp?Lang=en&SimDate=20261024&Taric=8543709099&MeasType=103&Domain=TARIC"
+        },
+        {
+          "code": "3402509000",
+          "name_zh": "洗衣液",
+          "duty": "4.00%",
+          "source_url": "https://ec.europa.eu/taxation_customs/dds2/taric/measures.jsp?Lang=en&SimDate=20261024&Taric=3402509000&MeasType=103&Domain=TARIC"
+        },
+        {
+          "code": "3402509000",
+          "name_zh": "柔顺剂/衣物护理",
+          "duty": "4.00%",
+          "source_url": "https://ec.europa.eu/taxation_customs/dds2/taric/measures.jsp?Lang=en&SimDate=20261024&Taric=3402509000&MeasType=103&Domain=TARIC"
+        },
+        {
+          "code": "3402509000",
+          "name_zh": "洗洁精/洗碗液",
+          "duty": "4.00%",
+          "source_url": "https://ec.europa.eu/taxation_customs/dds2/taric/measures.jsp?Lang=en&SimDate=20261024&Taric=3402509000&MeasType=103&Domain=TARIC"
+        },
+        {
+          "code": "3402509000",
+          "name_zh": "多用途清洁剂",
+          "duty": "4.00%",
+          "source_url": "https://ec.europa.eu/taxation_customs/dds2/taric/measures.jsp?Lang=en&SimDate=20261024&Taric=3402509000&MeasType=103&Domain=TARIC"
+        },
+        {
+          "code": "3402509000",
+          "name_zh": "洁厕剂",
+          "duty": "4.00%",
+          "source_url": "https://ec.europa.eu/taxation_customs/dds2/taric/measures.jsp?Lang=en&SimDate=20261024&Taric=3402509000&MeasType=103&Domain=TARIC"
+        },
+        {
+          "code": "3402509000",
+          "name_zh": "玻璃清洁剂",
+          "duty": "4.00%",
+          "source_url": "https://ec.europa.eu/taxation_customs/dds2/taric/measures.jsp?Lang=en&SimDate=20261024&Taric=3402509000&MeasType=103&Domain=TARIC"
+        },
+        {
+          "code": "2828900000",
+          "name_zh": "次氯酸盐（漂白水）",
+          "duty": "5.50%",
+          "source_url": "https://ec.europa.eu/taxation_customs/dds2/taric/measures.jsp?Lang=en&SimDate=20261024&Taric=2828900000&MeasType=103&Domain=TARIC"
+        },
+        {
+          "code": "2847000000",
+          "name_zh": "过氧化氢（氧漂）",
+          "duty": "5.50%",
+          "source_url": "https://ec.europa.eu/taxation_customs/dds2/taric/measures.jsp?Lang=en&SimDate=20261024&Taric=2847000000&MeasType=103&Domain=TARIC"
+        },
+        {
+          "code": "3402909000",
+          "name_zh": "非零售洗涤/清洁制剂",
+          "duty": "4.00%",
+          "source_url": "https://ec.europa.eu/taxation_customs/dds2/taric/measures.jsp?Lang=en&SimDate=20261024&Taric=3402909000&MeasType=103&Domain=TARIC"
+        },
+        {
+          "code": "3808949090",
+          "name_zh": "消毒剂",
+          "duty": "6.00%",
+          "source_url": "https://ec.europa.eu/taxation_customs/dds2/taric/measures.jsp?Lang=en&SimDate=20261024&Taric=3808949090&MeasType=103&Domain=TARIC"
+        }
+      ]
+    }
+  }
+}

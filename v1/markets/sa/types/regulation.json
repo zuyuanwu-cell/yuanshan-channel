@@ -1,0 +1,107 @@
+{
+  "api": "yuanshan-channel/v1",
+  "access": "public-read",
+  "auth": null,
+  "generated": "2026-10-23",
+  "disclaimer": "每条资讯都附来源链接。标了「待核实」的条目来自媒体或第三方转述，引用前打开原文。费用、排名和法规以官方页面为准。",
+  "kind": "feed",
+  "id": "sa/regulation",
+  "title": "沙特",
+  "markets": [
+    "sa"
+  ],
+  "types": [
+    "regulation"
+  ],
+  "filter": {
+    "markets": [
+      "sa"
+    ],
+    "types": [
+      "regulation"
+    ],
+    "include_global": false
+  },
+  "count": 3,
+  "items": [
+    {
+      "kind": "news",
+      "id": "2026-06-24-sfda-circular-1043-ingredients",
+      "type": "regulation",
+      "date": "2026-06-24",
+      "title": "沙特 SFDA 更新化妆品禁限用成分清单，新进口 2027年7月起须合规",
+      "summary": "SFDA 第 1043 号通函更新禁限用成分、防腐剂和防晒剂清单；新进口产品 2027年7月1日起须合规，在售库存到 2028年7月1日。",
+      "body_text": "- 更新禁用/限用成分、允许的防腐剂和紫外线过滤剂\n\n- 新进口：2027年7月1日起须合规\n\n- 在售库存：2028年7月1日前处理完\n\n来源为 SFDA 通函页，具体条目未逐条核对，标为待核实。",
+      "markets": [
+        "sa"
+      ],
+      "platforms": [],
+      "tags": [
+        "ingredients"
+      ],
+      "source_url": "https://oldsfda.sfda.gov.sa/ar/circulars/5521986",
+      "source_name": "SFDA",
+      "checked": "2026-10-23",
+      "needs_review": true,
+      "sample": false,
+      "key_date": {
+        "date": "2027-07-01",
+        "label": "新进口执行"
+      },
+      "page": "/news/2026-06-24-sfda-circular-1043-ingredients"
+    },
+    {
+      "kind": "news",
+      "id": "2025-06-24-sfda-gso-1943-2528-update",
+      "type": "regulation",
+      "date": "2025-06-24",
+      "title": "沙特 SFDA 更新海湾化妆品安全与宣称技术法规",
+      "summary": "SFDA 宣布采用 SFDA.CO/GSO 1943:2024 与 2528:2024；禁限用清单改挂官网，不合规可按化妆品法规处罚。",
+      "body_text": "沙特食品药品局（SFDA）2025年6月24日宣布，更新海湾技术法规：\n\n- SFDA.CO/GSO 1943:2024 化妆品与个护安全要求\n\n- SFDA.CO/GSO 2528:2024 化妆品宣称规则\n\n禁限用、防腐剂、着色剂、防晒剂等清单改由 SFDA 网站维护；本地与进口企业须对照最新版本。文本与规格可在 SFDA 标准商店获取。违规可能按《化妆品法》及执行条例罚款。",
+      "markets": [
+        "sa"
+      ],
+      "platforms": [
+        "noon",
+        "amazon-ae"
+      ],
+      "tags": [
+        "compliance",
+        "labeling"
+      ],
+      "source_url": "https://www.sfda.gov.sa/ar/news/18685",
+      "source_name": "SFDA",
+      "checked": "2026-10-23",
+      "needs_review": false,
+      "sample": false,
+      "key_date": null,
+      "page": "/news/2025-06-24-sfda-gso-1943-2528-update"
+    },
+    {
+      "kind": "news",
+      "id": "2025-03-11-sfda-cosmetics-clearance-conditions",
+      "type": "regulation",
+      "date": "2025-03-11",
+      "title": "沙特 SFDA 更新化妆品清关条件页（含原料）",
+      "summary": "SFDA 英文站「化妆品及生产原料清关条件」页显示最近更新为 2025年3月11日，进口清关前应对照该页与 GHAD 登记要求。",
+      "body_text": "沙特 SFDA 英文站页面 Conditions of cosmetic products clearance and raw materials used in their manufacturing 标注最近更新为 2025年3月11日（沙特时间）。\n\n进口美妆在港口清关前，应同时核对：\n\n- GHAD / 产品登记信息是否与货件一致\n\n- 是否满足现行安全与宣称技术法规\n\n- 是否具备清关所需的符合性文件\n\n具体条款以 SFDA 页面及关联 PDF 为准；到港后缺件常见会导致延误或退运。",
+      "markets": [
+        "sa"
+      ],
+      "platforms": [
+        "noon"
+      ],
+      "tags": [
+        "customs",
+        "compliance"
+      ],
+      "source_url": "https://www.sfda.gov.sa/en/regulations/%D8%B4%D8%B1%D9%88%D8%B7-%D9%81%D8%B3%D8%AD-%D9%85%D9%86%D8%AA%D8%AC%D8%A7%D8%AA-%D8%A7%D9%84%D8%AA%D8%AC%D9%85%D9%8A%D9%84-%D9%88%D8%A7%D9%84%D9%85%D9%88%D8%A7%D8%AF-%D8%A7%D9%84%D8%A3%D9%88%D9%84%D9%8A%D8%A9-%D8%A7%D9%84%D8%AF%D8%A7%D8%AE%D8%A7%D9%84%D8%A9-%D9%81%D9%8A-%D8%AA%D8%B5%D9%86%D9%8A%D8%B9%D9%87%D8%A7",
+      "source_name": "SFDA",
+      "checked": "2026-10-23",
+      "needs_review": false,
+      "sample": false,
+      "key_date": null,
+      "page": "/news/2025-03-11-sfda-cosmetics-clearance-conditions"
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "api": "yuanshan-channel/v1",
+  "access": "public-read",
+  "auth": null,
+  "generated": "2026-10-23",
+  "disclaimer": "每条资讯都附来源链接。标了「待核实」的条目来自媒体或第三方转述，引用前打开原文。费用、排名和法规以官方页面为准。",
+  "kind": "feed",
+  "id": "ma",
+  "title": "摩洛哥",
+  "markets": [
+    "ma"
+  ],
+  "types": [
+    "rules",
+    "regulation",
+    "rankings"
+  ],
+  "filter": {
+    "markets": [
+      "ma"
+    ],
+    "types": [
+      "rules",
+      "regulation",
+      "rankings"
+    ],
+    "include_global": false
+  },
+  "count": 0,
+  "items": []
+}

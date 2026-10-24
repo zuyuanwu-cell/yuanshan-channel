@@ -1,0 +1,98 @@
+{
+  "api": "yuanshan-channel/v1",
+  "access": "public-read",
+  "auth": null,
+  "generated": "2026-10-23",
+  "disclaimer": "每条资讯都附来源链接。标了「待核实」的条目来自媒体或第三方转述，引用前打开原文。费用、排名和法规以官方页面为准。",
+  "kind": "compliance",
+  "id": "ch",
+  "name_zh": "瑞士",
+  "region": "欧洲",
+  "region_slug": "europe",
+  "page": "/compliance/ch",
+  "market": {
+    "country": "ch",
+    "name_zh": "瑞士",
+    "flag": "🇨🇭",
+    "region": "欧洲",
+    "difficulty": 2,
+    "summary": "不是欧盟成员。化妆品适用瑞士化妆品条例，每个产品须有产品信息档案。",
+    "items": [
+      {
+        "id": "ch-pif",
+        "name_zh": "产品信息档案",
+        "authority": "联邦食品安全和兽医局",
+        "type": "safety",
+        "mandatory": true,
+        "cost": "未知",
+        "time": "最后批次投放后保存十年",
+        "docs": [],
+        "who": "投放市场的人",
+        "note": "档案用联邦官方语言或英语，含合格人员签署的安全报告和良好生产规范声明。",
+        "official_url": "https://www.fedlex.admin.ch/eli/cc/2017/165/de",
+        "source_checked": "2026-10-24",
+        "needs_review": false
+      },
+      {
+        "id": "ch-ing",
+        "name_zh": "包装须有递减成分表",
+        "authority": "联邦食品安全和兽医局",
+        "type": "label",
+        "mandatory": true,
+        "cost": "未知",
+        "time": "未知",
+        "docs": [],
+        "who": "投放市场的人",
+        "note": "投放时包装须在 Ingredients 下按含量递减列出成分。具体语种条款本次未打开。",
+        "official_url": "https://www.fedlex.admin.ch/eli/cc/2017/165/de",
+        "source_checked": "2026-10-24",
+        "needs_review": false
+      },
+      {
+        "id": "ch-rep",
+        "name_zh": "可指定瑞士地址的被授权人",
+        "authority": "联邦食品安全和兽医局",
+        "type": "local-rep",
+        "mandatory": false,
+        "cost": "未知",
+        "time": "未知",
+        "docs": [],
+        "who": "制造商或进口商",
+        "note": "制造商和进口商可以书面指定瑞士地址的被授权人，不是页面上的普遍强制。",
+        "official_url": "https://www.fedlex.admin.ch/eli/cc/2017/165/de",
+        "source_checked": "2026-10-24",
+        "needs_review": false
+      },
+      {
+        "id": "ch-eu",
+        "name_zh": "成分规则援引欧盟法规",
+        "authority": "联邦食品安全和兽医局",
+        "type": "safety",
+        "mandatory": true,
+        "cost": "未知",
+        "time": "未知",
+        "docs": [],
+        "who": "在瑞士销售的人",
+        "note": "主管机关页写明食品与日用品条例援引欧盟1223/2009，并写明瑞士允许偏离。偏离条文未逐条展开。",
+        "official_url": "https://www.blv.admin.ch/de/geregelte-stoffe-kosmetische-mittel",
+        "source_checked": "2026-10-24",
+        "needs_review": true
+      }
+    ],
+    "steps": [
+      {
+        "title": "产品档案",
+        "type": "safety"
+      },
+      {
+        "title": "成分标签",
+        "type": "label"
+      }
+    ],
+    "last_verified": "2026-10-24",
+    "hs_codes": {
+      "status": "pending",
+      "items": []
+    }
+  }
+}

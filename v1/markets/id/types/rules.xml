@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>远山频道 · 印度尼西亚</title>
+    <link>https://ys.tongzhoukuajing.com/subscribe/?markets=id&amp;types=rules</link>
+    <description>每条资讯都附来源链接。标了「待核实」的条目来自媒体或第三方转述，引用前打开原文。费用、排名和法规以官方页面为准。 公开只读，不是法律意见，也不代替来源原文。</description>
+    <language>zh-CN</language>
+    <lastBuildDate>Fri, 23 Oct 2026 12:00:00 GMT</lastBuildDate>
+    <atom:link xmlns:atom="http://www.w3.org/2005/Atom" href="https://ys.tongzhoukuajing.com/v1/markets/id/types/rules.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>TikTok Shop 印尼 10月15日起严查「货不对板」，最多扣 20 分</title>
+      <link>https://ys.tongzhoukuajing.com/news/2026-10-15-tiktok-shop-id-false-display</link>
+      <guid isPermaLink="false">2026-10-15-tiktok-shop-id-false-display</guid>
+      <pubDate>Thu, 15 Oct 2026 12:00:00 GMT</pubDate>
+      <description>商品和页面在类型、数量、质量、尺寸、材质、功能上明显不符，店铺健康分最多扣 20 分，商品可被下架或暂停。</description>
+    </item>
+    <item>
+      <title>Shopee 印尼：上架须填报商品达标证明含化妆品许可号</title>
+      <link>https://ys.tongzhoukuajing.com/news/2025-03-18-shopee-id-bukti-standar-barang</link>
+      <guid isPermaLink="false">2025-03-18-shopee-id-bukti-standar-barang</guid>
+      <pubDate>Tue, 18 Mar 2025 12:00:00 GMT</pubDate>
+      <description>印尼站卖家教育文要求按贸易部令披露达标证明；化妆品须填写注册/许可编号，并可与清真、SNI、K3L 等并列。</description>
+    </item>
+  </channel>
+</rss>

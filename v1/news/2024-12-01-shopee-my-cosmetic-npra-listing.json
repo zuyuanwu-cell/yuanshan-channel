@@ -1,0 +1,34 @@
+{
+  "api": "yuanshan-channel/v1",
+  "access": "public-read",
+  "auth": null,
+  "generated": "2026-10-23",
+  "disclaimer": "每条资讯都附来源链接。标了「待核实」的条目来自媒体或第三方转述，引用前打开原文。费用、排名和法规以官方页面为准。",
+  "kind": "news",
+  "item": {
+    "kind": "news",
+    "id": "2024-12-01-shopee-my-cosmetic-npra-listing",
+    "type": "rules",
+    "date": "2024-12-01",
+    "title": "Shopee 马来：化妆品须先完成 NPRA 通知再上架",
+    "summary": "马来站说明化妆品无需 NPRA 注册但必须通知；通知号格式 NOTYYMMXXXXXK，未通知可面临高额罚款。",
+    "body_text": "Shopee 马来西亚卖家教育《Medical Device / Health Supplement / Drug / Cosmetic Product Listings》写明：自 2008 年起，马来化妆品不走注册制，但投放市场前须向 NPRA 完成通知，并取得格式为 NOTYYMMXXXXXK 的通知号。\n\n出售未通知化妆品可能被罚款并承担刑事责任。Shopee 也可在卫生部标记含禁用成分时下架已通知商品。\n\n文章日期以卖家中心可见版本为准，精确修订日请打开原文，故标待核实。",
+    "markets": [
+      "my"
+    ],
+    "platforms": [
+      "shopee"
+    ],
+    "tags": [
+      "listing",
+      "compliance"
+    ],
+    "source_url": "https://seller.shopee.com.my/edu/article/7259",
+    "source_name": "Shopee Seller Education MY",
+    "checked": "2026-10-23",
+    "needs_review": true,
+    "sample": false,
+    "key_date": null,
+    "page": "/news/2024-12-01-shopee-my-cosmetic-npra-listing"
+  }
+}

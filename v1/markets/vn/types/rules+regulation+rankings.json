@@ -1,0 +1,101 @@
+{
+  "api": "yuanshan-channel/v1",
+  "access": "public-read",
+  "auth": null,
+  "generated": "2026-10-23",
+  "disclaimer": "每条资讯都附来源链接。标了「待核实」的条目来自媒体或第三方转述，引用前打开原文。费用、排名和法规以官方页面为准。",
+  "kind": "feed",
+  "id": "vn/rules+regulation+rankings",
+  "title": "越南",
+  "markets": [
+    "vn"
+  ],
+  "types": [
+    "rules",
+    "regulation",
+    "rankings"
+  ],
+  "filter": {
+    "markets": [
+      "vn"
+    ],
+    "types": [
+      "rules",
+      "regulation",
+      "rankings"
+    ],
+    "include_global": false
+  },
+  "count": 3,
+  "items": [
+    {
+      "kind": "ranking",
+      "id": "shopee-vn/2026-10-23",
+      "type": "rankings",
+      "date": "2026-10-23",
+      "title": "Shopee 越南 · 2026-10-23",
+      "summary": "30 个单品 · Shopee VN · kem dưỡng da (sales sort) · 待核实",
+      "markets": [
+        "vn"
+      ],
+      "board": "shopee-vn",
+      "source_url": "https://shopee.vn/search?keyword=kem%20dưỡng%20da&sortBy=sales",
+      "source_name": "Shopee VN · kem dưỡng da (sales sort)",
+      "needs_review": true,
+      "sample": false,
+      "partial": false,
+      "page": "/rankings/shopee-vn",
+      "detail": "/v1/rankings/shopee-vn/2026-10-23.json"
+    },
+    {
+      "kind": "news",
+      "id": "2026-10-02-vietnam-draft-cosmetics-decree-wto",
+      "type": "regulation",
+      "date": "2026-10-02",
+      "title": "越南化妆品管理新法令草案通报 WTO：拟2027年1月1日生效，进口公告要加 CFS 和 GMP",
+      "summary": "越南以 G/TBT/N/VNM/453 向 WTO 通报化妆品管理法令草案，意见征集到11月1日，拟2027年1月1日生效，取代第93/2016号法令和第06/2011号通知。仍是草案。",
+      "body_text": "越南 2026年10月2日 向 WTO 通报《化妆品管理法令》草案（G/TBT/N/VNM/453），起草单位为卫生部药品管理局（DAV）。仍是草案，现行规则不变。\n\n据 CIRS 整理的草案要点：\n\n- 拟 2027年1月1日 生效，取代第 93/2016/NĐ-CP 号法令和第 06/2011/TT-BYT 号通知；意见征集到 2026年11月1日\n\n- 产品分 A（高）、B（中）、C（低）三类风险，上市前公告后发「管理编号」，海关在线核验编号\n\n- 进口公告新增两份材料：出口国 CFS（特定情况可免）和海外工厂 GMP 证明（如 CGMP-ASEAN、ISO 22716）\n\n- 电商卖家须在商品页展示管理编号和核验二维码\n\n- 已发公告号可用到 2028 年底；生效前印好的标签包材可再用最长 36 个月\n\nneeds_review：来源是第三方咨询机构整理，未直接核对 WTO 通报原文和草案全文；最终版以越南政府公布为准。",
+      "markets": [
+        "vn"
+      ],
+      "platforms": [],
+      "tags": [
+        "compliance",
+        "labeling"
+      ],
+      "source_url": "https://www.cirs-group.com/en/cosmetics/vietnam-releases-draft-decree-on-management-of-cosmetics-proposed-to-take-effect-on-january-1-2027",
+      "source_name": "CIRS Group · Regulatory News",
+      "checked": "2026-10-24",
+      "needs_review": true,
+      "sample": false,
+      "key_date": {
+        "date": "2026-11-01",
+        "label": "意见截止"
+      },
+      "page": "/news/2026-10-02-vietnam-draft-cosmetics-decree-wto"
+    },
+    {
+      "kind": "news",
+      "id": "2025-08-18-vietnam-circular-34-cfs",
+      "type": "regulation",
+      "date": "2025-08-18",
+      "title": "越南第 34/2025 号通知生效：CPTPP 国家生产的化妆品免交 CFS",
+      "summary": "修订第 06/2011 号通知：在 CPTPP 成员国生产的进口化妆品办越南公告时不再需要自由销售证明（CFS）。",
+      "body_text": "- 2025年8月18日起施行\n\n- 在 CPTPP 成员国 生产 的产品：公告免交 CFS\n\n- 只是从 CPTPP 国家 出口：需提交在该国上市的证明，一般需认证\n\n- 中国不是 CPTPP 成员，中国生产的产品仍需 CFS",
+      "markets": [
+        "vn"
+      ],
+      "platforms": [],
+      "tags": [
+        "compliance"
+      ],
+      "source_url": "https://thuvienphapluat.vn/van-ban/The-thao-Y-te/Thong-tu-34-2025-TT-BYT-sua-doi-Thong-tu-06-2011-TT-BYT-quan-ly-my-pham-663703.aspx",
+      "source_name": "Thư Viện Pháp Luật",
+      "checked": "2026-10-23",
+      "needs_review": false,
+      "sample": false,
+      "key_date": null,
+      "page": "/news/2025-08-18-vietnam-circular-34-cfs"
+    }
+  ]
+}

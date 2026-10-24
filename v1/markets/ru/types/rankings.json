@@ -1,0 +1,66 @@
+{
+  "api": "yuanshan-channel/v1",
+  "access": "public-read",
+  "auth": null,
+  "generated": "2026-10-23",
+  "disclaimer": "每条资讯都附来源链接。标了「待核实」的条目来自媒体或第三方转述，引用前打开原文。费用、排名和法规以官方页面为准。",
+  "kind": "feed",
+  "id": "ru/rankings",
+  "title": "俄罗斯",
+  "markets": [
+    "ru"
+  ],
+  "types": [
+    "rankings"
+  ],
+  "filter": {
+    "markets": [
+      "ru"
+    ],
+    "types": [
+      "rankings"
+    ],
+    "include_global": false
+  },
+  "count": 2,
+  "items": [
+    {
+      "kind": "ranking",
+      "id": "ozon/2026-10-23",
+      "type": "rankings",
+      "date": "2026-10-23",
+      "title": "Ozon · 2026-10-23",
+      "summary": "30 个单品 · Ozon · Красота и здоровье · 待核实",
+      "markets": [
+        "ru"
+      ],
+      "board": "ozon",
+      "source_url": "https://www.ozon.ru/category/krasota-i-zdorove-6500/",
+      "source_name": "Ozon · Красота и здоровье",
+      "needs_review": true,
+      "sample": false,
+      "partial": false,
+      "page": "/rankings/ozon",
+      "detail": "/v1/rankings/ozon/2026-10-23.json"
+    },
+    {
+      "kind": "ranking",
+      "id": "wildberries/2026-10-23",
+      "type": "rankings",
+      "date": "2026-10-23",
+      "title": "Wildberries · 2026-10-23",
+      "summary": "30 个单品 · Wildberries · makeup/face · 待核实",
+      "markets": [
+        "ru"
+      ],
+      "board": "wildberries",
+      "source_url": "https://www.wildberries.ru/catalog/krasota/makiyazh/litso",
+      "source_name": "Wildberries · makeup/face",
+      "needs_review": true,
+      "sample": false,
+      "partial": false,
+      "page": "/rankings/wildberries",
+      "detail": "/v1/rankings/wildberries/2026-10-23.json"
+    }
+  ]
+}

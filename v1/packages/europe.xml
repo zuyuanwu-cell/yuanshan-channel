@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>远山频道 · 欧洲</title>
+    <link>https://ys.tongzhoukuajing.com/subscribe/?markets=at%2Cbe%2Cbg%2Cch%2Ccy%2Ccz%2Cde%2Cdk%2Cee%2Ces%2Ceu%2Cfi%2Cfr%2Cgr%2Chr%2Chu%2Cie%2Cis%2Cit%2Clt%2Clu%2Clv%2Cmt%2Cnl%2Cno%2Cpl%2Cpt%2Cro%2Crs%2Cse%2Csi%2Csk%2Cuk&amp;types=rules%2Cregulation%2Crankings</link>
+    <description>每条资讯都附来源链接。标了「待核实」的条目来自媒体或第三方转述，引用前打开原文。费用、排名和法规以官方页面为准。 公开只读，不是法律意见，也不代替来源原文。</description>
+    <language>zh-CN</language>
+    <lastBuildDate>Fri, 23 Oct 2026 12:00:00 GMT</lastBuildDate>
+    <atom:link xmlns:atom="http://www.w3.org/2005/Atom" href="https://ys.tongzhoukuajing.com/v1/packages/europe.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>英国第二批修订：水杨酸己酯限量，2027年3月23日生效</title>
+      <link>https://ys.tongzhoukuajing.com/news/2026-10-23-uk-hexyl-salicylate-2027</link>
+      <guid isPermaLink="false">2026-10-23-uk-hexyl-salicylate-2027</guid>
+      <pubDate>Fri, 23 Oct 2026 12:00:00 GMT</pubDate>
+      <description>英国 2026 年第 109 号条例限制香料成分水杨酸己酯，并新增一批 CMR 禁用物质；2027年3月23日生效，清库存到 2027年9月22日。</description>
+    </item>
+    <item>
+      <title>Amazon 德国站 · 2026-10-23</title>
+      <link>https://ys.tongzhoukuajing.com/rankings/amazon-de</link>
+      <guid isPermaLink="false">amazon-de/2026-10-23</guid>
+      <pubDate>Fri, 23 Oct 2026 12:00:00 GMT</pubDate>
+      <description>30 个单品 · Amazon.de Bestseller · Kosmetik · 部分数据 · 待核实</description>
+    </item>
+    <item>
+      <title>Amazon 英国站 · 2026-10-23</title>
+      <link>https://ys.tongzhoukuajing.com/rankings/amazon-uk</link>
+      <guid isPermaLink="false">amazon-uk/2026-10-23</guid>
+      <pubDate>Fri, 23 Oct 2026 12:00:00 GMT</pubDate>
+      <description>30 个单品 · Amazon.co.uk Best Sellers · Beauty · 部分数据 · 待核实</description>
+    </item>
+    <item>
+      <title>欧盟议会通过 Omnibus VI：CMR 化妆品清货期缩短</title>
+      <link>https://ys.tongzhoukuajing.com/news/2026-10-22-eu-omnibus-vi-parliament</link>
+      <guid isPermaLink="false">2026-10-22-eu-omnibus-vi-parliament</guid>
+      <pubDate>Thu, 22 Oct 2026 12:00:00 GMT</pubDate>
+      <description>欧洲议会10月22日以477票赞成通过 Omnibus VI 与理事会临时协议。含新禁CMR的化妆品清货窗口缩短；纳米成分通报取消「提前6个月」。须理事会再通过才生效。</description>
+    </item>
+    <item>
+      <title>欧盟化妆品 CMR 修订草案送达理事会：二苯酮-1/-2 等拟禁用</title>
+      <link>https://ys.tongzhoukuajing.com/news/2026-09-21-eu-cmr-omnibus-draft</link>
+      <guid isPermaLink="false">2026-09-21-eu-cmr-omnibus-draft</guid>
+      <pubDate>Mon, 21 Sep 2026 12:00:00 GMT</pubDate>
+      <description>委员会把修订 1223/2009 附录的草案送到理事会。新列为 CMR 的物质要进禁用表，另有几种成分拟禁用或加限。</description>
+    </item>
+    <item>
+      <title>欧盟 €3 小包关税实施两个月，Temu 母公司加码本地仓和本地卖家</title>
+      <link>https://ys.tongzhoukuajing.com/news/2026-09-04-temu-eu-3-euro-duty</link>
+      <guid isPermaLink="false">2026-09-04-temu-eu-3-euro-duty</guid>
+      <pubDate>Fri, 04 Sep 2026 12:00:00 GMT</pubDate>
+      <description>7月1日起，欧盟对 €150 以下的电商小包按每个税则类别收 €3。PDD 在财报会上说影响「相当大」，要更多本地商家和本地仓。</description>
+    </item>
+    <item>
+      <title>英国禁用 4-MBC 和 16 种 CMR 物质，含美甲常用 TPO</title>
+      <link>https://ys.tongzhoukuajing.com/news/2026-07-15-uk-4mbc-cmr-ban</link>
+      <guid isPermaLink="false">2026-07-15-uk-4mbc-cmr-ban</guid>
+      <pubDate>Wed, 15 Jul 2026 12:00:00 GMT</pubDate>
+      <description>英国 2026 年第 23 号条例：4-MBC 禁用、甲醛释放体警示阈值降到 0.001%（7月15日起）；16 种 CMR 物质（含 TPO）8月15日起禁用。</description>
+    </item>
+  </channel>
+</rss>

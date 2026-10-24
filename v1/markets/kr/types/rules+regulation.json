@@ -1,0 +1,82 @@
+{
+  "api": "yuanshan-channel/v1",
+  "access": "public-read",
+  "auth": null,
+  "generated": "2026-10-23",
+  "disclaimer": "每条资讯都附来源链接。标了「待核实」的条目来自媒体或第三方转述，引用前打开原文。费用、排名和法规以官方页面为准。",
+  "kind": "feed",
+  "id": "kr/rules+regulation",
+  "title": "韩国",
+  "markets": [
+    "kr"
+  ],
+  "types": [
+    "rules",
+    "regulation"
+  ],
+  "filter": {
+    "markets": [
+      "kr"
+    ],
+    "types": [
+      "rules",
+      "regulation"
+    ],
+    "include_global": false
+  },
+  "count": 2,
+  "items": [
+    {
+      "kind": "news",
+      "id": "2026-10-20-korea-cosmetics-act-tampered-label",
+      "type": "regulation",
+      "date": "2026-10-20",
+      "title": "韩国《化妆品法》修订即日施行：标签被涂改的化妆品可被要求停售、删除网店页面",
+      "summary": "法律第22113号于2026年10月20日公布并施行：包装或标示被损毁、伪造、变造的化妆品，MFDS 可要求卖家停售、删除网店商品信息并采取防流通措施。",
+      "body_text": "韩国《化妆品法》部分修订（法律第 22113 号）于 2026年10月20日 公布，公布当日施行。\n\n- 新增第16条第3项：对销售或以销售为目的保管、陈列 包装及标示事项被损毁、伪造、变造 的化妆品的营业者或卖家，食品医药品安全处（MFDS）可要求 停止销售、删除网店（사이버몰）上的商品信息、制定防止流通的措施\n\n- 收到要求的营业者或卖家，无正当理由须照办\n\n- 另设「化妆品全球规制支援中心」等出口支援条款（第33条之3），公布 1年后 即2027年10月20日起施行\n\n对跨境卖家：撕标、改批号或覆盖韩文标签的货，在韩国网店可能被直接要求下架。",
+      "markets": [
+        "kr"
+      ],
+      "platforms": [
+        "coupang"
+      ],
+      "tags": [
+        "labeling",
+        "penalties"
+      ],
+      "source_url": "https://www.law.go.kr/LSW/lsRvsRsnListP.do?chrClsCd=010202&lsId=002015&lsRvsGubun=all",
+      "source_name": "韩国国家法令信息中心 · 化妆品法修订理由",
+      "checked": "2026-10-24",
+      "needs_review": false,
+      "sample": false,
+      "key_date": null,
+      "page": "/news/2026-10-20-korea-cosmetics-act-tampered-label"
+    },
+    {
+      "kind": "news",
+      "id": "2026-07-08-korea-cosmetic-safety-assessment-2028",
+      "type": "regulation",
+      "date": "2026-07-08",
+      "title": "韩国化妆品安全性评估 2028 年起分阶段强制",
+      "summary": "MFDS 推出逐品安全性评估制度：责任销售业者须准备安全资料并由合格评估人审核；2028 年起先覆盖功能性化妆品，2031 年扩至全部。",
+      "body_text": "- 责任销售业者逐个产品准备 安全性评估资料，由合格评估人审核并留存\n\n- 2028年起：功能性化妆品和部分企业先行\n\n- 2031年：扩大到全部化妆品\n\n对标欧盟 CPSR，进口韩国的产品也要准备。",
+      "markets": [
+        "kr"
+      ],
+      "platforms": [],
+      "tags": [
+        "compliance"
+      ],
+      "source_url": "https://en.sedaily.com/finance/2026/07/08/cosmetics-to-face-safety-assessments-under-rules-phased-in",
+      "source_name": "Seoul Economic Daily",
+      "checked": "2026-10-23",
+      "needs_review": false,
+      "sample": false,
+      "key_date": {
+        "date": "2028-01-01",
+        "label": "开始实施"
+      },
+      "page": "/news/2026-07-08-korea-cosmetic-safety-assessment-2028"
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>远山频道 · 越南</title>
+    <link>https://ys.tongzhoukuajing.com/subscribe/?markets=vn&amp;types=rules%2Cregulation%2Crankings</link>
+    <description>每条资讯都附来源链接。标了「待核实」的条目来自媒体或第三方转述，引用前打开原文。费用、排名和法规以官方页面为准。 公开只读，不是法律意见，也不代替来源原文。</description>
+    <language>zh-CN</language>
+    <lastBuildDate>Fri, 23 Oct 2026 12:00:00 GMT</lastBuildDate>
+    <atom:link xmlns:atom="http://www.w3.org/2005/Atom" href="https://ys.tongzhoukuajing.com/v1/markets/vn/types/rules+regulation+rankings.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Shopee 越南 · 2026-10-23</title>
+      <link>https://ys.tongzhoukuajing.com/rankings/shopee-vn</link>
+      <guid isPermaLink="false">shopee-vn/2026-10-23</guid>
+      <pubDate>Fri, 23 Oct 2026 12:00:00 GMT</pubDate>
+      <description>30 个单品 · Shopee VN · kem dưỡng da (sales sort) · 待核实</description>
+    </item>
+    <item>
+      <title>越南化妆品管理新法令草案通报 WTO：拟2027年1月1日生效，进口公告要加 CFS 和 GMP</title>
+      <link>https://ys.tongzhoukuajing.com/news/2026-10-02-vietnam-draft-cosmetics-decree-wto</link>
+      <guid isPermaLink="false">2026-10-02-vietnam-draft-cosmetics-decree-wto</guid>
+      <pubDate>Fri, 02 Oct 2026 12:00:00 GMT</pubDate>
+      <description>越南以 G/TBT/N/VNM/453 向 WTO 通报化妆品管理法令草案，意见征集到11月1日，拟2027年1月1日生效，取代第93/2016号法令和第06/2011号通知。仍是草案。</description>
+    </item>
+    <item>
+      <title>越南第 34/2025 号通知生效：CPTPP 国家生产的化妆品免交 CFS</title>
+      <link>https://ys.tongzhoukuajing.com/news/2025-08-18-vietnam-circular-34-cfs</link>
+      <guid isPermaLink="false">2025-08-18-vietnam-circular-34-cfs</guid>
+      <pubDate>Mon, 18 Aug 2025 12:00:00 GMT</pubDate>
+      <description>修订第 06/2011 号通知：在 CPTPP 成员国生产的进口化妆品办越南公告时不再需要自由销售证明（CFS）。</description>
+    </item>
+  </channel>
+</rss>

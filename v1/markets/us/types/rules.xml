@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>远山频道 · 美国</title>
+    <link>https://ys.tongzhoukuajing.com/subscribe/?markets=us&amp;types=rules</link>
+    <description>每条资讯都附来源链接。标了「待核实」的条目来自媒体或第三方转述，引用前打开原文。费用、排名和法规以官方页面为准。 公开只读，不是法律意见，也不代替来源原文。</description>
+    <language>zh-CN</language>
+    <lastBuildDate>Fri, 23 Oct 2026 12:00:00 GMT</lastBuildDate>
+    <atom:link xmlns:atom="http://www.w3.org/2005/Atom" href="https://ys.tongzhoukuajing.com/v1/markets/us/types/rules.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>亚马逊美国站旺季配送费 10月15日起生效，平均每件多 $0.32</title>
+      <link>https://ys.tongzhoukuajing.com/news/2026-10-15-amazon-us-holiday-peak-fees</link>
+      <guid isPermaLink="false">2026-10-15-amazon-us-holiday-peak-fees</guid>
+      <pubDate>Thu, 15 Oct 2026 12:00:00 GMT</pubDate>
+      <description>FBA、远程配送、MCF 和 Buy with Prime 都按旺季费率收，到 2027年1月14日。3.5% 燃油与物流附加费照收。</description>
+    </item>
+    <item>
+      <title>TikTok Shop 美国站更新达人内容政策：化妆品不能暗示治病</title>
+      <link>https://ys.tongzhoukuajing.com/news/2026-10-09-tiktok-shop-us-content-policy</link>
+      <guid isPermaLink="false">2026-10-09-tiktok-shop-us-content-policy</guid>
+      <pubDate>Fri, 09 Oct 2026 12:00:00 GMT</pubDate>
+      <description>政策页 10月9日更新。化妆品内容不得宣称治疗或预防疾病、改变生理功能，误导性美颜滤镜也被禁止。</description>
+    </item>
+    <item>
+      <title>亚马逊美国站：美妆不论销量都要买百万责任险，11月2日起生效</title>
+      <link>https://ys.tongzhoukuajing.com/news/2026-09-03-amazon-us-cosmetic-liability-insurance</link>
+      <guid isPermaLink="false">2026-09-03-amazon-us-cosmetic-liability-insurance</guid>
+      <pubDate>Thu, 03 Sep 2026 12:00:00 GMT</pubDate>
+      <description>增强安全类目（含化妆品）listing 不论月销是否过万美元，都要维持单次与累计各 100 万美元商业责任险；中国大陆卖家新保单须走 AIA。</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,87 @@
+{
+  "api": "yuanshan-channel/v1",
+  "access": "public-read",
+  "auth": null,
+  "generated": "2026-10-23",
+  "disclaimer": "每条资讯都附来源链接。标了「待核实」的条目来自媒体或第三方转述，引用前打开原文。费用、排名和法规以官方页面为准。",
+  "kind": "compliance",
+  "id": "bd",
+  "name_zh": "孟加拉",
+  "region": "南亚",
+  "region_slug": "south-asia",
+  "page": "/compliance/bd",
+  "market": {
+    "country": "bd",
+    "name_zh": "孟加拉",
+    "flag": "🇧🇩",
+    "region": "南亚",
+    "difficulty": 3,
+    "summary": "2023年法令规定化妆品生产、进口或分销须向药监总局许可并注册。",
+    "items": [
+      {
+        "id": "bd-license",
+        "name_zh": "化妆品许可",
+        "authority": "药监总局",
+        "type": "registration",
+        "mandatory": true,
+        "cost": "未知",
+        "time": "未知",
+        "docs": [],
+        "who": "生产、进口或分销者",
+        "note": "第31条：未获许可不得生产、分销、进口或出口。费用由细则定。",
+        "official_url": "http://bdlaws.minlaw.gov.bd/act-details-1447.html",
+        "source_checked": "2026-10-24",
+        "needs_review": false
+      },
+      {
+        "id": "bd-reg",
+        "name_zh": "化妆品注册",
+        "authority": "药监总局",
+        "type": "registration",
+        "mandatory": true,
+        "cost": "未知",
+        "time": "未知",
+        "docs": [],
+        "who": "生产、进口或分销者",
+        "note": "第32条：未注册不得生产、分销、进口或出口。资格与费用由细则定。",
+        "official_url": "http://bdlaws.minlaw.gov.bd/act-details-1447.html",
+        "source_checked": "2026-10-24",
+        "needs_review": false
+      },
+      {
+        "id": "bd-std",
+        "name_zh": "质量标准由细则规定",
+        "authority": "药监总局",
+        "type": "safety",
+        "mandatory": true,
+        "cost": "未知",
+        "time": "未知",
+        "docs": [],
+        "who": "制造商",
+        "note": "第35条：政府以细则定标准，可参照欧盟、美国FDA和东盟。细则未打开。",
+        "official_url": "http://bdlaws.minlaw.gov.bd/act-details-1447.html",
+        "source_checked": "2026-10-24",
+        "needs_review": true
+      }
+    ],
+    "steps": [
+      {
+        "title": "许可",
+        "type": "registration"
+      },
+      {
+        "title": "注册",
+        "type": "registration"
+      },
+      {
+        "title": "标准",
+        "type": "safety"
+      }
+    ],
+    "last_verified": "2026-10-24",
+    "hs_codes": {
+      "status": "pending",
+      "items": []
+    }
+  }
+}

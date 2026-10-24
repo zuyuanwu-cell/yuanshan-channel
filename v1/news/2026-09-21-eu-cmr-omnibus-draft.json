@@ -1,0 +1,40 @@
+{
+  "api": "yuanshan-channel/v1",
+  "access": "public-read",
+  "auth": null,
+  "generated": "2026-10-23",
+  "disclaimer": "每条资讯都附来源链接。标了「待核实」的条目来自媒体或第三方转述，引用前打开原文。费用、排名和法规以官方页面为准。",
+  "kind": "news",
+  "item": {
+    "kind": "news",
+    "id": "2026-09-21-eu-cmr-omnibus-draft",
+    "type": "regulation",
+    "date": "2026-09-21",
+    "title": "欧盟化妆品 CMR 修订草案送达理事会：二苯酮-1/-2 等拟禁用",
+    "summary": "委员会把修订 1223/2009 附录的草案送到理事会。新列为 CMR 的物质要进禁用表，另有几种成分拟禁用或加限。",
+    "body_text": "欧盟委员会 9月21日把一份化妆品法规（EC 1223/2009）修订草案送到理事会，文件号 13462/26。业内一般叫它 Omnibus IX。\n\n草案做两件事。\n\n第一，转化新的 CMR 分类。 委员会授权条例 (EU) 2025/1222 新列了一批致癌、致突变或生殖毒性（CMR）物质，这批分类 2027年2月1日 起适用。没有企业申请豁免，所以草案把它们加进附录 II 禁用表。\n\n第二，按 SCCS 的最新评估调整成分。 委员会向 WTO 通报（G/TBT/N/EU/1219）时写的要点：\n\n- 拟禁用：二苯酮-1、二苯酮-2、Basic Brown 16、Basic Blue 99，以及前列腺素类似物（睫毛精华里常见）\n\n- 拟新增或收紧限制：BHA、对羟基苯甲酸丁酯、大麻二酚（CBD）、纳米羟基磷灰石\n\n- 取消含汞防腐剂的现有豁免\n\n这还是草案，理事会和议会审查期间文本可能调整；除 CMR 部分外，其他条款各有过渡期，以最终公报为准。卖欧洲站的产品，现在就该拿配方表对一遍上面的名单。\n\nWTO 通报原文见 欧盟 TBT 数据库 (https://technical-barriers-trade.ec.europa.eu/en/notification/39957)。",
+    "markets": [
+      "eu"
+    ],
+    "platforms": [
+      "amazon-eu",
+      "otto",
+      "zalando",
+      "allegro",
+      "temu"
+    ],
+    "tags": [
+      "ingredients"
+    ],
+    "source_url": "https://data.consilium.europa.eu/doc/document/ST-13462-2026-INIT/en/pdf",
+    "source_name": "欧盟理事会文件 13462/26",
+    "checked": "2026-10-22",
+    "needs_review": false,
+    "sample": false,
+    "key_date": {
+      "date": "2027-02-01",
+      "label": "CMR 新分类适用"
+    },
+    "page": "/news/2026-09-21-eu-cmr-omnibus-draft"
+  }
+}

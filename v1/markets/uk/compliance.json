@@ -1,0 +1,379 @@
+{
+  "api": "yuanshan-channel/v1",
+  "access": "public-read",
+  "auth": null,
+  "generated": "2026-10-23",
+  "disclaimer": "每条资讯都附来源链接。标了「待核实」的条目来自媒体或第三方转述，引用前打开原文。费用、排名和法规以官方页面为准。",
+  "kind": "compliance",
+  "id": "uk",
+  "name_zh": "英国",
+  "region": "欧洲",
+  "region_slug": "europe",
+  "page": "/compliance/uk",
+  "market": {
+    "country": "uk",
+    "name_zh": "英国",
+    "flag": "🇬🇧",
+    "region": "欧洲",
+    "difficulty": 2,
+    "summary": "需英国责任人，上市前在 SCPN 通报，规则大体同欧盟。",
+    "items": [
+      {
+        "id": "uk-rp",
+        "name_zh": "英国责任人",
+        "authority": "OPSS",
+        "type": "local-rep",
+        "mandatory": true,
+        "cost": "未知",
+        "time": "未知",
+        "docs": [
+          "委托协议"
+        ],
+        "who": "英国境内企业/个人",
+        "note": "",
+        "official_url": "https://www.gov.uk/guidance/submit-a-cosmetic-product-notification",
+        "source_checked": "2026-10-23",
+        "needs_review": false
+      },
+      {
+        "id": "uk-scpn",
+        "name_zh": "SCPN 通报",
+        "authority": "OPSS",
+        "type": "registration",
+        "mandatory": true,
+        "cost": "免费",
+        "time": "未知",
+        "docs": [
+          "成分",
+          "PIF 保存地址",
+          "标签图片",
+          "包装照片",
+          "紧急联系人"
+        ],
+        "who": "英国责任人",
+        "note": "",
+        "official_url": "https://submit.cosmetic-product-notifications.service.gov.uk/",
+        "source_checked": "2026-10-23",
+        "needs_review": false
+      },
+      {
+        "id": "uk-safety",
+        "name_zh": "安全评估 + PIF",
+        "authority": "OPSS",
+        "type": "safety",
+        "mandatory": true,
+        "cost": "未知",
+        "time": "未知",
+        "docs": [
+          "安全报告",
+          "PIF"
+        ],
+        "who": "责任人",
+        "note": "",
+        "official_url": "https://www.gov.uk/guidance/consumer-products-cosmetics",
+        "source_checked": "2026-10-23",
+        "needs_review": false
+      },
+      {
+        "id": "uk-label",
+        "name_zh": "英文标签",
+        "authority": "OPSS",
+        "type": "label",
+        "mandatory": true,
+        "cost": "未知",
+        "time": "未知",
+        "docs": [
+          "用途",
+          "净含量",
+          "责任人名称地址",
+          "批号",
+          "保质期",
+          "原产国",
+          "成分表"
+        ],
+        "who": "品牌",
+        "note": "",
+        "official_url": "https://www.gov.uk/guidance/consumer-products-cosmetics",
+        "source_checked": "2026-10-23",
+        "needs_review": false
+      },
+      {
+        "id": "uk-hs",
+        "name_zh": "HS 编码与关税",
+        "authority": "HMRC",
+        "type": "tax-customs",
+        "mandatory": true,
+        "cost": "未知",
+        "time": "未知",
+        "docs": [],
+        "who": "进口商",
+        "note": "HS 编码待补",
+        "official_url": "https://www.gov.uk/trade-tariff",
+        "source_checked": "2026-10-23",
+        "needs_review": false
+      }
+    ],
+    "steps": [
+      {
+        "title": "找本地代表",
+        "type": "local-rep"
+      },
+      {
+        "title": "安全档案",
+        "type": "safety"
+      },
+      {
+        "title": "备案/注册",
+        "type": "registration"
+      },
+      {
+        "title": "做标签",
+        "type": "label"
+      },
+      {
+        "title": "清关",
+        "type": "tax-customs"
+      }
+    ],
+    "last_verified": "2026-10-23",
+    "hs_codes": {
+      "status": "ready",
+      "items": [
+        {
+          "code": "3303001000",
+          "name_zh": "香水",
+          "duty": "0.00%",
+          "source_url": "https://www.trade-tariff.service.gov.uk/commodities/3303001000"
+        },
+        {
+          "code": "3303009000",
+          "name_zh": "淡香水",
+          "duty": "0.00%",
+          "source_url": "https://www.trade-tariff.service.gov.uk/commodities/3303009000"
+        },
+        {
+          "code": "3304100000",
+          "name_zh": "唇部彩妆",
+          "duty": "0.00%",
+          "source_url": "https://www.trade-tariff.service.gov.uk/commodities/3304100000"
+        },
+        {
+          "code": "3304200000",
+          "name_zh": "眼部彩妆",
+          "duty": "0.00%",
+          "source_url": "https://www.trade-tariff.service.gov.uk/commodities/3304200000"
+        },
+        {
+          "code": "3304300000",
+          "name_zh": "美甲产品",
+          "duty": "0.00%",
+          "source_url": "https://www.trade-tariff.service.gov.uk/commodities/3304300000"
+        },
+        {
+          "code": "3304910000",
+          "name_zh": "粉类（散粉/粉饼）",
+          "duty": "0.00%",
+          "source_url": "https://www.trade-tariff.service.gov.uk/commodities/3304910000"
+        },
+        {
+          "code": "3304990000",
+          "name_zh": "面霜/乳液/精华（护肤）",
+          "duty": "0.00%",
+          "source_url": "https://www.trade-tariff.service.gov.uk/commodities/3304990000"
+        },
+        {
+          "code": "3304990000",
+          "name_zh": "防晒",
+          "duty": "0.00%",
+          "source_url": "https://www.trade-tariff.service.gov.uk/commodities/3304990000"
+        },
+        {
+          "code": "3304990000",
+          "name_zh": "卸妆产品",
+          "duty": "0.00%",
+          "source_url": "https://www.trade-tariff.service.gov.uk/commodities/3304990000"
+        },
+        {
+          "code": "3305100000",
+          "name_zh": "洗发水",
+          "duty": "0.00%",
+          "source_url": "https://www.trade-tariff.service.gov.uk/commodities/3305100000"
+        },
+        {
+          "code": "3305900000",
+          "name_zh": "护发素",
+          "duty": "0.00%",
+          "source_url": "https://www.trade-tariff.service.gov.uk/commodities/3305900000"
+        },
+        {
+          "code": "3305900000",
+          "name_zh": "染发剂",
+          "duty": "0.00%",
+          "source_url": "https://www.trade-tariff.service.gov.uk/commodities/3305900000"
+        },
+        {
+          "code": "3305300000",
+          "name_zh": "发胶/定型喷雾",
+          "duty": "0.00%",
+          "source_url": "https://www.trade-tariff.service.gov.uk/commodities/3305300000"
+        },
+        {
+          "code": "3306100000",
+          "name_zh": "牙膏",
+          "duty": "0.00%",
+          "source_url": "https://www.trade-tariff.service.gov.uk/commodities/3306100000"
+        },
+        {
+          "code": "3306900000",
+          "name_zh": "漱口水",
+          "duty": "0.00%",
+          "source_url": "https://www.trade-tariff.service.gov.uk/commodities/3306900000"
+        },
+        {
+          "code": "3306200000",
+          "name_zh": "牙线",
+          "duty": "4.00%",
+          "source_url": "https://www.trade-tariff.service.gov.uk/commodities/3306200000"
+        },
+        {
+          "code": "3307200000",
+          "name_zh": "止汗/香体",
+          "duty": "6.00%",
+          "source_url": "https://www.trade-tariff.service.gov.uk/commodities/3307200000"
+        },
+        {
+          "code": "3307100000",
+          "name_zh": "剃须膏",
+          "duty": "6.00%",
+          "source_url": "https://www.trade-tariff.service.gov.uk/commodities/3307100000"
+        },
+        {
+          "code": "3401300000",
+          "name_zh": "沐浴露",
+          "duty": "4.00%",
+          "source_url": "https://www.trade-tariff.service.gov.uk/commodities/3401300000"
+        },
+        {
+          "code": "3401110000",
+          "name_zh": "香皂（块）",
+          "duty": "0.00%",
+          "source_url": "https://www.trade-tariff.service.gov.uk/commodities/3401110000"
+        },
+        {
+          "code": "3401300000",
+          "name_zh": "液体洗手液",
+          "duty": "4.00%",
+          "source_url": "https://www.trade-tariff.service.gov.uk/commodities/3401300000"
+        },
+        {
+          "code": "3307900000",
+          "name_zh": "脱毛膏",
+          "duty": "6.00%",
+          "source_url": "https://www.trade-tariff.service.gov.uk/commodities/3307900000"
+        },
+        {
+          "code": "3304990000",
+          "name_zh": "面膜（片状）",
+          "duty": "0.00%",
+          "source_url": "https://www.trade-tariff.service.gov.uk/commodities/3304990000"
+        },
+        {
+          "code": "9603298000",
+          "name_zh": "化妆刷",
+          "duty": "2.00%",
+          "source_url": "https://www.trade-tariff.service.gov.uk/commodities/9603298000"
+        },
+        {
+          "code": "9616200000",
+          "name_zh": "化妆海绵/粉扑",
+          "duty": "2.00%",
+          "source_url": "https://www.trade-tariff.service.gov.uk/commodities/9616200000"
+        },
+        {
+          "code": "6704190000",
+          "name_zh": "假睫毛（合成纤维）",
+          "duty": "2.00%",
+          "source_url": "https://www.trade-tariff.service.gov.uk/commodities/6704190000"
+        },
+        {
+          "code": "8510300000",
+          "name_zh": "电动脱毛器",
+          "duty": "2.00%",
+          "source_url": "https://www.trade-tariff.service.gov.uk/commodities/8510300000"
+        },
+        {
+          "code": "8516320000",
+          "name_zh": "美发电器（卷/直发器）",
+          "duty": "2.00%",
+          "source_url": "https://www.trade-tariff.service.gov.uk/commodities/8516320000"
+        },
+        {
+          "code": "8543709099",
+          "name_zh": "电动美容仪（面部）",
+          "duty": "2.00%",
+          "source_url": "https://www.trade-tariff.service.gov.uk/commodities/8543709099"
+        },
+        {
+          "code": "3402509000",
+          "name_zh": "洗衣液",
+          "duty": "4.00%",
+          "source_url": "https://www.trade-tariff.service.gov.uk/commodities/3402509000"
+        },
+        {
+          "code": "3402509000",
+          "name_zh": "柔顺剂/衣物护理",
+          "duty": "4.00%",
+          "source_url": "https://www.trade-tariff.service.gov.uk/commodities/3402509000"
+        },
+        {
+          "code": "3402509000",
+          "name_zh": "洗洁精/洗碗液",
+          "duty": "4.00%",
+          "source_url": "https://www.trade-tariff.service.gov.uk/commodities/3402509000"
+        },
+        {
+          "code": "3402509000",
+          "name_zh": "多用途清洁剂",
+          "duty": "4.00%",
+          "source_url": "https://www.trade-tariff.service.gov.uk/commodities/3402509000"
+        },
+        {
+          "code": "3402509000",
+          "name_zh": "洁厕剂",
+          "duty": "4.00%",
+          "source_url": "https://www.trade-tariff.service.gov.uk/commodities/3402509000"
+        },
+        {
+          "code": "3402509000",
+          "name_zh": "玻璃清洁剂",
+          "duty": "4.00%",
+          "source_url": "https://www.trade-tariff.service.gov.uk/commodities/3402509000"
+        },
+        {
+          "code": "2828900000",
+          "name_zh": "次氯酸盐（漂白水）",
+          "duty": "4.00%",
+          "source_url": "https://www.trade-tariff.service.gov.uk/commodities/2828900000"
+        },
+        {
+          "code": "2847000000",
+          "name_zh": "过氧化氢（氧漂）",
+          "duty": "4.00%",
+          "source_url": "https://www.trade-tariff.service.gov.uk/commodities/2847000000"
+        },
+        {
+          "code": "3402909000",
+          "name_zh": "非零售洗涤/清洁制剂",
+          "duty": "4.00%",
+          "source_url": "https://www.trade-tariff.service.gov.uk/commodities/3402909000"
+        },
+        {
+          "code": "3808949090",
+          "name_zh": "消毒剂",
+          "duty": "6.00%",
+          "source_url": "https://www.trade-tariff.service.gov.uk/commodities/3808949090"
+        }
+      ]
+    }
+  }
+}

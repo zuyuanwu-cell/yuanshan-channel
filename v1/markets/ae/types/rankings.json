@@ -1,0 +1,48 @@
+{
+  "api": "yuanshan-channel/v1",
+  "access": "public-read",
+  "auth": null,
+  "generated": "2026-10-23",
+  "disclaimer": "每条资讯都附来源链接。标了「待核实」的条目来自媒体或第三方转述，引用前打开原文。费用、排名和法规以官方页面为准。",
+  "kind": "feed",
+  "id": "ae/rankings",
+  "title": "阿联酋",
+  "markets": [
+    "ae"
+  ],
+  "types": [
+    "rankings"
+  ],
+  "filter": {
+    "markets": [
+      "ae"
+    ],
+    "types": [
+      "rankings"
+    ],
+    "include_global": false
+  },
+  "count": 1,
+  "items": [
+    {
+      "kind": "ranking",
+      "id": "noon/2026-10-23",
+      "type": "rankings",
+      "date": "2026-10-23",
+      "title": "noon · 2026-10-23",
+      "summary": "30 个单品 · noon UAE · Beauty (popularity) · 待核实",
+      "markets": [
+        "ae",
+        "sa"
+      ],
+      "board": "noon",
+      "source_url": "https://www.noon.com/uae-en/beauty/?sort[by]=popularity&sort[dir]=desc",
+      "source_name": "noon UAE · Beauty (popularity)",
+      "needs_review": true,
+      "sample": false,
+      "partial": false,
+      "page": "/rankings/noon",
+      "detail": "/v1/rankings/noon/2026-10-23.json"
+    }
+  ]
+}

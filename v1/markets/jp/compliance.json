@@ -1,0 +1,365 @@
+{
+  "api": "yuanshan-channel/v1",
+  "access": "public-read",
+  "auth": null,
+  "generated": "2026-10-23",
+  "disclaimer": "每条资讯都附来源链接。标了「待核实」的条目来自媒体或第三方转述，引用前打开原文。费用、排名和法规以官方页面为准。",
+  "kind": "compliance",
+  "id": "jp",
+  "name_zh": "日本",
+  "region": "东亚",
+  "region_slug": "east-asia",
+  "page": "/compliance/jp",
+  "market": {
+    "country": "jp",
+    "name_zh": "日本",
+    "flag": "🇯🇵",
+    "region": "东亚",
+    "difficulty": 3,
+    "summary": "须由持「化妆品制造销售业许可」的日本公司进口，逐品备案。",
+    "items": [
+      {
+        "id": "jp-license",
+        "name_zh": "化粧品製造販売業許可",
+        "authority": "都道府県 / 厚生労働省",
+        "type": "local-rep",
+        "mandatory": true,
+        "cost": "未知",
+        "time": "未知",
+        "docs": [
+          "許可申請"
+        ],
+        "who": "日本本地公司",
+        "note": "另需化粧品製造業許可（包装/标示/保管）",
+        "official_url": "https://www.tmiph.metro.tokyo.lg.jp/k_yakuji/i-sinsa/cosmetics/todokede/",
+        "source_checked": "2026-10-23",
+        "needs_review": false
+      },
+      {
+        "id": "jp-fd",
+        "name_zh": "化粧品製造販売届（逐品）",
+        "authority": "都道府県",
+        "type": "registration",
+        "mandatory": true,
+        "cost": "未知",
+        "time": "未知",
+        "docs": [
+          "FD 様式届书"
+        ],
+        "who": "制造销售业者",
+        "note": "",
+        "official_url": "https://www.tmiph.metro.tokyo.lg.jp/k_yakuji/i-sinsa/cosmetics/todokede/",
+        "source_checked": "2026-10-23",
+        "needs_review": false
+      },
+      {
+        "id": "jp-foreign",
+        "name_zh": "外国製造業者届",
+        "authority": "PMDA / 厚生労働省",
+        "type": "registration",
+        "mandatory": true,
+        "cost": "未知",
+        "time": "未知",
+        "docs": [
+          "工厂信息"
+        ],
+        "who": "制造销售业者代办",
+        "note": "",
+        "official_url": "https://www.pmda.go.jp/review-services/drug-reviews/foreign-mfr/0004.html",
+        "source_checked": "2026-10-23",
+        "needs_review": false
+      },
+      {
+        "id": "jp-label",
+        "name_zh": "日文全成分标示",
+        "authority": "厚生労働省",
+        "type": "label",
+        "mandatory": true,
+        "cost": "未知",
+        "time": "未知",
+        "docs": [
+          "全成分",
+          "制造销售业者名称地址",
+          "批号"
+        ],
+        "who": "制造销售业者",
+        "note": "",
+        "official_url": "https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/kenkou_iryou/iyakuhin/keshouhin/index.html",
+        "source_checked": "2026-10-23",
+        "needs_review": true
+      },
+      {
+        "id": "jp-hs",
+        "name_zh": "HS 编码与关税",
+        "authority": "日本税关",
+        "type": "tax-customs",
+        "mandatory": true,
+        "cost": "未知",
+        "time": "未知",
+        "docs": [],
+        "who": "进口商",
+        "note": "HS 编码待补",
+        "official_url": "https://www.customs.go.jp/",
+        "source_checked": "2026-10-23",
+        "needs_review": false
+      }
+    ],
+    "steps": [
+      {
+        "title": "找本地代表",
+        "type": "local-rep"
+      },
+      {
+        "title": "备案/注册",
+        "type": "registration"
+      },
+      {
+        "title": "做标签",
+        "type": "label"
+      },
+      {
+        "title": "清关",
+        "type": "tax-customs"
+      }
+    ],
+    "last_verified": "2026-10-23",
+    "hs_codes": {
+      "status": "ready",
+      "items": [
+        {
+          "code": "330300000",
+          "name_zh": "香水",
+          "duty": "Free",
+          "source_url": "https://www.customs.go.jp/english/tariff/2026_04_01/data/e_33.htm"
+        },
+        {
+          "code": "330300000",
+          "name_zh": "淡香水",
+          "duty": "Free",
+          "source_url": "https://www.customs.go.jp/english/tariff/2026_04_01/data/e_33.htm"
+        },
+        {
+          "code": "330410000",
+          "name_zh": "唇部彩妆",
+          "duty": "Free",
+          "source_url": "https://www.customs.go.jp/english/tariff/2026_04_01/data/e_33.htm"
+        },
+        {
+          "code": "330420000",
+          "name_zh": "眼部彩妆",
+          "duty": "Free",
+          "source_url": "https://www.customs.go.jp/english/tariff/2026_04_01/data/e_33.htm"
+        },
+        {
+          "code": "330430000",
+          "name_zh": "美甲产品",
+          "duty": "Free",
+          "source_url": "https://www.customs.go.jp/english/tariff/2026_04_01/data/e_33.htm"
+        },
+        {
+          "code": "330491000",
+          "name_zh": "粉类（散粉/粉饼）",
+          "duty": "Free",
+          "source_url": "https://www.customs.go.jp/english/tariff/2026_04_01/data/e_33.htm"
+        },
+        {
+          "code": "330499010",
+          "name_zh": "面霜/乳液/精华（护肤）",
+          "duty": "Free",
+          "source_url": "https://www.customs.go.jp/english/tariff/2026_04_01/data/e_33.htm"
+        },
+        {
+          "code": "330499090",
+          "name_zh": "防晒",
+          "duty": "Free",
+          "source_url": "https://www.customs.go.jp/english/tariff/2026_04_01/data/e_33.htm"
+        },
+        {
+          "code": "330499090",
+          "name_zh": "卸妆产品",
+          "duty": "Free",
+          "source_url": "https://www.customs.go.jp/english/tariff/2026_04_01/data/e_33.htm"
+        },
+        {
+          "code": "330510000",
+          "name_zh": "洗发水",
+          "duty": "Free",
+          "source_url": "https://www.customs.go.jp/english/tariff/2026_04_01/data/e_33.htm"
+        },
+        {
+          "code": "330590000",
+          "name_zh": "护发素",
+          "duty": "Free",
+          "source_url": "https://www.customs.go.jp/english/tariff/2026_04_01/data/e_33.htm"
+        },
+        {
+          "code": "330590000",
+          "name_zh": "染发剂",
+          "duty": "Free",
+          "source_url": "https://www.customs.go.jp/english/tariff/2026_04_01/data/e_33.htm"
+        },
+        {
+          "code": "330530000",
+          "name_zh": "发胶/定型喷雾",
+          "duty": "Free",
+          "source_url": "https://www.customs.go.jp/english/tariff/2026_04_01/data/e_33.htm"
+        },
+        {
+          "code": "330610000",
+          "name_zh": "牙膏",
+          "duty": "Free",
+          "source_url": "https://www.customs.go.jp/english/tariff/2026_04_01/data/e_33.htm"
+        },
+        {
+          "code": "330690000",
+          "name_zh": "漱口水",
+          "duty": "Free",
+          "source_url": "https://www.customs.go.jp/english/tariff/2026_04_01/data/e_33.htm"
+        },
+        {
+          "code": "330620000",
+          "name_zh": "牙线",
+          "duty": "2.7%",
+          "source_url": "https://www.customs.go.jp/english/tariff/2026_04_01/data/e_33.htm"
+        },
+        {
+          "code": "330720000",
+          "name_zh": "止汗/香体",
+          "duty": "3.9%",
+          "source_url": "https://www.customs.go.jp/english/tariff/2026_04_01/data/e_33.htm"
+        },
+        {
+          "code": "330710000",
+          "name_zh": "剃须膏",
+          "duty": "4.8%",
+          "source_url": "https://www.customs.go.jp/english/tariff/2026_04_01/data/e_33.htm"
+        },
+        {
+          "code": "340130000",
+          "name_zh": "沐浴露",
+          "duty": "Free",
+          "source_url": "https://www.customs.go.jp/english/tariff/2026_04_01/data/e_34.htm"
+        },
+        {
+          "code": "340111000",
+          "name_zh": "香皂（块）",
+          "duty": "Free",
+          "source_url": "https://www.customs.go.jp/english/tariff/2026_04_01/data/e_34.htm"
+        },
+        {
+          "code": "340130000",
+          "name_zh": "液体洗手液",
+          "duty": "Free",
+          "source_url": "https://www.customs.go.jp/english/tariff/2026_04_01/data/e_34.htm"
+        },
+        {
+          "code": "330790000",
+          "name_zh": "脱毛膏",
+          "source_url": "https://www.customs.go.jp/english/tariff/2026_04_01/data/e_33.htm"
+        },
+        {
+          "code": "330499090",
+          "name_zh": "面膜（片状）",
+          "duty": "Free",
+          "source_url": "https://www.customs.go.jp/english/tariff/2026_04_01/data/e_33.htm"
+        },
+        {
+          "code": "960329000",
+          "name_zh": "化妆刷",
+          "duty": "6.6%",
+          "source_url": "https://www.customs.go.jp/english/tariff/2026_04_01/data/e_96.htm"
+        },
+        {
+          "code": "961620000",
+          "name_zh": "化妆海绵/粉扑",
+          "duty": "3.9%",
+          "source_url": "https://www.customs.go.jp/english/tariff/2026_04_01/data/e_96.htm"
+        },
+        {
+          "code": "670419000",
+          "name_zh": "假睫毛（合成纤维）",
+          "duty": "Free",
+          "source_url": "https://www.customs.go.jp/english/tariff/2026_04_01/data/e_67.htm"
+        },
+        {
+          "code": "851030000",
+          "name_zh": "电动脱毛器",
+          "duty": "Free",
+          "source_url": "https://www.customs.go.jp/english/tariff/2026_04_01/data/e_85.htm"
+        },
+        {
+          "code": "851632000",
+          "name_zh": "美发电器（卷/直发器）",
+          "duty": "Free",
+          "source_url": "https://www.customs.go.jp/english/tariff/2026_04_01/data/e_85.htm"
+        },
+        {
+          "code": "854370000",
+          "name_zh": "电动美容仪（面部）",
+          "duty": "Free",
+          "source_url": "https://www.customs.go.jp/english/tariff/2026_04_01/data/e_85.htm"
+        },
+        {
+          "code": "340250090",
+          "name_zh": "洗衣液",
+          "duty": "Free",
+          "source_url": "https://www.customs.go.jp/english/tariff/2026_04_01/data/e_34.htm"
+        },
+        {
+          "code": "340250090",
+          "name_zh": "柔顺剂/衣物护理",
+          "duty": "Free",
+          "source_url": "https://www.customs.go.jp/english/tariff/2026_04_01/data/e_34.htm"
+        },
+        {
+          "code": "340250090",
+          "name_zh": "洗洁精/洗碗液",
+          "duty": "Free",
+          "source_url": "https://www.customs.go.jp/english/tariff/2026_04_01/data/e_34.htm"
+        },
+        {
+          "code": "340250090",
+          "name_zh": "多用途清洁剂",
+          "duty": "Free",
+          "source_url": "https://www.customs.go.jp/english/tariff/2026_04_01/data/e_34.htm"
+        },
+        {
+          "code": "340250090",
+          "name_zh": "洁厕剂",
+          "duty": "Free",
+          "source_url": "https://www.customs.go.jp/english/tariff/2026_04_01/data/e_34.htm"
+        },
+        {
+          "code": "340250090",
+          "name_zh": "玻璃清洁剂",
+          "duty": "Free",
+          "source_url": "https://www.customs.go.jp/english/tariff/2026_04_01/data/e_34.htm"
+        },
+        {
+          "code": "282890000",
+          "name_zh": "次氯酸盐（漂白水）",
+          "duty": "3.3%",
+          "source_url": "https://www.customs.go.jp/english/tariff/2026_04_01/data/e_28.htm"
+        },
+        {
+          "code": "284700000",
+          "name_zh": "过氧化氢（氧漂）",
+          "duty": "3.3%",
+          "source_url": "https://www.customs.go.jp/english/tariff/2026_04_01/data/e_28.htm"
+        },
+        {
+          "code": "340290090",
+          "name_zh": "非零售洗涤/清洁制剂",
+          "duty": "Free",
+          "source_url": "https://www.customs.go.jp/english/tariff/2026_04_01/data/e_34.htm"
+        },
+        {
+          "code": "380894000",
+          "name_zh": "消毒剂",
+          "duty": "3.9%",
+          "source_url": "https://www.customs.go.jp/english/tariff/2026_04_01/data/e_38.htm"
+        }
+      ]
+    }
+  }
+}

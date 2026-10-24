@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>远山频道 · 泰国</title>
+    <link>https://ys.tongzhoukuajing.com/subscribe/?markets=th&amp;types=rules%2Cregulation%2Crankings</link>
+    <description>每条资讯都附来源链接。标了「待核实」的条目来自媒体或第三方转述，引用前打开原文。费用、排名和法规以官方页面为准。 公开只读，不是法律意见，也不代替来源原文。</description>
+    <language>zh-CN</language>
+    <lastBuildDate>Fri, 23 Oct 2026 12:00:00 GMT</lastBuildDate>
+    <atom:link xmlns:atom="http://www.w3.org/2005/Atom" href="https://ys.tongzhoukuajing.com/v1/markets/th/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Lazada 泰国 · 2026-10-23</title>
+      <link>https://ys.tongzhoukuajing.com/rankings/lazada-th</link>
+      <guid isPermaLink="false">lazada-th/2026-10-23</guid>
+      <pubDate>Fri, 23 Oct 2026 12:00:00 GMT</pubDate>
+      <description>30 个单品 · Lazada TH · skincare (sold) · 待核实</description>
+    </item>
+    <item>
+      <title>Shopee 泰国 · 2026-10-23</title>
+      <link>https://ys.tongzhoukuajing.com/rankings/shopee-th</link>
+      <guid isPermaLink="false">shopee-th/2026-10-23</guid>
+      <pubDate>Fri, 23 Oct 2026 12:00:00 GMT</pubDate>
+      <description>30 个单品 · Shopee TH · สกินแคร์ (sales sort) · 待核实</description>
+    </item>
+    <item>
+      <title>泰国竞争委员会：Shopee、Lazada、TikTok 冻结上调佣金 6 个月（至2027年2月）</title>
+      <link>https://ys.tongzhoukuajing.com/news/2026-10-22-thailand-tcct-gp-fee-freeze</link>
+      <guid isPermaLink="false">2026-10-22-thailand-tcct-gp-fee-freeze</guid>
+      <pubDate>Thu, 22 Oct 2026 12:00:00 GMT</pubDate>
+      <description>据泰媒报道，泰国贸易竞争委员会（TCCT）依法第60条责令电商平台暂停上调 GP/佣金 6 个月，并要求报备调价依据；另拟要求平台每次调价前先报备，预计12月出台。</description>
+    </item>
+    <item>
+      <title>泰国 FDA 新增 24 种化妆品禁用成分，6月13日生效</title>
+      <link>https://ys.tongzhoukuajing.com/news/2026-06-12-thailand-24-prohibited-ingredients</link>
+      <guid isPermaLink="false">2026-06-12-thailand-24-prohibited-ingredients</guid>
+      <pubDate>Fri, 12 Jun 2026 12:00:00 GMT</pubDate>
+      <description>泰国卫生部第 6 号禁用成分公告新增 24 种物质，并修订 3 项，其中 D4（环四硅氧烷）作为杂质超 0.1% 即禁止。</description>
+    </item>
+  </channel>
+</rss>

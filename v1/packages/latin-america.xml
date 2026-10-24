@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>远山频道 · 拉美</title>
+    <link>https://ys.tongzhoukuajing.com/subscribe/?markets=ar%2Cbr%2Ccl%2Cco%2Ccr%2Cec%2Cmx%2Cpa%2Cpe%2Cuy&amp;types=rules%2Cregulation%2Crankings</link>
+    <description>每条资讯都附来源链接。标了「待核实」的条目来自媒体或第三方转述，引用前打开原文。费用、排名和法规以官方页面为准。 公开只读，不是法律意见，也不代替来源原文。</description>
+    <language>zh-CN</language>
+    <lastBuildDate>Fri, 23 Oct 2026 12:00:00 GMT</lastBuildDate>
+    <atom:link xmlns:atom="http://www.w3.org/2005/Atom" href="https://ys.tongzhoukuajing.com/v1/packages/latin-america.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Mercado Livre 巴西 · 2026-10-23</title>
+      <link>https://ys.tongzhoukuajing.com/rankings/mercado-livre</link>
+      <guid isPermaLink="false">mercado-livre/2026-10-23</guid>
+      <pubDate>Fri, 23 Oct 2026 12:00:00 GMT</pubDate>
+      <description>14 个单品 · Mercado Livre · Mais Vendidos Beleza · 部分数据 · 待核实</description>
+    </item>
+    <item>
+      <title>巴西 ANVISA 更新化妆品限用物质清单，已注册产品 24 个月内调整</title>
+      <link>https://ys.tongzhoukuajing.com/news/2026-06-11-anvisa-rdc-1029-restricted</link>
+      <guid isPermaLink="false">2026-06-11-anvisa-rdc-1029-restricted</guid>
+      <pubDate>Thu, 11 Jun 2026 12:00:00 GMT</pubDate>
+      <description>RDC 1.029/2026 更新限用物质清单（转化南共市 GMC 06/25），RDC 1.030/2026 更新禁用清单；已备案产品有 24 个月调整期。</description>
+    </item>
+    <item>
+      <title>巴西 ANVISA：含已禁物质的化妆品登记被批量取消</title>
+      <link>https://ys.tongzhoukuajing.com/news/2026-03-20-anvisa-cancels-banned-substance-cosmetics</link>
+      <guid isPermaLink="false">2026-03-20-anvisa-cancels-banned-substance-cosmetics</guid>
+      <pubDate>Fri, 20 Mar 2026 12:00:00 GMT</pubDate>
+      <description>ANVISA 官方新闻称，因配方含已禁止物质，已取消大批化妆品登记；企业须对照最新禁限用清单并停售不合规 SKU。</description>
+    </item>
+  </channel>
+</rss>

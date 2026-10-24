@@ -1,0 +1,31 @@
+{
+  "api": "yuanshan-channel/v1",
+  "access": "public-read",
+  "auth": null,
+  "generated": "2026-10-23",
+  "disclaimer": "每条资讯都附来源链接。标了「待核实」的条目来自媒体或第三方转述，引用前打开原文。费用、排名和法规以官方页面为准。",
+  "kind": "news",
+  "item": {
+    "kind": "news",
+    "id": "2026-04-20-japan-triheptanoin-interim",
+    "type": "regulation",
+    "date": "2026-04-20",
+    "title": "日本厚劳省：三庚酸甘油酯配合化妆品在基准修订前的过渡处理",
+    "summary": "厚劳省 4月20日发事务联络，明确在化妆品基准修订前，配合三庚酸甘油酯（triheptanoin）的化妆品如何处理。",
+    "body_text": "- 厚生労働省 2026年4月20日 事务联络\n\n- 对象：配合 三庚酸甘油酯 的化妆品\n\n- 属于化妆品基准正式修订前的过渡措施，不是新告示\n\n日本最近一次化妆品基准告示修订是 2024年7月12日。",
+    "markets": [
+      "jp"
+    ],
+    "platforms": [],
+    "tags": [
+      "ingredients"
+    ],
+    "source_url": "https://www.mhlw.go.jp/hourei/doc/tsuchi/T260421I0040.pdf",
+    "source_name": "厚生労働省",
+    "checked": "2026-10-23",
+    "needs_review": true,
+    "sample": false,
+    "key_date": null,
+    "page": "/news/2026-04-20-japan-triheptanoin-interim"
+  }
+}

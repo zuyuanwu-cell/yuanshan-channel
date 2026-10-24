@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>远山频道 · 日本</title>
+    <link>https://ys.tongzhoukuajing.com/subscribe/?markets=jp&amp;types=rankings</link>
+    <description>每条资讯都附来源链接。标了「待核实」的条目来自媒体或第三方转述，引用前打开原文。费用、排名和法规以官方页面为准。 公开只读，不是法律意见，也不代替来源原文。</description>
+    <language>zh-CN</language>
+    <lastBuildDate>Fri, 23 Oct 2026 12:00:00 GMT</lastBuildDate>
+    <atom:link xmlns:atom="http://www.w3.org/2005/Atom" href="https://ys.tongzhoukuajing.com/v1/markets/jp/types/rankings.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Amazon 日本站 · 2026-10-23</title>
+      <link>https://ys.tongzhoukuajing.com/rankings/amazon-jp</link>
+      <guid isPermaLink="false">amazon-jp/2026-10-23</guid>
+      <pubDate>Fri, 23 Oct 2026 12:00:00 GMT</pubDate>
+      <description>30 个单品 · Amazon.co.jp 売れ筋ランキング · ビューティー · 部分数据 · 待核实</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,1593 @@
+{
+  "api": "yuanshan-channel/v1",
+  "access": "public-read",
+  "auth": null,
+  "generated": "2026-10-23",
+  "disclaimer": "每条资讯都附来源链接。标了「待核实」的条目来自媒体或第三方转述，引用前打开原文。费用、排名和法规以官方页面为准。",
+  "kind": "index",
+  "count": 65,
+  "filter": {
+    "markets": "Comma-separated compliance country ids. An item matches when item.markets intersects. Items with scope=global match only if include_global=1.",
+    "types": "Comma-separated subset of rules,regulation,rankings. Omit for all three.",
+    "since": "YYYY-MM-DD, inclusive on item.date.",
+    "include_global": "Set to 1 to add GL ranking boards when markets is set. Market packages leave them out.",
+    "static_host": "A static server returns this file unchanged and ignores the query string. Apply the query in the client, or use a prebuilt /v1/markets/{id}/feed.json, /v1/markets/{id}/types/{combo}.json, or /v1/packages/{slug}.json."
+  },
+  "items": [
+    {
+      "kind": "news",
+      "id": "2026-10-23-uk-hexyl-salicylate-2027",
+      "type": "regulation",
+      "date": "2026-10-23",
+      "title": "英国第二批修订：水杨酸己酯限量，2027年3月23日生效",
+      "summary": "英国 2026 年第 109 号条例限制香料成分水杨酸己酯，并新增一批 CMR 禁用物质；2027年3月23日生效，清库存到 2027年9月22日。",
+      "body_text": "- 限制香料成分 水杨酸己酯（hexyl salicylate）\n\n- 新增一批 CMR 禁用物质\n\n- 2027年3月23日生效，已上市产品可卖到 2027年9月22日\n\n香水、香氛身体护理类要提前查配方。",
+      "markets": [
+        "uk"
+      ],
+      "platforms": [],
+      "tags": [
+        "ingredients"
+      ],
+      "source_url": "https://www.legislation.gov.uk/uksi/2026/109/body/made",
+      "source_name": "legislation.gov.uk",
+      "checked": "2026-10-23",
+      "needs_review": false,
+      "sample": false,
+      "key_date": {
+        "date": "2027-03-23",
+        "label": "生效"
+      },
+      "page": "/news/2026-10-23-uk-hexyl-salicylate-2027"
+    },
+    {
+      "kind": "ranking",
+      "id": "aliexpress/2026-10-23",
+      "type": "rankings",
+      "date": "2026-10-23",
+      "title": "AliExpress · 2026-10-23",
+      "summary": "29 个单品 · AliExpress Beauty & Health · Best Selling · 部分数据 · 待核实",
+      "markets": [],
+      "board": "aliexpress",
+      "source_url": "https://www.aliexpress.com/category/66/beauty-health.html",
+      "source_name": "AliExpress Beauty & Health · Best Selling",
+      "needs_review": true,
+      "sample": false,
+      "partial": true,
+      "page": "/rankings/aliexpress",
+      "detail": "/v1/rankings/aliexpress/2026-10-23.json",
+      "scope": "global"
+    },
+    {
+      "kind": "ranking",
+      "id": "amazon-de/2026-10-23",
+      "type": "rankings",
+      "date": "2026-10-23",
+      "title": "Amazon 德国站 · 2026-10-23",
+      "summary": "30 个单品 · Amazon.de Bestseller · Kosmetik · 部分数据 · 待核实",
+      "markets": [
+        "de"
+      ],
+      "board": "amazon-de",
+      "source_url": "https://www.amazon.de/gp/bestsellers/beauty",
+      "source_name": "Amazon.de Bestseller · Kosmetik",
+      "needs_review": true,
+      "sample": false,
+      "partial": true,
+      "page": "/rankings/amazon-de",
+      "detail": "/v1/rankings/amazon-de/2026-10-23.json"
+    },
+    {
+      "kind": "ranking",
+      "id": "amazon-jp/2026-10-23",
+      "type": "rankings",
+      "date": "2026-10-23",
+      "title": "Amazon 日本站 · 2026-10-23",
+      "summary": "30 个单品 · Amazon.co.jp 売れ筋ランキング · ビューティー · 部分数据 · 待核实",
+      "markets": [
+        "jp"
+      ],
+      "board": "amazon-jp",
+      "source_url": "https://www.amazon.co.jp/gp/bestsellers/beauty",
+      "source_name": "Amazon.co.jp 売れ筋ランキング · ビューティー",
+      "needs_review": true,
+      "sample": false,
+      "partial": true,
+      "page": "/rankings/amazon-jp",
+      "detail": "/v1/rankings/amazon-jp/2026-10-23.json"
+    },
+    {
+      "kind": "ranking",
+      "id": "amazon-sg/2026-10-23",
+      "type": "rankings",
+      "date": "2026-10-23",
+      "title": "Amazon 新加坡站 · 2026-10-23",
+      "summary": "30 个单品 · Amazon.sg Best Sellers · Beauty · 部分数据 · 待核实",
+      "markets": [
+        "sg"
+      ],
+      "board": "amazon-sg",
+      "source_url": "https://www.amazon.sg/gp/bestsellers/beauty",
+      "source_name": "Amazon.sg Best Sellers · Beauty",
+      "needs_review": true,
+      "sample": false,
+      "partial": true,
+      "page": "/rankings/amazon-sg",
+      "detail": "/v1/rankings/amazon-sg/2026-10-23.json"
+    },
+    {
+      "kind": "ranking",
+      "id": "amazon-uk/2026-10-23",
+      "type": "rankings",
+      "date": "2026-10-23",
+      "title": "Amazon 英国站 · 2026-10-23",
+      "summary": "30 个单品 · Amazon.co.uk Best Sellers · Beauty · 部分数据 · 待核实",
+      "markets": [
+        "uk"
+      ],
+      "board": "amazon-uk",
+      "source_url": "https://www.amazon.co.uk/Best-Sellers-Beauty/zgbs/beauty",
+      "source_name": "Amazon.co.uk Best Sellers · Beauty",
+      "needs_review": true,
+      "sample": false,
+      "partial": true,
+      "page": "/rankings/amazon-uk",
+      "detail": "/v1/rankings/amazon-uk/2026-10-23.json"
+    },
+    {
+      "kind": "ranking",
+      "id": "amazon-us/2026-10-23",
+      "type": "rankings",
+      "date": "2026-10-23",
+      "title": "Amazon 美国站 · 2026-10-23",
+      "summary": "30 个单品 · Amazon Best Sellers · Beauty & Personal Care · 部分数据 · 待核实",
+      "markets": [
+        "us"
+      ],
+      "board": "amazon-us",
+      "source_url": "https://www.amazon.com/Best-Sellers-Beauty-Personal-Care/zgbs/beauty",
+      "source_name": "Amazon Best Sellers · Beauty & Personal Care",
+      "needs_review": true,
+      "sample": false,
+      "partial": true,
+      "page": "/rankings/amazon-us",
+      "detail": "/v1/rankings/amazon-us/2026-10-23.json"
+    },
+    {
+      "kind": "ranking",
+      "id": "coupang/2026-10-23",
+      "type": "rankings",
+      "date": "2026-10-23",
+      "title": "Coupang · 2026-10-23",
+      "summary": "29 个单品 · Coupang · 화장품 search · 待核实",
+      "markets": [
+        "kr"
+      ],
+      "board": "coupang",
+      "source_url": "https://www.coupang.com/np/search?component=&q=%ED%99%94%EC%9E%A5%ED%92%88&channel=user",
+      "source_name": "Coupang · 화장품 search",
+      "needs_review": true,
+      "sample": false,
+      "partial": false,
+      "page": "/rankings/coupang",
+      "detail": "/v1/rankings/coupang/2026-10-23.json"
+    },
+    {
+      "kind": "ranking",
+      "id": "ebay/2026-10-23",
+      "type": "rankings",
+      "date": "2026-10-23",
+      "title": "eBay · 2026-10-23",
+      "summary": "30 个单品 · eBay · skincare search Beauty · 部分数据 · 待核实",
+      "markets": [
+        "us"
+      ],
+      "board": "ebay",
+      "source_url": "https://www.ebay.com/sch/i.html?_nkw=skincare&_sacat=26395&_sop=12",
+      "source_name": "eBay · skincare search Beauty",
+      "needs_review": true,
+      "sample": false,
+      "partial": true,
+      "page": "/rankings/ebay",
+      "detail": "/v1/rankings/ebay/2026-10-23.json"
+    },
+    {
+      "kind": "ranking",
+      "id": "lazada-id/2026-10-23",
+      "type": "rankings",
+      "date": "2026-10-23",
+      "title": "Lazada 印尼 · 2026-10-23",
+      "summary": "30 个单品 · Lazada ID · skincare (sold) · 待核实",
+      "markets": [
+        "id"
+      ],
+      "board": "lazada-id",
+      "source_url": "https://www.lazada.co.id/catalog/?q=skincare&sort=solddesc",
+      "source_name": "Lazada ID · skincare (sold)",
+      "needs_review": true,
+      "sample": false,
+      "partial": false,
+      "page": "/rankings/lazada-id",
+      "detail": "/v1/rankings/lazada-id/2026-10-23.json"
+    },
+    {
+      "kind": "ranking",
+      "id": "lazada-th/2026-10-23",
+      "type": "rankings",
+      "date": "2026-10-23",
+      "title": "Lazada 泰国 · 2026-10-23",
+      "summary": "30 个单品 · Lazada TH · skincare (sold) · 待核实",
+      "markets": [
+        "th"
+      ],
+      "board": "lazada-th",
+      "source_url": "https://www.lazada.co.th/catalog/?q=skincare&sort=solddesc",
+      "source_name": "Lazada TH · skincare (sold)",
+      "needs_review": true,
+      "sample": false,
+      "partial": false,
+      "page": "/rankings/lazada-th",
+      "detail": "/v1/rankings/lazada-th/2026-10-23.json"
+    },
+    {
+      "kind": "ranking",
+      "id": "mercado-livre/2026-10-23",
+      "type": "rankings",
+      "date": "2026-10-23",
+      "title": "Mercado Livre 巴西 · 2026-10-23",
+      "summary": "14 个单品 · Mercado Livre · Mais Vendidos Beleza · 部分数据 · 待核实",
+      "markets": [
+        "br"
+      ],
+      "board": "mercado-livre",
+      "source_url": "https://www.mercadolivre.com.br/mais-vendidos/MLB1246",
+      "source_name": "Mercado Livre · Mais Vendidos Beleza",
+      "needs_review": true,
+      "sample": false,
+      "partial": true,
+      "page": "/rankings/mercado-livre",
+      "detail": "/v1/rankings/mercado-livre/2026-10-23.json"
+    },
+    {
+      "kind": "ranking",
+      "id": "noon/2026-10-23",
+      "type": "rankings",
+      "date": "2026-10-23",
+      "title": "noon · 2026-10-23",
+      "summary": "30 个单品 · noon UAE · Beauty (popularity) · 待核实",
+      "markets": [
+        "ae",
+        "sa"
+      ],
+      "board": "noon",
+      "source_url": "https://www.noon.com/uae-en/beauty/?sort[by]=popularity&sort[dir]=desc",
+      "source_name": "noon UAE · Beauty (popularity)",
+      "needs_review": true,
+      "sample": false,
+      "partial": false,
+      "page": "/rankings/noon",
+      "detail": "/v1/rankings/noon/2026-10-23.json"
+    },
+    {
+      "kind": "ranking",
+      "id": "ozon/2026-10-23",
+      "type": "rankings",
+      "date": "2026-10-23",
+      "title": "Ozon · 2026-10-23",
+      "summary": "30 个单品 · Ozon · Красота и здоровье · 待核实",
+      "markets": [
+        "ru"
+      ],
+      "board": "ozon",
+      "source_url": "https://www.ozon.ru/category/krasota-i-zdorove-6500/",
+      "source_name": "Ozon · Красота и здоровье",
+      "needs_review": true,
+      "sample": false,
+      "partial": false,
+      "page": "/rankings/ozon",
+      "detail": "/v1/rankings/ozon/2026-10-23.json"
+    },
+    {
+      "kind": "ranking",
+      "id": "shopee-id/2026-10-23",
+      "type": "rankings",
+      "date": "2026-10-23",
+      "title": "Shopee 印尼 · 2026-10-23",
+      "summary": "16 个单品 · Shopee ID · Perawatan & Kecantikan (sales) · 部分数据 · 待核实",
+      "markets": [
+        "id"
+      ],
+      "board": "shopee-id",
+      "source_url": "https://shopee.co.id/Perawatan-Kecantikan-cat.11043254?page=0&sortBy=sales",
+      "source_name": "Shopee ID · Perawatan & Kecantikan (sales)",
+      "needs_review": true,
+      "sample": false,
+      "partial": true,
+      "page": "/rankings/shopee-id",
+      "detail": "/v1/rankings/shopee-id/2026-10-23.json"
+    },
+    {
+      "kind": "ranking",
+      "id": "shopee-my/2026-10-23",
+      "type": "rankings",
+      "date": "2026-10-23",
+      "title": "Shopee 马来西亚 · 2026-10-23",
+      "summary": "30 个单品 · Shopee MY · skincare (sales sort) · 待核实",
+      "markets": [
+        "my"
+      ],
+      "board": "shopee-my",
+      "source_url": "https://shopee.com.my/search?keyword=skincare&sortBy=sales",
+      "source_name": "Shopee MY · skincare (sales sort)",
+      "needs_review": true,
+      "sample": false,
+      "partial": false,
+      "page": "/rankings/shopee-my",
+      "detail": "/v1/rankings/shopee-my/2026-10-23.json"
+    },
+    {
+      "kind": "ranking",
+      "id": "shopee-sg/2026-10-23",
+      "type": "rankings",
+      "date": "2026-10-23",
+      "title": "Shopee 新加坡 · 2026-10-23",
+      "summary": "30 个单品 · Shopee SG · Beauty & Personal Care (sales) · 待核实",
+      "markets": [
+        "sg"
+      ],
+      "board": "shopee-sg",
+      "source_url": "https://shopee.sg/Beauty-Personal-Care-cat.11012301?sortBy=sales",
+      "source_name": "Shopee SG · Beauty & Personal Care (sales)",
+      "needs_review": true,
+      "sample": false,
+      "partial": false,
+      "page": "/rankings/shopee-sg",
+      "detail": "/v1/rankings/shopee-sg/2026-10-23.json"
+    },
+    {
+      "kind": "ranking",
+      "id": "shopee-th/2026-10-23",
+      "type": "rankings",
+      "date": "2026-10-23",
+      "title": "Shopee 泰国 · 2026-10-23",
+      "summary": "30 个单品 · Shopee TH · สกินแคร์ (sales sort) · 待核实",
+      "markets": [
+        "th"
+      ],
+      "board": "shopee-th",
+      "source_url": "https://shopee.co.th/search?keyword=สกินแคร์&sortBy=sales",
+      "source_name": "Shopee TH · สกินแคร์ (sales sort)",
+      "needs_review": true,
+      "sample": false,
+      "partial": false,
+      "page": "/rankings/shopee-th",
+      "detail": "/v1/rankings/shopee-th/2026-10-23.json"
+    },
+    {
+      "kind": "ranking",
+      "id": "shopee-vn/2026-10-23",
+      "type": "rankings",
+      "date": "2026-10-23",
+      "title": "Shopee 越南 · 2026-10-23",
+      "summary": "30 个单品 · Shopee VN · kem dưỡng da (sales sort) · 待核实",
+      "markets": [
+        "vn"
+      ],
+      "board": "shopee-vn",
+      "source_url": "https://shopee.vn/search?keyword=kem%20dưỡng%20da&sortBy=sales",
+      "source_name": "Shopee VN · kem dưỡng da (sales sort)",
+      "needs_review": true,
+      "sample": false,
+      "partial": false,
+      "page": "/rankings/shopee-vn",
+      "detail": "/v1/rankings/shopee-vn/2026-10-23.json"
+    },
+    {
+      "kind": "ranking",
+      "id": "temu/2026-10-23",
+      "type": "rankings",
+      "date": "2026-10-23",
+      "title": "Temu · 2026-10-23",
+      "summary": "30 个单品 · Temu · skincare moisturizer top sales · 部分数据 · 待核实",
+      "markets": [],
+      "board": "temu",
+      "source_url": "https://www.temu.com/",
+      "source_name": "Temu · skincare moisturizer top sales",
+      "needs_review": true,
+      "sample": false,
+      "partial": true,
+      "page": "/rankings/temu",
+      "detail": "/v1/rankings/temu/2026-10-23.json",
+      "scope": "global"
+    },
+    {
+      "kind": "ranking",
+      "id": "tiktok-shop-us/2026-10-23",
+      "type": "rankings",
+      "date": "2026-10-23",
+      "title": "TikTok Shop 美国 · 2026-10-23",
+      "summary": "30 个单品 · TikTok Shop US · skincare (best sellers) · 部分数据 · 待核实",
+      "markets": [
+        "us"
+      ],
+      "board": "tiktok-shop-us",
+      "source_url": "https://shop.tiktok.com/us/search?q=skincare",
+      "source_name": "TikTok Shop US · skincare (best sellers)",
+      "needs_review": true,
+      "sample": false,
+      "partial": true,
+      "page": "/rankings/tiktok-shop-us",
+      "detail": "/v1/rankings/tiktok-shop-us/2026-10-23.json"
+    },
+    {
+      "kind": "ranking",
+      "id": "walmart/2026-10-23",
+      "type": "rankings",
+      "date": "2026-10-23",
+      "title": "Walmart · 2026-10-23",
+      "summary": "9 个单品 · Walmart Best Sellers · Face Moisturizers · 部分数据 · 待核实",
+      "markets": [
+        "us"
+      ],
+      "board": "walmart",
+      "source_url": "https://www.walmart.com/c/best-sellers/face-moisturizers",
+      "source_name": "Walmart Best Sellers · Face Moisturizers",
+      "needs_review": true,
+      "sample": false,
+      "partial": true,
+      "page": "/rankings/walmart",
+      "detail": "/v1/rankings/walmart/2026-10-23.json"
+    },
+    {
+      "kind": "ranking",
+      "id": "wildberries/2026-10-23",
+      "type": "rankings",
+      "date": "2026-10-23",
+      "title": "Wildberries · 2026-10-23",
+      "summary": "30 个单品 · Wildberries · makeup/face · 待核实",
+      "markets": [
+        "ru"
+      ],
+      "board": "wildberries",
+      "source_url": "https://www.wildberries.ru/catalog/krasota/makiyazh/litso",
+      "source_name": "Wildberries · makeup/face",
+      "needs_review": true,
+      "sample": false,
+      "partial": false,
+      "page": "/rankings/wildberries",
+      "detail": "/v1/rankings/wildberries/2026-10-23.json"
+    },
+    {
+      "kind": "news",
+      "id": "2026-10-22-eu-omnibus-vi-parliament",
+      "type": "regulation",
+      "date": "2026-10-22",
+      "title": "欧盟议会通过 Omnibus VI：CMR 化妆品清货期缩短",
+      "summary": "欧洲议会10月22日以477票赞成通过 Omnibus VI 与理事会临时协议。含新禁CMR的化妆品清货窗口缩短；纳米成分通报取消「提前6个月」。须理事会再通过才生效。",
+      "body_text": "欧洲议会 2026年10月22日 以 477 票赞成、59 票反对、41 票弃权，一读通过化学品简化一揽子（业内称 Omnibus VI，程序号 2025/0531(COD)）与理事会谈妥的临时协议。文件会改化妆品法规（EC）1223/2009、CLP 与肥料规则。理事会还要通过并在官方公报公布后才生效，现在不是立刻改标签。\n\n对美妆卖家/品牌，真正要盯的是两件事：\n\n1. 新禁 CMR 成分后的清货时间变短\n\n某物质因被列为 CMR 写进化妆品禁用表后（从「列入禁用表生效日」起算，不是从今天起算）：\n\n- 没申请豁免：还可 投放市场 6 个月、继续销售 12 个月（比委员会最初设想的 12/24 个月更紧）\n\n- 申请豁免但因安全被拒：投放 3 个月 / 可售 9 个月\n\n- 1A/1B 类因「已有合适替代物」被拒：投放 24 个月 / 可售 36 个月，并要更新产品安全报告\n\n- 豁免申请须在新 CMR 分类生效后 3 个月内提交\n\n意味着什么：欧洲站一出现新 CMR 禁令，库存和在途货的缓冲比以前短。跨境卖家要和 RP、工厂约定「禁令生效 → 立刻停产停发」的节奏，不要按旧的一年清货心理备货。\n\n2. 含纳米成分：仍要事前通报，但取消「提前 6 个月」\n\n含纳米材料的化妆品仍须通报，不再要求比上市早 6 个月；已在限用附件、符合条件的产品另有例外。上新节奏会快一点，但通报本身不能省。\n\n注意：站内 9月21日那篇「Omnibus IX」讲的是另一批具体成分禁限草案（二苯酮-1/-2 等），和本条 Omnibus VI（程序简化） 不是同一份文件。两份都要跟。\n\n来源：欧洲议会表决记录 EP Votes (https://epvotes.com/votes/198430)（A10-0104/2026）；要点综述见 2eu.brussels (https://2eu.brussels/en/news/european-parliament-approves-simplified-rules-for-cosmetics-chemicals-and-fertilisers)。",
+      "markets": [
+        "eu"
+      ],
+      "platforms": [
+        "amazon-eu",
+        "temu",
+        "zalando",
+        "otto"
+      ],
+      "tags": [
+        "ingredients",
+        "compliance"
+      ],
+      "source_url": "https://epvotes.com/votes/198430",
+      "source_name": "EP Votes（欧洲议会表决记录）",
+      "checked": "2026-10-24",
+      "needs_review": true,
+      "sample": false,
+      "key_date": {
+        "date": "2026-10-22",
+        "label": "议会通过"
+      },
+      "page": "/news/2026-10-22-eu-omnibus-vi-parliament"
+    },
+    {
+      "kind": "news",
+      "id": "2026-10-22-fda-mandatory-cosmetic-recall-guidance",
+      "type": "regulation",
+      "date": "2026-10-22",
+      "title": "FDA 发布化妆品强制召回终稿指南：拒不召回可被下令下架",
+      "summary": "MoCRA 下强制召回问答终稿落地，与 2025 年 12 月草案无实质改动：何时下令、怎么走流程、企业怎么配合。美国站美妆责任人要把召回预案写进合规清单。",
+      "body_text": "FDA 于 2026年10月22日 发布终稿《Questions and Answers Regarding Mandatory Cosmetics Recalls: Guidance for Industry》，落实 MoCRA 写入《联邦食品药品化妆品法》第 611 条的强制召回权。草案发布于 2025年12月18日，公开征求意见后终稿没有实质改动。\n\n指南主要讲三件事：\n\n- 什么时候会下令强制召回：产品存在严重健康风险，且企业不愿或未能主动自愿召回\n\n- FDA 怎么走流程：通知、下令、公开信息等步骤\n\n- 企业怎么配合：收到命令后要执行，不能拖\n\nFDA 仍鼓励企业先做自愿召回。这条不是新禁限成分，而是执法工具到位：美国站美妆的责任人（标签上署名的制造商/包装商/经销商）要准备好召回联系人、渠道清单和库存追溯；万一出事，拖着不撤的代价会更高。\n\n配套阅读：站内已有 10月14日 MoCRA 信息收集送 OMB 审核的程序公告，那是手续清单；本条是召回权怎么用。",
+      "markets": [
+        "us"
+      ],
+      "platforms": [
+        "amazon-us",
+        "walmart",
+        "tiktok-shop",
+        "temu"
+      ],
+      "tags": [
+        "compliance",
+        "penalties"
+      ],
+      "source_url": "https://www.fda.gov/cosmetics/cosmetics-news-events/fda-issues-final-guidance-mandatory-cosmetic-recalls",
+      "source_name": "FDA Cosmetics Constituent Update",
+      "checked": "2026-10-24",
+      "needs_review": false,
+      "sample": false,
+      "key_date": null,
+      "page": "/news/2026-10-22-fda-mandatory-cosmetic-recall-guidance"
+    },
+    {
+      "kind": "news",
+      "id": "2026-10-22-thailand-tcct-gp-fee-freeze",
+      "type": "rules",
+      "date": "2026-10-22",
+      "title": "泰国竞争委员会：Shopee、Lazada、TikTok 冻结上调佣金 6 个月（至2027年2月）",
+      "summary": "据泰媒报道，泰国贸易竞争委员会（TCCT）依法第60条责令电商平台暂停上调 GP/佣金 6 个月，并要求报备调价依据；另拟要求平台每次调价前先报备，预计12月出台。",
+      "body_text": "据 Rainmaker 2026年10月22日报道（转引 Thairath）：\n\n- 泰国贸易竞争委员会（กขค./TCCT）依《贸易竞争法》（2017）第60条，责令 Shopee、Lazada、TikTok 等平台 暂停上调 GP（平台佣金/费用）6 个月，期间为 2026年8月至2027年2月\n\n- 平台须提交调价数据和理由供审查；报道称共 6 家以上平台受此措施约束\n\n- TCCT 还在征求意见的草案中要求平台每次上调 GP 前先向其报备结构，预计 2026年12月 公布\n\n对卖家：泰国站在冻结期内理论上不应再涨佣金，若收到涨价通知可留存证据。\n\nneeds_review：来源为媒体转述，未找到 TCCT 原始命令文本；冻结期具体起止日未见原文，key_date 仅按「2027年2月」取月末。",
+      "markets": [
+        "th"
+      ],
+      "platforms": [
+        "shopee",
+        "lazada",
+        "tiktok-shop"
+      ],
+      "tags": [
+        "fees"
+      ],
+      "source_url": "https://www.rainmaker.in.th/tcct-control-platform-gp-fees-sme/",
+      "source_name": "Rainmaker（转引 Thairath）",
+      "checked": "2026-10-24",
+      "needs_review": true,
+      "sample": false,
+      "key_date": {
+        "date": "2027-02-28",
+        "label": "冻结期满"
+      },
+      "page": "/news/2026-10-22-thailand-tcct-gp-fee-freeze"
+    },
+    {
+      "kind": "ranking",
+      "id": "amazon-sg/2026-10-22",
+      "type": "rankings",
+      "date": "2026-10-22",
+      "title": "Amazon 新加坡站 · 2026-10-22",
+      "summary": "30 个单品 · Amazon.sg Best Sellers · Beauty · 部分数据",
+      "markets": [
+        "sg"
+      ],
+      "board": "amazon-sg",
+      "source_url": "https://www.amazon.sg/gp/bestsellers/beauty",
+      "source_name": "Amazon.sg Best Sellers · Beauty",
+      "needs_review": false,
+      "sample": false,
+      "partial": true,
+      "page": "/rankings/amazon-sg",
+      "detail": "/v1/rankings/amazon-sg/2026-10-22.json"
+    },
+    {
+      "kind": "ranking",
+      "id": "amazon-us/2026-10-22",
+      "type": "rankings",
+      "date": "2026-10-22",
+      "title": "Amazon 美国站 · 2026-10-22",
+      "summary": "30 个单品 · Amazon Best Sellers · Beauty & Personal Care · 部分数据",
+      "markets": [
+        "us"
+      ],
+      "board": "amazon-us",
+      "source_url": "https://www.amazon.com/Best-Sellers-Beauty-Personal-Care/zgbs/beauty",
+      "source_name": "Amazon Best Sellers · Beauty & Personal Care",
+      "needs_review": false,
+      "sample": false,
+      "partial": true,
+      "page": "/rankings/amazon-us",
+      "detail": "/v1/rankings/amazon-us/2026-10-22.json"
+    },
+    {
+      "kind": "news",
+      "id": "2026-10-20-korea-cosmetics-act-tampered-label",
+      "type": "regulation",
+      "date": "2026-10-20",
+      "title": "韩国《化妆品法》修订即日施行：标签被涂改的化妆品可被要求停售、删除网店页面",
+      "summary": "法律第22113号于2026年10月20日公布并施行：包装或标示被损毁、伪造、变造的化妆品，MFDS 可要求卖家停售、删除网店商品信息并采取防流通措施。",
+      "body_text": "韩国《化妆品法》部分修订（法律第 22113 号）于 2026年10月20日 公布，公布当日施行。\n\n- 新增第16条第3项：对销售或以销售为目的保管、陈列 包装及标示事项被损毁、伪造、变造 的化妆品的营业者或卖家，食品医药品安全处（MFDS）可要求 停止销售、删除网店（사이버몰）上的商品信息、制定防止流通的措施\n\n- 收到要求的营业者或卖家，无正当理由须照办\n\n- 另设「化妆品全球规制支援中心」等出口支援条款（第33条之3），公布 1年后 即2027年10月20日起施行\n\n对跨境卖家：撕标、改批号或覆盖韩文标签的货，在韩国网店可能被直接要求下架。",
+      "markets": [
+        "kr"
+      ],
+      "platforms": [
+        "coupang"
+      ],
+      "tags": [
+        "labeling",
+        "penalties"
+      ],
+      "source_url": "https://www.law.go.kr/LSW/lsRvsRsnListP.do?chrClsCd=010202&lsId=002015&lsRvsGubun=all",
+      "source_name": "韩国国家法令信息中心 · 化妆品法修订理由",
+      "checked": "2026-10-24",
+      "needs_review": false,
+      "sample": false,
+      "key_date": null,
+      "page": "/news/2026-10-20-korea-cosmetics-act-tampered-label"
+    },
+    {
+      "kind": "news",
+      "id": "2026-10-19-tiktok-shop-aigc-beauty",
+      "type": "rules",
+      "date": "2026-10-19",
+      "title": "TikTok Shop 美妆个护：不准用 AI 人物或 AI 手展示效果，11月2日执法",
+      "summary": "美妆个护和健康两个类目，AI 生成的人或手不能演示上脸效果、使用过程、前后对比。10月19日起有两周宽限期。",
+      "body_text": "达人在 TikTok 应用里收到一条系统通知，标题是「美妆个护与健康产品 AIGC 要求更新」。据 psyrenne 10月19日的转述：\n\n- 适用类目：美妆个护、健康\n\n- 10月19日 起生效，两周宽限期，11月2日 起执法\n\n- 不能用 AI 生成的人物或 AI 手展示：前后对比、核心功效、上脸或涂抹过程、使用体验、服用保健品\n\n文章还提到：不论真人还是 AI，前后对比在这两个类目里都按违规处理。\n\n仍可以做的：真人出镜演示、真人的手展示质地和开封、用 AI 写脚本或字幕。整段由 AI 生成或大幅修改的视频，仍要打 AI 生成内容标识。\n\n这条来自第三方对应用内通知的转述，TikTok Shop 还没在公开政策页贴出原文，各国执行口径可能不同，所以标待核实。已经发布的老视频也要检查。",
+      "markets": [],
+      "platforms": [
+        "tiktok-shop"
+      ],
+      "tags": [
+        "ai",
+        "listing"
+      ],
+      "source_url": "https://psyrenne.com/tiktok-shop-ai-rule-beauty-health/",
+      "source_name": "psyrenne（转述 TikTok 应用内通知）",
+      "checked": "2026-10-22",
+      "needs_review": true,
+      "sample": false,
+      "key_date": {
+        "date": "2026-11-02",
+        "label": "开始执法"
+      },
+      "page": "/news/2026-10-19-tiktok-shop-aigc-beauty"
+    },
+    {
+      "kind": "news",
+      "id": "2026-10-17-indonesia-halal-cosmetics-2028",
+      "type": "regulation",
+      "date": "2026-10-17",
+      "title": "印尼化妆品清真认证强制期顺延到 2028年10月17日",
+      "summary": "原定 2026年10月18日生效的清真认证义务，化妆品、化学品等品类延后两年。依据是对 PP 42/2024 的修订，媒体转述政府说明。",
+      "body_text": "据 Kompas 10月17日报道，印尼经济统筹部宣布修订《清真产品保障实施条例》（PP 42/2024），延长部分品类的清真认证分阶段期限。\n\n和美妆日化相关的部分：\n\n- 化妆品、化学品、部分日用品（barang gunaan），延到 2028年10月17日\n\n- 这些品类原定 2026年10月18日起须有清真证书\n\n- 境外产品的部分安排，要等清真证书互认合作完成\n\n政府还表示，会撤销 BPJPH 2026年第4号条例（境外清真产品入境合规）。\n\n这条来自媒体对政府说明的转述，还没对照修订后的 PP 正文，所以标了待核实。延期不等于不用做：在印尼平台卖化妆品，BPOM 备案仍然是上架前提。",
+      "markets": [
+        "id"
+      ],
+      "platforms": [
+        "shopee",
+        "lazada",
+        "tokopedia",
+        "tiktok-shop"
+      ],
+      "tags": [
+        "compliance",
+        "labeling"
+      ],
+      "source_url": "https://cahaya.kompas.com/aktual/26J17085049390/pemerintah-perpanjang-tenggat-sertifikasi-halal-hingga-2028",
+      "source_name": "Kompas.com",
+      "checked": "2026-10-22",
+      "needs_review": true,
+      "sample": false,
+      "key_date": {
+        "date": "2028-10-17",
+        "label": "新截止"
+      },
+      "page": "/news/2026-10-17-indonesia-halal-cosmetics-2028"
+    },
+    {
+      "kind": "news",
+      "id": "2026-10-16-ozon-commission-formula-dec",
+      "type": "rules",
+      "date": "2026-10-16",
+      "title": "Ozon 12月1日起按新公式算销售佣金，先重算定价和回款",
+      "summary": "Ozon 资费清单新版：佣金以后台「上限价」为基数，打折部分从佣金里扣。跨仓经提货点改按货件计费。",
+      "body_text": "监测站 ferta.su 10月16日记录到 Ozon《佣金与资费完整清单》的新版本：2026年12月1日 起，销售佣金按新公式计算。\n\n公式（文件原文的意思）：每笔销售或退货的佣金，取下面两者中较大的一个——\n\n- 上限价 × (上限费率 − 修正值) × 1%\n\n- 上限价 × (上限费率 − 修正值 − 折扣系数)\n\n其中「上限价」是下单时卖家后台设置的价格；「折扣系数」是上限价与实际售价（含合作方忠诚度补贴）之差占上限价的比例；「修正值」用于延期回款折扣等机制。\n\nferta 给的算例：上限价 1,000 ₽、费率 20%。按 900 ₽ 卖出，佣金 100 ₽（原来 200 ₽），卖家到手 800 ₽；按 1,100 ₽ 卖出，佣金 300 ₽，到手仍是 800 ₽。也就是说，到手金额主要由上限价决定。\n\n同一版本里，经提货点的交叉配送改成每个货件 15 ₽，不再按每升 5 ₽。\n\nOzon 卖家文档站从这里打不开，内容来自第三方监测站对原文的摘录，所以标待核实。调价前到 Ozon 卖家后台核对资费清单原文。",
+      "markets": [
+        "ru"
+      ],
+      "platforms": [
+        "ozon"
+      ],
+      "tags": [
+        "fees"
+      ],
+      "source_url": "https://ferta.su/ozon/polnyy-spisok-komissiy-tarifov/2026-10-16-schitaet-komissiyu-prodazhu-novoy-formule-620",
+      "source_name": "ferta.su（Ozon 资费文件变更监测）",
+      "checked": "2026-10-22",
+      "needs_review": true,
+      "sample": false,
+      "key_date": {
+        "date": "2026-12-01",
+        "label": "新公式生效"
+      },
+      "page": "/news/2026-10-16-ozon-commission-formula-dec"
+    },
+    {
+      "kind": "news",
+      "id": "2026-10-16-tiktok-shop-my-commission-hike",
+      "type": "rules",
+      "date": "2026-10-16",
+      "title": "TikTok Shop 马来西亚 10月31日起上调美妆佣金，Mall 香水彩妆最高约 20.5%",
+      "summary": "马来西亚时间 10月31日 0 点起调整 Marketplace/Mall 佣金（含 SST）。妆护、护肤、洗护等多数美妆子类上调；女性护理等少数必需类下调。生效前下单仍按旧费率。",
+      "body_text": "TikTok Shop 马来西亚卖家大学佣金页写明：马来西亚时间 2026年10月31日 00:00（UTC+8） 起，Marketplace 与 Mall 佣金按新表收取；此前已下单仍按旧费率结算。费率表含 SST。\n\n对美妆日化卖家影响最大的几类（含 SST，取官方表）：\n\n子类\nMarketplace 非 BXP：旧 → 新\nMall 非 BXP：旧 → 新\n\n彩妆 Makeup\n15.66% → 17.28%\n18.90% → 20.52%\n\n香水 Fragrance\n15.66% → 17.28%\n18.90% → 20.52%\n\n手足护 Hand & Foot / 男士护理 / 美甲\n同上档\n同上档\n\n护肤 Skincare / 洗护 Hair / 沐浴 Bath & Body\n15.12% → 16.74%\n18.36% → 19.98%\n\n少数「必需类」下调，例如女性护理 Feminine Care：Marketplace 非 BXP 14.58% → 12.10%。\n\n平台强调：仍按成交抽佣，不加月租或上架费；BXP 卖家佣金仍低于非 BXP。佣金基数是「售价 − 卖家折扣」，不含运费和平台补贴。\n\n意味着什么：马来西亚站美妆（尤其 Mall、非 BXP）毛利再被挤一截。10月31日前把定价、促销深度和是否进 BXP 算清楚；日化洗护同样上调，不要只盯彩妆。",
+      "markets": [
+        "my"
+      ],
+      "platforms": [
+        "tiktok-shop"
+      ],
+      "tags": [
+        "fees"
+      ],
+      "source_url": "https://seller-my.tiktok.com/university/essay?knowledge_id=6907739532281602&lang=en",
+      "source_name": "TikTok Shop 马来西亚卖家大学 · Commission Fee",
+      "checked": "2026-10-24",
+      "needs_review": false,
+      "sample": false,
+      "key_date": {
+        "date": "2026-10-31",
+        "label": "新费率生效"
+      },
+      "page": "/news/2026-10-16-tiktok-shop-my-commission-hike"
+    },
+    {
+      "kind": "news",
+      "id": "2026-10-15-amazon-us-holiday-peak-fees",
+      "type": "rules",
+      "date": "2026-10-15",
+      "title": "亚马逊美国站旺季配送费 10月15日起生效，平均每件多 $0.32",
+      "summary": "FBA、远程配送、MCF 和 Buy with Prime 都按旺季费率收，到 2027年1月14日。3.5% 燃油与物流附加费照收。",
+      "body_text": "亚马逊在 Seller Central 发的《Holiday 2026》公告写明，美国站旺季配送费 2026年10月15日 起生效，到 2027年1月14日 结束，日期和去年一样。\n\n适用范围：\n\n- FBA\n\n- Remote Fulfillment with FBA\n\n- Multi-Channel Fulfillment（MCF）\n\n- Buy with Prime\n\n和非旺季比，每件平均多 $0.32，涨幅和去年相同。3.5% 的燃油与物流附加费叠加在旺季费率上。\n\n同一公告里另外两个时间点：\n\n- 黑五周和网一的秒杀提交窗口 10月20日 已关闭\n\n- 走 AWD 并开启自动补货到 FBA 的库存，按非旺季月度仓储费计到 10月31日\n\n美妆小件单价低，每件多几毛钱对毛利影响不小。具体费率按尺寸和重量查 Revenue Calculator 或 Fee and Economics Preview 报表。",
+      "markets": [
+        "us"
+      ],
+      "platforms": [
+        "amazon-us"
+      ],
+      "tags": [
+        "fees"
+      ],
+      "source_url": "https://sellercentral.amazon.com/seller-forums/discussions/t/3e31fbb7-04e0-4ed4-873e-f74b1052e2ff",
+      "source_name": "Amazon Seller Central · Holiday 2026 公告",
+      "checked": "2026-10-22",
+      "needs_review": false,
+      "sample": false,
+      "key_date": {
+        "date": "2027-01-14",
+        "label": "旺季费结束"
+      },
+      "page": "/news/2026-10-15-amazon-us-holiday-peak-fees"
+    },
+    {
+      "kind": "news",
+      "id": "2026-10-15-china-nidc-freeze-dried-single-dose",
+      "type": "regulation",
+      "date": "2026-10-15",
+      "title": "中检院征求冻干、次抛化妆品标准：11月22日截止",
+      "summary": "中检院10月15日公开征求《化妆品冻干产品》《次抛型化妆品》两项标准意见，11月22日截止。冻干面膜、试用装不在范围。做冻干粉/安瓶精华的工厂与品牌宜对照草案自查。",
+      "body_text": "中国药品检定研究院（中检院）2026年10月15日发通知，公开征求两项化妆品标准意见稿，反馈截止 2026年11月22日，须在「化妆品标准制修订管理系统」提交：\n\n- 《化妆品冻干产品》\n\n- 《次抛型化妆品》\n\n冻干产品大致指：用真空冷冻干燥做成片、块、球、絮或粉，复溶后再涂在皮肤上的化妆品。官方起草说明写明——冻干面膜不适用；冻干原料、非化妆品用途也不适用。\n\n次抛型大致指：一次独立包装、开封后一次性用完的护肤类（常见吹灌封软管、软胶囊、安瓿等）。试用装、赠品等不适用。\n\n草案在建统一的质量指标、检验方法和标签/包装/运输/贮存要求；常规 pH、微生物、重金属等仍对齐《化妆品安全技术规范》等现有规则，复溶性、耐热/耐寒等品类特有指标是新方法。\n\n意味着什么\n\n- 还在征求意见，现在不是强制标准；但国内此前几乎没有专门国标/行标覆盖这两类热销形态\n\n- 在中国备案/注册、或在国内代工冻干粉、次抛精华再出口的品牌与工厂：趁截止前对照草案看水分、复溶、包装密封、标签表述会不会卡检测\n\n- 别把「冻干面膜」「小样试用装」误套进这两份标准的范围里做错误整改\n\n官方原文与附件下载：中检院通知 (https://www.nidc.org.cn/xxgk/ggtzh/tongzhi/202610151546212245658.html)。",
+      "markets": [
+        "cn"
+      ],
+      "platforms": [],
+      "tags": [
+        "compliance"
+      ],
+      "source_url": "https://www.nidc.org.cn/xxgk/ggtzh/tongzhi/202610151546212245658.html",
+      "source_name": "中国药品检定研究院",
+      "checked": "2026-10-24",
+      "needs_review": true,
+      "sample": false,
+      "key_date": {
+        "date": "2026-11-22",
+        "label": "意见截止"
+      },
+      "page": "/news/2026-10-15-china-nidc-freeze-dried-single-dose"
+    },
+    {
+      "kind": "news",
+      "id": "2026-10-15-tiktok-shop-id-false-display",
+      "type": "rules",
+      "date": "2026-10-15",
+      "title": "TikTok Shop 印尼 10月15日起严查「货不对板」，最多扣 20 分",
+      "summary": "商品和页面在类型、数量、质量、尺寸、材质、功能上明显不符，店铺健康分最多扣 20 分，商品可被下架或暂停。",
+      "body_text": "TikTok Shop 印尼站（与 Tokopedia 共用卖家中心）在政策更新页写明：2026年10月15日 起，加强处理「信息展示不实」（False Display of Information）的商品。\n\n定义：实收商品和页面展示或描述有明显差异，涉及商品类型、数量、质量、尺寸、材质、功能，或其他影响购买决定的关键属性。\n\n处罚：\n\n- 店铺健康分（AHR）每次最多扣 20 分\n\n- 商品按严重程度被停用或暂停\n\n平台要求卖家逐项核对标题、描述、图片、规格和关键宣称。\n\n美妆日化最容易出问题的地方（编辑整理，不是平台原文）：容量写 100ml 实发 50ml、套装件数、色号图与实物色差、功效宣称超出备案范围。",
+      "markets": [
+        "id"
+      ],
+      "platforms": [
+        "tiktok-shop",
+        "tokopedia"
+      ],
+      "tags": [
+        "listing",
+        "penalties"
+      ],
+      "source_url": "https://seller-id.tokopedia.com/university/essay?knowledge_id=4293090979071761&lang=en",
+      "source_name": "TikTok Shop 印尼卖家大学 · Latest Policy Updates",
+      "checked": "2026-10-22",
+      "needs_review": false,
+      "sample": false,
+      "key_date": null,
+      "page": "/news/2026-10-15-tiktok-shop-id-false-display"
+    },
+    {
+      "kind": "news",
+      "id": "2026-10-14-fda-mocra-paperwork-notice",
+      "type": "regulation",
+      "date": "2026-10-14",
+      "title": "FDA 把化妆品登记与标签申报报给 OMB 审核，11月13日前可提意见",
+      "summary": "MoCRA 下的设施注册、产品列名、不良事件和标签要求，FDA 合并成一项信息收集送 OMB。这是程序公告，不是新规。",
+      "body_text": "FDA 10月14日在联邦公报发了公告：把「化妆品产品要求」这项信息收集（OMB 控制号 0910-0599，修订）提交给美国管理和预算办公室（OMB）审核。书面意见收到 2026年11月13日。\n\n公告覆盖的义务都来自 MoCRA：\n\n- 设施注册（每两年续期）\n\n- 产品列名（含成分，每年更新）\n\n- 严重不良事件报告\n\n- 安全性证明记录\n\n- 标签要求（21 CFR 701）\n\n申报渠道仍是 Cosmetics Direct、ESG NextGen、SPL 软件，或纸质表 FDA 5066（设施注册）和 FDA 5067（产品列名）。\n\n这条本身不加新义务。对卖美国站的美妆卖家，有用的是一份完整清单：标签上署名的制造商、包装商或经销商就是「责任人」，列名和不良事件报告都落在它身上。上架前先确认你的产品由谁列名。",
+      "markets": [
+        "us"
+      ],
+      "platforms": [
+        "amazon-us",
+        "walmart",
+        "tiktok-shop",
+        "temu"
+      ],
+      "tags": [
+        "compliance",
+        "labeling"
+      ],
+      "source_url": "https://www.federalregister.gov/documents/2026/10/14/2026-20990/agency-information-collection-activities-submission-for-office-of-management-and-budget-review",
+      "source_name": "Federal Register · FDA 公告 2026-20990",
+      "checked": "2026-10-22",
+      "needs_review": false,
+      "sample": false,
+      "key_date": {
+        "date": "2026-11-13",
+        "label": "意见截止"
+      },
+      "page": "/news/2026-10-14-fda-mocra-paperwork-notice"
+    },
+    {
+      "kind": "news",
+      "id": "2026-10-09-tiktok-shop-us-content-policy",
+      "type": "rules",
+      "date": "2026-10-09",
+      "title": "TikTok Shop 美国站更新达人内容政策：化妆品不能暗示治病",
+      "summary": "政策页 10月9日更新。化妆品内容不得宣称治疗或预防疾病、改变生理功能，误导性美颜滤镜也被禁止。",
+      "body_text": "TikTok Shop 美国站的《Content Policy》页面标注更新日期 2026年10月9日，适用于所有达人推广内容：直播、短视频、图片和标题。\n\n化妆品一节写明，不得出现：\n\n- 治疗或预防任何疾病的说法或暗示\n\n- 治愈、诊断、纠正、调节或改变生理功能的说法\n\n- 暗示产品有药理、免疫或代谢作用\n\n- 暗示产品能更新、纠正或改变生理功能\n\n- 引用药品效果的表述\n\n另外两条和美妆直接相关：\n\n- 禁止推广使用误导性美颜滤镜的内容\n\n- 高风险体重管理内容（含 GLP-1 类比、前后体型对比）单独受限\n\n违规后果包括删除内容、限制功能、违规扣分和账号限制，可在 Seller Center 或 TikTok 应用里申诉。\n\n给达人发脚本前，先把「祛痘」「治疗湿疹」「生发」这类词过一遍。",
+      "markets": [
+        "us"
+      ],
+      "platforms": [
+        "tiktok-shop"
+      ],
+      "tags": [
+        "listing",
+        "penalties"
+      ],
+      "source_url": "https://seller-us.tiktok.com/university/essay?knowledge_id=6837891779151617&lang=en",
+      "source_name": "TikTok Shop 美国卖家大学 · Content Policy",
+      "checked": "2026-10-22",
+      "needs_review": false,
+      "sample": false,
+      "key_date": null,
+      "page": "/news/2026-10-09-tiktok-shop-us-content-policy"
+    },
+    {
+      "kind": "news",
+      "id": "2026-10-07-ozon-realfbs-wb-fbs-penalties",
+      "type": "rules",
+      "date": "2026-10-07",
+      "title": "Ozon realFBS 11月19日起错误率超 2% 就罚；WB 把 FBS 延迟罚款封顶 1%",
+      "summary": "两家俄罗斯平台对卖家自发货的罚则反向调整：Ozon 收紧，罚款门槛从 5% 降到 2%；Wildberries 放松，FBS 延迟发货最多罚 1%。",
+      "body_text": "ECOMHUB 10月7日整理了两家平台对卖家仓发货的罚则变化。\n\nOzon realFBS（卖家自配送）\n\n- 11月19日 起，错误率超过 2% 就开始罚，新罚款区间从 2.1% 起\n\n- 现在的主要门槛是 5%\n\n- 文章提到，Ozon 9月刚把一档取消订单的罚款下调，不到两个月又改回去\n\nWildberries FBS（卖家仓、平台配送）\n\n- 10月7日 起，延迟发货的罚款最多为 1%\n\n- 按旧的阶梯，严重延迟最高可到 9%\n\n美妆日化走 realFBS 的多是跨境直发小件。11月19日前把错误率拉到 2% 以下，最直接的办法是减少取消和超时。\n\n具体分档以 Ozon、WB 卖家后台公告为准。本条来自行业媒体整理，标待核实。",
+      "markets": [
+        "ru"
+      ],
+      "platforms": [
+        "ozon",
+        "wildberries"
+      ],
+      "tags": [
+        "penalties"
+      ],
+      "source_url": "https://ecomhub.ru/ozon-realfbs-wildberries-fbs-penalties-seller-warehouse-2026/",
+      "source_name": "ECOMHUB",
+      "checked": "2026-10-22",
+      "needs_review": true,
+      "sample": false,
+      "key_date": {
+        "date": "2026-11-19",
+        "label": "Ozon 新罚则"
+      },
+      "page": "/news/2026-10-07-ozon-realfbs-wb-fbs-penalties"
+    },
+    {
+      "kind": "news",
+      "id": "2026-10-02-vietnam-draft-cosmetics-decree-wto",
+      "type": "regulation",
+      "date": "2026-10-02",
+      "title": "越南化妆品管理新法令草案通报 WTO：拟2027年1月1日生效，进口公告要加 CFS 和 GMP",
+      "summary": "越南以 G/TBT/N/VNM/453 向 WTO 通报化妆品管理法令草案，意见征集到11月1日，拟2027年1月1日生效，取代第93/2016号法令和第06/2011号通知。仍是草案。",
+      "body_text": "越南 2026年10月2日 向 WTO 通报《化妆品管理法令》草案（G/TBT/N/VNM/453），起草单位为卫生部药品管理局（DAV）。仍是草案，现行规则不变。\n\n据 CIRS 整理的草案要点：\n\n- 拟 2027年1月1日 生效，取代第 93/2016/NĐ-CP 号法令和第 06/2011/TT-BYT 号通知；意见征集到 2026年11月1日\n\n- 产品分 A（高）、B（中）、C（低）三类风险，上市前公告后发「管理编号」，海关在线核验编号\n\n- 进口公告新增两份材料：出口国 CFS（特定情况可免）和海外工厂 GMP 证明（如 CGMP-ASEAN、ISO 22716）\n\n- 电商卖家须在商品页展示管理编号和核验二维码\n\n- 已发公告号可用到 2028 年底；生效前印好的标签包材可再用最长 36 个月\n\nneeds_review：来源是第三方咨询机构整理，未直接核对 WTO 通报原文和草案全文；最终版以越南政府公布为准。",
+      "markets": [
+        "vn"
+      ],
+      "platforms": [],
+      "tags": [
+        "compliance",
+        "labeling"
+      ],
+      "source_url": "https://www.cirs-group.com/en/cosmetics/vietnam-releases-draft-decree-on-management-of-cosmetics-proposed-to-take-effect-on-january-1-2027",
+      "source_name": "CIRS Group · Regulatory News",
+      "checked": "2026-10-24",
+      "needs_review": true,
+      "sample": false,
+      "key_date": {
+        "date": "2026-11-01",
+        "label": "意见截止"
+      },
+      "page": "/news/2026-10-02-vietnam-draft-cosmetics-decree-wto"
+    },
+    {
+      "kind": "news",
+      "id": "2026-10-01-wildberries-penalty-list",
+      "type": "rules",
+      "date": "2026-10-01",
+      "title": "Wildberries 新罚款清单 10月1日生效：标识码和 ТН ВЭД 填错按件罚",
+      "summary": "WB 卖家报价的罚款附件 10月1日起执行。强制标识商品的 ТН ВЭД 填错每件 1,500 卢布，好评返现每次 50,000 卢布。",
+      "body_text": "Wildberries 公开的《罚款清单》（卖家报价附件）标明 2026年10月1日 起生效。和美妆日化卖家关系最大的几项：\n\n违规\n罚款\n\n商品卡侵犯第三方知识产权，或拿不出无侵权证明\n每次 10,000 ₽\n\n上架违法生产、违法进口或禁售商品\n每次 25,000 ₽\n\n商品卡、包装插页承诺好评返现\n每次 50,000 ₽\n\n交付 УПД 时标识码状态不对、不全或与实物不符\n每件 1 ₽\n\n强制标识商品没填或填错 ТН ВЭД 编码\n每件 1,500 ₽\n\n在买家聊天里引导去其他平台或社媒\n每次 25,000 ₽\n\nТН ВЭД 那一项也反过来适用：不属于强制标识的商品，却填了强制标识品类的编码，同样按件罚。\n\n如果你的品类在俄罗斯「Честный знак」强制标识范围内，上架前核对编码和标识码流转，是这份清单里最容易被按件累计的部分。",
+      "markets": [
+        "ru"
+      ],
+      "platforms": [
+        "wildberries"
+      ],
+      "tags": [
+        "penalties",
+        "labeling"
+      ],
+      "source_url": "https://static-basket-02.wb.ru/vol20/portal/education/instruction/Perechen_shtrafov_po_oferte.pdf",
+      "source_name": "Wildberries 报价附件 · 罚款清单",
+      "checked": "2026-10-22",
+      "needs_review": false,
+      "sample": false,
+      "key_date": null,
+      "page": "/news/2026-10-01-wildberries-penalty-list"
+    },
+    {
+      "kind": "news",
+      "id": "2026-09-21-bpom-ingredient-rules-deadline",
+      "type": "regulation",
+      "date": "2026-09-21",
+      "title": "印尼 BPOM 成分新规过渡期 10月3日结束，已备案产品须调整",
+      "summary": "PerBPOM 25/2025《化妆品成分技术要求》给了 12 个月过渡期。已拿到备案号的产品，要在 2026年10月3日前符合新要求。",
+      "body_text": "印尼食药监局（BPOM）的注册局 9月21日办了一场线上说明会，主题是 PerBPOM 2025年第25号条例对已备案化妆品的影响。\n\n通知里写明的时间线：\n\n- 条例 2025年10月3日 颁布，规定化妆品成分在安全、功效、质量三方面的技术要求，取代 PerBPOM 23/2019 及其 2022 年修订\n\n- 过渡期 12 个月\n\n- 持有备案号（nomor notifikasi）的企业，须在 2026年10月3日 前让已备案产品符合新要求\n\n截止日已过。在 Shopee、Lazada、Tokopedia、TikTok Shop 印尼站卖化妆品，平台都要求 BPOM 备案号。如果配方或标签还没按新条例更新，先找备案持有人确认状态。不再生产的产品，通知页也给了注销备案的入口。\n\n条例全文可在 BPK 法规库 (https://peraturan.bpk.go.id/Details/333277/peraturan-bpom-no-25-tahun-2025) 查到。",
+      "markets": [
+        "id"
+      ],
+      "platforms": [
+        "shopee",
+        "lazada",
+        "tokopedia",
+        "tiktok-shop"
+      ],
+      "tags": [
+        "ingredients",
+        "compliance"
+      ],
+      "source_url": "https://registrasiotskk.pom.go.id/kalender-kegiatan/105",
+      "source_name": "BPOM 传统药·保健品·化妆品注册局",
+      "checked": "2026-10-22",
+      "needs_review": false,
+      "sample": false,
+      "key_date": {
+        "date": "2026-10-03",
+        "label": "过渡期结束"
+      },
+      "page": "/news/2026-09-21-bpom-ingredient-rules-deadline"
+    },
+    {
+      "kind": "news",
+      "id": "2026-09-21-eu-cmr-omnibus-draft",
+      "type": "regulation",
+      "date": "2026-09-21",
+      "title": "欧盟化妆品 CMR 修订草案送达理事会：二苯酮-1/-2 等拟禁用",
+      "summary": "委员会把修订 1223/2009 附录的草案送到理事会。新列为 CMR 的物质要进禁用表，另有几种成分拟禁用或加限。",
+      "body_text": "欧盟委员会 9月21日把一份化妆品法规（EC 1223/2009）修订草案送到理事会，文件号 13462/26。业内一般叫它 Omnibus IX。\n\n草案做两件事。\n\n第一，转化新的 CMR 分类。 委员会授权条例 (EU) 2025/1222 新列了一批致癌、致突变或生殖毒性（CMR）物质，这批分类 2027年2月1日 起适用。没有企业申请豁免，所以草案把它们加进附录 II 禁用表。\n\n第二，按 SCCS 的最新评估调整成分。 委员会向 WTO 通报（G/TBT/N/EU/1219）时写的要点：\n\n- 拟禁用：二苯酮-1、二苯酮-2、Basic Brown 16、Basic Blue 99，以及前列腺素类似物（睫毛精华里常见）\n\n- 拟新增或收紧限制：BHA、对羟基苯甲酸丁酯、大麻二酚（CBD）、纳米羟基磷灰石\n\n- 取消含汞防腐剂的现有豁免\n\n这还是草案，理事会和议会审查期间文本可能调整；除 CMR 部分外，其他条款各有过渡期，以最终公报为准。卖欧洲站的产品，现在就该拿配方表对一遍上面的名单。\n\nWTO 通报原文见 欧盟 TBT 数据库 (https://technical-barriers-trade.ec.europa.eu/en/notification/39957)。",
+      "markets": [
+        "eu"
+      ],
+      "platforms": [
+        "amazon-eu",
+        "otto",
+        "zalando",
+        "allegro",
+        "temu"
+      ],
+      "tags": [
+        "ingredients"
+      ],
+      "source_url": "https://data.consilium.europa.eu/doc/document/ST-13462-2026-INIT/en/pdf",
+      "source_name": "欧盟理事会文件 13462/26",
+      "checked": "2026-10-22",
+      "needs_review": false,
+      "sample": false,
+      "key_date": {
+        "date": "2027-02-01",
+        "label": "CMR 新分类适用"
+      },
+      "page": "/news/2026-09-21-eu-cmr-omnibus-draft"
+    },
+    {
+      "kind": "news",
+      "id": "2026-09-09-fda-no-registration-certificate",
+      "type": "regulation",
+      "date": "2026-09-09",
+      "title": "FDA：化妆品注册和列名不发证书，也不出核验信",
+      "summary": "FDA 提醒工厂、零售商和责任人：注册号和列名号不是批准，FDA 不签发任何证书、信函或「无需注册」证明。",
+      "body_text": "FDA 9月9日在化妆品注册与列名页面加了一条提示：它不提供证明合规的证书或其他文件。具体包括：\n\n- 证明已注册设施或已列名产品的证书\n\n- 写明「已注册」「已列名」的信函或邮件\n\n- 证明某设施或责任人「无需注册」的文件\n\n页面同时写明，注册和列名既不是化妆品审批程序，也不是宣传工具。拿到注册号或列名号，不代表 FDA 批准了工厂或产品。\n\n页面给出的统计（截至 2026年6月30日）：MoCRA 下有效设施注册 16,398 个，有效产品列名 1,298,361 个。\n\n对卖家：零售商或平台要「FDA 证书」时，能交的是注册号、列名号和提交记录，不是 FDA 盖章文件。第三方代办机构出的「证书」是它们自己的文件。商品页写「FDA 认证」「FDA 批准」之类的说法，和这条提示直接冲突（这是编辑建议，不是 FDA 原话）。",
+      "markets": [
+        "us"
+      ],
+      "platforms": [
+        "amazon-us",
+        "walmart",
+        "tiktok-shop"
+      ],
+      "tags": [
+        "compliance",
+        "listing"
+      ],
+      "source_url": "https://www.fda.gov/cosmetics/registration-listing-cosmetic-product-facilities-and-products",
+      "source_name": "FDA · 化妆品设施注册与产品列名页",
+      "checked": "2026-10-22",
+      "needs_review": false,
+      "sample": false,
+      "key_date": null,
+      "page": "/news/2026-09-09-fda-no-registration-certificate"
+    },
+    {
+      "kind": "news",
+      "id": "2026-09-04-temu-eu-3-euro-duty",
+      "type": "regulation",
+      "date": "2026-09-04",
+      "title": "欧盟 €3 小包关税实施两个月，Temu 母公司加码本地仓和本地卖家",
+      "summary": "7月1日起，欧盟对 €150 以下的电商小包按每个税则类别收 €3。PDD 在财报会上说影响「相当大」，要更多本地商家和本地仓。",
+      "body_text": "据 The Logistic News 9月4日报道，PDD（Temu 母公司）联席 CEO 陈磊在 8月24日的财报电话会上说，欧盟的新关税会降低履约效率、抬高成本，对部分业务有「相当大的影响」。公司的应对是引入更多优质本地商家，加快本地仓储和履约建设。\n\n规则本身来自 欧盟委员会 (https://commission.europa.eu/news-and-media/news/ensuring-fairness-and-safety-eur3-customs-duty-low-value-parcels-2026-06-29_en)：\n\n- 2026年7月1日 起，取消 €150 以下小包的关税豁免\n\n- 临时按每个「物品」收 €3，按税则分类算，不按数量算\n\n- 由卖家或进口方申报缴纳，不由消费者付\n\n- 临时安排持续到 2028年7月1日，之后按正常税率征收\n\n举例：一个包裹里 3 支同类口红算一个类别，收 €3；口红加一瓶洗发水是两个类别，收 €6。\n\n欧盟海关改革页面 (https://taxation-customs.ec.europa.eu/customs/eu-customs-reform_en) 还写明，欧盟将在 2026年11月1日前另设小包处理费，金额由授权法规确定。\n\nPDD 的表态来自媒体报道，标待核实。规则部分以欧盟委员会页面为准。",
+      "markets": [
+        "eu"
+      ],
+      "platforms": [
+        "temu",
+        "amazon-eu"
+      ],
+      "tags": [
+        "customs"
+      ],
+      "source_url": "https://thelogisticnews.com/temu-owner-invests-in-local-fulfillment-as-de-minimis-rules-reshape-global-trade/",
+      "source_name": "The Logistic News",
+      "checked": "2026-10-22",
+      "needs_review": true,
+      "sample": false,
+      "key_date": null,
+      "page": "/news/2026-09-04-temu-eu-3-euro-duty"
+    },
+    {
+      "kind": "news",
+      "id": "2026-09-03-amazon-us-cosmetic-liability-insurance",
+      "type": "rules",
+      "date": "2026-09-03",
+      "title": "亚马逊美国站：美妆不论销量都要买百万责任险，11月2日起生效",
+      "summary": "增强安全类目（含化妆品）listing 不论月销是否过万美元，都要维持单次与累计各 100 万美元商业责任险；中国大陆卖家新保单须走 AIA。",
+      "body_text": "亚马逊美国站 2026年9月3日 在卖家论坛发布：自 11月2日 起，商业责任险规则加了两条。美妆日化卖家要特别盯：化妆品被点名落在「增强安全上架要求」类目里。\n\n改了什么\n\n原先：任意品类只要 Amazon.com 单月毛收入超过 1 万美元，须在 30 天内办妥商业责任险（单次与累计各至少 100 万美元）。这条还在。\n\n新增两条：\n\n- 按类目强制，不看销量\n商品落在「增强安全上架要求」类目时，不论是否达到 1 万美元月销门槛，都要为这些商品维持上述保额。新旧 listing 都算。\n公告举例包括：儿童用品、化妆品与可摄入类、锂电池产品等；完整名单在卖家中心「Product categories with enhanced safety listing requirements」页（需登录），且会增补。\n\n- 中国大陆卖家新保单走 AIA\n注册地在中国大陆的卖家，新提交的保单须通过 Amazon Insurance Accelerator（AIA） 渠道；11月2日起，非 AIA 的新保单会被拒。\n11月2日前已提交、且符合要求的第三方保单，可继续用到期满；期满后也须改走 AIA。\n\n对谁有影响\n\n- 美国站美妆/个护卖家：小店、新店、月销不到 1 万美元的，以前能拖，现在有美妆 listing 就要保。\n\n- 中国大陆跨境卖家：投保通道收窄到 AIA；投保、出单、上传 COI、审核都要时间，别卡到 11月2日。\n\n- 只卖非安全类目的卖家：仍按原来的 1 万美元门槛，不受本条类目强制。\n\n意味着什么\n\n- 卡在哪：没交合规保单证明，相关安全类目可能被停售；旺季（站内已有 10月15日起的旺季配送费）正赶上，listing 一停广告和排名都难救。\n\n- 现在注意什么：对照后台类目名单核对自己的 ASIN；核对保单是否覆盖在售美妆、保额、免赔（一般不超过 1 万美元）、附加被保险人（Amazon.com Services LLC 及其关联方）、是否 occurrence 基础；中国大陆卖家优先走 AIA 询价。\n增强安全类目往往还另有第三方检测/认证要求，有保险不等于马上能卖。\n\n原文见亚马逊卖家论坛 News_Amazon 公告；细则以卖家中心 Business Insurance / Commercial Liability Insurance requirements 页为准。",
+      "markets": [
+        "us"
+      ],
+      "platforms": [
+        "amazon-us"
+      ],
+      "tags": [
+        "compliance",
+        "fees"
+      ],
+      "source_url": "https://sellercentral.amazon.com/seller-forums/discussions/t/287d5c33-8278-4802-ba69-2f58f7dda408",
+      "source_name": "Amazon Seller Forums (News_Amazon)",
+      "checked": "2026-10-24",
+      "needs_review": false,
+      "sample": false,
+      "key_date": {
+        "date": "2026-11-02",
+        "label": "生效"
+      },
+      "page": "/news/2026-09-03-amazon-us-cosmetic-liability-insurance"
+    },
+    {
+      "kind": "news",
+      "id": "2026-07-15-uk-4mbc-cmr-ban",
+      "type": "regulation",
+      "date": "2026-07-15",
+      "title": "英国禁用 4-MBC 和 16 种 CMR 物质，含美甲常用 TPO",
+      "summary": "英国 2026 年第 23 号条例：4-MBC 禁用、甲醛释放体警示阈值降到 0.001%（7月15日起）；16 种 CMR 物质（含 TPO）8月15日起禁用。",
+      "body_text": "- 7月15日起：禁用防晒剂 4-MBC；甲醛释放体警示阈值降到 0.001%\n\n- 8月15日起：禁用 16 种 CMR 物质，包括美甲胶常用的光引发剂 TPO\n\n- 已上市产品清库存截止：2027年1月14日 / 2月14日\n\n卖英国的美甲、防晒产品先核对配方。",
+      "markets": [
+        "uk"
+      ],
+      "platforms": [],
+      "tags": [
+        "ingredients"
+      ],
+      "source_url": "https://www.legislation.gov.uk/uksi/2026/23/made",
+      "source_name": "legislation.gov.uk",
+      "checked": "2026-10-23",
+      "needs_review": false,
+      "sample": false,
+      "key_date": {
+        "date": "2027-02-14",
+        "label": "清库存止"
+      },
+      "page": "/news/2026-07-15-uk-4mbc-cmr-ban"
+    },
+    {
+      "kind": "news",
+      "id": "2026-07-08-korea-cosmetic-safety-assessment-2028",
+      "type": "regulation",
+      "date": "2026-07-08",
+      "title": "韩国化妆品安全性评估 2028 年起分阶段强制",
+      "summary": "MFDS 推出逐品安全性评估制度：责任销售业者须准备安全资料并由合格评估人审核；2028 年起先覆盖功能性化妆品，2031 年扩至全部。",
+      "body_text": "- 责任销售业者逐个产品准备 安全性评估资料，由合格评估人审核并留存\n\n- 2028年起：功能性化妆品和部分企业先行\n\n- 2031年：扩大到全部化妆品\n\n对标欧盟 CPSR，进口韩国的产品也要准备。",
+      "markets": [
+        "kr"
+      ],
+      "platforms": [],
+      "tags": [
+        "compliance"
+      ],
+      "source_url": "https://en.sedaily.com/finance/2026/07/08/cosmetics-to-face-safety-assessments-under-rules-phased-in",
+      "source_name": "Seoul Economic Daily",
+      "checked": "2026-10-23",
+      "needs_review": false,
+      "sample": false,
+      "key_date": {
+        "date": "2028-01-01",
+        "label": "开始实施"
+      },
+      "page": "/news/2026-07-08-korea-cosmetic-safety-assessment-2028"
+    },
+    {
+      "kind": "news",
+      "id": "2026-07-06-npra-circular-2-2026",
+      "type": "regulation",
+      "date": "2026-07-06",
+      "title": "马来西亚 NPRA 更新成分附件：曲酸限量收紧，4 种抗真菌成分禁用",
+      "summary": "NPRA 2026 年第 2 号通函落实东盟化妆品指令：联苯苄唑等 4 种成分立即禁用；曲酸面部用限 1%、身体驻留限 0.2%。",
+      "body_text": "- 立即禁用：联苯苄唑、克霉唑、噻苯达唑、噻康唑\n\n- 曲酸：面颈手驻留和淋洗限 1%，身体驻留限 0.2%\n\n- 已通报产品：曲酸、CI 45430 过渡到 2028年4月29日\n\n美白类产品重点核对。",
+      "markets": [
+        "my"
+      ],
+      "platforms": [],
+      "tags": [
+        "ingredients"
+      ],
+      "source_url": "https://www.npra.gov.my/index.php/en/directives-cosmetic-products/1527865-pekeliling-bil-2-2026-makluman-berkenaan-status-kemaskini-bahan-bahan-dalam-annnex-pada-guidelines-for-control-of-cosmetic-products-in-malaysia.html",
+      "source_name": "NPRA",
+      "checked": "2026-10-23",
+      "needs_review": false,
+      "sample": false,
+      "key_date": {
+        "date": "2028-04-29",
+        "label": "过渡截止"
+      },
+      "page": "/news/2026-07-06-npra-circular-2-2026"
+    },
+    {
+      "kind": "news",
+      "id": "2026-06-24-sfda-circular-1043-ingredients",
+      "type": "regulation",
+      "date": "2026-06-24",
+      "title": "沙特 SFDA 更新化妆品禁限用成分清单，新进口 2027年7月起须合规",
+      "summary": "SFDA 第 1043 号通函更新禁限用成分、防腐剂和防晒剂清单；新进口产品 2027年7月1日起须合规，在售库存到 2028年7月1日。",
+      "body_text": "- 更新禁用/限用成分、允许的防腐剂和紫外线过滤剂\n\n- 新进口：2027年7月1日起须合规\n\n- 在售库存：2028年7月1日前处理完\n\n来源为 SFDA 通函页，具体条目未逐条核对，标为待核实。",
+      "markets": [
+        "sa"
+      ],
+      "platforms": [],
+      "tags": [
+        "ingredients"
+      ],
+      "source_url": "https://oldsfda.sfda.gov.sa/ar/circulars/5521986",
+      "source_name": "SFDA",
+      "checked": "2026-10-23",
+      "needs_review": true,
+      "sample": false,
+      "key_date": {
+        "date": "2027-07-01",
+        "label": "新进口执行"
+      },
+      "page": "/news/2026-06-24-sfda-circular-1043-ingredients"
+    },
+    {
+      "kind": "news",
+      "id": "2026-06-22-asean-cosmetic-annex-update",
+      "type": "regulation",
+      "date": "2026-06-22",
+      "title": "东盟化妆品指令附件 6月22日更新，新加坡 HSA 同步执行",
+      "summary": "东盟化妆品指令（ACD）禁用、限用、色素、防腐剂、防晒剂附件 6月22日发布新版；新加坡通报每年要重新提交一次。",
+      "body_text": "- ACD 附件 II（禁用）、III（限用）、IV（色素）、VI（防腐剂）、VII（防晒剂）发布 2026年6月22日版\n\n- 新加坡供货前要先核对附件，再在 PRISM 系统通报\n\n- 通报 有效 1 年，每年重新通报\n\n马来西亚、泰国、越南、印尼等东盟国家同样以 ACD 为基础。",
+      "markets": [
+        "sg"
+      ],
+      "platforms": [],
+      "tags": [
+        "ingredients",
+        "compliance"
+      ],
+      "source_url": "https://www.hsa.gov.sg/cosmetic-products/asean-cosmetic-directive/",
+      "source_name": "HSA",
+      "checked": "2026-10-23",
+      "needs_review": false,
+      "sample": false,
+      "key_date": null,
+      "page": "/news/2026-06-22-asean-cosmetic-annex-update"
+    },
+    {
+      "kind": "news",
+      "id": "2026-06-12-thailand-24-prohibited-ingredients",
+      "type": "regulation",
+      "date": "2026-06-12",
+      "title": "泰国 FDA 新增 24 种化妆品禁用成分，6月13日生效",
+      "summary": "泰国卫生部第 6 号禁用成分公告新增 24 种物质，并修订 3 项，其中 D4（环四硅氧烷）作为杂质超 0.1% 即禁止。",
+      "body_text": "- 新增 24 种禁用物质（第 1686–1709 项）\n\n- 修订 3 项：2-乙基己酸、茶碱、D4\n\n- D4 作为杂质超过 0.1% 即不允许\n\n- 2026年6月13日生效\n\n含硅油的护发、底妆类注意 D4 残留。",
+      "markets": [
+        "th"
+      ],
+      "platforms": [],
+      "tags": [
+        "ingredients"
+      ],
+      "source_url": "https://cosmetic.chemlinked.com/news/cosmetic-news/thailand-updates-list-of-prohibited-cosmetic-ingredients-with-24-additions-and-3-revisions",
+      "source_name": "ChemLinked",
+      "checked": "2026-10-23",
+      "needs_review": false,
+      "sample": false,
+      "key_date": null,
+      "page": "/news/2026-06-12-thailand-24-prohibited-ingredients"
+    },
+    {
+      "kind": "news",
+      "id": "2026-06-11-anvisa-rdc-1029-restricted",
+      "type": "regulation",
+      "date": "2026-06-11",
+      "title": "巴西 ANVISA 更新化妆品限用物质清单，已注册产品 24 个月内调整",
+      "summary": "RDC 1.029/2026 更新限用物质清单（转化南共市 GMC 06/25），RDC 1.030/2026 更新禁用清单；已备案产品有 24 个月调整期。",
+      "body_text": "- RDC 1.029/2026：限用物质清单第一部分，转化南共市 GMC 06/25\n\n- RDC 1.030/2026：禁用物质清单\n\n- 已备案/注册产品：24 个月内调整",
+      "markets": [
+        "br"
+      ],
+      "platforms": [],
+      "tags": [
+        "ingredients"
+      ],
+      "source_url": "https://www.gov.br/anvisa/pt-br/assuntos/noticias-anvisa/2026/anvisa-atualiza-listas-de-substancias-para-uso-em-cosmeticos",
+      "source_name": "ANVISA",
+      "checked": "2026-10-23",
+      "needs_review": false,
+      "sample": false,
+      "key_date": null,
+      "page": "/news/2026-06-11-anvisa-rdc-1029-restricted"
+    },
+    {
+      "kind": "news",
+      "id": "2026-04-20-japan-triheptanoin-interim",
+      "type": "regulation",
+      "date": "2026-04-20",
+      "title": "日本厚劳省：三庚酸甘油酯配合化妆品在基准修订前的过渡处理",
+      "summary": "厚劳省 4月20日发事务联络，明确在化妆品基准修订前，配合三庚酸甘油酯（triheptanoin）的化妆品如何处理。",
+      "body_text": "- 厚生労働省 2026年4月20日 事务联络\n\n- 对象：配合 三庚酸甘油酯 的化妆品\n\n- 属于化妆品基准正式修订前的过渡措施，不是新告示\n\n日本最近一次化妆品基准告示修订是 2024年7月12日。",
+      "markets": [
+        "jp"
+      ],
+      "platforms": [],
+      "tags": [
+        "ingredients"
+      ],
+      "source_url": "https://www.mhlw.go.jp/hourei/doc/tsuchi/T260421I0040.pdf",
+      "source_name": "厚生労働省",
+      "checked": "2026-10-23",
+      "needs_review": true,
+      "sample": false,
+      "key_date": null,
+      "page": "/news/2026-04-20-japan-triheptanoin-interim"
+    },
+    {
+      "kind": "news",
+      "id": "2026-03-20-anvisa-cancels-banned-substance-cosmetics",
+      "type": "regulation",
+      "date": "2026-03-20",
+      "title": "巴西 ANVISA：含已禁物质的化妆品登记被批量取消",
+      "summary": "ANVISA 官方新闻称，因配方含已禁止物质，已取消大批化妆品登记；企业须对照最新禁限用清单并停售不合规 SKU。",
+      "body_text": "巴西卫生监管局（ANVISA）官网新闻报道：当局取消了一批含已禁止物质的化妆品登记。此前 RDC 等文件已调整禁限用清单，企业若未在过渡期内改配方，可能失去登记并被迫下架。\n\nMercado Livre 等平台上的巴西美妆 listing 应核对登记状态与成分合规。新闻页精确发布日请打开原文确认，故标待核实。",
+      "markets": [
+        "br"
+      ],
+      "platforms": [
+        "mercado-libre"
+      ],
+      "tags": [
+        "ingredients",
+        "penalties"
+      ],
+      "source_url": "https://www.gov.br/anvisa/pt-br/assuntos/noticias-anvisa/2026/anvisa-cancela-registro-de-cosmeticos-com-substancias-banidas",
+      "source_name": "ANVISA",
+      "checked": "2026-10-23",
+      "needs_review": true,
+      "sample": false,
+      "key_date": null,
+      "page": "/news/2026-03-20-anvisa-cancels-banned-substance-cosmetics"
+    },
+    {
+      "kind": "news",
+      "id": "2026-02-15-ph-fda-circular-2026-0001-acd",
+      "type": "regulation",
+      "date": "2026-02-15",
+      "title": "菲律宾 FDA 发布 2026-0001 号令：合并落实 ACD 附件修订",
+      "summary": "菲 FDA 将第 40–42 届东盟化妆品委员会通过的 ACD 附件修订合并发布，本地以菲律宾过渡期为准，覆盖生产与进口商。",
+      "body_text": "菲律宾食品药品管理局（FDA）发布 Circular No.2026-0001，把第 40 至 42 届东盟化妆品委员会（ACC）及其相关会议通过的《东盟化妆品指令》（ACD）附件修订合并落地。\n\n适用对象包括化妆品的生产、进口、出口、销售与广告等环节。文中说明：除菲律宾另行给出的过渡期外，按 ACD 附件修订执行。\n\n在 Shopee / Lazada 菲律宾站上架前，应核对产品是否仍持有有效 Cosmetic Product Notification，并对照最新禁限用成分表。发布日取自文号年份，精确日历日仍建议打开 FDA 原文核对，故标待核实。",
+      "markets": [
+        "ph"
+      ],
+      "platforms": [
+        "shopee",
+        "lazada"
+      ],
+      "tags": [
+        "ingredients",
+        "compliance"
+      ],
+      "source_url": "https://www.fda.gov.ph/fda-circular-no-2026-0001-consolidated-amendments-to-the-asean-cosmetic-directive-acd-as-adopted-during-the-40th-to-42nd-asean-cosmetic-committee-acc-meeting-and-their-related-meetings/",
+      "source_name": "Philippines FDA",
+      "checked": "2026-10-23",
+      "needs_review": true,
+      "sample": false,
+      "key_date": null,
+      "page": "/news/2026-02-15-ph-fda-circular-2026-0001-acd"
+    },
+    {
+      "kind": "news",
+      "id": "2025-11-28-sg-hsa-acd-amendment-s768",
+      "type": "regulation",
+      "date": "2025-11-28",
+      "title": "新加坡修订化妆品 ACD 附属条例，2025年12月1日生效",
+      "summary": "《Health Products (Cosmetic Products — ACD) (Amendment) Regulations 2025》（S 768/2025）修订第三附表，自 2025年12月1日起施行。",
+      "body_text": "新加坡卫生科学局（HSA）经卫生部长批准，制定 S 768/2025，修订 2007 年化妆品（东盟化妆品指令）条例的第三附表，2025年12月1日起生效。\n\n条例正文由 Singapore Statutes Online 公布。经销商仍须在 PRISM 完成产品通知/续通知，并自行保证成分与标签符合最新 ACD 附件。通知回执不等于 HSA 对产品安全的背书。",
+      "markets": [
+        "sg"
+      ],
+      "platforms": [
+        "shopee",
+        "amazon-sg",
+        "lazada"
+      ],
+      "tags": [
+        "ingredients",
+        "compliance"
+      ],
+      "source_url": "https://sso.agc.gov.sg/SL-Supp/S768-2025/Published/20251128?DocDate=20251128",
+      "source_name": "Singapore Statutes Online",
+      "checked": "2026-10-23",
+      "needs_review": false,
+      "sample": false,
+      "key_date": {
+        "date": "2025-12-01",
+        "label": "生效"
+      },
+      "page": "/news/2025-11-28-sg-hsa-acd-amendment-s768"
+    },
+    {
+      "kind": "news",
+      "id": "2025-09-15-dubai-montaji-cosmetics-v21",
+      "type": "regulation",
+      "date": "2025-09-15",
+      "title": "迪拜市政厅更新化妆品 Montaji 注册技术指南 V2.1",
+      "summary": "迪拜要求化妆品与个护产品在生产、进口、销售前完成 Montaji 注册；申请人须有迪拜执照，并提交自由销售证明与成分资料。",
+      "body_text": "迪拜市政厅 Health & Safety 发布《化妆品与个护产品技术指南》V2.1（Doc Ref: DM-HSD-GU116-CPCP2，Issue Date 2025年9月15日）。\n\n要点：\n\n- 在迪拜制造、进口、广告、销售或分销化妆品前，须先在 Montaji 完成产品注册\n\n- 申请人须为迪拜注册公司，或在迪拜有仓库并持有相关贸易执照\n\n- 常见材料含自由销售证明、含 CAS 号的成分报告、本地厂 GMP/ISO 22716，以及认可实验室检测报告\n\n阿联酋卖家在 noon、Amazon AE 上架美妆时，应先确认目的酋长国的注册是否齐备。指南 PDF 由迪拜市政厅官网提供。",
+      "markets": [
+        "ae"
+      ],
+      "platforms": [
+        "noon",
+        "amazon-ae"
+      ],
+      "tags": [
+        "compliance",
+        "listing"
+      ],
+      "source_url": "https://dmpmedia.dm.gov.ae/uploads/2026/01/DM-HSD-GU116-CPCP2_Technical-Guidelines-for-Cosmetic-Personal-Care-Products_V2.1.pdf",
+      "source_name": "Dubai Municipality",
+      "checked": "2026-10-23",
+      "needs_review": false,
+      "sample": false,
+      "key_date": {
+        "date": "2025-09-15",
+        "label": "指南生效"
+      },
+      "page": "/news/2025-09-15-dubai-montaji-cosmetics-v21"
+    },
+    {
+      "kind": "news",
+      "id": "2025-08-18-vietnam-circular-34-cfs",
+      "type": "regulation",
+      "date": "2025-08-18",
+      "title": "越南第 34/2025 号通知生效：CPTPP 国家生产的化妆品免交 CFS",
+      "summary": "修订第 06/2011 号通知：在 CPTPP 成员国生产的进口化妆品办越南公告时不再需要自由销售证明（CFS）。",
+      "body_text": "- 2025年8月18日起施行\n\n- 在 CPTPP 成员国 生产 的产品：公告免交 CFS\n\n- 只是从 CPTPP 国家 出口：需提交在该国上市的证明，一般需认证\n\n- 中国不是 CPTPP 成员，中国生产的产品仍需 CFS",
+      "markets": [
+        "vn"
+      ],
+      "platforms": [],
+      "tags": [
+        "compliance"
+      ],
+      "source_url": "https://thuvienphapluat.vn/van-ban/The-thao-Y-te/Thong-tu-34-2025-TT-BYT-sua-doi-Thong-tu-06-2011-TT-BYT-quan-ly-my-pham-663703.aspx",
+      "source_name": "Thư Viện Pháp Luật",
+      "checked": "2026-10-23",
+      "needs_review": false,
+      "sample": false,
+      "key_date": null,
+      "page": "/news/2025-08-18-vietnam-circular-34-cfs"
+    },
+    {
+      "kind": "news",
+      "id": "2025-06-24-sfda-gso-1943-2528-update",
+      "type": "regulation",
+      "date": "2025-06-24",
+      "title": "沙特 SFDA 更新海湾化妆品安全与宣称技术法规",
+      "summary": "SFDA 宣布采用 SFDA.CO/GSO 1943:2024 与 2528:2024；禁限用清单改挂官网，不合规可按化妆品法规处罚。",
+      "body_text": "沙特食品药品局（SFDA）2025年6月24日宣布，更新海湾技术法规：\n\n- SFDA.CO/GSO 1943:2024 化妆品与个护安全要求\n\n- SFDA.CO/GSO 2528:2024 化妆品宣称规则\n\n禁限用、防腐剂、着色剂、防晒剂等清单改由 SFDA 网站维护；本地与进口企业须对照最新版本。文本与规格可在 SFDA 标准商店获取。违规可能按《化妆品法》及执行条例罚款。",
+      "markets": [
+        "sa"
+      ],
+      "platforms": [
+        "noon",
+        "amazon-ae"
+      ],
+      "tags": [
+        "compliance",
+        "labeling"
+      ],
+      "source_url": "https://www.sfda.gov.sa/ar/news/18685",
+      "source_name": "SFDA",
+      "checked": "2026-10-23",
+      "needs_review": false,
+      "sample": false,
+      "key_date": null,
+      "page": "/news/2025-06-24-sfda-gso-1943-2528-update"
+    },
+    {
+      "kind": "news",
+      "id": "2025-05-20-ph-fda-circular-2025-002-acd",
+      "type": "regulation",
+      "date": "2025-05-20",
+      "title": "菲律宾 FDA 2025-002：跟进第 39 届 ACC 的 ACD 修订",
+      "summary": "菲 FDA 通报第 39 届 ACC 对 ACD 的更新；吡啶硫酮锌等成分限制多数东盟成员设 24 个月过渡，菲律宾部分议程另议。",
+      "body_text": "菲律宾 FDA Circular No.2025-002 汇总第 39 届东盟化妆品委员会会议对 ACD 的更新，并给出实施/过渡安排，方便企业改配方与下架旧配方。\n\n文中举例：吡啶硫酮锌（ZPT）在多数东盟成员按附件限制继续使用，并设约 24 个月过渡；2026年5月14日起不合规产品应退出市场。菲律宾对部分议程保留内部协商后再行动。\n\n卖家应打开 FDA 原文核对完整禁限用清单，不要只看转述摘要。",
+      "markets": [
+        "ph"
+      ],
+      "platforms": [
+        "shopee",
+        "lazada"
+      ],
+      "tags": [
+        "ingredients"
+      ],
+      "source_url": "https://www.fda.gov.ph/fda-circular-no-2025-002-updates-and-amendments-to-the-asean-cosmetic-directive-acd-as-adopted-during-the-39th-asean-cosmetic-committee-acc-meeting-and-its-related-meetings/",
+      "source_name": "Philippines FDA",
+      "checked": "2026-10-23",
+      "needs_review": false,
+      "sample": false,
+      "key_date": {
+        "date": "2026-05-14",
+        "label": "ZPT宽限"
+      },
+      "page": "/news/2025-05-20-ph-fda-circular-2025-002-acd"
+    },
+    {
+      "kind": "news",
+      "id": "2025-03-18-shopee-id-bukti-standar-barang",
+      "type": "rules",
+      "date": "2025-03-18",
+      "title": "Shopee 印尼：上架须填报商品达标证明含化妆品许可号",
+      "summary": "印尼站卖家教育文要求按贸易部令披露达标证明；化妆品须填写注册/许可编号，并可与清真、SNI、K3L 等并列。",
+      "body_text": "Shopee 印尼卖家中心《Ketentuan Bukti Pemenuhan Standar Barang》（页面标注 18-03-2025）要求：上架前按印尼电子贸易相关规定，填写商品达标证明信息。\n\n与美妆相关的字段包括：\n\n- 化妆品、药品、食品的注册/许可/证书编号\n\n- 若法规要求，还需清真证书号、SNI 或 K3L 等\n\n未按类目正确填写可能导致下架。BPOM 通知号仍是印尼美妆上架的核心资质之一。",
+      "markets": [
+        "id"
+      ],
+      "platforms": [
+        "shopee"
+      ],
+      "tags": [
+        "listing",
+        "compliance"
+      ],
+      "source_url": "https://seller.shopee.co.id/edu/article/19552",
+      "source_name": "Shopee Seller Education ID",
+      "checked": "2026-10-23",
+      "needs_review": false,
+      "sample": false,
+      "key_date": null,
+      "page": "/news/2025-03-18-shopee-id-bukti-standar-barang"
+    },
+    {
+      "kind": "news",
+      "id": "2025-03-11-sfda-cosmetics-clearance-conditions",
+      "type": "regulation",
+      "date": "2025-03-11",
+      "title": "沙特 SFDA 更新化妆品清关条件页（含原料）",
+      "summary": "SFDA 英文站「化妆品及生产原料清关条件」页显示最近更新为 2025年3月11日，进口清关前应对照该页与 GHAD 登记要求。",
+      "body_text": "沙特 SFDA 英文站页面 Conditions of cosmetic products clearance and raw materials used in their manufacturing 标注最近更新为 2025年3月11日（沙特时间）。\n\n进口美妆在港口清关前，应同时核对：\n\n- GHAD / 产品登记信息是否与货件一致\n\n- 是否满足现行安全与宣称技术法规\n\n- 是否具备清关所需的符合性文件\n\n具体条款以 SFDA 页面及关联 PDF 为准；到港后缺件常见会导致延误或退运。",
+      "markets": [
+        "sa"
+      ],
+      "platforms": [
+        "noon"
+      ],
+      "tags": [
+        "customs",
+        "compliance"
+      ],
+      "source_url": "https://www.sfda.gov.sa/en/regulations/%D8%B4%D8%B1%D9%88%D8%B7-%D9%81%D8%B3%D8%AD-%D9%85%D9%86%D8%AA%D8%AC%D8%A7%D8%AA-%D8%A7%D9%84%D8%AA%D8%AC%D9%85%D9%8A%D9%84-%D9%88%D8%A7%D9%84%D9%85%D9%88%D8%A7%D8%AF-%D8%A7%D9%84%D8%A3%D9%88%D9%84%D9%8A%D8%A9-%D8%A7%D9%84%D8%AF%D8%A7%D8%AE%D8%A7%D9%84%D8%A9-%D9%81%D9%8A-%D8%AA%D8%B5%D9%86%D9%8A%D8%B9%D9%87%D8%A7",
+      "source_name": "SFDA",
+      "checked": "2026-10-23",
+      "needs_review": false,
+      "sample": false,
+      "key_date": null,
+      "page": "/news/2025-03-11-sfda-cosmetics-clearance-conditions"
+    },
+    {
+      "kind": "news",
+      "id": "2025-01-10-shopee-sg-hsa-notification-attr",
+      "type": "rules",
+      "date": "2025-01-10",
+      "title": "Shopee 新加坡：美妆 listing 必须填写 HSA 通知号",
+      "summary": "新加坡站卖家教育要求在商品属性中填写 HSA Cosmetic Notification No.，可从通知回执或 HSA 查询页核对。",
+      "body_text": "Shopee 新加坡卖家教育文章《Mandatory Cosmetic Product Regulatory Requirements (HSA)》要求：卖家在商品 listing 中填写 HSA Notification No. 属性。\n\n通知号可从 HSA 通知回执获取，也可在 HSA 已通知化妆品查询工具中核对。未通知或填错可能导致下架。\n\n页面未在摘要中写死发布日，日期按站内可见信息整理，引用前请打开原文，故标待核实。",
+      "markets": [
+        "sg"
+      ],
+      "platforms": [
+        "shopee"
+      ],
+      "tags": [
+        "listing",
+        "compliance"
+      ],
+      "source_url": "https://seller.shopee.sg/edu/article/17320",
+      "source_name": "Shopee Seller Education SG",
+      "checked": "2026-10-23",
+      "needs_review": true,
+      "sample": false,
+      "key_date": null,
+      "page": "/news/2025-01-10-shopee-sg-hsa-notification-attr"
+    },
+    {
+      "kind": "news",
+      "id": "2024-12-01-shopee-my-cosmetic-npra-listing",
+      "type": "rules",
+      "date": "2024-12-01",
+      "title": "Shopee 马来：化妆品须先完成 NPRA 通知再上架",
+      "summary": "马来站说明化妆品无需 NPRA 注册但必须通知；通知号格式 NOTYYMMXXXXXK，未通知可面临高额罚款。",
+      "body_text": "Shopee 马来西亚卖家教育《Medical Device / Health Supplement / Drug / Cosmetic Product Listings》写明：自 2008 年起，马来化妆品不走注册制，但投放市场前须向 NPRA 完成通知，并取得格式为 NOTYYMMXXXXXK 的通知号。\n\n出售未通知化妆品可能被罚款并承担刑事责任。Shopee 也可在卫生部标记含禁用成分时下架已通知商品。\n\n文章日期以卖家中心可见版本为准，精确修订日请打开原文，故标待核实。",
+      "markets": [
+        "my"
+      ],
+      "platforms": [
+        "shopee"
+      ],
+      "tags": [
+        "listing",
+        "compliance"
+      ],
+      "source_url": "https://seller.shopee.com.my/edu/article/7259",
+      "source_name": "Shopee Seller Education MY",
+      "checked": "2026-10-23",
+      "needs_review": true,
+      "sample": false,
+      "key_date": null,
+      "page": "/news/2024-12-01-shopee-my-cosmetic-npra-listing"
+    }
+  ]
+}

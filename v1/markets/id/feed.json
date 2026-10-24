@@ -1,0 +1,187 @@
+{
+  "api": "yuanshan-channel/v1",
+  "access": "public-read",
+  "auth": null,
+  "generated": "2026-10-23",
+  "disclaimer": "每条资讯都附来源链接。标了「待核实」的条目来自媒体或第三方转述，引用前打开原文。费用、排名和法规以官方页面为准。",
+  "kind": "feed",
+  "id": "id",
+  "title": "印度尼西亚",
+  "markets": [
+    "id"
+  ],
+  "types": [
+    "rules",
+    "regulation",
+    "rankings"
+  ],
+  "filter": {
+    "markets": [
+      "id"
+    ],
+    "types": [
+      "rules",
+      "regulation",
+      "rankings"
+    ],
+    "include_global": false
+  },
+  "count": 6,
+  "items": [
+    {
+      "kind": "ranking",
+      "id": "lazada-id/2026-10-23",
+      "type": "rankings",
+      "date": "2026-10-23",
+      "title": "Lazada 印尼 · 2026-10-23",
+      "summary": "30 个单品 · Lazada ID · skincare (sold) · 待核实",
+      "markets": [
+        "id"
+      ],
+      "board": "lazada-id",
+      "source_url": "https://www.lazada.co.id/catalog/?q=skincare&sort=solddesc",
+      "source_name": "Lazada ID · skincare (sold)",
+      "needs_review": true,
+      "sample": false,
+      "partial": false,
+      "page": "/rankings/lazada-id",
+      "detail": "/v1/rankings/lazada-id/2026-10-23.json"
+    },
+    {
+      "kind": "ranking",
+      "id": "shopee-id/2026-10-23",
+      "type": "rankings",
+      "date": "2026-10-23",
+      "title": "Shopee 印尼 · 2026-10-23",
+      "summary": "16 个单品 · Shopee ID · Perawatan & Kecantikan (sales) · 部分数据 · 待核实",
+      "markets": [
+        "id"
+      ],
+      "board": "shopee-id",
+      "source_url": "https://shopee.co.id/Perawatan-Kecantikan-cat.11043254?page=0&sortBy=sales",
+      "source_name": "Shopee ID · Perawatan & Kecantikan (sales)",
+      "needs_review": true,
+      "sample": false,
+      "partial": true,
+      "page": "/rankings/shopee-id",
+      "detail": "/v1/rankings/shopee-id/2026-10-23.json"
+    },
+    {
+      "kind": "news",
+      "id": "2026-10-17-indonesia-halal-cosmetics-2028",
+      "type": "regulation",
+      "date": "2026-10-17",
+      "title": "印尼化妆品清真认证强制期顺延到 2028年10月17日",
+      "summary": "原定 2026年10月18日生效的清真认证义务，化妆品、化学品等品类延后两年。依据是对 PP 42/2024 的修订，媒体转述政府说明。",
+      "body_text": "据 Kompas 10月17日报道，印尼经济统筹部宣布修订《清真产品保障实施条例》（PP 42/2024），延长部分品类的清真认证分阶段期限。\n\n和美妆日化相关的部分：\n\n- 化妆品、化学品、部分日用品（barang gunaan），延到 2028年10月17日\n\n- 这些品类原定 2026年10月18日起须有清真证书\n\n- 境外产品的部分安排，要等清真证书互认合作完成\n\n政府还表示，会撤销 BPJPH 2026年第4号条例（境外清真产品入境合规）。\n\n这条来自媒体对政府说明的转述，还没对照修订后的 PP 正文，所以标了待核实。延期不等于不用做：在印尼平台卖化妆品，BPOM 备案仍然是上架前提。",
+      "markets": [
+        "id"
+      ],
+      "platforms": [
+        "shopee",
+        "lazada",
+        "tokopedia",
+        "tiktok-shop"
+      ],
+      "tags": [
+        "compliance",
+        "labeling"
+      ],
+      "source_url": "https://cahaya.kompas.com/aktual/26J17085049390/pemerintah-perpanjang-tenggat-sertifikasi-halal-hingga-2028",
+      "source_name": "Kompas.com",
+      "checked": "2026-10-22",
+      "needs_review": true,
+      "sample": false,
+      "key_date": {
+        "date": "2028-10-17",
+        "label": "新截止"
+      },
+      "page": "/news/2026-10-17-indonesia-halal-cosmetics-2028"
+    },
+    {
+      "kind": "news",
+      "id": "2026-10-15-tiktok-shop-id-false-display",
+      "type": "rules",
+      "date": "2026-10-15",
+      "title": "TikTok Shop 印尼 10月15日起严查「货不对板」，最多扣 20 分",
+      "summary": "商品和页面在类型、数量、质量、尺寸、材质、功能上明显不符，店铺健康分最多扣 20 分，商品可被下架或暂停。",
+      "body_text": "TikTok Shop 印尼站（与 Tokopedia 共用卖家中心）在政策更新页写明：2026年10月15日 起，加强处理「信息展示不实」（False Display of Information）的商品。\n\n定义：实收商品和页面展示或描述有明显差异，涉及商品类型、数量、质量、尺寸、材质、功能，或其他影响购买决定的关键属性。\n\n处罚：\n\n- 店铺健康分（AHR）每次最多扣 20 分\n\n- 商品按严重程度被停用或暂停\n\n平台要求卖家逐项核对标题、描述、图片、规格和关键宣称。\n\n美妆日化最容易出问题的地方（编辑整理，不是平台原文）：容量写 100ml 实发 50ml、套装件数、色号图与实物色差、功效宣称超出备案范围。",
+      "markets": [
+        "id"
+      ],
+      "platforms": [
+        "tiktok-shop",
+        "tokopedia"
+      ],
+      "tags": [
+        "listing",
+        "penalties"
+      ],
+      "source_url": "https://seller-id.tokopedia.com/university/essay?knowledge_id=4293090979071761&lang=en",
+      "source_name": "TikTok Shop 印尼卖家大学 · Latest Policy Updates",
+      "checked": "2026-10-22",
+      "needs_review": false,
+      "sample": false,
+      "key_date": null,
+      "page": "/news/2026-10-15-tiktok-shop-id-false-display"
+    },
+    {
+      "kind": "news",
+      "id": "2026-09-21-bpom-ingredient-rules-deadline",
+      "type": "regulation",
+      "date": "2026-09-21",
+      "title": "印尼 BPOM 成分新规过渡期 10月3日结束，已备案产品须调整",
+      "summary": "PerBPOM 25/2025《化妆品成分技术要求》给了 12 个月过渡期。已拿到备案号的产品，要在 2026年10月3日前符合新要求。",
+      "body_text": "印尼食药监局（BPOM）的注册局 9月21日办了一场线上说明会，主题是 PerBPOM 2025年第25号条例对已备案化妆品的影响。\n\n通知里写明的时间线：\n\n- 条例 2025年10月3日 颁布，规定化妆品成分在安全、功效、质量三方面的技术要求，取代 PerBPOM 23/2019 及其 2022 年修订\n\n- 过渡期 12 个月\n\n- 持有备案号（nomor notifikasi）的企业，须在 2026年10月3日 前让已备案产品符合新要求\n\n截止日已过。在 Shopee、Lazada、Tokopedia、TikTok Shop 印尼站卖化妆品，平台都要求 BPOM 备案号。如果配方或标签还没按新条例更新，先找备案持有人确认状态。不再生产的产品，通知页也给了注销备案的入口。\n\n条例全文可在 BPK 法规库 (https://peraturan.bpk.go.id/Details/333277/peraturan-bpom-no-25-tahun-2025) 查到。",
+      "markets": [
+        "id"
+      ],
+      "platforms": [
+        "shopee",
+        "lazada",
+        "tokopedia",
+        "tiktok-shop"
+      ],
+      "tags": [
+        "ingredients",
+        "compliance"
+      ],
+      "source_url": "https://registrasiotskk.pom.go.id/kalender-kegiatan/105",
+      "source_name": "BPOM 传统药·保健品·化妆品注册局",
+      "checked": "2026-10-22",
+      "needs_review": false,
+      "sample": false,
+      "key_date": {
+        "date": "2026-10-03",
+        "label": "过渡期结束"
+      },
+      "page": "/news/2026-09-21-bpom-ingredient-rules-deadline"
+    },
+    {
+      "kind": "news",
+      "id": "2025-03-18-shopee-id-bukti-standar-barang",
+      "type": "rules",
+      "date": "2025-03-18",
+      "title": "Shopee 印尼：上架须填报商品达标证明含化妆品许可号",
+      "summary": "印尼站卖家教育文要求按贸易部令披露达标证明；化妆品须填写注册/许可编号，并可与清真、SNI、K3L 等并列。",
+      "body_text": "Shopee 印尼卖家中心《Ketentuan Bukti Pemenuhan Standar Barang》（页面标注 18-03-2025）要求：上架前按印尼电子贸易相关规定，填写商品达标证明信息。\n\n与美妆相关的字段包括：\n\n- 化妆品、药品、食品的注册/许可/证书编号\n\n- 若法规要求，还需清真证书号、SNI 或 K3L 等\n\n未按类目正确填写可能导致下架。BPOM 通知号仍是印尼美妆上架的核心资质之一。",
+      "markets": [
+        "id"
+      ],
+      "platforms": [
+        "shopee"
+      ],
+      "tags": [
+        "listing",
+        "compliance"
+      ],
+      "source_url": "https://seller.shopee.co.id/edu/article/19552",
+      "source_name": "Shopee Seller Education ID",
+      "checked": "2026-10-23",
+      "needs_review": false,
+      "sample": false,
+      "key_date": null,
+      "page": "/news/2025-03-18-shopee-id-bukti-standar-barang"
+    }
+  ]
+}

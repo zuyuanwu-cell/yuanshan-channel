@@ -1,0 +1,31 @@
+{
+  "api": "yuanshan-channel/v1",
+  "access": "public-read",
+  "auth": null,
+  "generated": "2026-10-23",
+  "disclaimer": "每条资讯都附来源链接。标了「待核实」的条目来自媒体或第三方转述，引用前打开原文。费用、排名和法规以官方页面为准。",
+  "kind": "news",
+  "item": {
+    "kind": "news",
+    "id": "2025-08-18-vietnam-circular-34-cfs",
+    "type": "regulation",
+    "date": "2025-08-18",
+    "title": "越南第 34/2025 号通知生效：CPTPP 国家生产的化妆品免交 CFS",
+    "summary": "修订第 06/2011 号通知：在 CPTPP 成员国生产的进口化妆品办越南公告时不再需要自由销售证明（CFS）。",
+    "body_text": "- 2025年8月18日起施行\n\n- 在 CPTPP 成员国 生产 的产品：公告免交 CFS\n\n- 只是从 CPTPP 国家 出口：需提交在该国上市的证明，一般需认证\n\n- 中国不是 CPTPP 成员，中国生产的产品仍需 CFS",
+    "markets": [
+      "vn"
+    ],
+    "platforms": [],
+    "tags": [
+      "compliance"
+    ],
+    "source_url": "https://thuvienphapluat.vn/van-ban/The-thao-Y-te/Thong-tu-34-2025-TT-BYT-sua-doi-Thong-tu-06-2011-TT-BYT-quan-ly-my-pham-663703.aspx",
+    "source_name": "Thư Viện Pháp Luật",
+    "checked": "2026-10-23",
+    "needs_review": false,
+    "sample": false,
+    "key_date": null,
+    "page": "/news/2025-08-18-vietnam-circular-34-cfs"
+  }
+}

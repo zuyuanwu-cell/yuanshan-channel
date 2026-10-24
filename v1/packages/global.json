@@ -1,0 +1,55 @@
+{
+  "api": "yuanshan-channel/v1",
+  "access": "public-read",
+  "auth": null,
+  "generated": "2026-10-23",
+  "disclaimer": "每条资讯都附来源链接。标了「待核实」的条目来自媒体或第三方转述，引用前打开原文。费用、排名和法规以官方页面为准。",
+  "kind": "package",
+  "id": "global",
+  "title": "全球",
+  "scope": "global",
+  "markets": [],
+  "types": [
+    "rankings"
+  ],
+  "note": "榜位 code 为 GL 的热销榜，不绑到单个国家，也不会自动并进国家订阅。",
+  "count": 2,
+  "items": [
+    {
+      "kind": "ranking",
+      "id": "aliexpress/2026-10-23",
+      "type": "rankings",
+      "date": "2026-10-23",
+      "title": "AliExpress · 2026-10-23",
+      "summary": "29 个单品 · AliExpress Beauty & Health · Best Selling · 部分数据 · 待核实",
+      "markets": [],
+      "board": "aliexpress",
+      "source_url": "https://www.aliexpress.com/category/66/beauty-health.html",
+      "source_name": "AliExpress Beauty & Health · Best Selling",
+      "needs_review": true,
+      "sample": false,
+      "partial": true,
+      "page": "/rankings/aliexpress",
+      "detail": "/v1/rankings/aliexpress/2026-10-23.json",
+      "scope": "global"
+    },
+    {
+      "kind": "ranking",
+      "id": "temu/2026-10-23",
+      "type": "rankings",
+      "date": "2026-10-23",
+      "title": "Temu · 2026-10-23",
+      "summary": "30 个单品 · Temu · skincare moisturizer top sales · 部分数据 · 待核实",
+      "markets": [],
+      "board": "temu",
+      "source_url": "https://www.temu.com/",
+      "source_name": "Temu · skincare moisturizer top sales",
+      "needs_review": true,
+      "sample": false,
+      "partial": true,
+      "page": "/rankings/temu",
+      "detail": "/v1/rankings/temu/2026-10-23.json",
+      "scope": "global"
+    }
+  ]
+}

@@ -1,0 +1,123 @@
+{
+  "api": "yuanshan-channel/v1",
+  "access": "public-read",
+  "auth": null,
+  "generated": "2026-10-23",
+  "disclaimer": "每条资讯都附来源链接。标了「待核实」的条目来自媒体或第三方转述，引用前打开原文。费用、排名和法规以官方页面为准。",
+  "kind": "feed",
+  "id": "th",
+  "title": "泰国",
+  "markets": [
+    "th"
+  ],
+  "types": [
+    "rules",
+    "regulation",
+    "rankings"
+  ],
+  "filter": {
+    "markets": [
+      "th"
+    ],
+    "types": [
+      "rules",
+      "regulation",
+      "rankings"
+    ],
+    "include_global": false
+  },
+  "count": 4,
+  "items": [
+    {
+      "kind": "ranking",
+      "id": "lazada-th/2026-10-23",
+      "type": "rankings",
+      "date": "2026-10-23",
+      "title": "Lazada 泰国 · 2026-10-23",
+      "summary": "30 个单品 · Lazada TH · skincare (sold) · 待核实",
+      "markets": [
+        "th"
+      ],
+      "board": "lazada-th",
+      "source_url": "https://www.lazada.co.th/catalog/?q=skincare&sort=solddesc",
+      "source_name": "Lazada TH · skincare (sold)",
+      "needs_review": true,
+      "sample": false,
+      "partial": false,
+      "page": "/rankings/lazada-th",
+      "detail": "/v1/rankings/lazada-th/2026-10-23.json"
+    },
+    {
+      "kind": "ranking",
+      "id": "shopee-th/2026-10-23",
+      "type": "rankings",
+      "date": "2026-10-23",
+      "title": "Shopee 泰国 · 2026-10-23",
+      "summary": "30 个单品 · Shopee TH · สกินแคร์ (sales sort) · 待核实",
+      "markets": [
+        "th"
+      ],
+      "board": "shopee-th",
+      "source_url": "https://shopee.co.th/search?keyword=สกินแคร์&sortBy=sales",
+      "source_name": "Shopee TH · สกินแคร์ (sales sort)",
+      "needs_review": true,
+      "sample": false,
+      "partial": false,
+      "page": "/rankings/shopee-th",
+      "detail": "/v1/rankings/shopee-th/2026-10-23.json"
+    },
+    {
+      "kind": "news",
+      "id": "2026-10-22-thailand-tcct-gp-fee-freeze",
+      "type": "rules",
+      "date": "2026-10-22",
+      "title": "泰国竞争委员会：Shopee、Lazada、TikTok 冻结上调佣金 6 个月（至2027年2月）",
+      "summary": "据泰媒报道，泰国贸易竞争委员会（TCCT）依法第60条责令电商平台暂停上调 GP/佣金 6 个月，并要求报备调价依据；另拟要求平台每次调价前先报备，预计12月出台。",
+      "body_text": "据 Rainmaker 2026年10月22日报道（转引 Thairath）：\n\n- 泰国贸易竞争委员会（กขค./TCCT）依《贸易竞争法》（2017）第60条，责令 Shopee、Lazada、TikTok 等平台 暂停上调 GP（平台佣金/费用）6 个月，期间为 2026年8月至2027年2月\n\n- 平台须提交调价数据和理由供审查；报道称共 6 家以上平台受此措施约束\n\n- TCCT 还在征求意见的草案中要求平台每次上调 GP 前先向其报备结构，预计 2026年12月 公布\n\n对卖家：泰国站在冻结期内理论上不应再涨佣金，若收到涨价通知可留存证据。\n\nneeds_review：来源为媒体转述，未找到 TCCT 原始命令文本；冻结期具体起止日未见原文，key_date 仅按「2027年2月」取月末。",
+      "markets": [
+        "th"
+      ],
+      "platforms": [
+        "shopee",
+        "lazada",
+        "tiktok-shop"
+      ],
+      "tags": [
+        "fees"
+      ],
+      "source_url": "https://www.rainmaker.in.th/tcct-control-platform-gp-fees-sme/",
+      "source_name": "Rainmaker（转引 Thairath）",
+      "checked": "2026-10-24",
+      "needs_review": true,
+      "sample": false,
+      "key_date": {
+        "date": "2027-02-28",
+        "label": "冻结期满"
+      },
+      "page": "/news/2026-10-22-thailand-tcct-gp-fee-freeze"
+    },
+    {
+      "kind": "news",
+      "id": "2026-06-12-thailand-24-prohibited-ingredients",
+      "type": "regulation",
+      "date": "2026-06-12",
+      "title": "泰国 FDA 新增 24 种化妆品禁用成分，6月13日生效",
+      "summary": "泰国卫生部第 6 号禁用成分公告新增 24 种物质，并修订 3 项，其中 D4（环四硅氧烷）作为杂质超 0.1% 即禁止。",
+      "body_text": "- 新增 24 种禁用物质（第 1686–1709 项）\n\n- 修订 3 项：2-乙基己酸、茶碱、D4\n\n- D4 作为杂质超过 0.1% 即不允许\n\n- 2026年6月13日生效\n\n含硅油的护发、底妆类注意 D4 残留。",
+      "markets": [
+        "th"
+      ],
+      "platforms": [],
+      "tags": [
+        "ingredients"
+      ],
+      "source_url": "https://cosmetic.chemlinked.com/news/cosmetic-news/thailand-updates-list-of-prohibited-cosmetic-ingredients-with-24-additions-and-3-revisions",
+      "source_name": "ChemLinked",
+      "checked": "2026-10-23",
+      "needs_review": false,
+      "sample": false,
+      "key_date": null,
+      "page": "/news/2026-06-12-thailand-24-prohibited-ingredients"
+    }
+  ]
+}

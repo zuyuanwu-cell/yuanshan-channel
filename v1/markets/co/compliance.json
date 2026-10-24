@@ -1,0 +1,107 @@
+{
+  "api": "yuanshan-channel/v1",
+  "access": "public-read",
+  "auth": null,
+  "generated": "2026-10-23",
+  "disclaimer": "每条资讯都附来源链接。标了「待核实」的条目来自媒体或第三方转述，引用前打开原文。费用、排名和法规以官方页面为准。",
+  "kind": "compliance",
+  "id": "co",
+  "name_zh": "哥伦比亚",
+  "region": "拉美",
+  "region_slug": "latin-america",
+  "page": "/compliance/co",
+  "market": {
+    "country": "co",
+    "name_zh": "哥伦比亚",
+    "flag": "🇨🇴",
+    "region": "拉美",
+    "difficulty": 2,
+    "summary": "销售须由在哥伦比亚有住所的持有人取得强制卫生通知，代码有效期七年。",
+    "items": [
+      {
+        "id": "co-nso",
+        "name_zh": "强制卫生通知",
+        "authority": "INVIMA",
+        "type": "registration",
+        "mandatory": true,
+        "cost": "未知",
+        "time": "有效期七年",
+        "docs": [
+          "法定代表人文件",
+          "配方与INCI",
+          "技术负责人",
+          "标签或设计稿"
+        ],
+        "who": "在哥伦比亚有法定住所的持有人",
+        "note": "安第斯第833号决定：化妆品在次区域销售须有强制卫生通知。材料齐全即赋码。",
+        "official_url": "https://normograma.invima.gov.co/compilacion/docs/decision_comisioncandina_dec833.htm",
+        "source_checked": "2026-10-24",
+        "needs_review": false
+      },
+      {
+        "id": "co-holder",
+        "name_zh": "持有人须在哥伦比亚有住所",
+        "authority": "INVIMA",
+        "type": "local-rep",
+        "mandatory": true,
+        "cost": "未知",
+        "time": "未知",
+        "docs": [],
+        "who": "通知持有人",
+        "note": "持有人是提交通知的人，且须在通知成员国有法定住所。不能把境外制造商和本地销售商同时列为两个持有人。",
+        "official_url": "https://www.invima.gov.co/cosmeticos-aseo-plaguicidas/cosmeticos",
+        "source_checked": "2026-10-24",
+        "needs_review": false
+      },
+      {
+        "id": "co-gmp",
+        "name_zh": "化妆品GMP证书是自愿的",
+        "authority": "INVIMA",
+        "type": "safety",
+        "mandatory": false,
+        "cost": "未知",
+        "time": "未知",
+        "docs": [],
+        "who": "想取得证书的制造商",
+        "note": "INVIMA写明化妆品良好生产规范证书是自愿的。这不等于安第斯境内工厂可以没有经营许可。",
+        "official_url": "https://www.invima.gov.co/cosmeticos-aseo-plaguicidas/cosmeticos",
+        "source_checked": "2026-10-24",
+        "needs_review": false
+      },
+      {
+        "id": "co-label",
+        "name_zh": "标签按安第斯技术法规",
+        "authority": "安第斯共同体",
+        "type": "label",
+        "mandatory": true,
+        "cost": "未知",
+        "time": "未知",
+        "docs": [],
+        "who": "通知持有人",
+        "note": "一、二级包装须符合安第斯标签技术法规。该法规正文本次未打开，不列字段。",
+        "official_url": "https://normograma.invima.gov.co/compilacion/docs/decision_comisioncandina_dec833.htm",
+        "source_checked": "2026-10-24",
+        "needs_review": true
+      }
+    ],
+    "steps": [
+      {
+        "title": "卫生通知",
+        "type": "registration"
+      },
+      {
+        "title": "本地持有人",
+        "type": "local-rep"
+      },
+      {
+        "title": "标签",
+        "type": "label"
+      }
+    ],
+    "last_verified": "2026-10-24",
+    "hs_codes": {
+      "status": "pending",
+      "items": []
+    }
+  }
+}

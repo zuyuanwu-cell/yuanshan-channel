@@ -1,0 +1,267 @@
+{
+  "api": "yuanshan-channel/v1",
+  "access": "public-read",
+  "auth": null,
+  "generated": "2026-10-23",
+  "disclaimer": "每条资讯都附来源链接。标了「待核实」的条目来自媒体或第三方转述，引用前打开原文。费用、排名和法规以官方页面为准。",
+  "kind": "compliance",
+  "id": "ae",
+  "name_zh": "阿联酋",
+  "region": "中东",
+  "region_slug": "middle-east",
+  "page": "/compliance/ae",
+  "market": {
+    "country": "ae",
+    "name_zh": "阿联酋",
+    "flag": "🇦🇪",
+    "region": "中东",
+    "difficulty": 2,
+    "summary": "向工业和先进技术部 MoIAT 申请 ECAS 符合性证书；迪拜另需市政局注册。",
+    "items": [
+      {
+        "id": "ae-ecas",
+        "name_zh": "ECAS 符合性证书",
+        "authority": "MoIAT",
+        "type": "registration",
+        "mandatory": true,
+        "cost": "未知",
+        "time": "未知",
+        "docs": [
+          "阿联酋营业执照",
+          "GSO 1943 检测报告",
+          "成分声明",
+          "标签",
+          "GMP",
+          "自由销售证明"
+        ],
+        "who": "阿联酋本地公司",
+        "note": "",
+        "official_url": "https://www.moiat.gov.ae/en/services/issue-conformity-certificates-for-regulated-products",
+        "source_checked": "2026-10-23",
+        "needs_review": false
+      },
+      {
+        "id": "ae-montaji",
+        "name_zh": "迪拜市政局产品注册 Montaji",
+        "authority": "Dubai Municipality",
+        "type": "registration",
+        "mandatory": true,
+        "cost": "未知",
+        "time": "未知",
+        "docs": [
+          "产品资料"
+        ],
+        "who": "本地公司",
+        "note": "仅迪拜销售适用",
+        "official_url": "https://dmpmedia.dm.gov.ae/uploads/2026/01/DM-HSD-GU116-CPCP2_Technical-Guidelines-for-Cosmetic-Personal-Care-Products_V2.1.pdf",
+        "source_checked": "2026-10-23",
+        "needs_review": false
+      },
+      {
+        "id": "ae-hs",
+        "name_zh": "HS 编码与关税",
+        "authority": "阿联酋海关",
+        "type": "tax-customs",
+        "mandatory": true,
+        "cost": "未知",
+        "time": "未知",
+        "docs": [],
+        "who": "进口商",
+        "note": "HS 编码待补",
+        "official_url": "https://www.moiat.gov.ae/",
+        "source_checked": "2026-10-23",
+        "needs_review": false
+      }
+    ],
+    "steps": [
+      {
+        "title": "备案/注册",
+        "type": "registration"
+      },
+      {
+        "title": "清关",
+        "type": "tax-customs"
+      }
+    ],
+    "last_verified": "2026-10-23",
+    "hs_codes": {
+      "status": "ready",
+      "items": [
+        {
+          "code": "330300100000",
+          "name_zh": "香水",
+          "duty": "5%",
+          "source_url": "https://icp.gov.ae/wp-content/uploads/2024/03/HScode-2022-v0.1.pdf"
+        },
+        {
+          "code": "330300900000",
+          "name_zh": "淡香水",
+          "duty": "5%",
+          "source_url": "https://icp.gov.ae/wp-content/uploads/2024/03/HScode-2022-v0.1.pdf"
+        },
+        {
+          "code": "330410000000",
+          "name_zh": "唇部彩妆",
+          "duty": "5%",
+          "source_url": "https://icp.gov.ae/wp-content/uploads/2024/03/HScode-2022-v0.1.pdf"
+        },
+        {
+          "code": "330420000000",
+          "name_zh": "眼部彩妆",
+          "duty": "5%",
+          "source_url": "https://icp.gov.ae/wp-content/uploads/2024/03/HScode-2022-v0.1.pdf"
+        },
+        {
+          "code": "330430900000",
+          "name_zh": "美甲产品",
+          "duty": "5%",
+          "source_url": "https://icp.gov.ae/wp-content/uploads/2024/03/HScode-2022-v0.1.pdf"
+        },
+        {
+          "code": "330491900000",
+          "name_zh": "粉类（散粉/粉饼）",
+          "duty": "5%",
+          "source_url": "https://icp.gov.ae/wp-content/uploads/2024/03/HScode-2022-v0.1.pdf"
+        },
+        {
+          "code": "330499300000",
+          "name_zh": "面霜/乳液/精华（护肤）",
+          "duty": "5%",
+          "source_url": "https://icp.gov.ae/wp-content/uploads/2024/03/HScode-2022-v0.1.pdf"
+        },
+        {
+          "code": "330499200000",
+          "name_zh": "防晒",
+          "duty": "5%",
+          "source_url": "https://icp.gov.ae/wp-content/uploads/2024/03/HScode-2022-v0.1.pdf"
+        },
+        {
+          "code": "330499400000",
+          "name_zh": "卸妆产品",
+          "duty": "5%",
+          "source_url": "https://icp.gov.ae/wp-content/uploads/2024/03/HScode-2022-v0.1.pdf"
+        },
+        {
+          "code": "330510000000",
+          "name_zh": "洗发水",
+          "duty": "5%",
+          "source_url": "https://icp.gov.ae/wp-content/uploads/2024/03/HScode-2022-v0.1.pdf"
+        },
+        {
+          "code": "330590900000",
+          "name_zh": "护发素",
+          "duty": "5%",
+          "source_url": "https://icp.gov.ae/wp-content/uploads/2024/03/HScode-2022-v0.1.pdf"
+        },
+        {
+          "code": "330590300000",
+          "name_zh": "染发剂",
+          "duty": "5%",
+          "source_url": "https://icp.gov.ae/wp-content/uploads/2024/03/HScode-2022-v0.1.pdf"
+        },
+        {
+          "code": "330530000000",
+          "name_zh": "发胶/定型喷雾",
+          "duty": "5%",
+          "source_url": "https://icp.gov.ae/wp-content/uploads/2024/03/HScode-2022-v0.1.pdf"
+        },
+        {
+          "code": "330610900000",
+          "name_zh": "牙膏",
+          "duty": "5%",
+          "source_url": "https://icp.gov.ae/wp-content/uploads/2024/03/HScode-2022-v0.1.pdf"
+        },
+        {
+          "code": "330690900000",
+          "name_zh": "漱口水",
+          "duty": "5%",
+          "source_url": "https://icp.gov.ae/wp-content/uploads/2024/03/HScode-2022-v0.1.pdf"
+        },
+        {
+          "code": "330620000000",
+          "name_zh": "牙线",
+          "duty": "5%",
+          "source_url": "https://icp.gov.ae/wp-content/uploads/2024/03/HScode-2022-v0.1.pdf"
+        },
+        {
+          "code": "330720000000",
+          "name_zh": "止汗/香体",
+          "duty": "5%",
+          "source_url": "https://icp.gov.ae/wp-content/uploads/2024/03/HScode-2022-v0.1.pdf"
+        },
+        {
+          "code": "330710900000",
+          "name_zh": "剃须膏",
+          "duty": "5%",
+          "source_url": "https://icp.gov.ae/wp-content/uploads/2024/03/HScode-2022-v0.1.pdf"
+        },
+        {
+          "code": "340130000000",
+          "name_zh": "沐浴露",
+          "duty": "5%",
+          "source_url": "https://icp.gov.ae/wp-content/uploads/2024/03/HScode-2022-v0.1.pdf"
+        },
+        {
+          "code": "340111800000",
+          "name_zh": "香皂（块）",
+          "duty": "5%",
+          "source_url": "https://icp.gov.ae/wp-content/uploads/2024/03/HScode-2022-v0.1.pdf"
+        },
+        {
+          "code": "340130000000",
+          "name_zh": "液体洗手液",
+          "duty": "5%",
+          "source_url": "https://icp.gov.ae/wp-content/uploads/2024/03/HScode-2022-v0.1.pdf"
+        },
+        {
+          "code": "330790400000",
+          "name_zh": "脱毛膏",
+          "duty": "5%",
+          "source_url": "https://icp.gov.ae/wp-content/uploads/2024/03/HScode-2022-v0.1.pdf"
+        },
+        {
+          "code": "330499900000",
+          "name_zh": "面膜（片状）",
+          "duty": "5%",
+          "source_url": "https://icp.gov.ae/wp-content/uploads/2024/03/HScode-2022-v0.1.pdf"
+        },
+        {
+          "code": "960329900000",
+          "name_zh": "化妆刷",
+          "duty": "5%",
+          "source_url": "https://icp.gov.ae/wp-content/uploads/2024/03/HScode-2022-v0.1.pdf"
+        },
+        {
+          "code": "961620000000",
+          "name_zh": "化妆海绵/粉扑",
+          "duty": "5%",
+          "source_url": "https://icp.gov.ae/wp-content/uploads/2024/03/HScode-2022-v0.1.pdf"
+        },
+        {
+          "code": "670419000000",
+          "name_zh": "假睫毛（合成纤维）",
+          "duty": "5%",
+          "source_url": "https://icp.gov.ae/wp-content/uploads/2024/03/HScode-2022-v0.1.pdf"
+        },
+        {
+          "code": "851030000000",
+          "name_zh": "电动脱毛器",
+          "duty": "5%",
+          "source_url": "https://icp.gov.ae/wp-content/uploads/2024/03/HScode-2022-v0.1.pdf"
+        },
+        {
+          "code": "851632000000",
+          "name_zh": "美发电器（卷/直发器）",
+          "duty": "5%",
+          "source_url": "https://icp.gov.ae/wp-content/uploads/2024/03/HScode-2022-v0.1.pdf"
+        },
+        {
+          "code": "854370900000",
+          "name_zh": "电动美容仪（面部）",
+          "duty": "0%",
+          "source_url": "https://icp.gov.ae/wp-content/uploads/2024/03/HScode-2022-v0.1.pdf"
+        }
+      ]
+    }
+  }
+}

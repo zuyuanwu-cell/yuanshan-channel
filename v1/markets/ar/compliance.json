@@ -1,0 +1,107 @@
+{
+  "api": "yuanshan-channel/v1",
+  "access": "public-read",
+  "auth": null,
+  "generated": "2026-10-23",
+  "disclaimer": "每条资讯都附来源链接。标了「待核实」的条目来自媒体或第三方转述，引用前打开原文。费用、排名和法规以官方页面为准。",
+  "kind": "compliance",
+  "id": "ar",
+  "name_zh": "阿根廷",
+  "region": "拉美",
+  "region_slug": "latin-america",
+  "page": "/compliance/ar",
+  "market": {
+    "country": "ar",
+    "name_zh": "阿根廷",
+    "flag": "🇦🇷",
+    "region": "拉美",
+    "difficulty": 3,
+    "summary": "进口须先向ANMAT提交企业声明，再办产品准入。标签按南方共同市场要求。",
+    "items": [
+      {
+        "id": "ar-plant",
+        "name_zh": "进口或生产企业声明",
+        "authority": "ANMAT",
+        "type": "local-rep",
+        "mandatory": true,
+        "cost": "未知",
+        "time": "未知",
+        "docs": [],
+        "who": "进口或灌装包装的自然人或法人",
+        "note": "提交声明后可在所申报厂房经营，仍可被事后核查。其他手续费指向未打开的费率令。",
+        "official_url": "https://www.argentina.gob.ar/normativa/nacional/disposicion-7939-2025-419276/texto",
+        "source_checked": "2026-10-24",
+        "needs_review": false
+      },
+      {
+        "id": "ar-admit",
+        "name_zh": "产品自动准入",
+        "authority": "ANMAT",
+        "type": "registration",
+        "mandatory": true,
+        "cost": "未知",
+        "time": "未知",
+        "docs": [
+          "INCI配方",
+          "自由销售证明",
+          "理化规格",
+          "标签或设计稿"
+        ],
+        "who": "已获授权的配制商或进口商",
+        "note": "1999年令要求企业先获授权再办产品准入。2026年网上窗口本次打开超时，现行柜台流程未复核。",
+        "official_url": "https://www.argentina.gob.ar/normativa/nacional/disposicion-1108-1999-56703/texto",
+        "source_checked": "2026-10-24",
+        "needs_review": true
+      },
+      {
+        "id": "ar-label",
+        "name_zh": "南方共同市场标签",
+        "authority": "ANMAT",
+        "type": "label",
+        "mandatory": true,
+        "cost": "未知",
+        "time": "未知",
+        "docs": [],
+        "who": "持有人、制造商或进口商",
+        "note": "强制信息须用销售成员国语言，INCI、名称和商标除外。进口品可在销售前实体补标。",
+        "official_url": "https://www.argentina.gob.ar/normativa/nacional/disposicion-7809-2022-372252/texto",
+        "source_checked": "2026-10-24",
+        "needs_review": false
+      },
+      {
+        "id": "ar-gmp",
+        "name_zh": "适用化妆品良好生产规范",
+        "authority": "ANMAT",
+        "type": "safety",
+        "mandatory": true,
+        "cost": "未知",
+        "time": "未知",
+        "docs": [],
+        "who": "进口、配制或灌装者",
+        "note": "第7939/2025号令指向第6477/12号良好生产规范。该规范正文本次未打开。",
+        "official_url": "https://www.argentina.gob.ar/normativa/nacional/disposicion-7939-2025-419276/texto",
+        "source_checked": "2026-10-24",
+        "needs_review": true
+      }
+    ],
+    "steps": [
+      {
+        "title": "企业声明",
+        "type": "local-rep"
+      },
+      {
+        "title": "产品准入",
+        "type": "registration"
+      },
+      {
+        "title": "标签",
+        "type": "label"
+      }
+    ],
+    "last_verified": "2026-10-24",
+    "hs_codes": {
+      "status": "pending",
+      "items": []
+    }
+  }
+}

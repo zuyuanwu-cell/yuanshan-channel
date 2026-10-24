@@ -1,0 +1,98 @@
+{
+  "api": "yuanshan-channel/v1",
+  "access": "public-read",
+  "auth": null,
+  "generated": "2026-10-23",
+  "disclaimer": "每条资讯都附来源链接。标了「待核实」的条目来自媒体或第三方转述，引用前打开原文。费用、排名和法规以官方页面为准。",
+  "kind": "compliance",
+  "id": "pk",
+  "name_zh": "巴基斯坦",
+  "region": "南亚",
+  "region_slug": "south-asia",
+  "page": "/compliance/pk",
+  "market": {
+    "country": "pk",
+    "name_zh": "巴基斯坦",
+    "flag": "🇵🇰",
+    "region": "南亚",
+    "difficulty": 2,
+    "summary": "药监局网站维护中。已打开的规则只覆盖含天然成分的药妆等保健产品，不是全部化妆品。",
+    "items": [
+      {
+        "id": "pk-scope",
+        "name_zh": "规则覆盖的是药妆等保健产品",
+        "authority": "药品监管局",
+        "type": "registration",
+        "mandatory": false,
+        "cost": "未知",
+        "time": "未知",
+        "docs": [],
+        "who": "符合该定义的进口商",
+        "note": "药妆指含天然来源成分、用于清洁、留香、美容或改善皮肤毛发指甲牙齿的保健产品。不能据此把全部化妆品视为必须列名。",
+        "official_url": "https://www.dra.gov.pk/wp-content/uploads/2022/01/SRO412-I-2014-Alternative-Medicines.pdf",
+        "source_checked": "2026-10-24",
+        "needs_review": true
+      },
+      {
+        "id": "pk-enlist",
+        "name_zh": "进口商与进口产品列名",
+        "authority": "药品监管局",
+        "type": "registration",
+        "mandatory": false,
+        "cost": "进口商列名1万卢比，保健产品每项2千卢比",
+        "time": "未知",
+        "docs": [],
+        "who": "获境外制造商授权的进口商",
+        "note": "进口商用表2、进口产品用表5申请列名。规则称列名是一定期间的临时安排。网站办事页维护中。",
+        "official_url": "https://www.dra.gov.pk/wp-content/uploads/2022/01/SRO412-I-2014-Alternative-Medicines.pdf",
+        "source_checked": "2026-10-24",
+        "needs_review": true
+      },
+      {
+        "id": "pk-rep",
+        "name_zh": "境外持有人的巴基斯坦代表",
+        "authority": "药品监管局",
+        "type": "local-rep",
+        "mandatory": false,
+        "cost": "未知",
+        "time": "未知",
+        "docs": [],
+        "who": "境外列名持有人",
+        "note": "只适用于该规则中位于巴基斯坦境外的产品列名持有人，不推广到未核实的普通化妆品。",
+        "official_url": "https://www.dra.gov.pk/wp-content/uploads/2022/01/SRO412-I-2014-Alternative-Medicines.pdf",
+        "source_checked": "2026-10-24",
+        "needs_review": true
+      },
+      {
+        "id": "pk-site",
+        "name_zh": "现行网页流程未打开",
+        "authority": "药品监管局",
+        "type": "platform",
+        "mandatory": false,
+        "cost": "未知",
+        "time": "未知",
+        "docs": [],
+        "who": "进口商",
+        "note": "药监局首页本次显示计划维护。上面的列名规则不能写成当前可在线办理的普通化妆品路径。",
+        "official_url": "https://www.dra.gov.pk/",
+        "source_checked": "2026-10-24",
+        "needs_review": true
+      }
+    ],
+    "steps": [
+      {
+        "title": "先确认是否属于药妆",
+        "type": "registration"
+      },
+      {
+        "title": "不要套用到全部化妆品",
+        "type": "platform"
+      }
+    ],
+    "last_verified": "2026-10-24",
+    "hs_codes": {
+      "status": "pending",
+      "items": []
+    }
+  }
+}

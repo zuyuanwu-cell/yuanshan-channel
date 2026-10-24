@@ -1,0 +1,107 @@
+{
+  "api": "yuanshan-channel/v1",
+  "access": "public-read",
+  "auth": null,
+  "generated": "2026-10-23",
+  "disclaimer": "每条资讯都附来源链接。标了「待核实」的条目来自媒体或第三方转述，引用前打开原文。费用、排名和法规以官方页面为准。",
+  "kind": "compliance",
+  "id": "uz",
+  "name_zh": "乌兹别克斯坦",
+  "region": "中亚",
+  "region_slug": "central-asia",
+  "page": "/compliance/uz",
+  "market": {
+    "country": "uz",
+    "name_zh": "乌兹别克斯坦",
+    "flag": "🇺🇿",
+    "region": "中亚",
+    "difficulty": 3,
+    "summary": "首次进口的新化妆品须卫生部许可并做毒理卫生评价，另有2016年卫生规范。",
+    "items": [
+      {
+        "id": "uz-not-eaeu",
+        "name_zh": "不是联盟成员",
+        "authority": "欧亚经济联盟",
+        "type": "platform",
+        "mandatory": false,
+        "cost": "未知",
+        "time": "未知",
+        "docs": [],
+        "who": "出口商",
+        "note": "现行成员名单没有乌兹别克斯坦，不能直接套用ТР ТС 009。",
+        "official_url": "https://www.eaeunion.org/?about-info=&lang=en",
+        "source_checked": "2026-10-24",
+        "needs_review": false
+      },
+      {
+        "id": "uz-permit",
+        "name_zh": "首次进口许可",
+        "authority": "卫生部",
+        "type": "registration",
+        "mandatory": true,
+        "cost": "未知",
+        "time": "不超过45个工作日",
+        "docs": [
+          "申请书",
+          "样品",
+          "包装或设计稿",
+          "成分与用途说明"
+        ],
+        "who": "法人或自然人",
+        "note": "适用于首次进口、此前未在境内生产的化妆品。许可期限不限。",
+        "official_url": "https://lex.uz/en/docs/2946057",
+        "source_checked": "2026-10-24",
+        "needs_review": true
+      },
+      {
+        "id": "uz-tox",
+        "name_zh": "毒理卫生评价",
+        "authority": "卫生部",
+        "type": "testing",
+        "mandatory": true,
+        "cost": "未知",
+        "time": "未知",
+        "docs": [],
+        "who": "申请人",
+        "note": "进口或生产前须完成评价，费用由申请人承担。",
+        "official_url": "https://lex.uz/en/docs/2946057",
+        "source_checked": "2026-10-24",
+        "needs_review": true
+      },
+      {
+        "id": "uz-sanpin",
+        "name_zh": "卫生规范 0340-16",
+        "authority": "卫生部",
+        "type": "safety",
+        "mandatory": true,
+        "cost": "未知",
+        "time": "未知",
+        "docs": [],
+        "who": "生产者",
+        "note": "2016年规范覆盖生产、贮存、运输和安全指标。是否仍为现行以法律库为准。",
+        "official_url": "https://lex.uz/uz/docs/8381493",
+        "source_checked": "2026-10-24",
+        "needs_review": true
+      }
+    ],
+    "steps": [
+      {
+        "title": "确认非联盟路径",
+        "type": "platform"
+      },
+      {
+        "title": "许可",
+        "type": "registration"
+      },
+      {
+        "title": "安全规范",
+        "type": "safety"
+      }
+    ],
+    "last_verified": "2026-10-24",
+    "hs_codes": {
+      "status": "pending",
+      "items": []
+    }
+  }
+}

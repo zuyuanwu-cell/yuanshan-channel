@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>远山频道 · 东亚</title>
+    <link>https://ys.tongzhoukuajing.com/subscribe/?markets=cn%2Chk%2Cjp%2Ckp%2Ckr%2Cmn%2Cmo%2Ctw&amp;types=rules%2Cregulation%2Crankings</link>
+    <description>每条资讯都附来源链接。标了「待核实」的条目来自媒体或第三方转述，引用前打开原文。费用、排名和法规以官方页面为准。 公开只读，不是法律意见，也不代替来源原文。</description>
+    <language>zh-CN</language>
+    <lastBuildDate>Fri, 23 Oct 2026 12:00:00 GMT</lastBuildDate>
+    <atom:link xmlns:atom="http://www.w3.org/2005/Atom" href="https://ys.tongzhoukuajing.com/v1/packages/east-asia.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Amazon 日本站 · 2026-10-23</title>
+      <link>https://ys.tongzhoukuajing.com/rankings/amazon-jp</link>
+      <guid isPermaLink="false">amazon-jp/2026-10-23</guid>
+      <pubDate>Fri, 23 Oct 2026 12:00:00 GMT</pubDate>
+      <description>30 个单品 · Amazon.co.jp 売れ筋ランキング · ビューティー · 部分数据 · 待核实</description>
+    </item>
+    <item>
+      <title>Coupang · 2026-10-23</title>
+      <link>https://ys.tongzhoukuajing.com/rankings/coupang</link>
+      <guid isPermaLink="false">coupang/2026-10-23</guid>
+      <pubDate>Fri, 23 Oct 2026 12:00:00 GMT</pubDate>
+      <description>29 个单品 · Coupang · 화장품 search · 待核实</description>
+    </item>
+    <item>
+      <title>韩国《化妆品法》修订即日施行：标签被涂改的化妆品可被要求停售、删除网店页面</title>
+      <link>https://ys.tongzhoukuajing.com/news/2026-10-20-korea-cosmetics-act-tampered-label</link>
+      <guid isPermaLink="false">2026-10-20-korea-cosmetics-act-tampered-label</guid>
+      <pubDate>Tue, 20 Oct 2026 12:00:00 GMT</pubDate>
+      <description>法律第22113号于2026年10月20日公布并施行：包装或标示被损毁、伪造、变造的化妆品，MFDS 可要求卖家停售、删除网店商品信息并采取防流通措施。</description>
+    </item>
+    <item>
+      <title>中检院征求冻干、次抛化妆品标准：11月22日截止</title>
+      <link>https://ys.tongzhoukuajing.com/news/2026-10-15-china-nidc-freeze-dried-single-dose</link>
+      <guid isPermaLink="false">2026-10-15-china-nidc-freeze-dried-single-dose</guid>
+      <pubDate>Thu, 15 Oct 2026 12:00:00 GMT</pubDate>
+      <description>中检院10月15日公开征求《化妆品冻干产品》《次抛型化妆品》两项标准意见，11月22日截止。冻干面膜、试用装不在范围。做冻干粉/安瓶精华的工厂与品牌宜对照草案自查。</description>
+    </item>
+    <item>
+      <title>韩国化妆品安全性评估 2028 年起分阶段强制</title>
+      <link>https://ys.tongzhoukuajing.com/news/2026-07-08-korea-cosmetic-safety-assessment-2028</link>
+      <guid isPermaLink="false">2026-07-08-korea-cosmetic-safety-assessment-2028</guid>
+      <pubDate>Wed, 08 Jul 2026 12:00:00 GMT</pubDate>
+      <description>MFDS 推出逐品安全性评估制度：责任销售业者须准备安全资料并由合格评估人审核；2028 年起先覆盖功能性化妆品，2031 年扩至全部。</description>
+    </item>
+    <item>
+      <title>日本厚劳省：三庚酸甘油酯配合化妆品在基准修订前的过渡处理</title>
+      <link>https://ys.tongzhoukuajing.com/news/2026-04-20-japan-triheptanoin-interim</link>
+      <guid isPermaLink="false">2026-04-20-japan-triheptanoin-interim</guid>
+      <pubDate>Mon, 20 Apr 2026 12:00:00 GMT</pubDate>
+      <description>厚劳省 4月20日发事务联络，明确在化妆品基准修订前，配合三庚酸甘油酯（triheptanoin）的化妆品如何处理。</description>
+    </item>
+  </channel>
+</rss>

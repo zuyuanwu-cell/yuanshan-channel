@@ -1,0 +1,83 @@
+{
+  "api": "yuanshan-channel/v1",
+  "access": "public-read",
+  "auth": null,
+  "generated": "2026-10-23",
+  "disclaimer": "每条资讯都附来源链接。标了「待核实」的条目来自媒体或第三方转述，引用前打开原文。费用、排名和法规以官方页面为准。",
+  "kind": "compliance",
+  "id": "hk",
+  "name_zh": "中国香港",
+  "region": "东亚",
+  "region_slug": "east-asia",
+  "page": "/compliance/hk",
+  "market": {
+    "country": "hk",
+    "name_zh": "中国香港",
+    "flag": "🇭🇰",
+    "region": "东亚",
+    "difficulty": 1,
+    "summary": "已打开的官方页未规定普通化妆品上市前注册。不适用其他法例时承担一般安全义务。",
+    "items": [
+      {
+        "id": "hk-safety",
+        "name_zh": "消费品一般安全",
+        "authority": "香港海关",
+        "type": "safety",
+        "mandatory": true,
+        "cost": "未知",
+        "time": "未知",
+        "docs": [],
+        "who": "制造商、进口商和供应商",
+        "note": "条例不规定出售前强制安全测试。未被其他法例覆盖的化妆品按一般安全要求管理。",
+        "official_url": "https://www.customs.gov.hk/en/service-enforcement-information/consumer-protection/goods-safety/index.html",
+        "source_checked": "2026-10-24",
+        "needs_review": false
+      },
+      {
+        "id": "hk-warn",
+        "name_zh": "已有安全警示须中英对照",
+        "authority": "香港海关",
+        "type": "label",
+        "mandatory": false,
+        "cost": "未知",
+        "time": "未知",
+        "docs": [],
+        "who": "供应商",
+        "note": "只在产品已标注保存或使用警示时，该警示须中英对照。页面没有把全成分中英标示写成强制。",
+        "official_url": "https://www.info.gov.hk/gia/general/201806/27/P2018062700331.htm",
+        "source_checked": "2026-10-24",
+        "needs_review": false
+      },
+      {
+        "id": "hk-drug",
+        "name_zh": "落入药品定义才须注册",
+        "authority": "卫生署",
+        "type": "registration",
+        "mandatory": false,
+        "cost": "未知",
+        "time": "未知",
+        "docs": [],
+        "who": "供应含药或作药品宣称的产品者",
+        "note": "普通化妆品不按此条注册。符合药剂业及毒药条例药品定义的，须先向药剂业及毒药管理局注册。",
+        "official_url": "https://www.info.gov.hk/gia/general/201806/27/P2018062700331.htm",
+        "source_checked": "2026-10-24",
+        "needs_review": false
+      }
+    ],
+    "steps": [
+      {
+        "title": "一般安全",
+        "type": "safety"
+      },
+      {
+        "title": "药品分界",
+        "type": "registration"
+      }
+    ],
+    "last_verified": "2026-10-24",
+    "hs_codes": {
+      "status": "pending",
+      "items": []
+    }
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "api": "yuanshan-channel/v1",
+  "access": "public-read",
+  "auth": null,
+  "generated": "2026-10-23",
+  "disclaimer": "每条资讯都附来源链接。标了「待核实」的条目来自媒体或第三方转述，引用前打开原文。费用、排名和法规以官方页面为准。",
+  "kind": "news",
+  "item": {
+    "kind": "news",
+    "id": "2026-10-22-thailand-tcct-gp-fee-freeze",
+    "type": "rules",
+    "date": "2026-10-22",
+    "title": "泰国竞争委员会：Shopee、Lazada、TikTok 冻结上调佣金 6 个月（至2027年2月）",
+    "summary": "据泰媒报道，泰国贸易竞争委员会（TCCT）依法第60条责令电商平台暂停上调 GP/佣金 6 个月，并要求报备调价依据；另拟要求平台每次调价前先报备，预计12月出台。",
+    "body_text": "据 Rainmaker 2026年10月22日报道（转引 Thairath）：\n\n- 泰国贸易竞争委员会（กขค./TCCT）依《贸易竞争法》（2017）第60条，责令 Shopee、Lazada、TikTok 等平台 暂停上调 GP（平台佣金/费用）6 个月，期间为 2026年8月至2027年2月\n\n- 平台须提交调价数据和理由供审查；报道称共 6 家以上平台受此措施约束\n\n- TCCT 还在征求意见的草案中要求平台每次上调 GP 前先向其报备结构，预计 2026年12月 公布\n\n对卖家：泰国站在冻结期内理论上不应再涨佣金，若收到涨价通知可留存证据。\n\nneeds_review：来源为媒体转述，未找到 TCCT 原始命令文本；冻结期具体起止日未见原文，key_date 仅按「2027年2月」取月末。",
+    "markets": [
+      "th"
+    ],
+    "platforms": [
+      "shopee",
+      "lazada",
+      "tiktok-shop"
+    ],
+    "tags": [
+      "fees"
+    ],
+    "source_url": "https://www.rainmaker.in.th/tcct-control-platform-gp-fees-sme/",
+    "source_name": "Rainmaker（转引 Thairath）",
+    "checked": "2026-10-24",
+    "needs_review": true,
+    "sample": false,
+    "key_date": {
+      "date": "2027-02-28",
+      "label": "冻结期满"
+    },
+    "page": "/news/2026-10-22-thailand-tcct-gp-fee-freeze"
+  }
+}

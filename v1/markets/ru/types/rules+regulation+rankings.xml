@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>远山频道 · 俄罗斯</title>
+    <link>https://ys.tongzhoukuajing.com/subscribe/?markets=ru&amp;types=rules%2Cregulation%2Crankings</link>
+    <description>每条资讯都附来源链接。标了「待核实」的条目来自媒体或第三方转述，引用前打开原文。费用、排名和法规以官方页面为准。 公开只读，不是法律意见，也不代替来源原文。</description>
+    <language>zh-CN</language>
+    <lastBuildDate>Fri, 23 Oct 2026 12:00:00 GMT</lastBuildDate>
+    <atom:link xmlns:atom="http://www.w3.org/2005/Atom" href="https://ys.tongzhoukuajing.com/v1/markets/ru/types/rules+regulation+rankings.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Ozon · 2026-10-23</title>
+      <link>https://ys.tongzhoukuajing.com/rankings/ozon</link>
+      <guid isPermaLink="false">ozon/2026-10-23</guid>
+      <pubDate>Fri, 23 Oct 2026 12:00:00 GMT</pubDate>
+      <description>30 个单品 · Ozon · Красота и здоровье · 待核实</description>
+    </item>
+    <item>
+      <title>Wildberries · 2026-10-23</title>
+      <link>https://ys.tongzhoukuajing.com/rankings/wildberries</link>
+      <guid isPermaLink="false">wildberries/2026-10-23</guid>
+      <pubDate>Fri, 23 Oct 2026 12:00:00 GMT</pubDate>
+      <description>30 个单品 · Wildberries · makeup/face · 待核实</description>
+    </item>
+    <item>
+      <title>Ozon 12月1日起按新公式算销售佣金，先重算定价和回款</title>
+      <link>https://ys.tongzhoukuajing.com/news/2026-10-16-ozon-commission-formula-dec</link>
+      <guid isPermaLink="false">2026-10-16-ozon-commission-formula-dec</guid>
+      <pubDate>Fri, 16 Oct 2026 12:00:00 GMT</pubDate>
+      <description>Ozon 资费清单新版：佣金以后台「上限价」为基数，打折部分从佣金里扣。跨仓经提货点改按货件计费。</description>
+    </item>
+    <item>
+      <title>Ozon realFBS 11月19日起错误率超 2% 就罚；WB 把 FBS 延迟罚款封顶 1%</title>
+      <link>https://ys.tongzhoukuajing.com/news/2026-10-07-ozon-realfbs-wb-fbs-penalties</link>
+      <guid isPermaLink="false">2026-10-07-ozon-realfbs-wb-fbs-penalties</guid>
+      <pubDate>Wed, 07 Oct 2026 12:00:00 GMT</pubDate>
+      <description>两家俄罗斯平台对卖家自发货的罚则反向调整：Ozon 收紧，罚款门槛从 5% 降到 2%；Wildberries 放松，FBS 延迟发货最多罚 1%。</description>
+    </item>
+    <item>
+      <title>Wildberries 新罚款清单 10月1日生效：标识码和 ТН ВЭД 填错按件罚</title>
+      <link>https://ys.tongzhoukuajing.com/news/2026-10-01-wildberries-penalty-list</link>
+      <guid isPermaLink="false">2026-10-01-wildberries-penalty-list</guid>
+      <pubDate>Thu, 01 Oct 2026 12:00:00 GMT</pubDate>
+      <description>WB 卖家报价的罚款附件 10月1日起执行。强制标识商品的 ТН ВЭД 填错每件 1,500 卢布，好评返现每次 50,000 卢布。</description>
+    </item>
+  </channel>
+</rss>

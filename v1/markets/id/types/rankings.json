@@ -1,0 +1,66 @@
+{
+  "api": "yuanshan-channel/v1",
+  "access": "public-read",
+  "auth": null,
+  "generated": "2026-10-23",
+  "disclaimer": "每条资讯都附来源链接。标了「待核实」的条目来自媒体或第三方转述，引用前打开原文。费用、排名和法规以官方页面为准。",
+  "kind": "feed",
+  "id": "id/rankings",
+  "title": "印度尼西亚",
+  "markets": [
+    "id"
+  ],
+  "types": [
+    "rankings"
+  ],
+  "filter": {
+    "markets": [
+      "id"
+    ],
+    "types": [
+      "rankings"
+    ],
+    "include_global": false
+  },
+  "count": 2,
+  "items": [
+    {
+      "kind": "ranking",
+      "id": "lazada-id/2026-10-23",
+      "type": "rankings",
+      "date": "2026-10-23",
+      "title": "Lazada 印尼 · 2026-10-23",
+      "summary": "30 个单品 · Lazada ID · skincare (sold) · 待核实",
+      "markets": [
+        "id"
+      ],
+      "board": "lazada-id",
+      "source_url": "https://www.lazada.co.id/catalog/?q=skincare&sort=solddesc",
+      "source_name": "Lazada ID · skincare (sold)",
+      "needs_review": true,
+      "sample": false,
+      "partial": false,
+      "page": "/rankings/lazada-id",
+      "detail": "/v1/rankings/lazada-id/2026-10-23.json"
+    },
+    {
+      "kind": "ranking",
+      "id": "shopee-id/2026-10-23",
+      "type": "rankings",
+      "date": "2026-10-23",
+      "title": "Shopee 印尼 · 2026-10-23",
+      "summary": "16 个单品 · Shopee ID · Perawatan & Kecantikan (sales) · 部分数据 · 待核实",
+      "markets": [
+        "id"
+      ],
+      "board": "shopee-id",
+      "source_url": "https://shopee.co.id/Perawatan-Kecantikan-cat.11043254?page=0&sortBy=sales",
+      "source_name": "Shopee ID · Perawatan & Kecantikan (sales)",
+      "needs_review": true,
+      "sample": false,
+      "partial": true,
+      "page": "/rankings/shopee-id",
+      "detail": "/v1/rankings/shopee-id/2026-10-23.json"
+    }
+  ]
+}

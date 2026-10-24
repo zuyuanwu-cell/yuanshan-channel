@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>远山频道 · 沙特</title>
+    <link>https://ys.tongzhoukuajing.com/subscribe/?markets=sa&amp;types=rules%2Cregulation%2Crankings</link>
+    <description>每条资讯都附来源链接。标了「待核实」的条目来自媒体或第三方转述，引用前打开原文。费用、排名和法规以官方页面为准。 公开只读，不是法律意见，也不代替来源原文。</description>
+    <language>zh-CN</language>
+    <lastBuildDate>Fri, 23 Oct 2026 12:00:00 GMT</lastBuildDate>
+    <atom:link xmlns:atom="http://www.w3.org/2005/Atom" href="https://ys.tongzhoukuajing.com/v1/markets/sa/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>noon · 2026-10-23</title>
+      <link>https://ys.tongzhoukuajing.com/rankings/noon</link>
+      <guid isPermaLink="false">noon/2026-10-23</guid>
+      <pubDate>Fri, 23 Oct 2026 12:00:00 GMT</pubDate>
+      <description>30 个单品 · noon UAE · Beauty (popularity) · 待核实</description>
+    </item>
+    <item>
+      <title>沙特 SFDA 更新化妆品禁限用成分清单，新进口 2027年7月起须合规</title>
+      <link>https://ys.tongzhoukuajing.com/news/2026-06-24-sfda-circular-1043-ingredients</link>
+      <guid isPermaLink="false">2026-06-24-sfda-circular-1043-ingredients</guid>
+      <pubDate>Wed, 24 Jun 2026 12:00:00 GMT</pubDate>
+      <description>SFDA 第 1043 号通函更新禁限用成分、防腐剂和防晒剂清单；新进口产品 2027年7月1日起须合规，在售库存到 2028年7月1日。</description>
+    </item>
+    <item>
+      <title>沙特 SFDA 更新海湾化妆品安全与宣称技术法规</title>
+      <link>https://ys.tongzhoukuajing.com/news/2025-06-24-sfda-gso-1943-2528-update</link>
+      <guid isPermaLink="false">2025-06-24-sfda-gso-1943-2528-update</guid>
+      <pubDate>Tue, 24 Jun 2025 12:00:00 GMT</pubDate>
+      <description>SFDA 宣布采用 SFDA.CO/GSO 1943:2024 与 2528:2024；禁限用清单改挂官网，不合规可按化妆品法规处罚。</description>
+    </item>
+    <item>
+      <title>沙特 SFDA 更新化妆品清关条件页（含原料）</title>
+      <link>https://ys.tongzhoukuajing.com/news/2025-03-11-sfda-cosmetics-clearance-conditions</link>
+      <guid isPermaLink="false">2025-03-11-sfda-cosmetics-clearance-conditions</guid>
+      <pubDate>Tue, 11 Mar 2025 12:00:00 GMT</pubDate>
+      <description>SFDA 英文站「化妆品及生产原料清关条件」页显示最近更新为 2025年3月11日，进口清关前应对照该页与 GHAD 登记要求。</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,122 @@
+{
+  "api": "yuanshan-channel/v1",
+  "access": "public-read",
+  "auth": null,
+  "generated": "2026-10-23",
+  "disclaimer": "每条资讯都附来源链接。标了「待核实」的条目来自媒体或第三方转述，引用前打开原文。费用、排名和法规以官方页面为准。",
+  "kind": "feed",
+  "id": "eu/rules+regulation+rankings",
+  "title": "欧盟·德国",
+  "markets": [
+    "eu"
+  ],
+  "types": [
+    "rules",
+    "regulation",
+    "rankings"
+  ],
+  "filter": {
+    "markets": [
+      "eu"
+    ],
+    "types": [
+      "rules",
+      "regulation",
+      "rankings"
+    ],
+    "include_global": false
+  },
+  "count": 3,
+  "items": [
+    {
+      "kind": "news",
+      "id": "2026-10-22-eu-omnibus-vi-parliament",
+      "type": "regulation",
+      "date": "2026-10-22",
+      "title": "欧盟议会通过 Omnibus VI：CMR 化妆品清货期缩短",
+      "summary": "欧洲议会10月22日以477票赞成通过 Omnibus VI 与理事会临时协议。含新禁CMR的化妆品清货窗口缩短；纳米成分通报取消「提前6个月」。须理事会再通过才生效。",
+      "body_text": "欧洲议会 2026年10月22日 以 477 票赞成、59 票反对、41 票弃权，一读通过化学品简化一揽子（业内称 Omnibus VI，程序号 2025/0531(COD)）与理事会谈妥的临时协议。文件会改化妆品法规（EC）1223/2009、CLP 与肥料规则。理事会还要通过并在官方公报公布后才生效，现在不是立刻改标签。\n\n对美妆卖家/品牌，真正要盯的是两件事：\n\n1. 新禁 CMR 成分后的清货时间变短\n\n某物质因被列为 CMR 写进化妆品禁用表后（从「列入禁用表生效日」起算，不是从今天起算）：\n\n- 没申请豁免：还可 投放市场 6 个月、继续销售 12 个月（比委员会最初设想的 12/24 个月更紧）\n\n- 申请豁免但因安全被拒：投放 3 个月 / 可售 9 个月\n\n- 1A/1B 类因「已有合适替代物」被拒：投放 24 个月 / 可售 36 个月，并要更新产品安全报告\n\n- 豁免申请须在新 CMR 分类生效后 3 个月内提交\n\n意味着什么：欧洲站一出现新 CMR 禁令，库存和在途货的缓冲比以前短。跨境卖家要和 RP、工厂约定「禁令生效 → 立刻停产停发」的节奏，不要按旧的一年清货心理备货。\n\n2. 含纳米成分：仍要事前通报，但取消「提前 6 个月」\n\n含纳米材料的化妆品仍须通报，不再要求比上市早 6 个月；已在限用附件、符合条件的产品另有例外。上新节奏会快一点，但通报本身不能省。\n\n注意：站内 9月21日那篇「Omnibus IX」讲的是另一批具体成分禁限草案（二苯酮-1/-2 等），和本条 Omnibus VI（程序简化） 不是同一份文件。两份都要跟。\n\n来源：欧洲议会表决记录 EP Votes (https://epvotes.com/votes/198430)（A10-0104/2026）；要点综述见 2eu.brussels (https://2eu.brussels/en/news/european-parliament-approves-simplified-rules-for-cosmetics-chemicals-and-fertilisers)。",
+      "markets": [
+        "eu"
+      ],
+      "platforms": [
+        "amazon-eu",
+        "temu",
+        "zalando",
+        "otto"
+      ],
+      "tags": [
+        "ingredients",
+        "compliance"
+      ],
+      "source_url": "https://epvotes.com/votes/198430",
+      "source_name": "EP Votes（欧洲议会表决记录）",
+      "checked": "2026-10-24",
+      "needs_review": true,
+      "sample": false,
+      "key_date": {
+        "date": "2026-10-22",
+        "label": "议会通过"
+      },
+      "page": "/news/2026-10-22-eu-omnibus-vi-parliament"
+    },
+    {
+      "kind": "news",
+      "id": "2026-09-21-eu-cmr-omnibus-draft",
+      "type": "regulation",
+      "date": "2026-09-21",
+      "title": "欧盟化妆品 CMR 修订草案送达理事会：二苯酮-1/-2 等拟禁用",
+      "summary": "委员会把修订 1223/2009 附录的草案送到理事会。新列为 CMR 的物质要进禁用表，另有几种成分拟禁用或加限。",
+      "body_text": "欧盟委员会 9月21日把一份化妆品法规（EC 1223/2009）修订草案送到理事会，文件号 13462/26。业内一般叫它 Omnibus IX。\n\n草案做两件事。\n\n第一，转化新的 CMR 分类。 委员会授权条例 (EU) 2025/1222 新列了一批致癌、致突变或生殖毒性（CMR）物质，这批分类 2027年2月1日 起适用。没有企业申请豁免，所以草案把它们加进附录 II 禁用表。\n\n第二，按 SCCS 的最新评估调整成分。 委员会向 WTO 通报（G/TBT/N/EU/1219）时写的要点：\n\n- 拟禁用：二苯酮-1、二苯酮-2、Basic Brown 16、Basic Blue 99，以及前列腺素类似物（睫毛精华里常见）\n\n- 拟新增或收紧限制：BHA、对羟基苯甲酸丁酯、大麻二酚（CBD）、纳米羟基磷灰石\n\n- 取消含汞防腐剂的现有豁免\n\n这还是草案，理事会和议会审查期间文本可能调整；除 CMR 部分外，其他条款各有过渡期，以最终公报为准。卖欧洲站的产品，现在就该拿配方表对一遍上面的名单。\n\nWTO 通报原文见 欧盟 TBT 数据库 (https://technical-barriers-trade.ec.europa.eu/en/notification/39957)。",
+      "markets": [
+        "eu"
+      ],
+      "platforms": [
+        "amazon-eu",
+        "otto",
+        "zalando",
+        "allegro",
+        "temu"
+      ],
+      "tags": [
+        "ingredients"
+      ],
+      "source_url": "https://data.consilium.europa.eu/doc/document/ST-13462-2026-INIT/en/pdf",
+      "source_name": "欧盟理事会文件 13462/26",
+      "checked": "2026-10-22",
+      "needs_review": false,
+      "sample": false,
+      "key_date": {
+        "date": "2027-02-01",
+        "label": "CMR 新分类适用"
+      },
+      "page": "/news/2026-09-21-eu-cmr-omnibus-draft"
+    },
+    {
+      "kind": "news",
+      "id": "2026-09-04-temu-eu-3-euro-duty",
+      "type": "regulation",
+      "date": "2026-09-04",
+      "title": "欧盟 €3 小包关税实施两个月，Temu 母公司加码本地仓和本地卖家",
+      "summary": "7月1日起，欧盟对 €150 以下的电商小包按每个税则类别收 €3。PDD 在财报会上说影响「相当大」，要更多本地商家和本地仓。",
+      "body_text": "据 The Logistic News 9月4日报道，PDD（Temu 母公司）联席 CEO 陈磊在 8月24日的财报电话会上说，欧盟的新关税会降低履约效率、抬高成本，对部分业务有「相当大的影响」。公司的应对是引入更多优质本地商家，加快本地仓储和履约建设。\n\n规则本身来自 欧盟委员会 (https://commission.europa.eu/news-and-media/news/ensuring-fairness-and-safety-eur3-customs-duty-low-value-parcels-2026-06-29_en)：\n\n- 2026年7月1日 起，取消 €150 以下小包的关税豁免\n\n- 临时按每个「物品」收 €3，按税则分类算，不按数量算\n\n- 由卖家或进口方申报缴纳，不由消费者付\n\n- 临时安排持续到 2028年7月1日，之后按正常税率征收\n\n举例：一个包裹里 3 支同类口红算一个类别，收 €3；口红加一瓶洗发水是两个类别，收 €6。\n\n欧盟海关改革页面 (https://taxation-customs.ec.europa.eu/customs/eu-customs-reform_en) 还写明，欧盟将在 2026年11月1日前另设小包处理费，金额由授权法规确定。\n\nPDD 的表态来自媒体报道，标待核实。规则部分以欧盟委员会页面为准。",
+      "markets": [
+        "eu"
+      ],
+      "platforms": [
+        "temu",
+        "amazon-eu"
+      ],
+      "tags": [
+        "customs"
+      ],
+      "source_url": "https://thelogisticnews.com/temu-owner-invests-in-local-fulfillment-as-de-minimis-rules-reshape-global-trade/",
+      "source_name": "The Logistic News",
+      "checked": "2026-10-22",
+      "needs_review": true,
+      "sample": false,
+      "key_date": null,
+      "page": "/news/2026-09-04-temu-eu-3-euro-duty"
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>远山频道 · 马来西亚</title>
+    <link>https://ys.tongzhoukuajing.com/subscribe/?markets=my&amp;types=rules%2Cregulation</link>
+    <description>每条资讯都附来源链接。标了「待核实」的条目来自媒体或第三方转述，引用前打开原文。费用、排名和法规以官方页面为准。 公开只读，不是法律意见，也不代替来源原文。</description>
+    <language>zh-CN</language>
+    <lastBuildDate>Fri, 23 Oct 2026 12:00:00 GMT</lastBuildDate>
+    <atom:link xmlns:atom="http://www.w3.org/2005/Atom" href="https://ys.tongzhoukuajing.com/v1/markets/my/types/rules+regulation.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>TikTok Shop 马来西亚 10月31日起上调美妆佣金，Mall 香水彩妆最高约 20.5%</title>
+      <link>https://ys.tongzhoukuajing.com/news/2026-10-16-tiktok-shop-my-commission-hike</link>
+      <guid isPermaLink="false">2026-10-16-tiktok-shop-my-commission-hike</guid>
+      <pubDate>Fri, 16 Oct 2026 12:00:00 GMT</pubDate>
+      <description>马来西亚时间 10月31日 0 点起调整 Marketplace/Mall 佣金（含 SST）。妆护、护肤、洗护等多数美妆子类上调；女性护理等少数必需类下调。生效前下单仍按旧费率。</description>
+    </item>
+    <item>
+      <title>马来西亚 NPRA 更新成分附件：曲酸限量收紧，4 种抗真菌成分禁用</title>
+      <link>https://ys.tongzhoukuajing.com/news/2026-07-06-npra-circular-2-2026</link>
+      <guid isPermaLink="false">2026-07-06-npra-circular-2-2026</guid>
+      <pubDate>Mon, 06 Jul 2026 12:00:00 GMT</pubDate>
+      <description>NPRA 2026 年第 2 号通函落实东盟化妆品指令：联苯苄唑等 4 种成分立即禁用；曲酸面部用限 1%、身体驻留限 0.2%。</description>
+    </item>
+    <item>
+      <title>Shopee 马来：化妆品须先完成 NPRA 通知再上架</title>
+      <link>https://ys.tongzhoukuajing.com/news/2024-12-01-shopee-my-cosmetic-npra-listing</link>
+      <guid isPermaLink="false">2024-12-01-shopee-my-cosmetic-npra-listing</guid>
+      <pubDate>Sun, 01 Dec 2024 12:00:00 GMT</pubDate>
+      <description>马来站说明化妆品无需 NPRA 注册但必须通知；通知号格式 NOTYYMMXXXXXK，未通知可面临高额罚款。</description>
+    </item>
+  </channel>
+</rss>

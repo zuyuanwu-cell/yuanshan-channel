@@ -1,0 +1,68 @@
+{
+  "api": "yuanshan-channel/v1",
+  "access": "public-read",
+  "auth": null,
+  "generated": "2026-10-23",
+  "disclaimer": "每条资讯都附来源链接。标了「待核实」的条目来自媒体或第三方转述，引用前打开原文。费用、排名和法规以官方页面为准。",
+  "kind": "compliance",
+  "id": "bh",
+  "name_zh": "巴林",
+  "region": "中东",
+  "region_slug": "middle-east",
+  "page": "/compliance/bh",
+  "market": {
+    "country": "bh",
+    "name_zh": "巴林",
+    "flag": "🇧🇭",
+    "region": "中东",
+    "difficulty": 2,
+    "summary": "国家卫生监管局首页已打开。化妆品注册细则和税号未核对。",
+    "items": [
+      {
+        "id": "bh-entry",
+        "name_zh": "化妆品监管入口",
+        "authority": "NHRA",
+        "type": "registration",
+        "mandatory": false,
+        "cost": "未知",
+        "time": "未知",
+        "docs": [],
+        "who": "进口商",
+        "note": "官网可打开。是否须事先注册、费用和周期，本次未核对全文。",
+        "official_url": "https://www.nhra.bh/",
+        "source_checked": "2026-10-24",
+        "needs_review": true
+      },
+      {
+        "id": "bh-hs",
+        "name_zh": "HS 编码与关税",
+        "authority": "目的国海关",
+        "type": "tax-customs",
+        "mandatory": true,
+        "cost": "未知",
+        "time": "未知",
+        "docs": [],
+        "who": "进口商",
+        "note": "链接不是税则。税号和税率未抄录。",
+        "official_url": "https://www.nhra.bh/",
+        "source_checked": "2026-10-24",
+        "needs_review": true
+      }
+    ],
+    "steps": [
+      {
+        "title": "核对监管入口",
+        "type": "registration"
+      },
+      {
+        "title": "清关",
+        "type": "tax-customs"
+      }
+    ],
+    "last_verified": "2026-10-24",
+    "hs_codes": {
+      "status": "pending",
+      "items": []
+    }
+  }
+}
