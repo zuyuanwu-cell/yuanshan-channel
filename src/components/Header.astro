@@ -1,4 +1,5 @@
 ---
+import BrandMark from './BrandMark.astro';
 import { getSite } from '../lib/content';
 import { isActivePath, url } from '../lib/format';
 
@@ -9,7 +10,7 @@ const path = Astro.url.pathname;
 <header class="site-header">
   <div class="wrap inner">
     <a class="brand" href={url("/")} aria-label={site.name}>
-      <span class="brand-mark" aria-hidden="true">{site.ui.brandMark}</span>
+      <BrandMark />
       <span class="brand-text">
         <strong>{site.channel}</strong>
         <em>{site.brand}</em>
@@ -24,6 +25,34 @@ const path = Astro.url.pathname;
         ))
       }
     </nav>
-    <a class="header-cta" href={url(site.headerCta.href)}>{site.headerCta.label}</a>
+    <div class="header-tools">
+      <div class="theme-switch" role="group" aria-label="颜色模式">
+        <button type="button" data-theme-value="dark" aria-pressed="true" aria-label="暗色模式，当前使用">
+          <span class="theme-long">暗色</span>
+          <span class="theme-short" aria-hidden="true">暗</span>
+        </button>
+        <button type="button" data-theme-value="light" aria-pressed="false" aria-label="切换为亮色模式">
+          <span class="theme-long">亮色</span>
+          <span class="theme-short" aria-hidden="true">亮</span>
+        </button>
+      </div>
+      <a class="header-cta" href={url(site.headerCta.href)}>{site.headerCta.label}</a>
+    </div>
   </div>
+  <script is:inline>
+    (function () {
+      var theme = document.documentElement.getAttribute("data-theme") === "light" ? "light" : "dark";
+      var buttons = document.querySelectorAll("[data-theme-value]");
+      for (var i = 0; i < buttons.length; i++) {
+        var button = buttons[i];
+        var on = button.getAttribute("data-theme-value") === theme;
+        button.setAttribute("aria-pressed", on ? "true" : "false");
+        if (button.getAttribute("data-theme-value") === "light") {
+          button.setAttribute("aria-label", on ? "亮色模式，当前使用" : "切换为亮色模式");
+        } else {
+          button.setAttribute("aria-label", on ? "暗色模式，当前使用" : "切换为暗色模式");
+        }
+      }
+    })();
+  </script>
 </header>
