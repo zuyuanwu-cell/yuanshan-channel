@@ -3,48 +3,63 @@
   "name_zh": "中国香港",
   "flag": "🇭🇰",
   "region": "东亚",
-  "difficulty": 2,
-  "summary": "海关消费者保护页可打开。是否须事先注册，本次未核对全文。",
+  "difficulty": 1,
+  "summary": "已打开的官方页未规定普通化妆品上市前注册。不适用其他法例时承担一般安全义务。",
   "items": [
     {
-      "id": "hk-entry",
-      "name_zh": "化妆品监管入口",
+      "id": "hk-safety",
+      "name_zh": "消费品一般安全",
       "authority": "香港海关",
+      "type": "safety",
+      "mandatory": true,
+      "cost": "未知",
+      "time": "未知",
+      "docs": [],
+      "who": "制造商、进口商和供应商",
+      "note": "条例不规定出售前强制安全测试。未被其他法例覆盖的化妆品按一般安全要求管理。",
+      "official_url": "https://www.customs.gov.hk/en/service-enforcement-information/consumer-protection/goods-safety/index.html",
+      "source_checked": "2026-10-24",
+      "needs_review": false
+    },
+    {
+      "id": "hk-warn",
+      "name_zh": "已有安全警示须中英对照",
+      "authority": "香港海关",
+      "type": "label",
+      "mandatory": false,
+      "cost": "未知",
+      "time": "未知",
+      "docs": [],
+      "who": "供应商",
+      "note": "只在产品已标注保存或使用警示时，该警示须中英对照。页面没有把全成分中英标示写成强制。",
+      "official_url": "https://www.info.gov.hk/gia/general/201806/27/P2018062700331.htm",
+      "source_checked": "2026-10-24",
+      "needs_review": false
+    },
+    {
+      "id": "hk-drug",
+      "name_zh": "落入药品定义才须注册",
+      "authority": "卫生署",
       "type": "registration",
       "mandatory": false,
       "cost": "未知",
       "time": "未知",
       "docs": [],
-      "who": "进口商",
-      "note": "只打开了消费者保护入口。没有核对是否免于事先注册。",
-      "official_url": "https://www.customs.gov.hk/en/service-enforcement-information/consumer-protection/index.html",
+      "who": "供应含药或作药品宣称的产品者",
+      "note": "普通化妆品不按此条注册。符合药剂业及毒药条例药品定义的，须先向药剂业及毒药管理局注册。",
+      "official_url": "https://www.info.gov.hk/gia/general/201806/27/P2018062700331.htm",
       "source_checked": "2026-10-24",
-      "needs_review": true
-    },
-    {
-      "id": "hk-hs",
-      "name_zh": "HS 编码与关税",
-      "authority": "目的国海关",
-      "type": "tax-customs",
-      "mandatory": true,
-      "cost": "未知",
-      "time": "未知",
-      "docs": [],
-      "who": "进口商",
-      "note": "链接不是税则。税号和税率未抄录。",
-      "official_url": "https://www.customs.gov.hk/en/service-enforcement-information/consumer-protection/index.html",
-      "source_checked": "2026-10-24",
-      "needs_review": true
+      "needs_review": false
     }
   ],
   "steps": [
     {
-      "title": "核对监管入口",
-      "type": "registration"
+      "title": "一般安全",
+      "type": "safety"
     },
     {
-      "title": "清关",
-      "type": "tax-customs"
+      "title": "药品分界",
+      "type": "registration"
     }
   ],
   "last_verified": "2026-10-24",

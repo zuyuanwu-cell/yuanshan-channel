@@ -4,47 +4,81 @@
   "flag": "🇿🇦",
   "region": "非洲",
   "difficulty": 2,
-  "summary": "卫生部官网已打开，化妆品专页这次没找到。注册和税率都未核实。",
+  "summary": "1972年法令管制化妆品销售与进口。已打开页面未见现行上市前注册。",
   "items": [
     {
-      "id": "za-entry",
-      "name_zh": "化妆品监管入口",
+      "id": "za-act",
+      "name_zh": "化妆品销售与进口管制",
+      "authority": "卫生部",
+      "type": "safety",
+      "mandatory": true,
+      "cost": "未知",
+      "time": "未知",
+      "docs": [],
+      "who": "进口商或销售者",
+      "note": "1972年第54号法令管制化妆品的销售、制造与进口。",
+      "official_url": "https://www.gov.za/documents/foodstuffs-cosmetics-and-disinfectants-act-2-jun-1972-0000",
+      "source_checked": "2026-10-24",
+      "needs_review": false
+    },
+    {
+      "id": "za-label",
+      "name_zh": "标签与广告规章",
+      "authority": "卫生部",
+      "type": "label",
+      "mandatory": true,
+      "cost": "未知",
+      "time": "未知",
+      "docs": [],
+      "who": "销售者",
+      "note": "化学安全页列有经1985年修订的标签与广告规章，正文未打开。",
+      "official_url": "https://www.health.gov.za/eh-prog-chemical-safety/",
+      "source_checked": "2026-10-24",
+      "needs_review": true
+    },
+    {
+      "id": "za-bleach",
+      "name_zh": "铅、汞与美白类禁令",
+      "authority": "卫生部",
+      "type": "safety",
+      "mandatory": true,
+      "cost": "未知",
+      "time": "未知",
+      "docs": [],
+      "who": "制造商或进口商",
+      "note": "同页列有禁止脱色成分、铅、汞及美白类化妆品的规章。",
+      "official_url": "https://www.health.gov.za/eh-prog-chemical-safety/",
+      "source_checked": "2026-10-24",
+      "needs_review": true
+    },
+    {
+      "id": "za-draft",
+      "name_zh": "2017年规章仍是征求意见稿",
       "authority": "卫生部",
       "type": "registration",
       "mandatory": false,
       "cost": "未知",
       "time": "未知",
       "docs": [],
-      "who": "进口商",
-      "note": "化妆品专页返回 404。是否由卫生部管，本次未核对。",
-      "official_url": "https://www.health.gov.za/",
-      "source_checked": "2026-10-24",
-      "needs_review": true
-    },
-    {
-      "id": "za-hs",
-      "name_zh": "HS 编码与关税",
-      "authority": "目的国海关",
-      "type": "tax-customs",
-      "mandatory": true,
-      "cost": "未知",
-      "time": "未知",
-      "docs": [],
-      "who": "进口商",
-      "note": "链接不是税则。税号和税率未抄录。",
-      "official_url": "https://www.health.gov.za/",
+      "who": "不要按草案办理",
+      "note": "该公告是拟议规章，征求意见，不能当成已生效的注册义务。",
+      "official_url": "https://www.gov.za/sites/default/files/gcis_document/201712/41351rg10790gon1469s.pdf",
       "source_checked": "2026-10-24",
       "needs_review": true
     }
   ],
   "steps": [
     {
-      "title": "核对监管入口",
-      "type": "registration"
+      "title": "核对法令",
+      "type": "safety"
     },
     {
-      "title": "清关",
-      "type": "tax-customs"
+      "title": "标签",
+      "type": "label"
+    },
+    {
+      "title": "不要按草案注册",
+      "type": "registration"
     }
   ],
   "last_verified": "2026-10-24",

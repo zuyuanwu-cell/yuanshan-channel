@@ -4,47 +4,51 @@
   "flag": "🇹🇷",
   "region": "中东",
   "difficulty": 2,
-  "summary": "药品医疗器械局首页已打开。能否直接套用欧盟规则，本次未核对。",
+  "summary": "化妆品首次上市前，责任人须经产品追踪系统向药品和医疗器械局通报。",
   "items": [
     {
-      "id": "tr-entry",
-      "name_zh": "化妆品监管入口",
-      "authority": "药品医疗器械局",
+      "id": "tr-uts",
+      "name_zh": "首次上市前经产品追踪系统通报",
+      "authority": "药品和医疗器械局",
       "type": "registration",
-      "mandatory": false,
+      "mandatory": true,
       "cost": "未知",
       "time": "未知",
-      "docs": [],
-      "who": "进口商",
-      "note": "首页可打开。不要直接套用 CPNP，专页未打开。",
-      "official_url": "https://www.titck.gov.tr/",
+      "docs": [
+        "原标签",
+        "无土语时的土语标签",
+        "包装图"
+      ],
+      "who": "责任人",
+      "note": "第5324号法要求首次上市前通报。产品或生产者变更也必须通报。局方不另发已记录文书。",
+      "official_url": "https://www.titck.gov.tr/faaliyetalanlari/kozmetik/bildirim",
       "source_checked": "2026-10-24",
       "needs_review": true
     },
     {
-      "id": "tr-hs",
-      "name_zh": "HS 编码与关税",
-      "authority": "目的国海关",
-      "type": "tax-customs",
+      "id": "tr-label",
+      "name_zh": "无土耳其语时须附土语标签",
+      "authority": "药品和医疗器械局",
+      "type": "label",
       "mandatory": true,
       "cost": "未知",
       "time": "未知",
       "docs": [],
-      "who": "进口商",
-      "note": "链接不是税则。税号和税率未抄录。",
-      "official_url": "https://www.titck.gov.tr/",
+      "who": "责任人",
+      "note": "原标签没有土耳其语信息时，通报须另附土耳其语标签。标签要素清单未在该页展开。",
+      "official_url": "https://www.titck.gov.tr/faaliyetalanlari/kozmetik/bildirim",
       "source_checked": "2026-10-24",
       "needs_review": true
     }
   ],
   "steps": [
     {
-      "title": "核对监管入口",
+      "title": "通报",
       "type": "registration"
     },
     {
-      "title": "清关",
-      "type": "tax-customs"
+      "title": "土语标签",
+      "type": "label"
     }
   ],
   "last_verified": "2026-10-24",

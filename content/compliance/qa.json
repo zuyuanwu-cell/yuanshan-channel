@@ -4,47 +4,62 @@
   "flag": "🇶🇦",
   "region": "中东",
   "difficulty": 2,
-  "summary": "公共卫生部首页已打开。化妆品注册细则和税号未核对。",
+  "summary": "未打开普通化妆品上市前备案页。已打开的服务是药品注册和已注册药妆的变更。",
   "items": [
     {
-      "id": "qa-entry",
-      "name_zh": "化妆品监管入口",
+      "id": "qa-drug",
+      "name_zh": "药品注册不是化妆品备案",
       "authority": "公共卫生部",
       "type": "registration",
       "mandatory": false,
       "cost": "未知",
       "time": "未知",
       "docs": [],
-      "who": "进口商",
-      "note": "官网可打开。是否须事先注册、费用和周期，本次未核对全文。",
-      "official_url": "https://www.moph.gov.qa/",
+      "who": "药品代理人",
+      "note": "该服务注册的是药品，须先有代理人、上市许可持有人和生产场地批准。不能当成普通化妆品路径。",
+      "official_url": "https://www.moph.gov.qa/english/OurServices/advancedsearch/Pages/servicesdetails.aspx?serviceId=198",
       "source_checked": "2026-10-24",
       "needs_review": true
     },
     {
-      "id": "qa-hs",
-      "name_zh": "HS 编码与关税",
-      "authority": "目的国海关",
-      "type": "tax-customs",
-      "mandatory": true,
+      "id": "qa-med",
+      "name_zh": "已注册药妆的变更",
+      "authority": "公共卫生部",
+      "type": "registration",
+      "mandatory": false,
       "cost": "未知",
       "time": "未知",
       "docs": [],
-      "who": "进口商",
-      "note": "链接不是税则。税号和税率未抄录。",
-      "official_url": "https://www.moph.gov.qa/",
+      "who": "已获批准产品的代理人",
+      "note": "页面处理已注册草药、膳食补充剂和药妆的变更。初次药妆注册页未打开。",
+      "official_url": "https://www.moph.gov.qa/english/OurServices/advancedsearch/Pages/servicesdetails.aspx?serviceId=195",
+      "source_checked": "2026-10-24",
+      "needs_review": true
+    },
+    {
+      "id": "qa-gso",
+      "name_zh": "海湾化妆品安全技术法规",
+      "authority": "海合会标准化组织",
+      "type": "safety",
+      "mandatory": false,
+      "cost": "未知",
+      "time": "未知",
+      "docs": [],
+      "who": "经营者",
+      "note": "只打开标准商店的范围句，正文未读。不能写成卡塔尔已经实施的标签或备案义务。",
+      "official_url": "https://www.gso.org.sa/store/standards/GSO:871899/GSO%201943:2024?lang=en",
       "source_checked": "2026-10-24",
       "needs_review": true
     }
   ],
   "steps": [
     {
-      "title": "核对监管入口",
+      "title": "不要把药品注册当成化妆品备案",
       "type": "registration"
     },
     {
-      "title": "清关",
-      "type": "tax-customs"
+      "title": "海湾标准待核",
+      "type": "safety"
     }
   ],
   "last_verified": "2026-10-24",
