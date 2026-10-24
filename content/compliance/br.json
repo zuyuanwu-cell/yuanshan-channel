@@ -95,7 +95,198 @@
   ],
   "last_verified": "2026-10-23",
   "hs_codes": {
-    "status": "pending",
-    "items": []
+    "status": "ready",
+    "items": [
+      {
+        "code": "33030010",
+        "name_zh": "香水",
+        "source_url": "https://portalunico.siscomex.gov.br/classif/#/nomenclatura/tabela"
+      },
+      {
+        "code": "33030020",
+        "name_zh": "淡香水",
+        "source_url": "https://portalunico.siscomex.gov.br/classif/#/nomenclatura/tabela"
+      },
+      {
+        "code": "33041000",
+        "name_zh": "唇部彩妆",
+        "source_url": "https://portalunico.siscomex.gov.br/classif/#/nomenclatura/tabela"
+      },
+      {
+        "code": "33042010",
+        "name_zh": "眼部彩妆",
+        "source_url": "https://portalunico.siscomex.gov.br/classif/#/nomenclatura/tabela"
+      },
+      {
+        "code": "33043000",
+        "name_zh": "美甲产品",
+        "source_url": "https://portalunico.siscomex.gov.br/classif/#/nomenclatura/tabela"
+      },
+      {
+        "code": "33049100",
+        "name_zh": "粉类（散粉/粉饼）",
+        "source_url": "https://portalunico.siscomex.gov.br/classif/#/nomenclatura/tabela"
+      },
+      {
+        "code": "33049910",
+        "name_zh": "面霜/乳液/精华（护肤）",
+        "source_url": "https://portalunico.siscomex.gov.br/classif/#/nomenclatura/tabela"
+      },
+      {
+        "code": "33049990",
+        "name_zh": "防晒",
+        "source_url": "https://portalunico.siscomex.gov.br/classif/#/nomenclatura/tabela"
+      },
+      {
+        "code": "33049990",
+        "name_zh": "卸妆产品",
+        "source_url": "https://portalunico.siscomex.gov.br/classif/#/nomenclatura/tabela"
+      },
+      {
+        "code": "33051000",
+        "name_zh": "洗发水",
+        "source_url": "https://portalunico.siscomex.gov.br/classif/#/nomenclatura/tabela"
+      },
+      {
+        "code": "33059000",
+        "name_zh": "护发素",
+        "source_url": "https://portalunico.siscomex.gov.br/classif/#/nomenclatura/tabela"
+      },
+      {
+        "code": "33059000",
+        "name_zh": "染发剂",
+        "source_url": "https://portalunico.siscomex.gov.br/classif/#/nomenclatura/tabela"
+      },
+      {
+        "code": "33053000",
+        "name_zh": "发胶/定型喷雾",
+        "source_url": "https://portalunico.siscomex.gov.br/classif/#/nomenclatura/tabela"
+      },
+      {
+        "code": "33061000",
+        "name_zh": "牙膏",
+        "source_url": "https://portalunico.siscomex.gov.br/classif/#/nomenclatura/tabela"
+      },
+      {
+        "code": "33069000",
+        "name_zh": "漱口水",
+        "source_url": "https://portalunico.siscomex.gov.br/classif/#/nomenclatura/tabela"
+      },
+      {
+        "code": "33062000",
+        "name_zh": "牙线",
+        "source_url": "https://portalunico.siscomex.gov.br/classif/#/nomenclatura/tabela"
+      },
+      {
+        "code": "33072090",
+        "name_zh": "止汗/香体",
+        "source_url": "https://portalunico.siscomex.gov.br/classif/#/nomenclatura/tabela"
+      },
+      {
+        "code": "33071000",
+        "name_zh": "剃须膏",
+        "source_url": "https://portalunico.siscomex.gov.br/classif/#/nomenclatura/tabela"
+      },
+      {
+        "code": "34013000",
+        "name_zh": "沐浴露",
+        "source_url": "https://portalunico.siscomex.gov.br/classif/#/nomenclatura/tabela"
+      },
+      {
+        "code": "34011190",
+        "name_zh": "香皂（块）",
+        "source_url": "https://portalunico.siscomex.gov.br/classif/#/nomenclatura/tabela"
+      },
+      {
+        "code": "34013000",
+        "name_zh": "液体洗手液",
+        "source_url": "https://portalunico.siscomex.gov.br/classif/#/nomenclatura/tabela"
+      },
+      {
+        "code": "33079000",
+        "name_zh": "脱毛膏",
+        "source_url": "https://portalunico.siscomex.gov.br/classif/#/nomenclatura/tabela"
+      },
+      {
+        "code": "33049990",
+        "name_zh": "面膜（片状）",
+        "source_url": "https://portalunico.siscomex.gov.br/classif/#/nomenclatura/tabela"
+      },
+      {
+        "code": "96032900",
+        "name_zh": "化妆刷",
+        "source_url": "https://portalunico.siscomex.gov.br/classif/#/nomenclatura/tabela"
+      },
+      {
+        "code": "96162000",
+        "name_zh": "化妆海绵/粉扑",
+        "source_url": "https://portalunico.siscomex.gov.br/classif/#/nomenclatura/tabela"
+      },
+      {
+        "code": "67041900",
+        "name_zh": "假睫毛（合成纤维）",
+        "source_url": "https://portalunico.siscomex.gov.br/classif/#/nomenclatura/tabela"
+      },
+      {
+        "code": "85103000",
+        "name_zh": "电动脱毛器",
+        "source_url": "https://portalunico.siscomex.gov.br/classif/#/nomenclatura/tabela"
+      },
+      {
+        "code": "85163200",
+        "name_zh": "美发电器（卷/直发器）",
+        "source_url": "https://portalunico.siscomex.gov.br/classif/#/nomenclatura/tabela"
+      },
+      {
+        "code": "85437099",
+        "name_zh": "电动美容仪（面部）",
+        "source_url": "https://portalunico.siscomex.gov.br/classif/#/nomenclatura/tabela"
+      },
+      {
+        "code": "34025000",
+        "name_zh": "洗衣液",
+        "source_url": "https://portalunico.siscomex.gov.br/classif/#/nomenclatura/tabela"
+      },
+      {
+        "code": "34025000",
+        "name_zh": "柔顺剂/衣物护理",
+        "source_url": "https://portalunico.siscomex.gov.br/classif/#/nomenclatura/tabela"
+      },
+      {
+        "code": "34025000",
+        "name_zh": "洗洁精/洗碗液",
+        "source_url": "https://portalunico.siscomex.gov.br/classif/#/nomenclatura/tabela"
+      },
+      {
+        "code": "34025000",
+        "name_zh": "多用途清洁剂",
+        "source_url": "https://portalunico.siscomex.gov.br/classif/#/nomenclatura/tabela"
+      },
+      {
+        "code": "34025000",
+        "name_zh": "洁厕剂",
+        "source_url": "https://portalunico.siscomex.gov.br/classif/#/nomenclatura/tabela"
+      },
+      {
+        "code": "34025000",
+        "name_zh": "玻璃清洁剂",
+        "source_url": "https://portalunico.siscomex.gov.br/classif/#/nomenclatura/tabela"
+      },
+      {
+        "code": "28289011",
+        "name_zh": "次氯酸盐（漂白水）",
+        "source_url": "https://portalunico.siscomex.gov.br/classif/#/nomenclatura/tabela"
+      },
+      {
+        "code": "28470000",
+        "name_zh": "过氧化氢（氧漂）",
+        "source_url": "https://portalunico.siscomex.gov.br/classif/#/nomenclatura/tabela"
+      },
+      {
+        "code": "34029039",
+        "name_zh": "非零售洗涤/清洁制剂",
+        "source_url": "https://portalunico.siscomex.gov.br/classif/#/nomenclatura/tabela"
+      }
+    ]
   }
 }

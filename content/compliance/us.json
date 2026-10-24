@@ -159,7 +159,242 @@
   ],
   "last_verified": "2026-10-23",
   "hs_codes": {
-    "status": "pending",
-    "items": []
+    "status": "ready",
+    "items": [
+      {
+        "code": "3303003000",
+        "name_zh": "香水",
+        "duty": "Free",
+        "source_url": "https://hts.usitc.gov/search?query=3303.00.30.00"
+      },
+      {
+        "code": "3303003000",
+        "name_zh": "淡香水",
+        "duty": "Free",
+        "source_url": "https://hts.usitc.gov/search?query=3303.00.30.00"
+      },
+      {
+        "code": "3304100000",
+        "name_zh": "唇部彩妆",
+        "duty": "Free",
+        "source_url": "https://hts.usitc.gov/search?query=3304.10.00.00"
+      },
+      {
+        "code": "3304200000",
+        "name_zh": "眼部彩妆",
+        "duty": "Free",
+        "source_url": "https://hts.usitc.gov/search?query=3304.20.00.00"
+      },
+      {
+        "code": "3304300000",
+        "name_zh": "美甲产品",
+        "duty": "Free",
+        "source_url": "https://hts.usitc.gov/search?query=3304.30.00.00"
+      },
+      {
+        "code": "3304910050",
+        "name_zh": "粉类（散粉/粉饼）",
+        "duty": "Free",
+        "source_url": "https://hts.usitc.gov/search?query=3304.91.00.50"
+      },
+      {
+        "code": "3304995000",
+        "name_zh": "面霜/乳液/精华（护肤）",
+        "duty": "Free",
+        "source_url": "https://hts.usitc.gov/search?query=3304.99.50.00"
+      },
+      {
+        "code": "3304995000",
+        "name_zh": "防晒",
+        "duty": "Free",
+        "source_url": "https://hts.usitc.gov/search?query=3304.99.50.00"
+      },
+      {
+        "code": "3304995000",
+        "name_zh": "卸妆产品",
+        "duty": "Free",
+        "source_url": "https://hts.usitc.gov/search?query=3304.99.50.00"
+      },
+      {
+        "code": "3305100000",
+        "name_zh": "洗发水",
+        "duty": "Free",
+        "source_url": "https://hts.usitc.gov/search?query=3305.10.00.00"
+      },
+      {
+        "code": "3305900000",
+        "name_zh": "护发素",
+        "duty": "Free",
+        "source_url": "https://hts.usitc.gov/search?query=3305.90.00.00"
+      },
+      {
+        "code": "3305900000",
+        "name_zh": "染发剂",
+        "duty": "Free",
+        "source_url": "https://hts.usitc.gov/search?query=3305.90.00.00"
+      },
+      {
+        "code": "3305300000",
+        "name_zh": "发胶/定型喷雾",
+        "duty": "Free",
+        "source_url": "https://hts.usitc.gov/search?query=3305.30.00.00"
+      },
+      {
+        "code": "3306100000",
+        "name_zh": "牙膏",
+        "duty": "Free",
+        "source_url": "https://hts.usitc.gov/search?query=3306.10.00.00"
+      },
+      {
+        "code": "3306900000",
+        "name_zh": "漱口水",
+        "duty": "Free",
+        "source_url": "https://hts.usitc.gov/search?query=3306.90.00.00"
+      },
+      {
+        "code": "3306200000",
+        "name_zh": "牙线",
+        "duty": "Free",
+        "source_url": "https://hts.usitc.gov/search?query=3306.20.00.00"
+      },
+      {
+        "code": "3307200000",
+        "name_zh": "止汗/香体",
+        "duty": "4.9%",
+        "source_url": "https://hts.usitc.gov/search?query=3307.20.00.00"
+      },
+      {
+        "code": "3307101000",
+        "name_zh": "剃须膏",
+        "duty": "4.9%",
+        "source_url": "https://hts.usitc.gov/search?query=3307.10.10.00"
+      },
+      {
+        "code": "3401305000",
+        "name_zh": "沐浴露",
+        "duty": "Free",
+        "source_url": "https://hts.usitc.gov/search?query=3401.30.50.00"
+      },
+      {
+        "code": "3401115000",
+        "name_zh": "香皂（块）",
+        "duty": "Free",
+        "source_url": "https://hts.usitc.gov/search?query=3401.11.50.00"
+      },
+      {
+        "code": "3401305000",
+        "name_zh": "液体洗手液",
+        "duty": "Free",
+        "source_url": "https://hts.usitc.gov/search?query=3401.30.50.00"
+      },
+      {
+        "code": "3307900000",
+        "name_zh": "脱毛膏",
+        "duty": "5.4%",
+        "source_url": "https://hts.usitc.gov/search?query=3307.90.00.00"
+      },
+      {
+        "code": "3304995000",
+        "name_zh": "面膜（片状）",
+        "duty": "Free",
+        "source_url": "https://hts.usitc.gov/search?query=3304.99.50.00"
+      },
+      {
+        "code": "9603298090",
+        "name_zh": "化妆刷",
+        "duty": "0.3¢ each + 3.6%",
+        "source_url": "https://hts.usitc.gov/search?query=9603.29.80.90"
+      },
+      {
+        "code": "9616200000",
+        "name_zh": "化妆海绵/粉扑",
+        "duty": "4.3%",
+        "source_url": "https://hts.usitc.gov/search?query=9616.20.00.00"
+      },
+      {
+        "code": "6704190000",
+        "name_zh": "假睫毛（合成纤维）",
+        "duty": "Free",
+        "source_url": "https://hts.usitc.gov/search?query=6704.19.00.00"
+      },
+      {
+        "code": "8510300000",
+        "name_zh": "电动脱毛器",
+        "duty": "4.2%",
+        "source_url": "https://hts.usitc.gov/search?query=8510.30.00.00"
+      },
+      {
+        "code": "8516320040",
+        "name_zh": "美发电器（卷/直发器）",
+        "duty": "3.9%",
+        "source_url": "https://hts.usitc.gov/search?query=8516.32.00.40"
+      },
+      {
+        "code": "8543709860",
+        "name_zh": "电动美容仪（面部）",
+        "duty": "2.6%",
+        "source_url": "https://hts.usitc.gov/search?query=8543.70.98.60"
+      },
+      {
+        "code": "3402505100",
+        "name_zh": "洗衣液",
+        "duty": "Free",
+        "source_url": "https://hts.usitc.gov/search?query=3402.50.51.00"
+      },
+      {
+        "code": "3402505100",
+        "name_zh": "柔顺剂/衣物护理",
+        "duty": "Free",
+        "source_url": "https://hts.usitc.gov/search?query=3402.50.51.00"
+      },
+      {
+        "code": "3402505100",
+        "name_zh": "洗洁精/洗碗液",
+        "duty": "Free",
+        "source_url": "https://hts.usitc.gov/search?query=3402.50.51.00"
+      },
+      {
+        "code": "3402505100",
+        "name_zh": "多用途清洁剂",
+        "duty": "Free",
+        "source_url": "https://hts.usitc.gov/search?query=3402.50.51.00"
+      },
+      {
+        "code": "3402505100",
+        "name_zh": "洁厕剂",
+        "duty": "Free",
+        "source_url": "https://hts.usitc.gov/search?query=3402.50.51.00"
+      },
+      {
+        "code": "3402505100",
+        "name_zh": "玻璃清洁剂",
+        "duty": "Free",
+        "source_url": "https://hts.usitc.gov/search?query=3402.50.51.00"
+      },
+      {
+        "code": "2828900000",
+        "name_zh": "次氯酸盐（漂白水）",
+        "duty": "3.7%",
+        "source_url": "https://hts.usitc.gov/search?query=2828.90.00.00"
+      },
+      {
+        "code": "2847000000",
+        "name_zh": "过氧化氢（氧漂）",
+        "duty": "3.7%",
+        "source_url": "https://hts.usitc.gov/search?query=2847.00.00.00"
+      },
+      {
+        "code": "3402901000",
+        "name_zh": "非零售洗涤/清洁制剂",
+        "duty": "3.8%",
+        "source_url": "https://hts.usitc.gov/search?query=3402.90.10.00"
+      },
+      {
+        "code": "3808945095",
+        "name_zh": "消毒剂",
+        "duty": "5%",
+        "source_url": "https://hts.usitc.gov/search?query=3808.94.50.95"
+      }
+    ]
   }
 }

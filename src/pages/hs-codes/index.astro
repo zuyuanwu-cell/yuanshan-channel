@@ -6,14 +6,23 @@ import { flagImgHtml } from '../../lib/flags';
 import { url } from '../../lib/format';
 
 const data = getHsCodesDataset();
-const countryOrder = ['ru', 'id', 'my', 'th', 'vn', 'ph', 'sg', 'ae', 'sa', 'cn'];
-const countries = countryOrder
-  .filter((cc) => data.countries[cc])
-  .map((cc) => ({
-    code: cc,
-    name: data.countries[cc].name_zh,
-    rows: data.countries[cc].rows,
-  }));
+const preferredCountries = [
+  'cn', 'us', 'uk', 'eu',
+  'de', 'fr', 'es', 'it', 'nl', 'pl',
+  'jp', 'kr', 'au', 'ca', 'br', 'mx', 'in', 'tr', 'za',
+  'ru', 'id', 'my', 'th', 'vn', 'ph', 'sg', 'ae', 'sa',
+];
+const countryOrder = [
+  ...preferredCountries.filter((cc) => data.countries[cc]),
+  ...Object.keys(data.countries)
+    .filter((cc) => !preferredCountries.includes(cc))
+    .sort(),
+];
+const countries = countryOrder.map((cc) => ({
+  code: cc,
+  name: data.countries[cc].name_zh,
+  rows: data.countries[cc].rows,
+}));
 
 const payload = {
   items: data.items.map((it) => ({
@@ -42,11 +51,11 @@ const legendEntries = Object.entries(data.verification_legend);
 const payloadJson = JSON.stringify(payload).replace(/</g, '\\u003c');
 ---
 
-<Base title="海关编码" description="美妆日化各国税则编码与税率，支持按品类、编码、国家搜索。">
+<Base title="海关编码" description="美妆与家清日化各国税则编码与税率，支持按品类、编码、国家搜索。">
   <header class="page-head hs-head">
     <p class="kicker"><a href={url('/compliance')}>← 国家合规速查</a></p>
     <h1>海关编码</h1>
-    <p class="lede">美妆日化 · {data.products_count} 个品类 × {countries.length} 国 · 共 {data.items.length} 条。查不到的税率留空，不编造。</p>
+    <p class="lede">美妆与家清日化 · {data.products_count} 个品类 × {countries.length} 个国家/地区 · 共 {data.items.length} 条。查不到的税率留空，不编造。</p>
   </header>
 
   <div class="hs-browser" data-hs-browser>
@@ -243,10 +252,12 @@ const payloadJson = JSON.stringify(payload).replace(/</g, '\\u003c');
 
     function render() {
       const list = payload.items.filter(matches);
-      countEl.textContent = `共 ${list.length} 条`;
+      const shown = list.slice(0, 400);
+      countEl.textContent =
+        list.length > shown.length ? `共 ${list.length} 条，显示前 ${shown.length} 条` : `共 ${list.length} 条`;
       clearBtn.hidden = !q;
       emptyEl.hidden = list.length > 0;
-      resultsEl.innerHTML = list.slice(0, 220).map(card).join('');
+      resultsEl.innerHTML = shown.map(card).join('');
       resultsEl.querySelectorAll('[data-hs-card]').forEach((el) => {
         if (reduceMotion) el.classList.add('is-in');
         else {

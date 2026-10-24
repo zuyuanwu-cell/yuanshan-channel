@@ -1,50 +1,90 @@
-# 美妆日化海关编码数据集（HS / 本国税号）
+# 美妆与家清日化海关编码数据集（HS / 本国税号）
 
-面向「同舟跨境·远山频道」合规页与内容维护。**禁止编造税号或税率**；核验不了的字段保持空，并在 `other_tax_notes` 说明。
+面向「同舟跨境·远山频道」合规页与海关编码搜索。**禁止编造税号或税率**。官方来源没有读到的字段留空，并在 `other_tax_notes` 说明。
 
 ## 文件
 
 | 文件 | 说明 |
 | --- | --- |
-| `beauty.json` | 权威数据集（含全部字段与核验状态） |
-| `beauty.csv` | 同上表格版，便于 Excel 打开 |
-| 本 README | 更新流程 |
+| `beauty.json` | 权威数据集。文件名仍是 beauty.json，内容已包括家清。 |
+| `beauty.csv` | 同上表格版 |
+| 本 README | 覆盖范围、欧盟同步口径、缺口 |
 
-工作区完整产物（xlsx、原始抓取）在 agent 侧 `/workspace/hs-codes/`，**不入库**。
+版本 2026-10-24。品类 40 个，国家/地区 44 个，记录 1626 条。
 
-## 覆盖国家
+## 品类
 
-`ru` 俄罗斯/EAEU、`id` 印尼、`my` 马来、`th` 泰国、`vn` 越南、`ph` 菲律宾、`sg` 新加坡、`ae` 阿联酋、`sa` 沙特、`cn` 中国出口侧（退税率）。
+原有美妆个护 29 个品类都保留。本次新增家清：
 
-泰国目前为 **code_only**（AHTN 8 位可展示，MFN 关税未从泰国 ITD 核验）。中国仅在本数据集，无单独 `/compliance/cn` 页。
+- 洗衣液
+- 柔顺剂/衣物护理
+- 洗洁精/洗碗液
+- 多用途清洁剂
+- 洁厕剂
+- 玻璃清洁剂
+- 家用漂白制剂
+- 次氯酸盐（漂白水）
+- 过氧化氢（氧漂）
+- 非零售洗涤/清洁制剂
+- 消毒剂
 
-## `verification` 取值
+洗衣液一行覆盖零售洗涤剂。粉和凝珠如果税则没有分开，就写在备注里，不另造编码。
+家用漂白制剂只在加拿大税则有对应统计项，其他国家不单列。
+次氯酸盐和过氧化氢是化学本项，配成清洁剂或消毒剂后可能改归 3402 或 3808，备注里写了。
 
-- `verified_official`：官方税则/海关站点
+## 欧盟口径
+
+欧盟成员国共用组合命名和 TARIC。数据集保留一条 `eu`（欧盟），并把同一 10 位 TARIC 编码、同一第三国关税复制到各成员国，方便按 `de`、`fr` 这类国家码搜索，也方便合规页 `?country=` 对上。
+复制过去的税率是欧盟第三国关税，不是成员国加征的关税。增值税各国不同，这次没有逐国抄，成员国行里增值税为空。
+英国脱欧后用自己的全球关税，单独从 UK Trade Tariff API 读取，不抄欧盟税率。API 里对不上的 10 位编码就不建英国行。
+
+## 这次核对过的官方来源
+
+- 欧盟 TARIC 命名树和第三国关税措施（措施类型 103，erga omnes），参考日 2026-10-24
+- 英国 UK Trade Tariff API
+- 美国 USITC HTS `exportList`，税率用 General 栏；对华 Chapter 99 附加税没有逐条打开
+- 日本海关税则英文表，2026-04-01。General、Temporary、WTO 都能读成单一从价或 Free 时，取较低者作为对 WTO 成员的进口关税；中国 RCEP 栏能读成单一税率才写入 `fta_china`
+- 加拿大 CBSA 2026 海关税则 MFN
+- 澳大利亚 ABF Schedule 3 一般税率
+- 巴西外贸单一门户 NCM 公开下载（注明 2026-10-23）。只有编码，没有 TEC，所以巴西税率留空，`verification` 为 `code_only`
+- 新加坡海关 Duties and Dutiable Goods Overview（页面更新 2026-03-09）。应税类别是酒、烟、机动车、石油及生物柴油混合物，家清不在其中，关税记 0%。8 位编码没有抄，所以新加坡新品类没有 `national_code`，也不会进合规页列表
+
+## 已有本国编码的家清（洗衣液）
+
+at、au、be、bg、br、ca、cy、cz、de、dk、ee、es、eu、fi、fr、gr、hr、hu、ie、it、jp、lt、lu、lv、mt、nl、pl、pt、ro、se、si、sk、uk、us
+
+## 合规页里还没有洗衣液本国编码的市场
+
+这些市场要么完全没有本数据集记录，要么只有原来的美妆编码、没有家清本国编码。不补假编码。
+
+ae、am、ar、az、bd、bh、bn、by、ch、cl、cn、co、cr、ec、eg、hk、id、in、is、jo、ke、kg、kh、kp、kr、kz、la、lk、ma、md、mn、mo、mx、my、ng、no、nz、om、pa、pe、ph、qa、rs、ru、sa、sg、th、tj、tm、tr、tw、tz、ua、uy、uz、vn、za
+
+新加坡洗衣液只有 HS6 和关税 0%，没有 8 位编码，所以算在上面的缺口里。
+
+## 明确没做的事
+
+- 没有从博客、关税代理站或商品页抄编码和税率。
+- 阿联酋、沙特已有美妆行仍用原来的 GCC 记录；这次没有把家清写进 GCC 税则，因为没有把那份 PDF 逐行核完。
+- 菲律宾、马来西亚、印尼、越南、泰国、俄罗斯/EAEU、中国出口退税的家清编码，这次没有打开到可引用的官方税则行，保持缺口。原有 29 个美妆品类不动。
+- 巴西消毒剂有多条 Outros，没有选定其中一条。
+- 日本 3307.90（脱毛膏所在剩余项）的 WTO 栏是区间，进口关税留空。
+
+## `verification`
+
+- `verified_official`：官方税则或海关站点
 - `verified_secondary`：权威汇编或官方镜像
-- `code_only`：仅编码确认、税率未核验
+- `code_only`：编码来自官方命名，税率没有核到单一数字
 - `unverified`：未核验
 
-## 如何更新
+## 同步到合规页
 
-1. 用免费官方源核验目标国税率（菲律宾 Tariff Finder、马来 JKDM ezHS、印尼 PMK/BTKI、新加坡海关、GCC 统一税则 PDF、越南法令汇编、EAEU ТН ВЭД、中国 hsbianma/税务总局退税率文库等）。
-2. 在 agent 工作区跑重建脚本，或直接改 `beauty.json` 对应行的 `national_code` / `import_duty` / `source_url` / `verification` / `verified_date`。
-3. 同步写入各 `content/compliance/<cc>.json` 的 `hs_codes`（见下方同步规则）。
-4. `npm run validate:content` → 提交 `main`（宝塔约 5 分钟拉 `deploy`）。
+`hs_codes.status`：该国至少有一条带 `national_code` 的记录时为 `ready`，否则保持 `pending`。
+每条 `items[]` 只有 `code`、`name_zh`，税率核到了才加 `duty`，并带 `source_url`。税率空着就不写 `duty`。
+新加坡家清没有本国延伸码，不写入合规页列表。搜索页仍能看到 HS6 和关税 0%。
+欧盟成员国合规页写入与 `eu` 相同的 TARIC 编码和第三国关税。
 
-### 同步到合规页
-
-`hs_codes.status`：有可用 `national_code` 的条目时设为 `ready`，否则 `pending`。
-
-每条 `hs_codes.items[]`：
-
-```json
-{ "code": "33049930", "name_zh": "面霜/乳液/精华（护肤）", "duty": "15%", "source_url": "https://..." }
-```
-
-- `duty`：进口 MFN；中国出口侧可写 `退税 13%`。
-- 税率未核验时省略 `duty`，不要填猜测值。
+中国出口侧原来的 29 条仍在数据集里，并同步到 `content/compliance/cn.json`。新品类的出口退税率没有核，不新增。
 
 ## 声明
 
-税率随法令变更；通关以目的国海关归类与原产地证书为准。本数据集仅供卖家初筛参考。
+税率和统计后缀会改。零售洗涤剂、柔顺剂、洁厕剂、漂白水经常共用一个子目，成分或包装一变就可能改归。通关以目的国海关归类为准。本数据集只供初筛。
