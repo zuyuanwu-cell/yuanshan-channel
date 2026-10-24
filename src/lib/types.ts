@@ -335,6 +335,74 @@ export interface AboutPage {
 }
 
 export type ComplianceType = 'local-rep' | 'registration' | 'safety' | 'testing' | 'label' | 'packaging' | 'marking' | 'halal' | 'platform' | 'tax-customs';
+
+export type DocLayout =
+  | 'letter'
+  | 'table'
+  | 'label'
+  | 'lab'
+  | 'certificate'
+  | 'report'
+  | 'dossier'
+  | 'form'
+  | 'platform'
+  | 'marking'
+  | 'receipt';
+
+export type DocTemplateGroup = '委托与主体' | '配方与标签' | '检测与证明' | '登记与平台';
+
+export interface DocSpecimenField {
+  id?: string;
+  role?: string;
+  label?: string;
+  name?: string;
+  value?: string;
+}
+
+export interface DocSpecimen {
+  kicker?: string;
+  title: string;
+  titleEn?: string;
+  refLabel?: string;
+  ref?: string;
+  refId?: string;
+  issuer?: string;
+  subtitle?: string;
+  coverId?: string;
+  paragraphs?: string[];
+  parties?: DocSpecimenField[];
+  rows?: DocSpecimenField[];
+  columns?: string[];
+  table?: string[][];
+  tableField?: string;
+  checks?: string[];
+  signs?: DocSpecimenField[];
+  stamp?: string;
+  qrCaption?: string;
+  footer?: string;
+  callout?: string;
+  calloutId?: string;
+  chips?: DocSpecimenField[];
+}
+
+export interface DocTemplate {
+  id: string;
+  name_zh: string;
+  summary: string;
+  group: DocTemplateGroup;
+  layout: DocLayout;
+  priority: number;
+  preferTypes?: ComplianceType[];
+  aliases: string[];
+  highlights?: { alias: string; field: string }[];
+  specimen: DocSpecimen;
+}
+
+export interface DocCatalog {
+  disclaimer: string;
+  badge: string;
+  templates: DocTemplate[];
+}
 export interface ComplianceItem {
   id: string; name_zh: string; authority: string; type: ComplianceType; mandatory: boolean;
   cost: string; time: string; docs: string[]; who: string; note?: string;

@@ -1,0 +1,100 @@
+---
+import ComplianceViewSwitch from '../../components/ComplianceViewSwitch.astro';
+import DocPreviewDialog from '../../components/DocPreviewDialog.astro';
+import ServiceHint from '../../components/ServiceHint.astro';
+import Base from '../../layouts/Base.astro';
+import { getCompliance } from '../../lib/content';
+import { getDocCatalog, matchDoc } from '../../lib/doc-templates';
+import { url } from '../../lib/format';
+
+const catalog = getDocCatalog();
+const groups = ['委托与主体', '配方与标签', '检测与证明', '登记与平台'] as const;
+const counts = new Map<string, number>();
+for (const country of getCompliance()) {
+  for (const item of country.items) {
+    for (const doc of item.docs) {
+      const hit = matchDoc(doc, item.type);
+      if (!hit) continue;
+      counts.set(hit.id, (counts.get(hit.id) ?? 0) + 1);
+    }
+  }
+}
+---
+
+<Base
+  title="材料样式"
+  description="授权书、成分表、标签、检测报告这些材料的填写样例，用来看文件大概长什么样。"
+  crumbs={[
+    { name: '首页', href: '/' },
+    { name: '合规', href: '/compliance' },
+    { name: '材料样式', href: '/compliance/templates' },
+  ]}
+>
+  <header class="page-head">
+    <p class="kicker"><a href={url('/compliance')}>← 国家合规速查</a></p>
+    <h1>材料样式</h1>
+    <p class="lede">{catalog.disclaimer}</p>
+    <div class="cc-head-links">
+      <ComplianceViewSwitch />
+    </div>
+  </header>
+
+  <div data-doc-browser>
+    <div class="filters scroll-x" role="group" aria-label="样式分类">
+      <button type="button" class="chip" data-doc-group="all" aria-pressed="true">全部</button>
+      {groups.map((group) => (
+        <button type="button" class="chip" data-doc-group={group} aria-pressed="false">{group}</button>
+      ))}
+    </div>
+    <div class="doc-kind-grid">
+      {catalog.templates.map((template) => {
+        const used = counts.get(template.id) ?? 0;
+        return (
+          <article class="doc-kind card" data-doc-group={template.group}>
+            <span class="pill pill-teal">{template.group}</span>
+            <h2>{template.name_zh}</h2>
+            <p>{template.summary}</p>
+            <p class="doc-kind-alias">常见叫法：{template.aliases.slice(0, 4).join('、')}</p>
+            <p class="doc-kind-alias">{used > 0 ? `各国清单里出现 ${used} 次` : '清单里还没写到，可先看版式'}</p>
+            <button
+              type="button"
+              class="doc-kind-open"
+              data-doc-preview={template.id}
+              data-doc-kind={template.name_zh}
+              aria-haspopup="dialog"
+              aria-label={`预览${template.name_zh}的样式示意`}
+            >
+              看样式
+            </button>
+          </article>
+        );
+      })}
+    </div>
+  </div>
+
+  <ServiceHint
+    layout="band"
+    title="这些样式要对成你的材料？"
+    text="同舟跨境有化妆品工厂，可以按目的国清单帮你把授权、成分、标签和检测这些材料理一理。"
+    points={['对照清单看缺什么', '按品类整理材料', '衔接生产和出口']}
+    note="不代办平台入驻，也不替代官方文本或法律意见。"
+    cta="聊聊材料"
+    prefill="我想按材料样式准备某个市场的上市资料。"
+  />
+  <DocPreviewDialog syncUrl />
+</Base>
+
+<script>
+  const root = document.querySelector<HTMLElement>('[data-doc-browser]');
+  root?.querySelectorAll<HTMLButtonElement>('button[data-doc-group]').forEach((btn) => {
+    btn.addEventListener('click', () => {
+      const group = btn.dataset.docGroup;
+      root.querySelectorAll<HTMLButtonElement>('button[data-doc-group]').forEach((item) => {
+        item.setAttribute('aria-pressed', String(item === btn));
+      });
+      root.querySelectorAll<HTMLElement>('article[data-doc-group]').forEach((card) => {
+        card.hidden = group !== 'all' && card.dataset.docGroup !== group;
+      });
+    });
+  });
+</script>

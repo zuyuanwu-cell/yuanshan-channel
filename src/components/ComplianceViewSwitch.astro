@@ -2,11 +2,18 @@
 import { stripBase, url } from '../lib/format';
 
 const path = stripBase(Astro.url.pathname).replace(/\/$/, '') || '/';
-const current = path === '/compliance/compare' ? 'compare' : path === '/compliance/map' ? 'map' : 'grid';
+const current = path === '/compliance/compare'
+  ? 'compare'
+  : path === '/compliance/map'
+    ? 'map'
+    : path === '/compliance/templates'
+      ? 'templates'
+      : 'grid';
 const views = [
   { id: 'grid', href: '/compliance', label: '图标' },
   { id: 'compare', href: '/compliance/compare', label: '横向对比' },
   { id: 'map', href: '/compliance/map', label: '地图' },
+  { id: 'templates', href: '/compliance/templates', label: '材料样式' },
 ];
 ---
 

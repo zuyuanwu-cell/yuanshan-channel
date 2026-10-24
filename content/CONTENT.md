@@ -16,6 +16,7 @@
 | `assets/` | 可选图片，页面里用 `/media/文件名` |
 | `schemas/` | 校验合同。每日更新不要改 schema |
 | `datasets/hs-codes/` | 美妆与家清日化海关编码（含洗衣液等）；同步到各国 `compliance/<cc>.json` 的 `hs_codes` |
+| `datasets/doc-templates.json` | 材料样式。国家页 `docs` 里的名称按 `aliases` 对上一种样式 |
 
 ### 首页动效卡片
 
@@ -111,6 +112,20 @@
 | `reviews_count` | 页面评价数，数字或原文；写了它就要有 `rating` |
 
 页面上没有的销量、评分、评价数不要写，更不能估算。`title_zh` 是翻译，不要加原文没有的卖点。
+
+### 材料样式
+
+`content/datasets/doc-templates.json` 决定国家合规页「看样式」打开哪一张。页面上的章、编号、含量都是示例，不是官方空白表。
+
+已有版式不用改页面。新增一种样式：
+
+1. 在 `templates` 里复制一条。`id` 用小写连字符，不能重复。
+2. `layout` 只用现在有的：`letter` 信函、`table` 表格、`label` 标签、`lab` 检测报告、`certificate` 证书、`report` 评估或标准、`dossier` 档案封面、`form` 表格、`platform` 后台格子、`marking` 赋码、`receipt` 回执。
+3. `aliases` 写材料清单里会出现的叫法。写得越完整越优先，「品牌授权书」会压过「授权书」。同一个别名不要放进两种样式。
+4. `highlights` 可选。`field` 必须是这条 `specimen` 里已有的 `id`，或 `refId`、`coverId`、`tableField`、`calloutId`。点开时那一格会亮一下。
+5. 样张只用「示例品牌」「示例公司」和虚构编号。不要写真实税率、真实文号，也不要写成某国官方表格。
+
+要新的版式，才改 `src/components/DocSpecimen.astro`。日常只改这份 JSON，然后跑 `npm run validate:content`。
 
 ## 禁止编造
 

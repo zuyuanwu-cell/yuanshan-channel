@@ -1,0 +1,905 @@
+{
+  "disclaimer": "这些是样式示意和填写样例，用来看材料大概长什么样。不是官方空白表，不能提交，也不能代替法律意见或监管原文。",
+  "badge": "样式示意",
+  "templates": [
+    {
+      "id": "authorization",
+      "name_zh": "授权书 / 委任书",
+      "summary": "品牌写给当地公司的一页纸，写清产品、能办什么、做到哪天。",
+      "group": "委托与主体",
+      "layout": "letter",
+      "priority": 80,
+      "preferTypes": ["local-rep", "registration", "platform"],
+      "aliases": ["授权书", "品牌授权书", "厂商授权书", "委托协议", "RP 委托协议", "委任书", "委托书", "授权委托书"],
+      "highlights": [
+        { "alias": "委托协议", "field": "grantee" },
+        { "alias": "授权书", "field": "scope" },
+        { "alias": "委任书", "field": "scope" }
+      ],
+      "specimen": {
+        "kicker": "示例品牌 · EXAMPLE BRAND",
+        "title": "授权书",
+        "titleEn": "LETTER OF AUTHORIZATION",
+        "refLabel": "编号",
+        "ref": "LOA-EX-2026-001",
+        "paragraphs": ["授权被授权人就下列产品办理进口、备案和合规销售。授权不是把品牌卖掉。"],
+        "parties": [
+          { "id": "grantor", "role": "授权人", "name": "示例品牌出品方" },
+          { "id": "grantee", "role": "被授权人", "name": "示例本地公司" }
+        ],
+        "rows": [
+          { "id": "product", "label": "产品", "value": "示例品牌 保湿精华 30 ml" },
+          { "id": "scope", "label": "范围", "value": "备案、进口与销售" },
+          { "id": "market", "label": "市场", "value": "以所在国家页为准" },
+          { "id": "term", "label": "期限", "value": "2026-01-01 至 2027-12-31（示例）" }
+        ],
+        "signs": [{ "role": "授权人签字", "name": "示例品牌" }],
+        "stamp": "示例章",
+        "footer": "落款要有签字和公司章。市场、期限写具体，不要只写“全球”。"
+      }
+    },
+    {
+      "id": "local-rep",
+      "name_zh": "本地代表委托",
+      "summary": "指定当地公司当联系人。纸上要有双方名称、地址和负责的产品。",
+      "group": "委托与主体",
+      "layout": "letter",
+      "priority": 65,
+      "preferTypes": ["local-rep"],
+      "aliases": ["美国代理人（境外工厂）", "代理人", "欧盟经营者联系信息", "经营者", "RP 信息", "本地代表"],
+      "highlights": [
+        { "alias": "代理人", "field": "rep" },
+        { "alias": "经营者", "field": "rep" },
+        { "alias": "RP 信息", "field": "rep" },
+        { "alias": "本地代表", "field": "rep" }
+      ],
+      "specimen": {
+        "kicker": "示例品牌 · EXAMPLE BRAND",
+        "title": "代表委托书",
+        "titleEn": "APPOINTMENT OF REPRESENTATIVE",
+        "refLabel": "编号",
+        "ref": "RP-EX-2026-004",
+        "paragraphs": ["委托受托方作为本地联系人，配合备案、通关和监管问询。具体国家以你看的那一页为准。"],
+        "parties": [
+          { "id": "brand", "role": "委托方", "name": "示例品牌出品方" },
+          { "id": "rep", "role": "受托方", "name": "示例本地公司" }
+        ],
+        "rows": [
+          { "id": "address", "label": "地址", "value": "示例市示例路 88 号" },
+          { "id": "product", "label": "产品", "value": "示例品牌 保湿精华，护肤类" },
+          { "id": "term", "label": "期限", "value": "签署日起两年（示例）" }
+        ],
+        "signs": [{ "role": "委托方签字", "name": "示例品牌" }],
+        "stamp": "示例章",
+        "footer": "名称和地址通常还要印到标签上。这页只示意委托信本身。"
+      }
+    },
+    {
+      "id": "license",
+      "name_zh": "公司注册证明",
+      "summary": "公司还在、叫什么、注册号是多少。不是中国营业执照的原件。",
+      "group": "委托与主体",
+      "layout": "certificate",
+      "priority": 60,
+      "preferTypes": ["local-rep", "registration"],
+      "aliases": ["阿联酋营业执照", "营业执照", "公司注册证明", "公司注册", "营业登记", "商业登记", "SSM 公司注册", "资本证明"],
+      "highlights": [
+        { "alias": "资本证明", "field": "capital" },
+        { "alias": "营业执照", "field": "number" },
+        { "alias": "公司注册", "field": "number" },
+        { "alias": "营业登记", "field": "number" },
+        { "alias": "商业登记", "field": "number" }
+      ],
+      "specimen": {
+        "kicker": "填写样例",
+        "title": "公司注册证明",
+        "titleEn": "COMPANY REGISTRATION",
+        "issuer": "示例登记机关（虚构）",
+        "refLabel": "注册号",
+        "ref": "CR-EX-240188",
+        "refId": "number",
+        "subtitle": "示例本地公司",
+        "rows": [
+          { "id": "holder", "label": "名称", "value": "示例本地公司" },
+          { "id": "capital", "label": "资本", "value": "以登记机关记载为准" },
+          { "id": "address", "label": "地址", "value": "示例市示例路 88 号" },
+          { "id": "scope", "label": "范围", "value": "化妆品批发与进口（示例）" }
+        ],
+        "stamp": "示例章",
+        "qrCaption": "核验码位置",
+        "callout": "不是中国营业执照，也不是任何国家的公司注册官文。",
+        "footer": "资本、地址以登记摘录为准。这里不抄真实注册号。"
+      }
+    },
+    {
+      "id": "company",
+      "name_zh": "企业信息页",
+      "summary": "工厂、公司和仓库怎么填。一页对得上名称、地址和负责人。",
+      "group": "委托与主体",
+      "layout": "form",
+      "priority": 50,
+      "preferTypes": ["local-rep", "registration"],
+      "aliases": ["工厂名称地址", "工厂信息", "厂商信息", "企业信息", "本地公司信息", "生产与进口信息", "营业资料", "法定代表人文件", "技术负责人", "仓储场所"],
+      "highlights": [
+        { "alias": "工厂名称地址", "field": "factory" },
+        { "alias": "工厂信息", "field": "factory" },
+        { "alias": "仓储场所", "field": "warehouse" },
+        { "alias": "技术负责人", "field": "tech" },
+        { "alias": "法定代表人", "field": "legal" },
+        { "alias": "生产与进口", "field": "factory" },
+        { "alias": "厂商信息", "field": "name" },
+        { "alias": "企业信息", "field": "name" },
+        { "alias": "本地公司", "field": "name" },
+        { "alias": "营业资料", "field": "name" }
+      ],
+      "specimen": {
+        "kicker": "填写样例",
+        "title": "企业信息",
+        "titleEn": "COMPANY INFORMATION",
+        "subtitle": "示例化妆品有限公司",
+        "rows": [
+          { "id": "name", "label": "公司名称", "value": "示例化妆品有限公司" },
+          { "id": "address", "label": "注册地址", "value": "示例市示例路 88 号" },
+          { "id": "legal", "label": "法定代表人", "value": "示例（职务：法定代表人）" },
+          { "id": "tech", "label": "技术负责人", "value": "示例（职务：质量）" },
+          { "id": "factory", "label": "工厂", "value": "示例工厂，示例市工业路 1 号" },
+          { "id": "warehouse", "label": "仓储", "value": "示例仓，示例市物流路 6 号" }
+        ],
+        "footer": "名称和地址要和注册证明、标签上的写法一致。"
+      }
+    },
+    {
+      "id": "permit",
+      "name_zh": "经营许可",
+      "summary": "允许这家公司做化妆品生意的那张许可。各国名字不一样。",
+      "group": "委托与主体",
+      "layout": "certificate",
+      "priority": 62,
+      "preferTypes": ["registration", "local-rep"],
+      "aliases": ["地方卫生许可", "卫生许可", "AFE", "LTO", "LTO 号"],
+      "highlights": [
+        { "alias": "卫生许可", "field": "number" },
+        { "alias": "AFE", "field": "number" },
+        { "alias": "LTO", "field": "number" }
+      ],
+      "specimen": {
+        "kicker": "填写样例",
+        "title": "经营许可",
+        "titleEn": "OPERATING PERMIT",
+        "issuer": "示例主管机关（虚构）",
+        "refLabel": "许可号",
+        "ref": "OP-EX-5521",
+        "refId": "number",
+        "subtitle": "示例本地公司",
+        "rows": [
+          { "id": "holder", "label": "持有人", "value": "示例本地公司" },
+          { "id": "scope", "label": "范围", "value": "化妆品进口与批发（示例）" },
+          { "id": "site", "label": "场所", "value": "示例市示例路 88 号" }
+        ],
+        "stamp": "示例章",
+        "qrCaption": "核验码位置",
+        "callout": "各国许可名称不同。这不是药监、市政或海关的正式许可。"
+      }
+    },
+    {
+      "id": "qualification",
+      "name_zh": "人员资质",
+      "summary": "质量或安全负责人的资格说明。看姓名、岗位和证书栏。",
+      "group": "委托与主体",
+      "layout": "certificate",
+      "priority": 60,
+      "preferTypes": ["local-rep"],
+      "aliases": ["责任销售管理人资质", "管理人资质", "资质"],
+      "highlights": [
+        { "alias": "管理人资质", "field": "cert" },
+        { "alias": "资质", "field": "cert" }
+      ],
+      "specimen": {
+        "kicker": "填写样例",
+        "title": "人员资质",
+        "titleEn": "PERSONNEL QUALIFICATION",
+        "issuer": "示例培训机构（虚构）",
+        "refLabel": "编号",
+        "ref": "PQ-EX-018",
+        "subtitle": "不代表任何协会已发证",
+        "rows": [
+          { "id": "person", "label": "姓名", "value": "示例" },
+          { "id": "role", "label": "岗位", "value": "质量 / 安全负责人" },
+          { "id": "cert", "label": "说明", "value": "完成化妆品质量培训（示例）" }
+        ],
+        "stamp": "示例章",
+        "callout": "正式材料要能对上这个人的真实资格。这里的姓名是虚的。"
+      }
+    },
+    {
+      "id": "notary",
+      "name_zh": "公证声明",
+      "summary": "公证人证明“这份签字是当面签的”。通常钉在授权书后面。",
+      "group": "委托与主体",
+      "layout": "letter",
+      "priority": 70,
+      "preferTypes": ["local-rep", "registration"],
+      "aliases": ["公证人声明", "公证"],
+      "highlights": [{ "alias": "公证", "field": "notary" }],
+      "specimen": {
+        "kicker": "示例公证处（虚构）",
+        "title": "公证声明",
+        "titleEn": "NOTARIAL STATEMENT",
+        "refLabel": "卷宗",
+        "ref": "NOT-EX-077",
+        "paragraphs": ["兹说明所附文件上的签字，是示例签字人在示例日期所签。这句话是虚构的，不是公证词。"],
+        "rows": [
+          { "id": "statement", "label": "所附文件", "value": "示例品牌授权书 LOA-EX-2026-001" },
+          { "id": "notary", "label": "公证人", "value": "示例公证员（虚构）" }
+        ],
+        "signs": [{ "role": "公证人", "name": "示例公证员" }],
+        "stamp": "示例章",
+        "footer": "各国公证格式差很多。不要拿这页去公证处盖章。"
+      }
+    },
+    {
+      "id": "contract",
+      "name_zh": "合同封面",
+      "summary": "比如包装回收合同。看双方、做什么、钱不写死。",
+      "group": "委托与主体",
+      "layout": "letter",
+      "priority": 60,
+      "preferTypes": ["packaging"],
+      "aliases": ["回收系统合同", "回收系统", "合同"],
+      "highlights": [
+        { "alias": "回收系统", "field": "scope" },
+        { "alias": "合同", "field": "scope" }
+      ],
+      "specimen": {
+        "kicker": "示例品牌 · EXAMPLE BRAND",
+        "title": "合同封面",
+        "titleEn": "AGREEMENT COVER",
+        "refLabel": "合同号",
+        "ref": "CT-EX-2026-3",
+        "paragraphs": ["双方约定由回收组织处理示例品牌的包装回收登记。费用以正式合同为准，这里不写金额。"],
+        "parties": [
+          { "id": "brand", "role": "品牌", "name": "示例化妆品有限公司" },
+          { "id": "org", "role": "对方", "name": "示例回收组织（虚构）" }
+        ],
+        "rows": [
+          { "id": "scope", "label": "事项", "value": "包装回收登记与申报配合" },
+          { "id": "term", "label": "期限", "value": "一年，到期可续（示例）" }
+        ],
+        "signs": [{ "role": "双方签字", "name": "示例品牌 / 示例组织" }],
+        "stamp": "示例章"
+      }
+    },
+    {
+      "id": "ingredient",
+      "name_zh": "成分表 / 配方",
+      "summary": "INCI 从高到低排。有的市场还要百分数和原料功能。",
+      "group": "配方与标签",
+      "layout": "table",
+      "priority": 70,
+      "preferTypes": ["registration", "safety", "testing"],
+      "aliases": ["成分", "全成分", "成分表", "成分（降序）", "成分及功能", "成分及浓度", "成分声明", "成分与用途说明", "配方", "定性配方", "框架配方", "配方或全成分", "配方与INCI", "INCI配方", "INCI 成分表", "INCI", "全成分及浓度", "浓度", "配方逐项比对附件 II–VI", "配方逐项比对"],
+      "highlights": [
+        { "alias": "成分", "field": "inci" },
+        { "alias": "配方", "field": "inci" },
+        { "alias": "INCI", "field": "inci" },
+        { "alias": "浓度", "field": "inci" }
+      ],
+      "specimen": {
+        "kicker": "填写样例",
+        "title": "成分表",
+        "titleEn": "INGREDIENT LIST",
+        "subtitle": "示例品牌 保湿精华 30 ml",
+        "columns": ["序号", "INCI", "中文名", "含量", "功能"],
+        "table": [
+          ["1", "AQUA", "水", "余量", "溶剂"],
+          ["2", "GLYCERIN", "甘油", "5%", "保湿"],
+          ["3", "NIACINAMIDE", "烟酰胺", "3%", "调理"],
+          ["4", "PHENOXYETHANOL", "苯氧乙醇", "0.5%", "防腐"],
+          ["5", "PARFUM", "香精", "0.2%", "香料"]
+        ],
+        "tableField": "inci",
+        "callout": "含量是示例。有的市场要百分数，有的只要 INCI 从高到低。",
+        "footer": "香精、防腐和着色剂有的市场要单独标。以那个国家的清单为准。"
+      }
+    },
+    {
+      "id": "label",
+      "name_zh": "标签样张",
+      "summary": "正反面样张。看品名、净含量、成分、批号、条码印在哪。",
+      "group": "配方与标签",
+      "layout": "label",
+      "priority": 60,
+      "preferTypes": ["label", "packaging"],
+      "aliases": ["标签", "图稿", "设计稿", "包装照片", "包装图", "包装品牌名", "产品图片", "产品标识与图片", "俄语名称用途", "阿拉伯语信息", "当地语言用途与警示", "用途/用法/警示用印尼语", "西语品名与用途", "品名与用途", "品名与品牌", "商品名", "产品名称", "批号", "有效期", "保质期", "净含量", "警示语", "用法", "用途", "原产国", "条码", "EAC 标志", "责任人名称地址", "责任人名称住所", "制造商与进口商", "制造销售业者名称地址", "责任销售业者", "RP 名称地址"],
+      "highlights": [
+        { "alias": "标签图片", "field": "shot" },
+        { "alias": "标签设计", "field": "shot" },
+        { "alias": "标签样稿", "field": "shot" },
+        { "alias": "原标签", "field": "shot" },
+        { "alias": "样稿", "field": "shot" },
+        { "alias": "设计稿", "field": "shot" },
+        { "alias": "图稿", "field": "shot" },
+        { "alias": "包装照片", "field": "shot" },
+        { "alias": "包装图", "field": "shot" },
+        { "alias": "产品图片", "field": "shot" },
+        { "alias": "图片", "field": "shot" },
+        { "alias": "包装品牌名", "field": "brand" },
+        { "alias": "品牌", "field": "brand" },
+        { "alias": "西语品名", "field": "name" },
+        { "alias": "品名", "field": "name" },
+        { "alias": "商品名", "field": "name" },
+        { "alias": "产品名称", "field": "name" },
+        { "alias": "俄语名称", "field": "lang" },
+        { "alias": "当地语言", "field": "lang" },
+        { "alias": "阿拉伯语", "field": "lang" },
+        { "alias": "印尼语", "field": "lang" },
+        { "alias": "越南语", "field": "lang" },
+        { "alias": "葡语", "field": "lang" },
+        { "alias": "泰文", "field": "lang" },
+        { "alias": "土语", "field": "lang" },
+        { "alias": "净含量", "field": "net" },
+        { "alias": "警示", "field": "warn" },
+        { "alias": "用法", "field": "use" },
+        { "alias": "用途", "field": "use" },
+        { "alias": "开封后", "field": "expiry" },
+        { "alias": "保质期", "field": "expiry" },
+        { "alias": "有效期", "field": "expiry" },
+        { "alias": "批号", "field": "batch" },
+        { "alias": "责任人名称", "field": "rp" },
+        { "alias": "RP 名称地址", "field": "rp" },
+        { "alias": "责任销售业者", "field": "rp" },
+        { "alias": "制造销售业者", "field": "maker" },
+        { "alias": "制造商", "field": "maker" },
+        { "alias": "原产国", "field": "origin" },
+        { "alias": "条码", "field": "barcode" },
+        { "alias": "EAC", "field": "eac" },
+        { "alias": "标志", "field": "eac" }
+      ],
+      "specimen": {
+        "kicker": "正反面",
+        "title": "标签样张",
+        "titleEn": "LABEL ARTWORK",
+        "chips": [
+          { "id": "brand", "label": "品牌", "value": "示例品牌" },
+          { "id": "name", "label": "品名", "value": "保湿精华" },
+          { "id": "name-en", "label": "英文品名", "value": "Hydrating Serum" },
+          { "id": "net", "label": "净含量", "value": "30 ml e / 1 fl oz" },
+          { "id": "shot", "label": "包装图", "value": "正面图放这里" },
+          { "id": "use", "label": "用途", "value": "洁面后取适量，轻拍至吸收。" },
+          { "id": "warn", "label": "警示", "value": "仅供外用。如有不适请停用。" },
+          { "id": "lang", "label": "当地语言", "value": "用途和警示另印当地语言。" },
+          { "id": "inci", "label": "成分", "value": "AQUA, GLYCERIN, NIACINAMIDE, PHENOXYETHANOL, PARFUM." },
+          { "id": "rp", "label": "责任人", "value": "示例化妆品有限公司，示例市示例路 88 号" },
+          { "id": "maker", "label": "制造商", "value": "示例工厂（中国）；进口商：示例本地公司" },
+          { "id": "origin", "label": "原产国", "value": "中国" },
+          { "id": "standard", "label": "执行标准", "value": "Q/示例 001（示意）" },
+          { "id": "batch", "label": "批号", "value": "EX202610" },
+          { "id": "expiry", "label": "期限", "value": "2028.10 / 开封后 12 个月" },
+          { "id": "barcode", "label": "条码", "value": "6901234567890" },
+          { "id": "eac", "label": "标志", "value": "EAC" }
+        ]
+      }
+    },
+    {
+      "id": "pif",
+      "name_zh": "产品信息档案",
+      "summary": "一套档案的封面和目录，不是单张证书。配方、评估、标签都收在里面。",
+      "group": "配方与标签",
+      "layout": "dossier",
+      "priority": 80,
+      "preferTypes": ["safety"],
+      "aliases": ["PIF", "PIF 保存地址", "产品信息档案"],
+      "highlights": [{ "alias": "PIF", "field": "cover" }],
+      "specimen": {
+        "kicker": "档案封面",
+        "title": "产品信息档案",
+        "titleEn": "PRODUCT INFORMATION FILE",
+        "refLabel": "档案号",
+        "ref": "PIF-EX-001",
+        "coverId": "cover",
+        "subtitle": "示例品牌 · 保湿精华 30 ml",
+        "rows": [
+          { "id": "formula", "label": "01", "value": "配方与原料规格" },
+          { "id": "cpsr", "label": "02", "value": "安全评估" },
+          { "id": "gmp", "label": "03", "value": "生产质量说明" },
+          { "id": "label", "label": "04", "value": "标签与包装样张" },
+          { "id": "test", "label": "05", "value": "检测报告" }
+        ],
+        "footer": "档案放在责任人处备查，通常要留存数年。不是单张证书。"
+      }
+    },
+    {
+      "id": "product-sheet",
+      "name_zh": "产品资料页",
+      "summary": "通报系统里常见的一页：叫什么、哪一类、什么用途、有几个规格。",
+      "group": "配方与标签",
+      "layout": "form",
+      "priority": 55,
+      "preferTypes": ["registration"],
+      "aliases": ["产品资料", "产品信息", "产品类别", "产品类别名称", "产品名称类型", "产品与化妆用途", "包装规格与变体", "包装规格"],
+      "highlights": [
+        { "alias": "包装规格", "field": "variant" },
+        { "alias": "化妆用途", "field": "use" },
+        { "alias": "产品类别", "field": "category" },
+        { "alias": "产品名称类型", "field": "category" },
+        { "alias": "产品资料", "field": "name" },
+        { "alias": "产品信息", "field": "name" }
+      ],
+      "specimen": {
+        "kicker": "填写样例",
+        "title": "产品资料",
+        "titleEn": "PRODUCT DATA SHEET",
+        "rows": [
+          { "id": "name", "label": "名称", "value": "示例品牌 保湿精华" },
+          { "id": "category", "label": "类别", "value": "护肤 / 面部（示例分类）" },
+          { "id": "use", "label": "用途", "value": "保湿。不作药品宣称。" },
+          { "id": "variant", "label": "规格", "value": "30 ml；另有 50 ml（示例）" }
+        ],
+        "footer": "类别名称以那个国家的系统选项为准，不要自己编一类。"
+      }
+    },
+    {
+      "id": "test-report",
+      "name_zh": "检测报告",
+      "summary": "实验室对一个批次出具的表格。看样品、项目、结果和签章。",
+      "group": "检测与证明",
+      "layout": "lab",
+      "priority": 70,
+      "preferTypes": ["testing", "registration", "safety"],
+      "aliases": ["实验室检测报告", "检测报告", "检验报告", "GSO 1943 检测报告", "全项分析证书", "分析证书", "理化规格", "理化", "COA", "质检报告"],
+      "highlights": [
+        { "alias": "检测报告", "field": "result" },
+        { "alias": "检验报告", "field": "result" },
+        { "alias": "分析证书", "field": "result" },
+        { "alias": "理化", "field": "result" },
+        { "alias": "GSO", "field": "result" },
+        { "alias": "COA", "field": "result" }
+      ],
+      "specimen": {
+        "kicker": "示例检测实验室（虚构）",
+        "title": "检测报告",
+        "titleEn": "TEST REPORT",
+        "issuer": "无资质编号",
+        "refLabel": "报告号",
+        "ref": "LAB-EX-2026-018",
+        "rows": [
+          { "id": "sample", "label": "样品", "value": "示例品牌 保湿精华 30 ml" },
+          { "id": "client", "label": "委托方", "value": "示例化妆品有限公司" },
+          { "id": "date", "label": "接收", "value": "2026-10-01（示例日期）" }
+        ],
+        "columns": ["项目", "结果", "参考"],
+        "table": [
+          ["外观", "乳状，无异物", "符合示例规格"],
+          ["pH", "5.6", "4.0–8.0（示例）"],
+          ["菌落总数", "<10 CFU/g", "示例限值"],
+          ["铅", "未检出", "示例限值"]
+        ],
+        "tableField": "result",
+        "signs": [{ "role": "授权签字人", "name": "示例检验员" }],
+        "stamp": "示例章",
+        "qrCaption": "报告码位置",
+        "callout": "表里的数字是编的，不能当检测结论，也不能拿去报关或备案。"
+      }
+    },
+    {
+      "id": "safety",
+      "name_zh": "安全评估",
+      "summary": "评估人看配方和用法后写的结论页。不是检测报告，也不是广告。",
+      "group": "检测与证明",
+      "layout": "report",
+      "priority": 72,
+      "preferTypes": ["safety"],
+      "aliases": ["安全评估", "安全评估资料", "安全报告", "使用安全证明", "安全证明", "CPSR 安全评估", "CPSR", "功效证据", "功效", "功效证明", "安全/功效证明（2 级）", "安全资料"],
+      "highlights": [
+        { "alias": "功效证据", "field": "evidence" },
+        { "alias": "功效证明", "field": "evidence" },
+        { "alias": "功效", "field": "evidence" },
+        { "alias": "安全资料", "field": "evidence" },
+        { "alias": "安全评估", "field": "conclusion" },
+        { "alias": "CPSR", "field": "conclusion" },
+        { "alias": "安全报告", "field": "conclusion" },
+        { "alias": "安全证明", "field": "conclusion" }
+      ],
+      "specimen": {
+        "kicker": "评估摘要",
+        "title": "安全评估",
+        "titleEn": "SAFETY ASSESSMENT",
+        "refLabel": "编号",
+        "ref": "CPSR-EX-011",
+        "paragraphs": ["评估人对照配方、用法和杂质资料，看正常使用下安不安全。本段是示意，不是评估意见。"],
+        "rows": [
+          { "id": "product", "label": "产品", "value": "示例品牌 保湿精华 30 ml" },
+          { "id": "assessor", "label": "评估人", "value": "示例评估员（虚构）" },
+          { "id": "evidence", "label": "功效证据", "value": "“保湿”要能对上试验或文献。这里没有真实证据。" }
+        ],
+        "callout": "结论栏：按示例用法，未在此写出特别风险。这是虚构结论。",
+        "calloutId": "conclusion",
+        "signs": [{ "role": "评估人签字", "name": "示例评估员" }],
+        "footer": "正式报告由具备资质的人出具，并放进产品档案。"
+      }
+    },
+    {
+      "id": "gmp",
+      "name_zh": "GMP / 质量体系",
+      "summary": "说明工厂按化妆品生产规范在做。看场所、依据和章。",
+      "group": "检测与证明",
+      "layout": "certificate",
+      "priority": 80,
+      "preferTypes": ["safety", "registration"],
+      "aliases": ["GMP", "GMP 声明", "GMP 证明", "质量体系", "GMP/质量体系证明（6d 方案）", "CFS/GMP", "CFS/GMP 证明", "ISO 22716", "ISO22716", "良好生产规范"],
+      "highlights": [
+        { "alias": "质量体系", "field": "standard" },
+        { "alias": "GMP", "field": "standard" },
+        { "alias": "ISO 22716", "field": "standard" },
+        { "alias": "良好生产规范", "field": "standard" }
+      ],
+      "specimen": {
+        "kicker": "填写样例",
+        "title": "质量体系证明",
+        "titleEn": "GMP STATEMENT",
+        "issuer": "示例认证机构（虚构）",
+        "refLabel": "编号",
+        "ref": "GMP-EX-22716",
+        "subtitle": "示例工厂",
+        "rows": [
+          { "id": "site", "label": "场所", "value": "示例工厂，示例市工业路 1 号" },
+          { "id": "standard", "label": "依据", "value": "ISO 22716 化妆品良好生产规范（示意）" },
+          { "id": "scope", "label": "范围", "value": "护肤乳霜的配制与灌装（示例）" }
+        ],
+        "stamp": "示例章",
+        "callout": "有的市场把 GMP 和自由销售证明放在一组。章是示例章，不代表已经获证。",
+        "footer": "自由销售证明是另一张，见「自由销售证明」样式。"
+      }
+    },
+    {
+      "id": "free-sale",
+      "name_zh": "自由销售证明",
+      "summary": "来源地说明这个产品可以当化妆品卖。领事认证通常盖在后面。",
+      "group": "检测与证明",
+      "layout": "certificate",
+      "priority": 70,
+      "preferTypes": ["registration"],
+      "aliases": ["自由销售证明", "自由销售", "CFS", "CFS（领事认证）", "领事认证"],
+      "highlights": [
+        { "alias": "领事认证", "field": "product" },
+        { "alias": "自由销售", "field": "product" },
+        { "alias": "CFS", "field": "product" }
+      ],
+      "specimen": {
+        "kicker": "填写样例",
+        "title": "自由销售证明",
+        "titleEn": "CERTIFICATE OF FREE SALE",
+        "issuer": "示例主管机关（虚构）",
+        "refLabel": "编号",
+        "ref": "CFS-EX-2026-6",
+        "subtitle": "示例品牌 保湿精华",
+        "rows": [
+          { "id": "product", "label": "产品", "value": "示例品牌 保湿精华 30 ml" },
+          { "id": "origin", "label": "来源地", "value": "示例来源国" },
+          { "id": "market", "label": "说明", "value": "可作化妆品销售（虚构语句）" }
+        ],
+        "stamp": "示例章",
+        "qrCaption": "核验码位置",
+        "callout": "领事认证是另一步，通常盖在证明后面。这里不画领事馆的章。",
+        "footer": "和 GMP 一起交时，两份都要，不要用这一张代替另一张。"
+      }
+    },
+    {
+      "id": "conformity",
+      "name_zh": "符合性声明 / 注册证",
+      "summary": "一页声明或注册证：外框、编号、产品、依据。后台多半只填编号。",
+      "group": "检测与证明",
+      "layout": "certificate",
+      "priority": 75,
+      "preferTypes": ["registration", "platform"],
+      "aliases": ["符合性声明", "符合性声明号", "注册证"],
+      "highlights": [
+        { "alias": "符合性声明", "field": "number" },
+        { "alias": "注册证", "field": "number" }
+      ],
+      "specimen": {
+        "kicker": "填写样例",
+        "title": "符合性声明",
+        "titleEn": "DECLARATION OF CONFORMITY",
+        "issuer": "示例持有人",
+        "refLabel": "声明号",
+        "ref": "DC-EX-2026-009",
+        "refId": "number",
+        "subtitle": "注册证也常是这种外框",
+        "rows": [
+          { "id": "product", "label": "产品", "value": "示例品牌 保湿精华 30 ml" },
+          { "id": "basis", "label": "依据", "value": "示例技术规范（不是真实文号）" },
+          { "id": "holder", "label": "持有人", "value": "示例本地公司" }
+        ],
+        "stamp": "示例章",
+        "qrCaption": "核验码位置",
+        "callout": "卖家后台多半只填上面的编号。这不是 EAC、ECAS 或任何注册证原件。",
+        "footer": "有效期、产品型号以那张正式文件为准。"
+      }
+    },
+    {
+      "id": "standard",
+      "name_zh": "执行标准",
+      "summary": "产品标准的第一页：编号、适用于什么、验哪些项目。",
+      "group": "检测与证明",
+      "layout": "report",
+      "priority": 65,
+      "preferTypes": ["registration", "testing"],
+      "aliases": ["执行标准", "技术声明", "西语技术声明"],
+      "highlights": [
+        { "alias": "执行标准", "field": "code" },
+        { "alias": "技术声明", "field": "code" }
+      ],
+      "specimen": {
+        "kicker": "填写样例",
+        "title": "产品执行标准",
+        "titleEn": "PRODUCT STANDARD",
+        "refLabel": "代替编号",
+        "ref": "见下方标准号",
+        "rows": [
+          { "id": "code", "label": "标准号", "value": "Q/示例 001（示意，不是已备案号）" },
+          { "id": "scope", "label": "范围", "value": "示例品牌保湿精华" },
+          { "id": "items", "label": "项目", "value": "外观、pH、微生物（示例项目）" }
+        ],
+        "callout": "正式文本以备案的那份为准。技术声明也常是一页：产品、依据、签字。",
+        "signs": [{ "role": "起草", "name": "示例化妆品有限公司" }],
+        "footer": "不要把示例标准号印到标签上。"
+      }
+    },
+    {
+      "id": "trademark",
+      "name_zh": "商标注册证明",
+      "summary": "品牌名注册在哪一类。化妆品常见是第 3 类，以证书为准。",
+      "group": "检测与证明",
+      "layout": "certificate",
+      "priority": 60,
+      "preferTypes": ["registration"],
+      "aliases": ["商标注册证明", "商标"],
+      "highlights": [{ "alias": "商标", "field": "mark" }],
+      "specimen": {
+        "kicker": "填写样例",
+        "title": "商标注册证明",
+        "titleEn": "TRADEMARK REGISTRATION",
+        "issuer": "示例知识产权局（虚构）",
+        "refLabel": "注册号",
+        "ref": "TM-EX-300021",
+        "rows": [
+          { "id": "mark", "label": "商标", "value": "示例品牌" },
+          { "id": "class", "label": "类别", "value": "第 3 类 化妆品（示例）" },
+          { "id": "owner", "label": "注册人", "value": "示例化妆品有限公司" },
+          { "id": "number", "label": "号", "value": "TM-EX-300021" }
+        ],
+        "stamp": "示例章",
+        "callout": "不是任何国家的商标证原件。类别以正式证书为准。"
+      }
+    },
+    {
+      "id": "halal",
+      "name_zh": "清真认证申请",
+      "summary": "申请表的格子：谁申请、什么产品、配方是否附上。不是清真标志。",
+      "group": "检测与证明",
+      "layout": "form",
+      "priority": 90,
+      "preferTypes": ["halal"],
+      "aliases": ["清真认证申请资料", "清真"],
+      "highlights": [{ "alias": "清真", "field": "product" }],
+      "specimen": {
+        "kicker": "申请表",
+        "title": "清真认证申请",
+        "titleEn": "HALAL APPLICATION",
+        "subtitle": "不是证书，也没有标志",
+        "rows": [
+          { "id": "applicant", "label": "申请人", "value": "示例本地公司" },
+          { "id": "product", "label": "产品", "value": "示例品牌 保湿精华 30 ml" },
+          { "id": "ingredients", "label": "配方", "value": "全成分表另附（示例）" }
+        ],
+        "checks": ["配方已附", "原料来源已填", "生产场地已填"],
+        "signs": [{ "role": "申请人", "name": "示例本地公司" }],
+        "callout": "这不是清真证书，也没有清真标志。标志以认证机构发放的为准。"
+      }
+    },
+    {
+      "id": "application",
+      "name_zh": "登记通报表",
+      "summary": "逐品通报或登记时要填的格子。各国表格不同，不能拿这张去提交。",
+      "group": "登记与平台",
+      "layout": "form",
+      "priority": 45,
+      "preferTypes": ["registration", "local-rep"],
+      "aliases": ["申请书", "申请信", "申请材料", "在线申请材料", "登记申请", "公告表", "届书", "FD 様式届书", "上报表", "3500A", "許可申請"],
+      "highlights": [
+        { "alias": "3500A", "field": "category" },
+        { "alias": "上报表", "field": "category" },
+        { "alias": "公告表", "field": "category" },
+        { "alias": "届书", "field": "category" },
+        { "alias": "許可申請", "field": "applicant" },
+        { "alias": "申请材料", "field": "applicant" },
+        { "alias": "登记申请", "field": "applicant" },
+        { "alias": "申请书", "field": "applicant" },
+        { "alias": "申请信", "field": "applicant" }
+      ],
+      "specimen": {
+        "kicker": "表格示意",
+        "title": "登记通报表",
+        "titleEn": "NOTIFICATION FORM",
+        "subtitle": "不是任何国家的正式表格",
+        "rows": [
+          { "id": "applicant", "label": "申请人", "value": "示例化妆品有限公司" },
+          { "id": "product", "label": "产品", "value": "示例品牌 保湿精华" },
+          { "id": "category", "label": "类别", "value": "护肤 / 面部（示例）" },
+          { "id": "variant", "label": "规格", "value": "30 ml" }
+        ],
+        "checks": ["标签样张已附", "成分表已附"],
+        "signs": [{ "role": "申请人签字", "name": "示例" }],
+        "footer": "日本届书、美国上报表、越南公告表都长得不一样。这里只留共同的格子。"
+      }
+    },
+    {
+      "id": "platform",
+      "name_zh": "平台资质材料",
+      "summary": "卖家后台常要填的格子：识别码、海关编码、系统令牌。不是某个平台的截图。",
+      "group": "登记与平台",
+      "layout": "platform",
+      "priority": 50,
+      "preferTypes": ["platform"],
+      "aliases": ["标识码", "ТН ВЭД 编码", "ТН ВЭД", "编码", "数字令牌", "令牌"],
+      "highlights": [
+        { "alias": "ТН ВЭД", "field": "hs" },
+        { "alias": "标识码", "field": "code" },
+        { "alias": "令牌", "field": "token" },
+        { "alias": "编码", "field": "hs" }
+      ],
+      "specimen": {
+        "kicker": "卖家后台",
+        "title": "平台资质栏",
+        "titleEn": "LISTING FIELDS",
+        "rows": [
+          { "id": "code", "label": "商品识别码", "value": "EX-CODE-001" },
+          { "id": "hs", "label": "海关编码", "value": "3304.99（示例，不是税率）" },
+          { "id": "token", "label": "系统令牌", "value": "······示例" }
+        ],
+        "callout": "各平台界面不一样。符合性声明长什么样，看「符合性声明」样式。这里只示意要填的格子。",
+        "footer": "编码和令牌都用示例。税率去海关编码页，不写在这里。"
+      }
+    },
+    {
+      "id": "reg-number",
+      "name_zh": "登记编号",
+      "summary": "备案号、税号、设施号、营业号，都是要抄进系统的一串号码。",
+      "group": "登记与平台",
+      "layout": "certificate",
+      "priority": 60,
+      "preferTypes": ["registration", "local-rep"],
+      "aliases": ["备案号", "FEI", "FEI 编号", "NIB", "NIB 营业号", "NPWP", "NPWP 税号", "税号", "设施编号", "对应设施编号"],
+      "highlights": [
+        { "alias": "设施编号", "field": "number" },
+        { "alias": "备案号", "field": "number" },
+        { "alias": "FEI", "field": "number" },
+        { "alias": "NIB", "field": "number" },
+        { "alias": "NPWP", "field": "number" },
+        { "alias": "税号", "field": "number" }
+      ],
+      "specimen": {
+        "kicker": "编号示意",
+        "title": "登记编号",
+        "titleEn": "REGISTRATION NUMBER",
+        "issuer": "示例主管系统（虚构）",
+        "refLabel": "编号",
+        "ref": "EX-88421",
+        "refId": "number",
+        "subtitle": "示例化妆品有限公司",
+        "rows": [
+          { "id": "holder", "label": "持有人", "value": "示例化妆品有限公司" },
+          { "id": "system", "label": "系统", "value": "线上登记系统（示意）" },
+          { "id": "status", "label": "状态", "value": "示例：有效" }
+        ],
+        "qrCaption": "核验码位置",
+        "callout": "营业号、税号、设施号、备案号，都是要抄进表格的号码。这不是官方卡片。"
+      }
+    },
+    {
+      "id": "marking",
+      "name_zh": "赋码与流通码",
+      "summary": "每个销售单位一个码，再向系统报“已经进入流通”。码是占位，扫不出来。",
+      "group": "登记与平台",
+      "layout": "marking",
+      "priority": 40,
+      "preferTypes": ["marking"],
+      "aliases": ["每件商品赋码", "赋码", "入流通报告", "入流通", "系统注册"],
+      "highlights": [
+        { "alias": "入流通", "field": "status" },
+        { "alias": "系统注册", "field": "status" },
+        { "alias": "赋码", "field": "code" }
+      ],
+      "specimen": {
+        "kicker": "赋码单",
+        "title": "赋码与流通",
+        "titleEn": "ITEM CODE",
+        "refLabel": "单号",
+        "ref": "MK-EX-1008",
+        "rows": [
+          { "id": "product", "label": "产品", "value": "示例品牌 保湿精华 30 ml" },
+          { "id": "gtin", "label": "商品条码", "value": "6901234567890" },
+          { "id": "code", "label": "单品码", "value": "示例矩阵，扫出来不是链接" },
+          { "id": "status", "label": "流通", "value": "示例：待报入流通" }
+        ],
+        "footer": "矩阵是画出来的，不是「诚信标志」或其他系统的原码。"
+      }
+    },
+    {
+      "id": "trace",
+      "name_zh": "召回与追溯",
+      "summary": "出事时找谁、货在哪、哪个批号还剩多少。一张表就够看清结构。",
+      "group": "登记与平台",
+      "layout": "form",
+      "priority": 60,
+      "preferTypes": ["safety"],
+      "aliases": ["召回联系人与渠道清单", "召回", "库存与分销追溯记录", "追溯", "紧急联系人"],
+      "highlights": [
+        { "alias": "紧急联系人", "field": "contact" },
+        { "alias": "召回", "field": "contact" },
+        { "alias": "追溯", "field": "lot" }
+      ],
+      "specimen": {
+        "kicker": "记录表",
+        "title": "召回与追溯",
+        "titleEn": "RECALL AND TRACE",
+        "rows": [
+          { "id": "contact", "label": "联系人", "value": "示例，电话 +86 000 0000 0000" },
+          { "id": "channel", "label": "渠道", "value": "示例店铺 / 示例经销商" },
+          { "id": "lot", "label": "批号", "value": "EX202610" },
+          { "id": "stock", "label": "库存", "value": "示例：在库 120，在途 40" }
+        ],
+        "footer": "电话和数量都是虚的。正式记录要能追到每一批的去向。"
+      }
+    },
+    {
+      "id": "receipt",
+      "name_zh": "缴费回执",
+      "summary": "交过费的回执长什么样。金额不写，避免被当成官方收费。",
+      "group": "登记与平台",
+      "layout": "receipt",
+      "priority": 60,
+      "preferTypes": ["registration"],
+      "aliases": ["缴费收据", "收据"],
+      "highlights": [{ "alias": "收据", "field": "amount" }],
+      "specimen": {
+        "kicker": "回执",
+        "title": "缴费回执",
+        "titleEn": "PAYMENT RECEIPT",
+        "refLabel": "回执号",
+        "ref": "PAY-EX-2026",
+        "rows": [
+          { "id": "payer", "label": "缴款人", "value": "示例化妆品有限公司" },
+          { "id": "item", "label": "事项", "value": "登记 / 检测（示例）" },
+          { "id": "amount", "label": "金额", "value": "以主管机关核定为准" }
+        ],
+        "stamp": "示例章",
+        "callout": "不写金额，避免被看成官方收费。"
+      }
+    },
+    {
+      "id": "sample-slip",
+      "name_zh": "送样单",
+      "summary": "把实物样品交给实验室或主管机关时附的一张单。样品本身不是 PDF。",
+      "group": "登记与平台",
+      "layout": "form",
+      "priority": 60,
+      "preferTypes": ["testing", "registration"],
+      "aliases": ["样品", "送样单"],
+      "highlights": [{ "alias": "样品", "field": "sample" }],
+      "specimen": {
+        "kicker": "随货单",
+        "title": "送样单",
+        "titleEn": "SAMPLE SUBMISSION",
+        "rows": [
+          { "id": "sample", "label": "样品", "value": "示例品牌 保湿精华 30 ml" },
+          { "id": "qty", "label": "数量", "value": "2 件（示例）" },
+          { "id": "purpose", "label": "用途", "value": "检测留样" }
+        ],
+        "signs": [{ "role": "送样人", "name": "示例" }],
+        "callout": "有的市场要实物样品，不是一份 PDF。"
+      }
+    }
+  ]
+}

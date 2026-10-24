@@ -1,0 +1,185 @@
+---
+import type { DocSpecimenField, DocTemplate } from '../lib/types';
+
+interface Props {
+  template: DocTemplate;
+}
+
+const { template } = Astro.props;
+const specimen = template.specimen;
+const layout = template.layout;
+const special = layout === 'label' || layout === 'platform' || layout === 'marking';
+const chips = Object.fromEntries((specimen.chips ?? []).map((chip) => [chip.id ?? '', chip.value ?? '']));
+const text = (id: string) => chips[id] ?? '';
+const attrs = (id?: string) => (id ? { 'data-field': id } : {});
+const showQr = Boolean(specimen.qrCaption);
+---
+
+<article class={`paper paper-${layout}`} aria-label={`${template.name_zh}样式示意`}>
+  <p class="paper-watermark" aria-hidden="true">样式示意</p>
+
+  {layout === 'label' && (
+    <div class="label-sheet">
+      <div class="label-front">
+        <p class="label-brand" {...attrs('brand')}>{text('brand')}</p>
+        <h3 class="label-name" {...attrs('name')}>{text('name')}</h3>
+        <p class="label-en">{text('name-en')}</p>
+        <p class="label-net" {...attrs('net')}><span>净含量</span> {text('net')}</p>
+        <div class="label-shot" {...attrs('shot')}>{text('shot')}</div>
+        <p class="label-eac" {...attrs('eac')}>{text('eac')}</p>
+      </div>
+      <div class="label-back">
+        <p {...attrs('use')}><span>用途</span> {text('use')}</p>
+        <p {...attrs('warn')}><span>警示</span> {text('warn')}</p>
+        <p {...attrs('lang')}><span>当地语言</span> {text('lang')}</p>
+        <p class="label-inci" {...attrs('inci')}><span>成分</span> {text('inci')}</p>
+        <p {...attrs('rp')}><span>责任人</span> {text('rp')}</p>
+        <p {...attrs('maker')}><span>制造 / 进口</span> {text('maker')}</p>
+        <p {...attrs('origin')}><span>原产国</span> {text('origin')}</p>
+        <p {...attrs('standard')}><span>执行标准</span> {text('standard')}</p>
+        <div class="label-meta">
+          <span {...attrs('batch')}>批号 {text('batch')}</span>
+          <span {...attrs('expiry')}>{text('expiry')}</span>
+          <span class="label-pao" aria-hidden="true">12M</span>
+        </div>
+        <div class="label-code" {...attrs('barcode')}>
+          <span class="paper-barcode" aria-hidden="true"></span>
+          <span>{text('barcode')}</span>
+        </div>
+      </div>
+    </div>
+  )}
+
+  {layout === 'platform' && (
+    <div class="plat">
+      <div class="plat-top">
+        <span>卖家后台</span>
+        <span>资质栏 · 示意</span>
+      </div>
+      <p class="plat-shop">示例店铺 · 美妆日化</p>
+      {(specimen.rows ?? []).map((row) => (
+        <div class="plat-field" {...attrs(row.id)}>
+          <span>{row.label}</span>
+          <span class="plat-value">{row.value}</span>
+        </div>
+      ))}
+      {specimen.callout && <p class="paper-callout" {...attrs(specimen.calloutId)}>{specimen.callout}</p>}
+    </div>
+  )}
+
+  {layout === 'marking' && (
+    <div class="mark-layout">
+      <div>
+        <header class="paper-head">
+          <div>
+            <p class="paper-kicker">{specimen.kicker}</p>
+            <h3 class="paper-title">{specimen.title}</h3>
+            {specimen.titleEn && <p class="paper-en">{specimen.titleEn}</p>}
+          </div>
+        </header>
+        <dl class="paper-rows">
+          {(specimen.rows ?? []).map((row) => (
+            <div {...attrs(row.id)}>
+              <dt>{row.label}</dt>
+              <dd>{row.value}</dd>
+            </div>
+          ))}
+        </dl>
+      </div>
+      <div class="mark-matrix" {...attrs('code')}>
+        <div class="paper-qr" aria-hidden="true">{Array.from({ length: 36 }, () => <span />)}</div>
+        <p>码的位置</p>
+      </div>
+    </div>
+  )}
+
+  {!special && (
+    <div class:list={['paper-sheet', `is-${layout}`]}>
+      {layout === 'receipt' && <p class="receipt-cut" aria-hidden="true">✂ - - - - - - - - - - - - -</p>}
+      <header class="paper-head" {...attrs(specimen.coverId)}>
+        <div>
+          {specimen.issuer && <p class="paper-issuer">{specimen.issuer}</p>}
+          {specimen.kicker && <p class="paper-kicker">{specimen.kicker}</p>}
+          <h3 class="paper-title">{specimen.title}</h3>
+          {specimen.titleEn && <p class="paper-en">{specimen.titleEn}</p>}
+          {specimen.subtitle && <p class="paper-sub">{specimen.subtitle}</p>}
+        </div>
+        {specimen.ref && (
+          <p class="paper-ref" {...attrs(specimen.refId)}>
+            <span>{specimen.refLabel || '编号'}</span>
+            <strong>{specimen.ref}</strong>
+          </p>
+        )}
+      </header>
+
+      {layout === 'letter' && specimen.parties && specimen.parties.length > 0 && (
+        <div class="letter-parties">
+          {specimen.parties.map((party: DocSpecimenField) => (
+            <div {...attrs(party.id)}>
+              <span>{party.role}</span>
+              <strong>{party.name}</strong>
+            </div>
+          ))}
+        </div>
+      )}
+
+      {(specimen.paragraphs ?? []).map((paragraph) => <p class="paper-copy">{paragraph}</p>)}
+
+      {specimen.rows && specimen.rows.length > 0 && (
+        <dl class="paper-rows">
+          {specimen.rows.map((row) => (
+            <div {...attrs(row.id)}>
+              <dt>{row.label}</dt>
+              <dd>{row.value}</dd>
+            </div>
+          ))}
+        </dl>
+      )}
+
+      {specimen.columns && specimen.table && (
+        <div class="paper-table-wrap" {...attrs(specimen.tableField)}>
+          <table class="paper-table">
+            <thead>
+              <tr>{specimen.columns.map((column) => <th>{column}</th>)}</tr>
+            </thead>
+            <tbody>
+              {specimen.table.map((row) => (
+                <tr>{row.map((cell) => <td>{cell}</td>)}</tr>
+              ))}
+            </tbody>
+          </table>
+        </div>
+      )}
+
+      {specimen.checks && specimen.checks.length > 0 && (
+        <ul class="form-checks">
+          {specimen.checks.map((item) => <li>{item}</li>)}
+        </ul>
+      )}
+
+      {specimen.callout && <p class="paper-callout" {...attrs(specimen.calloutId)}>{specimen.callout}</p>}
+
+      {(specimen.signs?.length || specimen.stamp || showQr) && (
+        <div class="paper-signs">
+          <div>
+            {(specimen.signs ?? []).map((sign) => (
+              <p {...attrs(sign.id)}><span>{sign.role}</span> {sign.name}</p>
+            ))}
+          </div>
+          {showQr && (
+            <div class="paper-qr-block">
+              <div class="paper-qr" aria-hidden="true">{Array.from({ length: 36 }, () => <span />)}</div>
+              <span>{specimen.qrCaption}</span>
+            </div>
+          )}
+          {specimen.stamp && <span class="paper-seal" aria-hidden="true">{specimen.stamp}</span>}
+        </div>
+      )}
+
+      {specimen.footer && <p class="paper-foot">{specimen.footer}</p>}
+    </div>
+  )}
+
+  {special && specimen.footer && <p class="paper-foot">{specimen.footer}</p>}
+  <p class="paper-legal">示例内容，不能当正式文件提交。</p>
+</article>
