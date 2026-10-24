@@ -1,4 +1,5 @@
 ---
+import ComplianceViewSwitch from '../../components/ComplianceViewSwitch.astro';
 import Flag from '../../components/Flag.astro';
 import Base from '../../layouts/Base.astro';
 import { complianceTypeLabels, getCompliance } from '../../lib/content';
@@ -17,9 +18,13 @@ const cell = (c: (typeof countries)[number], t: string) => {
 
 <Base title="合规横向对比" description="各国美妆合规要求一张表看完。">
   <header class="page-head">
-    <p class="kicker"><a href={url('/compliance')}>← 国家合规速查</a></p>
+    <p class="kicker">美妆日化 · 上市前要办什么</p>
     <h1>横向对比</h1>
     <p class="cc-legend"><span class="cc-cell must">✓</span>必须 <span class="cc-cell opt">○</span>建议 <span class="cc-cell review">✓</span>待核实 <span class="cc-cell none">—</span>无</p>
+    <div class="cc-head-links">
+      <ComplianceViewSwitch />
+      <a class="text-link" href={url('/hs-codes')}>海关编码搜索 →</a>
+    </div>
   </header>
   <div class="cc-table-wrap card">
     <table class="cc-table">

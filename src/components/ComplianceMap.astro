@@ -1,0 +1,141 @@
+---
+import { flagSrc } from '../lib/flags';
+import { url } from '../lib/format';
+import type { ComplianceMapModel } from '../lib/compliance-map';
+
+interface Props {
+  model: ComplianceMapModel;
+}
+
+const { model } = Astro.props;
+const paint = [...model.links].sort((a, b) => b.area - a.area);
+const markets = [...model.links, ...model.offMap];
+---
+
+<!-- Country boundaries: Natural Earth (public domain), topology world-atlas © Mike Bostock, BSD-3-Clause -->
+<div class="cc-map" data-cc-map>
+  <div class="cc-map-toolbar">
+    <div class="cc-map-zoom" role="group" aria-label="缩放">
+      <button type="button" data-cc-zoom="in">放大</button>
+      <button type="button" data-cc-zoom="out">缩小</button>
+      <button type="button" data-cc-zoom="reset">全球</button>
+    </div>
+    <div class="cc-map-regions" role="group" aria-label="地区">
+      <button type="button" class="chip" data-cc-region="all" aria-pressed="true">全部</button>
+      {
+        model.regions.map((region) => (
+          <button
+            type="button"
+            class="chip"
+            data-cc-region={region.id}
+            data-vx={region.x}
+            data-vy={region.y}
+            data-vw={region.w}
+            data-vh={region.h}
+            aria-pressed="false"
+          >
+            {region.id}
+          </button>
+        ))
+      }
+    </div>
+    <label class="cc-map-jump">
+      <span>前往</span>
+      <select data-cc-jump>
+        <option value="">选择市场</option>
+        {
+          model.regions.map((region) => (
+            <optgroup label={region.id}>
+              {markets
+                .filter((market) => market.region === region.id)
+                .map((market) => (
+                  <option value={url(`/compliance/${market.cc}`)}>{market.name}</option>
+                ))}
+            </optgroup>
+          ))
+        }
+        {
+          model.offMap
+            .filter((market) => !model.regions.some((region) => region.id === market.region))
+            .map((market) => (
+              <option value={url(`/compliance/${market.cc}`)}>{market.name}</option>
+            ))
+        }
+      </select>
+    </label>
+  </div>
+
+  <div class="cc-map-stage">
+    <div
+      class="cc-map-viewport"
+      style={`aspect-ratio: ${model.w} / ${model.h}`}
+      tabindex="0"
+      aria-label="地图。方向键平移，加号和减号缩放。Tab 键移到各个市场。"
+    >
+      <svg
+        class="cc-map-svg"
+        viewBox={`0 0 ${model.w} ${model.h}`}
+        role="group"
+        aria-label="世界地图，亮色区域为已收录市场"
+      >
+        <defs>
+          <radialGradient id="cc-ocean" cx="50%" cy="42%" r="68%">
+            <stop offset="0%" stop-color="#163044" />
+            <stop offset="48%" stop-color="#101526" />
+            <stop offset="100%" stop-color="#07070d" />
+          </radialGradient>
+        </defs>
+        <path class="cc-map-ocean" d={model.sphere} />
+        <path class="cc-map-grid" d={model.graticule} />
+        <path class="cc-map-land" d={model.dim} />
+        {
+          paint.map((link) => (
+            <a
+              class="cc-map-link"
+              href={url(`/compliance/${link.cc}`)}
+              data-name={link.name}
+              data-region={link.region}
+              data-must={link.must}
+              data-flag={flagSrc(link.cc)}
+              data-small={link.small ? 'true' : undefined}
+              data-vx={link.x}
+              data-vy={link.y}
+              data-vw={link.w}
+              data-vh={link.h}
+              aria-label={`${link.name}，${link.region}，${link.must} 项必办`}
+            >
+              <path class="cc-map-shape" d={link.d} />
+              {link.small && <circle class="cc-map-beacon" cx={link.cx} cy={link.cy} r="6" />}
+            </a>
+          ))
+        }
+      </svg>
+    </div>
+    <div class="cc-map-card">
+      <img data-cc-map-flag alt="" width="28" height="21" hidden />
+      <p data-cc-map-copy aria-live="polite">点选亮色市场，查看合规要求</p>
+      <a class="cc-map-go" data-cc-map-go hidden>进入</a>
+    </div>
+  </div>
+  <p class="cc-map-note">{model.note}</p>
+  <p class="sr-only">触屏先点选市场，再点「进入」。没有单独页面的国家是暗色，不能进入。</p>
+  {
+    model.offMap.length > 0 && (
+      <p class="cc-map-note">
+        未画在地图上：
+        {model.offMap.map((market, index) => (
+          <>
+            {index > 0 && '、'}
+            <a href={url(`/compliance/${market.cc}`)}>{market.name}</a>
+          </>
+        ))}
+      </p>
+    )
+  }
+</div>
+
+<script>
+  import { initComplianceMap } from '../scripts/compliance-map';
+
+  initComplianceMap();
+</script>

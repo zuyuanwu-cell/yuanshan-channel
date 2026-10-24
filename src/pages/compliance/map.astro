@@ -1,0 +1,28 @@
+---
+import ComplianceMap from '../../components/ComplianceMap.astro';
+import ComplianceViewSwitch from '../../components/ComplianceViewSwitch.astro';
+import Base from '../../layouts/Base.astro';
+import { buildComplianceMap } from '../../lib/compliance-map';
+import { getCompliance } from '../../lib/content';
+import { formatDate, url } from '../../lib/format';
+
+const countries = getCompliance();
+const latest = countries.map((country) => country.last_verified).sort().at(-1) ?? '';
+const model = buildComplianceMap(countries);
+---
+
+<Base title="全球合规地图" description="在世界地图上点选已收录的市场，查看美妆日化合规。">
+  <header class="page-head">
+    <p class="kicker">美妆日化 · 在地图上找市场</p>
+    <h1>国家合规速查</h1>
+    <p class="updated-line">
+      <span class="live-dot" aria-hidden="true"></span>核实于 <time datetime={latest}>{formatDate(latest)}</time>
+      <span class="muted"> · {countries.length} 个市场</span>
+    </p>
+    <div class="cc-head-links">
+      <ComplianceViewSwitch />
+      <a class="text-link" href={url('/hs-codes')}>海关编码搜索 →</a>
+    </div>
+  </header>
+  <ComplianceMap model={model} />
+</Base>

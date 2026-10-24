@@ -1,0 +1,21 @@
+---
+import { stripBase, url } from '../lib/format';
+
+const path = stripBase(Astro.url.pathname).replace(/\/$/, '') || '/';
+const current = path === '/compliance/compare' ? 'compare' : path === '/compliance/map' ? 'map' : 'grid';
+const views = [
+  { id: 'grid', href: '/compliance', label: '图标' },
+  { id: 'compare', href: '/compliance/compare', label: '横向对比' },
+  { id: 'map', href: '/compliance/map', label: '地图' },
+];
+---
+
+<nav class="cc-views" aria-label="浏览方式">
+  {
+    views.map((view) => (
+      <a href={url(view.href)} aria-current={current === view.id ? 'page' : undefined}>
+        {view.label}
+      </a>
+    ))
+  }
+</nav>

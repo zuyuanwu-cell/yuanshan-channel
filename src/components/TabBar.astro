@@ -29,6 +29,7 @@ for (const country of countries) {
 }
 const countryCurrent = countries.some((country) => isActivePath(path, `/compliance/${country.country}`));
 const compareCurrent = isActivePath(path, '/compliance/compare');
+const mapCurrent = isActivePath(path, '/compliance/map');
 const moreCurrent = more.some((item) => isActivePath(path, item.href)) || isActivePath(path, '/admin');
 ---
 
@@ -81,7 +82,7 @@ const moreCurrent = more.some((item) => isActivePath(path, item.href)) || isActi
         ))
       }
     </ul>
-    <details class="nav-sheet-group" open={countryCurrent || compareCurrent || undefined}>
+    <details class="nav-sheet-group" open={countryCurrent || compareCurrent || mapCurrent || undefined}>
       <summary>各国合规</summary>
       {
         regions.map((region) => (
@@ -105,9 +106,14 @@ const moreCurrent = more.some((item) => isActivePath(path, item.href)) || isActi
           </section>
         ))
       }
-      <a class="nav-compare" href={url('/compliance/compare')} aria-current={compareCurrent ? 'page' : undefined}>
-        横向对比
-      </a>
+      <div class="nav-cc-views">
+        <a class="nav-compare" href={url('/compliance/compare')} aria-current={compareCurrent ? 'page' : undefined}>
+          横向对比
+        </a>
+        <a class="nav-compare" href={url('/compliance/map')} aria-current={mapCurrent ? 'page' : undefined}>
+          地图
+        </a>
+      </div>
     </details>
     <p class="nav-sheet-admin">
       <a href={url('/admin/')} aria-current={isActivePath(path, '/admin') ? 'page' : undefined}>编辑入口</a>
