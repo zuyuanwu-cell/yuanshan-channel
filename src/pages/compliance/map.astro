@@ -11,9 +11,9 @@ const latest = countries.map((country) => country.last_verified).sort().at(-1) ?
 const model = buildComplianceMap(countries);
 ---
 
-<Base title="全球合规地图" description="在世界地图上点选已收录的市场，查看美妆日化合规。">
+<Base title="全球合规地球" description="在自转的三维地球上点选已收录的市场，查看美妆日化合规。">
   <header class="page-head">
-    <p class="kicker">美妆日化 · 在地图上找市场</p>
+    <p class="kicker">美妆日化 · 在地球上找市场</p>
     <h1>国家合规速查</h1>
     <p class="updated-line">
       <span class="live-dot" aria-hidden="true"></span>核实于 <time datetime={latest}>{formatDate(latest)}</time>
