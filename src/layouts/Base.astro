@@ -176,5 +176,7 @@ const umamiEnabled = Boolean(umamiUrl && umamiId);
     <script>
       import '../scripts/ui.ts';
     </script>
+    <!-- 在线心跳。失败会被脚本吞掉，不依赖控制台是否已经在这台机器上。 -->
+    <script is:inline defer src={url('/presence.js')}></script>
   </body>
 </html>

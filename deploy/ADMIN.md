@@ -3,8 +3,9 @@
 目标（一次配好，长期免费）：
 
 1. **文章资讯后台**：浏览器打开 `/admin/`，用 GitHub 登录后改 `content/news/`，保存即推 `main`，Actions 构建，宝塔约 5 分钟同步上线。
-2. **编辑账号**：谁有 GitHub 仓库写权限，谁就能进后台（不做客服式访客会员）。
+2. **编辑账号**：谁有 GitHub 仓库写权限，谁就能进 `/admin/` 改资讯。
 3. **访问量**：自建 Umami，看 PV / 访客 / 来源；脚本由构建环境变量注入。
+4. **访客控制台**：`/console/` 用邮箱注册。工作人员看 Umami 汇总和在线心跳。安装见 [`console/README.md`](./console/README.md)。
 
 > 仓库已提交静态页与安装文件。线上编辑后台与 Umami 已在跑：看板是主站路径 `https://ys.tongzhoukuajing.com/umami/`，统计脚本由 Actions Secrets 注入。下面保留首次安装步骤，换机器时按同一套重做。
 
@@ -18,7 +19,7 @@
 | 页脚「编辑入口」 | 同上 |
 | GitHub 登录写资讯 | OAuth 桥已在 `/oauth/health`；仓库写权限即可登录 |
 | Umami 看板 | 已在主站 `/umami/`；`PUBLIC_UMAMI_URL` 为 `https://ys.tongzhoukuajing.com/umami`（无末尾 `/`） |
-| 访客会员体系 | 不做（按你的选择） |
+| 访客控制台 `/console/` | 代码在 `deploy/console/`。合并后还要在宝塔装依赖、写 `.env`、加 Nginx，见 [`console/README.md`](./console/README.md) |
 
 ---
 
@@ -156,6 +157,7 @@ GitHub 仓库 → **Settings → Secrets and variables → Actions**。这两个
 | Decap CMS（静态 + CDN） | 免费 |
 | OAuth 桥（本机 Node） | 免费（吃一点内存） |
 | Umami + Postgres（Docker） | 免费（吃一点磁盘/内存） |
+| 访客控制台（本机 Node + SQLite 文件） | 免费（再吃一点内存） |
 | GitHub Actions 构建 | 免费额度内 |
 
 不要用付费的 Decap Turbo / Netlify Identity，当前方案已够用。
@@ -172,6 +174,7 @@ GitHub 仓库 → **Settings → Secrets and variables → Actions**。这两个
 | 没有统计数据 | `PUBLIC_UMAMI_URL` 是否为 `https://ys.tongzhoukuajing.com/umami`（无末尾 `/`）并已重新构建；`/umami/script.js` 是否被主站 404（Nginx 要用 `location ^~ /umami/`）；Website ID 是否对；浏览器是否拦广告 |
 | `umami-db` 起不来，日志 `Operation not permitted` | 保留 compose 里 Postgres 的 `privileged: true` 和 `seccomp:unconfined` |
 | OAuth 进程挂了 | `pm2 status` / 宝塔 Node 项目日志；`pm2 restart yuanshan-decap-oauth` |
+| `/console/` 打不开 | 静态站 cron 不会拉起这个进程。确认 `pm2 status` 里有 `yuanshan-console`，且 Nginx 有 `location /console/`。见 [`console/README.md`](./console/README.md) |
 | 洽谈合作提示「推送未配置」 | 服务器 `.env` 的 `WECOM_WEBHOOK_URL` 为空或进程没重启。见下方「合作浮层与企业微信」 |
 | 洽谈合作提示发送失败 | webhook 须为 `https://qyapi.weixin.qq.com/...`；机器人被移出群也会失败。`pm2 logs yuanshan-decap-oauth` 只看状态，不要把 key 打进日志 |
 
@@ -236,3 +239,35 @@ node notify-updates.js \
 3. 推 `main`。构建会把文件复制到站点的 `/media/contact/wechat-qr.webp`。不要只改服务器上的 `dist/`，下次部署会盖掉。
 
 社交链接同样只改 `site.json` 的 `social[].href`。没有 `https://` 且没有 `hint` 的项是占位图标；视频号没有主页时把搜索提示写在 `hint`，图标保持实心。
+
+---
+
+## G. 访客控制台
+
+Decap 继续负责改资讯。访客注册和工作人员看板是另一个 Node 进程，源码在 [`console/`](./console/README.md)。
+
+合并进 `main` 之后，服务器上还要做这些（cron 同步的 `deploy` 分支里没有这个进程）：
+
+1. 把 `deploy/console/` 拷到例如 `/www/wwwroot/yuanshan-console`（不要放进站点根，避免被拉取脚本删掉）。
+2. `cp .env.example .env`，写入 `CONSOLE_SESSION_SECRET`。公开注册前先写 `CONSOLE_ADMIN_EMAIL` 和 `CONSOLE_ADMIN_PASSWORD`，这样第一个访客不会变成工作人员。
+3. `npm install`，然后 `pm2 start ecosystem.config.cjs`。
+4. Nginx 增加：
+
+```nginx
+location = /console {
+    return 301 /console/;
+}
+location /console/ {
+    proxy_pass http://127.0.0.1:4182/console/;
+    proxy_http_version 1.1;
+    proxy_set_header Host $host;
+    proxy_set_header X-Forwarded-Proto $scheme;
+    proxy_set_header X-Forwarded-Host $host;
+    proxy_set_header X-Real-IP $remote_addr;
+    proxy_set_header X-Forwarded-For $remote_addr;
+}
+```
+
+5. `curl -sS https://ys.tongzhoukuajing.com/console/api/health` 看到 `"ok":true` 后，再打开 `/console/`。
+
+看板里的浏览量走 Umami API（`UMAMI_API_URL` 推荐 `http://127.0.0.1:3001`）。在线人数来自公开页的 `presence.js`，默认统计近 3 分钟的心跳。账号库是该目录下的 `data/console.sqlite`。细节、限流和重置密码的办法都在 [`console/README.md`](./console/README.md)。

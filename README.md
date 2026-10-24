@@ -104,6 +104,7 @@ location /_astro/ {
     expires 1y;
     add_header Cache-Control "public, immutable";
 }
+# /console/、/oauth/、/umami/ 是反代，不在这套静态文件里。见 deploy/console/README.md 和 deploy/ADMIN.md。
 ```
 
 ### 两个远端（可选）
@@ -116,9 +117,11 @@ git push github main
 
 ## 管理后台（免费）
 
-编辑资讯用 Decap CMS（`/admin/`），访问统计用自建 Umami。编辑账号 = GitHub 仓库写权限，不做访客会员。
+编辑资讯仍用 Decap CMS（`/admin/`），登录凭 GitHub 仓库写权限。访问量用自建 Umami。
 
-**首次要在宝塔配一次**：GitHub OAuth App + OAuth 桥 +（可选）Umami。逐步说明见 [`deploy/ADMIN.md`](deploy/ADMIN.md)。
+访客注册和工作人员看板是另一套自建控制台（`/console/`）：邮箱密码、`admin` / `member`、Umami 汇总、在线心跳。步骤在 [`deploy/console/README.md`](deploy/console/README.md)。代码合并之后，宝塔还要装依赖、写 `.env`、加 Nginx，控制台才会对外开放。市场订阅页不是这套账号。
+
+Decap、OAuth 桥、Umami 的步骤见 [`deploy/ADMIN.md`](deploy/ADMIN.md)。
 
 未完成 OAuth 前，`/admin/` 页面能打开，但 Login 会失败，属正常。
 
