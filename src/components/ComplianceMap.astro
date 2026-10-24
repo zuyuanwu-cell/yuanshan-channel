@@ -8,8 +8,20 @@ interface Props {
 }
 
 const { model } = Astro.props;
-const paint = [...model.links].sort((a, b) => b.area - a.area);
 const markets = [...model.links, ...model.offMap];
+const globeMarkets = model.links.map((link) => ({
+  cc: link.cc,
+  name: link.name,
+  region: link.region,
+  must: link.must,
+  isos: link.isos,
+  lat: link.lat,
+  lon: link.lon,
+  small: link.small,
+  href: url(`/compliance/${link.cc}`),
+  flag: flagSrc(link.cc),
+}));
+const encoded = encodeURIComponent(JSON.stringify(globeMarkets));
 ---
 
 <!-- Country boundaries: Natural Earth (public domain), topology world-atlas © Mike Bostock, BSD-3-Clause -->
@@ -28,10 +40,8 @@ const markets = [...model.links, ...model.offMap];
             type="button"
             class="chip"
             data-cc-region={region.id}
-            data-vx={region.x}
-            data-vy={region.y}
-            data-vw={region.w}
-            data-vh={region.h}
+            data-lat={region.lat}
+            data-lon={region.lon}
             aria-pressed="false"
           >
             {region.id}
@@ -65,64 +75,30 @@ const markets = [...model.links, ...model.offMap];
     </label>
   </div>
 
-  <div class="cc-map-stage">
-    <div
-      class="cc-map-viewport"
-      style={`aspect-ratio: ${model.w} / ${model.h}`}
+  <div class="cc-globe" data-cc-globe-wrap>
+    <div class="cc-globe-glow" aria-hidden="true"></div>
+    <canvas
+      data-cc-globe
+      data-markets={encoded}
       tabindex="0"
-      aria-label="地图。方向键平移，加号和减号缩放。Tab 键移到各个市场。"
-    >
-      <svg
-        class="cc-map-svg"
-        viewBox={`0 0 ${model.w} ${model.h}`}
-        role="group"
-        aria-label="世界地图，亮色区域为已收录市场"
-      >
-        <defs>
-          <radialGradient id="cc-ocean" cx="50%" cy="42%" r="68%">
-            <stop offset="0%" stop-color="#163044" />
-            <stop offset="48%" stop-color="#101526" />
-            <stop offset="100%" stop-color="#07070d" />
-          </radialGradient>
-        </defs>
-        <path class="cc-map-ocean" d={model.sphere} />
-        <path class="cc-map-grid" d={model.graticule} />
-        <path class="cc-map-land" d={model.dim} />
-        {
-          paint.map((link) => (
-            <a
-              class="cc-map-link"
-              href={url(`/compliance/${link.cc}`)}
-              data-name={link.name}
-              data-region={link.region}
-              data-must={link.must}
-              data-flag={flagSrc(link.cc)}
-              data-small={link.small ? 'true' : undefined}
-              data-vx={link.x}
-              data-vy={link.y}
-              data-vw={link.w}
-              data-vh={link.h}
-              aria-label={`${link.name}，${link.region}，${link.must} 项必办`}
-            >
-              <path class="cc-map-shape" d={link.d} />
-              {link.small && <circle class="cc-map-beacon" cx={link.cx} cy={link.cy} r="6" />}
-            </a>
-          ))
-        }
-      </svg>
-    </div>
-    <div class="cc-map-card">
-      <img data-cc-map-flag alt="" width="28" height="21" hidden />
-      <p data-cc-map-copy aria-live="polite">点选亮色市场，查看合规要求</p>
-      <a class="cc-map-go" data-cc-map-go hidden>进入</a>
-    </div>
+      aria-label="三维地球。拖动旋转，滚轮或双指缩放。点亮色国家进入合规页。方向键旋转，加号和减号缩放，Home 键回到全球。"
+    ></canvas>
+    <p class="cc-globe-fallback" data-cc-fallback hidden>
+      这个浏览器打不开三维地球。请用上方「前往」选择市场。
+    </p>
+  </div>
+
+  <div class="cc-map-card">
+    <img data-cc-map-flag alt="" width="28" height="21" hidden />
+    <p data-cc-map-copy aria-live="polite">点选亮色国家，查看合规要求</p>
+    <a class="cc-map-go" data-cc-map-go hidden>进入</a>
   </div>
   <p class="cc-map-note">{model.note}</p>
-  <p class="sr-only">触屏先点选市场，再点「进入」。没有单独页面的国家是暗色，不能进入。</p>
+  <p class="sr-only">触屏先点选国家，再点「进入」或再点一次该国。没有单独页面的国家是暗色，不能进入。地球会缓慢自转，拖动可以旋转。</p>
   {
     model.offMap.length > 0 && (
       <p class="cc-map-note">
-        未画在地图上：
+        未画在球面上：
         {model.offMap.map((market, index) => (
           <>
             {index > 0 && '、'}
