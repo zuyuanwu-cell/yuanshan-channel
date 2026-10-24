@@ -82,10 +82,10 @@
       "time": "未知",
       "docs": [],
       "who": "注册申请人、备案人",
-      "note": "注册、备案前须自行或委托专业机构做安全评估。特殊化妆品注册费本次未打开。",
+      "note": "注册、备案前须自行或委托专业机构做安全评估。中检院2026-10-15征求冻干产品、次抛型化妆品标准意见（截止11-22），尚未强制；相关形态宜提前对照草案。",
       "official_url": "https://www.gov.cn/zhengce/content/2020-06/29/content_5522593.htm",
       "source_checked": "2026-10-24",
-      "needs_review": false
+      "needs_review": true
     }
   ],
   "steps": [

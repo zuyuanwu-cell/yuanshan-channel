@@ -58,10 +58,10 @@
         "RP 信息"
       ],
       "who": "RP",
-      "note": "一次通报全欧盟有效；含纳米须另报",
+      "note": "一次通报全欧盟有效；含纳米须另报。Omnibus VI 拟取消纳米「提前6个月」通报要求（待理事会通过后生效）。",
       "official_url": "https://single-market-economy.ec.europa.eu/sectors/cosmetics/cosmetic-product-notification-portal_en",
-      "source_checked": "2026-10-23",
-      "needs_review": false
+      "source_checked": "2026-10-24",
+      "needs_review": true
     },
     {
       "id": "eu-label",
@@ -96,10 +96,10 @@
         "配方逐项比对附件 II–VI"
       ],
       "who": "品牌/RP",
-      "note": "",
+      "note": "Omnibus VI（议会2026-10-22通过，待理事会）：新禁CMR后清货窗口拟为投放6个月/可售12个月（豁免被拒另有更短或更长档）。最终以公报为准。",
       "official_url": "https://ec.europa.eu/growth/tools-databases/cosing/",
-      "source_checked": "2026-10-23",
-      "needs_review": false
+      "source_checked": "2026-10-24",
+      "needs_review": true
     },
     {
       "id": "eu-gpsr",
@@ -188,7 +188,7 @@
       "type": "tax-customs"
     }
   ],
-  "last_verified": "2026-10-23",
+  "last_verified": "2026-10-24",
   "hs_codes": {
     "status": "ready",
     "items": [
