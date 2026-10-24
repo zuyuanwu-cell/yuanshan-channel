@@ -4,49 +4,34 @@
   "flag": "🇹🇯",
   "region": "中亚",
   "difficulty": 2,
-  "summary": "不是欧亚经济联盟成员国，不能直接套用 ТР ТС 009。卫生部首页已打开。",
+  "summary": "不是欧亚经济联盟成员。卫生部首页未给出化妆品上市前注册或通报。",
   "items": [
     {
       "id": "tj-not-eaeu",
-      "name_zh": "不能直接套用联盟法规",
+      "name_zh": "不能套用联盟化妆品法规",
       "authority": "欧亚经济联盟",
-      "type": "registration",
-      "mandatory": true,
+      "type": "platform",
+      "mandatory": false,
       "cost": "未知",
       "time": "未知",
       "docs": [],
       "who": "出口商",
-      "note": "成员国名单没有塔吉克斯坦，不能直接套用 ТР ТС 009",
-      "official_url": "https://www.eaeunion.org/?lang=en",
+      "note": "现行成员名单没有塔吉克斯坦，不能直接套用ТР ТС 009。",
+      "official_url": "https://www.eaeunion.org/?about-info=&lang=en",
       "source_checked": "2026-10-24",
       "needs_review": false
     },
     {
-      "id": "tj-moh",
-      "name_zh": "卫生部监管入口",
-      "authority": "塔吉克斯坦卫生部",
+      "id": "tj-gap",
+      "name_zh": "未核到上市前程序",
+      "authority": "卫生与社会保障部",
       "type": "registration",
       "mandatory": false,
       "cost": "未知",
       "time": "未知",
       "docs": [],
       "who": "进口商",
-      "note": "卫生部首页可打开。是否须注册，本次未核对全文。",
-      "official_url": "https://moh.tj/",
-      "source_checked": "2026-10-24",
-      "needs_review": true
-    },
-    {
-      "id": "tj-hs",
-      "name_zh": "HS 编码与关税",
-      "authority": "塔吉克斯坦卫生部",
-      "type": "tax-customs",
-      "mandatory": true,
-      "cost": "未知",
-      "time": "未知",
-      "docs": [],
-      "who": "进口商",
-      "note": "链接不是税则。税号和税率未抄录。",
+      "note": "卫生部首页可打开，没有化妆品通知或注册入口。不编造备案路径。",
       "official_url": "https://moh.tj/",
       "source_checked": "2026-10-24",
       "needs_review": true
@@ -54,12 +39,12 @@
   ],
   "steps": [
     {
-      "title": "核对监管入口",
-      "type": "registration"
+      "title": "排除联盟路径",
+      "type": "platform"
     },
     {
-      "title": "清关",
-      "type": "tax-customs"
+      "title": "核对卫生部",
+      "type": "registration"
     }
   ],
   "last_verified": "2026-10-24",

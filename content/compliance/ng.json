@@ -3,48 +3,89 @@
   "name_zh": "尼日利亚",
   "flag": "🇳🇬",
   "region": "非洲",
-  "difficulty": 2,
-  "summary": "食品药品监管局有化妆品指南栏目。注册步骤和费用未打开正文。",
+  "difficulty": 3,
+  "summary": "进口化妆品须由尼日利亚申请人向NAFDAC逐品注册。注册证五年。费用页未打开。",
   "items": [
     {
-      "id": "ng-entry",
-      "name_zh": "化妆品监管入口",
+      "id": "ng-reg",
+      "name_zh": "进口化妆品逐品注册",
       "authority": "NAFDAC",
       "type": "registration",
-      "mandatory": false,
+      "mandatory": true,
       "cost": "未知",
-      "time": "未知",
-      "docs": [],
+      "time": "受理后120个工作日；注册证五年",
+      "docs": [
+        "申请信",
+        "公司注册证明",
+        "公证人声明",
+        "商标注册证明",
+        "标签或图稿",
+        "全项分析证书"
+      ],
       "who": "进口商",
-      "note": "指南栏目可打开。正文步骤和费用这次没核对。",
-      "official_url": "https://nafdac.gov.ng/cosmetics-medical-devices/cosmetics-guidelines/",
+      "note": "未注册不得在尼日利亚制造、进口、出口、广告、销售或分销。交表或缴费不等于已注册。",
+      "official_url": "https://www.nafdac.gov.ng/wp-content/uploads/Files/Resources/Guidelines/DR_And_R_Guidelines/Guidelines-for-Registration-of-Imported-Cosmetics-in-Nigeria.pdf",
       "source_checked": "2026-10-24",
-      "needs_review": true
+      "needs_review": false
     },
     {
-      "id": "ng-hs",
-      "name_zh": "HS 编码与关税",
-      "authority": "目的国海关",
-      "type": "tax-customs",
+      "id": "ng-poa",
+      "name_zh": "境外制造商授权书",
+      "authority": "NAFDAC",
+      "type": "local-rep",
+      "mandatory": true,
+      "cost": "未知",
+      "time": "授权书至少五年",
+      "docs": [],
+      "who": "尼日利亚申请人",
+      "note": "代表境外制造商申请的，须提交列明产品的授权书，并在制造国由公证人公证。",
+      "official_url": "https://www.nafdac.gov.ng/wp-content/uploads/Files/Resources/Guidelines/DR_And_R_Guidelines/Guidelines-for-Registration-of-Imported-Cosmetics-in-Nigeria.pdf",
+      "source_checked": "2026-10-24",
+      "needs_review": false
+    },
+    {
+      "id": "ng-gmp",
+      "name_zh": "工厂检查与实验室",
+      "authority": "NAFDAC",
+      "type": "testing",
       "mandatory": true,
       "cost": "未知",
       "time": "未知",
       "docs": [],
-      "who": "进口商",
-      "note": "链接不是税则。税号和税率未抄录。",
-      "official_url": "https://nafdac.gov.ng/cosmetics-medical-devices/cosmetics-guidelines/",
+      "who": "境外制造商和本地代理人",
+      "note": "文件审查、生产场所GMP检查和适用时的实验室分析通过后，才提交注册委员会。",
+      "official_url": "https://www.nafdac.gov.ng/wp-content/uploads/Files/Resources/Guidelines/DR_And_R_Guidelines/Guidelines-for-Registration-of-Imported-Cosmetics-in-Nigeria.pdf",
+      "source_checked": "2026-10-24",
+      "needs_review": false
+    },
+    {
+      "id": "ng-label",
+      "name_zh": "标签与广告分开许可",
+      "authority": "NAFDAC",
+      "type": "label",
+      "mandatory": true,
+      "cost": "未知",
+      "time": "未知",
+      "docs": [],
+      "who": "申请人",
+      "note": "标签须符合局方化妆品标签条例。注册本身不自动给予广告许可。标签条例正文未打开。",
+      "official_url": "https://www.nafdac.gov.ng/wp-content/uploads/Files/Resources/Guidelines/DR_And_R_Guidelines/Guidelines-for-Registration-of-Imported-Cosmetics-in-Nigeria.pdf",
       "source_checked": "2026-10-24",
       "needs_review": true
     }
   ],
   "steps": [
     {
-      "title": "核对监管入口",
+      "title": "授权",
+      "type": "local-rep"
+    },
+    {
+      "title": "注册",
       "type": "registration"
     },
     {
-      "title": "清关",
-      "type": "tax-customs"
+      "title": "检测",
+      "type": "testing"
     }
   ],
   "last_verified": "2026-10-24",

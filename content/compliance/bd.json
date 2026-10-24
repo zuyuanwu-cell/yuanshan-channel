@@ -3,48 +3,67 @@
   "name_zh": "孟加拉",
   "flag": "🇧🇩",
   "region": "南亚",
-  "difficulty": 2,
-  "summary": "孟加拉药监局官网已打开。化妆品是否须注册，费用和税号未核对。",
+  "difficulty": 3,
+  "summary": "2023年法令规定化妆品生产、进口或分销须向药监总局许可并注册。",
   "items": [
     {
-      "id": "bd-entry",
-      "name_zh": "化妆品监管入口",
-      "authority": "药监局",
+      "id": "bd-license",
+      "name_zh": "化妆品许可",
+      "authority": "药监总局",
       "type": "registration",
-      "mandatory": false,
-      "cost": "未知",
-      "time": "未知",
-      "docs": [],
-      "who": "进口商",
-      "note": "首页为药监局。化妆品专页和费用本次未打开。",
-      "official_url": "https://dgda.gov.bd/",
-      "source_checked": "2026-10-24",
-      "needs_review": true
-    },
-    {
-      "id": "bd-hs",
-      "name_zh": "HS 编码与关税",
-      "authority": "目的国海关",
-      "type": "tax-customs",
       "mandatory": true,
       "cost": "未知",
       "time": "未知",
       "docs": [],
-      "who": "进口商",
-      "note": "链接不是税则。税号和税率未抄录。",
-      "official_url": "https://dgda.gov.bd/",
+      "who": "生产、进口或分销者",
+      "note": "第31条：未获许可不得生产、分销、进口或出口。费用由细则定。",
+      "official_url": "http://bdlaws.minlaw.gov.bd/act-details-1447.html",
+      "source_checked": "2026-10-24",
+      "needs_review": false
+    },
+    {
+      "id": "bd-reg",
+      "name_zh": "化妆品注册",
+      "authority": "药监总局",
+      "type": "registration",
+      "mandatory": true,
+      "cost": "未知",
+      "time": "未知",
+      "docs": [],
+      "who": "生产、进口或分销者",
+      "note": "第32条：未注册不得生产、分销、进口或出口。资格与费用由细则定。",
+      "official_url": "http://bdlaws.minlaw.gov.bd/act-details-1447.html",
+      "source_checked": "2026-10-24",
+      "needs_review": false
+    },
+    {
+      "id": "bd-std",
+      "name_zh": "质量标准由细则规定",
+      "authority": "药监总局",
+      "type": "safety",
+      "mandatory": true,
+      "cost": "未知",
+      "time": "未知",
+      "docs": [],
+      "who": "制造商",
+      "note": "第35条：政府以细则定标准，可参照欧盟、美国FDA和东盟。细则未打开。",
+      "official_url": "http://bdlaws.minlaw.gov.bd/act-details-1447.html",
       "source_checked": "2026-10-24",
       "needs_review": true
     }
   ],
   "steps": [
     {
-      "title": "核对监管入口",
+      "title": "许可",
       "type": "registration"
     },
     {
-      "title": "清关",
-      "type": "tax-customs"
+      "title": "注册",
+      "type": "registration"
+    },
+    {
+      "title": "标准",
+      "type": "safety"
     }
   ],
   "last_verified": "2026-10-24",

@@ -4,47 +4,66 @@
   "flag": "🇦🇺",
   "region": "大洋洲",
   "difficulty": 2,
-  "summary": "工业化学品法 2019 在施行。化妆品成分如何登记，AICIS 专题页这次没打开。",
+  "summary": "已核实化妆品成分标签强制标准。工业化学品引进和防晒分类官网本次未打开。",
   "items": [
     {
-      "id": "au-act",
-      "name_zh": "工业化学品法 2019",
-      "authority": "卫生、残障与老龄部",
+      "id": "au-label",
+      "name_zh": "化妆品成分标签强制标准",
+      "authority": "竞争与消费者委员会",
+      "type": "label",
+      "mandatory": true,
+      "cost": "未知",
+      "time": "未知",
+      "docs": [],
+      "who": "在澳大利亚供应化妆品的人",
+      "note": "成分须标在容器上；没有容器则标在产品上。供出口、免费样品和试用装除外。",
+      "official_url": "https://www.productsafety.gov.au/business/search-mandatory-standards/cosmetics-ingredients-labelling-mandatory-standard",
+      "source_checked": "2026-10-24",
+      "needs_review": true
+    },
+    {
+      "id": "au-exclude",
+      "name_zh": "治疗用品不适用该标签标准",
+      "authority": "竞争与消费者委员会",
+      "type": "safety",
+      "mandatory": true,
+      "cost": "未知",
+      "time": "未知",
+      "docs": [],
+      "who": "供应治疗用品的人",
+      "note": "页面把治疗用品排除出该标签标准，并指向治疗用品管理局。该局页面本次返回错误。",
+      "official_url": "https://www.productsafety.gov.au/business/search-mandatory-standards/cosmetics-ingredients-labelling-mandatory-standard",
+      "source_checked": "2026-10-24",
+      "needs_review": true
+    },
+    {
+      "id": "au-aicis",
+      "name_zh": "工业化学品页面未打开",
+      "authority": "工业化学品引进制度",
       "type": "registration",
       "mandatory": false,
       "cost": "未知",
       "time": "未知",
       "docs": [],
-      "who": "进口商或生产商",
-      "note": "法律登记册确认该法在施行。AICIS 化妆品细则未打开。",
-      "official_url": "https://www.legislation.gov.au/C2019A00012/latest/text",
-      "source_checked": "2026-10-24",
-      "needs_review": true
-    },
-    {
-      "id": "au-hs",
-      "name_zh": "HS 编码与关税",
-      "authority": "澳大利亚法律登记册",
-      "type": "tax-customs",
-      "mandatory": true,
-      "cost": "未知",
-      "time": "未知",
-      "docs": [],
-      "who": "进口商",
-      "note": "链接不是税则。税号和税率未抄录。",
-      "official_url": "https://www.legislation.gov.au/C2019A00012/latest/text",
+      "who": "引进工业化学品的人",
+      "note": "AICIS化妆品页本次返回错误。不记录成分引进或分类义务。",
+      "official_url": "https://www.industrialchemicals.gov.au/cosmetics-and-soap",
       "source_checked": "2026-10-24",
       "needs_review": true
     }
   ],
   "steps": [
     {
-      "title": "核对监管入口",
-      "type": "registration"
+      "title": "成分标签",
+      "type": "label"
     },
     {
-      "title": "清关",
-      "type": "tax-customs"
+      "title": "治疗用品另核",
+      "type": "safety"
+    },
+    {
+      "title": "AICIS待核",
+      "type": "registration"
     }
   ],
   "last_verified": "2026-10-24",

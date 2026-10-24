@@ -4,47 +4,81 @@
   "flag": "🇰🇭",
   "region": "东南亚",
   "difficulty": 2,
-  "summary": "卫生部官网已打开。东盟化妆品指令是否在本国落地，本次未核对。",
+  "summary": "贸易用化妆品须有卫生部通知编号。东盟化妆品指令由柬埔寨签署的协定纳入。",
   "items": [
     {
-      "id": "kh-entry",
-      "name_zh": "化妆品监管入口",
+      "id": "kh-no",
+      "name_zh": "卫生部通知编号",
       "authority": "卫生部",
       "type": "registration",
-      "mandatory": false,
-      "cost": "未知",
-      "time": "未知",
-      "docs": [],
-      "who": "进口商",
-      "note": "不能直接套用新加坡的通报规则。注册路径未核对。",
-      "official_url": "https://moh.gov.kh/",
-      "source_checked": "2026-10-24",
-      "needs_review": true
-    },
-    {
-      "id": "kh-hs",
-      "name_zh": "HS 编码与关税",
-      "authority": "目的国海关",
-      "type": "tax-customs",
       "mandatory": true,
       "cost": "未知",
       "time": "未知",
       "docs": [],
-      "who": "进口商",
-      "note": "链接不是税则。税号和税率未抄录。",
-      "official_url": "https://moh.gov.kh/",
+      "who": "对流通产品负责的自然人或法人",
+      "note": "在柬埔寨贸易的进口或本地化妆品须有卫生部通知编号。英文文本自标非官方译文。费用prakas未打开。",
+      "official_url": "https://cambodiantr.gov.kh/en/document/?title=sub-decree-no-122-on-cosmetic-product-control",
+      "source_checked": "2026-10-24",
+      "needs_review": true
+    },
+    {
+      "id": "kh-file",
+      "name_zh": "安全技术文件",
+      "authority": "卫生部",
+      "type": "safety",
+      "mandatory": true,
+      "cost": "未知",
+      "time": "未知",
+      "docs": [],
+      "who": "通知申请人",
+      "note": "检查时须备配方、质控、微生物、规格和生产与安全评估资料。技术文件用高棉文及英文或法文。",
+      "official_url": "https://cambodiantr.gov.kh/en/document/?title=sub-decree-no-122-on-cosmetic-product-control",
+      "source_checked": "2026-10-24",
+      "needs_review": true
+    },
+    {
+      "id": "kh-label",
+      "name_zh": "标签与使用说明",
+      "authority": "卫生部",
+      "type": "label",
+      "mandatory": true,
+      "cost": "未知",
+      "time": "未知",
+      "docs": [],
+      "who": "在柬销售的人",
+      "note": "须有标签和说明，载明用法、贮存和消费注意。具体标示程式由卫生部另定，该文件未打开。",
+      "official_url": "https://cambodiantr.gov.kh/en/document/?title=sub-decree-no-122-on-cosmetic-product-control",
+      "source_checked": "2026-10-24",
+      "needs_review": true
+    },
+    {
+      "id": "kh-asean",
+      "name_zh": "东盟化妆品指令",
+      "authority": "东盟",
+      "type": "registration",
+      "mandatory": true,
+      "cost": "未知",
+      "time": "未知",
+      "docs": [],
+      "who": "成员国经营者",
+      "note": "协定要求成员国在2008年1月1日前充分实施东盟化妆品指令。指令附件正文未打开。",
+      "official_url": "https://asean.org/wp-content/uploads/2024/11/Agreement-on-the-ASEAN-Harmonized-Cosmetic-Regulatory-Scheme.pdf",
       "source_checked": "2026-10-24",
       "needs_review": true
     }
   ],
   "steps": [
     {
-      "title": "核对监管入口",
+      "title": "通知编号",
       "type": "registration"
     },
     {
-      "title": "清关",
-      "type": "tax-customs"
+      "title": "安全档案",
+      "type": "safety"
+    },
+    {
+      "title": "标签",
+      "type": "label"
     }
   ],
   "last_verified": "2026-10-24",

@@ -4,62 +4,81 @@
   "flag": "🇰🇬",
   "region": "中亚",
   "difficulty": 3,
-  "summary": "吉尔吉斯斯坦是欧亚经济联盟成员。本国药监站这次没打开。",
+  "summary": "欧亚经济联盟成员，适用同一化妆品技术法规。本国声明文件清单已打开。",
   "items": [
     {
       "id": "kg-member",
-      "name_zh": "联盟成员适用同一法规",
+      "name_zh": "联盟成员适用该法规",
       "authority": "欧亚经济联盟",
-      "type": "registration",
+      "type": "platform",
       "mandatory": true,
       "cost": "未知",
       "time": "未知",
       "docs": [],
-      "who": "联盟成员国",
-      "note": "官网列明五国成员：亚美尼亚、白俄罗斯、哈萨克斯坦、吉尔吉斯斯坦、俄罗斯",
-      "official_url": "https://www.eaeunion.org/?lang=en",
+      "who": "成员国经营者",
+      "note": "成员名单包含吉尔吉斯斯坦。不把俄罗斯诚信标志套到本国。",
+      "official_url": "https://www.eaeunion.org/?about-info=&lang=en",
       "source_checked": "2026-10-24",
       "needs_review": false
     },
     {
-      "id": "kg-tr",
-      "name_zh": "化妆品技术法规 ТР ТС 009",
+      "id": "kg-assess",
+      "name_zh": "国家注册或符合性声明",
       "authority": "欧亚经济委员会",
       "type": "registration",
       "mandatory": true,
       "cost": "未知",
       "time": "未知",
       "docs": [],
-      "who": "联盟内申请人",
-      "note": "适用 ТР ТС 009/2011。本国药监站未打开，额外程序未核对。",
-      "official_url": "https://eec.eaeunion.org/comission/department/deptexreg/tr/bezopParfum.php",
+      "who": "成员国境内法人或个体户",
+      "note": "附件12内国家注册，清单以外的产品做符合性声明。",
+      "official_url": "https://old.adilet.zan.kz/rus/docs/H11T0000799",
       "source_checked": "2026-10-24",
-      "needs_review": true
+      "needs_review": false
     },
     {
-      "id": "kg-hs",
-      "name_zh": "HS 编码与关税",
-      "authority": "欧亚经济委员会",
-      "type": "tax-customs",
+      "id": "kg-docs",
+      "name_zh": "声明文件清单",
+      "authority": "吉尔吉斯标准局",
+      "type": "testing",
       "mandatory": true,
       "cost": "未知",
       "time": "未知",
       "docs": [],
-      "who": "进口商",
-      "note": "税号未抄录。俄罗斯诚信标志不自动套用到本国。",
-      "official_url": "https://eec.eaeunion.org/comission/department/deptexreg/tr/bezopParfum.php",
+      "who": "声明申请人",
+      "note": "清单要求成分、理化指标、标签样本和检测报告。费用与受理机关未写明。",
+      "official_url": "https://nism.gov.kg/ru/events/122",
       "source_checked": "2026-10-24",
       "needs_review": true
+    },
+    {
+      "id": "kg-mark",
+      "name_zh": "联盟流通标志",
+      "authority": "欧亚经济委员会",
+      "type": "marking",
+      "mandatory": true,
+      "cost": "未知",
+      "time": "未知",
+      "docs": [],
+      "who": "投放市场的人",
+      "note": "完成合格评定后使用联盟市场流通统一标志。",
+      "official_url": "https://old.adilet.zan.kz/rus/docs/H11T0000799",
+      "source_checked": "2026-10-24",
+      "needs_review": false
     }
   ],
   "steps": [
     {
-      "title": "确认联盟法规",
+      "title": "合格评定",
       "type": "registration"
     },
     {
-      "title": "清关",
-      "type": "tax-customs"
+      "title": "检测文件",
+      "type": "testing"
+    },
+    {
+      "title": "标志",
+      "type": "marking"
     }
   ],
   "last_verified": "2026-10-24",

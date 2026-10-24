@@ -3,48 +3,103 @@
   "name_zh": "中国",
   "flag": "🇨🇳",
   "region": "东亚",
-  "difficulty": 2,
-  "summary": "国家药监局英文站可打开，这次看到的是新闻，不是化妆品注册细则。",
+  "difficulty": 3,
+  "summary": "特殊化妆品注册，进口普通化妆品在进口前备案。境外企业须指定境内企业法人。",
   "items": [
     {
-      "id": "cn-entry",
-      "name_zh": "化妆品监管入口",
+      "id": "cn-split",
+      "name_zh": "特殊注册、普通备案",
       "authority": "国家药监局",
       "type": "registration",
-      "mandatory": false,
-      "cost": "未知",
-      "time": "未知",
-      "docs": [],
-      "who": "进口商",
-      "note": "注册分类、备案和费用都未在该页核对",
-      "official_url": "https://english.nmpa.gov.cn/",
-      "source_checked": "2026-10-24",
-      "needs_review": true
-    },
-    {
-      "id": "cn-hs",
-      "name_zh": "HS 编码与关税",
-      "authority": "目的国海关",
-      "type": "tax-customs",
       "mandatory": true,
       "cost": "未知",
       "time": "未知",
       "docs": [],
-      "who": "进口商",
-      "note": "链接不是税则。税号和税率未抄录。",
-      "official_url": "https://english.nmpa.gov.cn/",
+      "who": "注册人、备案人",
+      "note": "染发、烫发、祛斑美白、防晒、防脱发及宣称新功效为特殊化妆品，其余为普通化妆品。",
+      "official_url": "https://www.gov.cn/zhengce/content/2020-06/29/content_5522593.htm",
       "source_checked": "2026-10-24",
-      "needs_review": true
+      "needs_review": false
+    },
+    {
+      "id": "cn-import",
+      "name_zh": "进口普通化妆品备案",
+      "authority": "国家药监局",
+      "type": "registration",
+      "mandatory": true,
+      "cost": "免费",
+      "time": "提交之日起5个工作日内公布",
+      "docs": [
+        "配方或全成分",
+        "执行标准",
+        "标签样稿",
+        "检验报告",
+        "安全评估资料"
+      ],
+      "who": "备案人",
+      "note": "进口普通化妆品应当在进口前向国务院药品监督管理部门备案。该办事页写明不收费。",
+      "official_url": "https://zwfw.nmpa.gov.cn/web/taskview/11100000MB0341032Y100207202200001",
+      "source_checked": "2026-10-24",
+      "needs_review": false
+    },
+    {
+      "id": "cn-rp",
+      "name_zh": "境内企业法人",
+      "authority": "国家药监局",
+      "type": "local-rep",
+      "mandatory": true,
+      "cost": "未知",
+      "time": "未知",
+      "docs": [],
+      "who": "境外注册人、备案人",
+      "note": "境外注册人、备案人应当指定我国境内企业法人办理注册、备案，并协助不良反应监测和召回。",
+      "official_url": "https://www.gov.cn/zhengce/content/2020-06/29/content_5522593.htm",
+      "source_checked": "2026-10-24",
+      "needs_review": false
+    },
+    {
+      "id": "cn-label",
+      "name_zh": "中文标签",
+      "authority": "国家药监局",
+      "type": "label",
+      "mandatory": true,
+      "cost": "未知",
+      "time": "未知",
+      "docs": [],
+      "who": "注册人、备案人",
+      "note": "可直接使用中文标签或加贴。加贴的中文内容应当与原标签一致。",
+      "official_url": "https://www.gov.cn/zhengce/content/2020-06/29/content_5522593.htm",
+      "source_checked": "2026-10-24",
+      "needs_review": false
+    },
+    {
+      "id": "cn-safety",
+      "name_zh": "上市前安全评估",
+      "authority": "国家药监局",
+      "type": "safety",
+      "mandatory": true,
+      "cost": "未知",
+      "time": "未知",
+      "docs": [],
+      "who": "注册申请人、备案人",
+      "note": "注册、备案前须自行或委托专业机构做安全评估。特殊化妆品注册费本次未打开。",
+      "official_url": "https://www.gov.cn/zhengce/content/2020-06/29/content_5522593.htm",
+      "source_checked": "2026-10-24",
+      "needs_review": false
     }
   ],
   "steps": [
     {
-      "title": "核对监管入口",
+      "title": "分类",
       "type": "registration"
     },
     {
-      "title": "清关",
-      "type": "tax-customs"
+      "title": "备案或注册",
+      "type": "registration"
+    },
+    {
+      "title": "中文标签",
+      "type": "label"
     }
   ],
   "last_verified": "2026-10-24",
