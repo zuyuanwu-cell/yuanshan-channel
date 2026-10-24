@@ -1,5 +1,15 @@
 type NewsFilterKey = 'category' | 'tag' | 'platform';
 
+function marketNameMap(): Record<string, string> {
+  const node = document.getElementById('news-market-names');
+  if (!node?.textContent) return {};
+  try {
+    return JSON.parse(node.textContent) as Record<string, string>;
+  } catch {
+    return {};
+  }
+}
+
 function initNewsFilters(): void {
   const root = document.querySelector<HTMLElement>('[data-news-list]');
   if (!root) return;
@@ -8,12 +18,16 @@ function initNewsFilters(): void {
   const empty = root.querySelector<HTMLElement>('[data-filter-empty]');
   const count = root.querySelector<HTMLElement>('[data-filter-count]');
   const reset = root.querySelector<HTMLButtonElement>('[data-filter-reset]');
+  const countryNote = root.querySelector<HTMLElement>('[data-country-note]');
+  const names = marketNameMap();
   const state: Record<NewsFilterKey, string> = { category: 'all', tag: 'all', platform: 'all' };
+  let countries: string[] = [];
 
   const matches = (card: HTMLElement) =>
     (state.category === 'all' || card.dataset.category === state.category) &&
     (state.tag === 'all' || (card.dataset.tags ?? '').split(' ').includes(state.tag)) &&
-    (state.platform === 'all' || (card.dataset.platforms ?? '').split(' ').includes(state.platform));
+    (state.platform === 'all' || (card.dataset.platforms ?? '').split(' ').includes(state.platform)) &&
+    (countries.length === 0 || countries.some((id) => (card.dataset.countries ?? '').split(' ').includes(id)));
 
   const render = () => {
     let shown = 0;
@@ -30,7 +44,17 @@ function initNewsFilters(): void {
     }
     if (empty) empty.hidden = shown !== 0;
     if (count) count.textContent = `${shown} 条`;
-    if (reset) reset.hidden = Object.values(state).every((value) => value === 'all');
+    if (reset) reset.hidden = Object.values(state).every((value) => value === 'all') && countries.length === 0;
+    if (countryNote) {
+      if (countries.length === 0) {
+        countryNote.hidden = true;
+        countryNote.textContent = '';
+      } else {
+        const label = countries.map((id) => names[id] ?? id).join('、');
+        countryNote.hidden = false;
+        countryNote.textContent = `市场：${label}`;
+      }
+    }
   };
 
   const revealActive = () => {
@@ -48,6 +72,8 @@ function initNewsFilters(): void {
       if (state[key] === 'all') next.searchParams.delete(key);
       else next.searchParams.set(key, state[key]);
     }
+    if (countries.length) next.searchParams.set('countries', countries.join(','));
+    else next.searchParams.delete('countries');
     history.replaceState(null, '', next);
   };
 
@@ -65,11 +91,19 @@ function initNewsFilters(): void {
 
   reset?.addEventListener('click', () => {
     state.category = state.tag = state.platform = 'all';
+    countries = [];
     render();
     sync();
   });
 
   const params = new URLSearchParams(location.search);
+  const countryParam = params.get('countries');
+  if (countryParam) {
+    countries = countryParam
+      .split(',')
+      .map((id) => id.trim().toLowerCase())
+      .filter(Boolean);
+  }
   for (const group of groups) {
     const key = group.dataset.filterGroup as NewsFilterKey;
     const wanted = params.get(key);

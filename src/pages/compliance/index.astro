@@ -26,6 +26,7 @@ const latest = countries.map((c) => c.last_verified).sort().at(-1) ?? '';
     <div class="cc-head-links">
       <ComplianceViewSwitch />
       <a class="text-link" href={url('/hs-codes')}>海关编码搜索 →</a>
+      <a class="text-link" href={url('/subscribe')}>关注市场 →</a>
     </div>
   </header>
   <ServiceHint

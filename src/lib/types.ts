@@ -1,6 +1,6 @@
 export type NewsCategory = 'rules' | 'regulation';
 export type HeroStatKey = 'news' | 'platforms' | 'rankings' | NewsCategory;
-export type NavIcon = 'home' | 'news' | 'rankings' | 'platforms' | 'about' | 'compliance' | 'codes';
+export type NavIcon = 'home' | 'news' | 'rankings' | 'platforms' | 'about' | 'compliance' | 'codes' | 'subscribe';
 export type SocialId = 'douyin' | 'channels' | 'xiaohongshu' | 'weibo';
 
 export interface SocialLink {
@@ -8,6 +8,15 @@ export interface SocialLink {
   label: string;
   href: string;
   hint?: string;
+}
+
+export interface FactoryPromo {
+  eyebrow: string;
+  title: string;
+  text: string;
+  points: string[];
+  ctaLabel: string;
+  ctaHref: string;
 }
 
 export interface ContactConfig {

@@ -1,0 +1,260 @@
+openapi: 3.0.3
+info:
+  title: Yuanshan Channel read API
+  version: "1.0.0"
+  description: |
+    Public read of published 同舟跨境·远山频道 content. Generated at build time from content/.
+    No write operations. Not legal advice.
+    On a static host, query strings on /v1/updates.json are not applied by the server.
+    Clients filter items with markets, types, since, and include_global.
+    Paths omit the deploy base (/ on ys.tongzhoukuajing.com, /yuanshan-channel on GitHub Pages).
+servers:
+  - url: https://ys.tongzhoukuajing.com
+    description: Baota production
+  - url: https://zuyuanwu-cell.github.io/yuanshan-channel
+    description: GitHub Pages
+paths:
+  /v1.json:
+    get:
+      operationId: getDirectory
+      summary: API directory, filter rules, and future auth shape
+      responses:
+        "200":
+          description: Directory JSON
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/Envelope"
+  /v1/markets.json:
+    get:
+      operationId: listMarkets
+      summary: Markets (compliance country ids, Chinese names, regions)
+      responses:
+        "200":
+          description: Market list
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/Envelope"
+  /v1/updates.json:
+    get:
+      operationId: listUpdates
+      summary: News and ranking-update index
+      parameters:
+        - $ref: "#/components/parameters/markets"
+        - $ref: "#/components/parameters/types"
+        - $ref: "#/components/parameters/since"
+        - $ref: "#/components/parameters/includeGlobal"
+      responses:
+        "200":
+          description: |
+            Full index. Static hosting ignores the query parameters.
+            Apply them to the items array, or fetch a prebuilt feed.
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/Envelope"
+  /v1/news/{slug}.json:
+    get:
+      operationId: getNewsItem
+      parameters:
+        - name: slug
+          in: path
+          required: true
+          schema: { type: string }
+      responses:
+        "200":
+          description: One news item, including body_text
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/Envelope"
+  /v1/markets/{id}/compliance.json:
+    get:
+      operationId: getCompliance
+      parameters:
+        - $ref: "#/components/parameters/marketId"
+      responses:
+        "200":
+          description: Compliance snapshot for that market
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/Envelope"
+  /v1/markets/{id}/rankings.json:
+    get:
+      operationId: getMarketRankings
+      parameters:
+        - $ref: "#/components/parameters/marketId"
+      responses:
+        "200":
+          description: Ranking boards mapped to that market
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/Envelope"
+  /v1/markets/{id}/feed.json:
+    get:
+      operationId: getMarketFeed
+      parameters:
+        - $ref: "#/components/parameters/marketId"
+      responses:
+        "200":
+          description: Prefiltered feed for all content types in that market
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/Envelope"
+  /v1/markets/{id}/feed.xml:
+    get:
+      operationId: getMarketFeedRss
+      parameters:
+        - $ref: "#/components/parameters/marketId"
+      responses:
+        "200":
+          description: RSS 2.0 for that market
+          content:
+            application/rss+xml:
+              schema: { type: string }
+  /v1/markets/{id}/types/{combo}.json:
+    get:
+      operationId: getMarketTypedFeed
+      parameters:
+        - $ref: "#/components/parameters/marketId"
+        - name: combo
+          in: path
+          required: true
+          description: Content types joined with +, in order rules+regulation+rankings
+          schema: { type: string, example: rules+regulation }
+      responses:
+        "200":
+          description: Prefiltered feed for that type subset
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/Envelope"
+  /v1/rankings.json:
+    get:
+      operationId: listRankings
+      summary: Ranking boards, including gaps
+      responses:
+        "200":
+          description: Board index
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/Envelope"
+  /v1/rankings/{board}.json:
+    get:
+      operationId: getRankingLatest
+      parameters:
+        - name: board
+          in: path
+          required: true
+          schema: { type: string, example: amazon-us }
+      responses:
+        "200":
+          description: Latest snapshot, or an empty gap record
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/Envelope"
+  /v1/rankings/{board}/{date}.json:
+    get:
+      operationId: getRankingDate
+      parameters:
+        - name: board
+          in: path
+          required: true
+          schema: { type: string }
+        - name: date
+          in: path
+          required: true
+          schema: { type: string, example: "2026-10-23" }
+      responses:
+        "200":
+          description: Dated snapshot
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/Envelope"
+  /v1/packages/{slug}.json:
+    get:
+      operationId: getPackage
+      parameters:
+        - name: slug
+          in: path
+          required: true
+          description: Region slug (southeast-asia, europe, …) or global
+          schema: { type: string }
+      responses:
+        "200":
+          description: Prefiltered region package, or the global ranking package
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/Envelope"
+components:
+  parameters:
+    marketId:
+      name: id
+      in: path
+      required: true
+      schema: { type: string, example: us }
+    markets:
+      name: markets
+      in: query
+      schema: { type: string, example: "sg,us" }
+      description: Client-side filter. Ignored by static hosting.
+    types:
+      name: types
+      in: query
+      schema: { type: string, example: "rules,regulation" }
+      description: Client-side filter. Ignored by static hosting.
+    since:
+      name: since
+      in: query
+      schema: { type: string, example: "2026-10-01" }
+      description: Client-side filter. Inclusive YYYY-MM-DD. Ignored by static hosting.
+    includeGlobal:
+      name: include_global
+      in: query
+      schema: { type: string, enum: ["1"] }
+      description: Client-side. Include scope=global rankings when markets is set.
+  schemas:
+    Envelope:
+      type: object
+      required: [api, access, auth, generated, disclaimer, kind]
+      properties:
+        api: { type: string, example: yuanshan-channel/v1 }
+        access: { type: string, enum: [public-read] }
+        auth: { type: "null" }
+        generated: { type: string, example: "2026-10-23" }
+        disclaimer: { type: string }
+        kind: { type: string }
+        items:
+          type: array
+          items:
+            $ref: "#/components/schemas/FeedItem"
+    FeedItem:
+      type: object
+      required: [kind, id, type, date, title, summary, markets, page, source_url, source_name, needs_review, sample]
+      properties:
+        kind: { type: string, enum: [news, ranking] }
+        id: { type: string }
+        type: { type: string, enum: [rules, regulation, rankings] }
+        date: { type: string }
+        title: { type: string }
+        summary: { type: string }
+        body_text: { type: string }
+        markets:
+          type: array
+          items: { type: string }
+        scope: { type: string, enum: [global] }
+        page: { type: string }
+        source_url: { type: string }
+        source_name: { type: string }
+        needs_review: { type: boolean }
+        sample: { type: boolean }
+        board: { type: string }
+        detail: { type: string }

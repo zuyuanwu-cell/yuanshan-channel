@@ -2,6 +2,7 @@
  * Minimal GitHub OAuth bridge for Decap CMS, plus the collab-form proxy.
  * Exposes /auth and /callback (also under /oauth/* when reverse-proxied).
  * POST /api/contact (public path /oauth/api/contact) forwards to WeCom.
+ * POST /api/subscribe (public path /oauth/api/subscribe) forwards a market package.
  *
  * Env:
  *   OAUTH_CLIENT_ID       GitHub OAuth App client id
@@ -11,12 +12,14 @@
  *   TRUSTED_ORIGINS       comma-separated origins allowed to receive the token
  *                         e.g. https://ys.tongzhoukuajing.com
  *                         (localhost origins always allowed for local smoke tests)
- *   WECOM_WEBHOOK_URL     企业微信群机器人 webhook。留空则联系表单返回 503。
- *                         不要写入仓库。
+ *   WECOM_WEBHOOK_URL     企业微信群机器人 webhook。留空则联系表单和订阅返回 503。
+ *   YUANSHAN_WECOM_WEBHOOK_URL
+ *                         上一行为空时的别名。不要把 key 写入仓库。
  */
 import express from "express";
 import { URLSearchParams } from "node:url";
 import { createContactHandler, resolveWebhook } from "./contact.js";
+import { createSubscribeHandler } from "./subscribe.js";
 
 const CLIENT_ID = process.env.OAUTH_CLIENT_ID || "";
 const CLIENT_SECRET = process.env.OAUTH_CLIENT_SECRET || "";
@@ -138,11 +141,13 @@ async function callbackHandler(req, res) {
 }
 
 function health(_req, res) {
-  const contact = resolveWebhook(process.env.WECOM_WEBHOOK_URL || "");
+  const wecom = resolveWebhook(process.env.WECOM_WEBHOOK_URL || process.env.YUANSHAN_WECOM_WEBHOOK_URL || "");
+  const state = wecom.state === "ok" ? "configured" : "unconfigured";
   res.json({
     ok: true,
     service: "yuanshan-decap-oauth",
-    contact: contact.state === "ok" ? "configured" : "unconfigured",
+    contact: state,
+    subscribe: state,
   });
 }
 
@@ -160,6 +165,7 @@ router.get("/auth", authHandler);
 router.get("/callback", callbackHandler);
 router.get("/health", health);
 router.post("/api/contact", jsonBody, createContactHandler());
+router.post("/api/subscribe", jsonBody, createSubscribeHandler());
 
 app.use("/", router);
 app.use("/oauth", router);

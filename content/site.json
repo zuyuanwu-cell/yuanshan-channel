@@ -93,6 +93,11 @@
       "icon": "platforms"
     },
     {
+      "href": "/subscribe",
+      "label": "关注市场",
+      "icon": "subscribe"
+    },
+    {
       "href": "/about",
       "label": "关于",
       "icon": "about"

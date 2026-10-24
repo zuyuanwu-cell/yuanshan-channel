@@ -1,0 +1,129 @@
+---
+import Flag from '../components/Flag.astro';
+import Base from '../layouts/Base.astro';
+import { getCompliance } from '../lib/content';
+import { subscribePayload } from '../lib/read-api';
+import { TYPE_LABELS } from '../lib/feed-filter.mjs';
+import { url } from '../lib/format';
+
+const payload = subscribePayload();
+const countries = getCompliance();
+const names = new Map(countries.map((country) => [country.country, country.name_zh]));
+const data = JSON.stringify(payload).replace(/</g, '\\u003c');
+const typeButtons = [
+  { id: 'rules', label: TYPE_LABELS.rules },
+  { id: 'regulation', label: TYPE_LABELS.regulation },
+  { id: 'rankings', label: TYPE_LABELS.rankings },
+] as const;
+---
+
+<Base title="关注市场" description="按市场订阅平台规则、法规和热销榜。公开只读，不是全站会员。">
+  <header class="page-head">
+    <p class="kicker">市场订阅 · 公开只读</p>
+    <h1>关注市场</h1>
+    <p class="lede">
+      选你在做的市场，以及要看的内容：平台规则、市场法规、热销榜。选定之后得到筛选结果和稳定地址。这不是全站会员。
+    </p>
+  </header>
+
+  <div data-subscribe>
+    <label class="contact-hp">
+      请留空
+      <input type="text" data-subscribe-trap tabindex="-1" autocomplete="off" />
+    </label>
+    <div class="sub-layout">
+    <div>
+    <section class="sub-block">
+      <div class="sub-block-head">
+        <h2>1. 市场</h2>
+        <button type="button" class="text-link" data-subscribe-clear>清除选择</button>
+      </div>
+      <div class="filters scroll-x" role="group" aria-label="地区">
+        <button type="button" class="chip" data-region-filter="all" aria-pressed="true">全部</button>
+        {
+          payload.regions.map((region) => (
+            <button type="button" class="chip" data-region-filter={region.slug} aria-pressed="false">
+              {region.title}
+            </button>
+          ))
+        }
+      </div>
+      {
+        payload.regions.map((region) => (
+          <section class="sub-region" data-region-block={region.slug}>
+            <div class="sub-region-head">
+              <h3>{region.title}</h3>
+              <button type="button" class="chip" data-region-toggle={region.slug} aria-pressed="false">
+                全选此地区
+              </button>
+            </div>
+            <div class="sub-markets">
+              {region.markets.map((id) => (
+                <button type="button" class="chip chip-flag" data-market={id} data-region={region.slug} aria-pressed="false">
+                  <Flag cc={id} size="sm" />
+                  {names.get(id) ?? id}
+                </button>
+              ))}
+            </div>
+          </section>
+        ))
+      }
+    </section>
+
+    <section class="sub-block">
+      <h2>2. 内容</h2>
+      <div class="filters" role="group" aria-label="内容类型">
+        {
+          typeButtons.map((type) => (
+            <button type="button" class="chip" data-type={type.id} aria-pressed="true">
+              {type.label}
+            </button>
+          ))
+        }
+      </div>
+      <label class="sub-since">
+        只看此日期之后
+        <input type="date" data-since />
+      </label>
+    </section>
+
+    </div>
+    <section class="sub-block card sub-result" data-subscribe-result aria-live="polite">
+      <p class="lede">先点选市场。订阅按市场打包，不是全站会员。</p>
+    </section>
+    </div>
+
+    <section class="sub-block">
+      <h2>提醒怎么到你手里</h2>
+      <p>
+        点「生成订阅」之后，页面给出这组市场的 JSON 和 RSS。同一次请求把偏好交给 <code>/oauth/api/subscribe</code>，由服务器上的企业微信机器人发到群里。浏览器里没有 webhook 地址，页面也不发邮件。
+      </p>
+      <p>
+        群通知要服务器配了环境变量才发得出去。没配、或这页只是静态预览时，地址照样生成，只是群里收不到。选择记在这台浏览器里，没有账号。
+      </p>
+      <p class="muted">
+        新内容要进群，在服务器上跑 <code>deploy/admin-oauth/notify-updates.js</code>。第一次只记下已有条目，不把历史刷进群。以后如果要做付费档，请求头是 <code>Authorization: Bearer &lt;key&gt;</code>，密钥只覆盖这一组市场。这一版不发密钥，也不校验。<code>/v1/</code> 仍是公开只读。说明见 <code>docs/subscriptions.md</code>。
+      </p>
+    </section>
+
+    <details class="sub-block card sub-agent">
+      <summary>给程序和 Agent</summary>
+      <p>同一份 <code>content/</code>，构建时写成 <code>/v1/</code>。MCP 只读这些 JSON，不抓页面。</p>
+      <ul>
+        <li><a href={url('/v1.json')}>/v1.json</a> 目录、筛选约定、以后的密钥形状</li>
+        <li><a href={url('/v1/markets.json')}>/v1/markets.json</a> 市场 id、中文名、地区</li>
+        <li><a href={url('/v1/updates.json')}>/v1/updates.json</a> 索引。静态托管忽略查询参数，由调用方按 markets、types、since 过滤</li>
+        <li><code>/v1/markets/&#123;id&#125;/feed.json</code> 与 <code>feed.xml</code> 单市场，构建时已滤好</li>
+        <li><code>/v1/markets/&#123;id&#125;/compliance.json</code> 该市场合规快照</li>
+        <li><code>/v1/markets/&#123;id&#125;/rankings.json</code> 与 <code>/v1/rankings/&#123;board&#125;.json</code></li>
+      </ul>
+      <p class="muted">没有写入接口。不把无筛选的全库导出当作订阅。不生成法律意见，引用前打开来源链接。</p>
+    </details>
+    <script type="application/json" id="subscribe-data" set:html={data} />
+  </div>
+</Base>
+
+<script>
+  import { initSubscribe } from '../scripts/subscribe.ts';
+  initSubscribe();
+</script>

@@ -109,7 +109,9 @@ export function createContactHandler(options = {}) {
   const hits = new Map();
 
   const webhookSource = () =>
-    options.webhookUrl !== undefined ? options.webhookUrl : (process.env.WECOM_WEBHOOK_URL ?? '');
+    options.webhookUrl !== undefined
+      ? options.webhookUrl
+      : process.env.WECOM_WEBHOOK_URL || process.env.YUANSHAN_WECOM_WEBHOOK_URL || '';
 
   return async function contactHandler(req, res) {
     const ip = clientIp(req);

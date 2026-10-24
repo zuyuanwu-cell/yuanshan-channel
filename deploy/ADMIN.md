@@ -181,7 +181,7 @@ GitHub 仓库 → **Settings → Secrets and variables → Actions**。这两个
 
 页脚和右下角「洽谈合作」随静态站发布。表单不直连企业微信（浏览器会被 CORS 拦住），而是 `POST /oauth/api/contact`，由已经在跑的 OAuth 桥转发。**不用新加 Nginx**：现有 `location /oauth/` 会把这个路径转到 `127.0.0.1:4181`。
 
-静态构建**不会**更新这台 Node 进程。这次改了 `deploy/admin-oauth/server.js` 之后，把新的 `server.js` 和 `contact.js` 拷到服务器同一目录，再执行：
+静态构建**不会**更新这台 Node 进程。改了 OAuth 桥之后，把 `server.js`、`contact.js`、`subscribe.js`、`notify-updates.js` 拷到服务器同一目录，再执行：
 
 ```bash
 cd /www/wwwroot/yuanshan-decap-oauth
@@ -202,16 +202,32 @@ pm2 restart yuanshan-decap-oauth
 
    ```bash
    curl -sS https://ys.tongzhoukuajing.com/oauth/health
-   # contact 应为 "configured"
+   # contact 与 subscribe 都应为 "configured"
 
    curl -sS -X POST https://ys.tongzhoukuajing.com/oauth/api/contact \
      -H 'Content-Type: application/json' \
      -d '{"name":"测试","contact":"wx","message":"连通测试","page":"https://ys.tongzhoukuajing.com/"}'
    ```
 
-留空 `WECOM_WEBHOOK_URL` 时，接口返回 `503` 和 `{"ok":false,"error":"unconfigured"}`，页面写「推送未配置」。不要把真实 key 提交进仓库，也不要写进 GitHub Actions Secrets（静态站用不到）。
+留空 `WECOM_WEBHOOK_URL`（且别名 `YUANSHAN_WECOM_WEBHOOK_URL` 也为空）时，接口返回 `503` 和 `{"ok":false,"error":"unconfigured"}`，合作页写「推送未配置」。关注页仍会生成 JSON / RSS，只是群里没有这条偏好。不要把真实 key 提交进仓库，也不要写进 GitHub Actions Secrets（静态站用不到）。
 
 消息正文是 markdown：姓名、联系方式、留言、页面 URL、Asia/Shanghai 时间。同一 IP 约 10 分钟内最多 8 次。
+
+### 市场订阅也走这条 webhook
+
+`/subscribe/` 点「生成订阅」时，浏览器 `POST /oauth/api/subscribe`，正文只有市场 id、内容类型、起始日期和页面 URL。桥用同一套环境变量发 markdown，响应里不带回 key。
+
+内容更新用 cron，不要在浏览器里发：
+
+```bash
+cd /www/wwwroot/yuanshan-decap-oauth
+set -a && . ./.env && set +a
+node notify-updates.js \
+  --index /www/wwwroot/ys.tongzhoukuajing.com/v1/updates.json \
+  --state /var/lib/yuanshan/wecom-seen.json
+```
+
+第一次运行只把当前条目 id 写进 state，不发送。之后只发新 id。`--markets us,sg`、`--types rules`、`--since 2026-10-01` 可收窄。`--dry-run` 只在终端打印 markdown。没配 webhook 时跳过并退出码 0。脚本不会把 URL 打出来。
 
 ### 换微信二维码
 

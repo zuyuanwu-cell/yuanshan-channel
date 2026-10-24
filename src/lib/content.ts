@@ -18,6 +18,7 @@ import type {
   RankingGap,
   RankingItem,
   SiteConfig,
+  FactoryPromo,
 } from './types';
 
 const contentDir = path.join(process.cwd(), 'content');
@@ -161,6 +162,11 @@ function loadContent(): Cache {
 
 export function getSite(): SiteConfig {
   return loadContent().site;
+}
+
+export function getFactoryPromo(): FactoryPromo {
+  getSite();
+  return JSON.parse(fs.readFileSync(path.join(contentDir, 'factory-promo.json'), 'utf8')) as FactoryPromo;
 }
 
 export function getPlatforms(): Platform[] {

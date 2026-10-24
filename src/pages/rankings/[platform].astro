@@ -1,4 +1,5 @@
 ---
+import FactoryPromo from '../../components/FactoryPromo.astro';
 import RankStats from '../../components/RankStats.astro';
 import RankThumb from '../../components/RankThumb.astro';
 import Stamps from '../../components/Stamps.astro';
@@ -42,6 +43,7 @@ if (!latest) throw new Error(`找不到榜单 ${platformId}`);
     <h1>{board.name}</h1>
     {platform && <p class="lede">{platform.pitch}</p>}
   </header>
+  <FactoryPromo />
   <div data-ranking-switch>
     <div class="filters" role="group" aria-label={site.ui.switchDate} hidden={rankings.length < 2}>
       {

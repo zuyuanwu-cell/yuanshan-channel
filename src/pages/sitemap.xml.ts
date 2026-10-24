@@ -55,6 +55,7 @@ export const GET: APIRoute = ({ site }) => {
     })),
     { loc: pageUrl('/platforms', origin), lastmod: laterDate([platformsUpdated]) },
     { loc: pageUrl('/about', origin), lastmod: siteUpdated },
+    { loc: pageUrl('/subscribe', origin), lastmod: siteUpdated },
   ];
 
   const urls = entries
