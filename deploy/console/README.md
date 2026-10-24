@@ -113,7 +113,7 @@ fetch("/console/api/presence", {
 1. 把仓库里的 `deploy/console/` 拷到服务器，例如 `/www/wwwroot/yuanshan-console`（不要放进会被 `baota-pull.sh` 清空的站点根）。
 2. `cp .env.example .env`，填 `CONSOLE_SESSION_SECRET`，按上面的办法种下管理员，需要看板数字时再填 Umami。
 3. `npm install`（需要能访问 npm）。
-4. 启动：
+4. 启动。PM2 要走 `boot.cjs`，不要把 `server.js` 直接设成启动文件：
 
    ```bash
    cd /www/wwwroot/yuanshan-console
@@ -121,7 +121,9 @@ fetch("/console/api/presence", {
    pm2 save
    ```
 
-   程序会读旁边的 `.env`，且不会覆盖已经在环境里的变量。用宝塔「Node 项目」时，启动文件选 `server.js`，运行目录选这一份拷贝，把 `.env` 里的项填进项目环境。
+   `ecosystem.config.cjs` 里的 `script` 是 `boot.cjs`。宝塔上的 PM2 5.3.1 用动态 `import()` 加载 ESM 时，`process.argv[1]` 不是 `server.js`，`server.js` 里的 `isDirectRun()` 一直是 false，`main()` 不会执行，进程还在但 4182 没有监听。`boot.cjs` 先把 `argv[1]` 设成 `server.js` 的绝对路径，再 `import('./server.js')`。本机 `npm start` 仍是 `node server.js`。
+
+   程序会读旁边的 `.env`，且不会覆盖已经在环境里的变量。用宝塔「Node 项目」时，启动文件选 `boot.cjs`，运行目录选这一份拷贝，把 `.env` 里的项填进项目环境。
 
 5. 在 `ys.tongzhoukuajing.com` 的 Nginx 增加下面的 location，然后 `nginx -t && nginx -s reload`。
 6. 自检：
