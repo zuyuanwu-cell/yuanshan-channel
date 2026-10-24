@@ -4,7 +4,7 @@ module.exports = {
     {
       name: "yuanshan-console",
       cwd: __dirname,
-      script: "server.js",
+      script: "boot.cjs",
       env: {
         NODE_ENV: "production",
         CONSOLE_HOST: "127.0.0.1",
