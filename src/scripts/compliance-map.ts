@@ -3,7 +3,6 @@ import {
   AdditiveBlending,
   BufferAttribute,
   BufferGeometry,
-  Color,
   Group,
   LineBasicMaterial,
   BackSide,
@@ -268,10 +267,15 @@ function linesFrom(positions: number[], material: LineBasicMaterial): LineSegmen
   return new LineSegments(geometry, material);
 }
 
+/** Shader output is not run through Three's sRGB encode, so keep the hex in display space. */
+function displayColor(hex: number): Vector3 {
+  return new Vector3(((hex >> 16) & 255) / 255, ((hex >> 8) & 255) / 255, (hex & 255) / 255);
+}
+
 function landMaterial(color: number, opacity: number, glow: number): ShaderMaterial {
   return new ShaderMaterial({
     uniforms: {
-      uColor: { value: new Color(color) },
+      uColor: { value: displayColor(color) },
       uOpacity: { value: opacity },
       uGlow: { value: glow },
     },
