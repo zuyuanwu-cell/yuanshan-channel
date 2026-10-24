@@ -1,0 +1,85 @@
+{
+  "country": "nz",
+  "name_zh": "新西兰",
+  "flag": "🇳🇿",
+  "region": "大洋洲",
+  "difficulty": 2,
+  "summary": "2026-01-01 起，进口和生产须符合更新后的化妆品组合标准。",
+  "items": [
+    {
+      "id": "nz-gs",
+      "name_zh": "化妆品组合标准",
+      "authority": "新西兰环保署",
+      "type": "safety",
+      "mandatory": true,
+      "cost": "未知",
+      "time": "未知",
+      "docs": [],
+      "who": "进口商或生产商",
+      "note": "含有害成分的产品须符合，即使成品本身未标为有害。",
+      "official_url": "https://www.epa.govt.nz/hazardous-substances/rules-notices-and-how-to-comply/specific-substance-guidance/cosmetics/updated-rules-for-cosmetics/",
+      "source_checked": "2026-10-24",
+      "needs_review": false
+    },
+    {
+      "id": "nz-sched",
+      "name_zh": "禁限用与准用成分表",
+      "authority": "新西兰环保署",
+      "type": "safety",
+      "mandatory": true,
+      "cost": "未知",
+      "time": "未知",
+      "docs": [],
+      "who": "进口商或生产商",
+      "note": "附表 4 至 8 列禁限用和准用成分。具体物质未抄录。",
+      "official_url": "https://www.epa.govt.nz/hazardous-substances/rules-notices-and-how-to-comply/specific-substance-guidance/cosmetics/updated-rules-for-cosmetics/",
+      "source_checked": "2026-10-24",
+      "needs_review": true
+    },
+    {
+      "id": "nz-pfas",
+      "name_zh": "含 PFAS 化妆品停用",
+      "authority": "新西兰环保署",
+      "type": "safety",
+      "mandatory": true,
+      "cost": "未知",
+      "time": "未知",
+      "docs": [],
+      "who": "进口商或生产商",
+      "note": "2027-01-01 起不得进口或生产含 PFAS 的化妆品",
+      "official_url": "https://www.epa.govt.nz/hazardous-substances/rules-notices-and-how-to-comply/specific-substance-guidance/cosmetics/updated-rules-for-cosmetics/",
+      "source_checked": "2026-10-24",
+      "needs_review": false
+    },
+    {
+      "id": "nz-hs",
+      "name_zh": "HS 编码与关税",
+      "authority": "新西兰环保署",
+      "type": "tax-customs",
+      "mandatory": true,
+      "cost": "未知",
+      "time": "未知",
+      "docs": [],
+      "who": "进口商",
+      "note": "链接不是税则。税号和税率未抄录。",
+      "official_url": "https://www.epa.govt.nz/hazardous-substances/rules-notices-and-how-to-comply/specific-substance-guidance/cosmetics/updated-rules-for-cosmetics/",
+      "source_checked": "2026-10-24",
+      "needs_review": true
+    }
+  ],
+  "steps": [
+    {
+      "title": "对照组合标准",
+      "type": "safety"
+    },
+    {
+      "title": "清关",
+      "type": "tax-customs"
+    }
+  ],
+  "last_verified": "2026-10-24",
+  "hs_codes": {
+    "status": "pending",
+    "items": []
+  }
+}

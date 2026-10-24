@@ -1,0 +1,70 @@
+{
+  "country": "kp",
+  "name_zh": "朝鲜",
+  "flag": "🇰🇵",
+  "region": "东亚",
+  "difficulty": 3,
+  "summary": "安理会要求成员国阻止向朝鲜供应奢侈品。欧盟清单含化妆品。没有普通备案通道。",
+  "items": [
+    {
+      "id": "kp-luxury",
+      "name_zh": "奢侈品不得供应",
+      "authority": "安理会 1718 委员会",
+      "type": "tax-customs",
+      "mandatory": true,
+      "cost": "未知",
+      "time": "未知",
+      "docs": [],
+      "who": "出口商",
+      "note": "成员国须阻止直接或间接向朝鲜供应奢侈品",
+      "official_url": "https://main.un.org/securitycouncil/en/sanctions/1718",
+      "source_checked": "2026-10-24",
+      "needs_review": false
+    },
+    {
+      "id": "kp-eu-list",
+      "name_zh": "欧盟对朝清单含化妆品",
+      "authority": "欧盟理事会",
+      "type": "tax-customs",
+      "mandatory": false,
+      "cost": "未知",
+      "time": "未知",
+      "docs": [],
+      "who": "受欧盟规则约束的主体",
+      "note": "欧盟执行清单含香水与化妆品，不是中国海关公告",
+      "official_url": "https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:32017R2062",
+      "source_checked": "2026-10-24",
+      "needs_review": false
+    },
+    {
+      "id": "kp-no-path",
+      "name_zh": "先核对制裁再谈备案",
+      "authority": "安理会 1718 委员会",
+      "type": "registration",
+      "mandatory": true,
+      "cost": "未知",
+      "time": "未知",
+      "docs": [],
+      "who": "出口商",
+      "note": "中国商务部化妆品禁令本次未打开。勿按普通备案操作。",
+      "official_url": "https://main.un.org/securitycouncil/en/sanctions/1718",
+      "source_checked": "2026-10-24",
+      "needs_review": true
+    }
+  ],
+  "steps": [
+    {
+      "title": "核对制裁",
+      "type": "tax-customs"
+    },
+    {
+      "title": "不要走普通备案",
+      "type": "registration"
+    }
+  ],
+  "last_verified": "2026-10-24",
+  "hs_codes": {
+    "status": "pending",
+    "items": []
+  }
+}

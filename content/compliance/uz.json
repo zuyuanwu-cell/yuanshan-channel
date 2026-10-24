@@ -1,0 +1,55 @@
+{
+  "country": "uz",
+  "name_zh": "乌兹别克斯坦",
+  "flag": "🇺🇿",
+  "region": "中亚",
+  "difficulty": 2,
+  "summary": "欧亚经济联盟官网的成员国名单没有本国，不能直接套用化妆品技术法规。",
+  "items": [
+    {
+      "id": "uz-not-eaeu",
+      "name_zh": "不能直接套用联盟法规",
+      "authority": "欧亚经济联盟",
+      "type": "registration",
+      "mandatory": true,
+      "cost": "未知",
+      "time": "未知",
+      "docs": [],
+      "who": "出口商",
+      "note": "成员国名单没有本国。本国监管官网这次没打开。",
+      "official_url": "https://www.eaeunion.org/?lang=en",
+      "source_checked": "2026-10-24",
+      "needs_review": false
+    },
+    {
+      "id": "uz-hs",
+      "name_zh": "HS 编码与关税",
+      "authority": "欧亚经济联盟",
+      "type": "tax-customs",
+      "mandatory": true,
+      "cost": "未知",
+      "time": "未知",
+      "docs": [],
+      "who": "进口商",
+      "note": "链接不是税则。税号和税率未抄录。",
+      "official_url": "https://www.eaeunion.org/?lang=en",
+      "source_checked": "2026-10-24",
+      "needs_review": true
+    }
+  ],
+  "steps": [
+    {
+      "title": "核对监管入口",
+      "type": "registration"
+    },
+    {
+      "title": "清关",
+      "type": "tax-customs"
+    }
+  ],
+  "last_verified": "2026-10-24",
+  "hs_codes": {
+    "status": "pending",
+    "items": []
+  }
+}

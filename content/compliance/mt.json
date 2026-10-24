@@ -1,0 +1,123 @@
+{
+  "country": "mt",
+  "name_zh": "马耳他",
+  "flag": "🇲🇹",
+  "region": "欧洲",
+  "difficulty": 3,
+  "summary": "马耳他适用欧盟 1223/2009 与 CPNP。已打开药品局首页，处室未逐页核对。",
+  "items": [
+    {
+      "id": "mt-rp",
+      "name_zh": "欧盟境内责任人",
+      "authority": "欧盟委员会",
+      "type": "local-rep",
+      "mandatory": true,
+      "cost": "未知",
+      "time": "未知",
+      "docs": [],
+      "who": "欧盟境内自然人或法人",
+      "note": "没有欧盟境内责任人不能上市",
+      "official_url": "https://single-market-economy.ec.europa.eu/sectors/cosmetics/legislation_en",
+      "source_checked": "2026-10-24",
+      "needs_review": false
+    },
+    {
+      "id": "mt-cpsr",
+      "name_zh": "上市前产品安全报告",
+      "authority": "欧盟委员会",
+      "type": "safety",
+      "mandatory": true,
+      "cost": "未知",
+      "time": "未知",
+      "docs": [],
+      "who": "责任人",
+      "note": "上市前须完成产品安全报告",
+      "official_url": "https://single-market-economy.ec.europa.eu/sectors/cosmetics/legislation_en",
+      "source_checked": "2026-10-24",
+      "needs_review": false
+    },
+    {
+      "id": "mt-cpnp",
+      "name_zh": "CPNP 通报",
+      "authority": "欧盟委员会",
+      "type": "registration",
+      "mandatory": true,
+      "cost": "免费",
+      "time": "未知",
+      "docs": [],
+      "who": "欧盟责任人",
+      "note": "通报一次即可，欧盟内不必再做国家通报",
+      "official_url": "https://single-market-economy.ec.europa.eu/sectors/cosmetics/cosmetic-product-notification-portal_en",
+      "source_checked": "2026-10-24",
+      "needs_review": false
+    },
+    {
+      "id": "mt-nano",
+      "name_zh": "纳米成分标注",
+      "authority": "欧盟委员会",
+      "type": "label",
+      "mandatory": true,
+      "cost": "未知",
+      "time": "未知",
+      "docs": [],
+      "who": "责任人",
+      "note": "成分表里纳米物质后须标 nano",
+      "official_url": "https://single-market-economy.ec.europa.eu/sectors/cosmetics/legislation_en",
+      "source_checked": "2026-10-24",
+      "needs_review": false
+    },
+    {
+      "id": "mt-nat",
+      "name_zh": "本国市场监督",
+      "authority": "马耳他药品局",
+      "type": "safety",
+      "mandatory": false,
+      "cost": "未知",
+      "time": "未知",
+      "docs": [],
+      "who": "成员国主管机关",
+      "note": "CPNP 后不必再做国家通报。处室入口未逐页核对。",
+      "official_url": "https://medicinesauthority.gov.mt/",
+      "source_checked": "2026-10-24",
+      "needs_review": true
+    },
+    {
+      "id": "mt-hs",
+      "name_zh": "HS 编码与关税",
+      "authority": "欧盟 TARIC",
+      "type": "tax-customs",
+      "mandatory": true,
+      "cost": "未知",
+      "time": "未知",
+      "docs": [],
+      "who": "进口商",
+      "note": "TARIC 可查。税率未抄录。",
+      "official_url": "https://ec.europa.eu/taxation_customs/dds2/taric/taric_consultation.jsp",
+      "source_checked": "2026-10-24",
+      "needs_review": true
+    }
+  ],
+  "steps": [
+    {
+      "title": "欧盟责任人",
+      "type": "local-rep"
+    },
+    {
+      "title": "安全报告",
+      "type": "safety"
+    },
+    {
+      "title": "CPNP 通报",
+      "type": "registration"
+    },
+    {
+      "title": "清关",
+      "type": "tax-customs"
+    }
+  ],
+  "last_verified": "2026-10-24",
+  "hs_codes": {
+    "status": "pending",
+    "items": []
+  }
+}

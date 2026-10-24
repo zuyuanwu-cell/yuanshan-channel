@@ -8,7 +8,7 @@
     "country": { "type": "string", "pattern": "^[a-z]{2}$" },
     "name_zh": { "type": "string", "minLength": 2, "maxLength": 12 },
     "flag": { "type": "string", "minLength": 1, "maxLength": 8 },
-    "region": { "enum": ["北美", "欧洲", "东南亚", "东亚", "俄语区", "中东", "拉美"] },
+    "region": { "enum": ["北美", "拉美", "欧洲", "俄语区", "东亚", "东南亚", "南亚", "中亚", "中东", "非洲", "大洋洲", "其他"] },
     "difficulty": { "enum": [1, 2, 3] },
     "summary": { "type": "string", "minLength": 8, "maxLength": 80 },
     "last_verified": { "type": "string", "pattern": "^\\d{4}-\\d{2}-\\d{2}$" },

@@ -328,7 +328,7 @@ export function getRankingGaps(): RankingGap[] {
   return getSite().rankingGaps.filter((gap) => !hasRanking(gap.platform));
 }
 
-const REGION_ORDER = ['北美', '欧洲', '东南亚', '东亚', '俄语区', '中东', '拉美'];
+const REGION_ORDER = ['北美', '拉美', '欧洲', '俄语区', '东亚', '东南亚', '南亚', '中亚', '中东', '非洲', '大洋洲', '其他'];
 let complianceCache: ComplianceCountry[] | undefined;
 export function getCompliance(): ComplianceCountry[] {
   if (complianceCache) return complianceCache;

@@ -1,0 +1,55 @@
+{
+  "country": "no",
+  "name_zh": "挪威",
+  "flag": "🇳🇴",
+  "region": "欧洲",
+  "difficulty": 2,
+  "summary": "不是欧盟成员国。化妆品栏目已打开，进口规则正文没展开，不能直接套用 CPNP。",
+  "items": [
+    {
+      "id": "no-entry",
+      "name_zh": "化妆品监管入口",
+      "authority": "挪威食品安全局",
+      "type": "registration",
+      "mandatory": false,
+      "cost": "未知",
+      "time": "未知",
+      "docs": [],
+      "who": "进口商",
+      "note": "页面有化妆品与进口栏目。具体规则正文这次没展开。",
+      "official_url": "https://www.mattilsynet.no/en/cosmetics-and-body-care-products",
+      "source_checked": "2026-10-24",
+      "needs_review": true
+    },
+    {
+      "id": "no-hs",
+      "name_zh": "HS 编码与关税",
+      "authority": "目的国海关",
+      "type": "tax-customs",
+      "mandatory": true,
+      "cost": "未知",
+      "time": "未知",
+      "docs": [],
+      "who": "进口商",
+      "note": "链接不是税则。税号和税率未抄录。",
+      "official_url": "https://www.mattilsynet.no/en/cosmetics-and-body-care-products",
+      "source_checked": "2026-10-24",
+      "needs_review": true
+    }
+  ],
+  "steps": [
+    {
+      "title": "核对监管入口",
+      "type": "registration"
+    },
+    {
+      "title": "清关",
+      "type": "tax-customs"
+    }
+  ],
+  "last_verified": "2026-10-24",
+  "hs_codes": {
+    "status": "pending",
+    "items": []
+  }
+}

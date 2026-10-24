@@ -1,0 +1,70 @@
+{
+  "country": "kz",
+  "name_zh": "哈萨克斯坦",
+  "flag": "🇰🇿",
+  "region": "中亚",
+  "difficulty": 3,
+  "summary": "哈萨克斯坦是欧亚经济联盟成员，适用化妆品技术法规 ТР ТС 009/2011。",
+  "items": [
+    {
+      "id": "kz-member",
+      "name_zh": "联盟成员适用同一法规",
+      "authority": "欧亚经济联盟",
+      "type": "registration",
+      "mandatory": true,
+      "cost": "未知",
+      "time": "未知",
+      "docs": [],
+      "who": "联盟成员国",
+      "note": "官网列明五国成员：亚美尼亚、白俄罗斯、哈萨克斯坦、吉尔吉斯斯坦、俄罗斯",
+      "official_url": "https://www.eaeunion.org/?lang=en",
+      "source_checked": "2026-10-24",
+      "needs_review": false
+    },
+    {
+      "id": "kz-tr",
+      "name_zh": "化妆品技术法规 ТР ТС 009",
+      "authority": "欧亚经济委员会",
+      "type": "registration",
+      "mandatory": true,
+      "cost": "未知",
+      "time": "未知",
+      "docs": [],
+      "who": "联盟内申请人",
+      "note": "2012-07-01 起生效。声明还是国家注册，本次未重读全文。",
+      "official_url": "https://eec.eaeunion.org/comission/department/deptexreg/tr/bezopParfum.php",
+      "source_checked": "2026-10-24",
+      "needs_review": true
+    },
+    {
+      "id": "kz-hs",
+      "name_zh": "HS 编码与关税",
+      "authority": "欧亚经济委员会",
+      "type": "tax-customs",
+      "mandatory": true,
+      "cost": "未知",
+      "time": "未知",
+      "docs": [],
+      "who": "进口商",
+      "note": "税号未抄录。俄罗斯诚信标志不自动套用到本国。",
+      "official_url": "https://eec.eaeunion.org/comission/department/deptexreg/tr/bezopParfum.php",
+      "source_checked": "2026-10-24",
+      "needs_review": true
+    }
+  ],
+  "steps": [
+    {
+      "title": "确认联盟法规",
+      "type": "registration"
+    },
+    {
+      "title": "清关",
+      "type": "tax-customs"
+    }
+  ],
+  "last_verified": "2026-10-24",
+  "hs_codes": {
+    "status": "pending",
+    "items": []
+  }
+}

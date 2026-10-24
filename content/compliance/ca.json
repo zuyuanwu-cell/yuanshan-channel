@@ -1,0 +1,93 @@
+{
+  "country": "ca",
+  "name_zh": "加拿大",
+  "flag": "🇨🇦",
+  "region": "北美",
+  "difficulty": 2,
+  "summary": "首次销售后 10 日内向卫生部通报，不收费，通报不等于批准。",
+  "items": [
+    {
+      "id": "ca-notify",
+      "name_zh": "化妆品通报",
+      "authority": "加拿大卫生部",
+      "type": "registration",
+      "mandatory": true,
+      "cost": "免费",
+      "time": "未知",
+      "docs": [
+        "品名与品牌",
+        "成分及浓度",
+        "生产与进口信息"
+      ],
+      "who": "制造商或进口商",
+      "note": "法规第 30 条：首次销售后 10 日内通报，不收费，不等于批准。",
+      "official_url": "https://www.canada.ca/en/health-canada/services/consumer-product-safety/cosmetics/notification-cosmetics.html",
+      "source_checked": "2026-10-24",
+      "needs_review": false
+    },
+    {
+      "id": "ca-hotlist",
+      "name_zh": "成分禁限用清单",
+      "authority": "加拿大卫生部",
+      "type": "safety",
+      "mandatory": true,
+      "cost": "未知",
+      "time": "未知",
+      "docs": [],
+      "who": "制造商或进口商",
+      "note": "官网写明有禁限用清单。具体物质本次未逐条打开。",
+      "official_url": "https://www.canada.ca/en/health-canada/services/consumer-product-safety/cosmetics.html",
+      "source_checked": "2026-10-24",
+      "needs_review": true
+    },
+    {
+      "id": "ca-label",
+      "name_zh": "标签宣称须真实",
+      "authority": "加拿大卫生部",
+      "type": "label",
+      "mandatory": true,
+      "cost": "未知",
+      "time": "未知",
+      "docs": [],
+      "who": "制造商或进口商",
+      "note": "官网写明功效宣称不得误导。标签细则未逐条打开。",
+      "official_url": "https://www.canada.ca/en/health-canada/services/consumer-product-safety/cosmetics.html",
+      "source_checked": "2026-10-24",
+      "needs_review": true
+    },
+    {
+      "id": "ca-hs",
+      "name_zh": "HS 编码与关税",
+      "authority": "加拿大边境服务局",
+      "type": "tax-customs",
+      "mandatory": true,
+      "cost": "未知",
+      "time": "未知",
+      "docs": [],
+      "who": "进口商",
+      "note": "税则页可打开。税率未抄录。",
+      "official_url": "https://www.cbsa-asfc.gc.ca/trade-commerce/tariff-tarif/menu-eng.html",
+      "source_checked": "2026-10-24",
+      "needs_review": true
+    }
+  ],
+  "steps": [
+    {
+      "title": "通报",
+      "type": "registration"
+    },
+    {
+      "title": "标签",
+      "type": "label"
+    },
+    {
+      "title": "清关",
+      "type": "tax-customs"
+    }
+  ],
+  "last_verified": "2026-10-24",
+  "hs_codes": {
+    "status": "pending",
+    "items": []
+  }
+}
