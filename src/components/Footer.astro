@@ -86,15 +86,31 @@ const quietNotes = site.social.filter((item) => !item.href.startsWith('https://'
         }
       </div>
     </div>
-    <div class="footer-quiet">
-      <p>
-        {site.ui.updatedAt} <time datetime={latestContentDate()}>{formatDate(latestContentDate())}</time>
-      </p>
-      <p>{site.disclaimer}</p>
-      <p>{site.footerNote}</p>
-      <p class="admin-entry">
-        <a href={url('/admin/')}>编辑入口</a>
-      </p>
+    <div class="footer-base">
+      <div class="footer-quiet">
+        <p>
+          {site.ui.updatedAt} <time datetime={latestContentDate()}>{formatDate(latestContentDate())}</time>
+        </p>
+        <p>{site.disclaimer}</p>
+        <p>{site.footerNote}</p>
+        <p class="admin-entry">
+          <a href={url('/admin/')}>编辑入口</a>
+        </p>
+      </div>
+      <aside class="footer-wechat" aria-label="添加微信">
+        <p class="footer-kicker">微信</p>
+        <div class="footer-qr-card">
+          <img
+            src={url(site.contact.wechatQr)}
+            alt={`微信二维码，${site.contact.wechatQrNote}`}
+            width="607"
+            height="607"
+            decoding="async"
+            loading="lazy"
+          />
+          <p aria-hidden="true">{site.contact.wechatQrNote}</p>
+        </div>
+      </aside>
     </div>
   </div>
 </footer>

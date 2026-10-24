@@ -1,0 +1,28 @@
+---
+interface Props {
+  title: string;
+  text: string;
+  points: string[];
+  note: string;
+  cta: string;
+  prefill: string;
+  layout?: 'band' | 'aside';
+}
+
+const { title, text, points, note, cta, prefill, layout = 'aside' } = Astro.props;
+---
+
+<aside class:list={['service-hint', layout === 'band' ? 'is-band' : 'is-aside']} aria-labelledby="service-hint-title">
+  <div class="service-hint-copy">
+    <p class="kicker">同舟跨境</p>
+    <h2 id="service-hint-title">{title}</h2>
+    <p>{text}</p>
+    <ul class="service-hint-points">
+      {points.map((point) => <li>{point}</li>)}
+    </ul>
+    <p class="service-hint-note">{note}</p>
+  </div>
+  <button type="button" class="service-hint-cta" data-contact-open data-contact-prefill={prefill}>
+    {cta}
+  </button>
+</aside>

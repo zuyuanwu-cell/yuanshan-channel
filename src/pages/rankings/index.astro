@@ -13,7 +13,14 @@ const gaps = getRankingGaps();
 const capture = latestCapture();
 ---
 
-<Base title={site.pages.rankings.title} description={site.pages.rankings.note}>
+<Base
+  title={site.pages.rankings.title}
+  description={site.pages.rankings.note}
+  crumbs={[
+    { name: '首页', href: '/' },
+    { name: site.pages.rankings.title, href: '/rankings' },
+  ]}
+>
   <header class="page-head">
     <p class="kicker">{site.categoryLabels['beauty-personal-care']}</p>
     <h1>{site.pages.rankings.title}</h1>

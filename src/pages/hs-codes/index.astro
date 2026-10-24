@@ -1,5 +1,6 @@
 ---
 import Flag from '../../components/Flag.astro';
+import ServiceHint from '../../components/ServiceHint.astro';
 import Base from '../../layouts/Base.astro';
 import { getHsCodesDataset } from '../../lib/content';
 import { flagImgHtml } from '../../lib/flags';
@@ -51,13 +52,21 @@ const legendEntries = Object.entries(data.verification_legend);
 const payloadJson = JSON.stringify(payload).replace(/</g, '\\u003c');
 ---
 
-<Base title="海关编码" description="美妆与家清日化各国税则编码与税率，支持按品类、编码、国家搜索。">
+<Base
+  title="美妆与家清海关编码"
+  description="按品类、编码和国家搜索美妆与家清日化税则与税率。查不到的留空，不编造。"
+  crumbs={[
+    { name: '首页', href: '/' },
+    { name: '海关编码', href: '/hs-codes' },
+  ]}
+>
   <header class="page-head hs-head">
     <p class="kicker"><a href={url('/compliance')}>← 国家合规速查</a></p>
-    <h1>海关编码</h1>
+    <h1>美妆与家清海关编码</h1>
     <p class="lede">美妆与家清日化 · {data.products_count} 个品类 × {countries.length} 个国家/地区 · 共 {data.items.length} 条。查不到的税率留空，不编造。</p>
   </header>
 
+  <div class="hs-layout">
   <div class="hs-browser" data-hs-browser>
     <div class="hs-search-sticky">
       <label class="hs-search-box" for="hs-q">
@@ -100,6 +109,15 @@ const payloadJson = JSON.stringify(payload).replace(/</g, '\\u003c');
 
     <div class="hs-results" data-hs-results aria-live="polite"></div>
     <p class="hs-empty card" data-hs-empty hidden>没有匹配的编码。试试别的品类或国家名。</p>
+  </div>
+  <ServiceHint
+    title="编码要对上具体产品？"
+    text="这里的税则和税率只作检索参考，查不到的留空。同舟跨境可以协助对照美妆与家清编码，并衔接生产、出口和退税口径。"
+    points={['按品类协助归类', '对照出口与目的国税号', '衔接生产、发运和合规售卖']}
+    note="最终以海关和官方税则为准。这里不提供报关承诺，也不代办平台入驻。"
+    cta="聊聊编码和出口"
+    prefill="我想咨询美妆与家清的海关编码归类和出口。"
+  />
   </div>
 
   <script id="hs-payload" type="application/json" set:html={payloadJson} />

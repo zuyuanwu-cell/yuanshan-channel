@@ -6,7 +6,7 @@ import { getSite } from '../lib/content';
 const site = getSite();
 ---
 
-<Base title={site.notFound.title} description={site.notFound.body}>
+<Base title={site.notFound.title} description={site.notFound.body} noindex>
   <header class="page-head">
     <p class="kicker">404</p>
     <h1>{site.notFound.title}</h1>

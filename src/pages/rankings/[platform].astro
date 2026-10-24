@@ -24,7 +24,15 @@ const latest = rankings[0];
 if (!latest) throw new Error(`找不到榜单 ${platformId}`);
 ---
 
-<Base title={board.name} description={site.pages.rankings.note}>
+<Base
+  title={board.name}
+  description={`${board.name}（${board.market}）美妆日化热销榜，记录公开榜单的抓取时间、名次和覆盖范围。`}
+  crumbs={[
+    { name: '首页', href: '/' },
+    { name: site.pages.rankings.title, href: '/rankings' },
+    { name: board.name, href: `/rankings/${board.id}` },
+  ]}
+>
   <a class="back-link" href={url("/rankings")}>{site.ui.backRankings}</a>
   <header class="page-head">
     <div class="meta-row">

@@ -306,6 +306,7 @@ function initLightbox(): void {
     if (!trigger?.dataset.zoom) return;
     event.preventDefault();
     image.src = trigger.dataset.zoom;
+    image.alt = trigger.dataset.zoomCaption ?? '';
     caption.textContent = trigger.dataset.zoomCaption ?? '';
     dialog.showModal();
   });
@@ -315,6 +316,7 @@ function initLightbox(): void {
   });
   dialog.addEventListener('close', () => {
     image.removeAttribute('src');
+    image.alt = '';
   });
 }
 
@@ -405,6 +407,9 @@ function initContactDock(): void {
   for (const openBtn of openButtons) {
     openBtn.addEventListener('click', () => {
       resetForm();
+      const prefill = openBtn.dataset.contactPrefill?.trim();
+      const message = form.querySelector<HTMLTextAreaElement>('textarea[name="message"]');
+      if (prefill && message) message.value = prefill.slice(0, message.maxLength || 500);
       dialog.showModal();
       form.querySelector<HTMLInputElement>('input[name="name"]')?.focus();
     });
@@ -479,94 +484,6 @@ function initContactDock(): void {
   });
 }
 
-function initWechatPopover(): void {
-  const root = document.querySelector<HTMLElement>('[data-wechat]');
-  const button = root?.querySelector<HTMLButtonElement>('[data-wechat-btn]');
-  const panel = root?.querySelector<HTMLElement>('[data-wechat-panel]');
-  if (!root || !button || !panel) return;
-
-  const finePointer = window.matchMedia('(hover: hover) and (pointer: fine)');
-  let closeTimer = 0;
-  let openedBy: 'pointer' | 'keyboard' = 'pointer';
-  let lastPointer = 'mouse';
-
-  const isOpen = () => button.getAttribute('aria-expanded') === 'true';
-
-  const open = () => {
-    window.clearTimeout(closeTimer);
-    panel.hidden = false;
-    button.setAttribute('aria-expanded', 'true');
-  };
-
-  const close = () => {
-    window.clearTimeout(closeTimer);
-    panel.hidden = true;
-    button.setAttribute('aria-expanded', 'false');
-  };
-
-  const scheduleClose = () => {
-    window.clearTimeout(closeTimer);
-    closeTimer = window.setTimeout(() => {
-      if (root.matches(':hover')) return;
-      if (openedBy === 'keyboard' && root.contains(document.activeElement)) return;
-      close();
-    }, 140);
-  };
-
-  root.addEventListener('pointerenter', (event) => {
-    if (!finePointer.matches || event.pointerType !== 'mouse') return;
-    openedBy = 'pointer';
-    open();
-  });
-
-  root.addEventListener('pointerleave', (event) => {
-    if (!finePointer.matches || event.pointerType !== 'mouse') return;
-    scheduleClose();
-  });
-
-  button.addEventListener('pointerdown', (event) => {
-    lastPointer = event.pointerType;
-  });
-
-  button.addEventListener('focus', () => {
-    if (!finePointer.matches || root.matches(':hover')) return;
-    openedBy = 'keyboard';
-    open();
-  });
-
-  button.addEventListener('blur', () => {
-    if (!finePointer.matches) return;
-    if (openedBy === 'keyboard') openedBy = 'pointer';
-    scheduleClose();
-  });
-
-  button.addEventListener('click', (event) => {
-    event.preventDefault();
-    const fromTouch = lastPointer === 'touch' || lastPointer === 'pen';
-    if (event.detail !== 0 && (fromTouch || !finePointer.matches)) {
-      if (isOpen()) close();
-      else open();
-      return;
-    }
-    open();
-  });
-
-  document.addEventListener('pointerdown', (event) => {
-    if (!isOpen()) return;
-    const target = event.target;
-    if (target instanceof Node && root.contains(target)) return;
-    close();
-  });
-
-  document.addEventListener('keydown', (event) => {
-    if (event.key !== 'Escape' || !isOpen()) return;
-    close();
-  });
-
-  document.querySelector('[data-contact-open]')?.addEventListener('click', close);
-  document.querySelector('[data-nav-open]')?.addEventListener('click', close);
-}
-
 function initNavSheet(): void {
   const dialog = document.querySelector<HTMLDialogElement>('[data-nav-dialog]');
   const openBtn = document.querySelector<HTMLButtonElement>('[data-nav-open]');
@@ -607,5 +524,4 @@ initDeckTilt();
 initDeckCarousel();
 initTopMarquee();
 initContactDock();
-initWechatPopover();
 initNavSheet();
