@@ -4007,6 +4007,9 @@ button.rank-thumb:focus-visible .zoom-badge {
 
 .nav-sheet-admin {
   margin: 2px 0 0;
+  display: flex;
+  justify-content: center;
+  gap: 18px;
   text-align: center;
 }
 

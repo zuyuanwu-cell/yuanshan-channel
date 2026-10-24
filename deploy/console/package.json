@@ -1,0 +1,18 @@
+{
+  "name": "yuanshan-console",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Visitor login and staff dashboard for 同舟跨境·远山频道",
+  "type": "module",
+  "engines": {
+    "node": ">=16.14"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "test": "node --test"
+  },
+  "dependencies": {
+    "express": "^4.21.2",
+    "sql.js": "^1.13.0"
+  }
+}

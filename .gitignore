@@ -26,5 +26,8 @@ pnpm-debug.log*
 # local OAuth bridge / Umami secrets if copied into repo tree
 deploy/admin-oauth/node_modules/
 deploy/admin-oauth/.env
+deploy/console/node_modules/
+deploy/console/.env
+deploy/console/data/
 deploy/umami/.env
 _ingest/

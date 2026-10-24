@@ -65,9 +65,17 @@ export default defineConfig({
   vite: {
     server: {
       allowedHosts: true,
-      // Dev only: collab form posts to the OAuth bridge, same path Nginx uses on Baota.
+      // Dev only: same paths Nginx uses on Baota.
+      // /oauth is the Decap bridge. /console is the visitor console (deploy/console).
       proxy: {
         '/oauth': 'http://127.0.0.1:4181',
+        '/console': 'http://127.0.0.1:4182',
+      },
+    },
+    preview: {
+      proxy: {
+        '/oauth': 'http://127.0.0.1:4181',
+        '/console': 'http://127.0.0.1:4182',
       },
     },
     plugins: [

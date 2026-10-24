@@ -57,3 +57,5 @@ curl -sS https://ys.tongzhoukuajing.com/oauth/health
 ```
 
 完整步骤见上级目录的 [ADMIN.md](../ADMIN.md)。
+
+访客注册和工作人员看板在旁边的 [`../console/`](../console/README.md)，端口 `4182`，不要并进这个进程。
