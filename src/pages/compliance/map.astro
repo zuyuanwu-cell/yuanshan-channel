@@ -1,6 +1,7 @@
 ---
 import ComplianceMap from '../../components/ComplianceMap.astro';
 import ComplianceViewSwitch from '../../components/ComplianceViewSwitch.astro';
+import ServiceHint from '../../components/ServiceHint.astro';
 import Base from '../../layouts/Base.astro';
 import { buildComplianceMap } from '../../lib/compliance-map';
 import { getCompliance } from '../../lib/content';
@@ -11,10 +12,18 @@ const latest = countries.map((country) => country.last_verified).sort().at(-1) ?
 const model = buildComplianceMap(countries);
 ---
 
-<Base title="全球合规地球" description="在自转的三维地球上点选已收录的市场，查看美妆日化合规。">
+<Base
+  title="全球合规地球"
+  description="在三维地球上点选已收录的市场，查看美妆日化上市要求。"
+  crumbs={[
+    { name: '首页', href: '/' },
+    { name: '合规', href: '/compliance' },
+    { name: '全球合规地球', href: '/compliance/map' },
+  ]}
+>
   <header class="page-head">
     <p class="kicker">美妆日化 · 在地球上找市场</p>
-    <h1>国家合规速查</h1>
+    <h1>全球合规地球</h1>
     <p class="updated-line">
       <span class="live-dot" aria-hidden="true"></span>核实于 <time datetime={latest}>{formatDate(latest)}</time>
       <span class="muted"> · {countries.length} 个市场</span>
@@ -25,4 +34,13 @@ const model = buildComplianceMap(countries);
     </div>
   </header>
   <ComplianceMap model={model} />
+  <ServiceHint
+    layout="band"
+    title="选定市场之后，需要一起看材料？"
+    text="地球上点开的是公开要求的入口。若要按你的品类往下拆手续和出口步骤，可以和同舟跨境聊聊。我们有化妆品工厂，也做跨境供应链。"
+    points={['梳理该市场的上市资料', '协助美妆日化编码归类', '衔接生产、出口和当地合规售卖']}
+    note="地图只链接到本站已整理的公开要求，不构成法律意见，也不代办平台入驻。"
+    cta="和我们聊聊"
+    prefill="我想了解某个市场的美妆上市资料和出口支持。"
+  />
 </Base>

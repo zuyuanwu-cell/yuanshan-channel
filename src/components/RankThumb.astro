@@ -24,7 +24,7 @@ const hue = Array.from(item.brand).reduce((sum, char) => sum + (char.codePointAt
       data-zoom-caption={`${String(item.rank).padStart(2, '0')} · ${main}`}
       aria-label={`${site.ui.zoomImage}：${main}`}
     >
-      <img src={image.thumb} alt="" loading="lazy" decoding="async" referrerpolicy="no-referrer" />
+      <img src={image.thumb} alt={main} loading="lazy" decoding="async" referrerpolicy="no-referrer" />
       <span class="zoom-badge" aria-hidden="true">
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round">
           <circle cx="11" cy="11" r="6" />

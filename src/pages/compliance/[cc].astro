@@ -1,6 +1,7 @@
 ---
 import Flag from '../../components/Flag.astro';
 import NewsCard from '../../components/NewsCard.astro';
+import ServiceHint from '../../components/ServiceHint.astro';
 import Base from '../../layouts/Base.astro';
 import { complianceTypeLabels, getCompliance, getComplianceCountry, newsForCountry } from '../../lib/content';
 import { formatDate, url } from '../../lib/format';
@@ -14,15 +15,25 @@ const items = [...c.items].sort((a, b) => Number(b.mandatory) - Number(a.mandato
 const host = (u: string) => { try { return new URL(u).hostname.replace(/^www\./, ''); } catch { return u; } };
 ---
 
-<Base title={`${c.name_zh} 合规速查`} description={c.summary}>
+<Base
+  title={`${c.name_zh} 合规速查`}
+  description={`${c.name_zh}美妆日化合规：${c.summary}`}
+  crumbs={[
+    { name: '首页', href: '/' },
+    { name: '合规', href: '/compliance' },
+    { name: c.name_zh, href: `/compliance/${c.country}` },
+  ]}
+>
   <header class="page-head">
     <p class="kicker"><a href={url('/compliance')}>← 国家合规速查</a></p>
-    <h1><Flag cc={c.country} size="lg" class="cc-flag-lg" /> {c.name_zh}</h1>
+    <h1><Flag cc={c.country} size="lg" class="cc-flag-lg" /> {c.name_zh}合规</h1>
     <p class="lede">{c.summary}</p>
     <p class="updated-line"><span class="live-dot" aria-hidden="true"></span>核实于 <time datetime={c.last_verified}>{formatDate(c.last_verified)}</time>
       <span class="cc-diff" aria-label={`难度 ${c.difficulty}/3`}>{[1, 2, 3].map((n) => <i class={n <= c.difficulty ? 'on' : ''} />)}</span></p>
   </header>
 
+  <div class="cc-with-help">
+  <div class="cc-main">
   <ol class="cc-steps scroll-x" aria-label="办理顺序">
     {c.steps.map((s, i) => <li><span class="cc-step-no">{i + 1}</span><span>{s.title}</span></li>)}
   </ol>
@@ -64,4 +75,14 @@ const host = (u: string) => { try { return new URL(u).hostname.replace(/^www\./,
     </section>
   )}
   <p class="muted cc-disclaimer">仅供参考，以官方最新规定为准。</p>
+  </div>
+  <ServiceHint
+    title={`准备进入${c.name_zh}？`}
+    text="这页整理的是公开要求。若要对照你的品类梳理材料、安排出口，或衔接当地合规售卖，可以和同舟跨境聊聊。"
+    points={['按品类梳理材料和手续', '出口准备与供应链衔接', '当地合规售卖上的实操问题']}
+    note="不代办平台入驻，也不替代该市场的官方文本或法律意见。"
+    cta="聊聊这个市场"
+    prefill={`我想咨询${c.name_zh}的上市资料和出口。`}
+  />
+  </div>
 </Base>
