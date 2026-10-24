@@ -1,9 +1,12 @@
 ---
+import DocName from '../../components/DocName.astro';
+import DocPreviewDialog from '../../components/DocPreviewDialog.astro';
 import Flag from '../../components/Flag.astro';
 import NewsCard from '../../components/NewsCard.astro';
 import ServiceHint from '../../components/ServiceHint.astro';
 import Base from '../../layouts/Base.astro';
 import { complianceTypeLabels, getCompliance, getComplianceCountry, newsForCountry } from '../../lib/content';
+import { matchDoc } from '../../lib/doc-templates';
 import { formatDate, url } from '../../lib/format';
 
 export function getStaticPaths() {
@@ -13,6 +16,15 @@ const c = getComplianceCountry(Astro.params.cc!)!;
 const news = newsForCountry(c.country);
 const items = [...c.items].sort((a, b) => Number(b.mandatory) - Number(a.mandatory));
 const host = (u: string) => { try { return new URL(u).hostname.replace(/^www\./, ''); } catch { return u; } };
+const previewIds = new Set<string>();
+let docCount = 0;
+for (const item of items) {
+  for (const doc of item.docs) {
+    docCount += 1;
+    const hit = matchDoc(doc, item.type);
+    if (hit) previewIds.add(hit.id);
+  }
+}
 ---
 
 <Base
@@ -38,6 +50,10 @@ const host = (u: string) => { try { return new URL(u).hostname.replace(/^www\./,
     {c.steps.map((s, i) => <li><span class="cc-step-no">{i + 1}</span><span>{s.title}</span></li>)}
   </ol>
 
+  {docCount > 0 && (
+    <p class="cc-doc-legend">材料名称可以打开样式，看这类文件大概长什么样。<a href={url('/compliance/templates')}>全部样式</a></p>
+  )}
+
   <div class="cc-items">
     {items.map((it) => (
       <article class={`cc-item card ${it.mandatory ? 'is-must' : ''}`} id={it.id}>
@@ -61,7 +77,15 @@ const host = (u: string) => { try { return new URL(u).hostname.replace(/^www\./,
         )}
         {it.note && <p class="cc-note">{it.note}</p>}
         {it.docs.length > 0 && (
-          <details class="cc-docs"><summary>📄 材料 {it.docs.length}</summary><ul>{it.docs.map((d) => <li>{d}</li>)}</ul></details>
+          <details class="cc-docs">
+            <summary>
+              材料 {it.docs.length}
+              {it.docs.some((doc) => matchDoc(doc, it.type)) && <span class="cc-doc-can"> · 可看样式</span>}
+            </summary>
+            <ul class="cc-doc-list">
+              {it.docs.map((doc) => <DocName name={doc} type={it.type} />)}
+            </ul>
+          </details>
         )}
         <a class="text-link cc-src" href={it.official_url} target="_blank" rel="noopener noreferrer">官方来源 · {host(it.official_url)} ↗</a>
       </article>
@@ -85,4 +109,5 @@ const host = (u: string) => { try { return new URL(u).hostname.replace(/^www\./,
     prefill={`我想咨询${c.name_zh}的上市资料和出口。`}
   />
   </div>
+  <DocPreviewDialog ids={[...previewIds]} market={c.name_zh} />
 </Base>

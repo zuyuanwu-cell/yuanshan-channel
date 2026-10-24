@@ -1,0 +1,53 @@
+---
+import DocSpecimen from './DocSpecimen.astro';
+import { getDocCatalog, getDocTemplates } from '../lib/doc-templates';
+
+interface Props {
+  ids?: string[];
+  market?: string;
+  syncUrl?: boolean;
+}
+
+const { ids, market = '', syncUrl = false } = Astro.props;
+const catalog = getDocCatalog();
+const all = getDocTemplates();
+const templates = ids ? all.filter((item) => ids.includes(item.id)) : all;
+---
+
+{templates.length > 0 && (
+  <dialog
+    class="doc-preview"
+    data-doc-dialog
+    data-market={market}
+    data-doc-sync={syncUrl ? '1' : '0'}
+    aria-labelledby="doc-preview-title"
+  >
+    <div class="doc-preview-top">
+      <div>
+        <p class="stamp stamp-sample">{catalog.badge} · 填写样例</p>
+        <h2 id="doc-preview-title" data-doc-title>材料样式</h2>
+        <p class="doc-preview-asked" data-doc-asked hidden></p>
+      </div>
+      <button type="button" class="doc-preview-close" data-doc-close aria-label="关闭样式">
+        <svg viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round">
+          <path d="M6 6l12 12M18 6 6 18" />
+        </svg>
+      </button>
+    </div>
+    <p class="doc-preview-disclaimer">{catalog.disclaimer}</p>
+    <div class="doc-preview-body">
+      {templates.map((template) => (
+        <div class="doc-preview-panel" data-doc-panel={template.id} data-doc-kind={template.name_zh} hidden>
+          <p class="doc-preview-summary">{template.summary}</p>
+          <DocSpecimen template={template} />
+        </div>
+      ))}
+    </div>
+    <div class="doc-preview-foot">
+      <p>同舟跨境可以按品类把这类材料理出来，再衔接生产和出口。示意不代替法律意见。</p>
+      <button type="button" class="service-hint-cta" data-contact-open data-doc-contact data-contact-prefill="我想按材料样式准备上市资料。">
+        聊聊这份材料
+      </button>
+    </div>
+  </dialog>
+)}

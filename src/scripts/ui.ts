@@ -515,6 +515,77 @@ function initNavSheet(): void {
   });
 }
 
+function initDocPreview(): void {
+  const dialog = document.querySelector<HTMLDialogElement>('[data-doc-dialog]');
+  if (!dialog || typeof dialog.showModal !== 'function') return;
+  const title = dialog.querySelector<HTMLElement>('[data-doc-title]');
+  const asked = dialog.querySelector<HTMLElement>('[data-doc-asked]');
+  const contact = dialog.querySelector<HTMLButtonElement>('[data-doc-contact]');
+  const market = dialog.dataset.market ?? '';
+  const sync = dialog.dataset.docSync === '1';
+
+  const panels = () => [...dialog.querySelectorAll<HTMLElement>('[data-doc-panel]')];
+
+  const open = (id: string, name: string, field: string, kind: string) => {
+    const panel = panels().find((item) => item.dataset.docPanel === id);
+    if (!panel) return;
+    for (const item of panels()) item.hidden = item !== panel;
+    dialog.querySelectorAll('.is-hot').forEach((el) => el.classList.remove('is-hot'));
+    if (field) {
+      panel.querySelectorAll<HTMLElement>(`[data-field="${CSS.escape(field)}"]`).forEach((el) => el.classList.add('is-hot'));
+    }
+    if (title) title.textContent = kind || '材料样式';
+    if (asked) {
+      asked.hidden = name.length === 0;
+      asked.textContent = name ? `清单里写的是「${name}」。下面对的是这类文件的样子。` : '';
+    }
+    if (contact) {
+      const what = name || kind || '这类材料';
+      contact.dataset.contactPrefill = market ? `我想准备${market}市场的「${what}」。` : `我想准备「${what}」这类材料。`;
+    }
+    if (!dialog.open) dialog.showModal();
+    dialog.querySelector<HTMLButtonElement>('[data-doc-close]')?.focus();
+    const hot = panel.querySelector<HTMLElement>('.is-hot');
+    if (hot) {
+      const reduce = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+      hot.scrollIntoView({ block: 'center', behavior: reduce ? 'auto' : 'smooth' });
+    }
+    if (sync) {
+      const next = new URL(location.href);
+      next.searchParams.set('doc', id);
+      history.replaceState(null, '', next);
+    }
+  };
+
+  document.addEventListener('click', (event) => {
+    const target = event.target;
+    if (!(target instanceof Element)) return;
+    const button = target.closest<HTMLButtonElement>('[data-doc-preview]');
+    if (!button) return;
+    open(button.dataset.docPreview ?? '', button.dataset.docName ?? '', button.dataset.docField ?? '', button.dataset.docKind ?? '');
+  });
+
+  dialog.addEventListener('click', (event) => {
+    const target = event.target;
+    if (!(target instanceof Element)) return;
+    if (target === dialog || target.closest('[data-doc-close]')) dialog.close();
+  });
+
+  dialog.addEventListener('close', () => {
+    if (!sync) return;
+    const next = new URL(location.href);
+    if (!next.searchParams.has('doc')) return;
+    next.searchParams.delete('doc');
+    history.replaceState(null, '', next);
+  });
+
+  if (!sync) return;
+  const initial = new URLSearchParams(location.search).get('doc');
+  if (!initial) return;
+  const panel = dialog.querySelector<HTMLElement>(`[data-doc-panel="${CSS.escape(initial)}"]`);
+  if (panel) open(initial, '', '', panel.dataset.docKind ?? '');
+}
+
 initNewsFilters();
 initPlatformBrowser();
 initRankingDates();
@@ -523,5 +594,6 @@ initReveal();
 initDeckTilt();
 initDeckCarousel();
 initTopMarquee();
+initDocPreview();
 initContactDock();
 initNavSheet();

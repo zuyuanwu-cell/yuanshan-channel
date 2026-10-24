@@ -4,6 +4,7 @@ import { fileURLToPath } from 'node:url';
 import Ajv from 'ajv';
 import { JSON_SCHEMA, load as loadYaml } from 'js-yaml';
 import matter from 'gray-matter';
+import { matchDoc, normalizeDocName } from '../src/lib/doc-match.mjs';
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const contentDir = path.join(root, 'content');
@@ -69,6 +70,7 @@ const validateRanking = ajv.compile(readJson(path.join(schemaDir, 'ranking.schem
 const validateAbout = ajv.compile(readJson(path.join(schemaDir, 'about.schema.json')));
 const validateCompliance = ajv.compile(readJson(path.join(schemaDir, 'compliance.schema.json')));
 const validateFactoryPromo = ajv.compile(readJson(path.join(schemaDir, 'factory-promo.schema.json')));
+const validateDocTemplates = ajv.compile(readJson(path.join(schemaDir, 'doc-templates.schema.json')));
 
 const allowedRoot = new Set([
   'site.json',
@@ -156,6 +158,7 @@ for (const [index, board] of (site?.rankingPlatforms ?? []).entries()) {
 const complianceDir = path.join(contentDir, 'compliance');
 const countryIds = new Set();
 let complianceItems = 0;
+const docMentions = [];
 if (fs.existsSync(complianceDir)) {
   for (const fileName of fs.readdirSync(complianceDir)) {
     const file = path.join(complianceDir, fileName);
@@ -175,6 +178,9 @@ if (fs.existsSync(complianceDir)) {
       if (ids.has(item.id)) fail(`${rel(file)}: item id「${item.id}」重复`);
       ids.add(item.id);
       if (item.source_checked && !isRealDate(item.source_checked)) fail(`${rel(file)}: ${item.id} source_checked 不是真实日期`);
+      for (const doc of item.docs ?? []) {
+        if (typeof doc === 'string') docMentions.push({ name: doc, type: item.type });
+      }
     }
   }
 }
@@ -394,6 +400,108 @@ if (!fs.existsSync(contentDoc) || fs.readFileSync(contentDoc, 'utf8').trim().len
   fail('缺少 content/CONTENT.md，或内容过短');
 }
 
+const docTemplatesPath = path.join(contentDir, 'datasets', 'doc-templates.json');
+const docTemplates = fs.existsSync(docTemplatesPath) ? readJson(docTemplatesPath) : null;
+let docCoverageLine = '';
+if (!docTemplates) fail('缺少 content/datasets/doc-templates.json');
+else {
+  schemaErrors(docTemplatesPath, validateDocTemplates, docTemplates);
+  if (validateDocTemplates(docTemplates)) {
+    const templates = docTemplates.templates ?? [];
+    const ids = new Set();
+    const fieldIdsOf = (specimen) => {
+      const ids = new Set();
+      for (const key of ['rows', 'parties', 'chips', 'signs']) {
+        for (const row of specimen?.[key] ?? []) if (row?.id) ids.add(row.id);
+      }
+      for (const key of ['refId', 'coverId', 'tableField', 'calloutId']) {
+        if (specimen?.[key]) ids.add(specimen[key]);
+      }
+      return ids;
+    };
+    for (const template of templates) {
+      if (ids.has(template.id)) fail(`content/datasets/doc-templates.json: id「${template.id}」重复`);
+      ids.add(template.id);
+      const fields = fieldIdsOf(template.specimen);
+      for (const highlight of template.highlights ?? []) {
+        if (!fields.has(highlight.field)) {
+          fail(`content/datasets/doc-templates.json: ${template.id} 高亮「${highlight.field}」不在样张里`);
+        }
+      }
+      for (const alias of template.aliases ?? []) {
+        if (normalizeDocName(alias).length < 2) fail(`content/datasets/doc-templates.json: ${template.id} 别名「${alias}」去掉标点后太短`);
+        const hit = matchDoc(alias, templates);
+        if (!hit || hit.id !== template.id) {
+          fail(`content/datasets/doc-templates.json: ${template.id} 的别名「${alias}」对到了 ${hit?.id ?? '无'}`);
+        }
+      }
+      const columns = template.specimen?.columns;
+      for (const row of template.specimen?.table ?? []) {
+        if (columns && row.length !== columns.length) {
+          fail(`content/datasets/doc-templates.json: ${template.id} 表格列数不一致`);
+        }
+      }
+    }
+    const samples = [
+      ['授权书', 'local-rep', 'authorization', 'scope'],
+      ['品牌授权书', 'local-rep', 'authorization', 'scope'],
+      ['RP 委托协议', 'local-rep', 'authorization', 'grantee'],
+      ['成分', 'registration', 'ingredient', 'inci'],
+      ['全成分', 'label', 'ingredient', 'inci'],
+      ['成分（降序）', 'label', 'ingredient', 'inci'],
+      ['INCI 成分表', 'label', 'ingredient', 'inci'],
+      ['标签', 'label', 'label', null],
+      ['批号', 'label', 'label', 'batch'],
+      ['净含量（英制+公制）', 'label', 'label', 'net'],
+      ['责任人名称地址', 'label', 'label', 'rp'],
+      ['实验室检测报告', 'registration', 'test-report', 'result'],
+      ['GSO 1943 检测报告', 'registration', 'test-report', 'result'],
+      ['GMP/质量体系证明（6d 方案）', 'registration', 'gmp', 'standard'],
+      ['CFS/GMP 证明', 'local-rep', 'gmp', 'standard'],
+      ['自由销售证明', 'registration', 'free-sale', 'product'],
+      ['CFS（领事认证）', 'registration', 'free-sale', 'product'],
+      ['符合性声明号', 'platform', 'conformity', 'number'],
+      ['标识码', 'platform', 'platform', 'code'],
+      ['ТН ВЭД 编码', 'platform', 'platform', 'hs'],
+      ['美国代理人（境外工厂）', 'registration', 'local-rep', 'rep'],
+      ['RP 名称地址', 'label', 'label', 'rp'],
+      ['RP 信息', 'registration', 'local-rep', 'rep'],
+      ['PIF', 'safety', 'pif', 'cover'],
+      ['CPSR 安全评估', 'safety', 'safety', 'conclusion'],
+      ['清真认证申请资料', 'halal', 'halal', 'product'],
+      ['上报表 3500A', 'safety', 'application', 'category'],
+      ['FD 様式届书', 'registration', 'application', 'category'],
+      ['許可申請', 'registration', 'application', 'applicant'],
+      ['数字令牌', 'registration', 'platform', 'token'],
+      ['样品', 'registration', 'sample-slip', 'sample'],
+      ['回收系统合同', 'packaging', 'contract', 'scope'],
+      ['没有这种材料xyz', 'label', null, null],
+    ];
+    for (const [name, type, expectId, expectField] of samples) {
+      const hit = matchDoc(name, templates, type);
+      const got = hit?.id ?? null;
+      if (got !== expectId) fail(`材料样式样例「${name}」应是 ${expectId ?? '无'}，实际 ${got ?? '无'}`);
+      else if (expectField && hit?.field !== expectField) {
+        fail(`材料样式样例「${name}」应亮 ${expectField}，实际 ${hit?.field ?? '无'}`);
+      }
+    }
+    const unique = new Map();
+    let matched = 0;
+    const unmatched = [];
+    for (const mention of docMentions) {
+      const hit = matchDoc(mention.name, templates, mention.type);
+      if (!unique.has(mention.name)) unique.set(mention.name, Boolean(hit));
+      if (hit) matched += 1;
+      else unmatched.push(mention.name);
+    }
+    const uniqueTotal = unique.size;
+    const uniqueMatched = [...unique.values()].filter(Boolean).length;
+    const pct = (part, total) => (total ? ((100 * part) / total).toFixed(1) : '0.0');
+    docCoverageLine = `- 材料样式 ${templates.length} 种，清单 ${docMentions.length} 处对上 ${matched}（${pct(matched, docMentions.length)}%）；不同写法 ${uniqueTotal}，对上 ${uniqueMatched}（${pct(uniqueMatched, uniqueTotal)}%）`;
+    if (unmatched.length) docCoverageLine += `\n- 未对上样式：${[...new Set(unmatched)].join('、')}`;
+  }
+}
+
 if (errors.length > 0) {
   console.error(`内容校验失败（${errors.length}）`);
   for (const error of errors) console.error(`- ${error}`);
@@ -404,6 +512,7 @@ console.log('内容校验通过');
 console.log(`- 平台 ${platformIds.size}`);
 console.log(`- 资讯 ${newsCount}`);
 console.log(`- 合规国家 ${countryIds.size}（${complianceItems} 项）`);
+if (docCoverageLine) console.log(docCoverageLine);
 const hsDataset = path.join(contentDir, 'datasets', 'hs-codes', 'beauty.json');
 if (fs.existsSync(hsDataset)) {
   const hs = readJson(hsDataset);

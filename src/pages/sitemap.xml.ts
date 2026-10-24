@@ -43,6 +43,7 @@ export const GET: APIRoute = ({ site }) => {
     { loc: pageUrl('/compliance', origin), lastmod: complianceLatest },
     { loc: pageUrl('/compliance/compare', origin), lastmod: complianceLatest },
     { loc: pageUrl('/compliance/map', origin), lastmod: complianceLatest },
+    { loc: pageUrl('/compliance/templates', origin), lastmod: complianceLatest },
     ...getCompliance().map((country) => ({
       loc: pageUrl(`/compliance/${country.country}`, origin),
       lastmod: laterDate([country.last_verified]),

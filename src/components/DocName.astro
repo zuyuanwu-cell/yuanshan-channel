@@ -1,0 +1,31 @@
+---
+import { matchDoc } from '../lib/doc-templates';
+
+interface Props {
+  name: string;
+  type: string;
+}
+
+const { name, type } = Astro.props;
+const hit = matchDoc(name, type);
+---
+
+<li class="cc-doc">
+  <span class="cc-doc-name">{name}</span>
+  {hit ? (
+    <button
+      type="button"
+      class="cc-doc-open"
+      data-doc-preview={hit.id}
+      data-doc-name={name}
+      data-doc-field={hit.field ?? ''}
+      data-doc-kind={hit.template.name_zh}
+      aria-haspopup="dialog"
+      aria-label={`预览「${name}」的样式示意`}
+    >
+      看样式
+    </button>
+  ) : (
+    <span class="cc-doc-gap">暂无样式</span>
+  )}
+</li>
