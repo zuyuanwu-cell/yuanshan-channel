@@ -76,11 +76,20 @@
 `site.json` 的 `rankingPlatforms` 是全部榜位，按数组顺序就是抓取优先序。一个榜位是「平台 × 站点」，例如 `amazon-uk`、`shopee-id`、`tiktok-shop-us`。
 
 - `id`：榜单目录名 `content/rankings/<id>/`，也是榜单 JSON 的 `platform` 和 `rankingGaps[].platform`
-- `name`、`code`（2–4 位大写，如 `US`、`SEA`）、`market`：页面展示用
+- `name`、`code`（2–4 位大写，如 `US`、`SEA`）、`market`：页面展示用。`code` 小写后要有 `content/compliance/<code>.json`，或者用 `SEA`（`market` 写「东南亚」）、`GL`（`market` 写「全球」）。`market` 里用 `/` 或 `、` 分开的名字要对上合规国家的 `name_zh`（「印尼」对应印度尼西亚）。这是市场订阅的映射，对不上构建会失败。
 - `platform`：可选，对应 `platforms.json` 的 `id`，平台卡片和资讯页据此链到榜单
 - `board_url`：可选，只填你打开过的公开热销页
 
 榜位有三种状态，榜单页「覆盖计划」里按颜色区分：有 JSON 为「已上榜」，记在 `rankingGaps` 为「本期未抓到」，其余为「待抓取」。新增榜位只写进 `rankingPlatforms`，不要为它编平台介绍。
+
+### 榜单页工厂引导（factory-promo.json）
+
+热销榜列表和榜单详情各放一张引导卡，文案只改 `content/factory-promo.json`，不要改组件。
+
+- `ctaHref` 写 `#contact` 时，按钮打开页面上已有的「洽谈合作」浮层。
+- 写成 `/subscribe` 这类站内路径，或 `https://` 外链，则是普通链接。站内路径不要手写部署前缀。
+
+这张卡是工厂能做的事（打样、设计、出海合规方案），不是榜单数据，也不替代监管原文。
 
 ### 单品字段
 

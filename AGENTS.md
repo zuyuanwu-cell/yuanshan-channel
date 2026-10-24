@@ -13,6 +13,16 @@
 
 不要把资讯正文、榜单、平台介绍、免责声明写进 `src/`。日常更新不要改组件、样式或 schema。
 
+## 订阅和只读接口
+
+`/subscribe/`、`/v1/`、`mcp/server.mjs` 都在构建时从 `content/` 生成，不要手改产物，也不要另写一套资讯。市场 id 就是 `content/compliance/<id>.json` 的 `country`。
+
+新增榜位时，`rankingPlatforms` 的 `code` 必须能对应合规文件（小写），或使用已有的 `SEA`（且 `market` 为「东南亚」）、`GL`（且 `market` 为「全球」）。`market` 文案里用 `/` 或 `、` 分开的国家名要对上合规 `name_zh`。对不上，`npm run build` 会失败。
+
+细节在 `docs/subscriptions.md`。日常更新仍然只改 `content/`。
+
+榜单页工厂引导只改 `content/factory-promo.json`。`ctaHref` 用 `#contact` 打开已有洽谈合作浮层。企业微信 webhook 只放服务器环境变量 `WECOM_WEBHOOK_URL`（空则用 `YUANSHAN_WECOM_WEBHOOK_URL`），不要写进仓库。
+
 步骤细节在 `.cursor/skills/yuanshan-daily-update/SKILL.md`。
 
 ## 不能编造

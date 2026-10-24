@@ -122,6 +122,30 @@ git push github main
 
 未完成 OAuth 前，`/admin/` 页面能打开，但 Login 会失败，属正常。
 
+## 市场订阅
+
+人在 [`/subscribe/`](https://ys.tongzhoukuajing.com/subscribe/) 按市场勾选，再选平台规则、市场法规、热销榜，点「生成订阅」得到该组合的 JSON / RSS 地址。这不是全站会员。
+
+公开的 `/v1/` 只读，不发邮件。生成订阅时，页面把市场包 `POST` 到 `/oauth/api/subscribe`（浏览器里没有 webhook）。服务器上的 OAuth 桥读 `WECOM_WEBHOOK_URL`，为空则用 `YUANSHAN_WECOM_WEBHOOK_URL`，再发到企业微信群。没配、或纯静态预览连不上时，地址照样生成，群里收不到。真实 key 只放服务器 `.env`，不要写进仓库或 GitHub Actions。新内容进群用 `deploy/admin-oauth/notify-updates.js`（第一次只记基线）。
+
+单市场和整区的文件在构建时写好；多市场的自定义组合用 `/v1/updates.json?markets=&types=` 作筛选约定，由页面或调用方自己滤。
+
+榜单页的工厂引导文案在 `content/factory-promo.json`。`ctaHref` 为 `#contact` 时打开已有的洽谈合作浮层。
+
+Agent 读同一套 `/v1/` JSON。MCP 在 `mcp/server.mjs`（stdio，无依赖），工具只拉这些文件，不抓 HTML。
+
+```bash
+# 默认读 https://ys.tongzhoukuajing.com
+node mcp/server.mjs
+
+# 或读本地构建目录（里面要有 v1/）
+YUANSHAN_V1_DIR=dist node mcp/server.mjs
+```
+
+说明、路径和 V1 不做的事：[`docs/subscriptions.md`](docs/subscriptions.md)。OpenAPI 摘要：[`docs/v1.openapi.yaml`](docs/v1.openapi.yaml)。
+
+V1 是公开只读，不校验密钥。以后若做付费档，请求头是 `Authorization: Bearer <key>`，密钥只覆盖一组市场 id。仓库里不放密钥。
+
 ## 声明
 
 

@@ -68,6 +68,7 @@ const validateNews = ajv.compile(readJson(path.join(schemaDir, 'news.schema.json
 const validateRanking = ajv.compile(readJson(path.join(schemaDir, 'ranking.schema.json')));
 const validateAbout = ajv.compile(readJson(path.join(schemaDir, 'about.schema.json')));
 const validateCompliance = ajv.compile(readJson(path.join(schemaDir, 'compliance.schema.json')));
+const validateFactoryPromo = ajv.compile(readJson(path.join(schemaDir, 'factory-promo.schema.json')));
 
 const allowedRoot = new Set([
   'site.json',
@@ -80,6 +81,7 @@ const allowedRoot = new Set([
   'assets',
   'compliance',
   'datasets',
+  'factory-promo.json',
 ]);
 
 if (!fs.existsSync(contentDir)) {
@@ -381,6 +383,11 @@ if (!fs.existsSync(aboutPath)) {
     requireHighlights('content/about.md close', data.close?.highlights, joinedText(data.close));
   }
 }
+
+const factoryPromoPath = path.join(contentDir, 'factory-promo.json');
+const factoryPromo = fs.existsSync(factoryPromoPath) ? readJson(factoryPromoPath) : null;
+if (!factoryPromo) fail('缺少 content/factory-promo.json');
+else schemaErrors(factoryPromoPath, validateFactoryPromo, factoryPromo);
 
 const contentDoc = path.join(contentDir, 'CONTENT.md');
 if (!fs.existsSync(contentDoc) || fs.readFileSync(contentDoc, 'utf8').trim().length < 40) {

@@ -1,0 +1,30 @@
+---
+import { getFactoryPromo } from '../lib/content';
+import { url } from '../lib/format';
+
+const promo = getFactoryPromo();
+const href = promo.ctaHref;
+const opensContact = href === '#contact';
+const external = href.startsWith('https://');
+const link = opensContact ? '' : external ? href : url(href);
+---
+
+<aside class="factory-promo card" aria-labelledby="factory-promo-title">
+  <p class="kicker">{promo.eyebrow}</p>
+  <h2 id="factory-promo-title">{promo.title}</h2>
+  <p>{promo.text}</p>
+  <ul>
+    {promo.points.map((point) => <li>{point}</li>)}
+  </ul>
+  {
+    opensContact ? (
+      <button type="button" class="source-button" data-contact-open>
+        {promo.ctaLabel}
+      </button>
+    ) : (
+      <a class="source-button" href={link} target={external ? '_blank' : undefined} rel={external ? 'noreferrer' : undefined}>
+        {promo.ctaLabel}
+      </a>
+    )
+  }
+</aside>

@@ -1,5 +1,6 @@
 ---
 import BoardPlan from '../../components/BoardPlan.astro';
+import FactoryPromo from '../../components/FactoryPromo.astro';
 import RankGaps from '../../components/RankGaps.astro';
 import RankPreview from '../../components/RankPreview.astro';
 import Base from '../../layouts/Base.astro';
@@ -27,6 +28,7 @@ const capture = latestCapture();
       )
     }
   </header>
+  <FactoryPromo />
   {
     rankings.length === 0 ? (
       <p class="empty card">{site.empty.rankings}</p>
