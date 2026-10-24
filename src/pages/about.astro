@@ -253,7 +253,7 @@ const questionCards = about.scope.cards.filter((card) => card.group === 'questio
     display: grid;
     gap: 12px;
     max-width: 42rem;
-    color: #d4d4d8;
+    color: var(--ink-soft);
     font-size: 1.02rem;
   }
 
@@ -306,7 +306,7 @@ const questionCards = about.scope.cards.filter((card) => card.group === 'questio
     padding: 0 8px;
     border: 1px solid color-mix(in srgb, var(--about) 48%, transparent);
     border-radius: 999px;
-    color: #ddd6fe;
+    color: var(--violet-ink);
     font-size: 0.72rem;
     font-weight: 700;
     letter-spacing: 0.06em;
@@ -324,7 +324,7 @@ const questionCards = about.scope.cards.filter((card) => card.group === 'questio
   .about-bridge {
     max-width: 42rem;
     margin-top: 16px;
-    color: #d4d4d8;
+    color: var(--ink-soft);
     font-size: 1.05rem;
   }
 
@@ -337,7 +337,7 @@ const questionCards = about.scope.cards.filter((card) => card.group === 'questio
     overflow-x: auto;
     scroll-snap-type: x mandatory;
     scroll-padding-inline: 2px;
-    scrollbar-color: rgba(255, 255, 255, 0.28) transparent;
+    scrollbar-color: var(--edge) transparent;
   }
 
   .about-photos > li {
@@ -379,8 +379,8 @@ const questionCards = about.scope.cards.filter((card) => card.group === 'questio
     width: 32px;
     height: 32px;
     border-radius: 999px;
-    background: rgba(9, 9, 11, 0.72);
-    color: var(--ink);
+    background: var(--float-bg);
+    color: var(--float-ink);
   }
 
   .about-shot-zoom svg {
@@ -435,7 +435,7 @@ const questionCards = about.scope.cards.filter((card) => card.group === 'questio
   .about-hope {
     max-width: 40rem;
     margin-top: 16px;
-    color: #d4d4d8;
+    color: var(--ink-soft);
     font-size: 1.05rem;
   }
 
@@ -443,7 +443,7 @@ const questionCards = about.scope.cards.filter((card) => card.group === 'questio
     display: grid;
     gap: 12px;
     padding: 18px 18px 16px;
-    color: #d4d4d8;
+    color: var(--ink-soft);
   }
 
   .about-cautions {
