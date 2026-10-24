@@ -1,4 +1,5 @@
 ---
+import BrandMark from './BrandMark.astro';
 import { getSite } from '../lib/content';
 import { isActivePath, url } from '../lib/format';
 
@@ -9,7 +10,7 @@ const path = Astro.url.pathname;
 <header class="site-header">
   <div class="wrap inner">
     <a class="brand" href={url("/")} aria-label={site.name}>
-      <span class="brand-mark" aria-hidden="true">{site.ui.brandMark}</span>
+      <BrandMark />
       <span class="brand-text">
         <strong>{site.channel}</strong>
         <em>{site.brand}</em>
