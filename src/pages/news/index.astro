@@ -16,7 +16,14 @@ const categories = (['rules', 'regulation'] as const).map((id) => ({
 }));
 ---
 
-<Base title={site.pages.news.title} description={site.pages.news.note}>
+<Base
+  title={site.pages.news.title}
+  description={site.pages.news.note}
+  crumbs={[
+    { name: '首页', href: '/' },
+    { name: site.pages.news.title, href: '/news' },
+  ]}
+>
   <header class="page-head">
     <p class="kicker">{site.focus}</p>
     <h1>{site.pages.news.title}</h1>

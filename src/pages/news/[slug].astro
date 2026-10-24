@@ -19,7 +19,19 @@ const showBanner = item.sample || item.needs_review;
 const days = item.key_date ? daysFromToday(item.key_date.date) : null;
 ---
 
-<Base title={item.title} description={item.summary}>
+<Base
+  title={item.title}
+  description={item.summary}
+  ogType="article"
+  published={item.date}
+  modified={item.checked}
+  citation={item.source_url}
+  crumbs={[
+    { name: '首页', href: '/' },
+    { name: site.pages.news.title, href: '/news' },
+    { name: item.title, href: `/news/${item.slug}` },
+  ]}
+>
   <a class="back-link" href={url("/news")}>{site.ui.backNews}</a>
   <header class="page-head">
     <div class="meta-row">

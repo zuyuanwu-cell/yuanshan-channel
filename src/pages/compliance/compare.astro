@@ -1,6 +1,7 @@
 ---
 import ComplianceViewSwitch from '../../components/ComplianceViewSwitch.astro';
 import Flag from '../../components/Flag.astro';
+import ServiceHint from '../../components/ServiceHint.astro';
 import Base from '../../layouts/Base.astro';
 import { complianceTypeLabels, getCompliance } from '../../lib/content';
 import { url } from '../../lib/format';
@@ -16,7 +17,15 @@ const cell = (c: (typeof countries)[number], t: string) => {
 };
 ---
 
-<Base title="合规横向对比" description="各国美妆合规要求一张表看完。">
+<Base
+  title="合规横向对比"
+  description="把各市场美妆日化的备案、标签、本地代表和平台资质放在一张表里对照。"
+  crumbs={[
+    { name: '首页', href: '/' },
+    { name: '合规', href: '/compliance' },
+    { name: '横向对比', href: '/compliance/compare' },
+  ]}
+>
   <header class="page-head">
     <p class="kicker">美妆日化 · 上市前要办什么</p>
     <h1>横向对比</h1>
@@ -26,6 +35,15 @@ const cell = (c: (typeof countries)[number], t: string) => {
       <a class="text-link" href={url('/hs-codes')}>海关编码搜索 →</a>
     </div>
   </header>
+  <ServiceHint
+    layout="band"
+    title="表上看完，还要对到自己的品类？"
+    text="横向对比方便扫一眼差异。落到某个市场时，同舟跨境可以协助梳理资料、对照编码，并把生产、出口和当地合规售卖接起来。"
+    points={['按品类梳理材料和手续', '协助对照海关编码', '工厂生产与跨境供应链衔接']}
+    note="表内标记来自已整理的公开要求，不替代各国官方文本，也不代办平台入驻。"
+    cta="和我们聊聊"
+    prefill="我想对照某个市场的美妆合规要求，并了解出口支持。"
+  />
   <div class="cc-table-wrap card">
     <table class="cc-table">
       <thead><tr><th>市场</th>{cols.map((t) => <th>{complianceTypeLabels[t]}</th>)}</tr></thead>

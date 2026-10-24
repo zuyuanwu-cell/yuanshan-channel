@@ -1,6 +1,7 @@
 ---
 import ComplianceViewSwitch from '../../components/ComplianceViewSwitch.astro';
 import Flag from '../../components/Flag.astro';
+import ServiceHint from '../../components/ServiceHint.astro';
 import Base from '../../layouts/Base.astro';
 import { getCompliance, recentNewsForCountry } from '../../lib/content';
 import { formatDate, url } from '../../lib/format';
@@ -10,7 +11,14 @@ const regions = [...new Set(countries.map((c) => c.region))];
 const latest = countries.map((c) => c.last_verified).sort().at(-1) ?? '';
 ---
 
-<Base title="国家合规速查" description="选一个国家，一眼看清美妆日化要办哪些合规手续。">
+<Base
+  title="国家合规速查"
+  description="选一个国家，看清美妆日化上市要办的备案、标签、本地代表和清关手续。"
+  crumbs={[
+    { name: '首页', href: '/' },
+    { name: '合规', href: '/compliance' },
+  ]}
+>
   <header class="page-head">
     <p class="kicker">美妆日化 · 上市前要办什么</p>
     <h1>国家合规速查</h1>
@@ -20,6 +28,15 @@ const latest = countries.map((c) => c.last_verified).sort().at(-1) ?? '';
       <a class="text-link" href={url('/hs-codes')}>海关编码搜索 →</a>
     </div>
   </header>
+  <ServiceHint
+    layout="band"
+    title="需要把这些要求落到项目上？"
+    text="同舟跨境有自己的化妆品工厂，也做全球跨境美妆供应链。若你正在准备某个市场的上市，可以让我们帮忙把手续、材料和出口步骤对到具体品类上。"
+    points={['梳理上市资料，对照目的国公开要求', '协助美妆日化编码归类', '衔接生产、出口和当地合规售卖']}
+    note="页面信息仅供参考，不构成法律意见，也不代办平台入驻。"
+    cta="和我们聊聊"
+    prefill="我想了解美妆上市资料梳理和出口支持。"
+  />
   <div data-cc-browser>
     <div class="filters scroll-x" role="group" aria-label="地区">
       <button type="button" class="chip" data-region="all" aria-pressed="true">全部</button>
