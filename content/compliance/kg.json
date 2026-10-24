@@ -1,0 +1,70 @@
+{
+  "country": "kg",
+  "name_zh": "吉尔吉斯斯坦",
+  "flag": "🇰🇬",
+  "region": "中亚",
+  "difficulty": 3,
+  "summary": "吉尔吉斯斯坦是欧亚经济联盟成员。本国药监站这次没打开。",
+  "items": [
+    {
+      "id": "kg-member",
+      "name_zh": "联盟成员适用同一法规",
+      "authority": "欧亚经济联盟",
+      "type": "registration",
+      "mandatory": true,
+      "cost": "未知",
+      "time": "未知",
+      "docs": [],
+      "who": "联盟成员国",
+      "note": "官网列明五国成员：亚美尼亚、白俄罗斯、哈萨克斯坦、吉尔吉斯斯坦、俄罗斯",
+      "official_url": "https://www.eaeunion.org/?lang=en",
+      "source_checked": "2026-10-24",
+      "needs_review": false
+    },
+    {
+      "id": "kg-tr",
+      "name_zh": "化妆品技术法规 ТР ТС 009",
+      "authority": "欧亚经济委员会",
+      "type": "registration",
+      "mandatory": true,
+      "cost": "未知",
+      "time": "未知",
+      "docs": [],
+      "who": "联盟内申请人",
+      "note": "适用 ТР ТС 009/2011。本国药监站未打开，额外程序未核对。",
+      "official_url": "https://eec.eaeunion.org/comission/department/deptexreg/tr/bezopParfum.php",
+      "source_checked": "2026-10-24",
+      "needs_review": true
+    },
+    {
+      "id": "kg-hs",
+      "name_zh": "HS 编码与关税",
+      "authority": "欧亚经济委员会",
+      "type": "tax-customs",
+      "mandatory": true,
+      "cost": "未知",
+      "time": "未知",
+      "docs": [],
+      "who": "进口商",
+      "note": "税号未抄录。俄罗斯诚信标志不自动套用到本国。",
+      "official_url": "https://eec.eaeunion.org/comission/department/deptexreg/tr/bezopParfum.php",
+      "source_checked": "2026-10-24",
+      "needs_review": true
+    }
+  ],
+  "steps": [
+    {
+      "title": "确认联盟法规",
+      "type": "registration"
+    },
+    {
+      "title": "清关",
+      "type": "tax-customs"
+    }
+  ],
+  "last_verified": "2026-10-24",
+  "hs_codes": {
+    "status": "pending",
+    "items": []
+  }
+}

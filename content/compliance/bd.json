@@ -1,0 +1,55 @@
+{
+  "country": "bd",
+  "name_zh": "孟加拉",
+  "flag": "🇧🇩",
+  "region": "南亚",
+  "difficulty": 2,
+  "summary": "孟加拉药监局官网已打开。化妆品是否须注册，费用和税号未核对。",
+  "items": [
+    {
+      "id": "bd-entry",
+      "name_zh": "化妆品监管入口",
+      "authority": "药监局",
+      "type": "registration",
+      "mandatory": false,
+      "cost": "未知",
+      "time": "未知",
+      "docs": [],
+      "who": "进口商",
+      "note": "首页为药监局。化妆品专页和费用本次未打开。",
+      "official_url": "https://dgda.gov.bd/",
+      "source_checked": "2026-10-24",
+      "needs_review": true
+    },
+    {
+      "id": "bd-hs",
+      "name_zh": "HS 编码与关税",
+      "authority": "目的国海关",
+      "type": "tax-customs",
+      "mandatory": true,
+      "cost": "未知",
+      "time": "未知",
+      "docs": [],
+      "who": "进口商",
+      "note": "链接不是税则。税号和税率未抄录。",
+      "official_url": "https://dgda.gov.bd/",
+      "source_checked": "2026-10-24",
+      "needs_review": true
+    }
+  ],
+  "steps": [
+    {
+      "title": "核对监管入口",
+      "type": "registration"
+    },
+    {
+      "title": "清关",
+      "type": "tax-customs"
+    }
+  ],
+  "last_verified": "2026-10-24",
+  "hs_codes": {
+    "status": "pending",
+    "items": []
+  }
+}

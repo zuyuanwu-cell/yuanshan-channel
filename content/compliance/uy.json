@@ -1,0 +1,55 @@
+{
+  "country": "uy",
+  "name_zh": "乌拉圭",
+  "flag": "🇺🇾",
+  "region": "拉美",
+  "difficulty": 2,
+  "summary": "乌拉圭公共卫生部首页已打开。化妆品注册细则和税号未核对。",
+  "items": [
+    {
+      "id": "uy-entry",
+      "name_zh": "化妆品监管入口",
+      "authority": "公共卫生部",
+      "type": "registration",
+      "mandatory": false,
+      "cost": "未知",
+      "time": "未知",
+      "docs": [],
+      "who": "进口商",
+      "note": "官网可打开。是否须事先注册、费用和周期，本次未核对全文。",
+      "official_url": "https://www.gub.uy/ministerio-salud-publica",
+      "source_checked": "2026-10-24",
+      "needs_review": true
+    },
+    {
+      "id": "uy-hs",
+      "name_zh": "HS 编码与关税",
+      "authority": "目的国海关",
+      "type": "tax-customs",
+      "mandatory": true,
+      "cost": "未知",
+      "time": "未知",
+      "docs": [],
+      "who": "进口商",
+      "note": "链接不是税则。税号和税率未抄录。",
+      "official_url": "https://www.gub.uy/ministerio-salud-publica",
+      "source_checked": "2026-10-24",
+      "needs_review": true
+    }
+  ],
+  "steps": [
+    {
+      "title": "核对监管入口",
+      "type": "registration"
+    },
+    {
+      "title": "清关",
+      "type": "tax-customs"
+    }
+  ],
+  "last_verified": "2026-10-24",
+  "hs_codes": {
+    "status": "pending",
+    "items": []
+  }
+}

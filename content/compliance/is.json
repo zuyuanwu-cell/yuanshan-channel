@@ -1,0 +1,55 @@
+{
+  "country": "is",
+  "name_zh": "冰岛",
+  "flag": "🇮🇸",
+  "region": "欧洲",
+  "difficulty": 2,
+  "summary": "不是欧盟成员国。食品与兽医局首页已打开，CPNP 是否适用未核对。",
+  "items": [
+    {
+      "id": "is-entry",
+      "name_zh": "化妆品监管入口",
+      "authority": "冰岛食品与兽医局",
+      "type": "registration",
+      "mandatory": false,
+      "cost": "未知",
+      "time": "未知",
+      "docs": [],
+      "who": "进口商",
+      "note": "首页可打开。欧洲经济区规则是否直接适用，本次未核对。",
+      "official_url": "https://www.mast.is/",
+      "source_checked": "2026-10-24",
+      "needs_review": true
+    },
+    {
+      "id": "is-hs",
+      "name_zh": "HS 编码与关税",
+      "authority": "目的国海关",
+      "type": "tax-customs",
+      "mandatory": true,
+      "cost": "未知",
+      "time": "未知",
+      "docs": [],
+      "who": "进口商",
+      "note": "链接不是税则。税号和税率未抄录。",
+      "official_url": "https://www.mast.is/",
+      "source_checked": "2026-10-24",
+      "needs_review": true
+    }
+  ],
+  "steps": [
+    {
+      "title": "核对监管入口",
+      "type": "registration"
+    },
+    {
+      "title": "清关",
+      "type": "tax-customs"
+    }
+  ],
+  "last_verified": "2026-10-24",
+  "hs_codes": {
+    "status": "pending",
+    "items": []
+  }
+}

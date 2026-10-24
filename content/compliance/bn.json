@@ -1,0 +1,55 @@
+{
+  "country": "bn",
+  "name_zh": "文莱",
+  "flag": "🇧🇳",
+  "region": "东南亚",
+  "difficulty": 2,
+  "summary": "卫生部官网已打开。东盟化妆品指令是否在本国落地，本次未核对。",
+  "items": [
+    {
+      "id": "bn-entry",
+      "name_zh": "化妆品监管入口",
+      "authority": "卫生部",
+      "type": "registration",
+      "mandatory": false,
+      "cost": "未知",
+      "time": "未知",
+      "docs": [],
+      "who": "进口商",
+      "note": "不能直接套用新加坡的通报规则。注册路径未核对。",
+      "official_url": "https://www.moh.gov.bn/",
+      "source_checked": "2026-10-24",
+      "needs_review": true
+    },
+    {
+      "id": "bn-hs",
+      "name_zh": "HS 编码与关税",
+      "authority": "目的国海关",
+      "type": "tax-customs",
+      "mandatory": true,
+      "cost": "未知",
+      "time": "未知",
+      "docs": [],
+      "who": "进口商",
+      "note": "链接不是税则。税号和税率未抄录。",
+      "official_url": "https://www.moh.gov.bn/",
+      "source_checked": "2026-10-24",
+      "needs_review": true
+    }
+  ],
+  "steps": [
+    {
+      "title": "核对监管入口",
+      "type": "registration"
+    },
+    {
+      "title": "清关",
+      "type": "tax-customs"
+    }
+  ],
+  "last_verified": "2026-10-24",
+  "hs_codes": {
+    "status": "pending",
+    "items": []
+  }
+}

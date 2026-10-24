@@ -1,0 +1,55 @@
+{
+  "country": "ng",
+  "name_zh": "尼日利亚",
+  "flag": "🇳🇬",
+  "region": "非洲",
+  "difficulty": 2,
+  "summary": "食品药品监管局有化妆品指南栏目。注册步骤和费用未打开正文。",
+  "items": [
+    {
+      "id": "ng-entry",
+      "name_zh": "化妆品监管入口",
+      "authority": "NAFDAC",
+      "type": "registration",
+      "mandatory": false,
+      "cost": "未知",
+      "time": "未知",
+      "docs": [],
+      "who": "进口商",
+      "note": "指南栏目可打开。正文步骤和费用这次没核对。",
+      "official_url": "https://nafdac.gov.ng/cosmetics-medical-devices/cosmetics-guidelines/",
+      "source_checked": "2026-10-24",
+      "needs_review": true
+    },
+    {
+      "id": "ng-hs",
+      "name_zh": "HS 编码与关税",
+      "authority": "目的国海关",
+      "type": "tax-customs",
+      "mandatory": true,
+      "cost": "未知",
+      "time": "未知",
+      "docs": [],
+      "who": "进口商",
+      "note": "链接不是税则。税号和税率未抄录。",
+      "official_url": "https://nafdac.gov.ng/cosmetics-medical-devices/cosmetics-guidelines/",
+      "source_checked": "2026-10-24",
+      "needs_review": true
+    }
+  ],
+  "steps": [
+    {
+      "title": "核对监管入口",
+      "type": "registration"
+    },
+    {
+      "title": "清关",
+      "type": "tax-customs"
+    }
+  ],
+  "last_verified": "2026-10-24",
+  "hs_codes": {
+    "status": "pending",
+    "items": []
+  }
+}

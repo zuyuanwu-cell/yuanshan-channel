@@ -1,0 +1,55 @@
+{
+  "country": "cn",
+  "name_zh": "中国",
+  "flag": "🇨🇳",
+  "region": "东亚",
+  "difficulty": 2,
+  "summary": "国家药监局英文站可打开，这次看到的是新闻，不是化妆品注册细则。",
+  "items": [
+    {
+      "id": "cn-entry",
+      "name_zh": "化妆品监管入口",
+      "authority": "国家药监局",
+      "type": "registration",
+      "mandatory": false,
+      "cost": "未知",
+      "time": "未知",
+      "docs": [],
+      "who": "进口商",
+      "note": "注册分类、备案和费用都未在该页核对",
+      "official_url": "https://english.nmpa.gov.cn/",
+      "source_checked": "2026-10-24",
+      "needs_review": true
+    },
+    {
+      "id": "cn-hs",
+      "name_zh": "HS 编码与关税",
+      "authority": "目的国海关",
+      "type": "tax-customs",
+      "mandatory": true,
+      "cost": "未知",
+      "time": "未知",
+      "docs": [],
+      "who": "进口商",
+      "note": "链接不是税则。税号和税率未抄录。",
+      "official_url": "https://english.nmpa.gov.cn/",
+      "source_checked": "2026-10-24",
+      "needs_review": true
+    }
+  ],
+  "steps": [
+    {
+      "title": "核对监管入口",
+      "type": "registration"
+    },
+    {
+      "title": "清关",
+      "type": "tax-customs"
+    }
+  ],
+  "last_verified": "2026-10-24",
+  "hs_codes": {
+    "status": "pending",
+    "items": []
+  }
+}
