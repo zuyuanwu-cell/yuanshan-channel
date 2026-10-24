@@ -14,11 +14,11 @@
 
 ## 人
 
-`/subscribe/` 勾选市场和内容类型。结果有三样：
+`/subscribe/` 勾选市场和内容类型。点「生成订阅」之后，主操作是复制一段提示词，贴给自己的 Agent。提示词里写明站点、所选市场和内容类型、起始日期，以及这组选择对应的 JSON / RSS / 资讯页 / 合规页。页面不再铺一排按地址复制的按钮。
 
-1. 筛选后的列表，以及进现有资讯页的链接（`/news?countries=us,sg`，可再加 `category`）。
-2. 稳定地址。单市场，或刚好等于一整区且三种内容都要，指向构建时写好的文件。其他组合指向 `/v1/updates.json?markets=…&types=…`。
-3. 提醒说明。点「生成订阅」后才给出 JSON / RSS。同一次请求把市场包交给 `POST /oauth/api/subscribe`。浏览器不持有 webhook。返回 200 表示已发到企业微信群；503 表示服务器没配地址，订阅链接仍然可用；预览环境连不上时同样只生成地址。站点不发邮件。选择存在这台浏览器的 `localStorage`（`yuanshan.package.v1`），没有账号。
+地址规则不变，只是写进提示词：单市场，或刚好等于一整区且三种内容都要，指向构建时写好的文件。其他组合指向 `/v1/updates.json?markets=…&types=…`，并附上各市场已滤好的文件。静态托管不应用查询参数，提示词要求 Agent 自己滤。`since` 不进 URL，由 Agent 按 `item.date` 过滤。
+
+同一次请求把市场包交给 `POST /oauth/api/subscribe`。浏览器不持有 webhook。返回 200 表示已发到企业微信群；503 表示服务器没配地址，提示词仍然可用；预览环境连不上时同样只生成提示词。站点不发邮件。选择存在这台浏览器的 `localStorage`（`yuanshan.package.v1`），没有账号。筛选后的短列表和进资讯页的链接（`/news?countries=us,sg`，可再加 `category`）仍留在结果里，方便人自己点开。
 
 RSS 文件扩展名是 `.xml`（RSS 2.0），方便静态托管按 XML 返回。
 

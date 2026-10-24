@@ -1,4 +1,5 @@
-import { canonicalTypes, CONTENT_TYPES, filterFeedItems, resolveFeedUrl, sortIds, TYPE_LABELS } from '../lib/feed-filter.mjs';
+import { canonicalTypes, CONTENT_TYPES, filterFeedItems, sortIds, TYPE_LABELS } from '../lib/feed-filter.mjs';
+import { buildAgentPrompt } from '../lib/subscribe-prompt.mjs';
 import { url } from '../lib/format';
 
 interface MarketRef {
@@ -68,37 +69,6 @@ function parseTypes(raw: string | null): string[] {
 
 function motionOk(): boolean {
   return !window.matchMedia('(prefers-reduced-motion: reduce)').matches;
-}
-
-function field(label: string, value: string, copyLabel: string): HTMLElement {
-  const row = document.createElement('div');
-  row.className = 'sub-feed';
-  const name = document.createElement('span');
-  name.className = 'sub-feed-label';
-  name.textContent = label;
-  const input = document.createElement('input');
-  input.className = 'sub-feed-url';
-  input.readOnly = true;
-  input.value = value;
-  input.setAttribute('aria-label', label);
-  const button = document.createElement('button');
-  button.type = 'button';
-  button.className = 'chip';
-  button.textContent = copyLabel;
-  button.addEventListener('click', async () => {
-    try {
-      await navigator.clipboard.writeText(value);
-      button.textContent = '已复制';
-    } catch {
-      input.select();
-      button.textContent = '请手动复制';
-    }
-    window.setTimeout(() => {
-      button.textContent = copyLabel;
-    }, 1600);
-  });
-  row.append(name, input, button);
-  return row;
 }
 
 function linkLine(href: string, text: string): HTMLAnchorElement {
@@ -249,7 +219,7 @@ export function initSubscribe(): void {
       }
       const hint = document.createElement('p');
       hint.className = 'muted';
-      hint.textContent = '生成后给出 JSON 和 RSS。偏好会交给服务器上的企业微信，浏览器里没有机器人地址。';
+      hint.textContent = '生成后给出一段提示词，复制给你的 Agent。偏好会交给服务器上的企业微信，浏览器里没有机器人地址。';
       actions.append(button, hint);
       result.append(actions);
       return;
@@ -263,7 +233,7 @@ export function initSubscribe(): void {
     const copy = document.createElement('div');
     const title = document.createElement('p');
     title.className = 'sub-confirm-title';
-    title.textContent = '这组市场的地址好了';
+    title.textContent = '提示词好了';
     const detail = document.createElement('p');
     detail.className = 'muted';
     detail.textContent = notice;
@@ -271,45 +241,49 @@ export function initSubscribe(): void {
     confirm.append(mark, copy);
     result.append(confirm);
 
-    const feed = resolveFeedUrl(ids, ordered, payload.regions);
-    if (feed) {
-      const note = document.createElement('p');
-      note.className = 'muted';
-      note.textContent = feed.note;
-      result.append(note);
-      const box = document.createElement('div');
-      box.className = revealMotion ? 'sub-feeds is-revealed is-fresh' : 'sub-feeds is-revealed';
-      box.append(field('JSON', new URL(url(feed.json), location.origin).href, '复制 JSON'));
-      if (feed.rss) box.append(field('RSS', new URL(url(feed.rss), location.origin).href, '复制 RSS'));
-      result.append(box);
-    }
-
-    if (ids.length > 1) {
-      const per = document.createElement('div');
-      per.className = 'sub-feeds is-revealed';
-      const caption = document.createElement('p');
-      caption.className = 'sub-feed-label';
-      caption.textContent = '分市场 RSS（阅读器各订一条）';
-      per.append(caption);
-      for (const id of ids) {
-        const one = resolveFeedUrl([id], ordered, []);
-        if (!one?.rss) continue;
-        per.append(field(names.get(id) ?? id, new URL(url(one.rss), location.origin).href, '复制'));
+    const prompt = buildAgentPrompt({
+      markets: ids.map((id) => ({ id, name: names.get(id) ?? id })),
+      types: ordered,
+      since: day,
+      regions: payload.regions,
+      global: ordered.includes('rankings') ? payload.global : null,
+      absolute: (path: string) => new URL(url(path), location.origin).href,
+    });
+    const box = document.createElement('div');
+    box.className = revealMotion ? 'sub-prompt is-fresh' : 'sub-prompt';
+    const promptLabel = document.createElement('p');
+    promptLabel.className = 'sub-prompt-label';
+    promptLabel.textContent = '提示词';
+    const promptHint = document.createElement('p');
+    promptHint.className = 'muted';
+    promptHint.textContent = '贴给 Cursor、ChatGPT、Claude 或其他 Agent。';
+    const promptText = document.createElement('textarea');
+    promptText.className = 'sub-prompt-text';
+    promptText.readOnly = true;
+    promptText.rows = 8;
+    promptText.value = prompt;
+    promptText.setAttribute('aria-label', '给 Agent 的提示词');
+    promptText.spellcheck = false;
+    const copyButton = document.createElement('button');
+    copyButton.type = 'button';
+    copyButton.className = 'source-button';
+    copyButton.dataset.subscribeCopy = '';
+    copyButton.textContent = '复制提示词';
+    copyButton.addEventListener('click', async () => {
+      try {
+        await navigator.clipboard.writeText(prompt);
+        copyButton.textContent = '已复制';
+      } catch {
+        promptText.focus();
+        promptText.select();
+        copyButton.textContent = '请手动复制';
       }
-      result.append(per);
-    }
-
-    if (ordered.includes('rankings') && payload.global.boards.length > 0) {
-      const global = document.createElement('p');
-      global.className = 'muted sub-links';
-      global.append('全球榜不写进国家订阅。');
-      global.append(linkLine(url(payload.global.json), '全球 JSON'));
-      global.append(linkLine(url(payload.global.rss), '全球 RSS'));
-      for (const board of payload.global.boards) {
-        if (board.page) global.append(linkLine(url(board.page), board.name));
-      }
-      result.append(global);
-    }
+      window.setTimeout(() => {
+        copyButton.textContent = '复制提示词';
+      }, 1600);
+    });
+    box.append(promptLabel, promptHint, promptText, copyButton);
+    result.append(box);
 
     const list = document.createElement('ol');
     list.className = 'sub-preview';
@@ -332,12 +306,12 @@ export function initSubscribe(): void {
     if (filtered.length === 0) {
       const none = document.createElement('p');
       none.className = 'muted';
-      none.textContent = '这组条件下还没有内容。地址仍然有效，之后构建有更新会进入订阅。';
+      none.textContent = '这组条件下还没有内容。提示词里的地址仍然有效，之后站点有更新，再读一次就能看到。';
       result.append(none);
     } else if (filtered.length > shown.length) {
       const more = document.createElement('p');
       more.className = 'muted';
-      more.textContent = `还有 ${filtered.length - shown.length} 条，在资讯页或 JSON 里看完全部。`;
+      more.textContent = `还有 ${filtered.length - shown.length} 条。提示词里的地址含全部，不只有上面这几条。`;
       result.append(more);
     }
     revealMotion = false;
@@ -378,11 +352,11 @@ export function initSubscribe(): void {
   };
 
   const noticeFor = (status: number | null): string => {
-    if (status === 200) return '已记到同舟的企业微信群。下面是这组市场的稳定地址。';
-    if (status === 503) return '地址已经生成。群通知还没在服务器上配置，阅读器仍然可以用。';
-    if (status === 429) return '地址已经生成。群通知太频繁，稍后再试。';
-    if (status === null) return '地址已经生成。这次没连上群通知，阅读器仍然可以用。';
-    return '地址已经生成。这次没把偏好送到群里，阅读器仍然可以用。';
+    if (status === 200) return '已记到同舟的企业微信群。';
+    if (status === 503) return '群通知还没在服务器上配置。';
+    if (status === 429) return '群通知太频繁，稍后再试。';
+    if (status === null) return '这次没连上群通知。';
+    return '这次没把偏好送到群里。';
   };
 
   const submit = async () => {
@@ -422,6 +396,7 @@ export function initSubscribe(): void {
     writeUrl(true);
     render();
     result.scrollIntoView({ block: 'nearest', behavior: motionOk() ? 'smooth' : 'auto' });
+    result.querySelector<HTMLButtonElement>('[data-subscribe-copy]')?.focus();
   };
 
   root.addEventListener('click', (event) => {

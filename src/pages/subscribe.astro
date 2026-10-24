@@ -17,12 +17,12 @@ const typeButtons = [
 ] as const;
 ---
 
-<Base title="关注市场" description="按市场订阅平台规则、法规和热销榜。公开只读，不是全站会员。">
+<Base title="关注市场" description="按市场选择平台规则、法规和热销榜，生成一段提示词，复制给你的 Agent。公开只读，不是全站会员。">
   <header class="page-head">
     <p class="kicker">市场订阅 · 公开只读</p>
     <h1>关注市场</h1>
     <p class="lede">
-      选你在做的市场，以及要看的内容：平台规则、市场法规、热销榜。选定之后得到筛选结果和稳定地址。这不是全站会员。
+      选你在做的市场，以及要看的内容：平台规则、市场法规、热销榜。生成后复制一段提示词，贴给你的 Agent。这不是全站会员。
     </p>
   </header>
 
@@ -94,21 +94,18 @@ const typeButtons = [
     </div>
 
     <section class="sub-block">
-      <h2>提醒怎么到你手里</h2>
+      <h2>提示词怎么用</h2>
       <p>
-        点「生成订阅」之后，页面给出这组市场的 JSON 和 RSS。同一次请求把偏好交给 <code>/oauth/api/subscribe</code>，由服务器上的企业微信机器人发到群里。浏览器里没有 webhook 地址，页面也不发邮件。
+        点「生成订阅」之后，页面给出一段提示词。复制后贴给 Cursor、ChatGPT、Claude、Grok 或其他 Agent，它会按你选的市场去读远山频道，总结平台规则、市场法规和热销榜。
       </p>
       <p>
-        群通知要服务器配了环境变量才发得出去。没配、或这页只是静态预览时，地址照样生成，只是群里收不到。选择记在这台浏览器里，没有账号。
-      </p>
-      <p class="muted">
-        新内容要进群，在服务器上跑 <code>deploy/admin-oauth/notify-updates.js</code>。第一次只记下已有条目，不把历史刷进群。以后如果要做付费档，请求头是 <code>Authorization: Bearer &lt;key&gt;</code>，密钥只覆盖这一组市场。这一版不发密钥，也不校验。<code>/v1/</code> 仍是公开只读。说明见 <code>docs/subscriptions.md</code>。
+        同一次点击会把偏好交给 <code>/oauth/api/subscribe</code>，由服务器上的企业微信机器人发到群里。浏览器里没有 webhook 地址，页面也不发邮件。没配群机器人，或这页只是静态预览时，提示词照样生成，只是群里收不到。选择记在这台浏览器里，没有账号。
       </p>
     </section>
 
     <details class="sub-block card sub-agent">
-      <summary>给程序和 Agent</summary>
-      <p>同一份 <code>content/</code>，构建时写成 <code>/v1/</code>。MCP 只读这些 JSON，不抓页面。</p>
+      <summary>给程序</summary>
+      <p>提示词里的地址来自同一套 <code>/v1/</code>。静态站点返回完整索引时，查询参数是筛选约定，由提示词要求 Agent 在读取时自己过滤。MCP 只读这些 JSON，不抓页面。</p>
       <ul>
         <li><a href={url('/v1.json')}>/v1.json</a> 目录、筛选约定、以后的密钥形状</li>
         <li><a href={url('/v1/markets.json')}>/v1/markets.json</a> 市场 id、中文名、地区</li>

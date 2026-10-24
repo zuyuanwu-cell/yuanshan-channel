@@ -124,9 +124,9 @@ git push github main
 
 ## 市场订阅
 
-人在 [`/subscribe/`](https://ys.tongzhoukuajing.com/subscribe/) 按市场勾选，再选平台规则、市场法规、热销榜，点「生成订阅」得到该组合的 JSON / RSS 地址。这不是全站会员。
+人在 [`/subscribe/`](https://ys.tongzhoukuajing.com/subscribe/) 按市场勾选，再选平台规则、市场法规、热销榜，点「生成订阅」得到一段提示词，复制给自己的 Agent。这不是全站会员。
 
-公开的 `/v1/` 只读，不发邮件。生成订阅时，页面把市场包 `POST` 到 `/oauth/api/subscribe`（浏览器里没有 webhook）。服务器上的 OAuth 桥读 `WECOM_WEBHOOK_URL`，为空则用 `YUANSHAN_WECOM_WEBHOOK_URL`，再发到企业微信群。没配、或纯静态预览连不上时，地址照样生成，群里收不到。真实 key 只放服务器 `.env`，不要写进仓库或 GitHub Actions。新内容进群用 `deploy/admin-oauth/notify-updates.js`（第一次只记基线）。
+公开的 `/v1/` 只读，不发邮件。生成订阅时，页面把市场包 `POST` 到 `/oauth/api/subscribe`（浏览器里没有 webhook）。服务器上的 OAuth 桥读 `WECOM_WEBHOOK_URL`，为空则用 `YUANSHAN_WECOM_WEBHOOK_URL`，再发到企业微信群。没配、或纯静态预览连不上时，提示词照样生成，群里收不到。真实 key 只放服务器 `.env`，不要写进仓库或 GitHub Actions。新内容进群用 `deploy/admin-oauth/notify-updates.js`（第一次只记基线）。
 
 单市场和整区的文件在构建时写好；多市场的自定义组合用 `/v1/updates.json?markets=&types=` 作筛选约定，由页面或调用方自己滤。
 
