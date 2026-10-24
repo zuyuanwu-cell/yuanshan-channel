@@ -49,7 +49,153 @@
   ],
   "last_verified": "2026-10-24",
   "hs_codes": {
-    "status": "pending",
-    "items": []
+    "status": "ready",
+    "items": [
+      {
+        "code": "3303000010",
+        "name_zh": "香水",
+        "source_url": "https://www.hsbianma.com/Code/3303000010.html"
+      },
+      {
+        "code": "3303000010",
+        "name_zh": "淡香水",
+        "source_url": "https://www.hsbianma.com/Code/3303000010.html"
+      },
+      {
+        "code": "3304100091",
+        "name_zh": "唇部彩妆",
+        "source_url": "https://www.hsbianma.com/Code/3304100091.html"
+      },
+      {
+        "code": "3304200091",
+        "name_zh": "眼部彩妆",
+        "source_url": "https://www.hsbianma.com/Code/3304200091.html"
+      },
+      {
+        "code": "3304300000",
+        "name_zh": "美甲产品",
+        "source_url": "https://www.hsbianma.com/Code/3304300000.html"
+      },
+      {
+        "code": "3304910000",
+        "name_zh": "粉类（散粉/粉饼）",
+        "source_url": "https://www.hsbianma.com/Code/3304910000.html"
+      },
+      {
+        "code": "3304990099",
+        "name_zh": "面霜/乳液/精华（护肤）",
+        "source_url": "https://www.hsbianma.com/Code/3304990099.html"
+      },
+      {
+        "code": "3304990099",
+        "name_zh": "防晒",
+        "source_url": "https://www.hsbianma.com/Code/3304990099.html"
+      },
+      {
+        "code": "3304990099",
+        "name_zh": "卸妆产品",
+        "source_url": "https://www.hsbianma.com/Code/3304990099.html"
+      },
+      {
+        "code": "3305100090",
+        "name_zh": "洗发水",
+        "source_url": "https://www.hsbianma.com/Code/3305100090.html"
+      },
+      {
+        "code": "3305900000",
+        "name_zh": "护发素",
+        "source_url": "https://www.hsbianma.com/Code/3305900000.html"
+      },
+      {
+        "code": "3305900000",
+        "name_zh": "染发剂",
+        "source_url": "https://www.hsbianma.com/Code/3305900000.html"
+      },
+      {
+        "code": "3305300000",
+        "name_zh": "发胶/定型喷雾",
+        "source_url": "https://www.hsbianma.com/Code/3305300000.html"
+      },
+      {
+        "code": "3306101090",
+        "name_zh": "牙膏",
+        "source_url": "https://www.hsbianma.com/Code/3306101090.html"
+      },
+      {
+        "code": "3306901000",
+        "name_zh": "漱口水",
+        "source_url": "https://www.hsbianma.com/Code/3306901000.html"
+      },
+      {
+        "code": "3306200000",
+        "name_zh": "牙线",
+        "source_url": "https://www.hsbianma.com/Code/3306200000.html"
+      },
+      {
+        "code": "3307200000",
+        "name_zh": "止汗/香体",
+        "source_url": "https://www.hsbianma.com/Code/3307200000.html"
+      },
+      {
+        "code": "3307100000",
+        "name_zh": "剃须膏",
+        "source_url": "https://www.hsbianma.com/Code/3307100000.html"
+      },
+      {
+        "code": "3401300000",
+        "name_zh": "沐浴露",
+        "source_url": "https://www.hsbianma.com/Code/3401300000.html"
+      },
+      {
+        "code": "3401110000",
+        "name_zh": "香皂（块）",
+        "source_url": "https://www.hsbianma.com/Code/3401110000.html"
+      },
+      {
+        "code": "3401300000",
+        "name_zh": "液体洗手液",
+        "source_url": "https://www.hsbianma.com/Code/3401300000.html"
+      },
+      {
+        "code": "3307900000",
+        "name_zh": "脱毛膏",
+        "source_url": "https://www.hsbianma.com/Code/3307900000.html"
+      },
+      {
+        "code": "3304990099",
+        "name_zh": "面膜（片状）",
+        "source_url": "https://www.hsbianma.com/Code/3304990099.html"
+      },
+      {
+        "code": "9603290090",
+        "name_zh": "化妆刷",
+        "source_url": "https://www.hsbianma.com/Code/9603290090.html"
+      },
+      {
+        "code": "9616200000",
+        "name_zh": "化妆海绵/粉扑",
+        "source_url": "https://www.hsbianma.com/Code/9616200000.html"
+      },
+      {
+        "code": "6704190000",
+        "name_zh": "假睫毛（合成纤维）",
+        "source_url": "https://www.hsbianma.com/Code/6704190000.html"
+      },
+      {
+        "code": "8510300000",
+        "name_zh": "电动脱毛器",
+        "source_url": "https://www.hsbianma.com/Code/8510300000.html"
+      },
+      {
+        "code": "8516320000",
+        "name_zh": "美发电器（卷/直发器）",
+        "source_url": "https://www.hsbianma.com/Code/8516320000.html"
+      },
+      {
+        "code": "8543709990",
+        "name_zh": "电动美容仪（面部）",
+        "source_url": "https://www.hsbianma.com/Code/8543709990.html"
+      }
+    ]
   }
 }

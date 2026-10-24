@@ -49,7 +49,242 @@
   ],
   "last_verified": "2026-10-24",
   "hs_codes": {
-    "status": "pending",
-    "items": []
+    "status": "ready",
+    "items": [
+      {
+        "code": "33030000",
+        "name_zh": "香水",
+        "duty": "5%",
+        "source_url": "https://www.abf.gov.au/importing-exporting-and-manufacturing/tariff-classification/current-tariff/schedule-3/section-vi/chapter-33"
+      },
+      {
+        "code": "33030000",
+        "name_zh": "淡香水",
+        "duty": "5%",
+        "source_url": "https://www.abf.gov.au/importing-exporting-and-manufacturing/tariff-classification/current-tariff/schedule-3/section-vi/chapter-33"
+      },
+      {
+        "code": "33041000",
+        "name_zh": "唇部彩妆",
+        "duty": "5%",
+        "source_url": "https://www.abf.gov.au/importing-exporting-and-manufacturing/tariff-classification/current-tariff/schedule-3/section-vi/chapter-33"
+      },
+      {
+        "code": "33042000",
+        "name_zh": "眼部彩妆",
+        "duty": "5%",
+        "source_url": "https://www.abf.gov.au/importing-exporting-and-manufacturing/tariff-classification/current-tariff/schedule-3/section-vi/chapter-33"
+      },
+      {
+        "code": "33043000",
+        "name_zh": "美甲产品",
+        "duty": "5%",
+        "source_url": "https://www.abf.gov.au/importing-exporting-and-manufacturing/tariff-classification/current-tariff/schedule-3/section-vi/chapter-33"
+      },
+      {
+        "code": "33049100",
+        "name_zh": "粉类（散粉/粉饼）",
+        "duty": "5%",
+        "source_url": "https://www.abf.gov.au/importing-exporting-and-manufacturing/tariff-classification/current-tariff/schedule-3/section-vi/chapter-33"
+      },
+      {
+        "code": "33049900",
+        "name_zh": "面霜/乳液/精华（护肤）",
+        "duty": "5%",
+        "source_url": "https://www.abf.gov.au/importing-exporting-and-manufacturing/tariff-classification/current-tariff/schedule-3/section-vi/chapter-33"
+      },
+      {
+        "code": "33049900",
+        "name_zh": "防晒",
+        "duty": "5%",
+        "source_url": "https://www.abf.gov.au/importing-exporting-and-manufacturing/tariff-classification/current-tariff/schedule-3/section-vi/chapter-33"
+      },
+      {
+        "code": "33049900",
+        "name_zh": "卸妆产品",
+        "duty": "5%",
+        "source_url": "https://www.abf.gov.au/importing-exporting-and-manufacturing/tariff-classification/current-tariff/schedule-3/section-vi/chapter-33"
+      },
+      {
+        "code": "33051000",
+        "name_zh": "洗发水",
+        "duty": "5%",
+        "source_url": "https://www.abf.gov.au/importing-exporting-and-manufacturing/tariff-classification/current-tariff/schedule-3/section-vi/chapter-33"
+      },
+      {
+        "code": "33059000",
+        "name_zh": "护发素",
+        "duty": "5%",
+        "source_url": "https://www.abf.gov.au/importing-exporting-and-manufacturing/tariff-classification/current-tariff/schedule-3/section-vi/chapter-33"
+      },
+      {
+        "code": "33059000",
+        "name_zh": "染发剂",
+        "duty": "5%",
+        "source_url": "https://www.abf.gov.au/importing-exporting-and-manufacturing/tariff-classification/current-tariff/schedule-3/section-vi/chapter-33"
+      },
+      {
+        "code": "33053000",
+        "name_zh": "发胶/定型喷雾",
+        "duty": "5%",
+        "source_url": "https://www.abf.gov.au/importing-exporting-and-manufacturing/tariff-classification/current-tariff/schedule-3/section-vi/chapter-33"
+      },
+      {
+        "code": "33061000",
+        "name_zh": "牙膏",
+        "duty": "5%",
+        "source_url": "https://www.abf.gov.au/importing-exporting-and-manufacturing/tariff-classification/current-tariff/schedule-3/section-vi/chapter-33"
+      },
+      {
+        "code": "33069000",
+        "name_zh": "漱口水",
+        "duty": "5%",
+        "source_url": "https://www.abf.gov.au/importing-exporting-and-manufacturing/tariff-classification/current-tariff/schedule-3/section-vi/chapter-33"
+      },
+      {
+        "code": "33062090",
+        "name_zh": "牙线",
+        "duty": "5%",
+        "source_url": "https://www.abf.gov.au/importing-exporting-and-manufacturing/tariff-classification/current-tariff/schedule-3/section-vi/chapter-33"
+      },
+      {
+        "code": "33072000",
+        "name_zh": "止汗/香体",
+        "duty": "5%",
+        "source_url": "https://www.abf.gov.au/importing-exporting-and-manufacturing/tariff-classification/current-tariff/schedule-3/section-vi/chapter-33"
+      },
+      {
+        "code": "33071000",
+        "name_zh": "剃须膏",
+        "duty": "5%",
+        "source_url": "https://www.abf.gov.au/importing-exporting-and-manufacturing/tariff-classification/current-tariff/schedule-3/section-vi/chapter-33"
+      },
+      {
+        "code": "34013000",
+        "name_zh": "沐浴露",
+        "duty": "5%",
+        "source_url": "https://www.abf.gov.au/importing-exporting-and-manufacturing/tariff-classification/current-tariff/schedule-3/section-vi/chapter-34"
+      },
+      {
+        "code": "34011100",
+        "name_zh": "香皂（块）",
+        "duty": "5%",
+        "source_url": "https://www.abf.gov.au/importing-exporting-and-manufacturing/tariff-classification/current-tariff/schedule-3/section-vi/chapter-34"
+      },
+      {
+        "code": "34013000",
+        "name_zh": "液体洗手液",
+        "duty": "5%",
+        "source_url": "https://www.abf.gov.au/importing-exporting-and-manufacturing/tariff-classification/current-tariff/schedule-3/section-vi/chapter-34"
+      },
+      {
+        "code": "33079000",
+        "name_zh": "脱毛膏",
+        "duty": "5%",
+        "source_url": "https://www.abf.gov.au/importing-exporting-and-manufacturing/tariff-classification/current-tariff/schedule-3/section-vi/chapter-33"
+      },
+      {
+        "code": "33049900",
+        "name_zh": "面膜（片状）",
+        "duty": "5%",
+        "source_url": "https://www.abf.gov.au/importing-exporting-and-manufacturing/tariff-classification/current-tariff/schedule-3/section-vi/chapter-33"
+      },
+      {
+        "code": "96032900",
+        "name_zh": "化妆刷",
+        "duty": "Free",
+        "source_url": "https://www.abf.gov.au/importing-exporting-and-manufacturing/tariff-classification/current-tariff/schedule-3/section-xx/chapter-96"
+      },
+      {
+        "code": "96162000",
+        "name_zh": "化妆海绵/粉扑",
+        "duty": "Free",
+        "source_url": "https://www.abf.gov.au/importing-exporting-and-manufacturing/tariff-classification/current-tariff/schedule-3/section-xx/chapter-96"
+      },
+      {
+        "code": "67041900",
+        "name_zh": "假睫毛（合成纤维）",
+        "duty": "Free",
+        "source_url": "https://www.abf.gov.au/importing-exporting-and-manufacturing/tariff-classification/current-tariff/schedule-3/section-xii/chapter-67"
+      },
+      {
+        "code": "85103000",
+        "name_zh": "电动脱毛器",
+        "duty": "Free",
+        "source_url": "https://www.abf.gov.au/importing-exporting-and-manufacturing/tariff-classification/current-tariff/schedule-3/section-xvi/chapter-85"
+      },
+      {
+        "code": "85163200",
+        "name_zh": "美发电器（卷/直发器）",
+        "duty": "Free",
+        "source_url": "https://www.abf.gov.au/importing-exporting-and-manufacturing/tariff-classification/current-tariff/schedule-3/section-xvi/chapter-85"
+      },
+      {
+        "code": "85437000",
+        "name_zh": "电动美容仪（面部）",
+        "duty": "Free",
+        "source_url": "https://www.abf.gov.au/importing-exporting-and-manufacturing/tariff-classification/current-tariff/schedule-3/section-xvi/chapter-85"
+      },
+      {
+        "code": "34025000",
+        "name_zh": "洗衣液",
+        "duty": "5%",
+        "source_url": "https://www.abf.gov.au/importing-exporting-and-manufacturing/tariff-classification/current-tariff/schedule-3/section-vi/chapter-34"
+      },
+      {
+        "code": "34025000",
+        "name_zh": "柔顺剂/衣物护理",
+        "duty": "5%",
+        "source_url": "https://www.abf.gov.au/importing-exporting-and-manufacturing/tariff-classification/current-tariff/schedule-3/section-vi/chapter-34"
+      },
+      {
+        "code": "34025000",
+        "name_zh": "洗洁精/洗碗液",
+        "duty": "5%",
+        "source_url": "https://www.abf.gov.au/importing-exporting-and-manufacturing/tariff-classification/current-tariff/schedule-3/section-vi/chapter-34"
+      },
+      {
+        "code": "34025000",
+        "name_zh": "多用途清洁剂",
+        "duty": "5%",
+        "source_url": "https://www.abf.gov.au/importing-exporting-and-manufacturing/tariff-classification/current-tariff/schedule-3/section-vi/chapter-34"
+      },
+      {
+        "code": "34025000",
+        "name_zh": "洁厕剂",
+        "duty": "5%",
+        "source_url": "https://www.abf.gov.au/importing-exporting-and-manufacturing/tariff-classification/current-tariff/schedule-3/section-vi/chapter-34"
+      },
+      {
+        "code": "34025000",
+        "name_zh": "玻璃清洁剂",
+        "duty": "5%",
+        "source_url": "https://www.abf.gov.au/importing-exporting-and-manufacturing/tariff-classification/current-tariff/schedule-3/section-vi/chapter-34"
+      },
+      {
+        "code": "28289000",
+        "name_zh": "次氯酸盐（漂白水）",
+        "duty": "Free",
+        "source_url": "https://www.abf.gov.au/importing-exporting-and-manufacturing/tariff-classification/current-tariff/schedule-3/section-vi/chapter-28"
+      },
+      {
+        "code": "28470000",
+        "name_zh": "过氧化氢（氧漂）",
+        "duty": "5%",
+        "source_url": "https://www.abf.gov.au/importing-exporting-and-manufacturing/tariff-classification/current-tariff/schedule-3/section-vi/chapter-28"
+      },
+      {
+        "code": "34029000",
+        "name_zh": "非零售洗涤/清洁制剂",
+        "duty": "5%",
+        "source_url": "https://www.abf.gov.au/importing-exporting-and-manufacturing/tariff-classification/current-tariff/schedule-3/section-vi/chapter-34"
+      },
+      {
+        "code": "38089400",
+        "name_zh": "消毒剂",
+        "duty": "5%",
+        "source_url": "https://www.abf.gov.au/importing-exporting-and-manufacturing/tariff-classification/current-tariff/schedule-3/section-vi/chapter-38"
+      }
+    ]
   }
 }
