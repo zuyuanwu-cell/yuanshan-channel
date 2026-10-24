@@ -102,6 +102,24 @@
       "needs_review": false
     },
     {
+      "id": "mocra-recall",
+      "name_zh": "强制召回配合（MoCRA §611）",
+      "authority": "FDA",
+      "type": "safety",
+      "mandatory": true,
+      "cost": "未知",
+      "time": "未知",
+      "docs": [
+        "召回联系人与渠道清单",
+        "库存与分销追溯记录"
+      ],
+      "who": "责任人",
+      "note": "2026-10-22 终稿指南明确何时下令、流程与企业配合义务；仍鼓励自愿召回",
+      "official_url": "https://www.fda.gov/cosmetics/cosmetics-news-events/fda-issues-final-guidance-mandatory-cosmetic-recalls",
+      "source_checked": "2026-10-24",
+      "needs_review": false
+    },
+    {
       "id": "amazon-beauty",
       "name_zh": "亚马逊美妆类目合规资料",
       "authority": "Amazon",
@@ -157,7 +175,7 @@
       "type": "tax-customs"
     }
   ],
-  "last_verified": "2026-10-23",
+  "last_verified": "2026-10-24",
   "hs_codes": {
     "status": "ready",
     "items": [

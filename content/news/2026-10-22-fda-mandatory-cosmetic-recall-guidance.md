@@ -1,0 +1,33 @@
+---
+title: "FDA 发布化妆品强制召回终稿指南：拒不召回可被下令下架"
+date: "2026-10-22"
+category: "regulation"
+platforms:
+  - "amazon-us"
+  - "walmart"
+  - "tiktok-shop"
+  - "temu"
+countries:
+  - "us"
+tags:
+  - "compliance"
+  - "penalties"
+source_url: "https://www.fda.gov/cosmetics/cosmetics-news-events/fda-issues-final-guidance-mandatory-cosmetic-recalls"
+source_name: "FDA Cosmetics Constituent Update"
+checked: "2026-10-24"
+summary: "MoCRA 下强制召回问答终稿落地，与 2025 年 12 月草案无实质改动：何时下令、怎么走流程、企业怎么配合。美国站美妆责任人要把召回预案写进合规清单。"
+needs_review: false
+sample: false
+---
+
+FDA 于 **2026年10月22日** 发布终稿《Questions and Answers Regarding Mandatory Cosmetics Recalls: Guidance for Industry》，落实 MoCRA 写入《联邦食品药品化妆品法》第 611 条的强制召回权。草案发布于 2025年12月18日，公开征求意见后终稿**没有实质改动**。
+
+指南主要讲三件事：
+
+- **什么时候会下令强制召回**：产品存在严重健康风险，且企业不愿或未能主动自愿召回
+- **FDA 怎么走流程**：通知、下令、公开信息等步骤
+- **企业怎么配合**：收到命令后要执行，不能拖
+
+FDA 仍鼓励企业先做**自愿召回**。这条不是新禁限成分，而是执法工具到位：美国站美妆的责任人（标签上署名的制造商/包装商/经销商）要准备好召回联系人、渠道清单和库存追溯；万一出事，拖着不撤的代价会更高。
+
+配套阅读：站内已有 10月14日 MoCRA 信息收集送 OMB 审核的程序公告，那是手续清单；本条是召回权怎么用。
