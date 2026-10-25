@@ -236,10 +236,10 @@
       "additionalProperties": false,
       "required": [
         "badge",
-        "badgeNote",
         "titleLine1",
         "titleLine2",
         "lede",
+        "actions",
         "cardCta",
         "swipeHint",
         "tags",
@@ -270,6 +270,29 @@
           "type": "string",
           "minLength": 8,
           "maxLength": 90
+        },
+        "actions": {
+          "type": "array",
+          "minItems": 2,
+          "maxItems": 2,
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "label",
+              "href"
+            ],
+            "properties": {
+              "label": {
+                "type": "string",
+                "minLength": 1,
+                "maxLength": 8
+              },
+              "href": {
+                "$ref": "#/definitions/internalHref"
+              }
+            }
+          }
         },
         "cardCta": {
           "type": "string",

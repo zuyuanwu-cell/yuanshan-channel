@@ -518,10 +518,50 @@ main {
 }
 
 .hero-lede {
-  max-width: 560px;
+  max-width: 40rem;
   margin: 22px auto 0;
   color: var(--muted);
   font-size: 1.02rem;
+}
+
+.hero-actions {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-top: 26px;
+}
+
+.hero-action {
+  min-height: 44px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 20px;
+  border-radius: 12px;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 0.95rem;
+  transition: transform 0.2s var(--ease), background 0.2s;
+}
+
+.hero-action.is-primary {
+  background: var(--inverse);
+  color: var(--inverse-ink);
+}
+
+.hero-action.is-secondary {
+  color: var(--ink);
+  border: 1px solid var(--line-2);
+  background: transparent;
+}
+
+.hero-action:hover {
+  transform: translateY(-1px);
+}
+
+.hero-action.is-secondary:hover {
+  background: var(--wash-4);
 }
 
 .js [data-hero-in] {
@@ -534,6 +574,10 @@ main {
 
 .js .hero-lede[data-hero-in] {
   animation-delay: 0.18s;
+}
+
+.js .hero-actions[data-hero-in] {
+  animation-delay: 0.26s;
 }
 
 @keyframes hero-in {
@@ -1904,6 +1948,16 @@ a.social-link:hover {
 
   .hero-lede {
     font-size: 0.95rem;
+  }
+
+  .hero-actions {
+    gap: 10px;
+  }
+
+  .hero-action {
+    min-height: 42px;
+    padding: 0 16px;
+    font-size: 0.9rem;
   }
 
   .float-tag {

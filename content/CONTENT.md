@@ -22,6 +22,8 @@
 
 首页的标题、浮动标签和那排扇形卡片，都在 `site.json` 的 `hero` 里：
 
+- `hero.badge` 是标题上方的小标签。`badgeNote` 可选，有的话跟在破折号后面。更新日期仍由最新内容日期生成，显示在标签右侧。
+- `hero.actions` 固定两个按钮，按顺序排：第一项实心，第二项描边。`href` 只能是站内路径。
 - `hero.cards` 放 3–5 张卡，最多一张 `featured: true`（居中、带「进入」按钮）
 - `image` 写 `/media/...`，文件放在 `content/assets/` 下，例如 `content/assets/hero/rankings.webp`
 - `colorTop` / `colorBottom` 取插画背景上下两端的颜色，卡片才会和图融在一起
