@@ -4,7 +4,7 @@
   "flag": "🇪🇺",
   "region": "欧洲",
   "difficulty": 3,
-  "summary": "必须有欧盟责任人，上市前在 CPNP 通报，并备好安全报告。",
+  "summary": "必须有欧盟责任人，上市前在 CPNP 通报，并备好安全报告；REACH 自2026-10-10限制化妆品中 PFHxA（25/1000ppb）。",
   "items": [
     {
       "id": "eu-rp",
@@ -102,6 +102,23 @@
       "needs_review": true
     },
     {
+      "id": "eu-pfhxa",
+      "name_zh": "REACH PFHxA 化妆品限值",
+      "authority": "欧盟 REACH 附件 XVII 第79条",
+      "type": "testing",
+      "mandatory": true,
+      "cost": "未知",
+      "time": "2026-10-10 起",
+      "docs": [
+        "原料/成品 PFHxA 及盐、相关物质检测或供应商声明"
+      ],
+      "who": "品牌/RP/进口商",
+      "note": "自2026-10-10起，化妆品中 PFHxA+盐≥25ppb 或相关物质≥1000ppb 不得投放或使用；此前已投放的可继续销售。与化妆品法规附件禁限用并行。",
+      "official_url": "https://eur-lex.europa.eu/eli/reg/2024/2462/oj",
+      "source_checked": "2026-10-25",
+      "needs_review": false
+    },
+    {
       "id": "eu-gpsr",
       "name_zh": "GPSR 远程销售信息",
       "authority": "欧盟 2023/988",
@@ -188,7 +205,7 @@
       "type": "tax-customs"
     }
   ],
-  "last_verified": "2026-10-24",
+  "last_verified": "2026-10-25",
   "hs_codes": {
     "status": "ready",
     "items": [

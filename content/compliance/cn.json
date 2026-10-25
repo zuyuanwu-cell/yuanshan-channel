@@ -4,7 +4,7 @@
   "flag": "🇨🇳",
   "region": "东亚",
   "difficulty": 3,
-  "summary": "特殊化妆品注册，进口普通化妆品在进口前备案。境外企业须指定境内企业法人。",
+  "summary": "特殊化妆品注册，进口普通化妆品在进口前备案。境外企业须指定境内企业法人；规范修订实施路径见药监局2026年第99号公告。",
   "items": [
     {
       "id": "cn-split",
@@ -82,9 +82,28 @@
       "time": "未知",
       "docs": [],
       "who": "注册申请人、备案人",
-      "note": "注册、备案前须自行或委托专业机构做安全评估。中检院2026-10-15征求冻干产品、次抛型化妆品标准意见（截止11-22），尚未强制；相关形态宜提前对照草案。",
+      "note": "注册备案前须安全评估。规范修订按第99号区分只评估与须重测；冻干/次抛标准征求意见至11-22。",
       "official_url": "https://www.gov.cn/zhengce/content/2020-06/29/content_5522593.htm",
-      "source_checked": "2026-10-24",
+      "source_checked": "2026-10-25",
+      "needs_review": true
+    },
+    {
+      "id": "cn-stsc",
+      "name_zh": "安全技术规范修订实施（第99号）",
+      "authority": "国家药监局",
+      "type": "testing",
+      "mandatory": true,
+      "cost": "未知",
+      "time": "随各修订条目实施日",
+      "docs": [
+        "配方变更说明与安全评估",
+        "必要时注册备案检验报告",
+        "香精 IFRA/国标证明"
+      ],
+      "who": "注册人、备案人",
+      "note": "第99号：基质替换/减量可只评估；限值与方法不符须重测变更。审评中特殊化妆品可补正调料。含牙膏。",
+      "official_url": "https://www.nmpa.gov.cn/hzhp/hzhpjmtg/index.html",
+      "source_checked": "2026-10-25",
       "needs_review": true
     }
   ],
@@ -102,7 +121,7 @@
       "type": "label"
     }
   ],
-  "last_verified": "2026-10-24",
+  "last_verified": "2026-10-25",
   "hs_codes": {
     "status": "ready",
     "items": [
