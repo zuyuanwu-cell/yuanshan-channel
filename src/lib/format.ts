@@ -1,3 +1,7 @@
+import { withTrailingSlash } from './trailing-slash.mjs';
+
+export { withTrailingSlash };
+
 export function formatDate(iso: string): string {
   const match = /^(\d{4})-(\d{2})-(\d{2})$/.exec(iso);
   if (!match) return iso;
@@ -43,7 +47,7 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, '');
 
 export function url(path: string): string {
   if (!path.startsWith('/') || path.startsWith('//')) return path;
-  return `${base}${path}`;
+  return `${base}${withTrailingSlash(path)}`;
 }
 
 export function stripBase(pathname: string): string {
@@ -52,9 +56,10 @@ export function stripBase(pathname: string): string {
 }
 
 export function isActivePath(pathname: string, href: string): boolean {
-  const path = stripBase(pathname).replace(/\/$/, '') || '/';
-  if (href === '/') return path === '/';
-  return path === href || path.startsWith(`${href}/`);
+  const path = stripBase(pathname.split(/[?#]/)[0] ?? pathname).replace(/\/$/, '') || '/';
+  const target = stripBase((href.split(/[?#]/)[0] ?? href)).replace(/\/$/, '') || '/';
+  if (target === '/') return path === '/';
+  return path === target || path.startsWith(`${target}/`);
 }
 
 export function padRank(rank: number): string {

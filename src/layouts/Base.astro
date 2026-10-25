@@ -10,7 +10,7 @@ import Header from '../components/Header.astro';
 import Lightbox from '../components/Lightbox.astro';
 import TabBar from '../components/TabBar.astro';
 import { getSite } from '../lib/content';
-import { absoluteUrl, jsonLdScript, metaDescription, pageUrl, type Crumb } from '../lib/seo';
+import { absoluteUrl, canonicalPath, jsonLdScript, metaDescription, pageUrl, type Crumb } from '../lib/seo';
 
 interface Props {
   title?: string;
@@ -22,6 +22,7 @@ interface Props {
   modified?: string;
   citation?: string;
   crumbs?: Crumb[];
+  extraGraph?: unknown[];
 }
 
 const site = getSite();
@@ -35,12 +36,14 @@ const {
   modified,
   citation,
   crumbs = [],
+  extraGraph = [],
 } = Astro.props;
 const fullTitle = title ? `${title} · ${site.name}` : `${site.name}｜美妆日化规则、合规与热销`;
 const summary = metaDescription(description || site.hero.lede);
 const origin = Astro.site ?? new URL(Astro.url.origin);
-const canonical = new URL(Astro.url.pathname, origin);
+const canonical = new URL(canonicalPath(Astro.url.pathname), origin);
 const imageUrl = absoluteUrl(image, origin);
+const logoUrl = absoluteUrl('/brand/yuanshan-mark.png', origin);
 const home = absoluteUrl('/', origin);
 const orgId = `${home}#organization`;
 const siteId = `${home}#website`;
@@ -50,10 +53,11 @@ const graph: Record<string, unknown>[] = [
   {
     '@type': 'Organization',
     '@id': orgId,
-    name: site.brand,
-    alternateName: [site.channel, site.name],
+    name: site.name,
+    alternateName: [site.brand, site.channel],
     url: home,
     description: site.tagline,
+    logo: logoUrl,
     image: imageUrl,
   },
   {
@@ -99,6 +103,9 @@ if (ogType === 'article' && title) {
     image: imageUrl,
     ...(citation ? { isBasedOn: citation } : {}),
   });
+}
+for (const node of extraGraph) {
+  if (node && typeof node === 'object') graph.push(node as Record<string, unknown>);
 }
 if (crumbs.length > 0) {
   graph.push({
@@ -198,6 +205,36 @@ const umamiEnabled = Boolean(umamiUrl && umamiId);
       import '../scripts/ui.ts';
       import { initTheme } from '../scripts/theme.ts';
       initTheme();
+    </script>
+    <!-- 编辑入口和控制台只在已登录时写入。控制台在域名根，不在站点 base 下。 -->
+    <script is:inline define:vars={{ adminHref: url('/admin/'), consoleHref: '/console/' }}>
+      fetch('/console/api/me', { credentials: 'same-origin', headers: { Accept: 'application/json' } })
+        .then(function (res) {
+          return res.ok ? res.json() : null;
+        })
+        .then(function (data) {
+          if (!data || !data.user) return;
+          var slots = document.querySelectorAll('[data-staff-links]');
+          slots.forEach(function (slot) {
+            var admin = document.createElement('a');
+            admin.href = adminHref;
+            admin.textContent = '编辑入口';
+            var consoleLink = document.createElement('a');
+            consoleLink.href = consoleHref;
+            consoleLink.textContent = '控制台';
+            slot.replaceChildren();
+            if (slot.hasAttribute('data-staff-sep')) {
+              var sep = document.createElement('span');
+              sep.setAttribute('aria-hidden', 'true');
+              sep.textContent = ' · ';
+              slot.append(admin, sep, consoleLink);
+            } else {
+              slot.append(admin, consoleLink);
+            }
+            slot.hidden = false;
+          });
+        })
+        .catch(function () {});
     </script>
     <!-- 在线心跳。失败会被脚本吞掉，不依赖控制台是否已经在这台机器上。 -->
     <script is:inline defer src={url('/presence.js')}></script>

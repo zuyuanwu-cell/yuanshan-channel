@@ -9,7 +9,7 @@ import {
   renderRss,
   sortIds,
 } from './feed-filter.mjs';
-import { url } from './format';
+import { url, withTrailingSlash } from './format';
 import {
   boardStatus,
   getBoard,
@@ -136,7 +136,7 @@ function buildItems(): FeedItem[] {
       needs_review: news.needs_review,
       sample: news.sample,
       key_date: news.key_date ?? null,
-      page: `/news/${news.slug}`,
+      page: withTrailingSlash(`/news/${news.slug}`),
     });
   }
 
@@ -161,7 +161,7 @@ function buildItems(): FeedItem[] {
       needs_review: ranking.needs_review,
       sample: ranking.sample,
       partial: ranking.partial,
-      page: `/rankings/${ranking.platform}`,
+      page: withTrailingSlash(`/rankings/${ranking.platform}`),
       detail: `/v1/rankings/${ranking.platform}/${ranking.date}.json`,
     };
     if (linked.scope === 'global') item.scope = 'global';
@@ -253,7 +253,7 @@ export function marketsDocument() {
     name_zh: country.name_zh,
     region: country.region,
     region_slug: regionSlug(country.region),
-    page: `/compliance/${country.country}`,
+    page: withTrailingSlash(`/compliance/${country.country}`),
     feeds: {
       json: `/v1/markets/${country.country}/feed.json`,
       rss: `/v1/markets/${country.country}/feed.xml`,
@@ -359,7 +359,7 @@ export function complianceDocument(id: string) {
     name_zh: country.name_zh,
     region: country.region,
     region_slug: regionSlug(country.region),
-    page: `/compliance/${country.country}`,
+    page: withTrailingSlash(`/compliance/${country.country}`),
     market: country,
   });
 }
@@ -405,7 +405,7 @@ export function rankingSnapshot(boardId: string, date?: string) {
     source_name: ranking.source_name,
     source_url: ranking.source_url,
     source_note: ranking.source_note,
-    page: `/rankings/${board.id}`,
+    page: withTrailingSlash(`/rankings/${board.id}`),
     dates: rankings.map((entry) => entry.date),
     items: ranking.items.map(defined),
   };
@@ -427,7 +427,7 @@ export function rankingsDocument() {
       status: boardStatus(board.id),
       latest: rankings[0]?.date ?? null,
       dates: rankings.map((entry) => entry.date),
-      page: live ? `/rankings/${board.id}` : null,
+      page: live ? withTrailingSlash(`/rankings/${board.id}`) : null,
       detail: rankings[0] ? `/v1/rankings/${board.id}.json` : null,
     };
   });
@@ -478,7 +478,7 @@ export function subscribePayload() {
         .map((board) => ({
           id: board.id,
           name: board.name,
-          page: hasRanking(board.id) ? `/rankings/${board.id}` : null,
+          page: hasRanking(board.id) ? withTrailingSlash(`/rankings/${board.id}`) : null,
         })),
     },
   };

@@ -94,12 +94,7 @@ const quietNotes = site.social.filter((item) => !item.href.startsWith('https://'
         </p>
         <p>{site.disclaimer}</p>
         <p>{site.footerNote}</p>
-        <p class="admin-entry">
-          <a href={url('/admin/')}>编辑入口</a>
-          <span aria-hidden="true"> · </span>
-          <!-- 控制台是域名根上的 Node 进程，不在 Astro base 下面。 -->
-          <a href="/console/">控制台</a>
-        </p>
+        <p class="admin-entry" data-staff-links data-staff-sep hidden></p>
       </div>
       <aside class="footer-wechat" aria-label="添加微信">
         <p class="footer-kicker">微信</p>

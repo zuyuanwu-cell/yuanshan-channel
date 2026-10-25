@@ -101,7 +101,7 @@ const restLine2 = Array.from(hero.titleLine2).slice(1).join('');
                   </span>
                 </span>
               )}
-              <img class="deck-art" src={url(card.image)} alt="" loading={i === center ? 'eager' : 'lazy'} decoding="async" />
+              <img class="deck-art" src={url(card.image)} alt={`${card.title}，${card.subtitle}`} loading={i === center ? 'eager' : 'lazy'} decoding="async" />
             </a>
           );
         })

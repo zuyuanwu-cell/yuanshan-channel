@@ -4,10 +4,12 @@ import { absoluteUrl } from '../lib/seo';
 export const GET: APIRoute = ({ site }) => {
   const origin = site ?? new URL('https://ys.tongzhoukuajing.com');
   const admin = new URL(absoluteUrl('/admin/', origin)).pathname;
+  const consolePath = new URL(absoluteUrl('/console/', origin)).pathname;
+  const disallow = [...new Set([admin, consolePath, '/console/'])];
   const body = [
     'User-agent: *',
     'Allow: /',
-    `Disallow: ${admin}`,
+    ...disallow.map((path) => `Disallow: ${path}`),
     '',
     `Sitemap: ${absoluteUrl('/sitemap.xml', origin)}`,
     '',

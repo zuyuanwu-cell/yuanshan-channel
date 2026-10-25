@@ -115,9 +115,6 @@ const moreCurrent = more.some((item) => isActivePath(path, item.href)) || isActi
         </a>
       </div>
     </details>
-    <p class="nav-sheet-admin">
-      <a href={url('/admin/')} aria-current={isActivePath(path, '/admin') ? 'page' : undefined}>编辑入口</a>
-      <a href="/console/">控制台</a>
-    </p>
+    <p class="nav-sheet-admin" data-staff-links hidden></p>
   </div>
 </dialog>

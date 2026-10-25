@@ -4,6 +4,7 @@
  */
 
 import { TYPE_LABELS, canonicalTypes, resolveFeedUrl, sortIds } from './feed-filter.mjs';
+import { withTrailingSlash } from './trailing-slash.mjs';
 
 const SITE = 'https://ys.tongzhoukuajing.com/';
 
@@ -12,7 +13,7 @@ const SITE = 'https://ys.tongzhoukuajing.com/';
  * @param {(path: string) => string} absolute
  */
 function href(path, absolute) {
-  return absolute(path);
+  return absolute(withTrailingSlash(path));
 }
 
 /**
