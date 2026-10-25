@@ -51,12 +51,18 @@ export interface HeroCard {
   featured?: boolean;
 }
 
+export interface HeroAction {
+  label: string;
+  href: string;
+}
+
 export interface HeroConfig {
   badge: string;
-  badgeNote: string;
+  badgeNote?: string;
   titleLine1: string;
   titleLine2: string;
   lede: string;
+  actions: HeroAction[];
   cardCta: string;
   swipeHint: string;
   tags: { label: string; tone: 'teal' | 'coral' | 'violet' | 'lime'; side: 'left' | 'right' }[];

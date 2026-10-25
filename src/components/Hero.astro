@@ -33,8 +33,14 @@ const restLine2 = Array.from(hero.titleLine2).slice(1).join('');
     <p class="hero-badge" data-hero-in>
       <span class="badge-dot" aria-hidden="true"></span>
       <span class="badge-strong">{hero.badge}</span>
-      <span class="badge-sep">—</span>
-      <span>{hero.badgeNote}</span>
+      {
+        hero.badgeNote && (
+          <>
+            <span class="badge-sep">—</span>
+            <span>{hero.badgeNote}</span>
+          </>
+        )
+      }
       <span class="badge-date">{site.ui.updatedAt} {formatShortDate(latestContentDate())}</span>
     </p>
     <h1 id="hero-title" class="hero-title" data-hero-in>
@@ -42,6 +48,15 @@ const restLine2 = Array.from(hero.titleLine2).slice(1).join('');
       <span class="line-2"><span class="first-char">{firstChar}</span>{restLine2}</span>
     </h1>
     <p class="hero-lede" data-hero-in>{hero.lede}</p>
+    <div class="hero-actions" data-hero-in>
+      {
+        hero.actions.map((action, i) => (
+          <a class:list={['hero-action', i === 0 ? 'is-primary' : 'is-secondary']} href={url(action.href)}>
+            {action.label}
+          </a>
+        ))
+      }
+    </div>
 
     {
       hero.tags.map((tag, i) => (
