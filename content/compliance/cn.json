@@ -4,7 +4,7 @@
   "flag": "🇨🇳",
   "region": "东亚",
   "difficulty": 3,
-  "summary": "特殊化妆品注册，进口普通化妆品在进口前备案。境外企业须指定境内企业法人；规范修订实施路径见药监局2026年第99号公告。",
+  "summary": "特殊注册、普通备案；境外须境内法人。第99号实施路径；一般贸易自2026-12-01适用海关第284号（跨境零售仍按专规）。",
   "items": [
     {
       "id": "cn-split",
@@ -105,6 +105,24 @@
       "official_url": "https://www.nmpa.gov.cn/hzhp/hzhpjmtg/index.html",
       "source_checked": "2026-10-25",
       "needs_review": true
+    },
+    {
+      "id": "cn-customs-284",
+      "name_zh": "进出口检验检疫（第284号）",
+      "authority": "海关总署",
+      "type": "tax-customs",
+      "mandatory": true,
+      "cost": "未知",
+      "time": "2026-12-01 起",
+      "docs": [
+        "特殊化妆品注册证号或普通化妆品备案号",
+        "进口记录与销售记录"
+      ],
+      "who": "进口收货人、出口生产企业/发货人",
+      "note": "一般贸易等须电子比对注册/备案；跨境电商零售进口按专规，不适用本办法替代。牙膏/半成品参照；半成品免注册备案与标签验核。",
+      "official_url": "https://www.gov.cn/gongbao/2026/issue_12926/202608/content_7078417.html",
+      "source_checked": "2026-10-25",
+      "needs_review": false
     }
   ],
   "steps": [

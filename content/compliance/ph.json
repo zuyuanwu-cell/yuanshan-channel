@@ -4,7 +4,7 @@
   "flag": "🇵🇭",
   "region": "东南亚",
   "difficulty": 2,
-  "summary": "本地公司先拿化妆品进口商营业许可 LTO，再逐品办 CPN。",
+  "summary": "本地公司先拿化妆品进口商 LTO，再逐品办 CPN；香水等试点期内可自动签发 CPN。",
   "items": [
     {
       "id": "ph-lto",
@@ -38,10 +38,10 @@
         "厂商信息"
       ],
       "who": "LTO 持有人",
-      "note": "",
+      "note": "2026-10-01至12-31香水/花露水/古龙水可自动发 CPN；仅确认提交，仍须符合 ACD。",
       "official_url": "https://www.fda.gov.ph/wp-content/uploads/2021/03/Cosmetic-e-Notification-v.2.0-User-Manual-for-Applicants.pdf",
-      "source_checked": "2026-10-23",
-      "needs_review": false
+      "source_checked": "2026-10-25",
+      "needs_review": true
     },
     {
       "id": "ph-pif",
@@ -94,7 +94,7 @@
       "type": "tax-customs"
     }
   ],
-  "last_verified": "2026-10-23",
+  "last_verified": "2026-10-25",
   "hs_codes": {
     "status": "ready",
     "items": [
