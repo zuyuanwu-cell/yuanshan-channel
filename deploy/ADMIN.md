@@ -135,7 +135,7 @@ GitHub 仓库 → **Settings → Secrets and variables → Actions**。这两个
 
 ## E. 日常怎么用编辑后台
 
-1. 打开 https://ys.tongzhoukuajing.com/admin/（页脚也有「编辑入口」）
+1. 打开 https://ys.tongzhoukuajing.com/admin/。登录控制台后，页脚和手机端「更多」里才会出现「编辑入口」。
 2. Login with GitHub（需仓库写权限）
 3. **资讯与法规** → New → 填标题、栏目、来源、摘要、正文等（字段与 `content/schemas/news.schema.json` 对齐）
 4. Publish：会直接 commit 到 `main` 的 `content/news/`

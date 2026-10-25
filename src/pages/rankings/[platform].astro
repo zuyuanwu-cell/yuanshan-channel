@@ -6,6 +6,7 @@ import Stamps from '../../components/Stamps.astro';
 import Base from '../../layouts/Base.astro';
 import { getBoard, getPlatform, getRankings, getRankingsFor, getSite, itemTitle } from '../../lib/content';
 import { formatDate, formatDateTime, padRank, url } from '../../lib/format';
+import { rankingSeoDescription, rankingSeoTitle } from '../../lib/seo';
 
 export function getStaticPaths() {
   return [...new Set(getRankings().map((ranking) => ranking.platform))].map((platform) => ({
@@ -22,11 +23,32 @@ const rankings = getRankingsFor(platformId);
 if (!board || rankings.length === 0) throw new Error(`找不到榜单 ${platformId}`);
 const latest = rankings[0];
 if (!latest) throw new Error(`找不到榜单 ${platformId}`);
+const asOf = formatDate(latest.date);
+const capturedLabel = latest.captured_at ? formatDateTime(latest.captured_at) : '';
+const seoTitle = rankingSeoTitle(board.name, board.market, asOf);
+const seoDescription = rankingSeoDescription(board.name, board.market, asOf, capturedLabel);
+const rankedItems = [...latest.items].sort((a, b) => a.rank - b.rank);
+const itemList = {
+  '@type': 'ItemList',
+  name: seoTitle,
+  itemListOrder: 'https://schema.org/ItemListOrderAscending',
+  numberOfItems: rankedItems.length,
+  itemListElement: rankedItems.map((item) => {
+    const name = itemTitle(item).main;
+    return {
+      '@type': 'ListItem',
+      position: item.rank,
+      name,
+      ...(item.url ? { url: item.url } : {}),
+    };
+  }),
+};
 ---
 
 <Base
-  title={board.name}
-  description={`${board.name}（${board.market}）美妆日化热销榜，记录公开榜单的抓取时间、名次和覆盖范围。`}
+  title={seoTitle}
+  description={seoDescription}
+  extraGraph={rankedItems.length > 0 ? [itemList] : []}
   crumbs={[
     { name: '首页', href: '/' },
     { name: site.pages.rankings.title, href: '/rankings' },

@@ -108,7 +108,7 @@ const tops = latestRankingByPlatform().flatMap((ranking) => {
                 const image = itemImage(first);
                 return (
                   <a class:list={['top-tile', { 'has-image': image }]} href={url(`/rankings/${ranking.platform}`)} data-reveal>
-                    {image && <img class="top-image" src={image.thumb} alt="" loading="lazy" referrerpolicy="no-referrer" />}
+                    {image && <img class="top-image" src={image.thumb} alt={itemTitle(first).main} loading="lazy" referrerpolicy="no-referrer" />}
                     <span class="top-text">
                       <span class="top-crown">{site.ui.rankingTop}</span>
                       <span class="top-platform">{boardName(ranking.platform)}</span>
@@ -124,7 +124,7 @@ const tops = latestRankingByPlatform().flatMap((ranking) => {
                 const image = itemImage(first);
                 return (
                   <a class:list={['top-tile', { 'has-image': image }]} href={url(`/rankings/${ranking.platform}`)} tabindex="-1">
-                    {image && <img class="top-image" src={image.thumb} alt="" loading="lazy" referrerpolicy="no-referrer" />}
+                    {image && <img class="top-image" src={image.thumb} alt={itemTitle(first).main} loading="lazy" referrerpolicy="no-referrer" />}
                     <span class="top-text">
                       <span class="top-crown">{site.ui.rankingTop}</span>
                       <span class="top-platform">{boardName(ranking.platform)}</span>

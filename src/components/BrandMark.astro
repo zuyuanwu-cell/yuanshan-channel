@@ -1,11 +1,14 @@
 ---
+import { getSite } from '../lib/content';
 import { url } from '../lib/format';
+
+const site = getSite();
 ---
 
 <img
   class="brand-mark"
   src={url('/brand/yuanshan-mark.png')}
-  alt=""
+  alt={site.name}
   width="38"
   height="38"
   decoding="async"
