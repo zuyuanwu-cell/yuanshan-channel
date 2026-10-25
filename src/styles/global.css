@@ -3668,19 +3668,20 @@ button.rank-thumb:focus-visible .zoom-badge {
 
 /* HS codes search */
 .hs-head .lede { max-width: 42rem; }
-.hs-browser { margin-top: 8px; }
+.hs-browser { margin-top: 8px; min-width: 0; max-width: 100%; }
 .hs-search-sticky {
   position: sticky;
   top: 8px;
   z-index: 20;
   display: grid;
   gap: 8px;
+  min-width: 0;
   padding: 10px 0 12px;
   background: var(--sticky);
 }
 .hs-search-box {
   display: grid;
-  grid-template-columns: auto 1fr auto;
+  grid-template-columns: auto minmax(0, 1fr) auto;
   align-items: center;
   gap: 10px;
   padding: 12px 14px;
@@ -3698,6 +3699,7 @@ button.rank-thumb:focus-visible .zoom-badge {
 .hs-search-icon { color: var(--amber-ink); font-size: 1.1rem; }
 .hs-search-input {
   width: 100%;
+  min-width: 0;
   border: 0;
   outline: 0;
   background: transparent;
@@ -3716,10 +3718,19 @@ button.rank-thumb:focus-visible .zoom-badge {
   cursor: pointer;
 }
 .hs-count { margin: 0; font-size: 13px; color: var(--muted); }
-.hs-filters { margin: 4px 0 8px; }
+.hs-filters { margin: 4px 0 8px; min-width: 0; }
 .chip-soft { opacity: .9; }
-.hs-results { display: grid; gap: 10px; margin-top: 12px; }
+.hs-results {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  gap: 10px;
+  margin-top: 12px;
+  min-width: 0;
+  max-width: 100%;
+}
 .hs-card {
+  min-width: 0;
+  max-width: 100%;
   padding: 0;
   overflow: hidden;
   opacity: 0;
@@ -3733,7 +3744,7 @@ button.rank-thumb:focus-visible .zoom-badge {
   list-style: none;
   cursor: pointer;
   display: grid;
-  grid-template-columns: auto 1fr auto;
+  grid-template-columns: auto minmax(0, 1fr) auto;
   grid-template-areas:
     "flag main ver"
     "flag codes codes"
@@ -3748,7 +3759,7 @@ button.rank-thumb:focus-visible .zoom-badge {
 .hs-main { grid-area: main; display: flex; flex-direction: column; gap: 2px; min-width: 0; }
 .hs-main strong { font-size: 1rem; }
 .hs-main em { font-style: normal; color: var(--muted); font-size: 13px; }
-.hs-codes { grid-area: codes; display: flex; gap: 8px; align-items: baseline; flex-wrap: wrap; }
+.hs-codes { grid-area: codes; display: flex; gap: 8px; align-items: baseline; flex-wrap: wrap; min-width: 0; }
 .hs-codes code {
   font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
   font-size: 0.95rem;
@@ -3758,7 +3769,7 @@ button.rank-thumb:focus-visible .zoom-badge {
   border-radius: 8px;
 }
 .hs-codes .hs6 { font-size: 12px; }
-.hs-tax { grid-area: tax; display: flex; gap: 12px; flex-wrap: wrap; font-size: 13px; color: var(--muted); }
+.hs-tax { grid-area: tax; display: flex; gap: 12px; flex-wrap: wrap; min-width: 0; font-size: 13px; color: var(--muted); }
 .hs-ver { grid-area: ver; justify-self: end; font-size: 11px; max-width: 9rem; text-align: center; white-space: normal; line-height: 1.2; }
 .hs-detail {
   margin: 0;
@@ -3768,9 +3779,9 @@ button.rank-thumb:focus-visible .zoom-badge {
   border-top: 1px solid var(--line);
   padding-top: 12px;
 }
-.hs-detail > div { display: grid; grid-template-columns: 5.5rem 1fr; gap: 8px; font-size: 14px; }
+.hs-detail > div { display: grid; grid-template-columns: 5.5rem minmax(0, 1fr); gap: 8px; font-size: 14px; }
 .hs-detail dt { color: var(--dim); margin: 0; }
-.hs-detail dd { margin: 0; color: var(--ink); }
+.hs-detail dd { margin: 0; min-width: 0; color: var(--ink); overflow-wrap: anywhere; }
 .hs-detail a { color: var(--teal-ink); }
 .hs-empty { text-align: center; padding: 28px 16px; color: var(--muted); margin-top: 12px; }
 .cc-hs-more { display: inline-block; margin-top: 8px; font-size: 13px; }
@@ -4725,6 +4736,17 @@ button.source-button.is-sending::before {
   display: grid;
   gap: 20px;
   align-items: start;
+}
+
+/* Phone chip rows are nowrap. A zero minimum keeps that min-content width
+   from becoming the grid track and stretching the result cards. */
+.hs-layout {
+  grid-template-columns: minmax(0, 1fr);
+  min-width: 0;
+}
+
+.hs-layout > * {
+  min-width: 0;
 }
 
 .cc-with-help > .service-hint,
