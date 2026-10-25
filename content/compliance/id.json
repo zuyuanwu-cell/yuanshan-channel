@@ -78,10 +78,10 @@
         "清真认证申请资料"
       ],
       "who": "品牌/进口商",
-      "note": "化妆品强制期顺延至 2028-10-17（媒体报道，待正文核实）",
-      "official_url": "https://halal.go.id/",
-      "source_checked": "2026-10-23",
-      "needs_review": true
+      "note": "化妆品强制期顺延至 2028-10-17（PP 40/2026，BPJPH 官方确认）",
+      "official_url": "https://bpjph.halal.go.id/read/penyesuaian-penahapan-kewajiban-sertifikasi-halal-diatur-dalam-pp-40-tahun-2026-begini-rinciannya",
+      "source_checked": "2026-10-25",
+      "needs_review": false
     },
     {
       "id": "id-hs",
@@ -121,7 +121,7 @@
       "type": "tax-customs"
     }
   ],
-  "last_verified": "2026-10-23",
+  "last_verified": "2026-10-25",
   "hs_codes": {
     "status": "ready",
     "items": [

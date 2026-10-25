@@ -77,9 +77,9 @@
         "入流通报告"
       ],
       "who": "进口商/生产商",
-      "note": "化妆品 2025-10-01 起须赋码",
+      "note": "化妆品 2025-10-01 起赋码；2026-10-01 起化妆刷、牙刷、化妆棉、美甲工具等也须赋码（第656号令）",
       "official_url": "https://xn--80ajghhoc2aj1c8b.xn--p1ai/business/projects/cosmetics/marking/",
-      "source_checked": "2026-10-23",
+      "source_checked": "2026-10-25",
       "needs_review": false
     },
     {
@@ -143,7 +143,7 @@
       "type": "tax-customs"
     }
   ],
-  "last_verified": "2026-10-23",
+  "last_verified": "2026-10-25",
   "hs_codes": {
     "status": "ready",
     "items": [
