@@ -2648,8 +2648,24 @@ button.text-link {
 
 /* Ranking meta and gaps */
 
-.rank-meta {
+.rank-section-title {
+  margin: 22px 0 10px;
+  font-size: 1.35rem;
+}
+
+.rank-meta,
+.rank-method {
   padding: 18px 20px;
+}
+
+.rank-method {
+  display: grid;
+  gap: 10px;
+}
+
+.rank-method .banner,
+.rank-method .source-note {
+  margin: 0;
 }
 
 .rank-meta dl {
@@ -2841,7 +2857,8 @@ button.text-link {
     padding: 2px 14px;
   }
 
-  .rank-meta {
+  .rank-meta,
+  .rank-method {
     padding: 16px;
   }
 
@@ -3970,7 +3987,7 @@ button.rank-thumb:focus-visible .zoom-badge {
   height: 18px;
 }
 
-.contact-sheet > h2 {
+.contact-sheet > h3 {
   margin: 0;
   padding: 22px 56px 0 22px;
   font-size: 1.25rem;
@@ -4636,9 +4653,13 @@ button.source-button.is-sending::before {
     linear-gradient(180deg, var(--card-2), var(--card));
 }
 
-.factory-promo h2 {
+.factory-promo-title {
   margin: 0;
   font-size: 1.35rem;
+  font-weight: 700;
+  line-height: 1.15;
+  letter-spacing: -0.02em;
+  color: var(--ink);
 }
 
 .factory-promo p {

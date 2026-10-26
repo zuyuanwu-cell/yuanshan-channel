@@ -11,7 +11,7 @@ const link = opensContact ? '' : external ? href : url(href);
 
 <aside class="factory-promo card" aria-labelledby="factory-promo-title">
   <p class="kicker">{promo.eyebrow}</p>
-  <h2 id="factory-promo-title">{promo.title}</h2>
+  <p id="factory-promo-title" class="factory-promo-title">{promo.title}</p>
   <p>{promo.text}</p>
   <ul>
     {promo.points.map((point) => <li>{point}</li>)}
