@@ -4,7 +4,7 @@
   "flag": "🇸🇦",
   "region": "中东",
   "difficulty": 2,
-  "summary": "上市前在 SFDA 系统（eCosma/GHAD）逐品列名，标签按 GSO 1943。",
+  "summary": "上市前 SFDA 列名、GSO 1943 标签；针管形包装禁售，安瓿须双语警示。",
   "items": [
     {
       "id": "sa-rep",
@@ -62,6 +62,24 @@
       "needs_review": true
     },
     {
+      "id": "sa-pharma-form-packaging",
+      "name_zh": "针管/安瓿等药妆形态包装限制",
+      "authority": "SFDA",
+      "type": "packaging",
+      "mandatory": true,
+      "cost": "未知",
+      "time": "2026-12-31 前整改",
+      "docs": [
+        "内外包装阿英警示",
+        "非注射广告话术"
+      ],
+      "who": "品牌/进口商",
+      "note": "禁针管形包装；安瓿/西林瓶须阿英警示（仅外用/勿注射等）。2026-12-31前整改，2027-01-01起执法。",
+      "official_url": "https://www.sfda.gov.sa/ar/circulars/19229",
+      "source_checked": "2026-10-26",
+      "needs_review": false
+    },
+    {
       "id": "sa-hs",
       "name_zh": "HS 编码与关税",
       "authority": "ZATCA",
@@ -91,11 +109,15 @@
       "type": "label"
     },
     {
+      "title": "药妆形态包装自查",
+      "type": "packaging"
+    },
+    {
       "title": "清关",
       "type": "tax-customs"
     }
   ],
-  "last_verified": "2026-10-23",
+  "last_verified": "2026-10-26",
   "hs_codes": {
     "status": "ready",
     "items": [
