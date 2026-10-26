@@ -21,7 +21,7 @@
       "who": "巴西本地公司",
       "note": "",
       "official_url": "https://www.gov.br/anvisa/pt-br/assuntos/cosmeticos",
-      "source_checked": "2026-10-23",
+      "source_checked": "2026-10-26",
       "needs_review": false
     },
     {
@@ -39,7 +39,7 @@
       "who": "AFE 持有人",
       "note": "RDC 752/2022；需注册的须审批",
       "official_url": "https://www.gov.br/anvisa/pt-br/setorregulado/regularizacao/cosmeticos/informes/regularizacao-de-produtos",
-      "source_checked": "2026-10-23",
+      "source_checked": "2026-10-26",
       "needs_review": false
     },
     {
@@ -56,7 +56,7 @@
       "who": "进口商",
       "note": "",
       "official_url": "https://www.gov.br/anvisa/pt-br/assuntos/cosmeticos",
-      "source_checked": "2026-10-23",
+      "source_checked": "2026-10-26",
       "needs_review": true
     },
     {
@@ -71,7 +71,7 @@
       "who": "进口商",
       "note": "HS 编码待补",
       "official_url": "https://www.gov.br/receitafederal/",
-      "source_checked": "2026-10-23",
+      "source_checked": "2026-10-26",
       "needs_review": false
     }
   ],
@@ -93,7 +93,7 @@
       "type": "tax-customs"
     }
   ],
-  "last_verified": "2026-10-23",
+  "last_verified": "2026-10-26",
   "hs_codes": {
     "status": "ready",
     "items": [

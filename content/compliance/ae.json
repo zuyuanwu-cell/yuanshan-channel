@@ -25,7 +25,7 @@
       "who": "阿联酋本地公司",
       "note": "",
       "official_url": "https://www.moiat.gov.ae/en/services/issue-conformity-certificates-for-regulated-products",
-      "source_checked": "2026-10-23",
+      "source_checked": "2026-10-26",
       "needs_review": false
     },
     {
@@ -40,10 +40,10 @@
         "产品资料"
       ],
       "who": "本地公司",
-      "note": "仅迪拜销售适用",
+      "note": "仅迪拜销售适用；2026-10-26 轮检：指南 PDF official_url 返回 HTTP 404，待换有效链接",
       "official_url": "https://dmpmedia.dm.gov.ae/uploads/2026/01/DM-HSD-GU116-CPCP2_Technical-Guidelines-for-Cosmetic-Personal-Care-Products_V2.1.pdf",
-      "source_checked": "2026-10-23",
-      "needs_review": false
+      "source_checked": "2026-10-26",
+      "needs_review": true
     },
     {
       "id": "ae-hs",
@@ -57,7 +57,7 @@
       "who": "进口商",
       "note": "HS 编码待补",
       "official_url": "https://www.moiat.gov.ae/",
-      "source_checked": "2026-10-23",
+      "source_checked": "2026-10-26",
       "needs_review": false
     }
   ],
@@ -71,7 +71,7 @@
       "type": "tax-customs"
     }
   ],
-  "last_verified": "2026-10-23",
+  "last_verified": "2026-10-26",
   "hs_codes": {
     "status": "ready",
     "items": [

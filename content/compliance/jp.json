@@ -20,7 +20,7 @@
       "who": "日本本地公司",
       "note": "另需化粧品製造業許可（包装/标示/保管）",
       "official_url": "https://www.tmiph.metro.tokyo.lg.jp/k_yakuji/i-sinsa/cosmetics/todokede/",
-      "source_checked": "2026-10-23",
+      "source_checked": "2026-10-26",
       "needs_review": false
     },
     {
@@ -37,7 +37,7 @@
       "who": "制造销售业者",
       "note": "",
       "official_url": "https://www.tmiph.metro.tokyo.lg.jp/k_yakuji/i-sinsa/cosmetics/todokede/",
-      "source_checked": "2026-10-23",
+      "source_checked": "2026-10-26",
       "needs_review": false
     },
     {
@@ -54,7 +54,7 @@
       "who": "制造销售业者代办",
       "note": "",
       "official_url": "https://www.pmda.go.jp/review-services/drug-reviews/foreign-mfr/0004.html",
-      "source_checked": "2026-10-23",
+      "source_checked": "2026-10-26",
       "needs_review": false
     },
     {
@@ -73,7 +73,7 @@
       "who": "制造销售业者",
       "note": "",
       "official_url": "https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/kenkou_iryou/iyakuhin/keshouhin/index.html",
-      "source_checked": "2026-10-23",
+      "source_checked": "2026-10-26",
       "needs_review": true
     },
     {
@@ -88,7 +88,7 @@
       "who": "进口商",
       "note": "HS 编码待补",
       "official_url": "https://www.customs.go.jp/",
-      "source_checked": "2026-10-23",
+      "source_checked": "2026-10-26",
       "needs_review": false
     }
   ],
@@ -110,7 +110,7 @@
       "type": "tax-customs"
     }
   ],
-  "last_verified": "2026-10-23",
+  "last_verified": "2026-10-26",
   "hs_codes": {
     "status": "ready",
     "items": [

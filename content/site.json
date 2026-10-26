@@ -6,7 +6,7 @@
   "tagline": "美妆日化的平台规则、目的国法规和热销结构，一页看完。",
   "focus": "美妆日化",
   "locale": "zh-CN",
-  "updated": "2026-10-23",
+  "updated": "2026-10-26",
   "disclaimer": "每条资讯都附来源链接。标了「待核实」的条目来自媒体或第三方转述，引用前打开原文。费用、排名和法规以官方页面为准。",
   "footerNote": "个人资讯站，不提供入驻代办，也不替代平台规则中心或法律意见。",
   "social": [
@@ -336,9 +336,57 @@
   "rankingGaps": [
     {
       "platform": "tiktok-shop-sea",
-      "tried": "2026-10-23",
-      "reason": "Apify tiktok-shop-scraper MY/TH/SG best_sellers 返回多为零销量小店、未按销量排序，质量不足，暂不发榜。",
+      "tried": "2026-10-26",
+      "reason": "本月 Apify 已触硬限额；上期质量不足未发榜，本轮无法重试专用 Actor。",
       "source_url": "https://shop.tiktok.com/my"
+    },
+    {
+      "platform": "tiktok-shop-us",
+      "tried": "2026-10-26",
+      "reason": "本机 CDP 打开 TikTok Shop 返回下载引导页；Apify 调用时报 Monthly usage hard limit exceeded。",
+      "source_url": "https://www.tiktok.com/shop/us"
+    },
+    {
+      "platform": "walmart",
+      "tried": "2026-10-26",
+      "reason": "本机 CDP 美妆畅销页未解析到商品卡（反爬/空壳）；未再调用 Apify（月额度硬限）。",
+      "source_url": "https://www.walmart.com/shop/deals/beauty/best-sellers"
+    },
+    {
+      "platform": "ebay",
+      "tried": "2026-10-26",
+      "reason": "本机 CDP Beauty 榜页未解析到有效 /itm/ 商品卡；Apify 已触月度硬限额。",
+      "source_url": "https://www.ebay.com/b/Beauty/26395/bn_7000259855"
+    },
+    {
+      "platform": "mercado-livre",
+      "tried": "2026-10-26",
+      "reason": "本机 CDP 打开 mais-vendidos 页未解析到商品；Apify 已触月度硬限额。",
+      "source_url": "https://www.mercadolivre.com.br/mais-vendidos/beleza-e-cuidado-pessoal"
+    },
+    {
+      "platform": "aliexpress",
+      "tried": "2026-10-26",
+      "reason": "公开页/CDP 仅拿到导航类链接，无美妆热销商品卡；Apify 已触月度硬限额。",
+      "source_url": "https://www.aliexpress.com/"
+    },
+    {
+      "platform": "temu",
+      "tried": "2026-10-26",
+      "reason": "CDP 结果为 App 下载引导，无商品；Apify 已触月度硬限额。",
+      "source_url": "https://www.temu.com/"
+    },
+    {
+      "platform": "noon",
+      "tried": "2026-10-26",
+      "reason": "本机 CDP 未解析到商品；Apify noon-scraper 报 Monthly usage hard limit exceeded。",
+      "source_url": "https://www.noon.com/uae-en/beauty-and-health/beauty/"
+    },
+    {
+      "platform": "coupang",
+      "tried": "2026-10-26",
+      "reason": "本机 CDP 仅抓到站点导航文案（非商品）；Apify 已触月度硬限额。",
+      "source_url": "https://www.coupang.com/np/categories/176422"
     }
   ],
   "rankingPlatforms": [
