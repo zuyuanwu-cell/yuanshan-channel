@@ -4,7 +4,7 @@
   "flag": "🇰🇿",
   "region": "中亚",
   "difficulty": 3,
-  "summary": "欧亚经济联盟成员。香水化妆品适用ТР ТС 009/2011，上市前须合格评定。",
+  "summary": "欧亚成员，适用ТР ТС 009/2011；第74号决定多数修订2026-10-28生效。",
   "items": [
     {
       "id": "kz-member",
@@ -31,10 +31,10 @@
       "time": "未知",
       "docs": [],
       "who": "成员国境内法人或个体户",
-      "note": "投放联盟市场前须合格评定。附件12内国家注册，其余做符合性声明。",
+      "note": "附件12国家注册，其余声明。第74号2026-10-28生效；老证用至到期。",
       "official_url": "https://old.adilet.zan.kz/rus/docs/H11T0000799",
-      "source_checked": "2026-10-24",
-      "needs_review": false
+      "source_checked": "2026-10-26",
+      "needs_review": true
     },
     {
       "id": "kz-label",
@@ -46,9 +46,9 @@
       "time": "未知",
       "docs": [],
       "who": "投放市场的人",
-      "note": "须标名称、用途、制造商、保质期和成分，并加贴联盟市场流通标志。",
+      "note": "名称用途制造商保质期成分+流通标志。2027-01-01起甲醛>0.001%须警示。",
       "official_url": "https://old.adilet.zan.kz/rus/docs/H11T0000799",
-      "source_checked": "2026-10-24",
+      "source_checked": "2026-10-26",
       "needs_review": false
     },
     {
@@ -61,9 +61,9 @@
       "time": "未知",
       "docs": [],
       "who": "申请人",
-      "note": "委员会页确认ТР ТС 009/2011于2012-07-01生效。后续修订未逐份重读。",
+      "note": "第74号多数修订2026-10-28生效；甲醛警示2027-01-01起0.001%。",
       "official_url": "https://eec.eaeunion.org/comission/department/deptexreg/tr/bezopParfum.php",
-      "source_checked": "2026-10-24",
+      "source_checked": "2026-10-26",
       "needs_review": true
     }
   ],
@@ -81,7 +81,7 @@
       "type": "label"
     }
   ],
-  "last_verified": "2026-10-24",
+  "last_verified": "2026-10-26",
   "hs_codes": {
     "status": "pending",
     "items": []

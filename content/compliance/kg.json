@@ -4,7 +4,7 @@
   "flag": "🇰🇬",
   "region": "中亚",
   "difficulty": 3,
-  "summary": "欧亚经济联盟成员，适用同一化妆品技术法规。本国声明文件清单已打开。",
+  "summary": "欧亚成员，适用ТР ТС 009/2011；第74号决定多数修订2026-10-28生效。",
   "items": [
     {
       "id": "kg-member",
@@ -31,10 +31,10 @@
       "time": "未知",
       "docs": [],
       "who": "成员国境内法人或个体户",
-      "note": "附件12内国家注册，清单以外的产品做符合性声明。",
+      "note": "附件12国家注册，其余声明。第74号2026-10-28生效；老证用至到期。",
       "official_url": "https://old.adilet.zan.kz/rus/docs/H11T0000799",
-      "source_checked": "2026-10-24",
-      "needs_review": false
+      "source_checked": "2026-10-26",
+      "needs_review": true
     },
     {
       "id": "kg-docs",
@@ -81,7 +81,7 @@
       "type": "marking"
     }
   ],
-  "last_verified": "2026-10-24",
+  "last_verified": "2026-10-26",
   "hs_codes": {
     "status": "pending",
     "items": []

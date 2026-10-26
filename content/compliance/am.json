@@ -4,7 +4,7 @@
   "flag": "🇦🇲",
   "region": "俄语区",
   "difficulty": 3,
-  "summary": "亚美尼亚是欧亚经济联盟成员，适用化妆品技术法规 ТР ТС 009/2011。",
+  "summary": "欧亚成员，适用ТР ТС 009/2011；第74号决定多数修订2026-10-28生效。",
   "items": [
     {
       "id": "am-member",
@@ -31,9 +31,9 @@
       "time": "未知",
       "docs": [],
       "who": "联盟内申请人",
-      "note": "2012-07-01 起生效。声明还是国家注册，本次未重读全文。",
+      "note": "2012-07-01起生效。第74号多数修订2026-10-28生效；老证用至到期。",
       "official_url": "https://eec.eaeunion.org/comission/department/deptexreg/tr/bezopParfum.php",
-      "source_checked": "2026-10-24",
+      "source_checked": "2026-10-26",
       "needs_review": true
     },
     {
@@ -62,7 +62,7 @@
       "type": "tax-customs"
     }
   ],
-  "last_verified": "2026-10-24",
+  "last_verified": "2026-10-26",
   "hs_codes": {
     "status": "pending",
     "items": []

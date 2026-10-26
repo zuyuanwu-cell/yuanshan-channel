@@ -4,7 +4,7 @@
   "flag": "🇧🇾",
   "region": "俄语区",
   "difficulty": 3,
-  "summary": "白俄罗斯是欧亚经济联盟成员，也是该化妆品技术法规的责任起草方。",
+  "summary": "欧亚成员且为ТР ТС 009责任起草方；第74号决定多数修订2026-10-28生效。",
   "items": [
     {
       "id": "by-member",
@@ -31,9 +31,9 @@
       "time": "未知",
       "docs": [],
       "who": "联盟内申请人",
-      "note": "法规页写明白俄罗斯是责任起草方。符合性声明细节未重读。",
+      "note": "责任起草方。第74号多数修订2026-10-28生效；老证用至到期。",
       "official_url": "https://eec.eaeunion.org/comission/department/deptexreg/tr/bezopParfum.php",
-      "source_checked": "2026-10-24",
+      "source_checked": "2026-10-26",
       "needs_review": true
     },
     {
@@ -62,7 +62,7 @@
       "type": "tax-customs"
     }
   ],
-  "last_verified": "2026-10-24",
+  "last_verified": "2026-10-26",
   "hs_codes": {
     "status": "pending",
     "items": []
