@@ -65,7 +65,6 @@ const itemList = {
     <h1>{board.name}</h1>
     {platform && <p class="lede">{platform.pitch}</p>}
   </header>
-  <FactoryPromo />
   <div data-ranking-switch>
     <div class="filters" role="group" aria-label={site.ui.switchDate} hidden={rankings.length < 2}>
       {
@@ -91,6 +90,7 @@ const itemList = {
     {
       rankings.map((ranking) => (
         <section data-ranking-date={ranking.date} hidden={ranking.date !== latest.date}>
+          <h2 class="rank-section-title">榜单说明</h2>
           <div class="rank-meta card">
             <dl>
               <div>
@@ -112,12 +112,6 @@ const itemList = {
                 </dd>
               </div>
             </dl>
-            {(ranking.partial || ranking.sample || ranking.needs_review) && (
-              <p class="banner" role="note">
-                {ranking.coverage_note ?? site.rankingBanner}
-              </p>
-            )}
-            <p class="source-note">{ranking.source_note}</p>
             <p class="meta-row">
               <a class="source-button" href={ranking.source_url} target="_blank" rel="noreferrer">
                 {site.ui.viewSource}
@@ -125,6 +119,19 @@ const itemList = {
               <span class="source-url">{ranking.source_url}</span>
             </p>
           </div>
+          <h2 class="rank-section-title">数据口径</h2>
+          <div class="rank-method card">
+            {(ranking.partial || ranking.sample || ranking.needs_review) && (
+              <p class="banner" role="note">
+                {ranking.coverage_note ?? site.rankingBanner}
+              </p>
+            )}
+            {ranking.coverage_note && !ranking.partial && !ranking.sample && !ranking.needs_review && (
+              <p class="source-note">{ranking.coverage_note}</p>
+            )}
+            <p class="source-note">{ranking.source_note}</p>
+          </div>
+          <h2 class="rank-section-title">本期名次</h2>
           <ol class="rank-list card rank-panel">
             {[...ranking.items]
               .sort((a, b) => a.rank - b.rank)
@@ -162,4 +169,5 @@ const itemList = {
       ))
     }
   </div>
+  <FactoryPromo />
 </Base>

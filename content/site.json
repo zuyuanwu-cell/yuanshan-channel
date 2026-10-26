@@ -246,7 +246,7 @@
     },
     "rankings": {
       "title": "热销榜",
-      "note": "只收美妆日化，取自平台公开的热销页。每张榜写明抓取时间和覆盖范围。"
+      "note": "Amazon、TikTok、Shopee、Lazada 等多站点美妆日化热销榜，取自各平台公开热销页。每张榜写明抓取时间和覆盖范围。"
     },
     "platforms": {
       "title": "平台",
