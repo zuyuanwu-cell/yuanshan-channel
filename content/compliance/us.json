@@ -120,6 +120,25 @@
       "needs_review": false
     },
     {
+      "id": "pa-animal-testing-ban",
+      "name_zh": "宾州禁售动物实验化妆品",
+      "authority": "宾州（Act 92/2026）",
+      "type": "testing",
+      "mandatory": true,
+      "cost": "未知",
+      "time": "2027-01-01 起测",
+      "docs": [
+        "原料/成品动物实验时间线",
+        "供应商不新增动物实验声明",
+        "豁免情形书面依据（如有）"
+      ],
+      "who": "标签署名制造商",
+      "note": "2027-01-01后新做/委托动物实验开发的化妆品不得在宾州销售；旧数据可留",
+      "official_url": "https://www.palegis.us/legislation/bills/2025/sb381",
+      "source_checked": "2026-10-27",
+      "needs_review": false
+    },
+    {
       "id": "amazon-beauty",
       "name_zh": "亚马逊美妆类目合规资料",
       "authority": "Amazon",
@@ -175,7 +194,7 @@
       "type": "tax-customs"
     }
   ],
-  "last_verified": "2026-10-24",
+  "last_verified": "2026-10-27",
   "hs_codes": {
     "status": "ready",
     "items": [
