@@ -4,7 +4,7 @@
   "flag": "🇦🇺",
   "region": "大洋洲",
   "difficulty": 2,
-  "summary": "已核实化妆品成分标签强制标准。工业化学品引进和防晒分类官网本次未打开。",
+  "summary": "已核实成分标签；TGA 10-27公布防晒改革方向（成品测SPF、化妆品防晒声称设限）。",
   "items": [
     {
       "id": "au-label",
@@ -37,6 +37,24 @@
       "needs_review": true
     },
     {
+      "id": "au-sunscreen",
+      "name_zh": "防晒按治疗用品路径监管（改革中）",
+      "authority": "TGA",
+      "type": "registration",
+      "mandatory": true,
+      "cost": "未知",
+      "time": "改革分阶段落地",
+      "docs": [
+        "成品SPF检测",
+        "ARTG列名（治疗类）"
+      ],
+      "who": "防晒赞助商/制造商",
+      "note": "TGA 10-27公布改革方向：成品须测SPF并交局；化妆品防晒SPF声称将设上限。",
+      "official_url": "https://www.tga.gov.au/products/regulations-all-products/tga-reforms/sunscreen-reforms",
+      "source_checked": "2026-10-27",
+      "needs_review": true
+    },
+    {
       "id": "au-aicis",
       "name_zh": "工业化学品页面未打开",
       "authority": "工业化学品引进制度",
@@ -62,11 +80,15 @@
       "type": "safety"
     },
     {
+      "title": "防晒改革中",
+      "type": "registration"
+    },
+    {
       "title": "AICIS待核",
       "type": "registration"
     }
   ],
-  "last_verified": "2026-10-26",
+  "last_verified": "2026-10-27",
   "hs_codes": {
     "status": "ready",
     "items": [
