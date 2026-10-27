@@ -4,7 +4,7 @@
   "flag": "🇨🇳",
   "region": "东亚",
   "difficulty": 3,
-  "summary": "特殊注册、普通备案；境外须境内法人。第99号实施路径；一般贸易自2026-12-01适用海关第284号（跨境零售仍按专规）；新原料可申请创新指导。",
+  "summary": "特殊注册、普通备案；境外须境内法人。第99号/海关284号路径；新原料创新指导与新功效前置咨询可用。",
   "items": [
     {
       "id": "cn-split",
@@ -140,6 +140,25 @@
       "who": "新原料注册人、备案人",
       "note": "2026-10-23试行：重点新原料可优先审评；备案类原则上不再备案后核查。",
       "official_url": "https://www.nidc.org.cn/xxgk/ggtzh/tongzhi/202610231533302256281.html",
+      "source_checked": "2026-10-27",
+      "needs_review": false
+    },
+    {
+      "id": "cn-new-efficacy-consult",
+      "name_zh": "新功效注册前置咨询（试行）",
+      "authority": "中检院",
+      "type": "registration",
+      "mandatory": false,
+      "cost": "免费",
+      "time": "电话约30日/会议约60日",
+      "docs": [
+        "沟通交流会议申请表",
+        "研究背景与作用机理",
+        "功效评价与安全评价资料"
+      ],
+      "who": "新功效化妆品注册人",
+      "note": "2026-10-20试行：申报前可电话/会议沟通；意见仅供参考，不作审评依据。",
+      "official_url": "https://www.nidc.org.cn/bshff/hzhpjssp/hzpsptzgg/202610201518122252260.html",
       "source_checked": "2026-10-27",
       "needs_review": false
     }

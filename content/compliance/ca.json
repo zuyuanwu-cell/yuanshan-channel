@@ -4,7 +4,7 @@
   "flag": "🇨🇦",
   "region": "北美",
   "difficulty": 2,
-  "summary": "首次销售后 10 日内向卫生部通报，不收费，通报不等于批准。",
+  "summary": "首次销售后 10 日内向卫生部通报，不收费，通报不等于批准；香精过敏原超阈值须单独标示（新品已按 81 项，在售品宽限至 2028-08-01）。",
   "items": [
     {
       "id": "ca-notify",
@@ -42,18 +42,22 @@
     },
     {
       "id": "ca-label",
-      "name_zh": "标签宣称须真实",
+      "name_zh": "标签与香精过敏原披露",
       "authority": "加拿大卫生部",
       "type": "label",
       "mandatory": true,
       "cost": "未知",
       "time": "未知",
-      "docs": [],
+      "docs": [
+        "INCI 成分表",
+        "英法标签",
+        "香精过敏原筛查"
+      ],
       "who": "制造商或进口商",
-      "note": "官网写明功效宣称不得误导。标签细则未逐条打开。",
-      "official_url": "https://www.canada.ca/en/health-canada/services/consumer-product-safety/cosmetics.html",
-      "source_checked": "2026-10-24",
-      "needs_review": true
+      "note": "香精过敏原超阈值须在parfum外单列：2026-04-12起24项；新品2026-08-01起81项；在售宽限至2028-08-01。",
+      "official_url": "https://www.canada.ca/en/health-canada/services/cosmetics/cosmetic-advertising-labelling-ingredients.html",
+      "source_checked": "2026-10-27",
+      "needs_review": false
     },
     {
       "id": "ca-hs",
@@ -85,7 +89,7 @@
       "type": "tax-customs"
     }
   ],
-  "last_verified": "2026-10-24",
+  "last_verified": "2026-10-27",
   "hs_codes": {
     "status": "ready",
     "items": [
