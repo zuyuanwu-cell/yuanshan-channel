@@ -111,7 +111,7 @@
       "time": "未知",
       "docs": [],
       "who": "进口商",
-      "note": "家清已按ЕТТ补入；化妆刷改9603309000；美容仪10位码仍空",
+      "note": "已补家清、洁面皂和洗面奶等；美容仪10位码仍空",
       "official_url": "https://eec.eaeunion.org/comission/department/catr/ett/",
       "source_checked": "2026-10-28",
       "needs_review": false
@@ -166,6 +166,12 @@
         "source_url": "https://www.ifcg.ru/kb/tnved/3304100000/"
       },
       {
+        "code": "3304990000",
+        "name_zh": "润唇膏",
+        "duty": "6,5%",
+        "source_url": "https://eec.eaeunion.org/comission/department/catr/ett/ru.2022/ru.33_2022_08.03.2026.pdf"
+      },
+      {
         "code": "3304200000",
         "name_zh": "眼部彩妆",
         "duty": "6,5%",
@@ -185,9 +191,33 @@
       },
       {
         "code": "3304990000",
+        "name_zh": "粉底液/粉底霜",
+        "duty": "6,5%",
+        "source_url": "https://eec.eaeunion.org/comission/department/catr/ett/ru.2022/ru.33_2022_08.03.2026.pdf"
+      },
+      {
+        "code": "3304990000",
         "name_zh": "面霜/乳液/精华（护肤）",
         "duty": "6,5%",
         "source_url": "https://www.ifcg.ru/kb/tnved/3304990000/"
+      },
+      {
+        "code": "3304990000",
+        "name_zh": "化妆水/爽肤水",
+        "duty": "6,5%",
+        "source_url": "https://eec.eaeunion.org/comission/department/catr/ett/ru.2022/ru.33_2022_08.03.2026.pdf"
+      },
+      {
+        "code": "3304990000",
+        "name_zh": "身体乳",
+        "duty": "6,5%",
+        "source_url": "https://eec.eaeunion.org/comission/department/catr/ett/ru.2022/ru.33_2022_08.03.2026.pdf"
+      },
+      {
+        "code": "3304990000",
+        "name_zh": "护手霜",
+        "duty": "6,5%",
+        "source_url": "https://eec.eaeunion.org/comission/department/catr/ett/ru.2022/ru.33_2022_08.03.2026.pdf"
       },
       {
         "code": "3304990000",
@@ -214,6 +244,12 @@
         "source_url": "https://www.ifcg.ru/kb/tnved/3305900009/"
       },
       {
+        "code": "3305900001",
+        "name_zh": "发露",
+        "duty": "6,5%",
+        "source_url": "https://eec.eaeunion.org/comission/department/catr/ett/ru.2022/ru.33_2022_08.03.2026.pdf"
+      },
+      {
         "code": "3305900009",
         "name_zh": "染发剂",
         "duty": "6,5%",
@@ -224,6 +260,12 @@
         "name_zh": "发胶/定型喷雾",
         "duty": "6,5%",
         "source_url": "https://www.ifcg.ru/kb/tnved/3305300000/"
+      },
+      {
+        "code": "3305200000",
+        "name_zh": "烫发/直发剂",
+        "duty": "6,5%",
+        "source_url": "https://eec.eaeunion.org/comission/department/catr/ett/ru.2022/ru.33_2022_08.03.2026.pdf"
       },
       {
         "code": "3306100000",
@@ -256,6 +298,12 @@
         "source_url": "https://www.ifcg.ru/kb/tnved/3307100000/"
       },
       {
+        "code": "3307300000",
+        "name_zh": "泡泡浴/沐浴盐",
+        "duty": "6,5%",
+        "source_url": "https://eec.eaeunion.org/comission/department/catr/ett/ru.2022/ru.33_2022_08.03.2026.pdf"
+      },
+      {
         "code": "3401300000",
         "name_zh": "沐浴露",
         "duty": "6,5%",
@@ -268,16 +316,34 @@
         "source_url": "https://eec.eaeunion.org/comission/department/catr/ett/ru.2022/ru.34_2022_08.03.2026.pdf"
       },
       {
+        "code": "3401110001",
+        "name_zh": "洁面皂",
+        "duty": "4,5% + 0,02欧元/千克",
+        "source_url": "https://eec.eaeunion.org/comission/department/catr/ett/ru.2022/ru.34_2022_08.03.2026.pdf"
+      },
+      {
         "code": "3401300000",
         "name_zh": "液体洗手液",
         "duty": "6,5%",
         "source_url": "https://www.ifcg.ru/kb/tnved/3401300000/"
       },
       {
+        "code": "3401300000",
+        "name_zh": "洁面乳/洗面奶",
+        "duty": "6,5%",
+        "source_url": "https://eec.eaeunion.org/comission/department/catr/ett/ru.2022/ru.34_2022_08.03.2026.pdf"
+      },
+      {
         "code": "3307900008",
         "name_zh": "脱毛膏",
         "duty": "6,5%",
         "source_url": "https://www.ifcg.ru/kb/tnved/3307900008/"
+      },
+      {
+        "code": "3307900008",
+        "name_zh": "湿巾（洁面/卸妆）",
+        "duty": "6,5%",
+        "source_url": "https://eec.eaeunion.org/comission/department/catr/ett/ru.2022/ru.33_2022_08.03.2026.pdf"
       },
       {
         "code": "3304990000",
