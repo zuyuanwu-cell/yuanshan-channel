@@ -33,8 +33,8 @@
       "who": "成员国境内法人或个体户",
       "note": "附件12国家注册，其余声明。第74号2026-10-28生效；老证用至到期。",
       "official_url": "https://old.adilet.zan.kz/rus/docs/H11T0000799",
-      "source_checked": "2026-10-26",
-      "needs_review": true
+      "source_checked": "2026-10-28",
+      "needs_review": false
     },
     {
       "id": "kz-label",
@@ -48,7 +48,7 @@
       "who": "投放市场的人",
       "note": "名称用途制造商保质期成分+流通标志。2027-01-01起甲醛>0.001%须警示。",
       "official_url": "https://old.adilet.zan.kz/rus/docs/H11T0000799",
-      "source_checked": "2026-10-26",
+      "source_checked": "2026-10-28",
       "needs_review": false
     },
     {
@@ -63,8 +63,8 @@
       "who": "申请人",
       "note": "第74号多数修订2026-10-28生效；甲醛警示2027-01-01起0.001%。",
       "official_url": "https://eec.eaeunion.org/comission/department/deptexreg/tr/bezopParfum.php",
-      "source_checked": "2026-10-26",
-      "needs_review": true
+      "source_checked": "2026-10-28",
+      "needs_review": false
     }
   ],
   "steps": [
@@ -81,7 +81,7 @@
       "type": "label"
     }
   ],
-  "last_verified": "2026-10-26",
+  "last_verified": "2026-10-28",
   "hs_codes": {
     "status": "pending",
     "items": []

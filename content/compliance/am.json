@@ -33,8 +33,8 @@
       "who": "联盟内申请人",
       "note": "2012-07-01起生效。第74号多数修订2026-10-28生效；老证用至到期。",
       "official_url": "https://eec.eaeunion.org/comission/department/deptexreg/tr/bezopParfum.php",
-      "source_checked": "2026-10-26",
-      "needs_review": true
+      "source_checked": "2026-10-28",
+      "needs_review": false
     },
     {
       "id": "am-hs",
@@ -62,7 +62,7 @@
       "type": "tax-customs"
     }
   ],
-  "last_verified": "2026-10-26",
+  "last_verified": "2026-10-28",
   "hs_codes": {
     "status": "pending",
     "items": []
