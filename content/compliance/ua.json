@@ -22,6 +22,21 @@
       "needs_review": true
     },
     {
+      "id": "ua-tech-reg",
+      "name_zh": "化妆品技术法规（内阁第65号决议）过渡期",
+      "authority": "乌克兰内阁 / 卫生部",
+      "type": "registration",
+      "mandatory": true,
+      "cost": "未知",
+      "time": "未知",
+      "docs": [],
+      "who": "进口商、授权代表、分销商",
+      "note": "不合规产品可投放至2027-07-31（第976号决议），已投放可卖到2030-08-03；12月拟再修正防日期回退。",
+      "official_url": "https://zakon.rada.gov.ua/laws/show/976-2026-%D0%BF",
+      "source_checked": "2026-10-28",
+      "needs_review": true
+    },
+    {
       "id": "ua-hs",
       "name_zh": "HS 编码与关税",
       "authority": "目的国海关",
@@ -47,7 +62,7 @@
       "type": "tax-customs"
     }
   ],
-  "last_verified": "2026-10-24",
+  "last_verified": "2026-10-28",
   "hs_codes": {
     "status": "pending",
     "items": []
