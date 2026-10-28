@@ -4,7 +4,7 @@
   "flag": "🇨🇳",
   "region": "东亚",
   "difficulty": 3,
-  "summary": "特殊注册、普通备案；第99号与牙膏分类目录（第100号）；新原料/新功效咨询可用。",
+  "summary": "特殊注册、普通备案；第99号与牙膏分类目录；新原料/新功效咨询；成品免新化学物质环境登记、原料须登。",
   "items": [
     {
       "id": "cn-split",
@@ -180,6 +180,25 @@
       "official_url": "https://www.nmpa.gov.cn/xxgk/ggtg/hzhpggtg/jmhzhptg/20261014170739124.html",
       "source_checked": "2026-10-27",
       "needs_review": false
+    },
+    {
+      "id": "cn-mee-ncs",
+      "name_zh": "新化学物质环境管理登记（第40号令）",
+      "authority": "生态环境部",
+      "type": "registration",
+      "mandatory": true,
+      "cost": "未知",
+      "time": "生产/进口前",
+      "docs": [
+        "登记申请表",
+        "物化与毒理测试资料（按类型）",
+        "环境风险评估报告（常规）"
+      ],
+      "who": "境内新化学物质生产商或进口商",
+      "note": "第40号令2026-10-24施行：化妆品成品仍豁免；原料/中间体为新化学物质须登记。境外企业不可作申请人。",
+      "official_url": "https://www.mee.gov.cn/xxgk2018/xxgk/xxgk02/202610/t20261027_1184708.html",
+      "source_checked": "2026-10-28",
+      "needs_review": false
     }
   ],
   "steps": [
@@ -196,7 +215,7 @@
       "type": "label"
     }
   ],
-  "last_verified": "2026-10-27",
+  "last_verified": "2026-10-28",
   "hs_codes": {
     "status": "ready",
     "items": [
