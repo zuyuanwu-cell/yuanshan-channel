@@ -75,12 +75,15 @@
       "cost": "未知",
       "time": "未知",
       "docs": [
-        "清真认证申请资料"
+        "清真认证申请资料",
+        "SJPH体系文件",
+        "监督员任命/培训证明",
+        "原料清真证或支撑材料"
       ],
       "who": "品牌/进口商",
-      "note": "化妆品强制期顺延至 2028-10-17（PP 40/2026，BPJPH 官方确认）",
-      "official_url": "https://bpjph.halal.go.id/read/penyesuaian-penahapan-kewajiban-sertifikasi-halal-diatur-dalam-pp-40-tahun-2026-begini-rinciannya",
-      "source_checked": "2026-10-25",
+      "note": "强制持证至2028-10-17；SJPH细则见BPJPH第370号（2026-10-18生效）",
+      "official_url": "https://halalmui.org/wp-content/uploads/2026/05/Salinan-370.2026.-Pedoman-Pelaksanaan-SJPH-Kosmetik-1.pdf",
+      "source_checked": "2026-10-28",
       "needs_review": false
     },
     {
@@ -121,7 +124,7 @@
       "type": "tax-customs"
     }
   ],
-  "last_verified": "2026-10-25",
+  "last_verified": "2026-10-28",
   "hs_codes": {
     "status": "ready",
     "items": [
