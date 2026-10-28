@@ -104,16 +104,16 @@
     {
       "id": "ru-hs",
       "name_zh": "ТН ВЭД 编码与关税",
-      "authority": "俄联邦海关",
+      "authority": "欧亚经济委员会",
       "type": "tax-customs",
       "mandatory": true,
       "cost": "未知",
       "time": "未知",
       "docs": [],
       "who": "进口商",
-      "note": "HS 编码待补",
-      "official_url": "https://customs.gov.ru/",
-      "source_checked": "2026-10-23",
+      "note": "家清已按ЕТТ补入；化妆刷改9603309000；美容仪10位码仍空",
+      "official_url": "https://eec.eaeunion.org/comission/department/catr/ett/",
+      "source_checked": "2026-10-28",
       "needs_review": false
     }
   ],
@@ -264,8 +264,8 @@
       {
         "code": "3401110001",
         "name_zh": "香皂（块）",
-        "duty": "4,5%",
-        "source_url": "https://www.ifcg.ru/kb/tnved/3401110001/"
+        "duty": "4,5% + 0,02欧元/千克",
+        "source_url": "https://eec.eaeunion.org/comission/department/catr/ett/ru.2022/ru.34_2022_08.03.2026.pdf"
       },
       {
         "code": "3401300000",
@@ -286,10 +286,10 @@
         "source_url": "https://www.ifcg.ru/kb/tnved/3304990000/"
       },
       {
-        "code": "9603298000",
+        "code": "9603309000",
         "name_zh": "化妆刷",
         "duty": "15%",
-        "source_url": "https://www.ifcg.ru/kb/tnved/9603298000/"
+        "source_url": "https://eec.eaeunion.org/comission/department/catr/ett/ru.2022/ru.96_2022_08.03.2026.pdf"
       },
       {
         "code": "9616200000",
@@ -314,6 +314,72 @@
         "name_zh": "美发电器（卷/直发器）",
         "duty": "8%",
         "source_url": "https://www.ifcg.ru/kb/tnved/8516320000/"
+      },
+      {
+        "code": "3402500000",
+        "name_zh": "洗衣液",
+        "duty": "6,5%",
+        "source_url": "https://eec.eaeunion.org/comission/department/catr/ett/ru.2022/ru.34_2022_08.03.2026.pdf"
+      },
+      {
+        "code": "3402500000",
+        "name_zh": "柔顺剂/衣物护理",
+        "duty": "6,5%",
+        "source_url": "https://eec.eaeunion.org/comission/department/catr/ett/ru.2022/ru.34_2022_08.03.2026.pdf"
+      },
+      {
+        "code": "3402500000",
+        "name_zh": "洗洁精/洗碗液",
+        "duty": "6,5%",
+        "source_url": "https://eec.eaeunion.org/comission/department/catr/ett/ru.2022/ru.34_2022_08.03.2026.pdf"
+      },
+      {
+        "code": "3402500000",
+        "name_zh": "多用途清洁剂",
+        "duty": "6,5%",
+        "source_url": "https://eec.eaeunion.org/comission/department/catr/ett/ru.2022/ru.34_2022_08.03.2026.pdf"
+      },
+      {
+        "code": "3402500000",
+        "name_zh": "洁厕剂",
+        "duty": "6,5%",
+        "source_url": "https://eec.eaeunion.org/comission/department/catr/ett/ru.2022/ru.34_2022_08.03.2026.pdf"
+      },
+      {
+        "code": "3402500000",
+        "name_zh": "玻璃清洁剂",
+        "duty": "6,5%",
+        "source_url": "https://eec.eaeunion.org/comission/department/catr/ett/ru.2022/ru.34_2022_08.03.2026.pdf"
+      },
+      {
+        "code": "3402500000",
+        "name_zh": "家用漂白制剂",
+        "duty": "6,5%",
+        "source_url": "https://eec.eaeunion.org/comission/department/catr/ett/ru.2022/ru.34_2022_08.03.2026.pdf"
+      },
+      {
+        "code": "2828900000",
+        "name_zh": "次氯酸盐（漂白水）",
+        "duty": "5%",
+        "source_url": "https://eec.eaeunion.org/comission/department/catr/ett/ru.2022/ru.28_2022_17.08.2026.pdf"
+      },
+      {
+        "code": "2847000000",
+        "name_zh": "过氧化氢（氧漂）",
+        "duty": "5%",
+        "source_url": "https://eec.eaeunion.org/comission/department/catr/ett/ru.2022/ru.28_2022_17.08.2026.pdf"
+      },
+      {
+        "code": "3402909000",
+        "name_zh": "非零售洗涤/清洁制剂",
+        "duty": "6,5%",
+        "source_url": "https://eec.eaeunion.org/comission/department/catr/ett/ru.2022/ru.34_2022_08.03.2026.pdf"
+      },
+      {
+        "code": "3808948000",
+        "name_zh": "消毒剂",
+        "duty": "5%",
+        "source_url": "https://eec.eaeunion.org/comission/department/catr/ett/ru.2022/ru.38_2022_08.03.2026.pdf"
       }
     ]
   }

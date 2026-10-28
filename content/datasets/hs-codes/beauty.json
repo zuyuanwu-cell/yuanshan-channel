@@ -1,5 +1,5 @@
 {
-  "version": "2026-10-24",
+  "version": "2026-10-28",
   "title": "美妆与家清日化海关编码与税率",
   "products_count": 40,
   "countries": {
@@ -286,10 +286,11 @@
     },
     "ru": {
       "name_zh": "俄罗斯/EAEU",
-      "rows": 29,
-      "with_duty": 28,
+      "rows": 40,
+      "with_duty": 39,
       "verification": {
-        "verified_secondary": 28,
+        "verified_secondary": 26,
+        "verified_official": 13,
         "unverified": 1
       }
     },
@@ -3978,15 +3979,15 @@
       "national_code": "3401110001",
       "official_description": "МЫЛО ТУАЛЕТНОЕ (ВКЛЮЧАЯ МЫЛО, СОДЕРЖАЩЕЕ ЛЕКАРСТВЕННЫЕ СРЕДСТВА)",
       "description_zh": "香皂（块）",
-      "import_duty": "4,5%",
+      "import_duty": "4,5% + 0,02欧元/千克",
       "vat_or_gst": "22%",
-      "other_tax_notes": "EAC/TR CU 009/2011；诚信标志赋码；GCC 34011180 Toilet soaps；MY 3401115000",
+      "other_tax_notes": "EAC/TR CU 009/2011；诚信标志赋码；GCC 34011180 Toilet soaps；MY 3401115000 进口关税按官方ЕТТ更正：原文为「4,5 плюс 0,02 евро за 1 кг」，不是单一4,5%。",
       "fta_china": "无关税减让（中欧亚经贸合作协定）",
       "export_rebate": null,
-      "source_url": "https://www.ifcg.ru/kb/tnved/3401110001/",
-      "source_type": "二级来源（镜像ЕТТ ЕАЭС）",
-      "verification": "verified_secondary",
-      "verified_date": "2026-10-23"
+      "source_url": "https://eec.eaeunion.org/comission/department/catr/ett/ru.2022/ru.34_2022_08.03.2026.pdf",
+      "source_type": "官方（欧亚经济委员会 ЕТТ ЕАЭС）",
+      "verification": "verified_official",
+      "verified_date": "2026-10-28"
     },
     {
       "country": "菲律宾",
@@ -4734,19 +4735,19 @@
       "country_code": "ru",
       "product_zh": "化妆刷",
       "product_en": "Cosmetic brushes",
-      "hs6": "960329",
-      "national_code": "9603298000",
-      "official_description": "ПРОЧИЕ ЩЕТКИ ИНДИВИДУАЛЬНОГО ПОЛЬЗОВАНИЯ",
+      "hs6": "960330",
+      "national_code": "9603309000",
+      "official_description": "кисточки для нанесения косметики",
       "description_zh": "化妆刷",
       "import_duty": "15%",
       "vat_or_gst": "22%",
-      "other_tax_notes": "EAC/TR CU 009/2011；诚信标志赋码",
+      "other_tax_notes": "诚信标志赋码（沿用原记录，本次未重核赋码令）。归类由9603 29 800 0改为9603 30 900 0：第96章原文为涂抹化妆品用刷，税率仍为15%。9603 29 800 0是个人用其他刷子。发刷9603 29 300 0税率为8%，未采用。",
       "fta_china": "无关税减让（中欧亚经贸合作协定）",
       "export_rebate": null,
-      "source_url": "https://www.ifcg.ru/kb/tnved/9603298000/",
-      "source_type": "二级来源（镜像ЕТТ ЕАЭС）",
-      "verification": "verified_secondary",
-      "verified_date": "2026-10-23"
+      "source_url": "https://eec.eaeunion.org/comission/department/catr/ett/ru.2022/ru.96_2022_08.03.2026.pdf",
+      "source_type": "官方（欧亚经济委员会 ЕТТ ЕАЭС）",
+      "verification": "verified_official",
+      "verified_date": "2026-10-28"
     },
     {
       "country": "菲律宾",
@@ -5689,14 +5690,14 @@
       "official_description": null,
       "description_zh": "电动美容仪（面部）",
       "import_duty": null,
-      "vat_or_gst": null,
-      "other_tax_notes": "10位编码未确认；归类争议大，射频/微电流也可能归9019；须预裁定",
-      "fta_china": null,
+      "vat_or_gst": "22%",
+      "other_tax_notes": "10位编码未选定，进口关税留空。已读ЕТТ第85章（2026-07-05版）：8543 70 800 0为其他电气机器，税率0%；8543 70 500为日光浴及类似晒黑设备，税率5%，不是面部美容仪。第90章（2026-03-08版）9019 10 100 0为电动振动按摩器，税率0%；9019 10 900 9为其他按摩器具，税率0%。射频、微电流或LED面罩归哪一行有争议，须预裁定。增值税按标准税率22%填写，与编码无关；10%清单未逐条核对。",
+      "fta_china": "无关税减让（中欧亚经贸合作协定）",
       "export_rebate": null,
-      "source_url": "https://eec.eaeunion.org/comission/department/catr/ett/",
-      "source_type": null,
+      "source_url": "https://eec.eaeunion.org/comission/department/catr/ett/ru.2022/ru.85_2022_05.07.2026.pdf",
+      "source_type": "官方税则已查阅，10位编码未选定",
       "verification": "unverified",
-      "verified_date": "2026-10-23"
+      "verified_date": "2026-10-28"
     },
     {
       "country": "菲律宾",
@@ -9727,6 +9728,25 @@
       "verified_date": "2026-10-24"
     },
     {
+      "country": "俄罗斯/EAEU",
+      "country_code": "ru",
+      "product_zh": "洗衣液",
+      "product_en": "Laundry detergent",
+      "hs6": "340250",
+      "national_code": "3402500000",
+      "official_description": "средства, расфасованные для розничной продажи",
+      "description_zh": "洗衣液",
+      "import_duty": "6,5%",
+      "vat_or_gst": "22%",
+      "other_tax_notes": "零售洗涤制剂。粉、液和凝珠在本税则没有分开。 税则未按品名拆开：零售洗涤制剂、辅助洗涤制剂和清洁制剂同为3402 50 000 0，税率6,5%。粉和凝珠未再拆。消毒型可能归3808.94，次氯酸盐溶液可能归2828.90，玻璃抛光膏可能归3405。 增值税取标准税率22%（НК РФ第164条第3款，自2026-01-01；ФНС信函2025-12-29 СД-4-3/11802@）。进口适用同条第5款。10%清单未逐条核对。家清专用技术法规未出现在欧亚经济委员会已生效技术法规清单（2026-10-28查阅）。ТР ТС 009/2011只覆盖化妆品，不写入本行。",
+      "fta_china": "无关税减让（中欧亚经贸合作协定）",
+      "export_rebate": null,
+      "source_url": "https://eec.eaeunion.org/comission/department/catr/ett/ru.2022/ru.34_2022_08.03.2026.pdf",
+      "source_type": "官方（欧亚经济委员会 ЕТТ ЕАЭС）",
+      "verification": "verified_official",
+      "verified_date": "2026-10-28"
+    },
+    {
       "country": "欧盟",
       "country_code": "eu",
       "product_zh": "洗衣液",
@@ -9858,6 +9878,25 @@
       "source_type": "官方（UK Trade Tariff）",
       "verification": "verified_official",
       "verified_date": "2026-10-24"
+    },
+    {
+      "country": "俄罗斯/EAEU",
+      "country_code": "ru",
+      "product_zh": "柔顺剂/衣物护理",
+      "product_en": "Fabric softener",
+      "hs6": "340250",
+      "national_code": "3402500000",
+      "official_description": "средства, расфасованные для розничной продажи",
+      "description_zh": "柔顺剂/衣物护理",
+      "import_duty": "6,5%",
+      "vat_or_gst": "22%",
+      "other_tax_notes": "零售辅助洗涤制剂。若被认定为纺织工业整理剂，可能改归3809 91 000 0（税率5%）。 税则未按品名拆开：零售洗涤制剂、辅助洗涤制剂和清洁制剂同为3402 50 000 0，税率6,5%。粉和凝珠未再拆。消毒型可能归3808.94，次氯酸盐溶液可能归2828.90，玻璃抛光膏可能归3405。 增值税取标准税率22%（НК РФ第164条第3款，自2026-01-01；ФНС信函2025-12-29 СД-4-3/11802@）。进口适用同条第5款。10%清单未逐条核对。家清专用技术法规未出现在欧亚经济委员会已生效技术法规清单（2026-10-28查阅）。ТР ТС 009/2011只覆盖化妆品，不写入本行。",
+      "fta_china": "无关税减让（中欧亚经贸合作协定）",
+      "export_rebate": null,
+      "source_url": "https://eec.eaeunion.org/comission/department/catr/ett/ru.2022/ru.34_2022_08.03.2026.pdf",
+      "source_type": "官方（欧亚经济委员会 ЕТТ ЕАЭС）",
+      "verification": "verified_official",
+      "verified_date": "2026-10-28"
     },
     {
       "country": "欧盟",
@@ -9993,6 +10032,25 @@
       "verified_date": "2026-10-24"
     },
     {
+      "country": "俄罗斯/EAEU",
+      "country_code": "ru",
+      "product_zh": "洗洁精/洗碗液",
+      "product_en": "Dishwashing liquid",
+      "hs6": "340250",
+      "national_code": "3402500000",
+      "official_description": "средства, расфасованные для розничной продажи",
+      "description_zh": "洗洁精/洗碗液",
+      "import_duty": "6,5%",
+      "vat_or_gst": "22%",
+      "other_tax_notes": "洗碗液。手洗和机洗在本税则没有分开。 税则未按品名拆开：零售洗涤制剂、辅助洗涤制剂和清洁制剂同为3402 50 000 0，税率6,5%。粉和凝珠未再拆。消毒型可能归3808.94，次氯酸盐溶液可能归2828.90，玻璃抛光膏可能归3405。 增值税取标准税率22%（НК РФ第164条第3款，自2026-01-01；ФНС信函2025-12-29 СД-4-3/11802@）。进口适用同条第5款。10%清单未逐条核对。家清专用技术法规未出现在欧亚经济委员会已生效技术法规清单（2026-10-28查阅）。ТР ТС 009/2011只覆盖化妆品，不写入本行。",
+      "fta_china": "无关税减让（中欧亚经贸合作协定）",
+      "export_rebate": null,
+      "source_url": "https://eec.eaeunion.org/comission/department/catr/ett/ru.2022/ru.34_2022_08.03.2026.pdf",
+      "source_type": "官方（欧亚经济委员会 ЕТТ ЕАЭС）",
+      "verification": "verified_official",
+      "verified_date": "2026-10-28"
+    },
+    {
       "country": "欧盟",
       "country_code": "eu",
       "product_zh": "洗洁精/洗碗液",
@@ -10124,6 +10182,25 @@
       "source_type": "官方（UK Trade Tariff）",
       "verification": "verified_official",
       "verified_date": "2026-10-24"
+    },
+    {
+      "country": "俄罗斯/EAEU",
+      "country_code": "ru",
+      "product_zh": "多用途清洁剂",
+      "product_en": "Multipurpose cleaner",
+      "hs6": "340250",
+      "national_code": "3402500000",
+      "official_description": "средства, расфасованные для розничной продажи",
+      "description_zh": "多用途清洁剂",
+      "import_duty": "6,5%",
+      "vat_or_gst": "22%",
+      "other_tax_notes": "零售清洁制剂。 税则未按品名拆开：零售洗涤制剂、辅助洗涤制剂和清洁制剂同为3402 50 000 0，税率6,5%。粉和凝珠未再拆。消毒型可能归3808.94，次氯酸盐溶液可能归2828.90，玻璃抛光膏可能归3405。 增值税取标准税率22%（НК РФ第164条第3款，自2026-01-01；ФНС信函2025-12-29 СД-4-3/11802@）。进口适用同条第5款。10%清单未逐条核对。家清专用技术法规未出现在欧亚经济委员会已生效技术法规清单（2026-10-28查阅）。ТР ТС 009/2011只覆盖化妆品，不写入本行。",
+      "fta_china": "无关税减让（中欧亚经贸合作协定）",
+      "export_rebate": null,
+      "source_url": "https://eec.eaeunion.org/comission/department/catr/ett/ru.2022/ru.34_2022_08.03.2026.pdf",
+      "source_type": "官方（欧亚经济委员会 ЕТТ ЕАЭС）",
+      "verification": "verified_official",
+      "verified_date": "2026-10-28"
     },
     {
       "country": "欧盟",
@@ -10259,6 +10336,25 @@
       "verified_date": "2026-10-24"
     },
     {
+      "country": "俄罗斯/EAEU",
+      "country_code": "ru",
+      "product_zh": "洁厕剂",
+      "product_en": "Toilet cleaner",
+      "hs6": "340250",
+      "national_code": "3402500000",
+      "official_description": "средства, расфасованные для розничной продажи",
+      "description_zh": "洁厕剂",
+      "import_duty": "6,5%",
+      "vat_or_gst": "22%",
+      "other_tax_notes": "按清洁制剂。消毒剂型可能归3808.94。 税则未按品名拆开：零售洗涤制剂、辅助洗涤制剂和清洁制剂同为3402 50 000 0，税率6,5%。粉和凝珠未再拆。消毒型可能归3808.94，次氯酸盐溶液可能归2828.90，玻璃抛光膏可能归3405。 增值税取标准税率22%（НК РФ第164条第3款，自2026-01-01；ФНС信函2025-12-29 СД-4-3/11802@）。进口适用同条第5款。10%清单未逐条核对。家清专用技术法规未出现在欧亚经济委员会已生效技术法规清单（2026-10-28查阅）。ТР ТС 009/2011只覆盖化妆品，不写入本行。",
+      "fta_china": "无关税减让（中欧亚经贸合作协定）",
+      "export_rebate": null,
+      "source_url": "https://eec.eaeunion.org/comission/department/catr/ett/ru.2022/ru.34_2022_08.03.2026.pdf",
+      "source_type": "官方（欧亚经济委员会 ЕТТ ЕАЭС）",
+      "verification": "verified_official",
+      "verified_date": "2026-10-28"
+    },
+    {
       "country": "欧盟",
       "country_code": "eu",
       "product_zh": "洁厕剂",
@@ -10390,6 +10486,25 @@
       "source_type": "官方（UK Trade Tariff）",
       "verification": "verified_official",
       "verified_date": "2026-10-24"
+    },
+    {
+      "country": "俄罗斯/EAEU",
+      "country_code": "ru",
+      "product_zh": "玻璃清洁剂",
+      "product_en": "Glass cleaner",
+      "hs6": "340250",
+      "national_code": "3402500000",
+      "official_description": "средства, расфасованные для розничной продажи",
+      "description_zh": "玻璃清洁剂",
+      "import_duty": "6,5%",
+      "vat_or_gst": "22%",
+      "other_tax_notes": "按清洁制剂。玻璃抛光膏可能归3405，例如3405 90 900 0，税率6,5%。 税则未按品名拆开：零售洗涤制剂、辅助洗涤制剂和清洁制剂同为3402 50 000 0，税率6,5%。粉和凝珠未再拆。消毒型可能归3808.94，次氯酸盐溶液可能归2828.90，玻璃抛光膏可能归3405。 增值税取标准税率22%（НК РФ第164条第3款，自2026-01-01；ФНС信函2025-12-29 СД-4-3/11802@）。进口适用同条第5款。10%清单未逐条核对。家清专用技术法规未出现在欧亚经济委员会已生效技术法规清单（2026-10-28查阅）。ТР ТС 009/2011只覆盖化妆品，不写入本行。",
+      "fta_china": "无关税减让（中欧亚经贸合作协定）",
+      "export_rebate": null,
+      "source_url": "https://eec.eaeunion.org/comission/department/catr/ett/ru.2022/ru.34_2022_08.03.2026.pdf",
+      "source_type": "官方（欧亚经济委员会 ЕТТ ЕАЭС）",
+      "verification": "verified_official",
+      "verified_date": "2026-10-28"
     },
     {
       "country": "欧盟",
@@ -10525,6 +10640,25 @@
       "verified_date": "2026-10-24"
     },
     {
+      "country": "俄罗斯/EAEU",
+      "country_code": "ru",
+      "product_zh": "家用漂白制剂",
+      "product_en": "Household bleach preparation",
+      "hs6": "340250",
+      "national_code": "3402500000",
+      "official_description": "средства, расфасованные для розничной продажи",
+      "description_zh": "家用漂白制剂",
+      "import_duty": "6,5%",
+      "vat_or_gst": "22%",
+      "other_tax_notes": "税则没有单独点名家用漂白或上蓝制剂。零售洗涤或清洁制剂用3402 50 000 0，与洗衣液同一行。次氯酸钠等次氯酸盐本身是2828 90 000 0。 税则未按品名拆开：零售洗涤制剂、辅助洗涤制剂和清洁制剂同为3402 50 000 0，税率6,5%。粉和凝珠未再拆。消毒型可能归3808.94，次氯酸盐溶液可能归2828.90，玻璃抛光膏可能归3405。 增值税取标准税率22%（НК РФ第164条第3款，自2026-01-01；ФНС信函2025-12-29 СД-4-3/11802@）。进口适用同条第5款。10%清单未逐条核对。家清专用技术法规未出现在欧亚经济委员会已生效技术法规清单（2026-10-28查阅）。ТР ТС 009/2011只覆盖化妆品，不写入本行。",
+      "fta_china": "无关税减让（中欧亚经贸合作协定）",
+      "export_rebate": null,
+      "source_url": "https://eec.eaeunion.org/comission/department/catr/ett/ru.2022/ru.34_2022_08.03.2026.pdf",
+      "source_type": "官方（欧亚经济委员会 ЕТТ ЕАЭС）",
+      "verification": "verified_official",
+      "verified_date": "2026-10-28"
+    },
+    {
       "country": "加拿大",
       "country_code": "ca",
       "product_zh": "家用漂白制剂",
@@ -10542,6 +10676,25 @@
       "source_type": "官方（CBSA 2026 海关税则）",
       "verification": "verified_official",
       "verified_date": "2026-10-24"
+    },
+    {
+      "country": "俄罗斯/EAEU",
+      "country_code": "ru",
+      "product_zh": "次氯酸盐（漂白水）",
+      "product_en": "Hypochlorite bleach",
+      "hs6": "282890",
+      "national_code": "2828900000",
+      "official_description": "Гипохлориты; гипохлорит кальция технический; хлориты; гипобромиты: прочие",
+      "description_zh": "次氯酸盐（漂白水）",
+      "import_duty": "5%",
+      "vat_or_gst": "22%",
+      "other_tax_notes": "次氯酸钠一类归本行「прочие」。商品次氯酸钙是2828 10 000 0，行内税率同为5%；该行脚注67С的临时0%只到2022-09-30。配成清洁剂后可能改归3402。 增值税取标准税率22%（НК РФ第164条第3款，自2026-01-01；ФНС信函2025-12-29 СД-4-3/11802@）。进口适用同条第5款。10%清单未逐条核对。家清专用技术法规未出现在欧亚经济委员会已生效技术法规清单（2026-10-28查阅）。ТР ТС 009/2011只覆盖化妆品，不写入本行。",
+      "fta_china": "无关税减让（中欧亚经贸合作协定）",
+      "export_rebate": null,
+      "source_url": "https://eec.eaeunion.org/comission/department/catr/ett/ru.2022/ru.28_2022_17.08.2026.pdf",
+      "source_type": "官方（欧亚经济委员会 ЕТТ ЕАЭС）",
+      "verification": "verified_official",
+      "verified_date": "2026-10-28"
     },
     {
       "country": "欧盟",
@@ -10677,6 +10830,25 @@
       "verified_date": "2026-10-24"
     },
     {
+      "country": "俄罗斯/EAEU",
+      "country_code": "ru",
+      "product_zh": "过氧化氢（氧漂）",
+      "product_en": "Hydrogen peroxide",
+      "hs6": "284700",
+      "national_code": "2847000000",
+      "official_description": "Пероксид водорода, отвержденный или не отвержденный мочевиной",
+      "description_zh": "过氧化氢（氧漂）",
+      "import_duty": "5%",
+      "vat_or_gst": "22%",
+      "other_tax_notes": "过氧化氢本身，不论是否用尿素固化。配成表面消毒剂可能归3808.94，配成洗涤剂可能归3402。补充计量单位为千克，税则行旁注H2O2。 增值税取标准税率22%（НК РФ第164条第3款，自2026-01-01；ФНС信函2025-12-29 СД-4-3/11802@）。进口适用同条第5款。10%清单未逐条核对。家清专用技术法规未出现在欧亚经济委员会已生效技术法规清单（2026-10-28查阅）。ТР ТС 009/2011只覆盖化妆品，不写入本行。",
+      "fta_china": "无关税减让（中欧亚经贸合作协定）",
+      "export_rebate": null,
+      "source_url": "https://eec.eaeunion.org/comission/department/catr/ett/ru.2022/ru.28_2022_17.08.2026.pdf",
+      "source_type": "官方（欧亚经济委员会 ЕТТ ЕАЭС）",
+      "verification": "verified_official",
+      "verified_date": "2026-10-28"
+    },
+    {
       "country": "欧盟",
       "country_code": "eu",
       "product_zh": "过氧化氢（氧漂）",
@@ -10810,6 +10982,25 @@
       "verified_date": "2026-10-24"
     },
     {
+      "country": "俄罗斯/EAEU",
+      "country_code": "ru",
+      "product_zh": "非零售洗涤/清洁制剂",
+      "product_en": "Non-retail washing preparation",
+      "hs6": "340290",
+      "national_code": "3402909000",
+      "official_description": "моющие средства и чистящие средства",
+      "description_zh": "非零售洗涤/清洁制剂",
+      "import_duty": "6,5%",
+      "vat_or_gst": "22%",
+      "other_tax_notes": "不是零售包装。表面活性制剂（不是洗涤或清洁制剂）在3402 90 100，本次不取。零售包装改归3402 50 000 0。 增值税取标准税率22%（НК РФ第164条第3款，自2026-01-01；ФНС信函2025-12-29 СД-4-3/11802@）。进口适用同条第5款。10%清单未逐条核对。家清专用技术法规未出现在欧亚经济委员会已生效技术法规清单（2026-10-28查阅）。ТР ТС 009/2011只覆盖化妆品，不写入本行。",
+      "fta_china": "无关税减让（中欧亚经贸合作协定）",
+      "export_rebate": null,
+      "source_url": "https://eec.eaeunion.org/comission/department/catr/ett/ru.2022/ru.34_2022_08.03.2026.pdf",
+      "source_type": "官方（欧亚经济委员会 ЕТТ ЕАЭС）",
+      "verification": "verified_official",
+      "verified_date": "2026-10-28"
+    },
+    {
       "country": "欧盟",
       "country_code": "eu",
       "product_zh": "非零售洗涤/清洁制剂",
@@ -10941,6 +11132,25 @@
       "source_type": "官方（UK Trade Tariff）",
       "verification": "verified_official",
       "verified_date": "2026-10-24"
+    },
+    {
+      "country": "俄罗斯/EAEU",
+      "country_code": "ru",
+      "product_zh": "消毒剂",
+      "product_en": "Disinfectant",
+      "hs6": "380894",
+      "national_code": "3808948000",
+      "official_description": "средства дезинфицирующие: прочие",
+      "description_zh": "消毒剂",
+      "import_duty": "5%",
+      "vat_or_gst": "22%",
+      "other_tax_notes": "剩余项「прочие」。季铵盐基料是3808 94 100 0，卤代化合物基料是3808 94 300 0，行内税率同为5%，未另开品类。三行脚注63С的临时0%只到2022-09-30，现行按行内5%。 增值税取标准税率22%（НК РФ第164条第3款，自2026-01-01；ФНС信函2025-12-29 СД-4-3/11802@）。进口适用同条第5款。10%清单未逐条核对。家清专用技术法规未出现在欧亚经济委员会已生效技术法规清单（2026-10-28查阅）。ТР ТС 009/2011只覆盖化妆品，不写入本行。",
+      "fta_china": "无关税减让（中欧亚经贸合作协定）",
+      "export_rebate": null,
+      "source_url": "https://eec.eaeunion.org/comission/department/catr/ett/ru.2022/ru.38_2022_08.03.2026.pdf",
+      "source_type": "官方（欧亚经济委员会 ЕТТ ЕАЭС）",
+      "verification": "verified_official",
+      "verified_date": "2026-10-28"
     },
     {
       "country": "欧盟",
