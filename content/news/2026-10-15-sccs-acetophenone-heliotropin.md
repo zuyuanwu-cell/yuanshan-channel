@@ -1,0 +1,61 @@
+---
+title: "欧盟SCCS终稿：苯乙酮成品最多100ppm，胡椒醛仅成人香水可到1.8%"
+date: "2026-10-15"
+category: "regulation"
+platforms:
+  - "amazon-eu"
+  - "temu"
+  - "zalando"
+  - "otto"
+countries:
+  - "eu"
+tags:
+  - "ingredients"
+  - "compliance"
+source_url: "https://health.ec.europa.eu/publications/sccs-opinion-safety-acetophenone-cas-no-98-86-2-ec-no-202-708-7_en"
+source_name: "欧盟健康总司 · SCCS/1689/26"
+checked: "2026-10-29"
+key_date:
+  date: "2026-10-15"
+  label: "终稿发布"
+highlight: true
+summary: "SCCS 10月15日发布两份终稿：苯乙酮在成品中最多100ppm（含3岁以上儿童）；胡椒醛仅成人香水可到1.8%。这是科学意见，禁限用表要等委员会改附件才强制。"
+needs_review: true
+sample: false
+---
+
+卖 **欧盟** 的香氛、精油复配、含天然复合物（NCS）的护肤/香水品牌注意：欧盟消费者安全科学委员会（**SCCS**）在 **2026年10月15日** 公开两份终稿意见——针对可能按 CLP 被列为 **生殖毒性 1B（Repr.1B）** 的香料相关物质，给出「在什么浓度下可视为安全」的科学结论。
+
+**这不是今天立刻改法**：附件 II/III 禁限用要等欧盟委员会走立法程序。但对责任人（RP）和安评，终稿意见通常会很快写进 CPSR 论据。
+
+## 改了什么（科学结论）
+
+### 1. 苯乙酮 Acetophenone（CAS 98-86-2）— SCCS/1689/26
+
+- 终稿采纳日 **2026-10-14**，发布页 **2026-10-15**
+- 问题背景：天然复合物里常带出苯乙酮；若按 Repr.1B 分类，化妆品法规对 CMR 很严
+- **结论**：成品化妆品中苯乙酮浓度 **不超过 100 ppm（0.01%）** 时，对成人及 **3 岁及以上儿童** 可视为安全（评估已计入化妆品以外来源暴露）
+- **边界**：未评估「整支天然复合物」本身的安全性，只评估其中作为组分的苯乙酮
+
+### 2. 胡椒醛 Heliotropin / Piperonal（CAS 120-57-0）— SCCS/1688/26
+
+- 终稿书面程序采纳约 **2026-10-12**，同日窗口发布
+- **结论**：仅在 **成人用高级香水（fine fragrances）** 中，最高 **1.8%** 可视为安全
+- 任务书范围就卡在「成人香水」；申请人另附了其他品类/儿童场景的安全边际测算，但 **不在本次正式结论里**
+
+## 影响谁
+
+- 配方里用 **精油、天然香基、复配香精** 的欧盟在售护肤/香水/个护（苯乙酮杂质或组分常见）
+- 主打 heliotropin/胡椒醛花香的 **香水品牌**
+- 欧盟 RP、安评实验室：写 CPSR 时要按新终稿核浓度，不能只写「天然来源所以没事」
+
+## 意味着什么
+
+- **先核配方实测/供应商报告**：精油批与批之间苯乙酮波动大，纸面配方不够，最好有批次检测或可追溯的规格上限
+- **香水线单独看胡椒醛**：儿童线、身体喷雾、护肤里加高比例 heliotropin，**不要**直接套用「1.8% 成人香水」结论
+- **盯 CosIng / 官方公报**：一旦委员会把限值写进附件，才有统一清货期；在此之前，平台抽检与成员国市场监管仍可能按最新科学意见卡货
+
+## 来源
+
+- [SCCS Opinion on Acetophenone（SCCS/1689/26）](https://health.ec.europa.eu/publications/sccs-opinion-safety-acetophenone-cas-no-98-86-2-ec-no-202-708-7_en)
+- [SCCS Final Opinion on Heliotropin（SCCS/1688/26）](https://health.ec.europa.eu/latest-updates/sccs-final-opinion-safety-heliotropin-used-cosmetic-products-2026-10-15_en)

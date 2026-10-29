@@ -96,9 +96,9 @@
         "配方逐项比对附件 II–VI"
       ],
       "who": "品牌/RP",
-      "note": "Omnibus VI（议会2026-10-22通过，待理事会）：新禁CMR后清货窗口拟为投放6个月/可售12个月（豁免被拒另有更短或更长档）。最终以公报为准。",
+      "note": "Omnibus VI待理事会；SCCS终稿：Acetophenone≤100ppm、Heliotropin成人香水≤1.8%（待写入附件）。",
       "official_url": "https://ec.europa.eu/growth/tools-databases/cosing/",
-      "source_checked": "2026-10-24",
+      "source_checked": "2026-10-29",
       "needs_review": true
     },
     {
@@ -205,7 +205,7 @@
       "type": "tax-customs"
     }
   ],
-  "last_verified": "2026-10-25",
+  "last_verified": "2026-10-29",
   "hs_codes": {
     "status": "ready",
     "items": [

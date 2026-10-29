@@ -4,8 +4,23 @@
   "flag": "🇵🇰",
   "region": "南亚",
   "difficulty": 2,
-  "summary": "药监局网站维护中。已打开的规则只覆盖含天然成分的药妆等保健产品，不是全部化妆品。",
+  "summary": "普通化妆品总法案2026已于10-26经参议院科技委员会再过（媒体），尚未成法。现行可核规则仍主要覆盖药妆等保健产品，不是全部化妆品。",
   "items": [
+    {
+      "id": "pk-general-bill",
+      "name_zh": "普通化妆品总法案2026（立法中）",
+      "authority": "巴基斯坦议会 / 科技部·DRAP（拟）",
+      "type": "registration",
+      "mandatory": false,
+      "cost": "未知",
+      "time": "未生效",
+      "docs": [],
+      "who": "拟覆盖普通化妆品生产商、进口商与经销商",
+      "note": "参议院科技委员会2026-10-26再过总法案（媒体）；尚未成法，细则与生效日未知。",
+      "official_url": "https://www.dawn.com/news/2040025",
+      "source_checked": "2026-10-29",
+      "needs_review": true
+    },
     {
       "id": "pk-scope",
       "name_zh": "规则覆盖的是药妆等保健产品",
@@ -69,6 +84,10 @@
   ],
   "steps": [
     {
+      "title": "关注总法案是否成法与细则",
+      "type": "registration"
+    },
+    {
       "title": "先确认是否属于药妆",
       "type": "registration"
     },
@@ -77,7 +96,7 @@
       "type": "platform"
     }
   ],
-  "last_verified": "2026-10-24",
+  "last_verified": "2026-10-29",
   "hs_codes": {
     "status": "pending",
     "items": []
