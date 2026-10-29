@@ -81,9 +81,9 @@
         "原料清真证或支撑材料"
       ],
       "who": "品牌/进口商",
-      "note": "强制持证至2028-10-17；SJPH细则见BPJPH第370号（2026-10-18生效）",
+      "note": "强制持证至2028-10-17；产品SJPH见BPJPH第370号；销售服务SJPH见第376号（化妆品相关自2026-10-18适用）",
       "official_url": "https://halalmui.org/wp-content/uploads/2026/05/Salinan-370.2026.-Pedoman-Pelaksanaan-SJPH-Kosmetik-1.pdf",
-      "source_checked": "2026-10-28",
+      "source_checked": "2026-10-29",
       "needs_review": false
     },
     {
@@ -124,7 +124,7 @@
       "type": "tax-customs"
     }
   ],
-  "last_verified": "2026-10-28",
+  "last_verified": "2026-10-29",
   "hs_codes": {
     "status": "ready",
     "items": [
