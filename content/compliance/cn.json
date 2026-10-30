@@ -4,7 +4,7 @@
   "flag": "🇨🇳",
   "region": "东亚",
   "difficulty": 3,
-  "summary": "特殊注册、普通备案；第99号与牙膏分类目录；新原料/新功效咨询；成品免新化学物质环境登记、原料须登。",
+  "summary": "特殊注册、普通备案；第99号与牙膏分类目录；新原料/新功效咨询；成品免新化学物质环境登记、原料须登；条例后首个防晒剂新原料已注册（2026-10-29）。",
   "items": [
     {
       "id": "cn-split",
@@ -138,10 +138,10 @@
         "相关研究资料"
       ],
       "who": "新原料注册人、备案人",
-      "note": "2026-10-23试行：重点新原料可优先审评；备案类原则上不再备案后核查。",
+      "note": "2026-10-23试行优先审评；10-29批准条例后首个防晒剂新原料（needs_review）。",
       "official_url": "https://www.nidc.org.cn/xxgk/ggtzh/tongzhi/202610231533302256281.html",
-      "source_checked": "2026-10-27",
-      "needs_review": false
+      "source_checked": "2026-10-30",
+      "needs_review": true
     },
     {
       "id": "cn-new-efficacy-consult",
@@ -215,7 +215,7 @@
       "type": "label"
     }
   ],
-  "last_verified": "2026-10-28",
+  "last_verified": "2026-10-30",
   "hs_codes": {
     "status": "ready",
     "items": [
