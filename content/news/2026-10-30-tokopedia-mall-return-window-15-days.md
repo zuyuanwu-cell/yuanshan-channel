@@ -1,5 +1,5 @@
 ---
-title: "Tokopedia Mall退货窗口11月2日起改15天：美妆Mall店售后期翻倍多"
+title: "Tokopedia Mall 退货改 15 天：印尼美妆店须知"
 date: "2026-10-30"
 category: "rules"
 platforms:

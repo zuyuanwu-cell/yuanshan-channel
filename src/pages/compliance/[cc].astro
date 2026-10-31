@@ -8,6 +8,7 @@ import Base from '../../layouts/Base.astro';
 import { complianceTypeLabels, getCompliance, getComplianceCountry, newsForCountry } from '../../lib/content';
 import { matchDoc } from '../../lib/doc-templates';
 import { formatDate, url } from '../../lib/format';
+import { compliancePageSeo } from '../../lib/seo';
 
 export function getStaticPaths() {
   return getCompliance().map((c) => ({ params: { cc: c.country } }));
@@ -16,6 +17,7 @@ const c = getComplianceCountry(Astro.params.cc!)!;
 const news = newsForCountry(c.country);
 const items = [...c.items].sort((a, b) => Number(b.mandatory) - Number(a.mandatory));
 const host = (u: string) => { try { return new URL(u).hostname.replace(/^www\./, ''); } catch { return u; } };
+const seo = compliancePageSeo(c);
 const previewIds = new Set<string>();
 let docCount = 0;
 for (const item of items) {
@@ -28,8 +30,9 @@ for (const item of items) {
 ---
 
 <Base
-  title={`${c.name_zh} 合规速查`}
-  description={`${c.name_zh}美妆日化合规：${c.summary}`}
+  title={seo.title}
+  titleBrand="channel"
+  description={seo.description}
   crumbs={[
     { name: '首页', href: '/' },
     { name: '合规', href: '/compliance' },

@@ -18,7 +18,10 @@ const featured = featuredPlatforms();
 const gaps = getRankingGaps();
 ---
 
-<Base>
+<Base
+  title="跨境美妆日化法规、目的国合规与热销榜"
+  description="写给要做海外市场的美妆日化卖家：目的国备案/标签要点、平台规则与多站点热销榜；每条附来源，待核实已标注。"
+>
   <Hero />
   <Highlights />
 
@@ -63,6 +66,7 @@ const gaps = getRankingGaps();
       </div>
     )
   }
+  <p class="home-guide-link"><a class="text-link" href={url('/guides/cross-border-cosmetics-regulations')}>跨境美妆法规怎么查 →</a></p>
 
   <a class="hs-entry-home card" href={url('/hs-codes')}>
     <span>

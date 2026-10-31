@@ -1,5 +1,5 @@
 ---
-title: "印尼化妆品清真认证强制期顺延到 2028年10月17日"
+title: "印尼美妆清真强制认证延期至 2028"
 date: "2026-10-17"
 category: "regulation"
 platforms:

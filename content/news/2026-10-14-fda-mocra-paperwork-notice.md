@@ -1,5 +1,5 @@
 ---
-title: "FDA 把化妆品登记与标签申报报给 OMB 审核，11月13日前可提意见"
+title: "FDA/MoCRA 登记列名信息收集送 OMB"
 date: "2026-10-14"
 category: "regulation"
 platforms:
@@ -19,7 +19,7 @@ key_date:
   date: "2026-11-13"
   label: "意见截止"
 highlight: true
-summary: "MoCRA 下的设施注册、产品列名、不良事件和标签要求，FDA 合并成一项信息收集送 OMB。这是程序公告，不是新规。"
+summary: "MoCRA 下的设施注册、产品列名、不良事件和标签要求，FDA 合并成一项信息收集送 OMB。书面意见收到 2026年11月13日。这是程序公告，不是新规。"
 needs_review: false
 sample: false
 ---

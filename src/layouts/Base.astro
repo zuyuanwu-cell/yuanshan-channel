@@ -10,10 +10,12 @@ import Header from '../components/Header.astro';
 import Lightbox from '../components/Lightbox.astro';
 import TabBar from '../components/TabBar.astro';
 import { getSite } from '../lib/content';
-import { absoluteUrl, canonicalPath, jsonLdScript, metaDescription, pageUrl, type Crumb } from '../lib/seo';
+import { absoluteUrl, canonicalPath, composeDocumentTitle, jsonLdScript, metaDescription, pageUrl, type Crumb, type TitleBrand } from '../lib/seo';
 
 interface Props {
   title?: string;
+  /** Brand after ｜. `channel` is 远山频道; `full` is the site name. */
+  titleBrand?: TitleBrand;
   description?: string;
   image?: string;
   ogType?: 'website' | 'article';
@@ -28,6 +30,7 @@ interface Props {
 const site = getSite();
 const {
   title,
+  titleBrand = 'full',
   description = site.hero.lede,
   image = '/media/hero/rules.webp',
   ogType = 'website',
@@ -38,7 +41,7 @@ const {
   crumbs = [],
   extraGraph = [],
 } = Astro.props;
-const fullTitle = title ? `${title} · ${site.name}` : `${site.name}｜美妆日化规则、合规与热销`;
+const fullTitle = composeDocumentTitle(title, titleBrand, site.name, site.channel);
 const summary = metaDescription(description || site.hero.lede);
 const origin = Astro.site ?? new URL(Astro.url.origin);
 const canonical = new URL(canonicalPath(Astro.url.pathname), origin);

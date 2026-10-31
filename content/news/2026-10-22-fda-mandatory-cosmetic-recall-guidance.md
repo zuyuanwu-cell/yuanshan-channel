@@ -1,5 +1,5 @@
 ---
-title: "FDA 发布化妆品强制召回终稿指南：拒不召回可被下令下架"
+title: "FDA 化妆品强制召回终稿（MoCRA）要点"
 date: "2026-10-22"
 category: "regulation"
 platforms:

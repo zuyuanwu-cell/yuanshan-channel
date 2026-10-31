@@ -30,7 +30,9 @@ for (const country of countries) {
 const countryCurrent = countries.some((country) => isActivePath(path, `/compliance/${country.country}`));
 const compareCurrent = isActivePath(path, '/compliance/compare');
 const mapCurrent = isActivePath(path, '/compliance/map');
-const moreCurrent = more.some((item) => isActivePath(path, item.href)) || isActivePath(path, '/admin');
+const guideHref = '/guides/cross-border-cosmetics-regulations';
+const guideCurrent = isActivePath(path, guideHref);
+const moreCurrent = more.some((item) => isActivePath(path, item.href)) || guideCurrent || isActivePath(path, '/admin');
 ---
 
 <nav class="tab-bar" aria-label="底部导航">
@@ -81,6 +83,12 @@ const moreCurrent = more.some((item) => isActivePath(path, item.href)) || isActi
           </li>
         ))
       }
+      <li>
+        <a href={url(guideHref)} aria-current={guideCurrent ? 'page' : undefined}>
+          <Icon name="compliance" />
+          <span>法规指南</span>
+        </a>
+      </li>
     </ul>
     <details class="nav-sheet-group" open={countryCurrent || compareCurrent || mapCurrent || undefined}>
       <summary>各国合规</summary>

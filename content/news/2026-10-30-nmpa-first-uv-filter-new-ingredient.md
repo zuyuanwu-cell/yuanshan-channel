@@ -1,5 +1,5 @@
 ---
-title: "药监局批准条例后首个防晒剂新原料：甲氧基丙基氨基…氰基乙酸酯，防晒配方可选清单多了一格"
+title: "中国首个防晒剂新原料获批（NMPA）"
 date: "2026-10-30"
 category: "regulation"
 platforms:

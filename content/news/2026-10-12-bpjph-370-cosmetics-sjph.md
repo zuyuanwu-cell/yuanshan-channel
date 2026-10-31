@@ -1,5 +1,5 @@
 ---
-title: "印尼 BPJPH 定了化妆品清真体系怎么搭：原料要证、产线要隔离，每年内审、半年报配方；强制拿证仍到 2028"
+title: "印尼化妆品清真体系 SJPH 细则（BPJPH 370）"
 date: "2026-10-12"
 category: "regulation"
 platforms:
