@@ -4,7 +4,7 @@
   "flag": "🇨🇳",
   "region": "东亚",
   "difficulty": 3,
-  "summary": "特殊注册、普通备案；第99号与牙膏分类目录；新原料/新功效咨询；成品免新化学物质环境登记、原料须登；条例后首个防晒剂新原料已注册（2026-10-29）。",
+  "summary": "特殊注册/普通备案；第99号与牙膏目录；新原料咨询；成品免环境登记；防晒剂新原料已批；口腔护理国标已发。",
   "items": [
     {
       "id": "cn-split",
@@ -182,6 +182,24 @@
       "needs_review": false
     },
     {
+      "id": "cn-oral-care-gb",
+      "name_zh": "口腔护理推荐性国标（牙膏/禁添检测）",
+      "authority": "市场监管总局（国家标准委）",
+      "type": "testing",
+      "mandatory": false,
+      "cost": "未知",
+      "time": "2026-10-30 发布；牙膏国标拟发布后约6个月实施（待文本确认）",
+      "docs": [
+        "GB/T 8372—2026 牙膏技术要求对照",
+        "禁添物检测方法能力（激素/抗生素等）"
+      ],
+      "who": "口腔护理生产企业、检测机构、备案人",
+      "note": "含分类术语、牙膏质量、保泰松测定及约200种激素/抗生素筛查方法；GB/T 推荐性，但抽检常引用。正式实施日以标准文本为准。",
+      "official_url": "https://www.samr.gov.cn/xw/sj/art/2026/art_869cf69c794e4274bde6818a13a3d96d.html",
+      "source_checked": "2026-10-31",
+      "needs_review": true
+    },
+    {
       "id": "cn-mee-ncs",
       "name_zh": "新化学物质环境管理登记（第40号令）",
       "authority": "生态环境部",
@@ -215,7 +233,7 @@
       "type": "label"
     }
   ],
-  "last_verified": "2026-10-30",
+  "last_verified": "2026-10-31",
   "hs_codes": {
     "status": "ready",
     "items": [

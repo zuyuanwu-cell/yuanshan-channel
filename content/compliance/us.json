@@ -4,7 +4,7 @@
   "flag": "🇺🇸",
   "region": "北美",
   "difficulty": 2,
-  "summary": "不用事先审批，但要注册设施、列名产品、标签合规。",
+  "summary": "不用事先审批，但要注册设施、列名产品、标签合规；加州防晒含化学滤光剂禁 reef safe 类宣称（2027-01-01）。",
   "items": [
     {
       "id": "mocra-facility",
@@ -120,6 +120,24 @@
       "needs_review": false
     },
     {
+      "id": "ca-sunscreen-reef-claims",
+      "name_zh": "加州防晒珊瑚友好宣称限制",
+      "authority": "加州（AB 1744 / BPC §17580.7）",
+      "type": "label",
+      "mandatory": true,
+      "cost": "未知",
+      "time": "2027-01-01 起",
+      "docs": [
+        "防晒配方是否含化学 UV 滤光剂",
+        "广告/标签/包装宣称用语清单"
+      ],
+      "who": "在加州销售防晒的广告与标签责任方",
+      "note": "含阿伏苯宗等化学滤光剂则禁 reef safe、ocean friendly 等海洋友好类宣称；违规轻罪。物理防晒且无化学滤光剂除外。",
+      "official_url": "https://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260AB1744",
+      "source_checked": "2026-10-31",
+      "needs_review": false
+    },
+    {
       "id": "pa-animal-testing-ban",
       "name_zh": "宾州禁售动物实验化妆品",
       "authority": "宾州（Act 92/2026）",
@@ -194,7 +212,7 @@
       "type": "tax-customs"
     }
   ],
-  "last_verified": "2026-10-27",
+  "last_verified": "2026-10-31",
   "hs_codes": {
     "status": "ready",
     "items": [
