@@ -1,0 +1,68 @@
+{
+  "api": "yuanshan-channel/v1",
+  "access": "public-read",
+  "auth": null,
+  "generated": "2026-10-26",
+  "disclaimer": "每条资讯都附来源链接。标了「待核实」的条目来自媒体或第三方转述，引用前打开原文。费用、排名和法规以官方页面为准。",
+  "kind": "compliance",
+  "id": "mn",
+  "name_zh": "蒙古",
+  "region": "东亚",
+  "region_slug": "east-asia",
+  "page": "/compliance/mn/",
+  "market": {
+    "country": "mn",
+    "name_zh": "蒙古",
+    "flag": "🇲🇳",
+    "region": "东亚",
+    "difficulty": 2,
+    "summary": "卫生部首页已打开。化妆品注册细则和税号未核对。",
+    "items": [
+      {
+        "id": "mn-entry",
+        "name_zh": "化妆品监管入口",
+        "authority": "卫生部",
+        "type": "registration",
+        "mandatory": false,
+        "cost": "未知",
+        "time": "未知",
+        "docs": [],
+        "who": "进口商",
+        "note": "官网可打开。是否须事先注册、费用和周期，本次未核对全文。",
+        "official_url": "https://moh.gov.mn/",
+        "source_checked": "2026-10-24",
+        "needs_review": true
+      },
+      {
+        "id": "mn-hs",
+        "name_zh": "HS 编码与关税",
+        "authority": "目的国海关",
+        "type": "tax-customs",
+        "mandatory": true,
+        "cost": "未知",
+        "time": "未知",
+        "docs": [],
+        "who": "进口商",
+        "note": "链接不是税则。税号和税率未抄录。",
+        "official_url": "https://moh.gov.mn/",
+        "source_checked": "2026-10-24",
+        "needs_review": true
+      }
+    ],
+    "steps": [
+      {
+        "title": "核对监管入口",
+        "type": "registration"
+      },
+      {
+        "title": "清关",
+        "type": "tax-customs"
+      }
+    ],
+    "last_verified": "2026-10-24",
+    "hs_codes": {
+      "status": "pending",
+      "items": []
+    }
+  }
+}

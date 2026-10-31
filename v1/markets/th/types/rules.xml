@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>远山频道 · 泰国</title>
+    <link>https://ys.tongzhoukuajing.com/subscribe/?markets=th&amp;types=rules</link>
+    <description>每条资讯都附来源链接。标了「待核实」的条目来自媒体或第三方转述，引用前打开原文。费用、排名和法规以官方页面为准。 公开只读，不是法律意见，也不代替来源原文。</description>
+    <language>zh-CN</language>
+    <lastBuildDate>Mon, 26 Oct 2026 12:00:00 GMT</lastBuildDate>
+    <atom:link xmlns:atom="http://www.w3.org/2005/Atom" href="https://ys.tongzhoukuajing.com/v1/markets/th/types/rules.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>TikTok Shop 新马泰越活动门槛（美妆 SFRR）</title>
+      <link>https://ys.tongzhoukuajing.com/news/2026-10-29-tiktok-shop-sg-th-vn-campaign-qualification/</link>
+      <guid isPermaLink="false">2026-10-29-tiktok-shop-sg-th-vn-campaign-qualification</guid>
+      <pubDate>Thu, 29 Oct 2026 12:00:00 GMT</pubDate>
+      <description>10月29日卖家大学更新新/越、泰/越活动报名门槛：有店评分须≥3.0且物流履约≥2.5、AHR≥50；美妆SFRR阈值因站点后台不同（新约6.8%、泰约4.8%）。另：11月5日起按客服要求寄回买家货品才保申诉资格。</description>
+    </item>
+    <item>
+      <title>泰国竞争委员会：Shopee、Lazada、TikTok 冻结上调佣金 6 个月（至2027年2月）</title>
+      <link>https://ys.tongzhoukuajing.com/news/2026-10-22-thailand-tcct-gp-fee-freeze/</link>
+      <guid isPermaLink="false">2026-10-22-thailand-tcct-gp-fee-freeze</guid>
+      <pubDate>Thu, 22 Oct 2026 12:00:00 GMT</pubDate>
+      <description>据 Rainmaker 转引 Thairath：TCCT 依《贸易竞争法》第60条责令 Shopee、Lazada、TikTok 等暂停上调 GP 六个月（报道称 2026年8月至2027年2月）。事先报备草案写的是叫车与即时配送，预计12月公布。未核对委员会原文。</description>
+    </item>
+    <item>
+      <title>TikTok Shop 东南亚五国：直播口播、字幕、封面也算宣传，美妆夸大功效一样罚</title>
+      <link>https://ys.tongzhoukuajing.com/news/2026-10-13-tiktok-shop-sea-misleading-content/</link>
+      <guid isPermaLink="false">2026-10-13-tiktok-shop-sea-misleading-content</guid>
+      <pubDate>Tue, 13 Oct 2026 12:00:00 GMT</pubDate>
+      <description>印尼、菲律宾、新加坡、泰国、越南统一执行误导内容政策：不只看商品页，短视频、直播、封面、脚本、字幕、主播昵称和简介都在审核范围；夸大功效、限时见效、修图前后对比会被处罚，屡犯加重。</description>
+    </item>
+    <item>
+      <title>Lazada 泰国站：97 个美妆类目放开跨境直邮，但喷雾/压缩罐照样禁运、泰国 FDA 证先拿再上架</title>
+      <link>https://ys.tongzhoukuajing.com/news/2026-09-03-lazada-th-beauty-97-categories-open/</link>
+      <guid isPermaLink="false">2026-09-03-lazada-th-beauty-97-categories-open</guid>
+      <pubDate>Thu, 03 Sep 2026 12:00:00 GMT</pubDate>
+      <description>9月3日起，Lazada 跨境站把发往泰国的 97 个美妆类目从「禁限运」改为「可运」，适用中国内地、香港、韩国、日本发出的 LGS 跨境直邮包裹；本地仓（3PF、FBL）不适用。压缩罐装和喷雾类一律仍按危险品禁运，需要泰国 FDA 等证书的商品必须先拿证再上架。</description>
+    </item>
+  </channel>
+</rss>

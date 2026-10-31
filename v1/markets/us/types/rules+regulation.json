@@ -1,0 +1,379 @@
+{
+  "api": "yuanshan-channel/v1",
+  "access": "public-read",
+  "auth": null,
+  "generated": "2026-10-26",
+  "disclaimer": "每条资讯都附来源链接。标了「待核实」的条目来自媒体或第三方转述，引用前打开原文。费用、排名和法规以官方页面为准。",
+  "kind": "feed",
+  "id": "us/rules+regulation",
+  "title": "美国",
+  "markets": [
+    "us"
+  ],
+  "types": [
+    "rules",
+    "regulation"
+  ],
+  "filter": {
+    "markets": [
+      "us"
+    ],
+    "types": [
+      "rules",
+      "regulation"
+    ],
+    "include_global": false
+  },
+  "count": 12,
+  "items": [
+    {
+      "kind": "news",
+      "id": "2026-10-31-california-ab1744-sunscreen-reef-safe-claims",
+      "type": "regulation",
+      "date": "2026-10-31",
+      "title": "加州防晒：含化学滤光剂不能再打 reef safe（2027起）",
+      "summary": "AB 1744：2027-01-01起加州售卖防晒若含化学UV滤光剂，广告/标签禁写reef safe、ocean friendly等珊瑚友好宣称。",
+      "body_text": "卖 美国加州（含亚马逊、Temu、TikTok Shop 等会把货发到加州的渠道）防晒/SPF 产品的注意：加州州长 2026年9月18日 签署 Assembly Bill 1744 (https://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260AB1744)（Chapter 272），在《商业与职业法典》新增 §17580.7。按加州常规生效规则，2027年1月1日起适用。ChemLinked 等合规媒体近几日在二次传播；本稿按官方法案文本核对。\n\n站内相关：Temu 美国站美妆 PFAS / 加州 65 (/news/2026-10-29-temu-us-cosmetics-pfas-prop65/)、中国首个防晒剂新原料获批 (/news/2026-10-30-nmpa-first-uv-filter-new-ingredient/)。\n\n改了什么\n\n- 珊瑚/海洋友好类宣称有门槛\n在加州销售的防晒，广告、标签或包装上不得宣称或暗示产品是：\n\n- reef safe / reef friendly / reef conscious\n\n- ocean safe / ocean friendly\n\n- marine safe / marine conscious\n\n- 以及足以让普通消费者以为「对海洋生态无害」的类似用语\n\n除非该产品不含任何化学紫外线滤光剂（chemical ultraviolet filters）。\n\n- 点名的化学滤光剂（非穷尽）\n法案列举「包括但不限于」：\n\n- 阿伏苯宗 Avobenzone（CAS 70356-09-1）\n\n- 胡莫柳酯 Homosalate（CAS 118-56-9）\n\n- 甲氧基肉桂酸乙基己酯 Octinoxate（CAS 5466-77-3）\n\n- 水杨酸乙基己酯 Octisalate（CAS 118-60-5）\n\n- 奥克立林 Octocrylene（CAS 6197-30-4）\n\n- 氧苯酮 Oxybenzone（CAS 131-57-7）\n\n配方里只要有化学 UV 滤光剂（不限于上表），就不能再打上述海洋友好类卖点。\n\n- 管的是什么产品\n「sunscreen product」指受 FDA 监管、旨在防护紫外线的非处方药防晒，含乳液、喷雾、棒状、凝胶、固体等。常见「护肤+SPF」若按 OTC 防晒卖，也落入同一套宣称限制。\n\n- 违法性质\n违反本条属轻罪（misdemeanor）；且不免除既有环境营销宣称的证据义务（§17580 / §17580.5）。\n\n影响谁\n\n- 出口美国、货会进加州的防晒品牌/工厂/跨境卖家：标题、主图角标、A+、详情、包装印刷里的「reef safe / 珊瑚友好 / 海洋友好」要过一遍配方。含常见化学防晒剂的货，不能再靠这类词引流。\n\n- 只卖物理防晒（氧化锌/二氧化钛、且无化学滤光剂）的品牌：仍可用海洋友好类宣称，但须能站得住「不含化学 UV 滤光剂」；别用「类似化学剂换个商品名」钻空子。\n\n- 平台运营/代运营：加州流量大，年底前改 listing 比改模具便宜；包材若已印 reef safe，要排换版或贴纸覆盖计划。\n\n- 不做防晒、只做普通护肤的卖家：本条不直接管你，除非产品按防晒 OTC 上市并带 SPF 防护主张。\n\n意味着什么\n\n这不是「加州禁售化学防晒」，而是 禁「含化学滤光剂却打珊瑚友好」的营销。很多跨境防晒仍用阿伏苯宗等组合滤光剂，旧文案里 reef safe 很常见——2027-01-01 前要清掉或改配方。物理防晒路线可以保留该类宣称，但配方与宣称必须一致；同时继续遵守联邦 OTC 防晒专论、MoCRA 设施/列名等既有义务。现在注意：盘点在售 SPF 货的成分表与主图角标，该删的先删线上文案，包材按翻单节奏换版。",
+      "markets": [
+        "us"
+      ],
+      "platforms": [
+        "amazon-us",
+        "temu",
+        "tiktok-shop",
+        "walmart"
+      ],
+      "tags": [
+        "labeling",
+        "compliance"
+      ],
+      "source_url": "https://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260AB1744",
+      "source_name": "加州议会 · AB 1744（Chapter 272）",
+      "checked": "2026-10-31",
+      "needs_review": false,
+      "sample": false,
+      "key_date": {
+        "date": "2027-01-01",
+        "label": "生效日"
+      },
+      "page": "/news/2026-10-31-california-ab1744-sunscreen-reef-safe-claims/"
+    },
+    {
+      "kind": "news",
+      "id": "2026-10-29-temu-us-cosmetics-pfas-prop65",
+      "type": "rules",
+      "date": "2026-10-29",
+      "title": "Temu美国站美妆：有GMV库存PFAS申报10月30日截止，香水等还要补加州65警示",
+      "summary": "美国站化妆品须在合规中心申报是否含PFAS：有GMV库存10月30日截止，其余11月30日；增量未报可能拦上架。香水/香氛粉等另须11月1日前维护加州65警示。",
+      "body_text": "做 Temu 美国站美妆、香水、香氛粉的卖家注意：卖家后台近期下发的合规通知要求，化妆品类目要补两块信息——是否含 PFAS，以及部分品类的 加州 65 号法案警示。公开整理稿（来源公众号「TM运营笔记」，经行业站转载）写明了截止日；以你后台当前弹窗/合规中心字段为准，本稿标 needs_review。\n\n改了什么\n\n1. 化妆品 PFAS 合规申报（美国站）\n\n- 在售 + 新上架的化妆品类目，都要在合规中心维护「是否含 PFAS」相关信息\n\n- 增量（新上架）：立即管控，未完成申报可能被拦截上站\n\n- 有 GMV 的存量：申报截止 2026年10月30日\n\n- 其他存量：截止 2026年11月30日\n\n- 路径整理为：卖家中心 → 合规服务 → 合规中心 → 商品合规信息\n\nPFAS（全氟/多氟烷基物质）常见于防水防油整理、部分成膜剂与含氟原料杂质；配方里没主动加「含氟」字样，也别默认可以勾「不含」——按后台选项与供应链资料如实填。\n\n2. 加州 65 警示展示（部分化妆品）\n\n- 截止 2026年11月1日，相关商品须完成警示信息维护（选适用警示，或在符合条件时申报「无需警示」）\n\n- 未完成可能被下架\n\n- 公开整理稿点到的品类/成分包括：\n- 香水：邻苯二甲酸盐、二苯甲酮\n\n- 香氛爽身粉：石棉、二氧化钛、二氧化硅、铅、砷、铍及铍化合物\n\n- 儿童香水：铅、石棉、砷、汞\n\n- 路径：合规中心 → 商品合规信息 → 编辑合规信息\n\n- 申请「无需警示」通常要检测机构针对对应警示成分出具可信报告；整理稿称目前主要管页面警示展示，暂未统一要求改包装标签，其他站点暂不受此条影响\n\n加州 65 是加州对致癌/生殖毒性物质的警示法，不等于所有化妆品都要挂满警示语；以适用法规、商品实测与后台选项为准。\n\n影响谁\n\n- Temu 美国站已有销量的护肤、彩妆、个护、香水、香氛粉卖家——10月30日这条线最先卡「有 GMV 的库存链接」\n\n- 还在测款、暂无 GMV 的美妆链接：还有到 11月30日的缓冲，但新上架已可能被拦\n\n- 卖香水、香氛粉、儿童香水的店铺：还要叠一层 11月1日加州 65 页面警示\n\n意味着什么 / 现在注意什么\n\n- 今天就先筛有销量的化妆品链接，进合规中心把 PFAS 字段填完；别等链接被拦再补\n\n- 香水/香氛粉：同步核对加州 65 选项；不确定是否含列名物质时，先问原料商要成分声明或检测，不要瞎点「无需警示」\n\n- 欧洲站另有 11月1日起强化的 SKU 货号 / 产品识别码（PID）清关要求（全品类），美妆卖欧洲的也一并在商品列表里查「维护货号」——与美国站 PFAS 是两条线\n\n- 本稿依据行业对卖家后台通知的二次整理，未直接打开 Temu 官方卖家大学原文；字段名、类目范围以你账号后台为准，有出入以后台为准\n\n相关阅读：站内已有 欧盟 REACH：化妆品含 PFHxA 超标不得再投放 (/news/2026-10-10-eu-reach-pfhxa-cosmetics/)（欧盟成分限值，不是 Temu 美国站申报字段）。\n\n来源：爆单鸭转载 · Temu 近期多重规则变动（称采集自「TM运营笔记」） (https://www.bdduck.com/news/2026/10/04bb1d87a15a9fec.html)",
+      "markets": [
+        "us"
+      ],
+      "platforms": [
+        "temu"
+      ],
+      "tags": [
+        "compliance",
+        "listing"
+      ],
+      "source_url": "https://www.bdduck.com/news/2026/10/04bb1d87a15a9fec.html",
+      "source_name": "爆单鸭转载 · TM运营笔记（卖家后台通知整理）",
+      "checked": "2026-10-29",
+      "needs_review": true,
+      "sample": false,
+      "key_date": {
+        "date": "2026-10-30",
+        "label": "有GMV截止"
+      },
+      "page": "/news/2026-10-29-temu-us-cosmetics-pfas-prop65/"
+    },
+    {
+      "kind": "news",
+      "id": "2026-10-26-tiktok-shop-us-graphic-skincare-closeups",
+      "type": "rules",
+      "date": "2026-10-26",
+      "title": "TikTok Shop 美国站禁「恶心特写」护肤演示：挤痘、去黑头、拔罐式清洁会删；同质化模板视频也单独违规",
+      "summary": "美国站 Content Policy 与 Prohibited Content 页同日更新至 10-26：新增禁止护肤/身体护理「恶心特写」（挤痘、去黑头、体液/污垢清除等，含前后对比）；同质化批量模板视频单独成违规；直播拍卖背景货也要对得上。",
+      "body_text": "TikTok Shop 美国站卖家大学两页政策标注更新日期 2026年10月26日：《Content Policy (https://seller-us.tiktok.com/university/essay?knowledge_id=6837891779151617&lang=en)》与《Prohibited Content for Platform Safety (https://seller-us.tiktok.com/university/essay?knowledge_id=6125629963945771&lang=en)》。相对站内已有的 10月9日内容政策稿 (/news/2026-10-09-tiktok-shop-us-content-policy/)（侧重化妆品不得暗示治病、禁误导美颜滤镜），这次新增两条对美妆达人/卖家打击面更大的规则。\n\n改了什么\n\n1. 禁止护肤/身体护理「恶心特写」\n\n两页都把 Sensational, Shocking, or Disturbing Content 写进正式清单，明确点名：\n\n- 特写镜头展示护肤或身体护理过程中清除体液、皮肤或污垢的画面\n\n- 举例包括：挤痘/去黑头、拔毛近景、脏牙对比、耳垢/刮舌/撕皮、拔蜡、抽血式演示\n\n- 即使是真实前后对比（before-and-after）也不行\n\n- 安全页补充：粪便、尿、呕吐物、分泌物、鼻黏液、寄生虫、带脓/坏死的嵌甲、开放伤口等一律禁；官方建议改用干净的非人体替代物（如布上污渍）做清洁类前后对比\n\n- 不得在私密部位做产品试用演示\n\n《Guidelines for Responsible Beauty & Skincare-Related Content》里「Avoid Posting Graphic Close-ups」一段与上述口径一致。\n\n2. 「同质化 / 重复内容」单独成违规\n\nContent Policy 把章节扩成 Unoriginal, or Repetitive (Homogeneous) Content, and Irrelevant Product Promotion，其中 Repetitive (Homogeneous) Content 单独定义：\n\n- 连续、大批量发布，结构、画面、旁白或素材高度相似\n\n- 只改音乐、配音或背景等微小差异仍算重复\n\n- 举例：同一条视频只调片段顺序后海量重发；长期同一产品同一背景同一动作却不讲卖点；同一脚本套不同 SKU；模板化姿势/开场只做极小改动\n\n3. 直播拍卖背景货要对得上\n\nLIVE Auction 背景/布景里出现的商品须与拍卖相关且真实可售；把不在拍的货摆满背景可按误导内容处理（不必口头说假话也会罚）。\n\n影响谁\n\n- 做祛痘、清洁泥膜、去黑头、拔罐/撕拉、口腔护理、脱毛类内容的美国站达人与品牌自播号——「特写撕下来」类爆款脚本风险陡升\n\n- 靠同一模板日更几十条冲量的美妆店铺、MCN、代播团队——同质化被点名，轻则删内容，重则扣 CHR、限功能乃至限号\n\n- 做 LIVE Auction 清库存的卖家——背景墙别再堆无关爆款\n\n意味着什么 / 现在注意什么\n\n- 今天起按新清单自查排期：已排的挤痘/去黑头/拔蜡特写、体液前后对比，能改就改成产品包装展示、上脸/上手正常涂抹、或布上污渍类替代演示\n\n- 批量矩阵号：检查最近 10 条是否同一脚本/同一剪辑顺序；下一批要换结构、卖点口播和画面，别只换 BGM\n\n- 化妆品「治病暗示、美颜滤镜夸大」仍按 10月9日政策管——这次是画面恶心度 + 内容同质化两条新刀，不是替代旧规\n\n- 违规可致删内容、扣 Creator Health Rating、限功能/佣金、限号；可在 Creator Center 申诉\n\n来源：\n\n- Content Policy（标注 10/26/2026） (https://seller-us.tiktok.com/university/essay?knowledge_id=6837891779151617&lang=en)\n\n- Prohibited Content for Platform Safety（标注 10/26/2026） (https://seller-us.tiktok.com/university/essay?knowledge_id=6125629963945771&lang=en)\n\n- Guidelines for Responsible Beauty & Skincare-Related Content (https://seller-us.tiktok.com/university/essay?knowledge_id=6349304365467438&lang=en)",
+      "markets": [
+        "us"
+      ],
+      "platforms": [
+        "tiktok-shop"
+      ],
+      "tags": [
+        "listing",
+        "penalties"
+      ],
+      "source_url": "https://seller-us.tiktok.com/university/essay?knowledge_id=6837891779151617&lang=en",
+      "source_name": "TikTok Shop 美国卖家大学 · Content Policy（2026-10-26）",
+      "checked": "2026-10-27",
+      "needs_review": false,
+      "sample": false,
+      "key_date": {
+        "date": "2026-10-26",
+        "label": "政策页更新日期"
+      },
+      "page": "/news/2026-10-26-tiktok-shop-us-graphic-skincare-closeups/"
+    },
+    {
+      "kind": "news",
+      "id": "2026-10-22-fda-mandatory-cosmetic-recall-guidance",
+      "type": "regulation",
+      "date": "2026-10-22",
+      "title": "FDA 化妆品强制召回终稿（MoCRA）要点",
+      "summary": "MoCRA 下强制召回问答终稿落地，与 2025 年 12 月草案无实质改动：何时下令、怎么走流程、企业怎么配合。美国站美妆责任人要把召回预案写进合规清单。",
+      "body_text": "背景\n\nFDA 于 2026年10月22日 发布终稿《Questions and Answers Regarding Mandatory Cosmetics Recalls: Guidance for Industry》。成分更新写明：这是 MoCRA 落实工作的一部分，用来说明《联邦食品药品化妆品法》第 611 条的化妆品强制召回权。草案于 2025年12月18日 公布。公开征求意见后，终稿相对草案没有实质改动。\n\n联邦公报 2026年10月23日 的可用性通知（91 FR 66851，文号 2026-21679，卷宗 FDA-2025-D-2246）补了三句过程事实：草案当年的公告是 90 FR 59129；FDA 收到 7 条意见，总体支持，有的要求把指南里已经写到的问题说得更清楚；考虑这些意见后，仍按草案公布，没有实质改动。第 611 条由 MoCRA 第 3502 条写入。同一则通知写明，这份指南不含新的信息收集，不必再按《文书削减法》送 OMB；它代表 FDA 目前的看法，不具约束力，企业可以用满足适用法规的其他做法。\n\n成分更新把指南内容收成三件事：什么情况下 FDA 可以下令强制召回、下令时 FDA 走什么流程、企业接到强制召回令后要怎么配合。FDA 同时继续鼓励企业对市面上的违规化妆品做自愿召回。\n\n这不是新的禁限用成分名单，也不是又一张登记表。登记、列名和标签申报的手续清单，见站内 FDA 把化妆品登记与标签申报报给 OMB (/news/2026-10-14-fda-mocra-paperwork-notice/)。\n\n谁受影响\n\n化妆品召回政策页对强制召回的对象沿用第 604 条：标签上按第 609(a) 条或《公平包装标签法》第 4(a) 条署名的制造商、包装商或经销商，也就是 MoCRA 里的责任人。命令发给这个名字，不是发给任意一个店铺登录账号。\n\n卖美国站美妆、个护的，先看标签上署的是工厂、品牌公司还是经销商。名字落在谁身上，停止分销和召回的义务就先落到谁身上。代运营、平台卖家如果手里没有批号和去向，临时再向工厂要记录会来不及。\n\n召回政策页写的下令门槛是：FDA 认定该化妆品有合理可能属于掺假（adulterated）或错误标签（misbranded），并且使用或接触有合理可能造成严重不良健康后果或死亡；已经给了责任人自愿停止分销并召回的机会，责任人拒绝自愿去做，FDA 才可以下令强制召回。终稿指南的问答正文这次没有逐条拆开，上面这道门槛来自召回政策页，不是把指南 PDF 逐句转写。\n\n怎么做\n\n自愿召回仍是主路径。召回政策页写明，化妆品召回多数按 21 CFR 第 7 部分自愿进行，FDA 预计大多数违规化妆品仍会走自愿召回。该页对自愿召回列出的企业动作包括：按风险和召回策略通知客户；启动召回时通知相应的 FDA 检查与调查办公室（OII）辖区办公室；提交进度报告；做有效性核查；认为货已按风险完成处置后，可书面申请结束召回。\n\n同一页把「事先准备」写成减轻被动的办法，并注明这些是 21 CFR 第 7 部分里的指南，不是本条终稿新加的一张表：\n\n- 按第 7 部分准备一份启动召回的应急计划\n\n- 用生产批号做批次识别。政策页写明，化妆品法律并不强制批号；没有批号，就难以判断是全部批次还是其中几批要撤\n\n- 保留分销记录，保存时间要长于保质期和预期使用期，以便定位货在谁手里\n\n成分更新和联邦公报都没有写罚款金额，也没有写固定的配合天数，这里不补。指南落地页只说明它可以就卷宗 FDA-2025-D-2246 继续提意见（21 CFR 10.115(g)(5)），意见地址以该页和联邦公报为准。\n\n上架前可以先对一下三件事：标签责任人是谁、有没有批号和分销记录、出事后谁有权决定自愿召回。注册号和列名号不是批准，也不是召回豁免，见站内 FDA：化妆品注册和列名不发证书 (/news/2026-09-09-fda-no-registration-certificate/)。美国市场的设施注册、产品列名和召回配合材料，集中在 美国合规 (/compliance/us/)。\n\n来源\n\n- 成分更新（2026-10-22）：https://www.fda.gov/cosmetics/cosmetics-news-events/fda-issues-final-guidance-mandatory-cosmetic-recalls (https://www.fda.gov/cosmetics/cosmetics-news-events/fda-issues-final-guidance-mandatory-cosmetic-recalls)\n\n- 指南落地页（问答体例，卷宗 FDA-2025-D-2246）：https://www.fda.gov/regulatory-information/search-fda-guidance-documents/questions-and-answers-regarding-mandatory-cosmetics-recalls-guidance-industry (https://www.fda.gov/regulatory-information/search-fda-guidance-documents/questions-and-answers-regarding-mandatory-cosmetics-recalls-guidance-industry)\n\n- 联邦公报可用性通知（2026-10-23，91 FR 66851）：https://www.federalregister.gov/documents/full_text/text/2026/10/23/2026-21679.txt (https://www.federalregister.gov/documents/full_text/text/2026/10/23/2026-21679.txt)\n\n- 化妆品召回政策页（2026-10-22 更新，含自愿召回与第 611 条门槛）：https://www.fda.gov/cosmetics/cosmetics-compliance-enforcement/fda-recall-policy-cosmetics (https://www.fda.gov/cosmetics/cosmetics-compliance-enforcement/fda-recall-policy-cosmetics)",
+      "markets": [
+        "us"
+      ],
+      "platforms": [
+        "amazon-us",
+        "walmart",
+        "tiktok-shop",
+        "temu"
+      ],
+      "tags": [
+        "compliance",
+        "penalties"
+      ],
+      "source_url": "https://www.fda.gov/cosmetics/cosmetics-news-events/fda-issues-final-guidance-mandatory-cosmetic-recalls",
+      "source_name": "FDA Cosmetics Constituent Update",
+      "checked": "2026-10-26",
+      "needs_review": false,
+      "sample": false,
+      "key_date": null,
+      "page": "/news/2026-10-22-fda-mandatory-cosmetic-recall-guidance/"
+    },
+    {
+      "kind": "news",
+      "id": "2026-10-22-pennsylvania-cosmetics-animal-testing-ban",
+      "type": "regulation",
+      "date": "2026-10-22",
+      "title": "美国宾州禁售动物实验化妆品：2027-01-01后新测的货不得在该州卖",
+      "summary": "州长 10-22 签署 SB 381（Act 92）：制造商或其供应商在 2027-01-01 及以后新做/委托的动物实验所开发的化妆品，不得在宾州销售或要约销售；此前数据可保留。",
+      "body_text": "宾夕法尼亚州州长于 2026年10月22日 签署 Senate Bill 381 (https://www.palegis.us/legislation/bills/2025/sb381)，同日成为 Act No. 92 of 2026。法案在《宾州合并法典》Title 35 新增专章，其中 Subchapter B 专门管化妆品动物实验与销售。本文只写化妆品相关条款；同一法案里还有科研用猫狗、州资金等条款，与美妆出海关系不大，不展开。\n\n官方法案页「Last Action」写明：Act No. 92 of 2026, Oct. 22, 2026。最终文本为 Printer's No. 1972（全文 HTML (https://www.palegis.us/legislation/bills/text/HTM/2025/0/SB0381/PN1972)）。\n\n改了什么\n\n1. 核心禁令（§58A22(a)）\n\n制造商不得在本州销售或要约销售符合下列条件的化妆品：\n\n- 该化妆品的开发或生产用过动物实验；且\n\n- 该实验由制造商或其任一供应商开展或委托；且\n\n- 实验发生在 2027年1月1日及以后。\n\n「制造商」按标签定：凡按 21 CFR 701.12 出现在标签上的名称（制造商/包装商/经销商）都算义务方。「动物」指除人以外的活体脊椎动物；「动物实验」含把化妆品或其成分施用于动物体表或体内。\n\n2. 时间线要分清两条\n\n日期\n含义\n\n2027-01-01\n动物实验的截止分界：这天及以后新做/委托的测试，会让相关化妆品落入禁售\n\n约 2027-04-20\n法案整体生效日：签署后 180 天生效（§2），不是 1 月 1 日当天整部法立刻全部开罚\n\n§58A22(c) 写明：2027-01-01 之前做完的成分或成品动物实验不适用本条禁令；制造商可以继续查阅、评估、留存既有动物实验数据。不是「旧货立刻清仓」。\n\n3. 豁免（§58A22(b)）\n\n下列情形不按本条禁售处理（摘要，执行以原文为准）：\n\n- 为医学研究目的做的动物研究\n\n- 联邦或州监管机关要求的测试，且成分广泛使用、不可替代、有明确人体健康问题、尚无获认可的非动物方法\n\n- 在美国境外为满足外国监管要求做的测试，且其证据没有被用来按美联邦/州法规证明该化妆品安全\n\n- 针对受《联邦食品药品化妆品法》第 V 章约束的产品/成分的测试（多为 OTC/药品路径）\n\n- 为非化妆品目的、应联邦/州/外国监管要求做的测试；但 2027-01-01 后产生的动物数据，原则上不得再拿来证明化妆品安全，除非同时满足：无获联邦机构或 OECD 认可的非动物终点方法、有非化妆品意图的书面证据、该成分在化妆品以外已有至少一年使用史\n\n4. 怎么罚\n\n由州检察长可向州联邦法院或违发地普通法院提起民事诉讼，申请禁令及其他法院认为适当的救济；不创设私人诉权（消费者/竞品不能凭本条单独起诉）。高等教育机构及其雇员亦不因此条承担民事责任。\n\n影响谁\n\n- 向美国发货、且货会进宾州仓/零售/消费者地址的美妆品牌、贴牌商、跨境卖家（亚马逊、Walmart、TikTok Shop、Temu 等美国站）\n\n- 标签上挂名的「manufacturer / packer / distributor」——义务按标签名走，不只看工厂执照抬头\n\n- 还在为新品做或计划委托动物毒理/刺激测试的原料商与配方厂：2027 年起新测要先对豁免条件做书面评估，否则相关成品可能不能在宾州卖\n\n意味着什么 / 现在注意什么\n\n- 已在售、且动物数据都是 2027 年前做的：法案明确可继续留存评估旧数据；重点不是立刻下架，而是管住明年起新开的动物实验\n\n- 供应链自查：向原料商书面确认，相关成分是否会在 2027-01-01 后为化妆品用途新做/委托动物实验；合同里把「不新增化妆品用途动物实验」写清楚\n\n- 美国不是联邦统一禁动物实验化妆品：这是州法（加州、纽约等已有类似路径）。卖全美的店铺要按「最严可达州」管测试计划，不能只看 FDA MoCRA\n\n- 联邦/外国强制要求的测试仍可能走豁免，但要把「谁要求、为何不可替代、是否未用于美国化妆品安全证明」做成可审计材料，别口头说「境外要求」就完事\n\n- 法案 180 天后整体生效；真正卡新品的是 2027-01-01 测试分界。现在起改研发排期，比明年临时改配方便宜\n\n来源：\n\n- 宾州议会 SB 381 法案页（Act No. 92 of 2026, Oct. 22, 2026） (https://www.palegis.us/legislation/bills/2025/sb381)\n\n- SB 381 PN 1972 全文（§58A21–§58A22、§2） (https://www.palegis.us/legislation/bills/text/HTM/2025/0/SB0381/PN1972)",
+      "markets": [
+        "us"
+      ],
+      "platforms": [
+        "amazon-us",
+        "walmart",
+        "tiktok-shop",
+        "temu"
+      ],
+      "tags": [
+        "compliance"
+      ],
+      "source_url": "https://www.palegis.us/legislation/bills/2025/sb381",
+      "source_name": "宾州议会 · Senate Bill 381（Act 92）",
+      "checked": "2026-10-27",
+      "needs_review": false,
+      "sample": false,
+      "key_date": {
+        "date": "2027-01-01",
+        "label": "测试截止日"
+      },
+      "page": "/news/2026-10-22-pennsylvania-cosmetics-animal-testing-ban/"
+    },
+    {
+      "kind": "news",
+      "id": "2026-10-19-tiktok-shop-us-bfcm-campaign",
+      "type": "rules",
+      "date": "2026-10-19",
+      "title": "TikTok Shop美国站黑五BFCM报名门槛：店评分≥3.5、近30天延迟发货≤20%；11-11至12-31订单退货可延到2027-02-10",
+      "summary": "美国站卖家大学10-19放出2026黑五BFCM指南：活动11-11至11-30（太平洋时区）；店评分SPS≥3.5、近30天LDR≤20%、AHR宜>150；商品要库存充足、描述准确、无假货/IP问题。11-11至12-31符合条件订单退货窗可自动延到2027-02-10。",
+      "body_text": "TikTok Shop 美国站卖家大学《2026 Black Friday & Cyber Monday (BFCM) Seller Campaign Guide (https://seller-us.tiktok.com/university/essay?knowledge_id=26854147802894)》（页面日期 2026-10-19）与《Campaign FAQs (https://seller-us.tiktok.com/university/essay?knowledge_id=7823403742840619&lang=en)》（2026-10-15）给出了今年黑五活动入场条件。活动时段：2026年11月11日—11月30日（太平洋时区）。\n\n与站内已有的 新/泰/越活动门槛 (/news/2026-10-29-tiktok-shop-sg-th-vn-campaign-qualification/)、印尼大促门槛 (/news/2026-10-30-tiktok-shop-id-campaign-qualification/) 不是同一套数字：美国站看的是 SPS / LDR / AHR，不要拿东南亚的店评分 3.0 或美妆 SFRR 去套。\n\n改了什么\n\n1. 店铺侧入场线\n\n同时满足（官方 Key Takeaways）：\n\n- 店铺表现分（SPS）≥ 3.5；还没有 SPS 的新店：近 30 天严重违规 少于 3 次 也可报\n\n- 近 30 天延迟发货率（LDR）≤ 20%\n\n- 账号健康分（AHR）宜高于 150；AHR ≤ 150 时，报名当下可能被临时限制注册活动\n\n- 通过平台安全核验（含刷单等恶意行为排查）\n\n- 关闭 Holiday Mode；仓库要可接单\n\n活动中 SPS 掉到 3.0 以下，平台可收回活动权益（角标、资源位等）。SPS 到 4.0+ 的高表现店，可能拿额外曝光/重点商品资源。\n\n2. 商品侧也要过\n\n店铺过了，每个报名 SKU 还要：\n\n- 相对同类 投诉率偏低\n\n- 标题/图/视频描述准确、不误导\n\n- 内容符合美国站政策（含近期 禁恶心护肤特写 (/news/2026-10-26-tiktok-shop-us-graphic-skincare-closeups/)）\n\n- 无假货、无知识产权问题\n\n- 有库存、可买、能发出\n\n常见踢出原因：投诉高、内容违规、缺货、Holiday Mode、订单量限制（OVL）、账号风险、逾期未发占比高等。修好后多数可再提交；部分风险类可能没有线上申诉入口。\n\n3. 旺季履约 SLA 放宽（不是免责）\n\n本地发货 / 跨境发货在 11-11—12-5 若干区间，发货、自动取消、妥投 SLA 会 +1～+2 天（订制/定制另有说明）。预售、缺货回补订单不适用放宽。\n\n4. 退货窗自动延长——对美妆现金流影响大\n\n符合条件的订单：\n\n- 售出时段：2026-11-11 16:00 PT — 12-31 23:59 PT\n\n- 买家可退到：2027-02-10\n\n- 平台延长窗 优先于 你在后台自设的退货天数\n\n- 部分电子、珠宝等类目可能仍走标准退货；拍卖单不延长\n\n售后审核时限不变：超时可能自动按买家胜；乱拒退会抬高 Invalid Seller Rejection Rate，触发平台代审。可用无退货退款、自动同意退货/退款、部分退款、自动换货等自动化减轻峰值压力。\n\n5. 怎么报、多久审\n\nSeller Center → Marketing → Campaigns：看店铺是否合格 → Register Products 提交商品。审核通常 5—14 个工作日；建议至少提前两周建好新品 listing。活动中 不能 给已报名商品加减规格（颜色/尺码）；要改规格须先撤再改。\n\n活动价低于日常价才会划线价；活动价与店铺自设折扣/闪购 多数不能叠，以活动价为准。\n\n影响谁\n\n- 准备吃美国站 11.11—黑五周末 官方活动流量的美妆、个护、香氛店（本地仓与跨境）\n\n- SPS 卡在 3.0—3.5、LDR 偏高、AHR 被达人违规表述拖下去的店——先修分再报，硬报只烧审核天数\n\n- 靠达人带货的品牌：达人夸大功效会打到卖家 AHR，活动期要盯内容\n\n- 备货薄、售后人手少的店：拉长退货窗意味着 库存占用与退货处理拖到 2027 年 2 月\n\n意味着什么\n\n美国站把黑五入场券绑在 表现分 + 发货准时 + 账号健康 上，且活动中途掉分会摘权益。美妆卖家这周就要在 Seller Center 核对 SPS / LDR / AHR，筛出能报的 SKU（库存、合规、图文），按 5—14 天审核倒推提交；同时把 11月中旬到次年2月 的退货仓容、客服班次和现金流算进去。报不上官方活动仍可卖——平台流量会涨，但拿不到活动角标与平台加持资源。\n\n具体活动价是否必须低于「历史最低价」、免邮门槛、Smart Promotion / GMV Max 等细则以 报名页当前展示 为准；第三方解读里的额外指标未全部写进上述两份官方页，勿当硬门槛。\n\n核对来源：BFCM Seller Campaign Guide（2026-10-19）、Campaign FAQs（2026-10-15）；核对于 2026-10-31。",
+      "markets": [
+        "us"
+      ],
+      "platforms": [
+        "tiktok-shop"
+      ],
+      "tags": [
+        "listing"
+      ],
+      "source_url": "https://seller-us.tiktok.com/university/essay?knowledge_id=26854147802894",
+      "source_name": "TikTok Shop US · 2026 BFCM Seller Campaign Guide（2026-10-19）",
+      "checked": "2026-10-31",
+      "needs_review": false,
+      "sample": false,
+      "key_date": {
+        "date": "2026-11-11",
+        "label": "BFCM 活动开始"
+      },
+      "page": "/news/2026-10-19-tiktok-shop-us-bfcm-campaign/"
+    },
+    {
+      "kind": "news",
+      "id": "2026-10-15-amazon-us-holiday-peak-fees",
+      "type": "rules",
+      "date": "2026-10-15",
+      "title": "亚马逊美国站旺季配送费 10月15日起生效，平均每件多 $0.32",
+      "summary": "FBA、远程配送、MCF 和 Buy with Prime 都按旺季费率收，到 2027年1月14日。3.5% 燃油与物流附加费照收。",
+      "body_text": "亚马逊在 Seller Central 发的《Holiday 2026》公告写明，美国站旺季配送费 2026年10月15日 起生效，到 2027年1月14日 结束，日期和去年一样。\n\n适用范围：\n\n- FBA\n\n- Remote Fulfillment with FBA\n\n- Multi-Channel Fulfillment（MCF）\n\n- Buy with Prime\n\n和非旺季比，每件平均多 $0.32，涨幅和去年相同。3.5% 的燃油与物流附加费叠加在旺季费率上。\n\n同一公告里另外两个时间点：\n\n- 黑五周和网一的秒杀提交窗口 10月20日 已关闭\n\n- 走 AWD 并开启自动补货到 FBA 的库存，按非旺季月度仓储费计到 10月31日\n\n美妆小件单价低，每件多几毛钱对毛利影响不小。具体费率按尺寸和重量查 Revenue Calculator 或 Fee and Economics Preview 报表。",
+      "markets": [
+        "us"
+      ],
+      "platforms": [
+        "amazon-us"
+      ],
+      "tags": [
+        "fees"
+      ],
+      "source_url": "https://sellercentral.amazon.com/seller-forums/discussions/t/3e31fbb7-04e0-4ed4-873e-f74b1052e2ff",
+      "source_name": "Amazon Seller Central · Holiday 2026 公告",
+      "checked": "2026-10-22",
+      "needs_review": false,
+      "sample": false,
+      "key_date": {
+        "date": "2027-01-14",
+        "label": "旺季费结束"
+      },
+      "page": "/news/2026-10-15-amazon-us-holiday-peak-fees/"
+    },
+    {
+      "kind": "news",
+      "id": "2026-10-14-fda-mocra-paperwork-notice",
+      "type": "regulation",
+      "date": "2026-10-14",
+      "title": "FDA/MoCRA 登记列名信息收集送 OMB",
+      "summary": "MoCRA 下的设施注册、产品列名、不良事件和标签要求，FDA 合并成一项信息收集送 OMB。书面意见收到 2026年11月13日。这是程序公告，不是新规。",
+      "body_text": "FDA 10月14日在联邦公报发了公告：把「化妆品产品要求」这项信息收集（OMB 控制号 0910-0599，修订）提交给美国管理和预算办公室（OMB）审核。书面意见收到 2026年11月13日。\n\n公告覆盖的义务都来自 MoCRA：\n\n- 设施注册（每两年续期）\n\n- 产品列名（含成分，每年更新）\n\n- 严重不良事件报告\n\n- 安全性证明记录\n\n- 标签要求（21 CFR 701）\n\n申报渠道仍是 Cosmetics Direct、ESG NextGen、SPL 软件，或纸质表 FDA 5066（设施注册）和 FDA 5067（产品列名）。\n\n这条本身不加新义务。对卖美国站的美妆卖家，有用的是一份完整清单：标签上署名的制造商、包装商或经销商就是「责任人」，列名和不良事件报告都落在它身上。上架前先确认你的产品由谁列名。",
+      "markets": [
+        "us"
+      ],
+      "platforms": [
+        "amazon-us",
+        "walmart",
+        "tiktok-shop",
+        "temu"
+      ],
+      "tags": [
+        "compliance",
+        "labeling"
+      ],
+      "source_url": "https://www.federalregister.gov/documents/2026/10/14/2026-20990/agency-information-collection-activities-submission-for-office-of-management-and-budget-review",
+      "source_name": "Federal Register · FDA 公告 2026-20990",
+      "checked": "2026-10-22",
+      "needs_review": false,
+      "sample": false,
+      "key_date": {
+        "date": "2026-11-13",
+        "label": "意见截止"
+      },
+      "page": "/news/2026-10-14-fda-mocra-paperwork-notice/"
+    },
+    {
+      "kind": "news",
+      "id": "2026-10-09-tiktok-shop-us-content-policy",
+      "type": "rules",
+      "date": "2026-10-09",
+      "title": "TikTok Shop 美国站更新达人内容政策：化妆品不能暗示治病",
+      "summary": "政策页 10月9日更新。化妆品内容不得宣称治疗或预防疾病、改变生理功能，误导性美颜滤镜也被禁止。",
+      "body_text": "TikTok Shop 美国站的《Content Policy》页面标注更新日期 2026年10月9日，适用于所有达人推广内容：直播、短视频、图片和标题。\n\n化妆品一节写明，不得出现：\n\n- 治疗或预防任何疾病的说法或暗示\n\n- 治愈、诊断、纠正、调节或改变生理功能的说法\n\n- 暗示产品有药理、免疫或代谢作用\n\n- 暗示产品能更新、纠正或改变生理功能\n\n- 引用药品效果的表述\n\n另外两条和美妆直接相关：\n\n- 禁止推广使用误导性美颜滤镜的内容\n\n- 高风险体重管理内容（含 GLP-1 类比、前后体型对比）单独受限\n\n违规后果包括删除内容、限制功能、违规扣分和账号限制，可在 Seller Center 或 TikTok 应用里申诉。\n\n给达人发脚本前，先把「祛痘」「治疗湿疹」「生发」这类词过一遍。",
+      "markets": [
+        "us"
+      ],
+      "platforms": [
+        "tiktok-shop"
+      ],
+      "tags": [
+        "listing",
+        "penalties"
+      ],
+      "source_url": "https://seller-us.tiktok.com/university/essay?knowledge_id=6837891779151617&lang=en",
+      "source_name": "TikTok Shop 美国卖家大学 · Content Policy",
+      "checked": "2026-10-22",
+      "needs_review": false,
+      "sample": false,
+      "key_date": null,
+      "page": "/news/2026-10-09-tiktok-shop-us-content-policy/"
+    },
+    {
+      "kind": "news",
+      "id": "2026-09-10-amazon-us-bundle-manufacturer-packaged",
+      "type": "rules",
+      "date": "2026-09-10",
+      "title": "亚马逊美国站捆绑新规：2027年1月11日起，自己拼的美妆套装大多要下架",
+      "summary": "单个 ASIN 卖的捆绑商品，大多必须是品牌/原厂自己包装的套装。卖家自己拼的套装要么拿到所有品牌的授权书，要么放进礼品类目，否则 1月11日后被下架并记入账户健康。",
+      "body_text": "亚马逊在 Seller Central 公告：2027年1月11日起，美国站用一个 ASIN 卖的捆绑商品（bundle），大多必须是原厂或品牌方自己包装好的组合。\n\n影响谁：自己把几件商品拼成\"套装\"上架的第三方卖家，尤其是做美妆礼盒、护肤组合、旅行装套装的中国跨境卖家和批发型卖家。品牌方自己出的原厂套装不受影响。\n\n还能卖的几种情况：\n\n- 有授权书：组合里每个品牌都给你书面授权（允许和其他品牌一起重新包装销售），普通的\"允许转售\"不够。被判不合规后可以把授权书传到账户健康页面申诉。\n\n- 礼品类目：挂在礼品（gifting）浏览节点下的套装不要求原厂组合。\n\n- 虚拟捆绑：品牌方或授权经销商用 Virtual Bundles 工具建的组合（各件分开发货）不受限，但虚拟捆绑不能走 FBA。\n\n也有放宽：日用消耗品（Consumables）类目现在允许多品牌组合，前提同样是拿到各品牌授权书。2024 年起美妆个护消耗品只能卖单一原厂套装，这次算是开了个口子。\n\n1月11日之后会怎样：不合规的捆绑会被下架，并记为账户健康里的 Listing 违规，亚马逊会发邮件通知。旧库存可以在 1月11日前卖掉，FBA 库存卖不完要提前做移除。\n\n现在该做什么：趁黑五和圣诞旺季把自拼套装的库存清掉，别再备新货；要长期卖的组合，先找品牌方要授权书，或者改挂礼品类目、改用原厂套装。",
+      "markets": [
+        "us"
+      ],
+      "platforms": [
+        "amazon-us"
+      ],
+      "tags": [
+        "listing"
+      ],
+      "source_url": "https://sellercentral.amazon.com/seller-forums/discussions/t/da850a57-839d-4e38-a96f-298dbc450b69",
+      "source_name": "Amazon Seller Central · New requirements for product bundles",
+      "checked": "2026-10-25",
+      "needs_review": false,
+      "sample": false,
+      "key_date": {
+        "date": "2027-01-11",
+        "label": "新规生效"
+      },
+      "page": "/news/2026-09-10-amazon-us-bundle-manufacturer-packaged/"
+    },
+    {
+      "kind": "news",
+      "id": "2026-09-09-fda-no-registration-certificate",
+      "type": "regulation",
+      "date": "2026-09-09",
+      "title": "FDA：化妆品注册和列名不发证书，也不出核验信",
+      "summary": "FDA 提醒工厂、零售商和责任人：注册号和列名号不是批准，FDA 不签发任何证书、信函或「无需注册」证明。",
+      "body_text": "FDA 9月9日在化妆品注册与列名页面加了一条提示：它不提供证明合规的证书或其他文件。具体包括：\n\n- 证明已注册设施或已列名产品的证书\n\n- 写明「已注册」「已列名」的信函或邮件\n\n- 证明某设施或责任人「无需注册」的文件\n\n页面同时写明，注册和列名既不是化妆品审批程序，也不是宣传工具。拿到注册号或列名号，不代表 FDA 批准了工厂或产品。\n\n页面给出的统计（截至 2026年6月30日）：MoCRA 下有效设施注册 16,398 个，有效产品列名 1,298,361 个。\n\n对卖家：零售商或平台要「FDA 证书」时，能交的是注册号、列名号和提交记录，不是 FDA 盖章文件。第三方代办机构出的「证书」是它们自己的文件。商品页写「FDA 认证」「FDA 批准」之类的说法，和这条提示直接冲突（这是编辑建议，不是 FDA 原话）。",
+      "markets": [
+        "us"
+      ],
+      "platforms": [
+        "amazon-us",
+        "walmart",
+        "tiktok-shop"
+      ],
+      "tags": [
+        "compliance",
+        "listing"
+      ],
+      "source_url": "https://www.fda.gov/cosmetics/registration-listing-cosmetic-product-facilities-and-products",
+      "source_name": "FDA · 化妆品设施注册与产品列名页",
+      "checked": "2026-10-22",
+      "needs_review": false,
+      "sample": false,
+      "key_date": null,
+      "page": "/news/2026-09-09-fda-no-registration-certificate/"
+    },
+    {
+      "kind": "news",
+      "id": "2026-09-03-amazon-us-cosmetic-liability-insurance",
+      "type": "rules",
+      "date": "2026-09-03",
+      "title": "亚马逊美国站：美妆不论销量都要买百万责任险，11月2日起生效",
+      "summary": "增强安全类目（含化妆品）listing 不论月销是否过万美元，都要维持单次与累计各 100 万美元商业责任险；中国大陆卖家新保单须走 AIA。",
+      "body_text": "亚马逊美国站 2026年9月3日 在卖家论坛发布：自 11月2日 起，商业责任险规则加了两条。美妆日化卖家要特别盯：化妆品被点名落在「增强安全上架要求」类目里。\n\n改了什么\n\n原先：任意品类只要 Amazon.com 单月毛收入超过 1 万美元，须在 30 天内办妥商业责任险（单次与累计各至少 100 万美元）。这条还在。\n\n新增两条：\n\n- 按类目强制，不看销量\n商品落在「增强安全上架要求」类目时，不论是否达到 1 万美元月销门槛，都要为这些商品维持上述保额。新旧 listing 都算。\n公告举例包括：儿童用品、化妆品与可摄入类、锂电池产品等；完整名单在卖家中心「Product categories with enhanced safety listing requirements」页（需登录），且会增补。\n\n- 中国大陆卖家新保单走 AIA\n注册地在中国大陆的卖家，新提交的保单须通过 Amazon Insurance Accelerator（AIA） 渠道；11月2日起，非 AIA 的新保单会被拒。\n11月2日前已提交、且符合要求的第三方保单，可继续用到期满；期满后也须改走 AIA。\n\n对谁有影响\n\n- 美国站美妆/个护卖家：小店、新店、月销不到 1 万美元的，以前能拖，现在有美妆 listing 就要保。\n\n- 中国大陆跨境卖家：投保通道收窄到 AIA；投保、出单、上传 COI、审核都要时间，别卡到 11月2日。\n\n- 只卖非安全类目的卖家：仍按原来的 1 万美元门槛，不受本条类目强制。\n\n意味着什么\n\n- 卡在哪：没交合规保单证明，相关安全类目可能被停售；旺季（站内已有 10月15日起的旺季配送费）正赶上，listing 一停广告和排名都难救。\n\n- 现在注意什么：对照后台类目名单核对自己的 ASIN；核对保单是否覆盖在售美妆、保额、免赔（一般不超过 1 万美元）、附加被保险人（Amazon.com Services LLC 及其关联方）、是否 occurrence 基础；中国大陆卖家优先走 AIA 询价。\n增强安全类目往往还另有第三方检测/认证要求，有保险不等于马上能卖。\n\n原文见亚马逊卖家论坛 News_Amazon 公告；细则以卖家中心 Business Insurance / Commercial Liability Insurance requirements 页为准。",
+      "markets": [
+        "us"
+      ],
+      "platforms": [
+        "amazon-us"
+      ],
+      "tags": [
+        "compliance",
+        "fees"
+      ],
+      "source_url": "https://sellercentral.amazon.com/seller-forums/discussions/t/287d5c33-8278-4802-ba69-2f58f7dda408",
+      "source_name": "Amazon Seller Forums (News_Amazon)",
+      "checked": "2026-10-24",
+      "needs_review": false,
+      "sample": false,
+      "key_date": {
+        "date": "2026-11-02",
+        "label": "生效"
+      },
+      "page": "/news/2026-09-03-amazon-us-cosmetic-liability-insurance/"
+    }
+  ]
+}

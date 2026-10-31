@@ -1,0 +1,54 @@
+{
+  "api": "yuanshan-channel/v1",
+  "access": "public-read",
+  "auth": null,
+  "generated": "2026-10-26",
+  "disclaimer": "每条资讯都附来源链接。标了「待核实」的条目来自媒体或第三方转述，引用前打开原文。费用、排名和法规以官方页面为准。",
+  "kind": "feed",
+  "id": "my/regulation",
+  "title": "马来西亚",
+  "markets": [
+    "my"
+  ],
+  "types": [
+    "regulation"
+  ],
+  "filter": {
+    "markets": [
+      "my"
+    ],
+    "types": [
+      "regulation"
+    ],
+    "include_global": false
+  },
+  "count": 1,
+  "items": [
+    {
+      "kind": "news",
+      "id": "2026-07-06-npra-circular-2-2026",
+      "type": "regulation",
+      "date": "2026-07-06",
+      "title": "马来西亚 NPRA 更新成分附件：曲酸限量收紧，4 种抗真菌成分禁用",
+      "summary": "NPRA 2026 年第 2 号通函落实东盟化妆品指令：联苯苄唑等 4 种成分立即禁用；曲酸面部用限 1%、身体驻留限 0.2%。",
+      "body_text": "- 立即禁用：联苯苄唑、克霉唑、噻苯达唑、噻康唑\n\n- 曲酸：面颈手驻留和淋洗限 1%，身体驻留限 0.2%\n\n- 已通报产品：曲酸、CI 45430 过渡到 2028年4月29日\n\n美白类产品重点核对。",
+      "markets": [
+        "my"
+      ],
+      "platforms": [],
+      "tags": [
+        "ingredients"
+      ],
+      "source_url": "https://www.npra.gov.my/index.php/en/directives-cosmetic-products/1527865-pekeliling-bil-2-2026-makluman-berkenaan-status-kemaskini-bahan-bahan-dalam-annnex-pada-guidelines-for-control-of-cosmetic-products-in-malaysia.html",
+      "source_name": "NPRA",
+      "checked": "2026-10-23",
+      "needs_review": false,
+      "sample": false,
+      "key_date": {
+        "date": "2028-04-29",
+        "label": "过渡截止"
+      },
+      "page": "/news/2026-07-06-npra-circular-2-2026/"
+    }
+  ]
+}

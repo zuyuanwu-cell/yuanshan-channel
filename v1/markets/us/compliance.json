@@ -1,0 +1,468 @@
+{
+  "api": "yuanshan-channel/v1",
+  "access": "public-read",
+  "auth": null,
+  "generated": "2026-10-26",
+  "disclaimer": "每条资讯都附来源链接。标了「待核实」的条目来自媒体或第三方转述，引用前打开原文。费用、排名和法规以官方页面为准。",
+  "kind": "compliance",
+  "id": "us",
+  "name_zh": "美国",
+  "region": "北美",
+  "region_slug": "north-america",
+  "page": "/compliance/us/",
+  "market": {
+    "country": "us",
+    "name_zh": "美国",
+    "flag": "🇺🇸",
+    "region": "北美",
+    "difficulty": 2,
+    "summary": "不用事先审批，但要注册设施、列名产品、标签合规；加州防晒含化学滤光剂禁 reef safe 类宣称（2027-01-01）。",
+    "items": [
+      {
+        "id": "mocra-facility",
+        "name_zh": "设施注册",
+        "authority": "FDA",
+        "type": "registration",
+        "mandatory": true,
+        "cost": "免费",
+        "time": "未知",
+        "docs": [
+          "工厂名称地址",
+          "FEI 编号",
+          "美国代理人（境外工厂）"
+        ],
+        "who": "生产工厂",
+        "note": "经 Cosmetics Direct 提交；FDA 不发证书",
+        "official_url": "https://www.fda.gov/cosmetics/registration-listing-cosmetic-product-facilities-and-products",
+        "source_checked": "2026-10-23",
+        "needs_review": false
+      },
+      {
+        "id": "mocra-listing",
+        "name_zh": "产品列名",
+        "authority": "FDA",
+        "type": "registration",
+        "mandatory": true,
+        "cost": "免费",
+        "time": "未知",
+        "docs": [
+          "产品名称",
+          "全成分",
+          "产品类别",
+          "对应设施编号"
+        ],
+        "who": "责任人（品牌/经销商）",
+        "note": "每年更新",
+        "official_url": "https://www.fda.gov/cosmetics/registration-listing-cosmetic-product-facilities-and-products",
+        "source_checked": "2026-10-23",
+        "needs_review": false
+      },
+      {
+        "id": "fda-label",
+        "name_zh": "英文标签",
+        "authority": "FDA",
+        "type": "label",
+        "mandatory": true,
+        "cost": "未知",
+        "time": "未知",
+        "docs": [
+          "品名与用途",
+          "净含量（英制+公制）",
+          "成分（降序）",
+          "责任人名称地址",
+          "警示语"
+        ],
+        "who": "品牌",
+        "note": "21 CFR 701/740",
+        "official_url": "https://www.fda.gov/cosmetics/cosmetics-labeling-regulations/summary-cosmetics-labeling-requirements",
+        "source_checked": "2026-10-23",
+        "needs_review": false
+      },
+      {
+        "id": "mocra-ae",
+        "name_zh": "严重不良事件 15 个工作日上报",
+        "authority": "FDA",
+        "type": "safety",
+        "mandatory": true,
+        "cost": "免费",
+        "time": "未知",
+        "docs": [
+          "上报表 3500A",
+          "产品标签"
+        ],
+        "who": "责任人",
+        "note": "",
+        "official_url": "https://www.fda.gov/cosmetics/cosmetics-compliance-enforcement/how-report-cosmetic-product-related-complaint",
+        "source_checked": "2026-10-23",
+        "needs_review": false
+      },
+      {
+        "id": "mocra-safety",
+        "name_zh": "安全性证据留档",
+        "authority": "FDA",
+        "type": "safety",
+        "mandatory": true,
+        "cost": "未知",
+        "time": "未知",
+        "docs": [
+          "安全评估资料"
+        ],
+        "who": "责任人",
+        "note": "MoCRA 要求责任人保有安全性证明",
+        "official_url": "https://www.fda.gov/cosmetics/cosmetics-laws-regulations/modernization-cosmetics-regulation-act-2022-mocra",
+        "source_checked": "2026-10-23",
+        "needs_review": false
+      },
+      {
+        "id": "mocra-recall",
+        "name_zh": "强制召回配合（MoCRA §611）",
+        "authority": "FDA",
+        "type": "safety",
+        "mandatory": true,
+        "cost": "未知",
+        "time": "未知",
+        "docs": [
+          "召回联系人与渠道清单",
+          "库存与分销追溯记录"
+        ],
+        "who": "责任人",
+        "note": "2026-10-22 终稿指南明确何时下令、流程与企业配合义务；仍鼓励自愿召回",
+        "official_url": "https://www.fda.gov/cosmetics/cosmetics-news-events/fda-issues-final-guidance-mandatory-cosmetic-recalls",
+        "source_checked": "2026-10-24",
+        "needs_review": false
+      },
+      {
+        "id": "ca-sunscreen-reef-claims",
+        "name_zh": "加州防晒珊瑚友好宣称限制",
+        "authority": "加州（AB 1744 / BPC §17580.7）",
+        "type": "label",
+        "mandatory": true,
+        "cost": "未知",
+        "time": "2027-01-01 起",
+        "docs": [
+          "防晒配方是否含化学 UV 滤光剂",
+          "广告/标签/包装宣称用语清单"
+        ],
+        "who": "在加州销售防晒的广告与标签责任方",
+        "note": "含阿伏苯宗等化学滤光剂则禁 reef safe、ocean friendly 等海洋友好类宣称；违规轻罪。物理防晒且无化学滤光剂除外。",
+        "official_url": "https://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260AB1744",
+        "source_checked": "2026-10-31",
+        "needs_review": false
+      },
+      {
+        "id": "pa-animal-testing-ban",
+        "name_zh": "宾州禁售动物实验化妆品",
+        "authority": "宾州（Act 92/2026）",
+        "type": "testing",
+        "mandatory": true,
+        "cost": "未知",
+        "time": "2027-01-01 起测",
+        "docs": [
+          "原料/成品动物实验时间线",
+          "供应商不新增动物实验声明",
+          "豁免情形书面依据（如有）"
+        ],
+        "who": "标签署名制造商",
+        "note": "2027-01-01后新做/委托动物实验开发的化妆品不得在宾州销售；旧数据可留",
+        "official_url": "https://www.palegis.us/legislation/bills/2025/sb381",
+        "source_checked": "2026-10-27",
+        "needs_review": false
+      },
+      {
+        "id": "amazon-beauty",
+        "name_zh": "亚马逊美妆类目合规资料",
+        "authority": "Amazon",
+        "type": "platform",
+        "mandatory": false,
+        "cost": "未知",
+        "time": "未知",
+        "docs": [
+          "产品图片",
+          "成分/安全资料（按需）"
+        ],
+        "who": "卖家",
+        "note": "部分子类需审核，以后台提示为准",
+        "official_url": "https://sellercentral.amazon.com/help/hub/reference/external/G200332540",
+        "source_checked": "2026-10-23",
+        "needs_review": true
+      },
+      {
+        "id": "us-hs",
+        "name_zh": "HS 编码与关税",
+        "authority": "CBP",
+        "type": "tax-customs",
+        "mandatory": true,
+        "cost": "未知",
+        "time": "未知",
+        "docs": [],
+        "who": "进口商",
+        "note": "HS 编码待补",
+        "official_url": "https://www.cbp.gov/",
+        "source_checked": "2026-10-23",
+        "needs_review": false
+      }
+    ],
+    "steps": [
+      {
+        "title": "安全档案",
+        "type": "safety"
+      },
+      {
+        "title": "备案/注册",
+        "type": "registration"
+      },
+      {
+        "title": "做标签",
+        "type": "label"
+      },
+      {
+        "title": "平台资质",
+        "type": "platform"
+      },
+      {
+        "title": "清关",
+        "type": "tax-customs"
+      }
+    ],
+    "last_verified": "2026-10-31",
+    "hs_codes": {
+      "status": "ready",
+      "items": [
+        {
+          "code": "3303003000",
+          "name_zh": "香水",
+          "duty": "Free",
+          "source_url": "https://hts.usitc.gov/search?query=3303.00.30.00"
+        },
+        {
+          "code": "3303003000",
+          "name_zh": "淡香水",
+          "duty": "Free",
+          "source_url": "https://hts.usitc.gov/search?query=3303.00.30.00"
+        },
+        {
+          "code": "3304100000",
+          "name_zh": "唇部彩妆",
+          "duty": "Free",
+          "source_url": "https://hts.usitc.gov/search?query=3304.10.00.00"
+        },
+        {
+          "code": "3304200000",
+          "name_zh": "眼部彩妆",
+          "duty": "Free",
+          "source_url": "https://hts.usitc.gov/search?query=3304.20.00.00"
+        },
+        {
+          "code": "3304300000",
+          "name_zh": "美甲产品",
+          "duty": "Free",
+          "source_url": "https://hts.usitc.gov/search?query=3304.30.00.00"
+        },
+        {
+          "code": "3304910050",
+          "name_zh": "粉类（散粉/粉饼）",
+          "duty": "Free",
+          "source_url": "https://hts.usitc.gov/search?query=3304.91.00.50"
+        },
+        {
+          "code": "3304995000",
+          "name_zh": "面霜/乳液/精华（护肤）",
+          "duty": "Free",
+          "source_url": "https://hts.usitc.gov/search?query=3304.99.50.00"
+        },
+        {
+          "code": "3304995000",
+          "name_zh": "防晒",
+          "duty": "Free",
+          "source_url": "https://hts.usitc.gov/search?query=3304.99.50.00"
+        },
+        {
+          "code": "3304995000",
+          "name_zh": "卸妆产品",
+          "duty": "Free",
+          "source_url": "https://hts.usitc.gov/search?query=3304.99.50.00"
+        },
+        {
+          "code": "3305100000",
+          "name_zh": "洗发水",
+          "duty": "Free",
+          "source_url": "https://hts.usitc.gov/search?query=3305.10.00.00"
+        },
+        {
+          "code": "3305900000",
+          "name_zh": "护发素",
+          "duty": "Free",
+          "source_url": "https://hts.usitc.gov/search?query=3305.90.00.00"
+        },
+        {
+          "code": "3305900000",
+          "name_zh": "染发剂",
+          "duty": "Free",
+          "source_url": "https://hts.usitc.gov/search?query=3305.90.00.00"
+        },
+        {
+          "code": "3305300000",
+          "name_zh": "发胶/定型喷雾",
+          "duty": "Free",
+          "source_url": "https://hts.usitc.gov/search?query=3305.30.00.00"
+        },
+        {
+          "code": "3306100000",
+          "name_zh": "牙膏",
+          "duty": "Free",
+          "source_url": "https://hts.usitc.gov/search?query=3306.10.00.00"
+        },
+        {
+          "code": "3306900000",
+          "name_zh": "漱口水",
+          "duty": "Free",
+          "source_url": "https://hts.usitc.gov/search?query=3306.90.00.00"
+        },
+        {
+          "code": "3306200000",
+          "name_zh": "牙线",
+          "duty": "Free",
+          "source_url": "https://hts.usitc.gov/search?query=3306.20.00.00"
+        },
+        {
+          "code": "3307200000",
+          "name_zh": "止汗/香体",
+          "duty": "4.9%",
+          "source_url": "https://hts.usitc.gov/search?query=3307.20.00.00"
+        },
+        {
+          "code": "3307101000",
+          "name_zh": "剃须膏",
+          "duty": "4.9%",
+          "source_url": "https://hts.usitc.gov/search?query=3307.10.10.00"
+        },
+        {
+          "code": "3401305000",
+          "name_zh": "沐浴露",
+          "duty": "Free",
+          "source_url": "https://hts.usitc.gov/search?query=3401.30.50.00"
+        },
+        {
+          "code": "3401115000",
+          "name_zh": "香皂（块）",
+          "duty": "Free",
+          "source_url": "https://hts.usitc.gov/search?query=3401.11.50.00"
+        },
+        {
+          "code": "3401305000",
+          "name_zh": "液体洗手液",
+          "duty": "Free",
+          "source_url": "https://hts.usitc.gov/search?query=3401.30.50.00"
+        },
+        {
+          "code": "3307900000",
+          "name_zh": "脱毛膏",
+          "duty": "5.4%",
+          "source_url": "https://hts.usitc.gov/search?query=3307.90.00.00"
+        },
+        {
+          "code": "3304995000",
+          "name_zh": "面膜（片状）",
+          "duty": "Free",
+          "source_url": "https://hts.usitc.gov/search?query=3304.99.50.00"
+        },
+        {
+          "code": "9603298090",
+          "name_zh": "化妆刷",
+          "duty": "0.3¢ each + 3.6%",
+          "source_url": "https://hts.usitc.gov/search?query=9603.29.80.90"
+        },
+        {
+          "code": "9616200000",
+          "name_zh": "化妆海绵/粉扑",
+          "duty": "4.3%",
+          "source_url": "https://hts.usitc.gov/search?query=9616.20.00.00"
+        },
+        {
+          "code": "6704190000",
+          "name_zh": "假睫毛（合成纤维）",
+          "duty": "Free",
+          "source_url": "https://hts.usitc.gov/search?query=6704.19.00.00"
+        },
+        {
+          "code": "8510300000",
+          "name_zh": "电动脱毛器",
+          "duty": "4.2%",
+          "source_url": "https://hts.usitc.gov/search?query=8510.30.00.00"
+        },
+        {
+          "code": "8516320040",
+          "name_zh": "美发电器（卷/直发器）",
+          "duty": "3.9%",
+          "source_url": "https://hts.usitc.gov/search?query=8516.32.00.40"
+        },
+        {
+          "code": "8543709860",
+          "name_zh": "电动美容仪（面部）",
+          "duty": "2.6%",
+          "source_url": "https://hts.usitc.gov/search?query=8543.70.98.60"
+        },
+        {
+          "code": "3402505100",
+          "name_zh": "洗衣液",
+          "duty": "Free",
+          "source_url": "https://hts.usitc.gov/search?query=3402.50.51.00"
+        },
+        {
+          "code": "3402505100",
+          "name_zh": "柔顺剂/衣物护理",
+          "duty": "Free",
+          "source_url": "https://hts.usitc.gov/search?query=3402.50.51.00"
+        },
+        {
+          "code": "3402505100",
+          "name_zh": "洗洁精/洗碗液",
+          "duty": "Free",
+          "source_url": "https://hts.usitc.gov/search?query=3402.50.51.00"
+        },
+        {
+          "code": "3402505100",
+          "name_zh": "多用途清洁剂",
+          "duty": "Free",
+          "source_url": "https://hts.usitc.gov/search?query=3402.50.51.00"
+        },
+        {
+          "code": "3402505100",
+          "name_zh": "洁厕剂",
+          "duty": "Free",
+          "source_url": "https://hts.usitc.gov/search?query=3402.50.51.00"
+        },
+        {
+          "code": "3402505100",
+          "name_zh": "玻璃清洁剂",
+          "duty": "Free",
+          "source_url": "https://hts.usitc.gov/search?query=3402.50.51.00"
+        },
+        {
+          "code": "2828900000",
+          "name_zh": "次氯酸盐（漂白水）",
+          "duty": "3.7%",
+          "source_url": "https://hts.usitc.gov/search?query=2828.90.00.00"
+        },
+        {
+          "code": "2847000000",
+          "name_zh": "过氧化氢（氧漂）",
+          "duty": "3.7%",
+          "source_url": "https://hts.usitc.gov/search?query=2847.00.00.00"
+        },
+        {
+          "code": "3402901000",
+          "name_zh": "非零售洗涤/清洁制剂",
+          "duty": "3.8%",
+          "source_url": "https://hts.usitc.gov/search?query=3402.90.10.00"
+        },
+        {
+          "code": "3808945095",
+          "name_zh": "消毒剂",
+          "duty": "5%",
+          "source_url": "https://hts.usitc.gov/search?query=3808.94.50.95"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,150 @@
+{
+  "api": "yuanshan-channel/v1",
+  "access": "public-read",
+  "auth": null,
+  "generated": "2026-10-26",
+  "disclaimer": "每条资讯都附来源链接。标了「待核实」的条目来自媒体或第三方转述，引用前打开原文。费用、排名和法规以官方页面为准。",
+  "kind": "feed",
+  "id": "my",
+  "title": "马来西亚",
+  "markets": [
+    "my"
+  ],
+  "types": [
+    "rules",
+    "regulation",
+    "rankings"
+  ],
+  "filter": {
+    "markets": [
+      "my"
+    ],
+    "types": [
+      "rules",
+      "regulation",
+      "rankings"
+    ],
+    "include_global": false
+  },
+  "count": 5,
+  "items": [
+    {
+      "kind": "ranking",
+      "id": "shopee-my/2026-10-26",
+      "type": "rankings",
+      "date": "2026-10-26",
+      "title": "Shopee 马来西亚 · 2026-10-26",
+      "summary": "30 个单品 · Shopee MY skincare (sales) · 部分数据 · 待核实",
+      "markets": [
+        "my"
+      ],
+      "board": "shopee-my",
+      "source_url": "https://shopee.com.my/",
+      "source_name": "Shopee MY skincare (sales)",
+      "needs_review": true,
+      "sample": false,
+      "partial": true,
+      "page": "/rankings/shopee-my/",
+      "detail": "/v1/rankings/shopee-my/2026-10-26.json"
+    },
+    {
+      "kind": "ranking",
+      "id": "shopee-my/2026-10-23",
+      "type": "rankings",
+      "date": "2026-10-23",
+      "title": "Shopee 马来西亚 · 2026-10-23",
+      "summary": "30 个单品 · Shopee MY · skincare (sales sort) · 待核实",
+      "markets": [
+        "my"
+      ],
+      "board": "shopee-my",
+      "source_url": "https://shopee.com.my/search?keyword=skincare&sortBy=sales",
+      "source_name": "Shopee MY · skincare (sales sort)",
+      "needs_review": true,
+      "sample": false,
+      "partial": false,
+      "page": "/rankings/shopee-my/",
+      "detail": "/v1/rankings/shopee-my/2026-10-23.json"
+    },
+    {
+      "kind": "news",
+      "id": "2026-10-16-tiktok-shop-my-commission-hike",
+      "type": "rules",
+      "date": "2026-10-16",
+      "title": "TikTok Shop 马来西亚 10月31日起上调美妆佣金，Mall 香水彩妆最高约 20.5%",
+      "summary": "马来西亚时间 10月31日 0 点起调整 Marketplace/Mall 佣金（含 SST）。妆护、护肤、洗护等多数美妆子类上调；女性护理等少数必需类下调。生效前下单仍按旧费率。",
+      "body_text": "TikTok Shop 马来西亚卖家大学佣金页写明：马来西亚时间 2026年10月31日 00:00（UTC+8） 起，Marketplace 与 Mall 佣金按新表收取；此前已下单仍按旧费率结算。费率表含 SST。\n\n对美妆日化卖家影响最大的几类（含 SST，取官方表）：\n\n子类\nMarketplace 非 BXP：旧 → 新\nMall 非 BXP：旧 → 新\n\n彩妆 Makeup\n15.66% → 17.28%\n18.90% → 20.52%\n\n香水 Fragrance\n15.66% → 17.28%\n18.90% → 20.52%\n\n手足护 Hand & Foot / 男士护理 / 美甲\n同上档\n同上档\n\n护肤 Skincare / 洗护 Hair / 沐浴 Bath & Body\n15.12% → 16.74%\n18.36% → 19.98%\n\n少数「必需类」下调，例如女性护理 Feminine Care：Marketplace 非 BXP 14.58% → 12.10%。\n\n平台强调：仍按成交抽佣，不加月租或上架费；BXP 卖家佣金仍低于非 BXP。佣金基数是「售价 − 卖家折扣」，不含运费和平台补贴。\n\n意味着什么：马来西亚站美妆（尤其 Mall、非 BXP）毛利再被挤一截。10月31日前把定价、促销深度和是否进 BXP 算清楚；日化洗护同样上调，不要只盯彩妆。",
+      "markets": [
+        "my"
+      ],
+      "platforms": [
+        "tiktok-shop"
+      ],
+      "tags": [
+        "fees"
+      ],
+      "source_url": "https://seller-my.tiktok.com/university/essay?knowledge_id=6907739532281602&lang=en",
+      "source_name": "TikTok Shop 马来西亚卖家大学 · Commission Fee",
+      "checked": "2026-10-24",
+      "needs_review": false,
+      "sample": false,
+      "key_date": {
+        "date": "2026-10-31",
+        "label": "新费率生效"
+      },
+      "page": "/news/2026-10-16-tiktok-shop-my-commission-hike/"
+    },
+    {
+      "kind": "news",
+      "id": "2026-07-06-npra-circular-2-2026",
+      "type": "regulation",
+      "date": "2026-07-06",
+      "title": "马来西亚 NPRA 更新成分附件：曲酸限量收紧，4 种抗真菌成分禁用",
+      "summary": "NPRA 2026 年第 2 号通函落实东盟化妆品指令：联苯苄唑等 4 种成分立即禁用；曲酸面部用限 1%、身体驻留限 0.2%。",
+      "body_text": "- 立即禁用：联苯苄唑、克霉唑、噻苯达唑、噻康唑\n\n- 曲酸：面颈手驻留和淋洗限 1%，身体驻留限 0.2%\n\n- 已通报产品：曲酸、CI 45430 过渡到 2028年4月29日\n\n美白类产品重点核对。",
+      "markets": [
+        "my"
+      ],
+      "platforms": [],
+      "tags": [
+        "ingredients"
+      ],
+      "source_url": "https://www.npra.gov.my/index.php/en/directives-cosmetic-products/1527865-pekeliling-bil-2-2026-makluman-berkenaan-status-kemaskini-bahan-bahan-dalam-annnex-pada-guidelines-for-control-of-cosmetic-products-in-malaysia.html",
+      "source_name": "NPRA",
+      "checked": "2026-10-23",
+      "needs_review": false,
+      "sample": false,
+      "key_date": {
+        "date": "2028-04-29",
+        "label": "过渡截止"
+      },
+      "page": "/news/2026-07-06-npra-circular-2-2026/"
+    },
+    {
+      "kind": "news",
+      "id": "2024-12-01-shopee-my-cosmetic-npra-listing",
+      "type": "rules",
+      "date": "2024-12-01",
+      "title": "Shopee 马来：化妆品须先完成 NPRA 通知再上架",
+      "summary": "马来站说明化妆品无需 NPRA 注册但必须通知；通知号格式 NOTYYMMXXXXXK，未通知可面临高额罚款。",
+      "body_text": "Shopee 马来西亚卖家教育《Medical Device / Health Supplement / Drug / Cosmetic Product Listings》写明：自 2008 年起，马来化妆品不走注册制，但投放市场前须向 NPRA 完成通知，并取得格式为 NOTYYMMXXXXXK 的通知号。\n\n出售未通知化妆品可能被罚款并承担刑事责任。Shopee 也可在卫生部标记含禁用成分时下架已通知商品。\n\n文章日期以卖家中心可见版本为准，精确修订日请打开原文，故标待核实。",
+      "markets": [
+        "my"
+      ],
+      "platforms": [
+        "shopee"
+      ],
+      "tags": [
+        "listing",
+        "compliance"
+      ],
+      "source_url": "https://seller.shopee.com.my/edu/article/7259",
+      "source_name": "Shopee Seller Education MY",
+      "checked": "2026-10-23",
+      "needs_review": true,
+      "sample": false,
+      "key_date": null,
+      "page": "/news/2024-12-01-shopee-my-cosmetic-npra-listing/"
+    }
+  ]
+}

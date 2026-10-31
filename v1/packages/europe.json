@@ -1,0 +1,409 @@
+{
+  "api": "yuanshan-channel/v1",
+  "access": "public-read",
+  "auth": null,
+  "generated": "2026-10-26",
+  "disclaimer": "每条资讯都附来源链接。标了「待核实」的条目来自媒体或第三方转述，引用前打开原文。费用、排名和法规以官方页面为准。",
+  "kind": "package",
+  "id": "europe",
+  "title": "欧洲",
+  "markets": [
+    "at",
+    "be",
+    "bg",
+    "ch",
+    "cy",
+    "cz",
+    "de",
+    "dk",
+    "ee",
+    "es",
+    "eu",
+    "fi",
+    "fr",
+    "gr",
+    "hr",
+    "hu",
+    "ie",
+    "is",
+    "it",
+    "lt",
+    "lu",
+    "lv",
+    "mt",
+    "nl",
+    "no",
+    "pl",
+    "pt",
+    "ro",
+    "rs",
+    "se",
+    "si",
+    "sk",
+    "uk"
+  ],
+  "types": [
+    "rules",
+    "regulation",
+    "rankings"
+  ],
+  "filter": {
+    "markets": [
+      "at",
+      "be",
+      "bg",
+      "ch",
+      "cy",
+      "cz",
+      "de",
+      "dk",
+      "ee",
+      "es",
+      "eu",
+      "fi",
+      "fr",
+      "gr",
+      "hr",
+      "hu",
+      "ie",
+      "is",
+      "it",
+      "lt",
+      "lu",
+      "lv",
+      "mt",
+      "nl",
+      "no",
+      "pl",
+      "pt",
+      "ro",
+      "rs",
+      "se",
+      "si",
+      "sk",
+      "uk"
+    ],
+    "types": [
+      "rules",
+      "regulation",
+      "rankings"
+    ],
+    "include_global": false
+  },
+  "count": 12,
+  "items": [
+    {
+      "kind": "news",
+      "id": "2026-10-29-temu-eu-dsa-action-plan-illegal-products",
+      "type": "rules",
+      "date": "2026-10-29",
+      "title": "欧盟接受 Temu DSA 整改计划：四个月加严非法商品排查，美妆无责任人/不合规货下架风险升高",
+      "summary": "欧委会10月26日接受Temu就《数字服务法》风险评失败的整改计划：平台须强化非法商品风险分析、内容审核短板与推荐算法放大效应评估；四个月内推进并做覆盖至2026-11-30的中期风险评估。美妆等不合规链接面临更紧的下架与流量收紧。",
+      "body_text": "欧盟委员会在 2026年10月26日《Daily News》中宣布：已接受 Temu 为纠正违反《数字服务法》（DSA）所作的整改计划。此前委员会认定 Temu 未充分履行对平台上非法商品相关系统性风险的评估义务，并曾处以 2 亿欧元罚款。一手来源为委员会当日新闻简报（MEX/26/2257）。\n\n这不是又一条化妆品成分禁令，而是 Temu 欧洲站接下来几个月会怎么查「不合格/违法商品」——美妆日化因为责任人、标签、安全与虚假宣传问题集中，往往落在高风险区。\n\n改了什么\n\n委员会概括 Temu 计划的 五项措施：\n\n- 做针对本平台的风险分析（用可靠、及时的信息）\n\n- 用可度量指标检验缓解措施是否真的降低了非法内容/非法商品扩散\n\n- 评估内容审核（含自动检测、人工复核、反馈与资源投入）的短板，以及这些短板如何影响推荐给用户的商品\n\n- 分析推荐系统是否会放大非法商品曝光\n\n- 排查卖家及其他用户是否利用平台功能故意操纵、放大潜在非法 listing\n\n时间表（简报口径）：\n\n- 接受计划当日：2026-10-26\n\n- Temu 须在 四个月内推进计划落地，并开展覆盖 截至 2026-11-30 共六个月的中期风险评估\n\n- 委员会将继续监督执行；数字服务委员会曾认为计划细节不够充分，委员会称已据此澄清关键要求\n\n公开跟进报道还提到：Temu 承诺做外部独立审计，审计报告需在措施实施后四个月内提交委员会；若审计有建议，须一个月内反馈处理情况。\n\n影响谁\n\n- 在 Temu 欧盟站点卖护肤、彩妆、香水、个护的卖家——缺欧盟责任人（RP）、CPNP/标签不全、禁限用成分、虚假功效或仿牌风险更高的链接，更容易被加强审核与下架\n\n- 靠「擦边 listing + 推荐流量」起量的白牌美妆：推荐侧若被要求压非法货扩散，曝光可能被动收缩\n\n- 已合规、资料齐全的品牌：相对受益（竞品不合规货被清）\n\n意味着什么 / 现在注意什么\n\n- 未来约一个季度是收紧窗口：别等链接没了再补 RP、成分与包装图；欧盟化妆品本就要求 RP、PIF/安全报告与 CPNP，平台加码排查等于把法定义务和上架资格绑得更紧\n\n- 自查：责任人信息是否与包装一致、有无禁限用/未通报纳米、宣称是否医疗化、主图是否假货仿牌风险\n\n- 与站内 Temu 美国站 PFAS/加州65申报 (/news/2026-10-29-temu-us-cosmetics-pfas-prop65/) 是不同站点、不同规则；欧洲这条是 DSA 执法，不是美国合规中心字段\n\n来源：欧盟委员会 Daily News 26/10/2026 PDF（MEX/26/2257） (https://ec.europa.eu/commission/presscorner/api/files/document/print/en/mex_26_2257/MEX_26_2257_EN.pdf)",
+      "markets": [
+        "eu"
+      ],
+      "platforms": [
+        "temu"
+      ],
+      "tags": [
+        "compliance",
+        "penalties"
+      ],
+      "source_url": "https://ec.europa.eu/commission/presscorner/api/files/document/print/en/mex_26_2257/MEX_26_2257_EN.pdf",
+      "source_name": "欧盟委员会 Daily News 26/10/2026（MEX/26/2257）",
+      "checked": "2026-10-29",
+      "needs_review": false,
+      "sample": false,
+      "key_date": {
+        "date": "2026-10-26",
+        "label": "欧委会接受整改计划"
+      },
+      "page": "/news/2026-10-29-temu-eu-dsa-action-plan-illegal-products/"
+    },
+    {
+      "kind": "ranking",
+      "id": "amazon-de/2026-10-26",
+      "type": "rankings",
+      "date": "2026-10-26",
+      "title": "Amazon 德国站 · 2026-10-26",
+      "summary": "30 个单品 · Amazon.de Bestseller · Kosmetik · 部分数据 · 待核实",
+      "markets": [
+        "de"
+      ],
+      "board": "amazon-de",
+      "source_url": "https://www.amazon.de/gp/bestsellers/beauty",
+      "source_name": "Amazon.de Bestseller · Kosmetik",
+      "needs_review": true,
+      "sample": false,
+      "partial": true,
+      "page": "/rankings/amazon-de/",
+      "detail": "/v1/rankings/amazon-de/2026-10-26.json"
+    },
+    {
+      "kind": "ranking",
+      "id": "amazon-uk/2026-10-26",
+      "type": "rankings",
+      "date": "2026-10-26",
+      "title": "Amazon 英国站 · 2026-10-26",
+      "summary": "30 个单品 · Amazon.co.uk Best Sellers · Beauty · 部分数据 · 待核实",
+      "markets": [
+        "uk"
+      ],
+      "board": "amazon-uk",
+      "source_url": "https://www.amazon.co.uk/gp/bestsellers/beauty",
+      "source_name": "Amazon.co.uk Best Sellers · Beauty",
+      "needs_review": true,
+      "sample": false,
+      "partial": true,
+      "page": "/rankings/amazon-uk/",
+      "detail": "/v1/rankings/amazon-uk/2026-10-26.json"
+    },
+    {
+      "kind": "news",
+      "id": "2026-10-23-uk-hexyl-salicylate-2027",
+      "type": "regulation",
+      "date": "2026-10-23",
+      "title": "英国第二批修订：水杨酸己酯限量，2027年3月23日生效",
+      "summary": "英国 2026 年第 109 号条例限制香料成分水杨酸己酯，并新增一批 CMR 禁用物质；2027年3月23日生效，清库存到 2027年9月22日。",
+      "body_text": "- 限制香料成分 水杨酸己酯（hexyl salicylate）\n\n- 新增一批 CMR 禁用物质\n\n- 2027年3月23日生效，已上市产品可卖到 2027年9月22日\n\n香水、香氛身体护理类要提前查配方。",
+      "markets": [
+        "uk"
+      ],
+      "platforms": [],
+      "tags": [
+        "ingredients"
+      ],
+      "source_url": "https://www.legislation.gov.uk/uksi/2026/109/body/made",
+      "source_name": "legislation.gov.uk",
+      "checked": "2026-10-23",
+      "needs_review": false,
+      "sample": false,
+      "key_date": {
+        "date": "2027-03-23",
+        "label": "生效"
+      },
+      "page": "/news/2026-10-23-uk-hexyl-salicylate-2027/"
+    },
+    {
+      "kind": "ranking",
+      "id": "amazon-de/2026-10-23",
+      "type": "rankings",
+      "date": "2026-10-23",
+      "title": "Amazon 德国站 · 2026-10-23",
+      "summary": "30 个单品 · Amazon.de Bestseller · Kosmetik · 部分数据 · 待核实",
+      "markets": [
+        "de"
+      ],
+      "board": "amazon-de",
+      "source_url": "https://www.amazon.de/gp/bestsellers/beauty",
+      "source_name": "Amazon.de Bestseller · Kosmetik",
+      "needs_review": true,
+      "sample": false,
+      "partial": true,
+      "page": "/rankings/amazon-de/",
+      "detail": "/v1/rankings/amazon-de/2026-10-23.json"
+    },
+    {
+      "kind": "ranking",
+      "id": "amazon-uk/2026-10-23",
+      "type": "rankings",
+      "date": "2026-10-23",
+      "title": "Amazon 英国站 · 2026-10-23",
+      "summary": "30 个单品 · Amazon.co.uk Best Sellers · Beauty · 部分数据 · 待核实",
+      "markets": [
+        "uk"
+      ],
+      "board": "amazon-uk",
+      "source_url": "https://www.amazon.co.uk/Best-Sellers-Beauty/zgbs/beauty",
+      "source_name": "Amazon.co.uk Best Sellers · Beauty",
+      "needs_review": true,
+      "sample": false,
+      "partial": true,
+      "page": "/rankings/amazon-uk/",
+      "detail": "/v1/rankings/amazon-uk/2026-10-23.json"
+    },
+    {
+      "kind": "news",
+      "id": "2026-10-22-eu-omnibus-vi-parliament",
+      "type": "regulation",
+      "date": "2026-10-22",
+      "title": "欧盟议会通过 Omnibus VI：CMR 化妆品清货期缩短",
+      "summary": "欧洲议会10月22日以477票赞成通过 Omnibus VI 与理事会临时协议。含新禁CMR的化妆品清货窗口缩短；纳米成分通报取消「提前6个月」。须理事会再通过才生效。",
+      "body_text": "欧洲议会 2026年10月22日 以 477 票赞成、59 票反对、41 票弃权，一读通过化学品简化一揽子（业内称 Omnibus VI，程序号 2025/0531(COD)）与理事会谈妥的临时协议。文件会改化妆品法规（EC）1223/2009、CLP 与肥料规则。理事会还要通过并在官方公报公布后才生效，现在不是立刻改标签。\n\n对美妆卖家/品牌，真正要盯的是两件事：\n\n1. 新禁 CMR 成分后的清货时间变短\n\n某物质因被列为 CMR 写进化妆品禁用表后（从「列入禁用表生效日」起算，不是从今天起算）：\n\n- 没申请豁免：还可 投放市场 6 个月、继续销售 12 个月（比委员会最初设想的 12/24 个月更紧）\n\n- 申请豁免但因安全被拒：投放 3 个月 / 可售 9 个月\n\n- 1A/1B 类因「已有合适替代物」被拒：投放 24 个月 / 可售 36 个月，并要更新产品安全报告\n\n- 豁免申请须在新 CMR 分类生效后 3 个月内提交\n\n意味着什么：欧洲站一出现新 CMR 禁令，库存和在途货的缓冲比以前短。跨境卖家要和 RP、工厂约定「禁令生效 → 立刻停产停发」的节奏，不要按旧的一年清货心理备货。\n\n2. 含纳米成分：仍要事前通报，但取消「提前 6 个月」\n\n含纳米材料的化妆品仍须通报，不再要求比上市早 6 个月；已在限用附件、符合条件的产品另有例外。上新节奏会快一点，但通报本身不能省。\n\n注意：站内 9月21日那篇「Omnibus IX」讲的是另一批具体成分禁限草案（二苯酮-1/-2 等），和本条 Omnibus VI（程序简化） 不是同一份文件。两份都要跟。\n\n来源：欧洲议会表决记录 EP Votes (https://epvotes.com/votes/198430)（A10-0104/2026）；要点综述见 2eu.brussels (https://2eu.brussels/en/news/european-parliament-approves-simplified-rules-for-cosmetics-chemicals-and-fertilisers)。",
+      "markets": [
+        "eu"
+      ],
+      "platforms": [
+        "amazon-eu",
+        "temu",
+        "zalando",
+        "otto"
+      ],
+      "tags": [
+        "ingredients",
+        "compliance"
+      ],
+      "source_url": "https://epvotes.com/votes/198430",
+      "source_name": "EP Votes（欧洲议会表决记录）",
+      "checked": "2026-10-24",
+      "needs_review": true,
+      "sample": false,
+      "key_date": {
+        "date": "2026-10-22",
+        "label": "议会通过"
+      },
+      "page": "/news/2026-10-22-eu-omnibus-vi-parliament/"
+    },
+    {
+      "kind": "news",
+      "id": "2026-10-15-sccs-acetophenone-heliotropin",
+      "type": "regulation",
+      "date": "2026-10-15",
+      "title": "欧盟SCCS终稿：苯乙酮成品最多100ppm，胡椒醛仅成人香水可到1.8%",
+      "summary": "SCCS 10月15日发布两份终稿：苯乙酮在成品中最多100ppm（含3岁以上儿童）；胡椒醛仅成人香水可到1.8%。这是科学意见，禁限用表要等委员会改附件才强制。",
+      "body_text": "卖 欧盟 的香氛、精油复配、含天然复合物（NCS）的护肤/香水品牌注意：欧盟消费者安全科学委员会（SCCS）在 2026年10月15日 公开两份终稿意见——针对可能按 CLP 被列为 生殖毒性 1B（Repr.1B） 的香料相关物质，给出「在什么浓度下可视为安全」的科学结论。\n\n这不是今天立刻改法：附件 II/III 禁限用要等欧盟委员会走立法程序。但对责任人（RP）和安评，终稿意见通常会很快写进 CPSR 论据。\n\n改了什么（科学结论）\n\n1. 苯乙酮 Acetophenone（CAS 98-86-2）— SCCS/1689/26\n\n- 终稿采纳日 2026-10-14，发布页 2026-10-15\n\n- 问题背景：天然复合物里常带出苯乙酮；若按 Repr.1B 分类，化妆品法规对 CMR 很严\n\n- 结论：成品化妆品中苯乙酮浓度 不超过 100 ppm（0.01%） 时，对成人及 3 岁及以上儿童 可视为安全（评估已计入化妆品以外来源暴露）\n\n- 边界：未评估「整支天然复合物」本身的安全性，只评估其中作为组分的苯乙酮\n\n2. 胡椒醛 Heliotropin / Piperonal（CAS 120-57-0）— SCCS/1688/26\n\n- 终稿书面程序采纳约 2026-10-12，同日窗口发布\n\n- 结论：仅在 成人用高级香水（fine fragrances） 中，最高 1.8% 可视为安全\n\n- 任务书范围就卡在「成人香水」；申请人另附了其他品类/儿童场景的安全边际测算，但 不在本次正式结论里\n\n影响谁\n\n- 配方里用 精油、天然香基、复配香精 的欧盟在售护肤/香水/个护（苯乙酮杂质或组分常见）\n\n- 主打 heliotropin/胡椒醛花香的 香水品牌\n\n- 欧盟 RP、安评实验室：写 CPSR 时要按新终稿核浓度，不能只写「天然来源所以没事」\n\n意味着什么\n\n- 先核配方实测/供应商报告：精油批与批之间苯乙酮波动大，纸面配方不够，最好有批次检测或可追溯的规格上限\n\n- 香水线单独看胡椒醛：儿童线、身体喷雾、护肤里加高比例 heliotropin，不要直接套用「1.8% 成人香水」结论\n\n- 盯 CosIng / 官方公报：一旦委员会把限值写进附件，才有统一清货期；在此之前，平台抽检与成员国市场监管仍可能按最新科学意见卡货\n\n来源\n\n- SCCS Opinion on Acetophenone（SCCS/1689/26） (https://health.ec.europa.eu/publications/sccs-opinion-safety-acetophenone-cas-no-98-86-2-ec-no-202-708-7_en)\n\n- SCCS Final Opinion on Heliotropin（SCCS/1688/26） (https://health.ec.europa.eu/latest-updates/sccs-final-opinion-safety-heliotropin-used-cosmetic-products-2026-10-15_en)",
+      "markets": [
+        "eu"
+      ],
+      "platforms": [
+        "amazon-eu",
+        "temu",
+        "zalando",
+        "otto"
+      ],
+      "tags": [
+        "ingredients",
+        "compliance"
+      ],
+      "source_url": "https://health.ec.europa.eu/publications/sccs-opinion-safety-acetophenone-cas-no-98-86-2-ec-no-202-708-7_en",
+      "source_name": "欧盟健康总司 · SCCS/1689/26",
+      "checked": "2026-10-29",
+      "needs_review": true,
+      "sample": false,
+      "key_date": {
+        "date": "2026-10-15",
+        "label": "终稿发布"
+      },
+      "page": "/news/2026-10-15-sccs-acetophenone-heliotropin/"
+    },
+    {
+      "kind": "news",
+      "id": "2026-10-10-eu-reach-pfhxa-cosmetics",
+      "type": "regulation",
+      "date": "2026-10-10",
+      "title": "欧盟 REACH：化妆品含 PFHxA 超标不得再投放，过渡期已于10月10日结束",
+      "summary": "REACH 附件 XVII 第79条：自2026-10-10起，化妆品中 PFHxA 及其盐合计≥25ppb、或相关物质合计≥1000ppb，不得投放或使用；此前已投放的可继续卖。",
+      "body_text": "欧盟条例 (EU) 2024/2462 给 REACH 附件 XVII 加了第 79 条：限制 十一氟己酸（PFHxA）、其盐类及「可降解/转化成 PFHxA 的相关物质」。化妆品在名单里，两年过渡期到 2026年10月10日 结束。\n\n改了什么\n\n自 2026年10月10日 起，在化妆品（按 1223/2009 定义）中：\n\n- PFHxA + 其盐 合计浓度 ≥ 25 ppb，或\n\n- PFHxA 相关物质 合计浓度 ≥ 1000 ppb（按均质材料计）\n\n则 不得再投放市场，也不得再使用 到这类产品里。\n\n「相关物质」按分子结构判断，常见是名字里带 perfluorohexyl 一类、用完会变成 PFHxA 的原料。限值卡的是 配方本体（霜、膏、液本身），不是连瓶子一起称。\n\n例外：在 10月10日 之前已经投放 到欧盟市场的成品（已交给经销商/零售商，或已进口入境），可以继续销售；还在工厂库房、还没进口的，必须达标才能再投。\n\n这和站内已写的 Omnibus VI（CMR 清货窗口） 不是一回事：那条改的是化妆品法规程序，这条是 REACH 化学品限制，查的是 PFAS 杂质/降解物。\n\n对谁有影响\n\n- 卖欧盟站的美妆/个护品牌与工厂：防水、长效、成膜类配方更容易踩到 PFAS 杂质\n\n- 跨境卖家（亚马逊欧站、Temu、Zalando、Otto 等）：责任人（RP）和进口商要能拿出配方/原料筛查依据\n\n- 原料采购：即便没「故意加 PFAS」，供应商杂质超标也会卡投放\n\n意味着什么\n\n- 卡在哪：新货、补货、改包装再进口——只要 10月10日之后才投放，超标就违法；平台抽检或 RP 抽查原料报告时，说不清杂质水平会直接停售。\n\n- 现在注意什么：让工厂/原料商按 25ppb / 1000ppb 出检测或声明；INCI 里带 perfluorohexyl 的先换料；法国、丹麦等国还有更宽的本国 PFAS 禁令，欧站合规不等于各国都松。全量 PFAS「一刀切」草案还在评估，和本条是分开的。\n\n法规原文：EUR-Lex (EU) 2024/2462 (https://eur-lex.europa.eu/eli/reg/2024/2462/oj)。",
+      "markets": [
+        "de",
+        "eu",
+        "fr"
+      ],
+      "platforms": [
+        "amazon-eu",
+        "temu",
+        "zalando",
+        "otto"
+      ],
+      "tags": [
+        "ingredients",
+        "compliance"
+      ],
+      "source_url": "https://eur-lex.europa.eu/eli/reg/2024/2462/oj",
+      "source_name": "EUR-Lex · 条例 (EU) 2024/2462",
+      "checked": "2026-10-25",
+      "needs_review": false,
+      "sample": false,
+      "key_date": {
+        "date": "2026-10-10",
+        "label": "投放禁令生效"
+      },
+      "page": "/news/2026-10-10-eu-reach-pfhxa-cosmetics/"
+    },
+    {
+      "kind": "news",
+      "id": "2026-09-21-eu-cmr-omnibus-draft",
+      "type": "regulation",
+      "date": "2026-09-21",
+      "title": "欧盟化妆品 CMR 修订草案送达理事会：二苯酮-1/-2 等拟禁用",
+      "summary": "委员会把修订 1223/2009 附录的草案送到理事会。新列为 CMR 的物质要进禁用表，另有几种成分拟禁用或加限。",
+      "body_text": "欧盟委员会 9月21日把一份化妆品法规（EC 1223/2009）修订草案送到理事会，文件号 13462/26。业内一般叫它 Omnibus IX。\n\n草案做两件事。\n\n第一，转化新的 CMR 分类。 委员会授权条例 (EU) 2025/1222 新列了一批致癌、致突变或生殖毒性（CMR）物质，这批分类 2027年2月1日 起适用。没有企业申请豁免，所以草案把它们加进附录 II 禁用表。\n\n第二，按 SCCS 的最新评估调整成分。 委员会向 WTO 通报（G/TBT/N/EU/1219）时写的要点：\n\n- 拟禁用：二苯酮-1、二苯酮-2、Basic Brown 16、Basic Blue 99，以及前列腺素类似物（睫毛精华里常见）\n\n- 拟新增或收紧限制：BHA、对羟基苯甲酸丁酯、大麻二酚（CBD）、纳米羟基磷灰石\n\n- 取消含汞防腐剂的现有豁免\n\n这还是草案，理事会和议会审查期间文本可能调整；除 CMR 部分外，其他条款各有过渡期，以最终公报为准。卖欧洲站的产品，现在就该拿配方表对一遍上面的名单。\n\nWTO 通报原文见 欧盟 TBT 数据库 (https://technical-barriers-trade.ec.europa.eu/en/notification/39957)。",
+      "markets": [
+        "eu"
+      ],
+      "platforms": [
+        "amazon-eu",
+        "otto",
+        "zalando",
+        "allegro",
+        "temu"
+      ],
+      "tags": [
+        "ingredients"
+      ],
+      "source_url": "https://data.consilium.europa.eu/doc/document/ST-13462-2026-INIT/en/pdf",
+      "source_name": "欧盟理事会文件 13462/26",
+      "checked": "2026-10-22",
+      "needs_review": false,
+      "sample": false,
+      "key_date": {
+        "date": "2027-02-01",
+        "label": "CMR 新分类适用"
+      },
+      "page": "/news/2026-09-21-eu-cmr-omnibus-draft/"
+    },
+    {
+      "kind": "news",
+      "id": "2026-09-04-temu-eu-3-euro-duty",
+      "type": "regulation",
+      "date": "2026-09-04",
+      "title": "欧盟 €3 小包关税实施两个月，Temu 母公司加码本地仓和本地卖家",
+      "summary": "7月1日起，欧盟对 €150 以下的电商小包按每个税则类别收 €3。PDD 在财报会上说影响「相当大」，要更多本地商家和本地仓。",
+      "body_text": "据 The Logistic News 9月4日报道，PDD（Temu 母公司）联席 CEO 陈磊在 8月24日的财报电话会上说，欧盟的新关税会降低履约效率、抬高成本，对部分业务有「相当大的影响」。公司的应对是引入更多优质本地商家，加快本地仓储和履约建设。\n\n规则本身来自 欧盟委员会 (https://commission.europa.eu/news-and-media/news/ensuring-fairness-and-safety-eur3-customs-duty-low-value-parcels-2026-06-29_en)：\n\n- 2026年7月1日 起，取消 €150 以下小包的关税豁免\n\n- 临时按每个「物品」收 €3，按税则分类算，不按数量算\n\n- 由卖家或进口方申报缴纳，不由消费者付\n\n- 临时安排持续到 2028年7月1日，之后按正常税率征收\n\n举例：一个包裹里 3 支同类口红算一个类别，收 €3；口红加一瓶洗发水是两个类别，收 €6。\n\n欧盟海关改革页面 (https://taxation-customs.ec.europa.eu/customs/eu-customs-reform_en) 还写明，欧盟将在 2026年11月1日前另设小包处理费，金额由授权法规确定。\n\nPDD 的表态来自媒体报道，标待核实。规则部分以欧盟委员会页面为准。",
+      "markets": [
+        "eu"
+      ],
+      "platforms": [
+        "temu",
+        "amazon-eu"
+      ],
+      "tags": [
+        "customs"
+      ],
+      "source_url": "https://thelogisticnews.com/temu-owner-invests-in-local-fulfillment-as-de-minimis-rules-reshape-global-trade/",
+      "source_name": "The Logistic News",
+      "checked": "2026-10-22",
+      "needs_review": true,
+      "sample": false,
+      "key_date": null,
+      "page": "/news/2026-09-04-temu-eu-3-euro-duty/"
+    },
+    {
+      "kind": "news",
+      "id": "2026-07-15-uk-4mbc-cmr-ban",
+      "type": "regulation",
+      "date": "2026-07-15",
+      "title": "英国禁用 4-MBC 和 16 种 CMR 物质，含美甲常用 TPO",
+      "summary": "英国 2026 年第 23 号条例：4-MBC 禁用、甲醛释放体警示阈值降到 0.001%（7月15日起）；16 种 CMR 物质（含 TPO）8月15日起禁用。",
+      "body_text": "- 7月15日起：禁用防晒剂 4-MBC；甲醛释放体警示阈值降到 0.001%\n\n- 8月15日起：禁用 16 种 CMR 物质，包括美甲胶常用的光引发剂 TPO\n\n- 已上市产品清库存截止：2027年1月14日 / 2月14日\n\n卖英国的美甲、防晒产品先核对配方。",
+      "markets": [
+        "uk"
+      ],
+      "platforms": [],
+      "tags": [
+        "ingredients"
+      ],
+      "source_url": "https://www.legislation.gov.uk/uksi/2026/23/made",
+      "source_name": "legislation.gov.uk",
+      "checked": "2026-10-23",
+      "needs_review": false,
+      "sample": false,
+      "key_date": {
+        "date": "2027-02-14",
+        "label": "清库存止"
+      },
+      "page": "/news/2026-07-15-uk-4mbc-cmr-ban/"
+    }
+  ]
+}

@@ -1,0 +1,83 @@
+{
+  "api": "yuanshan-channel/v1",
+  "access": "public-read",
+  "auth": null,
+  "generated": "2026-10-26",
+  "disclaimer": "每条资讯都附来源链接。标了「待核实」的条目来自媒体或第三方转述，引用前打开原文。费用、排名和法规以官方页面为准。",
+  "kind": "compliance",
+  "id": "ua",
+  "name_zh": "乌克兰",
+  "region": "俄语区",
+  "region_slug": "cis",
+  "page": "/compliance/ua/",
+  "market": {
+    "country": "ua",
+    "name_zh": "乌克兰",
+    "flag": "🇺🇦",
+    "region": "俄语区",
+    "difficulty": 2,
+    "summary": "不是欧亚经济联盟成员。卫生部首页已打开，化妆品规则未核对。",
+    "items": [
+      {
+        "id": "ua-entry",
+        "name_zh": "化妆品监管入口",
+        "authority": "卫生部",
+        "type": "registration",
+        "mandatory": false,
+        "cost": "未知",
+        "time": "未知",
+        "docs": [],
+        "who": "进口商",
+        "note": "不能直接套用 ТР ТС 009。本国规则本次未打开。",
+        "official_url": "https://moz.gov.ua/",
+        "source_checked": "2026-10-24",
+        "needs_review": true
+      },
+      {
+        "id": "ua-tech-reg",
+        "name_zh": "化妆品技术法规（内阁第65号决议）过渡期",
+        "authority": "乌克兰内阁 / 卫生部",
+        "type": "registration",
+        "mandatory": true,
+        "cost": "未知",
+        "time": "未知",
+        "docs": [],
+        "who": "进口商、授权代表、分销商",
+        "note": "不合规产品可投放至2027-07-31（第976号决议），已投放可卖到2030-08-03；12月拟再修正防日期回退。",
+        "official_url": "https://zakon.rada.gov.ua/laws/show/976-2026-%D0%BF",
+        "source_checked": "2026-10-28",
+        "needs_review": true
+      },
+      {
+        "id": "ua-hs",
+        "name_zh": "HS 编码与关税",
+        "authority": "目的国海关",
+        "type": "tax-customs",
+        "mandatory": true,
+        "cost": "未知",
+        "time": "未知",
+        "docs": [],
+        "who": "进口商",
+        "note": "链接不是税则。税号和税率未抄录。",
+        "official_url": "https://moz.gov.ua/",
+        "source_checked": "2026-10-24",
+        "needs_review": true
+      }
+    ],
+    "steps": [
+      {
+        "title": "核对监管入口",
+        "type": "registration"
+      },
+      {
+        "title": "清关",
+        "type": "tax-customs"
+      }
+    ],
+    "last_verified": "2026-10-28",
+    "hs_codes": {
+      "status": "pending",
+      "items": []
+    }
+  }
+}

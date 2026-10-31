@@ -1,0 +1,60 @@
+{
+  "api": "yuanshan-channel/v1",
+  "access": "public-read",
+  "auth": null,
+  "generated": "2026-10-26",
+  "disclaimer": "每条资讯都附来源链接。标了「待核实」的条目来自媒体或第三方转述，引用前打开原文。费用、排名和法规以官方页面为准。",
+  "kind": "feed",
+  "id": "ph/rules+rankings",
+  "title": "菲律宾",
+  "markets": [
+    "ph"
+  ],
+  "types": [
+    "rules",
+    "rankings"
+  ],
+  "filter": {
+    "markets": [
+      "ph"
+    ],
+    "types": [
+      "rules",
+      "rankings"
+    ],
+    "include_global": false
+  },
+  "count": 1,
+  "items": [
+    {
+      "kind": "news",
+      "id": "2026-10-13-tiktok-shop-sea-misleading-content",
+      "type": "rules",
+      "date": "2026-10-13",
+      "title": "TikTok Shop 东南亚五国：直播口播、字幕、封面也算宣传，美妆夸大功效一样罚",
+      "summary": "印尼、菲律宾、新加坡、泰国、越南统一执行误导内容政策：不只看商品页，短视频、直播、封面、脚本、字幕、主播昵称和简介都在审核范围；夸大功效、限时见效、修图前后对比会被处罚，屡犯加重。",
+      "body_text": "TikTok Shop 在卖家大学更新了 Misleading Content（误导内容） 政策页（页面日期 2026-10-13），写明适用 印尼、菲律宾、新加坡、泰国、越南 五个站。\n\n改了什么\n\n- 审核范围变大：以前大家主要盯标题和详情页，现在 商品页、短视频、直播 全部算，连 封面图、标题、脚本、字幕、链接、主播的言行、声音、穿着、昵称、个人简介 都在内\n\n- 夸大功效：不能说没被证明、科学上做不到、或「几天见效」这类不现实时限的效果；不能用剪辑或特效做出假效果\n\n- 货不对板：视频和直播里说的价格、品牌、退换政策、材质、产地要和挂的商品链接一致\n\n- 假认证、假背书：没拿到的奖项、认证、代言不能说；不能冒充与其他品牌有合作\n\n- 乱比价、过期促销价、假抽奖：抽奖只能用平台的 LIVE Giveaway 功能\n\n- 处罚：违规会被处理，屡犯处罚加重（第三方解读提到下架、限流、扣分、账号处罚）\n\n影响谁\n\n- 在这五个站卖 护肤、彩妆、个护、头发护理 的卖家和品牌（健康、家清、功能型商品同样受影响）\n\n- 靠 达人带货、直播 和 本地化翻译字幕 出量的店铺：商品本身合规，主播一句「用一次就不长痘」也可能让链接出事\n\n意味着什么\n\n- 卡在哪：审核从「商品页一处」变成「所有出镜内容」，达人口播、翻译字幕最容易漏；同类目的健康美妆宣称细则里，「治疗、根除、永久」「立刻、一晚、X 天见效」都是高危词\n\n- 现在该做什么：给达人一份禁用词清单和可用说法（如「改善、帮助、减少」，加「效果因人而异」）；宣称要能拿出包装原文、检测报告或政府广告批文并在镜头里展示；前后对比用未修图的真实照片；检查已发布的老视频和直播回放\n\n- 和本站此前报道的 印尼「货不对板」最多扣 20 分 (/news/2026-10-15-tiktok-shop-id-false-display/)、美妆 AIGC 规则 11月2日执法 (/news/2026-10-19-tiktok-shop-aigc-beauty/) 叠加执行，等于美妆内容在东南亚被三条规则同时看着\n\n原文：TikTok Shop · Misleading Content (https://seller-id.tokopedia.com/university/essay?knowledge_id=7753797661492993&lang=en)；健康美妆宣称细则：Misleading Claims (Health & Beauty Products) (https://seller-id.tokopedia.com/university/essay?knowledge_id=3694612986365713&lang=en)",
+      "markets": [
+        "id",
+        "ph",
+        "sg",
+        "th",
+        "vn"
+      ],
+      "platforms": [
+        "tiktok-shop"
+      ],
+      "tags": [
+        "listing",
+        "penalties"
+      ],
+      "source_url": "https://seller-id.tokopedia.com/university/essay?knowledge_id=7753797661492993&lang=en",
+      "source_name": "TikTok Shop 卖家大学 · Misleading Content（2026-10-13）",
+      "checked": "2026-10-25",
+      "needs_review": false,
+      "sample": false,
+      "key_date": null,
+      "page": "/news/2026-10-13-tiktok-shop-sea-misleading-content/"
+    }
+  ]
+}

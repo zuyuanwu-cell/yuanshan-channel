@@ -1,0 +1,40 @@
+{
+  "api": "yuanshan-channel/v1",
+  "access": "public-read",
+  "auth": null,
+  "generated": "2026-10-26",
+  "disclaimer": "每条资讯都附来源链接。标了「待核实」的条目来自媒体或第三方转述，引用前打开原文。费用、排名和法规以官方页面为准。",
+  "kind": "news",
+  "item": {
+    "kind": "news",
+    "id": "2026-10-31-bpjph-372-gmo-cosmetics-sjph",
+    "type": "regulation",
+    "date": "2026-10-31",
+    "title": "印尼美妆转基因/发酵原料清真指南（372）",
+    "summary": "BPJPH第372号10-18起施行：基因工程产品SJPH细则，化妆品相关发酵/转基因原料要证；猪/人基因禁用；强制货品证仍到2028。",
+    "body_text": "印尼清真产品保障局（BPJPH）2026年10月12日签发 2026年第372号决定《基因工程产品（PRG）清真产品保障体系实施指南》，2026年10月18日起施行。官方副本已核对。\n\n同批前后还有：化妆品 SJPH·370号 (/news/2026-10-12-bpjph-370-cosmetics-sjph/)、销售服务 SJPH·376号 (/news/2026-10-29-bpjph-376-cosmetics-sales-services-sjph/)、强制产品种类清单·387号 (/news/2026-10-31-bpjph-387-halal-product-types-cosmetics/)。372 号专管「基因工程/发酵这条原料链」，和普通化妆品工厂指南互补。\n\n改了什么\n\n1. 化妆品相关的 PRG 也在范围里\n\n指南写明：经基因工程得到的原料，只要落到食品、药品、化妆品相关，就要按 PRG 的 SJPH 管。覆盖对象包括：\n\n- 转基因植物衍生、经加工后的原料\n\n- 转基因动物/动物细胞来源（须来自合法屠宰的清真动物）\n\n- 微生物 PRG（细菌、酵母、霉菌等作宿主，经发酵/生物技术产酶、活性物、辅料等）——现代美妆里发酵精华、重组胶原、酶制剂最常撞上\n\n植物 PRG 的种子/鲜收获物在特定条件下可豁免；加工后的原料一般要证。细胞层面部分义务写明「待科技评估后再强制」，但微生物发酵路径已写进现行要求。\n\n2. 红线原料与介质\n\n对微生物 PRG 及产物，官方文本要点包括：\n\n- 不得插入猪基因或人基因\n\n- 不得含抗生素抗性基因\n\n- 生长介质须洁净；沾重污后须按教法净化；以猪源作生长介质则判定为 حرام\n\n- 母种（master seed）保存介质也须清真\n\n- 关键点要查：基因来源、载体与宿主、培养基、发酵、收获、纯化、辅料、终产品\n\n材料侧：属强制清单的要清真证或境外证在 BPJPH 登记号；清单外用工艺、成分、COA、无重污声明等支撑。\n\n3. 体系与事后监督（拿证企业）\n\n与 370 号同思路：书面清真政策、任命并向当局报告清真监督员、产线/器具与非清真隔离、批次追溯与不合格品处置。\n\n- 每年至少一次内审 + 管理评审，内审结果报 BPJPH\n\n- 每 6 个月报一次原料组成和/或生产过程；有变更随时报\n\n影响谁\n\n- 配方含发酵原料、重组蛋白/肽、酶、基因工程来源活性物的美妆品牌与代工厂\n\n- 向印尼站供货、或计划提前拿清真证的原料商与进口商\n\n- 在 Shopee / Lazada / Tokopedia / TikTok Shop 印尼站主打「生物科技/发酵」卖点的店铺\n\n意味着什么\n\n- 卡在哪：不是「有发酵字样就违法」，而是申请清真证或供应清真链时，培养基、基因来源、抗性基因、宿主要拿得出证明；猪/人基因直接出局\n\n- 和 2028 的关系：化妆品成品强制持证仍到 2028-10-17；现在就要做穆斯林市场或已拿证的，按 372+370 查原料链\n\n- 现在注意什么：让原料商书面确认有无猪/人基因、抗性基因、培养基动物源；发酵类原料优先要清真证或完整工艺包\n\n原文（官方副本 PDF）：BPJPH Nomor 372 Tahun 2026 (https://halalmui.org/wp-content/uploads/2026/05/Salinan-372.2026.-Pedoman-Pelaksanaan-SJPH-PRG.pdf)",
+    "markets": [
+      "id"
+    ],
+    "platforms": [
+      "shopee",
+      "lazada",
+      "tokopedia",
+      "tiktok-shop"
+    ],
+    "tags": [
+      "compliance",
+      "ingredients"
+    ],
+    "source_url": "https://halalmui.org/wp-content/uploads/2026/05/Salinan-372.2026.-Pedoman-Pelaksanaan-SJPH-PRG.pdf",
+    "source_name": "BPJPH 2026年第372号决定 · 基因工程产品SJPH（官方副本）",
+    "checked": "2026-10-31",
+    "needs_review": false,
+    "sample": false,
+    "key_date": {
+      "date": "2026-10-18",
+      "label": "指南生效"
+    },
+    "page": "/news/2026-10-31-bpjph-372-gmo-cosmetics-sjph/"
+  }
+}

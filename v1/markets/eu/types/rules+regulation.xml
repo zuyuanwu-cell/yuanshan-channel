@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>远山频道 · 欧盟·德国</title>
+    <link>https://ys.tongzhoukuajing.com/subscribe/?markets=eu&amp;types=rules%2Cregulation</link>
+    <description>每条资讯都附来源链接。标了「待核实」的条目来自媒体或第三方转述，引用前打开原文。费用、排名和法规以官方页面为准。 公开只读，不是法律意见，也不代替来源原文。</description>
+    <language>zh-CN</language>
+    <lastBuildDate>Mon, 26 Oct 2026 12:00:00 GMT</lastBuildDate>
+    <atom:link xmlns:atom="http://www.w3.org/2005/Atom" href="https://ys.tongzhoukuajing.com/v1/markets/eu/types/rules+regulation.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>欧盟接受 Temu DSA 整改计划：四个月加严非法商品排查，美妆无责任人/不合规货下架风险升高</title>
+      <link>https://ys.tongzhoukuajing.com/news/2026-10-29-temu-eu-dsa-action-plan-illegal-products/</link>
+      <guid isPermaLink="false">2026-10-29-temu-eu-dsa-action-plan-illegal-products</guid>
+      <pubDate>Thu, 29 Oct 2026 12:00:00 GMT</pubDate>
+      <description>欧委会10月26日接受Temu就《数字服务法》风险评失败的整改计划：平台须强化非法商品风险分析、内容审核短板与推荐算法放大效应评估；四个月内推进并做覆盖至2026-11-30的中期风险评估。美妆等不合规链接面临更紧的下架与流量收紧。</description>
+    </item>
+    <item>
+      <title>欧盟议会通过 Omnibus VI：CMR 化妆品清货期缩短</title>
+      <link>https://ys.tongzhoukuajing.com/news/2026-10-22-eu-omnibus-vi-parliament/</link>
+      <guid isPermaLink="false">2026-10-22-eu-omnibus-vi-parliament</guid>
+      <pubDate>Thu, 22 Oct 2026 12:00:00 GMT</pubDate>
+      <description>欧洲议会10月22日以477票赞成通过 Omnibus VI 与理事会临时协议。含新禁CMR的化妆品清货窗口缩短；纳米成分通报取消「提前6个月」。须理事会再通过才生效。</description>
+    </item>
+    <item>
+      <title>欧盟SCCS终稿：苯乙酮成品最多100ppm，胡椒醛仅成人香水可到1.8%</title>
+      <link>https://ys.tongzhoukuajing.com/news/2026-10-15-sccs-acetophenone-heliotropin/</link>
+      <guid isPermaLink="false">2026-10-15-sccs-acetophenone-heliotropin</guid>
+      <pubDate>Thu, 15 Oct 2026 12:00:00 GMT</pubDate>
+      <description>SCCS 10月15日发布两份终稿：苯乙酮在成品中最多100ppm（含3岁以上儿童）；胡椒醛仅成人香水可到1.8%。这是科学意见，禁限用表要等委员会改附件才强制。</description>
+    </item>
+    <item>
+      <title>欧盟 REACH：化妆品含 PFHxA 超标不得再投放，过渡期已于10月10日结束</title>
+      <link>https://ys.tongzhoukuajing.com/news/2026-10-10-eu-reach-pfhxa-cosmetics/</link>
+      <guid isPermaLink="false">2026-10-10-eu-reach-pfhxa-cosmetics</guid>
+      <pubDate>Sat, 10 Oct 2026 12:00:00 GMT</pubDate>
+      <description>REACH 附件 XVII 第79条：自2026-10-10起，化妆品中 PFHxA 及其盐合计≥25ppb、或相关物质合计≥1000ppb，不得投放或使用；此前已投放的可继续卖。</description>
+    </item>
+    <item>
+      <title>欧盟化妆品 CMR 修订草案送达理事会：二苯酮-1/-2 等拟禁用</title>
+      <link>https://ys.tongzhoukuajing.com/news/2026-09-21-eu-cmr-omnibus-draft/</link>
+      <guid isPermaLink="false">2026-09-21-eu-cmr-omnibus-draft</guid>
+      <pubDate>Mon, 21 Sep 2026 12:00:00 GMT</pubDate>
+      <description>委员会把修订 1223/2009 附录的草案送到理事会。新列为 CMR 的物质要进禁用表，另有几种成分拟禁用或加限。</description>
+    </item>
+    <item>
+      <title>欧盟 €3 小包关税实施两个月，Temu 母公司加码本地仓和本地卖家</title>
+      <link>https://ys.tongzhoukuajing.com/news/2026-09-04-temu-eu-3-euro-duty/</link>
+      <guid isPermaLink="false">2026-09-04-temu-eu-3-euro-duty</guid>
+      <pubDate>Fri, 04 Sep 2026 12:00:00 GMT</pubDate>
+      <description>7月1日起，欧盟对 €150 以下的电商小包按每个税则类别收 €3。PDD 在财报会上说影响「相当大」，要更多本地商家和本地仓。</description>
+    </item>
+  </channel>
+</rss>

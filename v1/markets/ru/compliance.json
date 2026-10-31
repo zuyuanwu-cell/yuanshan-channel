@@ -1,0 +1,465 @@
+{
+  "api": "yuanshan-channel/v1",
+  "access": "public-read",
+  "auth": null,
+  "generated": "2026-10-26",
+  "disclaimer": "每条资讯都附来源链接。标了「待核实」的条目来自媒体或第三方转述，引用前打开原文。费用、排名和法规以官方页面为准。",
+  "kind": "compliance",
+  "id": "ru",
+  "name_zh": "俄罗斯",
+  "region": "俄语区",
+  "region_slug": "cis",
+  "page": "/compliance/ru/",
+  "market": {
+    "country": "ru",
+    "name_zh": "俄罗斯",
+    "flag": "🇷🇺",
+    "region": "俄语区",
+    "difficulty": 3,
+    "summary": "要做 EAC 符合性声明与诚信标志赋码；ТР ТС 009 禁限用清单 2026-10-28 起按第74号决定更新。",
+    "items": [
+      {
+        "id": "ru-applicant",
+        "name_zh": "欧亚经济联盟境内申请人",
+        "authority": "EAEU",
+        "type": "local-rep",
+        "mandatory": true,
+        "cost": "未知",
+        "time": "未知",
+        "docs": [
+          "授权书"
+        ],
+        "who": "联盟境内法人/个体户",
+        "note": "声明须由境内申请人办理",
+        "official_url": "https://eec.eaeunion.org/comission/department/deptexreg/tr/bezopParfum.php",
+        "source_checked": "2026-10-23",
+        "needs_review": false
+      },
+      {
+        "id": "ru-dc",
+        "name_zh": "EAC 符合性声明（ТР ТС 009/2011）",
+        "authority": "EAEU / 俄联邦认可局",
+        "type": "registration",
+        "mandatory": true,
+        "cost": "未知",
+        "time": "未知",
+        "docs": [
+          "成分",
+          "实验室检测报告",
+          "标签",
+          "GMP/质量体系证明（6d 方案）"
+        ],
+        "who": "境内申请人",
+        "note": "第74号决定多数修订2026-10-28生效；老声明/СГР可沿用至到期。甲醛警示2027-01-01起0.001%。",
+        "official_url": "https://eec.eaeunion.org/comission/department/deptexreg/tr/bezopParfum.php",
+        "source_checked": "2026-10-28",
+        "needs_review": false
+      },
+      {
+        "id": "ru-label",
+        "name_zh": "俄语标签 + EAC 标志",
+        "authority": "EAEU",
+        "type": "label",
+        "mandatory": true,
+        "cost": "未知",
+        "time": "未知",
+        "docs": [
+          "俄语名称用途",
+          "成分",
+          "制造商与进口商",
+          "EAC 标志"
+        ],
+        "who": "品牌/进口商",
+        "note": "2027-01-01起理论甲醛>0.001%须标含甲醛警示（第74号决定）。",
+        "official_url": "https://eec.eaeunion.org/comission/department/deptexreg/tr/bezopParfum.php",
+        "source_checked": "2026-10-28",
+        "needs_review": false
+      },
+      {
+        "id": "ru-marking",
+        "name_zh": "「诚信标志」数据矩阵码",
+        "authority": "Честный ЗНАК",
+        "type": "marking",
+        "mandatory": true,
+        "cost": "未知",
+        "time": "未知",
+        "docs": [
+          "系统注册",
+          "每件商品赋码",
+          "入流通报告"
+        ],
+        "who": "进口商/生产商",
+        "note": "化妆品 2025-10-01 起赋码；2026-10-01 起化妆刷、牙刷、化妆棉、美甲工具等也须赋码（第656号令）",
+        "official_url": "https://xn--80ajghhoc2aj1c8b.xn--p1ai/business/projects/cosmetics/marking/",
+        "source_checked": "2026-10-25",
+        "needs_review": false
+      },
+      {
+        "id": "ru-platform",
+        "name_zh": "Ozon/WB 上架资质",
+        "authority": "Ozon / Wildberries",
+        "type": "platform",
+        "mandatory": true,
+        "cost": "未知",
+        "time": "未知",
+        "docs": [
+          "合格声明/国家注册证书（СГР）",
+          "与证书一致的 ТН ВЭД 编码",
+          "诚信标志 GTIN（赋码商品）"
+        ],
+        "who": "卖家",
+        "note": "WB 10-01起新卡须证书/ТН ВЭД/GTIN；老卡约至2027-03；FBW美妆日化包装不合规全仓每件40₽",
+        "official_url": "https://seller.ozon.ru/",
+        "source_checked": "2026-10-27",
+        "needs_review": true
+      },
+      {
+        "id": "ru-hs",
+        "name_zh": "ТН ВЭД 编码与关税",
+        "authority": "欧亚经济委员会",
+        "type": "tax-customs",
+        "mandatory": true,
+        "cost": "未知",
+        "time": "未知",
+        "docs": [],
+        "who": "进口商",
+        "note": "已补家清、洁面皂和洗面奶等；美容仪10位码仍空",
+        "official_url": "https://eec.eaeunion.org/comission/department/catr/ett/",
+        "source_checked": "2026-10-28",
+        "needs_review": false
+      }
+    ],
+    "steps": [
+      {
+        "title": "找本地代表",
+        "type": "local-rep"
+      },
+      {
+        "title": "备案/注册",
+        "type": "registration"
+      },
+      {
+        "title": "做标签",
+        "type": "label"
+      },
+      {
+        "title": "赋码",
+        "type": "marking"
+      },
+      {
+        "title": "平台资质",
+        "type": "platform"
+      },
+      {
+        "title": "清关",
+        "type": "tax-customs"
+      }
+    ],
+    "last_verified": "2026-10-28",
+    "hs_codes": {
+      "status": "ready",
+      "items": [
+        {
+          "code": "3303001000",
+          "name_zh": "香水",
+          "duty": "6,5%",
+          "source_url": "https://www.ifcg.ru/kb/tnved/3303001000/"
+        },
+        {
+          "code": "3303009000",
+          "name_zh": "淡香水",
+          "duty": "6,5%",
+          "source_url": "https://www.ifcg.ru/kb/tnved/3303009000/"
+        },
+        {
+          "code": "3304100000",
+          "name_zh": "唇部彩妆",
+          "duty": "6,5%",
+          "source_url": "https://www.ifcg.ru/kb/tnved/3304100000/"
+        },
+        {
+          "code": "3304990000",
+          "name_zh": "润唇膏",
+          "duty": "6,5%",
+          "source_url": "https://eec.eaeunion.org/comission/department/catr/ett/ru.2022/ru.33_2022_08.03.2026.pdf"
+        },
+        {
+          "code": "3304200000",
+          "name_zh": "眼部彩妆",
+          "duty": "6,5%",
+          "source_url": "https://www.ifcg.ru/kb/tnved/3304200000/"
+        },
+        {
+          "code": "3304300000",
+          "name_zh": "美甲产品",
+          "duty": "6,5%",
+          "source_url": "https://www.ifcg.ru/kb/tnved/3304300000/"
+        },
+        {
+          "code": "3304910000",
+          "name_zh": "粉类（散粉/粉饼）",
+          "duty": "6,5%",
+          "source_url": "https://www.ifcg.ru/kb/tnved/3304910000/"
+        },
+        {
+          "code": "3304990000",
+          "name_zh": "粉底液/粉底霜",
+          "duty": "6,5%",
+          "source_url": "https://eec.eaeunion.org/comission/department/catr/ett/ru.2022/ru.33_2022_08.03.2026.pdf"
+        },
+        {
+          "code": "3304990000",
+          "name_zh": "面霜/乳液/精华（护肤）",
+          "duty": "6,5%",
+          "source_url": "https://www.ifcg.ru/kb/tnved/3304990000/"
+        },
+        {
+          "code": "3304990000",
+          "name_zh": "化妆水/爽肤水",
+          "duty": "6,5%",
+          "source_url": "https://eec.eaeunion.org/comission/department/catr/ett/ru.2022/ru.33_2022_08.03.2026.pdf"
+        },
+        {
+          "code": "3304990000",
+          "name_zh": "身体乳",
+          "duty": "6,5%",
+          "source_url": "https://eec.eaeunion.org/comission/department/catr/ett/ru.2022/ru.33_2022_08.03.2026.pdf"
+        },
+        {
+          "code": "3304990000",
+          "name_zh": "护手霜",
+          "duty": "6,5%",
+          "source_url": "https://eec.eaeunion.org/comission/department/catr/ett/ru.2022/ru.33_2022_08.03.2026.pdf"
+        },
+        {
+          "code": "3304990000",
+          "name_zh": "防晒",
+          "duty": "6,5%",
+          "source_url": "https://www.ifcg.ru/kb/tnved/3304990000/"
+        },
+        {
+          "code": "3304990000",
+          "name_zh": "卸妆产品",
+          "duty": "6,5%",
+          "source_url": "https://www.ifcg.ru/kb/tnved/3304990000/"
+        },
+        {
+          "code": "3305100000",
+          "name_zh": "洗发水",
+          "duty": "6,5%",
+          "source_url": "https://www.ifcg.ru/kb/tnved/3305100000/"
+        },
+        {
+          "code": "3305900009",
+          "name_zh": "护发素",
+          "duty": "6,5%",
+          "source_url": "https://www.ifcg.ru/kb/tnved/3305900009/"
+        },
+        {
+          "code": "3305900001",
+          "name_zh": "发露",
+          "duty": "6,5%",
+          "source_url": "https://eec.eaeunion.org/comission/department/catr/ett/ru.2022/ru.33_2022_08.03.2026.pdf"
+        },
+        {
+          "code": "3305900009",
+          "name_zh": "染发剂",
+          "duty": "6,5%",
+          "source_url": "https://www.ifcg.ru/kb/tnved/3305900009/"
+        },
+        {
+          "code": "3305300000",
+          "name_zh": "发胶/定型喷雾",
+          "duty": "6,5%",
+          "source_url": "https://www.ifcg.ru/kb/tnved/3305300000/"
+        },
+        {
+          "code": "3305200000",
+          "name_zh": "烫发/直发剂",
+          "duty": "6,5%",
+          "source_url": "https://eec.eaeunion.org/comission/department/catr/ett/ru.2022/ru.33_2022_08.03.2026.pdf"
+        },
+        {
+          "code": "3306100000",
+          "name_zh": "牙膏",
+          "duty": "6,5%",
+          "source_url": "https://www.ifcg.ru/kb/tnved/3306100000/"
+        },
+        {
+          "code": "3306900000",
+          "name_zh": "漱口水",
+          "duty": "6,5%",
+          "source_url": "https://www.ifcg.ru/kb/tnved/3306900000/"
+        },
+        {
+          "code": "3306200000",
+          "name_zh": "牙线",
+          "duty": "6,5%",
+          "source_url": "https://www.ifcg.ru/kb/tnved/3306200000/"
+        },
+        {
+          "code": "3307200000",
+          "name_zh": "止汗/香体",
+          "duty": "6,5%",
+          "source_url": "https://www.ifcg.ru/kb/tnved/3307200000/"
+        },
+        {
+          "code": "3307100000",
+          "name_zh": "剃须膏",
+          "duty": "6,5%",
+          "source_url": "https://www.ifcg.ru/kb/tnved/3307100000/"
+        },
+        {
+          "code": "3307300000",
+          "name_zh": "泡泡浴/沐浴盐",
+          "duty": "6,5%",
+          "source_url": "https://eec.eaeunion.org/comission/department/catr/ett/ru.2022/ru.33_2022_08.03.2026.pdf"
+        },
+        {
+          "code": "3401300000",
+          "name_zh": "沐浴露",
+          "duty": "6,5%",
+          "source_url": "https://www.ifcg.ru/kb/tnved/3401300000/"
+        },
+        {
+          "code": "3401110001",
+          "name_zh": "香皂（块）",
+          "duty": "4,5% + 0,02欧元/千克",
+          "source_url": "https://eec.eaeunion.org/comission/department/catr/ett/ru.2022/ru.34_2022_08.03.2026.pdf"
+        },
+        {
+          "code": "3401110001",
+          "name_zh": "洁面皂",
+          "duty": "4,5% + 0,02欧元/千克",
+          "source_url": "https://eec.eaeunion.org/comission/department/catr/ett/ru.2022/ru.34_2022_08.03.2026.pdf"
+        },
+        {
+          "code": "3401300000",
+          "name_zh": "液体洗手液",
+          "duty": "6,5%",
+          "source_url": "https://www.ifcg.ru/kb/tnved/3401300000/"
+        },
+        {
+          "code": "3401300000",
+          "name_zh": "洁面乳/洗面奶",
+          "duty": "6,5%",
+          "source_url": "https://eec.eaeunion.org/comission/department/catr/ett/ru.2022/ru.34_2022_08.03.2026.pdf"
+        },
+        {
+          "code": "3307900008",
+          "name_zh": "脱毛膏",
+          "duty": "6,5%",
+          "source_url": "https://www.ifcg.ru/kb/tnved/3307900008/"
+        },
+        {
+          "code": "3307900008",
+          "name_zh": "湿巾（洁面/卸妆）",
+          "duty": "6,5%",
+          "source_url": "https://eec.eaeunion.org/comission/department/catr/ett/ru.2022/ru.33_2022_08.03.2026.pdf"
+        },
+        {
+          "code": "3304990000",
+          "name_zh": "面膜（片状）",
+          "duty": "6,5%",
+          "source_url": "https://www.ifcg.ru/kb/tnved/3304990000/"
+        },
+        {
+          "code": "9603309000",
+          "name_zh": "化妆刷",
+          "duty": "15%",
+          "source_url": "https://eec.eaeunion.org/comission/department/catr/ett/ru.2022/ru.96_2022_08.03.2026.pdf"
+        },
+        {
+          "code": "9616200000",
+          "name_zh": "化妆海绵/粉扑",
+          "duty": "15%",
+          "source_url": "https://www.ifcg.ru/kb/tnved/9616200000/"
+        },
+        {
+          "code": "6704190000",
+          "name_zh": "假睫毛（合成纤维）",
+          "duty": "10%",
+          "source_url": "https://www.ifcg.ru/kb/tnved/6704190000/"
+        },
+        {
+          "code": "8510300000",
+          "name_zh": "电动脱毛器",
+          "duty": "5%",
+          "source_url": "https://www.ifcg.ru/kb/tnved/8510300000/"
+        },
+        {
+          "code": "8516320000",
+          "name_zh": "美发电器（卷/直发器）",
+          "duty": "8%",
+          "source_url": "https://www.ifcg.ru/kb/tnved/8516320000/"
+        },
+        {
+          "code": "3402500000",
+          "name_zh": "洗衣液",
+          "duty": "6,5%",
+          "source_url": "https://eec.eaeunion.org/comission/department/catr/ett/ru.2022/ru.34_2022_08.03.2026.pdf"
+        },
+        {
+          "code": "3402500000",
+          "name_zh": "柔顺剂/衣物护理",
+          "duty": "6,5%",
+          "source_url": "https://eec.eaeunion.org/comission/department/catr/ett/ru.2022/ru.34_2022_08.03.2026.pdf"
+        },
+        {
+          "code": "3402500000",
+          "name_zh": "洗洁精/洗碗液",
+          "duty": "6,5%",
+          "source_url": "https://eec.eaeunion.org/comission/department/catr/ett/ru.2022/ru.34_2022_08.03.2026.pdf"
+        },
+        {
+          "code": "3402500000",
+          "name_zh": "多用途清洁剂",
+          "duty": "6,5%",
+          "source_url": "https://eec.eaeunion.org/comission/department/catr/ett/ru.2022/ru.34_2022_08.03.2026.pdf"
+        },
+        {
+          "code": "3402500000",
+          "name_zh": "洁厕剂",
+          "duty": "6,5%",
+          "source_url": "https://eec.eaeunion.org/comission/department/catr/ett/ru.2022/ru.34_2022_08.03.2026.pdf"
+        },
+        {
+          "code": "3402500000",
+          "name_zh": "玻璃清洁剂",
+          "duty": "6,5%",
+          "source_url": "https://eec.eaeunion.org/comission/department/catr/ett/ru.2022/ru.34_2022_08.03.2026.pdf"
+        },
+        {
+          "code": "3402500000",
+          "name_zh": "家用漂白制剂",
+          "duty": "6,5%",
+          "source_url": "https://eec.eaeunion.org/comission/department/catr/ett/ru.2022/ru.34_2022_08.03.2026.pdf"
+        },
+        {
+          "code": "2828900000",
+          "name_zh": "次氯酸盐（漂白水）",
+          "duty": "5%",
+          "source_url": "https://eec.eaeunion.org/comission/department/catr/ett/ru.2022/ru.28_2022_17.08.2026.pdf"
+        },
+        {
+          "code": "2847000000",
+          "name_zh": "过氧化氢（氧漂）",
+          "duty": "5%",
+          "source_url": "https://eec.eaeunion.org/comission/department/catr/ett/ru.2022/ru.28_2022_17.08.2026.pdf"
+        },
+        {
+          "code": "3402909000",
+          "name_zh": "非零售洗涤/清洁制剂",
+          "duty": "6,5%",
+          "source_url": "https://eec.eaeunion.org/comission/department/catr/ett/ru.2022/ru.34_2022_08.03.2026.pdf"
+        },
+        {
+          "code": "3808948000",
+          "name_zh": "消毒剂",
+          "duty": "5%",
+          "source_url": "https://eec.eaeunion.org/comission/department/catr/ett/ru.2022/ru.38_2022_08.03.2026.pdf"
+        }
+      ]
+    }
+  }
+}

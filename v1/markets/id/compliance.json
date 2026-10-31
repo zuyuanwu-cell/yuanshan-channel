@@ -1,0 +1,320 @@
+{
+  "api": "yuanshan-channel/v1",
+  "access": "public-read",
+  "auth": null,
+  "generated": "2026-10-26",
+  "disclaimer": "每条资讯都附来源链接。标了「待核实」的条目来自媒体或第三方转述，引用前打开原文。费用、排名和法规以官方页面为准。",
+  "kind": "compliance",
+  "id": "id",
+  "name_zh": "印度尼西亚",
+  "region": "东南亚",
+  "region_slug": "southeast-asia",
+  "page": "/compliance/id/",
+  "market": {
+    "country": "id",
+    "name_zh": "印度尼西亚",
+    "flag": "🇮🇩",
+    "region": "东南亚",
+    "difficulty": 3,
+    "summary": "须由印尼本地公司做 BPOM 备案，标签部分内容要印尼语；清真认证 2028 年起强制。",
+    "items": [
+      {
+        "id": "id-importer",
+        "name_zh": "本地进口商/备案人",
+        "authority": "BPOM",
+        "type": "local-rep",
+        "mandatory": true,
+        "cost": "未知",
+        "time": "未知",
+        "docs": [
+          "NIB 营业号",
+          "NPWP 税号",
+          "品牌授权书",
+          "CFS/GMP 证明"
+        ],
+        "who": "印尼本地公司",
+        "note": "",
+        "official_url": "https://notifkos.pom.go.id/frontend/informasi",
+        "source_checked": "2026-10-23",
+        "needs_review": false
+      },
+      {
+        "id": "id-notif",
+        "name_zh": "BPOM 化妆品备案 Notifikasi",
+        "authority": "BPOM",
+        "type": "registration",
+        "mandatory": true,
+        "cost": "未知",
+        "time": "未知",
+        "docs": [
+          "配方",
+          "标签设计",
+          "授权书"
+        ],
+        "who": "本地备案人",
+        "note": "上架电商平台须填备案号",
+        "official_url": "https://notifkos.pom.go.id/frontend/informasi",
+        "source_checked": "2026-10-23",
+        "needs_review": false
+      },
+      {
+        "id": "id-label",
+        "name_zh": "印尼语标签",
+        "authority": "BPOM 2024 年第 18 号",
+        "type": "label",
+        "mandatory": true,
+        "cost": "未知",
+        "time": "未知",
+        "docs": [
+          "用途/用法/警示用印尼语",
+          "备案号",
+          "批号",
+          "有效期",
+          "2D 条码"
+        ],
+        "who": "品牌",
+        "note": "",
+        "official_url": "https://jdih.pom.go.id/download/rule/1623/18/2024/Peraturan%20Badan%20Pengawas%20Obat%20dan%20Makanan%20Nomor%2018%20Tahun%202024%20tentang%20Penandaan,%20Promosi,%20dan%20Iklan%20Kosmetik",
+        "source_checked": "2026-10-23",
+        "needs_review": false
+      },
+      {
+        "id": "id-halal",
+        "name_zh": "清真认证",
+        "authority": "BPJPH",
+        "type": "halal",
+        "mandatory": true,
+        "cost": "未知",
+        "time": "未知",
+        "docs": [
+          "清真认证申请资料",
+          "SJPH体系文件",
+          "监督员任命/培训证明",
+          "原料清真证或支撑材料"
+        ],
+        "who": "品牌/进口商",
+        "note": "强制至2028-10-17；清单见387；SJPH见370（产品）372（基因工程）376（销售）",
+        "official_url": "https://jdih.halal.go.id/api/jdih/pdf?path=jdih%2Fdokumen%2F1792640473861_salinan_-_387.2026._jenis_produk_yang_wajib_bersertifikat_halal.pdf",
+        "source_checked": "2026-10-31",
+        "needs_review": false
+      },
+      {
+        "id": "id-hs",
+        "name_zh": "HS 编码与关税",
+        "authority": "印尼海关",
+        "type": "tax-customs",
+        "mandatory": true,
+        "cost": "未知",
+        "time": "未知",
+        "docs": [],
+        "who": "进口商",
+        "note": "HS 编码待补",
+        "official_url": "https://www.beacukai.go.id/",
+        "source_checked": "2026-10-23",
+        "needs_review": false
+      }
+    ],
+    "steps": [
+      {
+        "title": "找本地代表",
+        "type": "local-rep"
+      },
+      {
+        "title": "备案/注册",
+        "type": "registration"
+      },
+      {
+        "title": "做标签",
+        "type": "label"
+      },
+      {
+        "title": "清真",
+        "type": "halal"
+      },
+      {
+        "title": "清关",
+        "type": "tax-customs"
+      }
+    ],
+    "last_verified": "2026-10-31",
+    "hs_codes": {
+      "status": "ready",
+      "items": [
+        {
+          "code": "33030000",
+          "name_zh": "香水",
+          "duty": "10%",
+          "source_url": "https://peraturan.bpk.go.id/Download/209374/26_PMK.010_2022.pdf"
+        },
+        {
+          "code": "33030000",
+          "name_zh": "淡香水",
+          "duty": "10%",
+          "source_url": "https://peraturan.bpk.go.id/Download/209374/26_PMK.010_2022.pdf"
+        },
+        {
+          "code": "33041000",
+          "name_zh": "唇部彩妆",
+          "duty": "15%",
+          "source_url": "https://peraturan.bpk.go.id/Download/209374/26_PMK.010_2022.pdf"
+        },
+        {
+          "code": "33042000",
+          "name_zh": "眼部彩妆",
+          "duty": "10%",
+          "source_url": "https://peraturan.bpk.go.id/Download/209374/26_PMK.010_2022.pdf"
+        },
+        {
+          "code": "33043000",
+          "name_zh": "美甲产品",
+          "duty": "15%",
+          "source_url": "https://peraturan.bpk.go.id/Download/209374/26_PMK.010_2022.pdf"
+        },
+        {
+          "code": "33049100",
+          "name_zh": "粉类（散粉/粉饼）",
+          "duty": "15%",
+          "source_url": "https://peraturan.bpk.go.id/Download/209374/26_PMK.010_2022.pdf"
+        },
+        {
+          "code": "33049930",
+          "name_zh": "面霜/乳液/精华（护肤）",
+          "duty": "15%",
+          "source_url": "https://peraturan.bpk.go.id/Download/209374/26_PMK.010_2022.pdf"
+        },
+        {
+          "code": "33049990",
+          "name_zh": "防晒",
+          "duty": "15%",
+          "source_url": "https://peraturan.bpk.go.id/Download/209374/26_PMK.010_2022.pdf"
+        },
+        {
+          "code": "33049990",
+          "name_zh": "卸妆产品",
+          "duty": "15%",
+          "source_url": "https://peraturan.bpk.go.id/Download/209374/26_PMK.010_2022.pdf"
+        },
+        {
+          "code": "33051090",
+          "name_zh": "洗发水",
+          "duty": "15%",
+          "source_url": "https://peraturan.bpk.go.id/Download/209374/26_PMK.010_2022.pdf"
+        },
+        {
+          "code": "33059000",
+          "name_zh": "护发素",
+          "duty": "15%",
+          "source_url": "https://peraturan.bpk.go.id/Download/209374/26_PMK.010_2022.pdf"
+        },
+        {
+          "code": "33059000",
+          "name_zh": "染发剂",
+          "duty": "15%",
+          "source_url": "https://peraturan.bpk.go.id/Download/209374/26_PMK.010_2022.pdf"
+        },
+        {
+          "code": "33053000",
+          "name_zh": "发胶/定型喷雾",
+          "duty": "15%",
+          "source_url": "https://peraturan.bpk.go.id/Download/209374/26_PMK.010_2022.pdf"
+        },
+        {
+          "code": "33061090",
+          "name_zh": "牙膏",
+          "duty": "15%",
+          "source_url": "https://peraturan.bpk.go.id/Download/209374/26_PMK.010_2022.pdf"
+        },
+        {
+          "code": "33069000",
+          "name_zh": "漱口水",
+          "duty": "15%",
+          "source_url": "https://peraturan.bpk.go.id/Download/209374/26_PMK.010_2022.pdf"
+        },
+        {
+          "code": "33062000",
+          "name_zh": "牙线",
+          "duty": "10%",
+          "source_url": "https://peraturan.bpk.go.id/Download/209374/26_PMK.010_2022.pdf"
+        },
+        {
+          "code": "33072000",
+          "name_zh": "止汗/香体",
+          "duty": "15%",
+          "source_url": "https://peraturan.bpk.go.id/Download/209374/26_PMK.010_2022.pdf"
+        },
+        {
+          "code": "33071000",
+          "name_zh": "剃须膏",
+          "duty": "15%",
+          "source_url": "https://peraturan.bpk.go.id/Download/209374/26_PMK.010_2022.pdf"
+        },
+        {
+          "code": "34013000",
+          "name_zh": "沐浴露",
+          "duty": "10%",
+          "source_url": "https://peraturan.bpk.go.id/Download/209374/26_PMK.010_2022.pdf"
+        },
+        {
+          "code": "34011150",
+          "name_zh": "香皂（块）",
+          "duty": "15%",
+          "source_url": "https://peraturan.bpk.go.id/Download/209374/26_PMK.010_2022.pdf"
+        },
+        {
+          "code": "34013000",
+          "name_zh": "液体洗手液",
+          "duty": "10%",
+          "source_url": "https://peraturan.bpk.go.id/Download/209374/26_PMK.010_2022.pdf"
+        },
+        {
+          "code": "33079040",
+          "name_zh": "脱毛膏",
+          "duty": "10%",
+          "source_url": "https://peraturan.bpk.go.id/Download/209374/26_PMK.010_2022.pdf"
+        },
+        {
+          "code": "33049990",
+          "name_zh": "面膜（片状）",
+          "duty": "15%",
+          "source_url": "https://peraturan.bpk.go.id/Download/209374/26_PMK.010_2022.pdf"
+        },
+        {
+          "code": "96032900",
+          "name_zh": "化妆刷",
+          "duty": "5%",
+          "source_url": "https://peraturan.bpk.go.id/Download/209374/26_PMK.010_2022.pdf"
+        },
+        {
+          "code": "96162000",
+          "name_zh": "化妆海绵/粉扑",
+          "duty": "10%",
+          "source_url": "https://peraturan.bpk.go.id/Download/209374/26_PMK.010_2022.pdf"
+        },
+        {
+          "code": "67041900",
+          "name_zh": "假睫毛（合成纤维）",
+          "duty": "15%",
+          "source_url": "https://peraturan.bpk.go.id/Download/209374/26_PMK.010_2022.pdf"
+        },
+        {
+          "code": "85103000",
+          "name_zh": "电动脱毛器",
+          "duty": "10%",
+          "source_url": "https://peraturan.bpk.go.id/Download/209374/26_PMK.010_2022.pdf"
+        },
+        {
+          "code": "85163200",
+          "name_zh": "美发电器（卷/直发器）",
+          "duty": "10%",
+          "source_url": "https://peraturan.bpk.go.id/Download/209374/26_PMK.010_2022.pdf"
+        },
+        {
+          "code": "85437090",
+          "name_zh": "电动美容仪（面部）",
+          "duty": "5%",
+          "source_url": "https://peraturan.bpk.go.id/Download/209374/26_PMK.010_2022.pdf"
+        }
+      ]
+    }
+  }
+}

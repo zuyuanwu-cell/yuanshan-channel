@@ -1,0 +1,68 @@
+{
+  "api": "yuanshan-channel/v1",
+  "access": "public-read",
+  "auth": null,
+  "generated": "2026-10-26",
+  "disclaimer": "每条资讯都附来源链接。标了「待核实」的条目来自媒体或第三方转述，引用前打开原文。费用、排名和法规以官方页面为准。",
+  "kind": "feed",
+  "id": "uk/rules+rankings",
+  "title": "英国",
+  "markets": [
+    "uk"
+  ],
+  "types": [
+    "rules",
+    "rankings"
+  ],
+  "filter": {
+    "markets": [
+      "uk"
+    ],
+    "types": [
+      "rules",
+      "rankings"
+    ],
+    "include_global": false
+  },
+  "count": 2,
+  "items": [
+    {
+      "kind": "ranking",
+      "id": "amazon-uk/2026-10-26",
+      "type": "rankings",
+      "date": "2026-10-26",
+      "title": "Amazon 英国站 · 2026-10-26",
+      "summary": "30 个单品 · Amazon.co.uk Best Sellers · Beauty · 部分数据 · 待核实",
+      "markets": [
+        "uk"
+      ],
+      "board": "amazon-uk",
+      "source_url": "https://www.amazon.co.uk/gp/bestsellers/beauty",
+      "source_name": "Amazon.co.uk Best Sellers · Beauty",
+      "needs_review": true,
+      "sample": false,
+      "partial": true,
+      "page": "/rankings/amazon-uk/",
+      "detail": "/v1/rankings/amazon-uk/2026-10-26.json"
+    },
+    {
+      "kind": "ranking",
+      "id": "amazon-uk/2026-10-23",
+      "type": "rankings",
+      "date": "2026-10-23",
+      "title": "Amazon 英国站 · 2026-10-23",
+      "summary": "30 个单品 · Amazon.co.uk Best Sellers · Beauty · 部分数据 · 待核实",
+      "markets": [
+        "uk"
+      ],
+      "board": "amazon-uk",
+      "source_url": "https://www.amazon.co.uk/Best-Sellers-Beauty/zgbs/beauty",
+      "source_name": "Amazon.co.uk Best Sellers · Beauty",
+      "needs_review": true,
+      "sample": false,
+      "partial": true,
+      "page": "/rankings/amazon-uk/",
+      "detail": "/v1/rankings/amazon-uk/2026-10-23.json"
+    }
+  ]
+}

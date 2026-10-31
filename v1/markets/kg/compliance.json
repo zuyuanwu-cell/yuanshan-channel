@@ -1,0 +1,102 @@
+{
+  "api": "yuanshan-channel/v1",
+  "access": "public-read",
+  "auth": null,
+  "generated": "2026-10-26",
+  "disclaimer": "每条资讯都附来源链接。标了「待核实」的条目来自媒体或第三方转述，引用前打开原文。费用、排名和法规以官方页面为准。",
+  "kind": "compliance",
+  "id": "kg",
+  "name_zh": "吉尔吉斯斯坦",
+  "region": "中亚",
+  "region_slug": "central-asia",
+  "page": "/compliance/kg/",
+  "market": {
+    "country": "kg",
+    "name_zh": "吉尔吉斯斯坦",
+    "flag": "🇰🇬",
+    "region": "中亚",
+    "difficulty": 3,
+    "summary": "欧亚成员，适用ТР ТС 009/2011；第74号决定多数修订2026-10-28生效。",
+    "items": [
+      {
+        "id": "kg-member",
+        "name_zh": "联盟成员适用该法规",
+        "authority": "欧亚经济联盟",
+        "type": "platform",
+        "mandatory": true,
+        "cost": "未知",
+        "time": "未知",
+        "docs": [],
+        "who": "成员国经营者",
+        "note": "成员名单包含吉尔吉斯斯坦。不把俄罗斯诚信标志套到本国。",
+        "official_url": "https://www.eaeunion.org/?about-info=&lang=en",
+        "source_checked": "2026-10-24",
+        "needs_review": false
+      },
+      {
+        "id": "kg-assess",
+        "name_zh": "国家注册或符合性声明",
+        "authority": "欧亚经济委员会",
+        "type": "registration",
+        "mandatory": true,
+        "cost": "未知",
+        "time": "未知",
+        "docs": [],
+        "who": "成员国境内法人或个体户",
+        "note": "附件12国家注册，其余声明。第74号2026-10-28生效；老证用至到期。",
+        "official_url": "https://old.adilet.zan.kz/rus/docs/H11T0000799",
+        "source_checked": "2026-10-28",
+        "needs_review": false
+      },
+      {
+        "id": "kg-docs",
+        "name_zh": "声明文件清单",
+        "authority": "吉尔吉斯标准局",
+        "type": "testing",
+        "mandatory": true,
+        "cost": "未知",
+        "time": "未知",
+        "docs": [],
+        "who": "声明申请人",
+        "note": "清单要求成分、理化指标、标签样本和检测报告。费用与受理机关未写明。",
+        "official_url": "https://nism.gov.kg/ru/events/122",
+        "source_checked": "2026-10-24",
+        "needs_review": true
+      },
+      {
+        "id": "kg-mark",
+        "name_zh": "联盟流通标志",
+        "authority": "欧亚经济委员会",
+        "type": "marking",
+        "mandatory": true,
+        "cost": "未知",
+        "time": "未知",
+        "docs": [],
+        "who": "投放市场的人",
+        "note": "完成合格评定后使用联盟市场流通统一标志。",
+        "official_url": "https://old.adilet.zan.kz/rus/docs/H11T0000799",
+        "source_checked": "2026-10-24",
+        "needs_review": false
+      }
+    ],
+    "steps": [
+      {
+        "title": "合格评定",
+        "type": "registration"
+      },
+      {
+        "title": "检测文件",
+        "type": "testing"
+      },
+      {
+        "title": "标志",
+        "type": "marking"
+      }
+    ],
+    "last_verified": "2026-10-28",
+    "hs_codes": {
+      "status": "pending",
+      "items": []
+    }
+  }
+}

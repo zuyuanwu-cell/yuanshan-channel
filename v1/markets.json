@@ -1,0 +1,1367 @@
+{
+  "api": "yuanshan-channel/v1",
+  "access": "public-read",
+  "auth": null,
+  "generated": "2026-10-26",
+  "disclaimer": "每条资讯都附来源链接。标了「待核实」的条目来自媒体或第三方转述，引用前打开原文。费用、排名和法规以官方页面为准。",
+  "kind": "markets",
+  "count": 92,
+  "regions": [
+    {
+      "slug": "north-america",
+      "title": "北美",
+      "markets": [
+        "ca",
+        "us"
+      ]
+    },
+    {
+      "slug": "latin-america",
+      "title": "拉美",
+      "markets": [
+        "ar",
+        "br",
+        "cl",
+        "co",
+        "cr",
+        "ec",
+        "mx",
+        "pa",
+        "pe",
+        "uy"
+      ]
+    },
+    {
+      "slug": "europe",
+      "title": "欧洲",
+      "markets": [
+        "at",
+        "be",
+        "bg",
+        "ch",
+        "cy",
+        "cz",
+        "de",
+        "dk",
+        "ee",
+        "es",
+        "eu",
+        "fi",
+        "fr",
+        "gr",
+        "hr",
+        "hu",
+        "ie",
+        "is",
+        "it",
+        "lt",
+        "lu",
+        "lv",
+        "mt",
+        "nl",
+        "no",
+        "pl",
+        "pt",
+        "ro",
+        "rs",
+        "se",
+        "si",
+        "sk",
+        "uk"
+      ]
+    },
+    {
+      "slug": "cis",
+      "title": "俄语区",
+      "markets": [
+        "am",
+        "az",
+        "by",
+        "md",
+        "ru",
+        "ua"
+      ]
+    },
+    {
+      "slug": "east-asia",
+      "title": "东亚",
+      "markets": [
+        "cn",
+        "hk",
+        "jp",
+        "kp",
+        "kr",
+        "mn",
+        "mo",
+        "tw"
+      ]
+    },
+    {
+      "slug": "southeast-asia",
+      "title": "东南亚",
+      "markets": [
+        "bn",
+        "id",
+        "kh",
+        "la",
+        "my",
+        "ph",
+        "sg",
+        "th",
+        "vn"
+      ]
+    },
+    {
+      "slug": "south-asia",
+      "title": "南亚",
+      "markets": [
+        "bd",
+        "in",
+        "lk",
+        "pk"
+      ]
+    },
+    {
+      "slug": "central-asia",
+      "title": "中亚",
+      "markets": [
+        "kg",
+        "kz",
+        "tj",
+        "tm",
+        "uz"
+      ]
+    },
+    {
+      "slug": "middle-east",
+      "title": "中东",
+      "markets": [
+        "ae",
+        "bh",
+        "jo",
+        "om",
+        "qa",
+        "sa",
+        "tr"
+      ]
+    },
+    {
+      "slug": "africa",
+      "title": "非洲",
+      "markets": [
+        "eg",
+        "ke",
+        "ma",
+        "ng",
+        "tz",
+        "za"
+      ]
+    },
+    {
+      "slug": "oceania",
+      "title": "大洋洲",
+      "markets": [
+        "au",
+        "nz"
+      ]
+    }
+  ],
+  "markets": [
+    {
+      "id": "ca",
+      "name_zh": "加拿大",
+      "region": "北美",
+      "region_slug": "north-america",
+      "page": "/compliance/ca/",
+      "feeds": {
+        "json": "/v1/markets/ca/feed.json",
+        "rss": "/v1/markets/ca/feed.xml",
+        "compliance": "/v1/markets/ca/compliance.json",
+        "rankings": "/v1/markets/ca/rankings.json"
+      }
+    },
+    {
+      "id": "us",
+      "name_zh": "美国",
+      "region": "北美",
+      "region_slug": "north-america",
+      "page": "/compliance/us/",
+      "feeds": {
+        "json": "/v1/markets/us/feed.json",
+        "rss": "/v1/markets/us/feed.xml",
+        "compliance": "/v1/markets/us/compliance.json",
+        "rankings": "/v1/markets/us/rankings.json"
+      }
+    },
+    {
+      "id": "ar",
+      "name_zh": "阿根廷",
+      "region": "拉美",
+      "region_slug": "latin-america",
+      "page": "/compliance/ar/",
+      "feeds": {
+        "json": "/v1/markets/ar/feed.json",
+        "rss": "/v1/markets/ar/feed.xml",
+        "compliance": "/v1/markets/ar/compliance.json",
+        "rankings": "/v1/markets/ar/rankings.json"
+      }
+    },
+    {
+      "id": "br",
+      "name_zh": "巴西",
+      "region": "拉美",
+      "region_slug": "latin-america",
+      "page": "/compliance/br/",
+      "feeds": {
+        "json": "/v1/markets/br/feed.json",
+        "rss": "/v1/markets/br/feed.xml",
+        "compliance": "/v1/markets/br/compliance.json",
+        "rankings": "/v1/markets/br/rankings.json"
+      }
+    },
+    {
+      "id": "cl",
+      "name_zh": "智利",
+      "region": "拉美",
+      "region_slug": "latin-america",
+      "page": "/compliance/cl/",
+      "feeds": {
+        "json": "/v1/markets/cl/feed.json",
+        "rss": "/v1/markets/cl/feed.xml",
+        "compliance": "/v1/markets/cl/compliance.json",
+        "rankings": "/v1/markets/cl/rankings.json"
+      }
+    },
+    {
+      "id": "co",
+      "name_zh": "哥伦比亚",
+      "region": "拉美",
+      "region_slug": "latin-america",
+      "page": "/compliance/co/",
+      "feeds": {
+        "json": "/v1/markets/co/feed.json",
+        "rss": "/v1/markets/co/feed.xml",
+        "compliance": "/v1/markets/co/compliance.json",
+        "rankings": "/v1/markets/co/rankings.json"
+      }
+    },
+    {
+      "id": "cr",
+      "name_zh": "哥斯达黎加",
+      "region": "拉美",
+      "region_slug": "latin-america",
+      "page": "/compliance/cr/",
+      "feeds": {
+        "json": "/v1/markets/cr/feed.json",
+        "rss": "/v1/markets/cr/feed.xml",
+        "compliance": "/v1/markets/cr/compliance.json",
+        "rankings": "/v1/markets/cr/rankings.json"
+      }
+    },
+    {
+      "id": "ec",
+      "name_zh": "厄瓜多尔",
+      "region": "拉美",
+      "region_slug": "latin-america",
+      "page": "/compliance/ec/",
+      "feeds": {
+        "json": "/v1/markets/ec/feed.json",
+        "rss": "/v1/markets/ec/feed.xml",
+        "compliance": "/v1/markets/ec/compliance.json",
+        "rankings": "/v1/markets/ec/rankings.json"
+      }
+    },
+    {
+      "id": "mx",
+      "name_zh": "墨西哥",
+      "region": "拉美",
+      "region_slug": "latin-america",
+      "page": "/compliance/mx/",
+      "feeds": {
+        "json": "/v1/markets/mx/feed.json",
+        "rss": "/v1/markets/mx/feed.xml",
+        "compliance": "/v1/markets/mx/compliance.json",
+        "rankings": "/v1/markets/mx/rankings.json"
+      }
+    },
+    {
+      "id": "pa",
+      "name_zh": "巴拿马",
+      "region": "拉美",
+      "region_slug": "latin-america",
+      "page": "/compliance/pa/",
+      "feeds": {
+        "json": "/v1/markets/pa/feed.json",
+        "rss": "/v1/markets/pa/feed.xml",
+        "compliance": "/v1/markets/pa/compliance.json",
+        "rankings": "/v1/markets/pa/rankings.json"
+      }
+    },
+    {
+      "id": "pe",
+      "name_zh": "秘鲁",
+      "region": "拉美",
+      "region_slug": "latin-america",
+      "page": "/compliance/pe/",
+      "feeds": {
+        "json": "/v1/markets/pe/feed.json",
+        "rss": "/v1/markets/pe/feed.xml",
+        "compliance": "/v1/markets/pe/compliance.json",
+        "rankings": "/v1/markets/pe/rankings.json"
+      }
+    },
+    {
+      "id": "uy",
+      "name_zh": "乌拉圭",
+      "region": "拉美",
+      "region_slug": "latin-america",
+      "page": "/compliance/uy/",
+      "feeds": {
+        "json": "/v1/markets/uy/feed.json",
+        "rss": "/v1/markets/uy/feed.xml",
+        "compliance": "/v1/markets/uy/compliance.json",
+        "rankings": "/v1/markets/uy/rankings.json"
+      }
+    },
+    {
+      "id": "at",
+      "name_zh": "奥地利",
+      "region": "欧洲",
+      "region_slug": "europe",
+      "page": "/compliance/at/",
+      "feeds": {
+        "json": "/v1/markets/at/feed.json",
+        "rss": "/v1/markets/at/feed.xml",
+        "compliance": "/v1/markets/at/compliance.json",
+        "rankings": "/v1/markets/at/rankings.json"
+      }
+    },
+    {
+      "id": "be",
+      "name_zh": "比利时",
+      "region": "欧洲",
+      "region_slug": "europe",
+      "page": "/compliance/be/",
+      "feeds": {
+        "json": "/v1/markets/be/feed.json",
+        "rss": "/v1/markets/be/feed.xml",
+        "compliance": "/v1/markets/be/compliance.json",
+        "rankings": "/v1/markets/be/rankings.json"
+      }
+    },
+    {
+      "id": "bg",
+      "name_zh": "保加利亚",
+      "region": "欧洲",
+      "region_slug": "europe",
+      "page": "/compliance/bg/",
+      "feeds": {
+        "json": "/v1/markets/bg/feed.json",
+        "rss": "/v1/markets/bg/feed.xml",
+        "compliance": "/v1/markets/bg/compliance.json",
+        "rankings": "/v1/markets/bg/rankings.json"
+      }
+    },
+    {
+      "id": "ch",
+      "name_zh": "瑞士",
+      "region": "欧洲",
+      "region_slug": "europe",
+      "page": "/compliance/ch/",
+      "feeds": {
+        "json": "/v1/markets/ch/feed.json",
+        "rss": "/v1/markets/ch/feed.xml",
+        "compliance": "/v1/markets/ch/compliance.json",
+        "rankings": "/v1/markets/ch/rankings.json"
+      }
+    },
+    {
+      "id": "cy",
+      "name_zh": "塞浦路斯",
+      "region": "欧洲",
+      "region_slug": "europe",
+      "page": "/compliance/cy/",
+      "feeds": {
+        "json": "/v1/markets/cy/feed.json",
+        "rss": "/v1/markets/cy/feed.xml",
+        "compliance": "/v1/markets/cy/compliance.json",
+        "rankings": "/v1/markets/cy/rankings.json"
+      }
+    },
+    {
+      "id": "cz",
+      "name_zh": "捷克",
+      "region": "欧洲",
+      "region_slug": "europe",
+      "page": "/compliance/cz/",
+      "feeds": {
+        "json": "/v1/markets/cz/feed.json",
+        "rss": "/v1/markets/cz/feed.xml",
+        "compliance": "/v1/markets/cz/compliance.json",
+        "rankings": "/v1/markets/cz/rankings.json"
+      }
+    },
+    {
+      "id": "de",
+      "name_zh": "德国",
+      "region": "欧洲",
+      "region_slug": "europe",
+      "page": "/compliance/de/",
+      "feeds": {
+        "json": "/v1/markets/de/feed.json",
+        "rss": "/v1/markets/de/feed.xml",
+        "compliance": "/v1/markets/de/compliance.json",
+        "rankings": "/v1/markets/de/rankings.json"
+      }
+    },
+    {
+      "id": "dk",
+      "name_zh": "丹麦",
+      "region": "欧洲",
+      "region_slug": "europe",
+      "page": "/compliance/dk/",
+      "feeds": {
+        "json": "/v1/markets/dk/feed.json",
+        "rss": "/v1/markets/dk/feed.xml",
+        "compliance": "/v1/markets/dk/compliance.json",
+        "rankings": "/v1/markets/dk/rankings.json"
+      }
+    },
+    {
+      "id": "ee",
+      "name_zh": "爱沙尼亚",
+      "region": "欧洲",
+      "region_slug": "europe",
+      "page": "/compliance/ee/",
+      "feeds": {
+        "json": "/v1/markets/ee/feed.json",
+        "rss": "/v1/markets/ee/feed.xml",
+        "compliance": "/v1/markets/ee/compliance.json",
+        "rankings": "/v1/markets/ee/rankings.json"
+      }
+    },
+    {
+      "id": "es",
+      "name_zh": "西班牙",
+      "region": "欧洲",
+      "region_slug": "europe",
+      "page": "/compliance/es/",
+      "feeds": {
+        "json": "/v1/markets/es/feed.json",
+        "rss": "/v1/markets/es/feed.xml",
+        "compliance": "/v1/markets/es/compliance.json",
+        "rankings": "/v1/markets/es/rankings.json"
+      }
+    },
+    {
+      "id": "eu",
+      "name_zh": "欧盟·德国",
+      "region": "欧洲",
+      "region_slug": "europe",
+      "page": "/compliance/eu/",
+      "feeds": {
+        "json": "/v1/markets/eu/feed.json",
+        "rss": "/v1/markets/eu/feed.xml",
+        "compliance": "/v1/markets/eu/compliance.json",
+        "rankings": "/v1/markets/eu/rankings.json"
+      }
+    },
+    {
+      "id": "fi",
+      "name_zh": "芬兰",
+      "region": "欧洲",
+      "region_slug": "europe",
+      "page": "/compliance/fi/",
+      "feeds": {
+        "json": "/v1/markets/fi/feed.json",
+        "rss": "/v1/markets/fi/feed.xml",
+        "compliance": "/v1/markets/fi/compliance.json",
+        "rankings": "/v1/markets/fi/rankings.json"
+      }
+    },
+    {
+      "id": "fr",
+      "name_zh": "法国",
+      "region": "欧洲",
+      "region_slug": "europe",
+      "page": "/compliance/fr/",
+      "feeds": {
+        "json": "/v1/markets/fr/feed.json",
+        "rss": "/v1/markets/fr/feed.xml",
+        "compliance": "/v1/markets/fr/compliance.json",
+        "rankings": "/v1/markets/fr/rankings.json"
+      }
+    },
+    {
+      "id": "gr",
+      "name_zh": "希腊",
+      "region": "欧洲",
+      "region_slug": "europe",
+      "page": "/compliance/gr/",
+      "feeds": {
+        "json": "/v1/markets/gr/feed.json",
+        "rss": "/v1/markets/gr/feed.xml",
+        "compliance": "/v1/markets/gr/compliance.json",
+        "rankings": "/v1/markets/gr/rankings.json"
+      }
+    },
+    {
+      "id": "hr",
+      "name_zh": "克罗地亚",
+      "region": "欧洲",
+      "region_slug": "europe",
+      "page": "/compliance/hr/",
+      "feeds": {
+        "json": "/v1/markets/hr/feed.json",
+        "rss": "/v1/markets/hr/feed.xml",
+        "compliance": "/v1/markets/hr/compliance.json",
+        "rankings": "/v1/markets/hr/rankings.json"
+      }
+    },
+    {
+      "id": "hu",
+      "name_zh": "匈牙利",
+      "region": "欧洲",
+      "region_slug": "europe",
+      "page": "/compliance/hu/",
+      "feeds": {
+        "json": "/v1/markets/hu/feed.json",
+        "rss": "/v1/markets/hu/feed.xml",
+        "compliance": "/v1/markets/hu/compliance.json",
+        "rankings": "/v1/markets/hu/rankings.json"
+      }
+    },
+    {
+      "id": "ie",
+      "name_zh": "爱尔兰",
+      "region": "欧洲",
+      "region_slug": "europe",
+      "page": "/compliance/ie/",
+      "feeds": {
+        "json": "/v1/markets/ie/feed.json",
+        "rss": "/v1/markets/ie/feed.xml",
+        "compliance": "/v1/markets/ie/compliance.json",
+        "rankings": "/v1/markets/ie/rankings.json"
+      }
+    },
+    {
+      "id": "is",
+      "name_zh": "冰岛",
+      "region": "欧洲",
+      "region_slug": "europe",
+      "page": "/compliance/is/",
+      "feeds": {
+        "json": "/v1/markets/is/feed.json",
+        "rss": "/v1/markets/is/feed.xml",
+        "compliance": "/v1/markets/is/compliance.json",
+        "rankings": "/v1/markets/is/rankings.json"
+      }
+    },
+    {
+      "id": "it",
+      "name_zh": "意大利",
+      "region": "欧洲",
+      "region_slug": "europe",
+      "page": "/compliance/it/",
+      "feeds": {
+        "json": "/v1/markets/it/feed.json",
+        "rss": "/v1/markets/it/feed.xml",
+        "compliance": "/v1/markets/it/compliance.json",
+        "rankings": "/v1/markets/it/rankings.json"
+      }
+    },
+    {
+      "id": "lt",
+      "name_zh": "立陶宛",
+      "region": "欧洲",
+      "region_slug": "europe",
+      "page": "/compliance/lt/",
+      "feeds": {
+        "json": "/v1/markets/lt/feed.json",
+        "rss": "/v1/markets/lt/feed.xml",
+        "compliance": "/v1/markets/lt/compliance.json",
+        "rankings": "/v1/markets/lt/rankings.json"
+      }
+    },
+    {
+      "id": "lu",
+      "name_zh": "卢森堡",
+      "region": "欧洲",
+      "region_slug": "europe",
+      "page": "/compliance/lu/",
+      "feeds": {
+        "json": "/v1/markets/lu/feed.json",
+        "rss": "/v1/markets/lu/feed.xml",
+        "compliance": "/v1/markets/lu/compliance.json",
+        "rankings": "/v1/markets/lu/rankings.json"
+      }
+    },
+    {
+      "id": "lv",
+      "name_zh": "拉脱维亚",
+      "region": "欧洲",
+      "region_slug": "europe",
+      "page": "/compliance/lv/",
+      "feeds": {
+        "json": "/v1/markets/lv/feed.json",
+        "rss": "/v1/markets/lv/feed.xml",
+        "compliance": "/v1/markets/lv/compliance.json",
+        "rankings": "/v1/markets/lv/rankings.json"
+      }
+    },
+    {
+      "id": "mt",
+      "name_zh": "马耳他",
+      "region": "欧洲",
+      "region_slug": "europe",
+      "page": "/compliance/mt/",
+      "feeds": {
+        "json": "/v1/markets/mt/feed.json",
+        "rss": "/v1/markets/mt/feed.xml",
+        "compliance": "/v1/markets/mt/compliance.json",
+        "rankings": "/v1/markets/mt/rankings.json"
+      }
+    },
+    {
+      "id": "nl",
+      "name_zh": "荷兰",
+      "region": "欧洲",
+      "region_slug": "europe",
+      "page": "/compliance/nl/",
+      "feeds": {
+        "json": "/v1/markets/nl/feed.json",
+        "rss": "/v1/markets/nl/feed.xml",
+        "compliance": "/v1/markets/nl/compliance.json",
+        "rankings": "/v1/markets/nl/rankings.json"
+      }
+    },
+    {
+      "id": "no",
+      "name_zh": "挪威",
+      "region": "欧洲",
+      "region_slug": "europe",
+      "page": "/compliance/no/",
+      "feeds": {
+        "json": "/v1/markets/no/feed.json",
+        "rss": "/v1/markets/no/feed.xml",
+        "compliance": "/v1/markets/no/compliance.json",
+        "rankings": "/v1/markets/no/rankings.json"
+      }
+    },
+    {
+      "id": "pl",
+      "name_zh": "波兰",
+      "region": "欧洲",
+      "region_slug": "europe",
+      "page": "/compliance/pl/",
+      "feeds": {
+        "json": "/v1/markets/pl/feed.json",
+        "rss": "/v1/markets/pl/feed.xml",
+        "compliance": "/v1/markets/pl/compliance.json",
+        "rankings": "/v1/markets/pl/rankings.json"
+      }
+    },
+    {
+      "id": "pt",
+      "name_zh": "葡萄牙",
+      "region": "欧洲",
+      "region_slug": "europe",
+      "page": "/compliance/pt/",
+      "feeds": {
+        "json": "/v1/markets/pt/feed.json",
+        "rss": "/v1/markets/pt/feed.xml",
+        "compliance": "/v1/markets/pt/compliance.json",
+        "rankings": "/v1/markets/pt/rankings.json"
+      }
+    },
+    {
+      "id": "ro",
+      "name_zh": "罗马尼亚",
+      "region": "欧洲",
+      "region_slug": "europe",
+      "page": "/compliance/ro/",
+      "feeds": {
+        "json": "/v1/markets/ro/feed.json",
+        "rss": "/v1/markets/ro/feed.xml",
+        "compliance": "/v1/markets/ro/compliance.json",
+        "rankings": "/v1/markets/ro/rankings.json"
+      }
+    },
+    {
+      "id": "rs",
+      "name_zh": "塞尔维亚",
+      "region": "欧洲",
+      "region_slug": "europe",
+      "page": "/compliance/rs/",
+      "feeds": {
+        "json": "/v1/markets/rs/feed.json",
+        "rss": "/v1/markets/rs/feed.xml",
+        "compliance": "/v1/markets/rs/compliance.json",
+        "rankings": "/v1/markets/rs/rankings.json"
+      }
+    },
+    {
+      "id": "se",
+      "name_zh": "瑞典",
+      "region": "欧洲",
+      "region_slug": "europe",
+      "page": "/compliance/se/",
+      "feeds": {
+        "json": "/v1/markets/se/feed.json",
+        "rss": "/v1/markets/se/feed.xml",
+        "compliance": "/v1/markets/se/compliance.json",
+        "rankings": "/v1/markets/se/rankings.json"
+      }
+    },
+    {
+      "id": "si",
+      "name_zh": "斯洛文尼亚",
+      "region": "欧洲",
+      "region_slug": "europe",
+      "page": "/compliance/si/",
+      "feeds": {
+        "json": "/v1/markets/si/feed.json",
+        "rss": "/v1/markets/si/feed.xml",
+        "compliance": "/v1/markets/si/compliance.json",
+        "rankings": "/v1/markets/si/rankings.json"
+      }
+    },
+    {
+      "id": "sk",
+      "name_zh": "斯洛伐克",
+      "region": "欧洲",
+      "region_slug": "europe",
+      "page": "/compliance/sk/",
+      "feeds": {
+        "json": "/v1/markets/sk/feed.json",
+        "rss": "/v1/markets/sk/feed.xml",
+        "compliance": "/v1/markets/sk/compliance.json",
+        "rankings": "/v1/markets/sk/rankings.json"
+      }
+    },
+    {
+      "id": "uk",
+      "name_zh": "英国",
+      "region": "欧洲",
+      "region_slug": "europe",
+      "page": "/compliance/uk/",
+      "feeds": {
+        "json": "/v1/markets/uk/feed.json",
+        "rss": "/v1/markets/uk/feed.xml",
+        "compliance": "/v1/markets/uk/compliance.json",
+        "rankings": "/v1/markets/uk/rankings.json"
+      }
+    },
+    {
+      "id": "am",
+      "name_zh": "亚美尼亚",
+      "region": "俄语区",
+      "region_slug": "cis",
+      "page": "/compliance/am/",
+      "feeds": {
+        "json": "/v1/markets/am/feed.json",
+        "rss": "/v1/markets/am/feed.xml",
+        "compliance": "/v1/markets/am/compliance.json",
+        "rankings": "/v1/markets/am/rankings.json"
+      }
+    },
+    {
+      "id": "az",
+      "name_zh": "阿塞拜疆",
+      "region": "俄语区",
+      "region_slug": "cis",
+      "page": "/compliance/az/",
+      "feeds": {
+        "json": "/v1/markets/az/feed.json",
+        "rss": "/v1/markets/az/feed.xml",
+        "compliance": "/v1/markets/az/compliance.json",
+        "rankings": "/v1/markets/az/rankings.json"
+      }
+    },
+    {
+      "id": "by",
+      "name_zh": "白俄罗斯",
+      "region": "俄语区",
+      "region_slug": "cis",
+      "page": "/compliance/by/",
+      "feeds": {
+        "json": "/v1/markets/by/feed.json",
+        "rss": "/v1/markets/by/feed.xml",
+        "compliance": "/v1/markets/by/compliance.json",
+        "rankings": "/v1/markets/by/rankings.json"
+      }
+    },
+    {
+      "id": "md",
+      "name_zh": "摩尔多瓦",
+      "region": "俄语区",
+      "region_slug": "cis",
+      "page": "/compliance/md/",
+      "feeds": {
+        "json": "/v1/markets/md/feed.json",
+        "rss": "/v1/markets/md/feed.xml",
+        "compliance": "/v1/markets/md/compliance.json",
+        "rankings": "/v1/markets/md/rankings.json"
+      }
+    },
+    {
+      "id": "ru",
+      "name_zh": "俄罗斯",
+      "region": "俄语区",
+      "region_slug": "cis",
+      "page": "/compliance/ru/",
+      "feeds": {
+        "json": "/v1/markets/ru/feed.json",
+        "rss": "/v1/markets/ru/feed.xml",
+        "compliance": "/v1/markets/ru/compliance.json",
+        "rankings": "/v1/markets/ru/rankings.json"
+      }
+    },
+    {
+      "id": "ua",
+      "name_zh": "乌克兰",
+      "region": "俄语区",
+      "region_slug": "cis",
+      "page": "/compliance/ua/",
+      "feeds": {
+        "json": "/v1/markets/ua/feed.json",
+        "rss": "/v1/markets/ua/feed.xml",
+        "compliance": "/v1/markets/ua/compliance.json",
+        "rankings": "/v1/markets/ua/rankings.json"
+      }
+    },
+    {
+      "id": "cn",
+      "name_zh": "中国",
+      "region": "东亚",
+      "region_slug": "east-asia",
+      "page": "/compliance/cn/",
+      "feeds": {
+        "json": "/v1/markets/cn/feed.json",
+        "rss": "/v1/markets/cn/feed.xml",
+        "compliance": "/v1/markets/cn/compliance.json",
+        "rankings": "/v1/markets/cn/rankings.json"
+      }
+    },
+    {
+      "id": "hk",
+      "name_zh": "中国香港",
+      "region": "东亚",
+      "region_slug": "east-asia",
+      "page": "/compliance/hk/",
+      "feeds": {
+        "json": "/v1/markets/hk/feed.json",
+        "rss": "/v1/markets/hk/feed.xml",
+        "compliance": "/v1/markets/hk/compliance.json",
+        "rankings": "/v1/markets/hk/rankings.json"
+      }
+    },
+    {
+      "id": "jp",
+      "name_zh": "日本",
+      "region": "东亚",
+      "region_slug": "east-asia",
+      "page": "/compliance/jp/",
+      "feeds": {
+        "json": "/v1/markets/jp/feed.json",
+        "rss": "/v1/markets/jp/feed.xml",
+        "compliance": "/v1/markets/jp/compliance.json",
+        "rankings": "/v1/markets/jp/rankings.json"
+      }
+    },
+    {
+      "id": "kp",
+      "name_zh": "朝鲜",
+      "region": "东亚",
+      "region_slug": "east-asia",
+      "page": "/compliance/kp/",
+      "feeds": {
+        "json": "/v1/markets/kp/feed.json",
+        "rss": "/v1/markets/kp/feed.xml",
+        "compliance": "/v1/markets/kp/compliance.json",
+        "rankings": "/v1/markets/kp/rankings.json"
+      }
+    },
+    {
+      "id": "kr",
+      "name_zh": "韩国",
+      "region": "东亚",
+      "region_slug": "east-asia",
+      "page": "/compliance/kr/",
+      "feeds": {
+        "json": "/v1/markets/kr/feed.json",
+        "rss": "/v1/markets/kr/feed.xml",
+        "compliance": "/v1/markets/kr/compliance.json",
+        "rankings": "/v1/markets/kr/rankings.json"
+      }
+    },
+    {
+      "id": "mn",
+      "name_zh": "蒙古",
+      "region": "东亚",
+      "region_slug": "east-asia",
+      "page": "/compliance/mn/",
+      "feeds": {
+        "json": "/v1/markets/mn/feed.json",
+        "rss": "/v1/markets/mn/feed.xml",
+        "compliance": "/v1/markets/mn/compliance.json",
+        "rankings": "/v1/markets/mn/rankings.json"
+      }
+    },
+    {
+      "id": "mo",
+      "name_zh": "中国澳门",
+      "region": "东亚",
+      "region_slug": "east-asia",
+      "page": "/compliance/mo/",
+      "feeds": {
+        "json": "/v1/markets/mo/feed.json",
+        "rss": "/v1/markets/mo/feed.xml",
+        "compliance": "/v1/markets/mo/compliance.json",
+        "rankings": "/v1/markets/mo/rankings.json"
+      }
+    },
+    {
+      "id": "tw",
+      "name_zh": "中国台湾",
+      "region": "东亚",
+      "region_slug": "east-asia",
+      "page": "/compliance/tw/",
+      "feeds": {
+        "json": "/v1/markets/tw/feed.json",
+        "rss": "/v1/markets/tw/feed.xml",
+        "compliance": "/v1/markets/tw/compliance.json",
+        "rankings": "/v1/markets/tw/rankings.json"
+      }
+    },
+    {
+      "id": "bn",
+      "name_zh": "文莱",
+      "region": "东南亚",
+      "region_slug": "southeast-asia",
+      "page": "/compliance/bn/",
+      "feeds": {
+        "json": "/v1/markets/bn/feed.json",
+        "rss": "/v1/markets/bn/feed.xml",
+        "compliance": "/v1/markets/bn/compliance.json",
+        "rankings": "/v1/markets/bn/rankings.json"
+      }
+    },
+    {
+      "id": "id",
+      "name_zh": "印度尼西亚",
+      "region": "东南亚",
+      "region_slug": "southeast-asia",
+      "page": "/compliance/id/",
+      "feeds": {
+        "json": "/v1/markets/id/feed.json",
+        "rss": "/v1/markets/id/feed.xml",
+        "compliance": "/v1/markets/id/compliance.json",
+        "rankings": "/v1/markets/id/rankings.json"
+      }
+    },
+    {
+      "id": "kh",
+      "name_zh": "柬埔寨",
+      "region": "东南亚",
+      "region_slug": "southeast-asia",
+      "page": "/compliance/kh/",
+      "feeds": {
+        "json": "/v1/markets/kh/feed.json",
+        "rss": "/v1/markets/kh/feed.xml",
+        "compliance": "/v1/markets/kh/compliance.json",
+        "rankings": "/v1/markets/kh/rankings.json"
+      }
+    },
+    {
+      "id": "la",
+      "name_zh": "老挝",
+      "region": "东南亚",
+      "region_slug": "southeast-asia",
+      "page": "/compliance/la/",
+      "feeds": {
+        "json": "/v1/markets/la/feed.json",
+        "rss": "/v1/markets/la/feed.xml",
+        "compliance": "/v1/markets/la/compliance.json",
+        "rankings": "/v1/markets/la/rankings.json"
+      }
+    },
+    {
+      "id": "my",
+      "name_zh": "马来西亚",
+      "region": "东南亚",
+      "region_slug": "southeast-asia",
+      "page": "/compliance/my/",
+      "feeds": {
+        "json": "/v1/markets/my/feed.json",
+        "rss": "/v1/markets/my/feed.xml",
+        "compliance": "/v1/markets/my/compliance.json",
+        "rankings": "/v1/markets/my/rankings.json"
+      }
+    },
+    {
+      "id": "ph",
+      "name_zh": "菲律宾",
+      "region": "东南亚",
+      "region_slug": "southeast-asia",
+      "page": "/compliance/ph/",
+      "feeds": {
+        "json": "/v1/markets/ph/feed.json",
+        "rss": "/v1/markets/ph/feed.xml",
+        "compliance": "/v1/markets/ph/compliance.json",
+        "rankings": "/v1/markets/ph/rankings.json"
+      }
+    },
+    {
+      "id": "sg",
+      "name_zh": "新加坡",
+      "region": "东南亚",
+      "region_slug": "southeast-asia",
+      "page": "/compliance/sg/",
+      "feeds": {
+        "json": "/v1/markets/sg/feed.json",
+        "rss": "/v1/markets/sg/feed.xml",
+        "compliance": "/v1/markets/sg/compliance.json",
+        "rankings": "/v1/markets/sg/rankings.json"
+      }
+    },
+    {
+      "id": "th",
+      "name_zh": "泰国",
+      "region": "东南亚",
+      "region_slug": "southeast-asia",
+      "page": "/compliance/th/",
+      "feeds": {
+        "json": "/v1/markets/th/feed.json",
+        "rss": "/v1/markets/th/feed.xml",
+        "compliance": "/v1/markets/th/compliance.json",
+        "rankings": "/v1/markets/th/rankings.json"
+      }
+    },
+    {
+      "id": "vn",
+      "name_zh": "越南",
+      "region": "东南亚",
+      "region_slug": "southeast-asia",
+      "page": "/compliance/vn/",
+      "feeds": {
+        "json": "/v1/markets/vn/feed.json",
+        "rss": "/v1/markets/vn/feed.xml",
+        "compliance": "/v1/markets/vn/compliance.json",
+        "rankings": "/v1/markets/vn/rankings.json"
+      }
+    },
+    {
+      "id": "bd",
+      "name_zh": "孟加拉",
+      "region": "南亚",
+      "region_slug": "south-asia",
+      "page": "/compliance/bd/",
+      "feeds": {
+        "json": "/v1/markets/bd/feed.json",
+        "rss": "/v1/markets/bd/feed.xml",
+        "compliance": "/v1/markets/bd/compliance.json",
+        "rankings": "/v1/markets/bd/rankings.json"
+      }
+    },
+    {
+      "id": "in",
+      "name_zh": "印度",
+      "region": "南亚",
+      "region_slug": "south-asia",
+      "page": "/compliance/in/",
+      "feeds": {
+        "json": "/v1/markets/in/feed.json",
+        "rss": "/v1/markets/in/feed.xml",
+        "compliance": "/v1/markets/in/compliance.json",
+        "rankings": "/v1/markets/in/rankings.json"
+      }
+    },
+    {
+      "id": "lk",
+      "name_zh": "斯里兰卡",
+      "region": "南亚",
+      "region_slug": "south-asia",
+      "page": "/compliance/lk/",
+      "feeds": {
+        "json": "/v1/markets/lk/feed.json",
+        "rss": "/v1/markets/lk/feed.xml",
+        "compliance": "/v1/markets/lk/compliance.json",
+        "rankings": "/v1/markets/lk/rankings.json"
+      }
+    },
+    {
+      "id": "pk",
+      "name_zh": "巴基斯坦",
+      "region": "南亚",
+      "region_slug": "south-asia",
+      "page": "/compliance/pk/",
+      "feeds": {
+        "json": "/v1/markets/pk/feed.json",
+        "rss": "/v1/markets/pk/feed.xml",
+        "compliance": "/v1/markets/pk/compliance.json",
+        "rankings": "/v1/markets/pk/rankings.json"
+      }
+    },
+    {
+      "id": "kg",
+      "name_zh": "吉尔吉斯斯坦",
+      "region": "中亚",
+      "region_slug": "central-asia",
+      "page": "/compliance/kg/",
+      "feeds": {
+        "json": "/v1/markets/kg/feed.json",
+        "rss": "/v1/markets/kg/feed.xml",
+        "compliance": "/v1/markets/kg/compliance.json",
+        "rankings": "/v1/markets/kg/rankings.json"
+      }
+    },
+    {
+      "id": "kz",
+      "name_zh": "哈萨克斯坦",
+      "region": "中亚",
+      "region_slug": "central-asia",
+      "page": "/compliance/kz/",
+      "feeds": {
+        "json": "/v1/markets/kz/feed.json",
+        "rss": "/v1/markets/kz/feed.xml",
+        "compliance": "/v1/markets/kz/compliance.json",
+        "rankings": "/v1/markets/kz/rankings.json"
+      }
+    },
+    {
+      "id": "tj",
+      "name_zh": "塔吉克斯坦",
+      "region": "中亚",
+      "region_slug": "central-asia",
+      "page": "/compliance/tj/",
+      "feeds": {
+        "json": "/v1/markets/tj/feed.json",
+        "rss": "/v1/markets/tj/feed.xml",
+        "compliance": "/v1/markets/tj/compliance.json",
+        "rankings": "/v1/markets/tj/rankings.json"
+      }
+    },
+    {
+      "id": "tm",
+      "name_zh": "土库曼斯坦",
+      "region": "中亚",
+      "region_slug": "central-asia",
+      "page": "/compliance/tm/",
+      "feeds": {
+        "json": "/v1/markets/tm/feed.json",
+        "rss": "/v1/markets/tm/feed.xml",
+        "compliance": "/v1/markets/tm/compliance.json",
+        "rankings": "/v1/markets/tm/rankings.json"
+      }
+    },
+    {
+      "id": "uz",
+      "name_zh": "乌兹别克斯坦",
+      "region": "中亚",
+      "region_slug": "central-asia",
+      "page": "/compliance/uz/",
+      "feeds": {
+        "json": "/v1/markets/uz/feed.json",
+        "rss": "/v1/markets/uz/feed.xml",
+        "compliance": "/v1/markets/uz/compliance.json",
+        "rankings": "/v1/markets/uz/rankings.json"
+      }
+    },
+    {
+      "id": "ae",
+      "name_zh": "阿联酋",
+      "region": "中东",
+      "region_slug": "middle-east",
+      "page": "/compliance/ae/",
+      "feeds": {
+        "json": "/v1/markets/ae/feed.json",
+        "rss": "/v1/markets/ae/feed.xml",
+        "compliance": "/v1/markets/ae/compliance.json",
+        "rankings": "/v1/markets/ae/rankings.json"
+      }
+    },
+    {
+      "id": "bh",
+      "name_zh": "巴林",
+      "region": "中东",
+      "region_slug": "middle-east",
+      "page": "/compliance/bh/",
+      "feeds": {
+        "json": "/v1/markets/bh/feed.json",
+        "rss": "/v1/markets/bh/feed.xml",
+        "compliance": "/v1/markets/bh/compliance.json",
+        "rankings": "/v1/markets/bh/rankings.json"
+      }
+    },
+    {
+      "id": "jo",
+      "name_zh": "约旦",
+      "region": "中东",
+      "region_slug": "middle-east",
+      "page": "/compliance/jo/",
+      "feeds": {
+        "json": "/v1/markets/jo/feed.json",
+        "rss": "/v1/markets/jo/feed.xml",
+        "compliance": "/v1/markets/jo/compliance.json",
+        "rankings": "/v1/markets/jo/rankings.json"
+      }
+    },
+    {
+      "id": "om",
+      "name_zh": "阿曼",
+      "region": "中东",
+      "region_slug": "middle-east",
+      "page": "/compliance/om/",
+      "feeds": {
+        "json": "/v1/markets/om/feed.json",
+        "rss": "/v1/markets/om/feed.xml",
+        "compliance": "/v1/markets/om/compliance.json",
+        "rankings": "/v1/markets/om/rankings.json"
+      }
+    },
+    {
+      "id": "qa",
+      "name_zh": "卡塔尔",
+      "region": "中东",
+      "region_slug": "middle-east",
+      "page": "/compliance/qa/",
+      "feeds": {
+        "json": "/v1/markets/qa/feed.json",
+        "rss": "/v1/markets/qa/feed.xml",
+        "compliance": "/v1/markets/qa/compliance.json",
+        "rankings": "/v1/markets/qa/rankings.json"
+      }
+    },
+    {
+      "id": "sa",
+      "name_zh": "沙特",
+      "region": "中东",
+      "region_slug": "middle-east",
+      "page": "/compliance/sa/",
+      "feeds": {
+        "json": "/v1/markets/sa/feed.json",
+        "rss": "/v1/markets/sa/feed.xml",
+        "compliance": "/v1/markets/sa/compliance.json",
+        "rankings": "/v1/markets/sa/rankings.json"
+      }
+    },
+    {
+      "id": "tr",
+      "name_zh": "土耳其",
+      "region": "中东",
+      "region_slug": "middle-east",
+      "page": "/compliance/tr/",
+      "feeds": {
+        "json": "/v1/markets/tr/feed.json",
+        "rss": "/v1/markets/tr/feed.xml",
+        "compliance": "/v1/markets/tr/compliance.json",
+        "rankings": "/v1/markets/tr/rankings.json"
+      }
+    },
+    {
+      "id": "eg",
+      "name_zh": "埃及",
+      "region": "非洲",
+      "region_slug": "africa",
+      "page": "/compliance/eg/",
+      "feeds": {
+        "json": "/v1/markets/eg/feed.json",
+        "rss": "/v1/markets/eg/feed.xml",
+        "compliance": "/v1/markets/eg/compliance.json",
+        "rankings": "/v1/markets/eg/rankings.json"
+      }
+    },
+    {
+      "id": "ke",
+      "name_zh": "肯尼亚",
+      "region": "非洲",
+      "region_slug": "africa",
+      "page": "/compliance/ke/",
+      "feeds": {
+        "json": "/v1/markets/ke/feed.json",
+        "rss": "/v1/markets/ke/feed.xml",
+        "compliance": "/v1/markets/ke/compliance.json",
+        "rankings": "/v1/markets/ke/rankings.json"
+      }
+    },
+    {
+      "id": "ma",
+      "name_zh": "摩洛哥",
+      "region": "非洲",
+      "region_slug": "africa",
+      "page": "/compliance/ma/",
+      "feeds": {
+        "json": "/v1/markets/ma/feed.json",
+        "rss": "/v1/markets/ma/feed.xml",
+        "compliance": "/v1/markets/ma/compliance.json",
+        "rankings": "/v1/markets/ma/rankings.json"
+      }
+    },
+    {
+      "id": "ng",
+      "name_zh": "尼日利亚",
+      "region": "非洲",
+      "region_slug": "africa",
+      "page": "/compliance/ng/",
+      "feeds": {
+        "json": "/v1/markets/ng/feed.json",
+        "rss": "/v1/markets/ng/feed.xml",
+        "compliance": "/v1/markets/ng/compliance.json",
+        "rankings": "/v1/markets/ng/rankings.json"
+      }
+    },
+    {
+      "id": "tz",
+      "name_zh": "坦桑尼亚",
+      "region": "非洲",
+      "region_slug": "africa",
+      "page": "/compliance/tz/",
+      "feeds": {
+        "json": "/v1/markets/tz/feed.json",
+        "rss": "/v1/markets/tz/feed.xml",
+        "compliance": "/v1/markets/tz/compliance.json",
+        "rankings": "/v1/markets/tz/rankings.json"
+      }
+    },
+    {
+      "id": "za",
+      "name_zh": "南非",
+      "region": "非洲",
+      "region_slug": "africa",
+      "page": "/compliance/za/",
+      "feeds": {
+        "json": "/v1/markets/za/feed.json",
+        "rss": "/v1/markets/za/feed.xml",
+        "compliance": "/v1/markets/za/compliance.json",
+        "rankings": "/v1/markets/za/rankings.json"
+      }
+    },
+    {
+      "id": "au",
+      "name_zh": "澳大利亚",
+      "region": "大洋洲",
+      "region_slug": "oceania",
+      "page": "/compliance/au/",
+      "feeds": {
+        "json": "/v1/markets/au/feed.json",
+        "rss": "/v1/markets/au/feed.xml",
+        "compliance": "/v1/markets/au/compliance.json",
+        "rankings": "/v1/markets/au/rankings.json"
+      }
+    },
+    {
+      "id": "nz",
+      "name_zh": "新西兰",
+      "region": "大洋洲",
+      "region_slug": "oceania",
+      "page": "/compliance/nz/",
+      "feeds": {
+        "json": "/v1/markets/nz/feed.json",
+        "rss": "/v1/markets/nz/feed.xml",
+        "compliance": "/v1/markets/nz/compliance.json",
+        "rankings": "/v1/markets/nz/rankings.json"
+      }
+    }
+  ]
+}

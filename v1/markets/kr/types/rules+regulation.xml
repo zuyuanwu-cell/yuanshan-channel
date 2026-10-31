@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>远山频道 · 韩国</title>
+    <link>https://ys.tongzhoukuajing.com/subscribe/?markets=kr&amp;types=rules%2Cregulation</link>
+    <description>每条资讯都附来源链接。标了「待核实」的条目来自媒体或第三方转述，引用前打开原文。费用、排名和法规以官方页面为准。 公开只读，不是法律意见，也不代替来源原文。</description>
+    <language>zh-CN</language>
+    <lastBuildDate>Mon, 26 Oct 2026 12:00:00 GMT</lastBuildDate>
+    <atom:link xmlns:atom="http://www.w3.org/2005/Atom" href="https://ys.tongzhoukuajing.com/v1/markets/kr/types/rules+regulation.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>韩国《化妆品法》修订即日施行：标签被涂改的化妆品可被要求停售、删除网店页面</title>
+      <link>https://ys.tongzhoukuajing.com/news/2026-10-20-korea-cosmetics-act-tampered-label/</link>
+      <guid isPermaLink="false">2026-10-20-korea-cosmetics-act-tampered-label</guid>
+      <pubDate>Tue, 20 Oct 2026 12:00:00 GMT</pubDate>
+      <description>法律第22113号于2026年10月20日公布并施行：包装或标示被损毁、伪造、变造的化妆品，MFDS 可要求卖家停售、删除网店商品信息并采取防流通措施。</description>
+    </item>
+    <item>
+      <title>韩国化妆品安全性评估 2028 年起分阶段强制</title>
+      <link>https://ys.tongzhoukuajing.com/news/2026-07-08-korea-cosmetic-safety-assessment-2028/</link>
+      <guid isPermaLink="false">2026-07-08-korea-cosmetic-safety-assessment-2028</guid>
+      <pubDate>Wed, 08 Jul 2026 12:00:00 GMT</pubDate>
+      <description>MFDS 推出逐品安全性评估制度：责任销售业者须准备安全资料并由合格评估人审核；2028 年起先覆盖功能性化妆品，2031 年扩至全部。</description>
+    </item>
+  </channel>
+</rss>

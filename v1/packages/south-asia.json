@@ -1,0 +1,66 @@
+{
+  "api": "yuanshan-channel/v1",
+  "access": "public-read",
+  "auth": null,
+  "generated": "2026-10-26",
+  "disclaimer": "每条资讯都附来源链接。标了「待核实」的条目来自媒体或第三方转述，引用前打开原文。费用、排名和法规以官方页面为准。",
+  "kind": "package",
+  "id": "south-asia",
+  "title": "南亚",
+  "markets": [
+    "bd",
+    "in",
+    "lk",
+    "pk"
+  ],
+  "types": [
+    "rules",
+    "regulation",
+    "rankings"
+  ],
+  "filter": {
+    "markets": [
+      "bd",
+      "in",
+      "lk",
+      "pk"
+    ],
+    "types": [
+      "rules",
+      "regulation",
+      "rankings"
+    ],
+    "include_global": false
+  },
+  "count": 1,
+  "items": [
+    {
+      "kind": "news",
+      "id": "2026-10-26-pakistan-general-cosmetics-bill-committee",
+      "type": "regulation",
+      "date": "2026-10-26",
+      "title": "巴基斯坦化妆品总法案委员会再过：还没成法，但普通化妆品监管框架要动",
+      "summary": "参议院科技委员会10月26日一致通过《巴基斯坦普通化妆品法案2026》修订稿：拟推成分透明标与防虚假宣传；含汞美白霜是焦点。仍须议会后续程序，尚未成法。",
+      "body_text": "往 巴基斯坦 卖普通化妆品（或当地代工/进口成品）的注意：参议院科技常设委员会 2026年10月26日 一致通过《巴基斯坦普通化妆品法案 2026》（The Pakistan General Cosmetics Bill, 2026）吸纳修正后的文本。法案 10月14日 曾被全院连同参议员修正案退回委员会；这次是逐条再审后的「委员会再过」。还没成法——后面还要走议会其余程序，生效日与执行细则未定。\n\n媒体依据：DAWN、The News（2026-10-27）；九月委员会首过细节另见 Personal Care Insights 等行业转述。官方参议院新闻稿页本次未能打开，故标「待核实」。\n\n改了什么（目前能确定的）\n\n- 对象扩到「普通化妆品」\n现行能查到的药监路径（如 SRO 412）主要卡「含天然成分的药妆/保健产品」，不是整类化妆品。本法案按媒体表述，要给普通化妆品补上生产、进口、标签、仓储、流通与销售的监管框架，并涉及注册/检查权。\n\n- 标签与宣传\nDAWN 写明目标包括：成分透明标注、防止误导营销、个人护理品须经科学安全评估后再上市。\n\n- 监管架构：科技部 + DRAP 协作，不再单干一个空壳局\n2023 年曾设巴基斯坦普通化妆品监管局（PGCRA），2025年1月内阁决定裁撤。2026 稿强调科技部与药品监管局（DRAP）分工与制衡，避免再出现「纸上有局、落地没有」的空转。\n\n- 含汞美白霜是政治与舆论焦点\n行业报道称委员会讨论中点名含汞美白霜；违法制造/进口不安全化妆品可能面临最高约 7 年监禁、罚款约 1000 万卢比量级（以委员会讨论与媒体转述为准，成文后以正式文本为准）。\n\n- 定义微调照顾协会与中小厂\nThe News 称委员会接受修订：定义里「协会」前去掉 “General”，便于更多本土制造商入会发声；并强调别把规则做成卡死新进入者的门槛。\n\n影响谁\n\n- 向巴基斯坦出口或当地贴牌的 美妆/个护/美白类 品牌与工厂（尤其美白、祛斑宣称）\n\n- 走跨境电商或非正式渠道进巴的卖家——执法若跟上，无标签、无安全依据的货更易被查\n\n- 当地进口商与经销商：注册、标签、仓储流通义务可能随细则落地\n\n意味着什么\n\n- 现在还不用按「新法」改货：委员会通过 ≠ 总统签署/公报生效；细则、表格、收费、过渡期都还没有。\n\n- 但路径信号已经很清楚：普通化妆品很可能不再长期停在「只覆盖药妆」的模糊区；含重金属宣称类目会先被盯。\n\n- 建议动作：把巴基斯坦 SKU 的成分表、重金属检测（尤其汞）、宣称证据先自查归档；盯议会后续宣读与科技部/DRAP 细则，不要只看媒体标题就停售或狂改包装。\n\n来源\n\n- DAWN：Senate committee okays Pakistan General Cosmetics Bill（2026-10-27） (https://www.dawn.com/news/2040025)\n\n- The News：Senate panel approves General Cosmetics Bill（2026-10-27） (https://www.thenews.pk/print/1445392-senate-panel-approves-general-cosmetics-bill)",
+      "markets": [
+        "pk"
+      ],
+      "platforms": [],
+      "tags": [
+        "compliance",
+        "labeling",
+        "ingredients"
+      ],
+      "source_url": "https://www.dawn.com/news/2040025",
+      "source_name": "DAWN · 参议院科技委员会再过总法案",
+      "checked": "2026-10-29",
+      "needs_review": true,
+      "sample": false,
+      "key_date": {
+        "date": "2026-10-26",
+        "label": "委员会再过"
+      },
+      "page": "/news/2026-10-26-pakistan-general-cosmetics-bill-committee/"
+    }
+  ]
+}

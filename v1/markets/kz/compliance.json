@@ -1,0 +1,102 @@
+{
+  "api": "yuanshan-channel/v1",
+  "access": "public-read",
+  "auth": null,
+  "generated": "2026-10-26",
+  "disclaimer": "每条资讯都附来源链接。标了「待核实」的条目来自媒体或第三方转述，引用前打开原文。费用、排名和法规以官方页面为准。",
+  "kind": "compliance",
+  "id": "kz",
+  "name_zh": "哈萨克斯坦",
+  "region": "中亚",
+  "region_slug": "central-asia",
+  "page": "/compliance/kz/",
+  "market": {
+    "country": "kz",
+    "name_zh": "哈萨克斯坦",
+    "flag": "🇰🇿",
+    "region": "中亚",
+    "difficulty": 3,
+    "summary": "欧亚成员，适用ТР ТС 009/2011；第74号决定多数修订2026-10-28生效。",
+    "items": [
+      {
+        "id": "kz-member",
+        "name_zh": "联盟成员适用该法规",
+        "authority": "欧亚经济联盟",
+        "type": "platform",
+        "mandatory": true,
+        "cost": "未知",
+        "time": "未知",
+        "docs": [],
+        "who": "成员国经营者",
+        "note": "官网成员为亚美尼亚、白俄罗斯、哈萨克斯坦、吉尔吉斯斯坦、俄罗斯。",
+        "official_url": "https://www.eaeunion.org/?about-info=&lang=en",
+        "source_checked": "2026-10-24",
+        "needs_review": false
+      },
+      {
+        "id": "kz-assess",
+        "name_zh": "上市前合格评定",
+        "authority": "欧亚经济委员会",
+        "type": "registration",
+        "mandatory": true,
+        "cost": "未知",
+        "time": "未知",
+        "docs": [],
+        "who": "成员国境内法人或个体户",
+        "note": "附件12国家注册，其余声明。第74号2026-10-28生效；老证用至到期。",
+        "official_url": "https://old.adilet.zan.kz/rus/docs/H11T0000799",
+        "source_checked": "2026-10-28",
+        "needs_review": false
+      },
+      {
+        "id": "kz-label",
+        "name_zh": "标签与流通标志",
+        "authority": "欧亚经济委员会",
+        "type": "label",
+        "mandatory": true,
+        "cost": "未知",
+        "time": "未知",
+        "docs": [],
+        "who": "投放市场的人",
+        "note": "名称用途制造商保质期成分+流通标志。2027-01-01起甲醛>0.001%须警示。",
+        "official_url": "https://old.adilet.zan.kz/rus/docs/H11T0000799",
+        "source_checked": "2026-10-28",
+        "needs_review": false
+      },
+      {
+        "id": "kz-tr",
+        "name_zh": "法规文本与修订入口",
+        "authority": "欧亚经济委员会",
+        "type": "safety",
+        "mandatory": true,
+        "cost": "未知",
+        "time": "未知",
+        "docs": [],
+        "who": "申请人",
+        "note": "第74号多数修订2026-10-28生效；甲醛警示2027-01-01起0.001%。",
+        "official_url": "https://eec.eaeunion.org/comission/department/deptexreg/tr/bezopParfum.php",
+        "source_checked": "2026-10-28",
+        "needs_review": false
+      }
+    ],
+    "steps": [
+      {
+        "title": "确认成员",
+        "type": "platform"
+      },
+      {
+        "title": "合格评定",
+        "type": "registration"
+      },
+      {
+        "title": "标签",
+        "type": "label"
+      }
+    ],
+    "last_verified": "2026-10-28",
+    "hs_codes": {
+      "status": "pending",
+      "items": []
+    }
+  }
+}

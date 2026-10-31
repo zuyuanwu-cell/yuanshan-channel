@@ -1,0 +1,68 @@
+{
+  "api": "yuanshan-channel/v1",
+  "access": "public-read",
+  "auth": null,
+  "generated": "2026-10-26",
+  "disclaimer": "每条资讯都附来源链接。标了「待核实」的条目来自媒体或第三方转述，引用前打开原文。费用、排名和法规以官方页面为准。",
+  "kind": "feed",
+  "id": "jp/rules+rankings",
+  "title": "日本",
+  "markets": [
+    "jp"
+  ],
+  "types": [
+    "rules",
+    "rankings"
+  ],
+  "filter": {
+    "markets": [
+      "jp"
+    ],
+    "types": [
+      "rules",
+      "rankings"
+    ],
+    "include_global": false
+  },
+  "count": 2,
+  "items": [
+    {
+      "kind": "ranking",
+      "id": "amazon-jp/2026-10-26",
+      "type": "rankings",
+      "date": "2026-10-26",
+      "title": "Amazon 日本站 · 2026-10-26",
+      "summary": "30 个单品 · Amazon.co.jp ビューティー売れ筋 · 待核实",
+      "markets": [
+        "jp"
+      ],
+      "board": "amazon-jp",
+      "source_url": "https://www.amazon.co.jp/gp/bestsellers/beauty",
+      "source_name": "Amazon.co.jp ビューティー売れ筋",
+      "needs_review": true,
+      "sample": false,
+      "partial": false,
+      "page": "/rankings/amazon-jp/",
+      "detail": "/v1/rankings/amazon-jp/2026-10-26.json"
+    },
+    {
+      "kind": "ranking",
+      "id": "amazon-jp/2026-10-23",
+      "type": "rankings",
+      "date": "2026-10-23",
+      "title": "Amazon 日本站 · 2026-10-23",
+      "summary": "30 个单品 · Amazon.co.jp 売れ筋ランキング · ビューティー · 部分数据 · 待核实",
+      "markets": [
+        "jp"
+      ],
+      "board": "amazon-jp",
+      "source_url": "https://www.amazon.co.jp/gp/bestsellers/beauty",
+      "source_name": "Amazon.co.jp 売れ筋ランキング · ビューティー",
+      "needs_review": true,
+      "sample": false,
+      "partial": true,
+      "page": "/rankings/amazon-jp/",
+      "detail": "/v1/rankings/amazon-jp/2026-10-23.json"
+    }
+  ]
+}

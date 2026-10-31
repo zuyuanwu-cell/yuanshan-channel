@@ -1,0 +1,400 @@
+{
+  "api": "yuanshan-channel/v1",
+  "access": "public-read",
+  "auth": null,
+  "generated": "2026-10-26",
+  "disclaimer": "每条资讯都附来源链接。标了「待核实」的条目来自媒体或第三方转述，引用前打开原文。费用、排名和法规以官方页面为准。",
+  "kind": "compliance",
+  "id": "cn",
+  "name_zh": "中国",
+  "region": "东亚",
+  "region_slug": "east-asia",
+  "page": "/compliance/cn/",
+  "market": {
+    "country": "cn",
+    "name_zh": "中国",
+    "flag": "🇨🇳",
+    "region": "东亚",
+    "difficulty": 3,
+    "summary": "特殊注册/普通备案；第99号与牙膏目录；新原料咨询；成品免环境登记；防晒剂新原料已批；口腔护理国标已发。",
+    "items": [
+      {
+        "id": "cn-split",
+        "name_zh": "特殊注册、普通备案",
+        "authority": "国家药监局",
+        "type": "registration",
+        "mandatory": true,
+        "cost": "未知",
+        "time": "未知",
+        "docs": [],
+        "who": "注册人、备案人",
+        "note": "染发、烫发、祛斑美白、防晒、防脱发及宣称新功效为特殊化妆品，其余为普通化妆品。",
+        "official_url": "https://www.gov.cn/zhengce/content/2020-06/29/content_5522593.htm",
+        "source_checked": "2026-10-24",
+        "needs_review": false
+      },
+      {
+        "id": "cn-import",
+        "name_zh": "进口普通化妆品备案",
+        "authority": "国家药监局",
+        "type": "registration",
+        "mandatory": true,
+        "cost": "免费",
+        "time": "提交之日起5个工作日内公布",
+        "docs": [
+          "配方或全成分",
+          "执行标准",
+          "标签样稿",
+          "检验报告",
+          "安全评估资料"
+        ],
+        "who": "备案人",
+        "note": "进口普通化妆品应当在进口前向国务院药品监督管理部门备案。该办事页写明不收费。",
+        "official_url": "https://zwfw.nmpa.gov.cn/web/taskview/11100000MB0341032Y100207202200001",
+        "source_checked": "2026-10-24",
+        "needs_review": false
+      },
+      {
+        "id": "cn-rp",
+        "name_zh": "境内企业法人",
+        "authority": "国家药监局",
+        "type": "local-rep",
+        "mandatory": true,
+        "cost": "未知",
+        "time": "未知",
+        "docs": [],
+        "who": "境外注册人、备案人",
+        "note": "境外注册人、备案人应当指定我国境内企业法人办理注册、备案，并协助不良反应监测和召回。",
+        "official_url": "https://www.gov.cn/zhengce/content/2020-06/29/content_5522593.htm",
+        "source_checked": "2026-10-24",
+        "needs_review": false
+      },
+      {
+        "id": "cn-label",
+        "name_zh": "中文标签",
+        "authority": "国家药监局",
+        "type": "label",
+        "mandatory": true,
+        "cost": "未知",
+        "time": "未知",
+        "docs": [],
+        "who": "注册人、备案人",
+        "note": "可直接使用中文标签或加贴。加贴的中文内容应当与原标签一致。",
+        "official_url": "https://www.gov.cn/zhengce/content/2020-06/29/content_5522593.htm",
+        "source_checked": "2026-10-24",
+        "needs_review": false
+      },
+      {
+        "id": "cn-safety",
+        "name_zh": "上市前安全评估",
+        "authority": "国家药监局",
+        "type": "safety",
+        "mandatory": true,
+        "cost": "未知",
+        "time": "未知",
+        "docs": [],
+        "who": "注册申请人、备案人",
+        "note": "注册备案前须安全评估。规范修订按第99号区分只评估与须重测；冻干/次抛标准征求意见至11-22。",
+        "official_url": "https://www.gov.cn/zhengce/content/2020-06/29/content_5522593.htm",
+        "source_checked": "2026-10-25",
+        "needs_review": true
+      },
+      {
+        "id": "cn-stsc",
+        "name_zh": "安全技术规范修订实施（第99号）",
+        "authority": "国家药监局",
+        "type": "testing",
+        "mandatory": true,
+        "cost": "未知",
+        "time": "随各修订条目实施日",
+        "docs": [
+          "配方变更说明与安全评估",
+          "必要时注册备案检验报告",
+          "香精 IFRA/国标证明"
+        ],
+        "who": "注册人、备案人",
+        "note": "第99号：基质替换/减量可只评估；限值与方法不符须重测变更。审评中特殊化妆品可补正调料。含牙膏。",
+        "official_url": "https://www.nmpa.gov.cn/hzhp/hzhpjmtg/index.html",
+        "source_checked": "2026-10-25",
+        "needs_review": true
+      },
+      {
+        "id": "cn-customs-284",
+        "name_zh": "进出口检验检疫（第284号）",
+        "authority": "海关总署",
+        "type": "tax-customs",
+        "mandatory": true,
+        "cost": "未知",
+        "time": "2026-12-01 起",
+        "docs": [
+          "特殊化妆品注册证号或普通化妆品备案号",
+          "进口记录与销售记录"
+        ],
+        "who": "进口收货人、出口生产企业/发货人",
+        "note": "一般贸易等须电子比对注册/备案；跨境电商零售进口按专规，不适用本办法替代。牙膏/半成品参照；半成品免注册备案与标签验核。",
+        "official_url": "https://www.gov.cn/gongbao/2026/issue_12926/202608/content_7078417.html",
+        "source_checked": "2026-10-25",
+        "needs_review": false
+      },
+      {
+        "id": "cn-nci-innovation",
+        "name_zh": "新原料创新指导（试行）",
+        "authority": "中检院",
+        "type": "registration",
+        "mandatory": false,
+        "cost": "免费",
+        "time": "重点品种优先审评",
+        "docs": [
+          "化妆品新原料研究自查表",
+          "沟通交流申请表",
+          "相关研究资料"
+        ],
+        "who": "新原料注册人、备案人",
+        "note": "2026-10-23试行优先审评；10-29批准条例后首个防晒剂新原料（needs_review）。",
+        "official_url": "https://www.nidc.org.cn/xxgk/ggtzh/tongzhi/202610231533302256281.html",
+        "source_checked": "2026-10-30",
+        "needs_review": true
+      },
+      {
+        "id": "cn-new-efficacy-consult",
+        "name_zh": "新功效注册前置咨询（试行）",
+        "authority": "中检院",
+        "type": "registration",
+        "mandatory": false,
+        "cost": "免费",
+        "time": "电话约30日/会议约60日",
+        "docs": [
+          "沟通交流会议申请表",
+          "研究背景与作用机理",
+          "功效评价与安全评价资料"
+        ],
+        "who": "新功效化妆品注册人",
+        "note": "2026-10-20试行：申报前可电话/会议沟通；意见仅供参考，不作审评依据。",
+        "official_url": "https://www.nidc.org.cn/bshff/hzhpjssp/hzpsptzgg/202610201518122252260.html",
+        "source_checked": "2026-10-27",
+        "needs_review": false
+      },
+      {
+        "id": "cn-toothpaste-catalog",
+        "name_zh": "牙膏分类目录（第100号）",
+        "authority": "国家药监局",
+        "type": "label",
+        "mandatory": true,
+        "cost": "未知",
+        "time": "2027-05-01 施行；已备案至 2028-01-01 变更",
+        "docs": [
+          "产品分类编码（功效+人群）",
+          "符合目录的功效宣称用语",
+          "已备案产品备案信息变更"
+        ],
+        "who": "牙膏备案人",
+        "note": "八类功效+人群编码；儿童仅清洁/防龋。新备案2027-05起，存量2028-01前变更。",
+        "official_url": "https://www.nmpa.gov.cn/xxgk/ggtg/hzhpggtg/jmhzhptg/20261014170739124.html",
+        "source_checked": "2026-10-27",
+        "needs_review": false
+      },
+      {
+        "id": "cn-oral-care-gb",
+        "name_zh": "口腔护理推荐性国标（牙膏/禁添检测）",
+        "authority": "市场监管总局（国家标准委）",
+        "type": "testing",
+        "mandatory": false,
+        "cost": "未知",
+        "time": "2026-10-30 发布；牙膏国标拟发布后约6个月实施（待文本确认）",
+        "docs": [
+          "GB/T 8372—2026 牙膏技术要求对照",
+          "禁添物检测方法能力（激素/抗生素等）"
+        ],
+        "who": "口腔护理生产企业、检测机构、备案人",
+        "note": "含分类术语、牙膏质量、保泰松测定及约200种激素/抗生素筛查方法；GB/T 推荐性，但抽检常引用。正式实施日以标准文本为准。",
+        "official_url": "https://www.samr.gov.cn/xw/sj/art/2026/art_869cf69c794e4274bde6818a13a3d96d.html",
+        "source_checked": "2026-10-31",
+        "needs_review": true
+      },
+      {
+        "id": "cn-mee-ncs",
+        "name_zh": "新化学物质环境管理登记（第40号令）",
+        "authority": "生态环境部",
+        "type": "registration",
+        "mandatory": true,
+        "cost": "未知",
+        "time": "生产/进口前",
+        "docs": [
+          "登记申请表",
+          "物化与毒理测试资料（按类型）",
+          "环境风险评估报告（常规）"
+        ],
+        "who": "境内新化学物质生产商或进口商",
+        "note": "第40号令2026-10-24施行：化妆品成品仍豁免；原料/中间体为新化学物质须登记。境外企业不可作申请人。",
+        "official_url": "https://www.mee.gov.cn/xxgk2018/xxgk/xxgk02/202610/t20261027_1184708.html",
+        "source_checked": "2026-10-28",
+        "needs_review": false
+      }
+    ],
+    "steps": [
+      {
+        "title": "分类",
+        "type": "registration"
+      },
+      {
+        "title": "备案或注册",
+        "type": "registration"
+      },
+      {
+        "title": "中文标签",
+        "type": "label"
+      }
+    ],
+    "last_verified": "2026-10-31",
+    "hs_codes": {
+      "status": "ready",
+      "items": [
+        {
+          "code": "3303000010",
+          "name_zh": "香水",
+          "source_url": "https://www.hsbianma.com/Code/3303000010.html"
+        },
+        {
+          "code": "3303000010",
+          "name_zh": "淡香水",
+          "source_url": "https://www.hsbianma.com/Code/3303000010.html"
+        },
+        {
+          "code": "3304100091",
+          "name_zh": "唇部彩妆",
+          "source_url": "https://www.hsbianma.com/Code/3304100091.html"
+        },
+        {
+          "code": "3304200091",
+          "name_zh": "眼部彩妆",
+          "source_url": "https://www.hsbianma.com/Code/3304200091.html"
+        },
+        {
+          "code": "3304300000",
+          "name_zh": "美甲产品",
+          "source_url": "https://www.hsbianma.com/Code/3304300000.html"
+        },
+        {
+          "code": "3304910000",
+          "name_zh": "粉类（散粉/粉饼）",
+          "source_url": "https://www.hsbianma.com/Code/3304910000.html"
+        },
+        {
+          "code": "3304990099",
+          "name_zh": "面霜/乳液/精华（护肤）",
+          "source_url": "https://www.hsbianma.com/Code/3304990099.html"
+        },
+        {
+          "code": "3304990099",
+          "name_zh": "防晒",
+          "source_url": "https://www.hsbianma.com/Code/3304990099.html"
+        },
+        {
+          "code": "3304990099",
+          "name_zh": "卸妆产品",
+          "source_url": "https://www.hsbianma.com/Code/3304990099.html"
+        },
+        {
+          "code": "3305100090",
+          "name_zh": "洗发水",
+          "source_url": "https://www.hsbianma.com/Code/3305100090.html"
+        },
+        {
+          "code": "3305900000",
+          "name_zh": "护发素",
+          "source_url": "https://www.hsbianma.com/Code/3305900000.html"
+        },
+        {
+          "code": "3305900000",
+          "name_zh": "染发剂",
+          "source_url": "https://www.hsbianma.com/Code/3305900000.html"
+        },
+        {
+          "code": "3305300000",
+          "name_zh": "发胶/定型喷雾",
+          "source_url": "https://www.hsbianma.com/Code/3305300000.html"
+        },
+        {
+          "code": "3306101090",
+          "name_zh": "牙膏",
+          "source_url": "https://www.hsbianma.com/Code/3306101090.html"
+        },
+        {
+          "code": "3306901000",
+          "name_zh": "漱口水",
+          "source_url": "https://www.hsbianma.com/Code/3306901000.html"
+        },
+        {
+          "code": "3306200000",
+          "name_zh": "牙线",
+          "source_url": "https://www.hsbianma.com/Code/3306200000.html"
+        },
+        {
+          "code": "3307200000",
+          "name_zh": "止汗/香体",
+          "source_url": "https://www.hsbianma.com/Code/3307200000.html"
+        },
+        {
+          "code": "3307100000",
+          "name_zh": "剃须膏",
+          "source_url": "https://www.hsbianma.com/Code/3307100000.html"
+        },
+        {
+          "code": "3401300000",
+          "name_zh": "沐浴露",
+          "source_url": "https://www.hsbianma.com/Code/3401300000.html"
+        },
+        {
+          "code": "3401110000",
+          "name_zh": "香皂（块）",
+          "source_url": "https://www.hsbianma.com/Code/3401110000.html"
+        },
+        {
+          "code": "3401300000",
+          "name_zh": "液体洗手液",
+          "source_url": "https://www.hsbianma.com/Code/3401300000.html"
+        },
+        {
+          "code": "3307900000",
+          "name_zh": "脱毛膏",
+          "source_url": "https://www.hsbianma.com/Code/3307900000.html"
+        },
+        {
+          "code": "3304990099",
+          "name_zh": "面膜（片状）",
+          "source_url": "https://www.hsbianma.com/Code/3304990099.html"
+        },
+        {
+          "code": "9603290090",
+          "name_zh": "化妆刷",
+          "source_url": "https://www.hsbianma.com/Code/9603290090.html"
+        },
+        {
+          "code": "9616200000",
+          "name_zh": "化妆海绵/粉扑",
+          "source_url": "https://www.hsbianma.com/Code/9616200000.html"
+        },
+        {
+          "code": "6704190000",
+          "name_zh": "假睫毛（合成纤维）",
+          "source_url": "https://www.hsbianma.com/Code/6704190000.html"
+        },
+        {
+          "code": "8510300000",
+          "name_zh": "电动脱毛器",
+          "source_url": "https://www.hsbianma.com/Code/8510300000.html"
+        },
+        {
+          "code": "8516320000",
+          "name_zh": "美发电器（卷/直发器）",
+          "source_url": "https://www.hsbianma.com/Code/8516320000.html"
+        },
+        {
+          "code": "8543709990",
+          "name_zh": "电动美容仪（面部）",
+          "source_url": "https://www.hsbianma.com/Code/8543709990.html"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,83 @@
+{
+  "api": "yuanshan-channel/v1",
+  "access": "public-read",
+  "auth": null,
+  "generated": "2026-10-26",
+  "disclaimer": "每条资讯都附来源链接。标了「待核实」的条目来自媒体或第三方转述，引用前打开原文。费用、排名和法规以官方页面为准。",
+  "kind": "feed",
+  "id": "sg/regulation",
+  "title": "新加坡",
+  "markets": [
+    "sg"
+  ],
+  "types": [
+    "regulation"
+  ],
+  "filter": {
+    "markets": [
+      "sg"
+    ],
+    "types": [
+      "regulation"
+    ],
+    "include_global": false
+  },
+  "count": 2,
+  "items": [
+    {
+      "kind": "news",
+      "id": "2026-06-22-asean-cosmetic-annex-update",
+      "type": "regulation",
+      "date": "2026-06-22",
+      "title": "东盟化妆品指令附件 6月22日更新，新加坡 HSA 同步执行",
+      "summary": "东盟化妆品指令（ACD）禁用、限用、色素、防腐剂、防晒剂附件 6月22日发布新版；新加坡通报每年要重新提交一次。",
+      "body_text": "- ACD 附件 II（禁用）、III（限用）、IV（色素）、VI（防腐剂）、VII（防晒剂）发布 2026年6月22日版\n\n- 新加坡供货前要先核对附件，再在 PRISM 系统通报\n\n- 通报 有效 1 年，每年重新通报\n\n马来西亚、泰国、越南、印尼等东盟国家同样以 ACD 为基础。",
+      "markets": [
+        "sg"
+      ],
+      "platforms": [],
+      "tags": [
+        "ingredients",
+        "compliance"
+      ],
+      "source_url": "https://www.hsa.gov.sg/cosmetic-products/asean-cosmetic-directive/",
+      "source_name": "HSA",
+      "checked": "2026-10-23",
+      "needs_review": false,
+      "sample": false,
+      "key_date": null,
+      "page": "/news/2026-06-22-asean-cosmetic-annex-update/"
+    },
+    {
+      "kind": "news",
+      "id": "2025-11-28-sg-hsa-acd-amendment-s768",
+      "type": "regulation",
+      "date": "2025-11-28",
+      "title": "新加坡修订化妆品 ACD 附属条例，2025年12月1日生效",
+      "summary": "《Health Products (Cosmetic Products — ACD) (Amendment) Regulations 2025》（S 768/2025）修订第三附表，自 2025年12月1日起施行。",
+      "body_text": "新加坡卫生科学局（HSA）经卫生部长批准，制定 S 768/2025，修订 2007 年化妆品（东盟化妆品指令）条例的第三附表，2025年12月1日起生效。\n\n条例正文由 Singapore Statutes Online 公布。经销商仍须在 PRISM 完成产品通知/续通知，并自行保证成分与标签符合最新 ACD 附件。通知回执不等于 HSA 对产品安全的背书。",
+      "markets": [
+        "sg"
+      ],
+      "platforms": [
+        "shopee",
+        "amazon-sg",
+        "lazada"
+      ],
+      "tags": [
+        "ingredients",
+        "compliance"
+      ],
+      "source_url": "https://sso.agc.gov.sg/SL-Supp/S768-2025/Published/20251128?DocDate=20251128",
+      "source_name": "Singapore Statutes Online",
+      "checked": "2026-10-23",
+      "needs_review": false,
+      "sample": false,
+      "key_date": {
+        "date": "2025-12-01",
+        "label": "生效"
+      },
+      "page": "/news/2025-11-28-sg-hsa-acd-amendment-s768/"
+    }
+  ]
+}

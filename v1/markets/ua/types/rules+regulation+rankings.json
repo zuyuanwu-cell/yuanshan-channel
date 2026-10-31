@@ -1,0 +1,59 @@
+{
+  "api": "yuanshan-channel/v1",
+  "access": "public-read",
+  "auth": null,
+  "generated": "2026-10-26",
+  "disclaimer": "每条资讯都附来源链接。标了「待核实」的条目来自媒体或第三方转述，引用前打开原文。费用、排名和法规以官方页面为准。",
+  "kind": "feed",
+  "id": "ua/rules+regulation+rankings",
+  "title": "乌克兰",
+  "markets": [
+    "ua"
+  ],
+  "types": [
+    "rules",
+    "regulation",
+    "rankings"
+  ],
+  "filter": {
+    "markets": [
+      "ua"
+    ],
+    "types": [
+      "rules",
+      "regulation",
+      "rankings"
+    ],
+    "include_global": false
+  },
+  "count": 1,
+  "items": [
+    {
+      "kind": "news",
+      "id": "2026-10-28-ukraine-cosmetics-tech-reg-transition-2027",
+      "type": "regulation",
+      "date": "2026-10-28",
+      "title": "卖乌克兰的化妆品：不合新技术法规的货可投放到2027年7月31日，库存可卖到2030年",
+      "summary": "乌克兰化妆品技术法规（内阁第65号决议）的过渡期已由第976号决议从2026-08-03延到2027-07-31；卫生部10月起草修正，防止12月另一项决议把日期改回去。已投放的货可在市场上卖到2030-08-03。",
+      "body_text": "往乌克兰卖化妆品（含通过当地进口商、批发、药店渠道）的品牌和工厂注意：乌克兰仿照欧盟搞的化妆品技术法规，原定 2026-08-03 起不合规的产品就不能再投放市场，现在这个最后期限已经延到 2027-07-31。\n\n改了什么\n\n- 新货投放期限延后一年\n乌克兰内阁 2026-07-29 第976号决议（2026-08-01 已生效）把「不符合化妆品技术法规的产品还能投放市场」的截止日，从 2026-08-03 改成 2027-07-31。\n\n- 已投放的货可卖到 2030-08-03\n在截止日前已进入市场的产品，最终可在市场上销售到 2030-08-03，这一点没变。\n\n- 防止日期「被改回去」的修正还在走流程\n另一项第737号决议将在 2026-12-13 生效，其文本里还写着旧的 2026-08-03。卫生部 10月1日公布修正草案，拟于 2026-12-14 起直接把日期定为 2027-07-31，避免两个日期打架。卫生部自己也提示，唯一风险是这份草案没能按时通过。\n\n影响谁\n\n- 给乌克兰进口商、经销商、药房连锁供货的中国美妆工厂和品牌：原本 8 月就该完成整改的标签、配方文件，多了将近一年时间。\n\n- 乌克兰境内的进口商、授权代表、分销商：他们承担合规责任，会把要求转给供货方。\n\n- 不做乌克兰的卖家：与你无关。注意乌克兰不是欧亚经济联盟成员，不能套用俄罗斯那套 ТР ТС 009。\n\n现在该做什么\n\n- 别把延期当成取消：2027-07-31 之后投放的新货必须符合技术法规，整改照样要做，只是不必赶在今年。\n\n- 和乌克兰进口商确认清楚：哪些 SKU 已经合规、哪些还要补，按 2027 年中排进度。\n\n- 年底前留意 12 月那份修正决议有没有按时通过；如果没过，按字面理解期限可能又出现分歧，以当地进口商和监管口径为准。\n\n来源：乌克兰内阁第976号决议原文 (https://zakon.rada.gov.ua/laws/show/976-2026-%D0%BF)、Аптека online 对卫生部修正草案的报道（2026-10-01） (https://www.apteka.ua/article/754144)、Фармацевт Практик 解读 (https://www.fp.com.ua/rinok-kosmetiki-bez-kolizii-moz-usuvaie-normativnu-superechnist-shchodo-perekhidnikh-strokiv-tekhreglamentu/)。",
+      "markets": [
+        "ua"
+      ],
+      "platforms": [],
+      "tags": [
+        "compliance",
+        "labeling"
+      ],
+      "source_url": "https://zakon.rada.gov.ua/laws/show/976-2026-%D0%BF",
+      "source_name": "乌克兰内阁第976号决议（2026-07-29，2026-08-01 生效）",
+      "checked": "2026-10-28",
+      "needs_review": true,
+      "sample": false,
+      "key_date": {
+        "date": "2027-07-31",
+        "label": "不合规产品最后投放日"
+      },
+      "page": "/news/2026-10-28-ukraine-cosmetics-tech-reg-transition-2027/"
+    }
+  ]
+}

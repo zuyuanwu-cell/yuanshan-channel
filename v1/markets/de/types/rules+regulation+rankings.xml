@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>远山频道 · 德国</title>
+    <link>https://ys.tongzhoukuajing.com/subscribe/?markets=de&amp;types=rules%2Cregulation%2Crankings</link>
+    <description>每条资讯都附来源链接。标了「待核实」的条目来自媒体或第三方转述，引用前打开原文。费用、排名和法规以官方页面为准。 公开只读，不是法律意见，也不代替来源原文。</description>
+    <language>zh-CN</language>
+    <lastBuildDate>Mon, 26 Oct 2026 12:00:00 GMT</lastBuildDate>
+    <atom:link xmlns:atom="http://www.w3.org/2005/Atom" href="https://ys.tongzhoukuajing.com/v1/markets/de/types/rules+regulation+rankings.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Amazon 德国站 · 2026-10-26</title>
+      <link>https://ys.tongzhoukuajing.com/rankings/amazon-de/</link>
+      <guid isPermaLink="false">amazon-de/2026-10-26</guid>
+      <pubDate>Mon, 26 Oct 2026 12:00:00 GMT</pubDate>
+      <description>30 个单品 · Amazon.de Bestseller · Kosmetik · 部分数据 · 待核实</description>
+    </item>
+    <item>
+      <title>Amazon 德国站 · 2026-10-23</title>
+      <link>https://ys.tongzhoukuajing.com/rankings/amazon-de/</link>
+      <guid isPermaLink="false">amazon-de/2026-10-23</guid>
+      <pubDate>Fri, 23 Oct 2026 12:00:00 GMT</pubDate>
+      <description>30 个单品 · Amazon.de Bestseller · Kosmetik · 部分数据 · 待核实</description>
+    </item>
+    <item>
+      <title>欧盟 REACH：化妆品含 PFHxA 超标不得再投放，过渡期已于10月10日结束</title>
+      <link>https://ys.tongzhoukuajing.com/news/2026-10-10-eu-reach-pfhxa-cosmetics/</link>
+      <guid isPermaLink="false">2026-10-10-eu-reach-pfhxa-cosmetics</guid>
+      <pubDate>Sat, 10 Oct 2026 12:00:00 GMT</pubDate>
+      <description>REACH 附件 XVII 第79条：自2026-10-10起，化妆品中 PFHxA 及其盐合计≥25ppb、或相关物质合计≥1000ppb，不得投放或使用；此前已投放的可继续卖。</description>
+    </item>
+  </channel>
+</rss>

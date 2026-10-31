@@ -1,0 +1,350 @@
+{
+  "api": "yuanshan-channel/v1",
+  "access": "public-read",
+  "auth": null,
+  "generated": "2026-10-26",
+  "disclaimer": "每条资讯都附来源链接。标了「待核实」的条目来自媒体或第三方转述，引用前打开原文。费用、排名和法规以官方页面为准。",
+  "kind": "feed",
+  "id": "ru",
+  "title": "俄罗斯",
+  "markets": [
+    "ru"
+  ],
+  "types": [
+    "rules",
+    "regulation",
+    "rankings"
+  ],
+  "filter": {
+    "markets": [
+      "ru"
+    ],
+    "types": [
+      "rules",
+      "regulation",
+      "rankings"
+    ],
+    "include_global": false
+  },
+  "count": 12,
+  "items": [
+    {
+      "kind": "news",
+      "id": "2026-10-28-eaeu-tr-cu-009-decision-74-effective",
+      "type": "regulation",
+      "date": "2026-10-28",
+      "title": "欧亚五国美妆禁限用清单生效（ТР ТС 009）",
+      "summary": "欧亚经济委员会确认：理事会第74号对ТР ТС 009/2011的多数修订今天起生效，禁限用等清单按新表执行；此前已办声明/СГР仍可用到原到期日。甲醛警示阈值仍到2027-01-01才降到0.001%。",
+      "body_text": "卖俄罗斯、哈萨克斯坦、白俄罗斯、亚美尼亚、吉尔吉斯斯坦的美妆注意：今天（2026-10-28）起，欧亚经济联盟化妆品技术法规 ТР ТС 009/2011 按理事会 第74号决定 的多数修订执行。欧亚经济委员会 10月27日 发了生效确认稿，和决定文本一致。\n\n本站此前已写过细则：欧亚五国化妆品法规 10月28日起改禁限用清单 (/news/2025-09-12-eaeu-tr-cu-009-decision-74/)。今天这篇只强调「已生效」和卖家现在该盯什么。\n\n改了什么（今天起算）\n\n- 禁限用、着色剂、防腐剂、防晒剂等清单按新表\n新办符合性声明、国家注册证（СГР），以及到期换证、改配方，都要按第74号更新后的附件过一遍。踩到新禁用或超限用的，不能再按旧表申报。\n\n- 老证书不用今天作废\n2026-10-28 前办妥的声明/СГР，有效到原到期日，期内可继续生产、投放；已上架货可卖到保质期结束。别因为「法规改了」就一窝蜂重办。\n\n- 甲醛警示还不在今天\n「含甲醛」类警示阈值从 0.05% → 0.001% 仍是 2027-01-01 才执行。含甲醛释放体防腐的 SKU，留给改标的窗口还有大约两个月。\n\n影响谁\n\n- Ozon / Wildberries 及哈萨克等联盟市场的中国美妆品牌、工厂店、跨境店：今天起新办或换证必须对新表；老证还能撑，但配方命中新禁限用的要尽早排换料。\n\n- 只卖欧盟/东盟、不进欧亚五国的：这条与你无关。\n\n现在该做什么\n\n- 拿现行配方对照第74号附件（禁限用等），有命中的排换料或停售。\n\n- 盘点声明/СГР 到期日：能撑过旺季就别急着重办；临近到期的按新表准备检测与申报。\n\n- 含甲醛释放体的产品：年底前改好俄文（及当地语）标签，避免 2027 年一刀切。\n\n- 平台侧证书、税号、诚信标志等材料规则没松，别只盯成分表。\n\n官方确认：委员会今日生效新闻 (https://eec.eaeunion.org/news/28-oktyabrya-2026-goda-vstupayut-v-silu-izmeneniya-v-tekhreglament-na-parfyumerno-kosmeticheskuyu-pr/)、理事会第74号决定文档 (https://docs.eaeunion.org/documents/447/10246/)。",
+      "markets": [
+        "am",
+        "by",
+        "kg",
+        "kz",
+        "ru"
+      ],
+      "platforms": [
+        "ozon",
+        "wildberries"
+      ],
+      "tags": [
+        "ingredients",
+        "labeling",
+        "compliance"
+      ],
+      "source_url": "https://eec.eaeunion.org/news/28-oktyabrya-2026-goda-vstupayut-v-silu-izmeneniya-v-tekhreglament-na-parfyumerno-kosmeticheskuyu-pr/",
+      "source_name": "欧亚经济委员会新闻（2026-10-27）",
+      "checked": "2026-10-28",
+      "needs_review": false,
+      "sample": false,
+      "key_date": {
+        "date": "2026-10-28",
+        "label": "多数修订生效"
+      },
+      "page": "/news/2026-10-28-eaeu-tr-cu-009-decision-74-effective/"
+    },
+    {
+      "kind": "ranking",
+      "id": "ozon/2026-10-26",
+      "type": "rankings",
+      "date": "2026-10-26",
+      "title": "Ozon · 2026-10-26",
+      "summary": "30 个单品 · Ozon 美容与健康 · 待核实",
+      "markets": [
+        "ru"
+      ],
+      "board": "ozon",
+      "source_url": "https://www.ozon.ru/category/krasota-i-zdorove-6500/",
+      "source_name": "Ozon 美容与健康",
+      "needs_review": true,
+      "sample": false,
+      "partial": false,
+      "page": "/rankings/ozon/",
+      "detail": "/v1/rankings/ozon/2026-10-26.json"
+    },
+    {
+      "kind": "ranking",
+      "id": "wildberries/2026-10-26",
+      "type": "rankings",
+      "date": "2026-10-26",
+      "title": "Wildberries · 2026-10-26",
+      "summary": "30 个单品 · Wildberries 美妆 · 待核实",
+      "markets": [
+        "ru"
+      ],
+      "board": "wildberries",
+      "source_url": "https://www.wildberries.ru/catalog/krasota/makiyazh/litso",
+      "source_name": "Wildberries 美妆",
+      "needs_review": true,
+      "sample": false,
+      "partial": false,
+      "page": "/rankings/wildberries/",
+      "detail": "/v1/rankings/wildberries/2026-10-26.json"
+    },
+    {
+      "kind": "ranking",
+      "id": "ozon/2026-10-23",
+      "type": "rankings",
+      "date": "2026-10-23",
+      "title": "Ozon · 2026-10-23",
+      "summary": "30 个单品 · Ozon · Красота и здоровье · 待核实",
+      "markets": [
+        "ru"
+      ],
+      "board": "ozon",
+      "source_url": "https://www.ozon.ru/category/krasota-i-zdorove-6500/",
+      "source_name": "Ozon · Красота и здоровье",
+      "needs_review": true,
+      "sample": false,
+      "partial": false,
+      "page": "/rankings/ozon/",
+      "detail": "/v1/rankings/ozon/2026-10-23.json"
+    },
+    {
+      "kind": "ranking",
+      "id": "wildberries/2026-10-23",
+      "type": "rankings",
+      "date": "2026-10-23",
+      "title": "Wildberries · 2026-10-23",
+      "summary": "30 个单品 · Wildberries · makeup/face · 待核实",
+      "markets": [
+        "ru"
+      ],
+      "board": "wildberries",
+      "source_url": "https://www.wildberries.ru/catalog/krasota/makiyazh/litso",
+      "source_name": "Wildberries · makeup/face",
+      "needs_review": true,
+      "sample": false,
+      "partial": false,
+      "page": "/rankings/wildberries/",
+      "detail": "/v1/rankings/wildberries/2026-10-23.json"
+    },
+    {
+      "kind": "news",
+      "id": "2026-10-16-ozon-commission-formula-dec",
+      "type": "rules",
+      "date": "2026-10-16",
+      "title": "Ozon 12月1日起按新公式算销售佣金，先重算定价和回款",
+      "summary": "Ozon 资费清单新版：佣金以后台「上限价」为基数，打折部分从佣金里扣。跨仓经提货点改按货件计费。",
+      "body_text": "监测站 ferta.su 10月16日记录到 Ozon《佣金与资费完整清单》的新版本：2026年12月1日 起，销售佣金按新公式计算。\n\n公式（文件原文的意思）：每笔销售或退货的佣金，取下面两者中较大的一个——\n\n- 上限价 × (上限费率 − 修正值) × 1%\n\n- 上限价 × (上限费率 − 修正值 − 折扣系数)\n\n其中「上限价」是下单时卖家后台设置的价格；「折扣系数」是上限价与实际售价（含合作方忠诚度补贴）之差占上限价的比例；「修正值」用于延期回款折扣等机制。\n\nferta 给的算例：上限价 1,000 ₽、费率 20%。按 900 ₽ 卖出，佣金 100 ₽（原来 200 ₽），卖家到手 800 ₽；按 1,100 ₽ 卖出，佣金 300 ₽，到手仍是 800 ₽。也就是说，到手金额主要由上限价决定。\n\n同一版本里，经提货点的交叉配送改成每个货件 15 ₽，不再按每升 5 ₽。\n\nOzon 卖家文档站从这里打不开，内容来自第三方监测站对原文的摘录，所以标待核实。调价前到 Ozon 卖家后台核对资费清单原文。",
+      "markets": [
+        "ru"
+      ],
+      "platforms": [
+        "ozon"
+      ],
+      "tags": [
+        "fees"
+      ],
+      "source_url": "https://ferta.su/ozon/polnyy-spisok-komissiy-tarifov/2026-10-16-schitaet-komissiyu-prodazhu-novoy-formule-620",
+      "source_name": "ferta.su（Ozon 资费文件变更监测）",
+      "checked": "2026-10-22",
+      "needs_review": true,
+      "sample": false,
+      "key_date": {
+        "date": "2026-12-01",
+        "label": "新公式生效"
+      },
+      "page": "/news/2026-10-16-ozon-commission-formula-dec/"
+    },
+    {
+      "kind": "news",
+      "id": "2026-10-12-wildberries-fbw-beauty-packaging-penalty",
+      "type": "rules",
+      "date": "2026-10-12",
+      "title": "Wildberries：美妆/日化 FBW 包装不合规，全仓每件罚 40 卢布",
+      "summary": "АВОШОП 转述 WB：10月12日起 FBW「仓库 WB」所有发货点，对「美妆」「日化」类包装不合规按件扣 40₽；此前仅部分仓执行。",
+      "body_text": "АВОШОП 转载的 Wildberries 卖家说明写明：自 2026年10月12日 起，按 「仓库 WB」（FBW） 发货时，不正确包装的罚款扩到所有发货点——以前只在部分仓/发货点执行。\n\n改了什么\n\n- 范围：目前仍只盯两类——「美妆 / Товары для красоты」 和 「日化 / Бытовая химия」（洗发水、凝胶、面霜、卸甲液等液体/易损品最容易中招）\n\n- 金额：每件 40 ₽；一箱一百件不合格就是 4,000 ₽\n\n- 模式：只说 FBW（入平台仓）；自家仓发货的 FBS 不在这条「入仓验收扣款」里，但买家侧包装要求仍要守\n\n- 平台解释：这类货运输中更容易漏液、破损，还会污染同箱其他商品\n\n卖家中心另有 FBW 包装总则与「不正确包装」说明页，发货前应对着包装清单（气泡膜、固定泵头、单件独立包装等）自查。\n\n影响谁\n\n- 在 Wildberries 用 FBW 卖美妆、个护、洗护、家清的跨境与本地卖家\n\n- 低客单价 SKU 更疼：件货 200–300 ₽ 时，40 ₽ 直接啃掉一截毛利\n\n- 多工厂/多代发：扣款记在你头上，包装标准要写进供应商约定\n\n意味着什么 / 现在注意什么\n\n- 已在仓里的货改不了包装；风险在接下来几批发货\n\n- 换仓、新方向首发更容易踩坑——第一次发某仓前先按最新包装说明试装\n\n- 包装做好一举两得：少罚、也少因破损导致的退货\n\n来源为 АВОШОП 转载的 WB 卖家说明（未逐字核对卖家后台登录页原文），以卖家中心现行包装说明与财务报告扣款为准。包装说明入口：不正确包装商品 (https://seller.wildberries.ru/instructions/ru/ru/material/incorrect-packaging-of-goods)。",
+      "markets": [
+        "ru"
+      ],
+      "platforms": [
+        "wildberries"
+      ],
+      "tags": [
+        "penalties",
+        "labeling"
+      ],
+      "source_url": "https://avoshop.ru/company/news/2026/wildberries_fbw_shtraf_za_nepravilnuyu_upakovku_nachnyet_deystvovat_dlya_vsekh_postavok_bytovoy_khim/",
+      "source_name": "Wildberries 卖家公告（АВОШОП 转载）",
+      "checked": "2026-10-27",
+      "needs_review": true,
+      "sample": false,
+      "key_date": {
+        "date": "2026-10-12",
+        "label": "全仓执行"
+      },
+      "page": "/news/2026-10-12-wildberries-fbw-beauty-packaging-penalty/"
+    },
+    {
+      "kind": "news",
+      "id": "2026-10-07-ozon-realfbs-wb-fbs-penalties",
+      "type": "rules",
+      "date": "2026-10-07",
+      "title": "Ozon realFBS 11月19日起错误率超 2% 就罚；WB 把 FBS 延迟罚款封顶 1%",
+      "summary": "两家俄罗斯平台对卖家自发货的罚则反向调整：Ozon 收紧，罚款门槛从 5% 降到 2%；Wildberries 放松，FBS 延迟发货最多罚 1%。",
+      "body_text": "ECOMHUB 10月7日整理了两家平台对卖家仓发货的罚则变化。\n\nOzon realFBS（卖家自配送）\n\n- 11月19日 起，错误率超过 2% 就开始罚，新罚款区间从 2.1% 起\n\n- 现在的主要门槛是 5%\n\n- 文章提到，Ozon 9月刚把一档取消订单的罚款下调，不到两个月又改回去\n\nWildberries FBS（卖家仓、平台配送）\n\n- 10月7日 起，延迟发货的罚款最多为 1%\n\n- 按旧的阶梯，严重延迟最高可到 9%\n\n美妆日化走 realFBS 的多是跨境直发小件。11月19日前把错误率拉到 2% 以下，最直接的办法是减少取消和超时。\n\n具体分档以 Ozon、WB 卖家后台公告为准。本条来自行业媒体整理，标待核实。",
+      "markets": [
+        "ru"
+      ],
+      "platforms": [
+        "ozon",
+        "wildberries"
+      ],
+      "tags": [
+        "penalties"
+      ],
+      "source_url": "https://ecomhub.ru/ozon-realfbs-wildberries-fbs-penalties-seller-warehouse-2026/",
+      "source_name": "ECOMHUB",
+      "checked": "2026-10-22",
+      "needs_review": true,
+      "sample": false,
+      "key_date": {
+        "date": "2026-11-19",
+        "label": "Ozon 新罚则"
+      },
+      "page": "/news/2026-10-07-ozon-realfbs-wb-fbs-penalties/"
+    },
+    {
+      "kind": "news",
+      "id": "2026-10-01-russia-hygiene-goods-marking",
+      "type": "regulation",
+      "date": "2026-10-01",
+      "title": "俄罗斯：化妆刷、牙刷、化妆棉、美甲工具 10月1日起也要贴「诚信标志」码，Ozon/WB 卖小工具的要补码",
+      "summary": "第656号政府令把「卫生用品、洗护小工具」并入化妆品与日化的强制标识组：10月1日起生产商和进口商要给化妆刷、牙刷牙线、化妆棉/卸妆巾、美甲修脚工具、梳子、按摩器、女性卫生用品等赋码并报入流通；已在手的进口货最晚 2027-01-31 前补码。",
+      "body_text": "俄罗斯政府 2026年5月30日第656号令 修改了化妆品、日化的「诚信标志」（Честный ЗНАК）标识规则，把一批 卫生用品和洗护小工具 拉进了强制标识。以前这些东西只是自愿试点，现在分步变成必须。\n\n改了什么\n\n新增要赋码的商品（按 ТН ВЭД / ОКПД 2 编码对应），和美妆日化卖家关系大的有：\n\n- 化妆刷、梳子、发梳，镊子、浮石\n\n- 牙刷、牙线\n\n- 化妆棉、棉制品、卸妆/化妆湿巾、纸巾、卫生纸\n\n- 美甲、修脚工具和套装，按摩器\n\n- 女性卫生用品、护垫、尿布纸尿裤\n\n- 部分洗碗刷布和厨房日用小件\n\n时间表：\n\n时间\n要做什么\n\n2026-09-01\n在诚信标志系统注册（已参加试点的不用重注册）\n\n2026-10-01\n生产商、进口商给商品赋码，并上报「进入流通」\n\n2027-01-31\n10月1日前买下、之后才清关的进口货，最晚这天补完码\n\n2027-09-30\n没赋码的旧库存最晚卖到这天\n\n2027-10-01\n开始上报流通和出库（收银核销），启用电子单据量级核算\n\n同一份政府令还要求生产商在系统里登记 经营地点（МОД）：法人填 ИНН + КПП + ФИАС 地址编码，个体户不填 КПП；已注册的要在 10月1日前补上。\n\n影响谁\n\n- 在 Ozon、Wildberries 卖 化妆刷、美妆蛋配套工具、美甲套装、牙刷、化妆棉、湿巾 的中国卖家和工厂：这类货以前不用码，很多人没做诚信标志\n\n- 走 FBO/FBS 入仓 的店铺：进口商（通常是你的俄方进口代理或你自己的俄罗斯主体）没赋码，货会卡在入仓和上架\n\n- 只卖护肤彩妆的卖家影响不大——化妆品本身 2025年起就要码，这次是把「工具和卫生品」补进来\n\n现在该做什么\n\n- 拿 ТН ВЭД 编码对一下你的工具类 SKU 是否在新清单里（以政府令附表为准）\n\n- 让进口方确认已在诚信标志系统开通这个商品组，新到港的货 清关后就要赋码\n\n- 10月1日前已经买下、还在路上的货，排好 2027年1月31日前 补码\n\n- 平台商品卡里的 ТН ВЭД 别填错：WB 对强制标识商品填错编码 每件罚 1,500 卢布（见站内 Wildberries 新罚款清单 (/news/2026-10-01-wildberries-penalty-list/)）\n\n另外，剃须刀和刀片的流通/出库上报推迟到 2027年2月1日（原定 2026年7月1日）。\n\n来源：俄罗斯消费者权益保护局对第656号政府令的说明（2026-06-10）；诚信标志官方社区关于 МОД 登记的说明（2026-08-31）。",
+      "markets": [
+        "ru"
+      ],
+      "platforms": [
+        "ozon",
+        "wildberries"
+      ],
+      "tags": [
+        "labeling",
+        "compliance"
+      ],
+      "source_url": "https://zpp.rospotrebnadzor.ru/news/federal/574726",
+      "source_name": "俄罗斯消费者权益保护局（Роспотребнадзор）· 第656号政府令解读",
+      "checked": "2026-10-25",
+      "needs_review": false,
+      "sample": false,
+      "key_date": {
+        "date": "2027-01-31",
+        "label": "旧批次进口货补码截止"
+      },
+      "page": "/news/2026-10-01-russia-hygiene-goods-marking/"
+    },
+    {
+      "kind": "news",
+      "id": "2026-10-01-wildberries-penalty-list",
+      "type": "rules",
+      "date": "2026-10-01",
+      "title": "Wildberries 新罚款清单 10月1日生效：标识码和 ТН ВЭД 填错按件罚",
+      "summary": "WB 卖家报价的罚款附件 10月1日起执行。强制标识商品的 ТН ВЭД 填错每件 1,500 卢布，好评返现每次 50,000 卢布。",
+      "body_text": "Wildberries 公开的《罚款清单》（卖家报价附件）标明 2026年10月1日 起生效。和美妆日化卖家关系最大的几项：\n\n违规\n罚款\n\n商品卡侵犯第三方知识产权，或拿不出无侵权证明\n每次 10,000 ₽\n\n上架违法生产、违法进口或禁售商品\n每次 25,000 ₽\n\n商品卡、包装插页承诺好评返现\n每次 50,000 ₽\n\n交付 УПД 时标识码状态不对、不全或与实物不符\n每件 1 ₽\n\n强制标识商品没填或填错 ТН ВЭД 编码\n每件 1,500 ₽\n\n在买家聊天里引导去其他平台或社媒\n每次 25,000 ₽\n\nТН ВЭД 那一项也反过来适用：不属于强制标识的商品，却填了强制标识品类的编码，同样按件罚。\n\n如果你的品类在俄罗斯「Честный знак」强制标识范围内，上架前核对编码和标识码流转，是这份清单里最容易被按件累计的部分。",
+      "markets": [
+        "ru"
+      ],
+      "platforms": [
+        "wildberries"
+      ],
+      "tags": [
+        "penalties",
+        "labeling"
+      ],
+      "source_url": "https://static-basket-02.wb.ru/vol20/portal/education/instruction/Perechen_shtrafov_po_oferte.pdf",
+      "source_name": "Wildberries 报价附件 · 罚款清单",
+      "checked": "2026-10-22",
+      "needs_review": false,
+      "sample": false,
+      "key_date": null,
+      "page": "/news/2026-10-01-wildberries-penalty-list/"
+    },
+    {
+      "kind": "news",
+      "id": "2026-10-01-wildberries-permit-documents-check",
+      "type": "rules",
+      "date": "2026-10-01",
+      "title": "Wildberries 开始核查商品卡「合格证明」：新卡不填证书存不了，老卡 180 天内随时可能被隐藏，俄罗斯美妆卖家要尽快补",
+      "summary": "Wildberries 10月1日起检查商品卡里的合格声明/国家注册证书（СГР）：10月1日后新建的卡必须当场填好证书、ТН ВЭД 和（强制赋码商品的）GTIN，否则保存不了；老卡有 180 天过渡期，但期间随时会被抽查隐藏。Ozon 也要求证书审核通过才能卖，并表示将隐藏 GTIN 未在诚信标志注册的商品。",
+      "body_text": "改了什么\n\nWildberries 从 2026年10月1日 起，开始核查商品卡里填的 许可文件（合格声明 Декларация、合格证书、国家注册证书 СГР 等），背景是俄罗斯平台经济法（第 289-ФЗ 号联邦法）同日生效。\n\n- 10月1日以后新建的商品卡：必须当场填好许可文件；有合格声明或证书的，要填 ТН ВЭД 编码，并且和证书上的一致；属于「诚信标志」强制赋码的商品（化妆品、香水都在内），还要填 GTIN，并且和贴在货上的码一致。缺一项，卡片就 保存不了。\n\n- 10月1日前建的老卡：给 180 天过渡期（按天数算，最晚约 2027年3月30日）。但 WB 说得很直白：这 180 天是「最晚补完」的期限，不是保证不下架的期限，期间随时会抽查，没填对就隐藏。\n\n- 一个商品要几份文件的（比如儿童用品要 СГР + 合格声明），现在可以一张卡传多份。\n\n- 坑点：还没拿到证书的老卡，别改商品内容（属性、图片、描述）。一改就会触发检查，过不了就被封卡、货被退回。只改价格不受影响。\n\nOzon 那边也一样：文件要在后台「商品 → 质量证书」上传，审核时会对品牌、型号、货号、ТН ВЭД、品名和生产商；同时 Ozon 表示将开始隐藏 GTIN 没在诚信标志注册的商品。\n\n影响谁\n\n- 在 Wildberries / Ozon 卖 护肤、彩妆、香水、洗护 的中国卖家，尤其是早期用别人证书、或者证书和商品卡对不上的店铺\n\n- 做 「别人的牌子」铺货/分销 的：证书在品牌方或进口商手里，你要找对方要号码和文件\n\n- 已经被强制赋码的品类（化妆品 3304 等）：GTIN 填错会被直接拦下\n\n现在该做什么\n\n- 拉出全部美妆商品卡，逐张核对：有没有填合格声明/СГР，ТН ВЭД 和证书是否一字不差\n\n- 强制赋码的商品，把 GTIN 和诚信标志系统里注册的核一遍\n\n- 没证书的老卡先别动内容，抓紧办证再补；办不下来的 SKU 提前准备清货\n\n- 按 2027年3月30日倒排，但别等到最后——过渡期内随时会被隐藏\n\n相关：Wildberries 新罚款清单 (/news/2026-10-01-wildberries-penalty-list/)（ТН ВЭД 填错每件罚 1,500 卢布）、俄罗斯卫生用品赋码 (/news/2026-10-01-russia-hygiene-goods-marking/)。\n\n来源：Wildberries 卖家公告「10月1日起核查商品卡许可文件」（АВОШОП 转载，2026-10-01）；SELEQT《化妆品在电商平台需要哪些文件》（2026-10-16 更新，含 Ozon 规则说明）。过渡期截止日按公告「180 天」推算，以平台后台通知为准。",
+      "markets": [
+        "ru"
+      ],
+      "platforms": [
+        "wildberries",
+        "ozon"
+      ],
+      "tags": [
+        "compliance",
+        "labeling"
+      ],
+      "source_url": "https://www.avoshop.ru/company/news/2026/wildberries_s_1_oktyabrya_nachnyem_proveryat_razreshitelnye_dokumenty_v_kartochkakh_tovarov/",
+      "source_name": "Wildberries 卖家公告（АВОШОП 转载）",
+      "checked": "2026-10-25",
+      "needs_review": true,
+      "sample": false,
+      "key_date": {
+        "date": "2027-03-30",
+        "label": "WB 老卡补证书截止"
+      },
+      "page": "/news/2026-10-01-wildberries-permit-documents-check/"
+    },
+    {
+      "kind": "news",
+      "id": "2025-09-12-eaeu-tr-cu-009-decision-74",
+      "type": "regulation",
+      "date": "2025-09-12",
+      "title": "欧亚五国化妆品法规 10月28日起改禁限用清单：老证书还能用到过期，甲醛警示门槛 2027 年收紧到 0.001%",
+      "summary": "理事会第74号决定修订欧亚化妆品法规ТР ТС 009/2011：10月28日起禁限用等清单更新（附件1新增14种禁用物质）；此前已发的符合性声明/国家注册证可沿用至到期。甲醛警示阈值从2027-01-01起由0.05%降至0.001%。",
+      "body_text": "卖俄罗斯、哈萨克斯坦、白俄罗斯、亚美尼亚、吉尔吉斯斯坦的美妆，合规底线是 ТР ТС 009/2011（香水化妆品安全技术法规）。欧亚经济委员会理事会 2025年9月12日第74号决定 改了这份法规：多数条款 2026年10月28日生效（官方公布日 2025-10-28，满 12 个月）；其中 甲醛警示阈值 延后到 2027年1月1日。\n\n委员会官网新闻、文档库条目与 КонсультантПлюс 对禁限用清单的复述相互印证。\n\n改了什么\n\n- 禁限用、着色剂、防腐剂、防晒剂等清单更新\n附件 1 禁用表新增 14 种物质（序号 1681–1694），其中包括四氟乙烯、3-甲基吡唑、甲基异丁基酮（MIBK）、烯酰吗啉、咪草烟、噻虫嗪等。允许但受限的成分表也同步调整。卖欧亚五国的配方，要按新表过一遍。\n\n- 老证书不用立刻重办\n委员会管理委员会 2026年3月10日第31号决定写明：\n\n- 2026-10-28 前 办好的符合性声明、国家注册证（СГР），有效到原到期日\n\n- 在有效期内可继续生产、投放市场\n\n- 已投放的货可卖到 保质期结束\n注意：此前已单独处理过的「长期有效」国家注册证，不按这次过渡条款重开口子。\n\n- 甲醛警示门槛大幅收紧（2027-01-01）\n现在：成品理论甲醛浓度 超过 0.05% 才要在标签写「含甲醛」类警示。\n2027年1月1日起：阈值降到 0.001%（10 ppm）——用甲醛释放体防腐的配方，很多以前不用标的也要改标。\n\n影响谁\n\n- 做俄站 Ozon / Wildberries、以及哈萨克等联盟市场的中国美妆品牌和工厂店：配方里若踩到新禁限用物质，新办声明/注册按新表；老证还能撑一阵，但到期换证、改配方就要对齐新清单。\n\n- 含甲醛释放体（如部分防腐体系）的产品：留给改标的窗口到 2026 年底，2027 年起按 0.001% 执行。\n\n- 只卖欧盟/东盟、不进欧亚五国的卖家：这条跟你无关。\n\n现在该做什么\n\n- 本周：拿现行配方对照附件 1 新增 14 项（以及同步修订的限用/着色剂/防腐剂/防晒剂表），有命中的排换料或停售计划。\n\n- 盘点在用声明/СГР 到期日：能撑过旺季就别急着重办；临近到期的按新表准备检测与申报。\n\n- 含甲醛释放体的 SKU：2026 年底前改好俄文（及当地语）标签文案与印刷，避免 2027 年一刀切下架。\n\n- Ozon/WB 上架仍要证书、ТН ВЭД、诚信标志等平台材料齐——法规清单变了，平台卡证规则没松。\n\n官方入口： 理事会第 74 号决定文档页 (https://docs.eaeunion.org/documents/447/10246/)、委员会英文新闻（过渡安排） (https://eec.eaeunion.org/en/news/ustanovlen-poryadok-vvedeniya-v-deystvie-izmeneniy-tekhreglamenta-na-parfyumerno-kosmeticheskuyu-pro/)、委员会俄语新闻（甲醛阈值） (https://eec.eaeunion.org/news/sovet-eek-prinyal-izmeneniya-v-tekhnicheskiy-reglament-na-parfyumerno-kosmeticheskuyu-produktsiyu/)。",
+      "markets": [
+        "am",
+        "by",
+        "kg",
+        "kz",
+        "ru"
+      ],
+      "platforms": [
+        "ozon",
+        "wildberries"
+      ],
+      "tags": [
+        "ingredients",
+        "labeling",
+        "compliance"
+      ],
+      "source_url": "https://docs.eaeunion.org/documents/447/10246/",
+      "source_name": "欧亚经济委员会理事会第 74 号决定（ТР ТС 009/2011 修订）",
+      "checked": "2026-10-26",
+      "needs_review": false,
+      "sample": false,
+      "key_date": {
+        "date": "2026-10-28",
+        "label": "多数修订生效"
+      },
+      "page": "/news/2025-09-12-eaeu-tr-cu-009-decision-74/"
+    }
+  ]
+}

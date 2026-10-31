@@ -1,0 +1,31 @@
+{
+  "api": "yuanshan-channel/v1",
+  "access": "public-read",
+  "auth": null,
+  "generated": "2026-10-26",
+  "disclaimer": "每条资讯都附来源链接。标了「待核实」的条目来自媒体或第三方转述，引用前打开原文。费用、排名和法规以官方页面为准。",
+  "kind": "news",
+  "item": {
+    "kind": "news",
+    "id": "2026-06-12-thailand-24-prohibited-ingredients",
+    "type": "regulation",
+    "date": "2026-06-12",
+    "title": "泰国美妆禁用成分新增 24 种（Thai FDA）",
+    "summary": "泰国卫生部第 6 号禁用成分公告新增 24 种物质，并修订 3 项，其中 D4（环四硅氧烷）作为杂质超 0.1% 即禁止。",
+    "body_text": "- 新增 24 种禁用物质（第 1686–1709 项）\n\n- 修订 3 项：2-乙基己酸、茶碱、D4\n\n- D4 作为杂质超过 0.1% 即不允许\n\n- 2026年6月13日生效\n\n含硅油的护发、底妆类注意 D4 残留。",
+    "markets": [
+      "th"
+    ],
+    "platforms": [],
+    "tags": [
+      "ingredients"
+    ],
+    "source_url": "https://cosmetic.chemlinked.com/news/cosmetic-news/thailand-updates-list-of-prohibited-cosmetic-ingredients-with-24-additions-and-3-revisions",
+    "source_name": "ChemLinked",
+    "checked": "2026-10-23",
+    "needs_review": false,
+    "sample": false,
+    "key_date": null,
+    "page": "/news/2026-06-12-thailand-24-prohibited-ingredients/"
+  }
+}

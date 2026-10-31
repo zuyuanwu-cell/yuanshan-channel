@@ -1,0 +1,291 @@
+{
+  "api": "yuanshan-channel/v1",
+  "access": "public-read",
+  "auth": null,
+  "generated": "2026-10-26",
+  "disclaimer": "每条资讯都附来源链接。标了「待核实」的条目来自媒体或第三方转述，引用前打开原文。费用、排名和法规以官方页面为准。",
+  "kind": "compliance",
+  "id": "my",
+  "name_zh": "马来西亚",
+  "region": "东南亚",
+  "region_slug": "southeast-asia",
+  "page": "/compliance/my/",
+  "market": {
+    "country": "my",
+    "name_zh": "马来西亚",
+    "flag": "🇲🇾",
+    "region": "东南亚",
+    "difficulty": 2,
+    "summary": "须由马来西亚本地公司在 NPRA 逐品通报，有效期 2 年。",
+    "items": [
+      {
+        "id": "my-cnh",
+        "name_zh": "本地通报持有人 CNH",
+        "authority": "NPRA",
+        "type": "local-rep",
+        "mandatory": true,
+        "cost": "未知",
+        "time": "未知",
+        "docs": [
+          "SSM 公司注册",
+          "授权书"
+        ],
+        "who": "马来西亚本地公司",
+        "note": "",
+        "official_url": "https://www.npra.gov.my/index.php/en/frequently-asked-questions-faqs.html",
+        "source_checked": "2026-10-23",
+        "needs_review": false
+      },
+      {
+        "id": "my-notif",
+        "name_zh": "NPRA 化妆品通报（QUEST3+）",
+        "authority": "NPRA",
+        "type": "registration",
+        "mandatory": true,
+        "cost": "RM50/品",
+        "time": "未知",
+        "docs": [
+          "产品资料",
+          "数字令牌"
+        ],
+        "who": "CNH",
+        "note": "有效 2 年，到期前至少 1 个月续",
+        "official_url": "https://quest3plus.bpfk.gov.my/front-end/m-register.php",
+        "source_checked": "2026-10-23",
+        "needs_review": false
+      },
+      {
+        "id": "my-pif",
+        "name_zh": "PIF + 安全评估",
+        "authority": "NPRA",
+        "type": "safety",
+        "mandatory": true,
+        "cost": "未知",
+        "time": "未知",
+        "docs": [
+          "PIF",
+          "安全评估",
+          "GMP 证明"
+        ],
+        "who": "CNH",
+        "note": "",
+        "official_url": "https://www.npra.gov.my/images/Guidelines_Central/Guidelines_on_Cosmetic/GUIDELINES_FOR_CONTROL_OF_COSMETIC_PRODUCTS_IN_MALAYSIA.pdf",
+        "source_checked": "2026-10-23",
+        "needs_review": false
+      },
+      {
+        "id": "my-hs",
+        "name_zh": "HS 编码与关税",
+        "authority": "马来西亚海关",
+        "type": "tax-customs",
+        "mandatory": true,
+        "cost": "未知",
+        "time": "未知",
+        "docs": [],
+        "who": "进口商",
+        "note": "HS 编码待补",
+        "official_url": "https://www.customs.gov.my/",
+        "source_checked": "2026-10-23",
+        "needs_review": false
+      }
+    ],
+    "steps": [
+      {
+        "title": "找本地代表",
+        "type": "local-rep"
+      },
+      {
+        "title": "安全档案",
+        "type": "safety"
+      },
+      {
+        "title": "备案/注册",
+        "type": "registration"
+      },
+      {
+        "title": "清关",
+        "type": "tax-customs"
+      }
+    ],
+    "last_verified": "2026-10-23",
+    "hs_codes": {
+      "status": "ready",
+      "items": [
+        {
+          "code": "3303000000",
+          "name_zh": "香水",
+          "duty": "0%",
+          "source_url": "https://ezhs.customs.gov.my/"
+        },
+        {
+          "code": "3303000000",
+          "name_zh": "淡香水",
+          "duty": "0%",
+          "source_url": "https://ezhs.customs.gov.my/"
+        },
+        {
+          "code": "3304100000",
+          "name_zh": "唇部彩妆",
+          "duty": "0%",
+          "source_url": "https://ezhs.customs.gov.my/"
+        },
+        {
+          "code": "3304200000",
+          "name_zh": "眼部彩妆",
+          "duty": "0%",
+          "source_url": "https://ezhs.customs.gov.my/"
+        },
+        {
+          "code": "3304300000",
+          "name_zh": "美甲产品",
+          "duty": "0%",
+          "source_url": "https://ezhs.customs.gov.my/"
+        },
+        {
+          "code": "3304910000",
+          "name_zh": "粉类（散粉/粉饼）",
+          "duty": "0%",
+          "source_url": "https://ezhs.customs.gov.my/"
+        },
+        {
+          "code": "3304993000",
+          "name_zh": "面霜/乳液/精华（护肤）",
+          "duty": "0%",
+          "source_url": "https://ezhs.customs.gov.my/"
+        },
+        {
+          "code": "3304999000",
+          "name_zh": "防晒",
+          "duty": "0%",
+          "source_url": "https://ezhs.customs.gov.my/"
+        },
+        {
+          "code": "3304999000",
+          "name_zh": "卸妆产品",
+          "duty": "0%",
+          "source_url": "https://ezhs.customs.gov.my/"
+        },
+        {
+          "code": "3305109000",
+          "name_zh": "洗发水",
+          "duty": "0%",
+          "source_url": "https://ezhs.customs.gov.my/"
+        },
+        {
+          "code": "3305900000",
+          "name_zh": "护发素",
+          "duty": "0%",
+          "source_url": "https://ezhs.customs.gov.my/"
+        },
+        {
+          "code": "3305900000",
+          "name_zh": "染发剂",
+          "duty": "0%",
+          "source_url": "https://ezhs.customs.gov.my/"
+        },
+        {
+          "code": "3305300000",
+          "name_zh": "发胶/定型喷雾",
+          "duty": "0%",
+          "source_url": "https://ezhs.customs.gov.my/"
+        },
+        {
+          "code": "3306109000",
+          "name_zh": "牙膏",
+          "duty": "0%",
+          "source_url": "https://ezhs.customs.gov.my/"
+        },
+        {
+          "code": "3306900000",
+          "name_zh": "漱口水",
+          "duty": "0%",
+          "source_url": "https://ezhs.customs.gov.my/"
+        },
+        {
+          "code": "3306200000",
+          "name_zh": "牙线",
+          "duty": "0%",
+          "source_url": "https://ezhs.customs.gov.my/"
+        },
+        {
+          "code": "3307200000",
+          "name_zh": "止汗/香体",
+          "duty": "0%",
+          "source_url": "https://ezhs.customs.gov.my/"
+        },
+        {
+          "code": "3307100000",
+          "name_zh": "剃须膏",
+          "duty": "0%",
+          "source_url": "https://ezhs.customs.gov.my/"
+        },
+        {
+          "code": "3401300000",
+          "name_zh": "沐浴露",
+          "duty": "0%",
+          "source_url": "https://ezhs.customs.gov.my/"
+        },
+        {
+          "code": "3401115000",
+          "name_zh": "香皂（块）",
+          "duty": "0%",
+          "source_url": "https://ezhs.customs.gov.my/"
+        },
+        {
+          "code": "3401300000",
+          "name_zh": "液体洗手液",
+          "duty": "0%",
+          "source_url": "https://ezhs.customs.gov.my/"
+        },
+        {
+          "code": "3307904000",
+          "name_zh": "脱毛膏",
+          "duty": "0%",
+          "source_url": "https://ezhs.customs.gov.my/"
+        },
+        {
+          "code": "3304999000",
+          "name_zh": "面膜（片状）",
+          "duty": "0%",
+          "source_url": "https://ezhs.customs.gov.my/"
+        },
+        {
+          "code": "9603290000",
+          "name_zh": "化妆刷",
+          "duty": "15%",
+          "source_url": "https://ezhs.customs.gov.my/"
+        },
+        {
+          "code": "9616200000",
+          "name_zh": "化妆海绵/粉扑",
+          "duty": "20%",
+          "source_url": "https://ezhs.customs.gov.my/"
+        },
+        {
+          "code": "6704190000",
+          "name_zh": "假睫毛（合成纤维）",
+          "duty": "10%",
+          "source_url": "https://ezhs.customs.gov.my/"
+        },
+        {
+          "code": "8510300000",
+          "name_zh": "电动脱毛器",
+          "duty": "0%",
+          "source_url": "https://ezhs.customs.gov.my/"
+        },
+        {
+          "code": "8516320000",
+          "name_zh": "美发电器（卷/直发器）",
+          "duty": "0%",
+          "source_url": "https://ezhs.customs.gov.my/"
+        },
+        {
+          "code": "8543709000",
+          "name_zh": "电动美容仪（面部）",
+          "duty": "0%",
+          "source_url": "https://ezhs.customs.gov.my/"
+        }
+      ]
+    }
+  }
+}

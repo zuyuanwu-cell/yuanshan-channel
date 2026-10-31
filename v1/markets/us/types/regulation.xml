@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>远山频道 · 美国</title>
+    <link>https://ys.tongzhoukuajing.com/subscribe/?markets=us&amp;types=regulation</link>
+    <description>每条资讯都附来源链接。标了「待核实」的条目来自媒体或第三方转述，引用前打开原文。费用、排名和法规以官方页面为准。 公开只读，不是法律意见，也不代替来源原文。</description>
+    <language>zh-CN</language>
+    <lastBuildDate>Mon, 26 Oct 2026 12:00:00 GMT</lastBuildDate>
+    <atom:link xmlns:atom="http://www.w3.org/2005/Atom" href="https://ys.tongzhoukuajing.com/v1/markets/us/types/regulation.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>加州防晒：含化学滤光剂不能再打 reef safe（2027起）</title>
+      <link>https://ys.tongzhoukuajing.com/news/2026-10-31-california-ab1744-sunscreen-reef-safe-claims/</link>
+      <guid isPermaLink="false">2026-10-31-california-ab1744-sunscreen-reef-safe-claims</guid>
+      <pubDate>Sat, 31 Oct 2026 12:00:00 GMT</pubDate>
+      <description>AB 1744：2027-01-01起加州售卖防晒若含化学UV滤光剂，广告/标签禁写reef safe、ocean friendly等珊瑚友好宣称。</description>
+    </item>
+    <item>
+      <title>FDA 化妆品强制召回终稿（MoCRA）要点</title>
+      <link>https://ys.tongzhoukuajing.com/news/2026-10-22-fda-mandatory-cosmetic-recall-guidance/</link>
+      <guid isPermaLink="false">2026-10-22-fda-mandatory-cosmetic-recall-guidance</guid>
+      <pubDate>Thu, 22 Oct 2026 12:00:00 GMT</pubDate>
+      <description>MoCRA 下强制召回问答终稿落地，与 2025 年 12 月草案无实质改动：何时下令、怎么走流程、企业怎么配合。美国站美妆责任人要把召回预案写进合规清单。</description>
+    </item>
+    <item>
+      <title>美国宾州禁售动物实验化妆品：2027-01-01后新测的货不得在该州卖</title>
+      <link>https://ys.tongzhoukuajing.com/news/2026-10-22-pennsylvania-cosmetics-animal-testing-ban/</link>
+      <guid isPermaLink="false">2026-10-22-pennsylvania-cosmetics-animal-testing-ban</guid>
+      <pubDate>Thu, 22 Oct 2026 12:00:00 GMT</pubDate>
+      <description>州长 10-22 签署 SB 381（Act 92）：制造商或其供应商在 2027-01-01 及以后新做/委托的动物实验所开发的化妆品，不得在宾州销售或要约销售；此前数据可保留。</description>
+    </item>
+    <item>
+      <title>FDA/MoCRA 登记列名信息收集送 OMB</title>
+      <link>https://ys.tongzhoukuajing.com/news/2026-10-14-fda-mocra-paperwork-notice/</link>
+      <guid isPermaLink="false">2026-10-14-fda-mocra-paperwork-notice</guid>
+      <pubDate>Wed, 14 Oct 2026 12:00:00 GMT</pubDate>
+      <description>MoCRA 下的设施注册、产品列名、不良事件和标签要求，FDA 合并成一项信息收集送 OMB。书面意见收到 2026年11月13日。这是程序公告，不是新规。</description>
+    </item>
+    <item>
+      <title>FDA：化妆品注册和列名不发证书，也不出核验信</title>
+      <link>https://ys.tongzhoukuajing.com/news/2026-09-09-fda-no-registration-certificate/</link>
+      <guid isPermaLink="false">2026-09-09-fda-no-registration-certificate</guid>
+      <pubDate>Wed, 09 Sep 2026 12:00:00 GMT</pubDate>
+      <description>FDA 提醒工厂、零售商和责任人：注册号和列名号不是批准，FDA 不签发任何证书、信函或「无需注册」证明。</description>
+    </item>
+  </channel>
+</rss>

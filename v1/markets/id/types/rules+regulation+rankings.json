@@ -1,0 +1,472 @@
+{
+  "api": "yuanshan-channel/v1",
+  "access": "public-read",
+  "auth": null,
+  "generated": "2026-10-26",
+  "disclaimer": "每条资讯都附来源链接。标了「待核实」的条目来自媒体或第三方转述，引用前打开原文。费用、排名和法规以官方页面为准。",
+  "kind": "feed",
+  "id": "id/rules+regulation+rankings",
+  "title": "印度尼西亚",
+  "markets": [
+    "id"
+  ],
+  "types": [
+    "rules",
+    "regulation",
+    "rankings"
+  ],
+  "filter": {
+    "markets": [
+      "id"
+    ],
+    "types": [
+      "rules",
+      "regulation",
+      "rankings"
+    ],
+    "include_global": false
+  },
+  "count": 16,
+  "items": [
+    {
+      "kind": "news",
+      "id": "2026-10-31-bpjph-372-gmo-cosmetics-sjph",
+      "type": "regulation",
+      "date": "2026-10-31",
+      "title": "印尼美妆转基因/发酵原料清真指南（372）",
+      "summary": "BPJPH第372号10-18起施行：基因工程产品SJPH细则，化妆品相关发酵/转基因原料要证；猪/人基因禁用；强制货品证仍到2028。",
+      "body_text": "印尼清真产品保障局（BPJPH）2026年10月12日签发 2026年第372号决定《基因工程产品（PRG）清真产品保障体系实施指南》，2026年10月18日起施行。官方副本已核对。\n\n同批前后还有：化妆品 SJPH·370号 (/news/2026-10-12-bpjph-370-cosmetics-sjph/)、销售服务 SJPH·376号 (/news/2026-10-29-bpjph-376-cosmetics-sales-services-sjph/)、强制产品种类清单·387号 (/news/2026-10-31-bpjph-387-halal-product-types-cosmetics/)。372 号专管「基因工程/发酵这条原料链」，和普通化妆品工厂指南互补。\n\n改了什么\n\n1. 化妆品相关的 PRG 也在范围里\n\n指南写明：经基因工程得到的原料，只要落到食品、药品、化妆品相关，就要按 PRG 的 SJPH 管。覆盖对象包括：\n\n- 转基因植物衍生、经加工后的原料\n\n- 转基因动物/动物细胞来源（须来自合法屠宰的清真动物）\n\n- 微生物 PRG（细菌、酵母、霉菌等作宿主，经发酵/生物技术产酶、活性物、辅料等）——现代美妆里发酵精华、重组胶原、酶制剂最常撞上\n\n植物 PRG 的种子/鲜收获物在特定条件下可豁免；加工后的原料一般要证。细胞层面部分义务写明「待科技评估后再强制」，但微生物发酵路径已写进现行要求。\n\n2. 红线原料与介质\n\n对微生物 PRG 及产物，官方文本要点包括：\n\n- 不得插入猪基因或人基因\n\n- 不得含抗生素抗性基因\n\n- 生长介质须洁净；沾重污后须按教法净化；以猪源作生长介质则判定为 حرام\n\n- 母种（master seed）保存介质也须清真\n\n- 关键点要查：基因来源、载体与宿主、培养基、发酵、收获、纯化、辅料、终产品\n\n材料侧：属强制清单的要清真证或境外证在 BPJPH 登记号；清单外用工艺、成分、COA、无重污声明等支撑。\n\n3. 体系与事后监督（拿证企业）\n\n与 370 号同思路：书面清真政策、任命并向当局报告清真监督员、产线/器具与非清真隔离、批次追溯与不合格品处置。\n\n- 每年至少一次内审 + 管理评审，内审结果报 BPJPH\n\n- 每 6 个月报一次原料组成和/或生产过程；有变更随时报\n\n影响谁\n\n- 配方含发酵原料、重组蛋白/肽、酶、基因工程来源活性物的美妆品牌与代工厂\n\n- 向印尼站供货、或计划提前拿清真证的原料商与进口商\n\n- 在 Shopee / Lazada / Tokopedia / TikTok Shop 印尼站主打「生物科技/发酵」卖点的店铺\n\n意味着什么\n\n- 卡在哪：不是「有发酵字样就违法」，而是申请清真证或供应清真链时，培养基、基因来源、抗性基因、宿主要拿得出证明；猪/人基因直接出局\n\n- 和 2028 的关系：化妆品成品强制持证仍到 2028-10-17；现在就要做穆斯林市场或已拿证的，按 372+370 查原料链\n\n- 现在注意什么：让原料商书面确认有无猪/人基因、抗性基因、培养基动物源；发酵类原料优先要清真证或完整工艺包\n\n原文（官方副本 PDF）：BPJPH Nomor 372 Tahun 2026 (https://halalmui.org/wp-content/uploads/2026/05/Salinan-372.2026.-Pedoman-Pelaksanaan-SJPH-PRG.pdf)",
+      "markets": [
+        "id"
+      ],
+      "platforms": [
+        "shopee",
+        "lazada",
+        "tokopedia",
+        "tiktok-shop"
+      ],
+      "tags": [
+        "compliance",
+        "ingredients"
+      ],
+      "source_url": "https://halalmui.org/wp-content/uploads/2026/05/Salinan-372.2026.-Pedoman-Pelaksanaan-SJPH-PRG.pdf",
+      "source_name": "BPJPH 2026年第372号决定 · 基因工程产品SJPH（官方副本）",
+      "checked": "2026-10-31",
+      "needs_review": false,
+      "sample": false,
+      "key_date": {
+        "date": "2026-10-18",
+        "label": "指南生效"
+      },
+      "page": "/news/2026-10-31-bpjph-372-gmo-cosmetics-sjph/"
+    },
+    {
+      "kind": "news",
+      "id": "2026-10-31-bpjph-387-halal-product-types-cosmetics",
+      "type": "regulation",
+      "date": "2026-10-31",
+      "title": "印尼清真美妆产品清单（BPJPH 387）要点",
+      "summary": "BPJPH第387号10-18起施行：14大类强制清真产品清单出炉，化妆品分20小类约126项；货品强制持证仍按PP40延到2028-10-17。",
+      "body_text": "印尼清真产品保障局（BPJPH）2026年10月15日签发 2026年第387号决定《必须持有清真证书的产品种类》，2026年10月18日起施行。官方副本（约504页附件）已核对。\n\n站内已有：强制持证顺延到 2028-10-17 (/news/2026-10-17-indonesia-halal-cosmetics-2028/)、化妆品工厂 SJPH·370号 (/news/2026-10-12-bpjph-370-cosmetics-sjph/)、销售服务 SJPH·376号 (/news/2026-10-29-bpjph-376-cosmetics-sales-services-sjph/)。387 号回答的是「哪些货/服务算必须清真认证范围内」，不是再改一次截止日期。\n\n改了什么\n\n1. 14 大类产品/服务清单落地\n\n决定把必须清真认证的对象分成 14 类：食品饮料、药品、化妆品、化学品、生物制品、基因工程产品、日用品，以及屠宰/加工/仓储/包装/流通/销售/供餐等服务。\n\n适用对象包括：\n\n- B2C 终端成品：在印尼境内卖给最终消费者、直接使用的货\n\n- 带清真关键点的 B2B 投入品：还会被下游继续加工的原料/辅料/助剂（含动物源、化学工艺需可追溯等情形）\n\n- 与食品/药品/化妆品相关的服务\n\n2. 化妆品附件：20 小类、约 126 个细项\n\n附件「C. Kosmetik」按剂型与用途列了 1.1–1.20，本轮按官方文本清点约 126 条细项，覆盖常见出海美妆：\n\n- 护肤霜乳凝胶油（含婴童）、面膜、粉底、散粉/爽身粉\n\n- 香皂、香水香氛、泡泡浴等沐浴类、脱毛、止汗香体\n\n- 头发护理、剃须、眼妆/彩妆及卸妆、唇部护理、口腔护理\n\n- 甲油及甲护、私密外用、防晒、美黑、美白/亮肤、抗皱\n\n清单是申请认证、检查与费用测算时的对照表；未列进附件的品类仍可自愿申请。已有清真证在原检查范围内继续有效。利益相关方可向 BPJPH 清真标准化司提案增减清单（须附工艺、成分、COA 等）。\n\n3. 和「2028 强制持证」别混\n\n387 号把「范围」写死了；化妆品成品强制必须持证的日子仍按 PP 40/2026 / 站内已报道路径到 2028-10-17。10 月 18 日起生效的是清单与相关 SJPH 指南口径，不是立刻「没证就不能卖货」。\n\n影响谁\n\n- 在 Shopee / Lazada / Tokopedia / TikTok Shop 印尼站卖美妆日化的品牌、代工厂、进口商、经销商\n\n- 配方含动物源、发酵/基因工程原料，或计划提前拿清真证做穆斯林市场定位的供应链\n\n- 药妆店、美妆零售等「销售服务」环节（另见 376 号）\n\n意味着什么\n\n- 先对表：拿 SKU 对照附件 C，确认自己落在哪一小类；原料商再看是否落入 B2B 关键点\n\n- 别误读成「现在没证就下架」：货品强制持证节点仍是 2028-10-17；BPOM 备案照旧是上架前提\n\n- 现在可做：动物源/酒精/发酵介质证明缺口清单；若已推清真卖点，核对证书范围是否盖住新品\n\n原文（官方 PDF）：BPJPH Nomor 387 Tahun 2026 (https://jdih.halal.go.id/api/jdih/pdf?path=jdih%2Fdokumen%2F1792640473861_salinan_-_387.2026._jenis_produk_yang_wajib_bersertifikat_halal.pdf)",
+      "markets": [
+        "id"
+      ],
+      "platforms": [
+        "shopee",
+        "lazada",
+        "tokopedia",
+        "tiktok-shop"
+      ],
+      "tags": [
+        "compliance",
+        "labeling"
+      ],
+      "source_url": "https://jdih.halal.go.id/api/jdih/pdf?path=jdih%2Fdokumen%2F1792640473861_salinan_-_387.2026._jenis_produk_yang_wajib_bersertifikat_halal.pdf",
+      "source_name": "BPJPH 2026年第387号决定 · 强制清真产品种类（官方副本）",
+      "checked": "2026-10-31",
+      "needs_review": false,
+      "sample": false,
+      "key_date": {
+        "date": "2026-10-18",
+        "label": "清单生效"
+      },
+      "page": "/news/2026-10-31-bpjph-387-halal-product-types-cosmetics/"
+    },
+    {
+      "kind": "news",
+      "id": "2026-10-30-tiktok-shop-id-campaign-qualification",
+      "type": "rules",
+      "date": "2026-10-30",
+      "title": "TikTok Shop印尼站大促报名门槛更新：店评分≥3.0、AHR≥50；美妆类退货率须低于1.2%",
+      "summary": "卖家大学标注10月29–30日更新活动报名门槛：有店评分须≥3.0且物流履约≥2.5、AHR≥50；无评分看延迟发货/取消率。美妆多归FMCG/Lifestyle，卖家责任退货退款率近7天须低于1.2%。",
+      "body_text": "TikTok Shop 印尼站（与 Tokopedia 共用卖家大学）在 Latest Policy Updates (https://seller-id.tokopedia.com/university/essay?knowledge_id=4293090979071761&lang=en)（页面日期 2026-10-30）放出「活动报名资格标准更新」，细则页《Campaign Qualification Guidelines for Sellers (https://seller-id.tokopedia.com/university/essay?knowledge_id=2786381690062593&lang=en)》标注 2026-10-29。11.11 前后要报官方大促的美妆店，先按这套门槛自查。\n\n站内相关：品牌上架禁未授权 Official/Flagship (/news/2026-10-28-tiktok-shop-id-branded-listing-restricted-terms/)、货不对板加严 (/news/2026-10-15-tiktok-shop-id-false-display/)。\n\n改了什么\n\n1. 有店铺评分（Store Rating）的店\n\n同时满足：\n\n- 店铺评分 ≥ 3.0，且其中 物流与履约（Logistics and Fulfillment）≥ 2.5\n\n- 账号健康分（AHR）≥ 50\n\n- 店铺未被标成风险或欺诈相关\n\n2. 还没有店铺评分的店\n\n看运营指标：\n\n- AHR ≥ 50\n\n- 近 7 天 延迟发货率（LDR）< 10%\n\n- 近 7 天 卖家责任取消率（SFCR）< 10%\n\n- 近 30 天卖家侧差评率 < 1.5%（仅当差评订单超过 10 单时才计）\n\n- 同样不能有风险/欺诈标记\n\n3. 商品侧（两种店都要过）\n\n- 近 30 天 商品差评率 < 1.5%（仅当差评订单超过 5 单时才计）\n\n- 近 7 天 卖家责任退货/退款率（SFRR） 按类目：\n- Electronics / Fashion：低于 1.5%\n\n- FMCG / Lifestyle：低于 1.2%（美妆个护按后台类目多数落在这一档；以 Seller Center 显示为准）\n\n- 仅当近 7 天卖家责任退货/退款订单 ≥ 5 单时才计\n\n- 商品未被标「过度冒犯内容」\n\n活动期内表现掉到门槛以下，可能被移出活动；修好指标后可再报。平台保留因严重违规/合规原因随时移出的权利。\n\n影响谁\n\n- 准备报 11.11 / 平台官方大促 的印尼站美妆、个护、洗护卖家（含跨境本地店）\n\n- 差评和「货不对板 / 漏发 / 破损」偏多的店——SFRR 和差评率会先卡报名，再卡流量\n\n- 物流履约分偏低的店：即使总分过 3.0，物流子分不到 2.5 也会卡\n\n意味着什么\n\n这不是禁售美妆，而是 大促入场券变硬：包装、发货时效、售后口径直接决定能不能进官方活动池。报名前先看店铺评分拆分、AHR、近 7 天 SFRR；开封试用类、套装漏赠品、图文不符最容易把 SFRR 顶破 1.2%。已报名的也要盯活动期——掉线会被移出。\n\n核对来源：上文 Campaign Qualification 细则页与 Latest Policy Updates（核对于 2026-10-31）。",
+      "markets": [
+        "id"
+      ],
+      "platforms": [
+        "tiktok-shop",
+        "tokopedia"
+      ],
+      "tags": [
+        "listing",
+        "fees"
+      ],
+      "source_url": "https://seller-id.tokopedia.com/university/essay?knowledge_id=2786381690062593&lang=en",
+      "source_name": "TikTok Shop ID · Campaign Qualification（2026-10-29）",
+      "checked": "2026-10-31",
+      "needs_review": false,
+      "sample": false,
+      "key_date": {
+        "date": "2026-10-30",
+        "label": "政策页更新"
+      },
+      "page": "/news/2026-10-30-tiktok-shop-id-campaign-qualification/"
+    },
+    {
+      "kind": "news",
+      "id": "2026-10-30-tokopedia-mall-return-window-15-days",
+      "type": "rules",
+      "date": "2026-10-30",
+      "title": "Tokopedia Mall 退货改 15 天：印尼美妆店须知",
+      "summary": "Latest Policy Updates写明：自11月2日起Tokopedia Mall订单买家可在送达后15个日历日内申请退货退款，原为6天；非Mall仍为6天。Mall美妆店要拉长售后值班与备货缓冲。",
+      "body_text": "TikTok Shop / Tokopedia 卖家大学 Latest Policy Updates (https://seller-id.tokopedia.com/university/essay?knowledge_id=4293090979071761&lang=en)（页面日期 2026-10-30）写明：从 2026年11月2日起，Tokopedia Mall 订单的买家退货/退款申请窗口，由原来的 6 个日历日 延长到 15 个日历日。非 Mall 的 Tokopedia 订单仍是 6 天。\n\n同站《Returns And Refunds (https://seller-id.tokopedia.com/university/essay?knowledge_id=1683292773779217&lang=en)》（标注 2026-10-29）时间表里，Mall 商品已写成 15 日历日、非 Mall 为 6 日——与公告生效日对齐后执行。\n\n改了什么\n\n订单类型\n原窗口\n11月2日起\n\nTokopedia Mall\n6 日历日\n15 日历日\n\nTokopedia 非 Mall\n6 日历日\n仍为 6 日历日\n\n买家是在订单状态变为「已送达」后起算申请退货/退款。卖家侧审单时限等细则仍以 Returns And Refunds 页为准（例如需审的申请一般要在收到后 2 个日历日内处理，否则可能自动同意）。\n\n影响谁\n\n- 进了 Tokopedia Mall / TikTok Shop Mall 的美妆、香水、个护店：售后期几乎拉长一倍多，试用后嫌弃、过敏争议、开封不合适等申请会更晚进来\n\n- 靠大促冲 Mall 流量的品牌店：11.11 前后发货的订单，退货高峰会拖得更长，要预留客服班次和二次质检人力\n\n- 非 Mall 店：本条不改你的 6 天窗口，但若计划申 Mall，要把售后能力按 15 天来估\n\n意味着什么\n\n窗口变长 ≠ 买家可以随便退成功，但 可发起申请的时间变长，Mall 店的售后工单会更散、更晚。建议：密封件尽量做到「未开封可二次销售」有据可查；换包装/换配方及时改主图；开封试用装单独策略；大促备货别把可售库存估得太满。未按平台指示把货退回买家的争议单，还可能丢掉申诉资格（同页另有 11月5 日起 Seller-to-Customer Returns 申诉资格提醒，另文不展开）。\n\n核对来源：Latest Policy Updates 原文 + Returns And Refunds 时间表（核对于 2026-10-31）。",
+      "markets": [
+        "id"
+      ],
+      "platforms": [
+        "tokopedia",
+        "tiktok-shop"
+      ],
+      "tags": [
+        "listing"
+      ],
+      "source_url": "https://seller-id.tokopedia.com/university/essay?knowledge_id=4293090979071761&lang=en",
+      "source_name": "TikTok Shop ID · Latest Policy Updates（2026-10-30）",
+      "checked": "2026-10-31",
+      "needs_review": false,
+      "sample": false,
+      "key_date": {
+        "date": "2026-11-02",
+        "label": "Mall改15天"
+      },
+      "page": "/news/2026-10-30-tokopedia-mall-return-window-15-days/"
+    },
+    {
+      "kind": "news",
+      "id": "2026-10-29-bpjph-376-cosmetics-sales-services-sjph",
+      "type": "regulation",
+      "date": "2026-10-29",
+      "title": "印尼美妆零售也要 SJPH：BPJPH 376 号",
+      "summary": "BPJPH第376号把「销售服务」SJPH写清：化妆品相关零售（药妆店、香水店、美妆店等）从2026-10-18适用；收货/仓储/陈列要防交叉污染，电商平台与卖家也有分工。货品本身强制清真证仍按PP40延到2028-10-17，别和这条混。",
+      "body_text": "印尼清真产品保障局（BPJPH）2026年10月12日发布 2026年第376号决定《销售服务清真产品保障体系（SJPH）实施指南》。决定正文写明：化妆品相关销售服务从 2026年10月18日起适用。官方副本已核对。\n\n站内已有：化妆品产品强制持证延到 2028-10-17 (/news/2026-10-17-indonesia-halal-cosmetics-2028/)、化妆品工厂/品牌怎么搭 SJPH（第370号） (/news/2026-10-12-bpjph-370-cosmetics-sjph/)。376 号管的是「卖的环节」，不是再发一遍产品证时间表。\n\n改了什么\n\n1. 化妆品销售服务：10月18日起按指南执行\n\n决定「第二项」分品类给了适用日，其中：\n\n- 食品饮料、化妆品、天然药/准药品/保健品相关销售服务 → 2026-10-18\n\n- 非处方药相关 → 2029-10-18\n\n- 处方药（除精神药品）相关 → 2034-10-18\n\n「销售服务」覆盖：面向终端消费者的零售，含超市/便利店、药店、香水店、药妆店/美妆个护店，以及营销、仓储物流、标签展示、顾客服务，和 电商/电子交易系统（PMSE）。\n\n2. 谁要做、谁可豁免（大白话）\n\n- 要做：在印尼境内做化妆品相关零售服务、且不只是「只卖自家已持清真证的原包装密封货」的经营者\n\n- 可豁免倾向：只卖本集团自有品牌、且货已有清真证/境外清真证登记号、原包装密封不拆封不分装；或只卖法规明确豁免持证的商品\n\n- 关键货、仓储、陈列、收银环节要分清真与非清真；空间不够时至少要有书面隔离、封箱、物理隔断、标识与清洁程序（含重污净化规则）\n\n3. 电商怎么分责（平台 / 卖家 / 配送）\n\n指南单独写了 PMSE：\n\n- 平台（PPMSE）：便于展示清真状态；给配送员提供处理指引，避免清真货与可能污染的货混装；在系统能力范围内让配送端看到订单清真状态\n\n- 销售伙伴（店铺）：强制清单内的货要有清真证或按规定标非清真；纯零售转卖要核对包装上的清真标；对平台上展示的清真信息负责\n\n- 配送伙伴：不拆封、不毁封条，按平台指引处理\n\n4. 和「产品延到 2028」怎么并存\n\nPP 40/2026 (https://bpjph.halal.go.id/read/penyesuaian-penahapan-kewajiban-sertifikasi-halal-diatur-dalam-pp-40-tahun-2026-begini-rinciannya) 把化妆品等产品强制持证延到 2028-10-17；公开说明里延期的「相关服务」主要点到的是食品饮料相关服务，并未把化妆品销售服务一并改口到 2028。376 号本身把化妆品销售服务适用日写在 2026-10-18。\n\n实操上：货还没到强制拿证日，不代表药妆店/美妆零售可以完全无视销售环节体系；跨境卖家更要分清「自己的产品证」和「本地经销商/门店的销售服务证」。\n\n影响谁\n\n- 在印尼开/合作 药妆店、美妆集合店、香水店 的品牌与经销商——最先被问到销售服务 SJPH、监督员与隔离程序\n\n- 在 Shopee / Lazada / Tokopedia / TikTok Shop 印尼站铺货的跨境卖家：产品强制证仍看 2028；但要配合平台清真信息展示，并留意本地仓配是否按指南防交叉污染\n\n- 只做全托管/平台仓、不碰本地实体零售的：优先盯 370 号产品体系 (/news/2026-10-12-bpjph-370-cosmetics-sjph/) 与 BPOM，同时把 376 转给印尼渠道商对照\n\n意味着什么 / 现在注意什么\n\n- 别混两条线：产品证 2028 ≠ 销售服务指南「不适用」\n\n- 有印尼实体渠道的：让对方对照 376，查清真政策、监督员、收货/仓/柜隔离与半年材料报备习惯\n\n- 纯跨境店铺：核对 listing 清真声明是否与包装一致，勿在无证阶段乱挂印尼清真标\n\n- 同批还有第372号（转基因产品 SJPH），配方走基因工程原料的另查一条链\n\n原文（官方 PDF）：BPJPH Nomor 376 Tahun 2026 (https://jdih.halal.go.id/api/jdih/pdf?path=jdih%2Fdokumen%2F1792634999408_salinan_-_376.2026._pedoman_pelaksanaan_sjph_jasa_penjualan.pdf)；产品延期说明见 BPJPH · PP 40/2026 (https://bpjph.halal.go.id/read/penyesuaian-penahapan-kewajiban-sertifikasi-halal-diatur-dalam-pp-40-tahun-2026-begini-rinciannya)",
+      "markets": [
+        "id"
+      ],
+      "platforms": [
+        "shopee",
+        "lazada",
+        "tokopedia",
+        "tiktok-shop"
+      ],
+      "tags": [
+        "compliance",
+        "labeling"
+      ],
+      "source_url": "https://jdih.halal.go.id/api/jdih/pdf?path=jdih%2Fdokumen%2F1792634999408_salinan_-_376.2026._pedoman_pelaksanaan_sjph_jasa_penjualan.pdf",
+      "source_name": "BPJPH 2026 年第 376 号决定 · 销售服务 SJPH 实施指南（官方副本）",
+      "checked": "2026-10-29",
+      "needs_review": false,
+      "sample": false,
+      "key_date": {
+        "date": "2026-10-18",
+        "label": "化妆品销售服务适用"
+      },
+      "page": "/news/2026-10-29-bpjph-376-cosmetics-sales-services-sjph/"
+    },
+    {
+      "kind": "news",
+      "id": "2026-10-28-tiktok-shop-id-branded-listing-restricted-terms",
+      "type": "rules",
+      "date": "2026-10-28",
+      "title": "TikTok Shop 印尼品牌上架新规：没授权别写 Official/Flagship/Mall，标题图文都算",
+      "summary": "印尼站品牌商品上架指引更新至10月28日：未获品牌授权或未进 Mall 不得在标题/图片/描述写 Official、Mall、Authorised、Flagship；品牌栏灰项须先资质；换包装要新旧对比图，勿说旧包装就是假货。",
+      "body_text": "TikTok Shop 印尼站（与 Tokopedia 共用卖家大学）发布《Branded Products Listing Guidelines (https://seller-id.tokopedia.com/university/essay?knowledge_id=8127545464555265&lang=en)》，页面日期 2026年10月28日。相对站内已有的 误导内容五国稿 (/news/2026-10-13-tiktok-shop-sea-misleading-content/)、货不对板 (/news/2026-10-15-tiktok-shop-id-false-display/)，这次专门收紧品牌商品怎么写、怎么选品牌栏、换包装怎么说。\n\n改了什么\n\n1. 受限用词：Official / Mall / Authorised / Flagship\n\n政策写明：不得在标题、图片或描述里冒充与品牌或平台的官方关系。除非已有所需授权，或已加入 Mall 项目，否则不要用：\n\n- Official\n\n- Mall\n\n- Authorised（Authorized）\n\n- Flagship\n\n- 以及同类表述\n\n图片里的徽章、Logo、横幅也算——不只看文字标题。\n\n2. 品牌栏与授权标签\n\n- 卖有品牌货：必须在下拉里选对应品牌；与标题、图、描述、SKU 信息保持一致\n\n- 部分品牌会置灰：须先拿到品牌授权（Brand Qualification）才能选\n\n- 已获授权的品牌会出现绿色 Authorized 标签——该品牌下所有在售链接都应选带绿标的那一项\n\n- 后来才拿到授权的：要把该品牌下存量链接全部改过来\n\n- 无品牌货选「No brand」；别把有牌货伪装成无牌，也别藏品牌信息（可按 Brand Circumvention 处理）\n\n3. 标题与主图\n\n- 标题先写主品牌，再写型号/规格（例：Brand Y Facial Cleanser 150ml）\n\n- 未经同意不要在链接里点名其他品牌（商标侵权风险）\n\n- 至少一张图能看出品牌；不得用贴纸、涂抹、马赛克、胶带等遮挡品牌标识\n\n4. 换包装怎么说\n\n品牌换包装时：\n\n- 主图改成买家实际会收到的新包装\n\n- 另加一张新旧对比图\n\n- 标题可加简短说明（如 New Packaging / Updated Label Design）\n\n- 新包装有防伪（二维码、全息、防伪标）可在详情说明\n\n- 禁止暗示旧包装就是假货，例如「只有新设计才是正品」「没全息贴=假货」\n\n影响谁\n\n- 在印尼站卖护肤、彩妆、个护、头发护理等有牌货的店铺——标题、主图角标爱写「官方旗舰 / Official Store / Flagship」却没授权或未进 Mall 的，首当其冲\n\n- 白牌/代发、多品牌铺货、未走 Brand Qualification 的跨境与本地卖家\n\n- 刚拿到品牌授权、但旧链接还停在灰项或「No brand」的店铺\n\n- 近期换过瓶贴/外盒的美妆品牌与经销商\n\n意味着什么 / 现在注意什么\n\n- 今天就搜一遍在售链接：Official、Flagship、Mall、Authorised、官方、旗舰、授权店——没文件支撑的删干净（含主图角标）\n\n- 打开卖家中心品牌栏：该选绿标选绿标；置灰品牌先去申请资质，再上架\n\n- 换包装链接：补新旧对比图，别写「旧包装=假」这类话术\n\n- 违规可按卖家执行政策处理，屡犯加重；认为误判可在卖家中心申诉\n\n- 美妆功效夸大、货不对板仍按既有政策管——这次是品牌身份怎么自称这一刀，不是替代旧规\n\n来源：Branded Products Listing Guidelines（页面标注 10/28/2026） (https://seller-id.tokopedia.com/university/essay?knowledge_id=8127545464555265&lang=en)",
+      "markets": [
+        "id"
+      ],
+      "platforms": [
+        "tiktok-shop",
+        "tokopedia"
+      ],
+      "tags": [
+        "listing",
+        "penalties"
+      ],
+      "source_url": "https://seller-id.tokopedia.com/university/essay?knowledge_id=8127545464555265&lang=en",
+      "source_name": "TikTok Shop ID · Branded Products Listing（2026-10-28）",
+      "checked": "2026-10-30",
+      "needs_review": false,
+      "sample": false,
+      "key_date": {
+        "date": "2026-10-28",
+        "label": "政策页标注日期"
+      },
+      "page": "/news/2026-10-28-tiktok-shop-id-branded-listing-restricted-terms/"
+    },
+    {
+      "kind": "ranking",
+      "id": "lazada-id/2026-10-26",
+      "type": "rankings",
+      "date": "2026-10-26",
+      "title": "Lazada 印尼 · 2026-10-26",
+      "summary": "30 个单品 · Lazada ID skincare · 部分数据 · 待核实",
+      "markets": [
+        "id"
+      ],
+      "board": "lazada-id",
+      "source_url": "https://www.lazada.co.id/",
+      "source_name": "Lazada ID skincare",
+      "needs_review": true,
+      "sample": false,
+      "partial": true,
+      "page": "/rankings/lazada-id/",
+      "detail": "/v1/rankings/lazada-id/2026-10-26.json"
+    },
+    {
+      "kind": "ranking",
+      "id": "shopee-id/2026-10-26",
+      "type": "rankings",
+      "date": "2026-10-26",
+      "title": "Shopee 印尼 · 2026-10-26",
+      "summary": "30 个单品 · Shopee ID skincare (sales) · 部分数据 · 待核实",
+      "markets": [
+        "id"
+      ],
+      "board": "shopee-id",
+      "source_url": "https://shopee.co.id/",
+      "source_name": "Shopee ID skincare (sales)",
+      "needs_review": true,
+      "sample": false,
+      "partial": true,
+      "page": "/rankings/shopee-id/",
+      "detail": "/v1/rankings/shopee-id/2026-10-26.json"
+    },
+    {
+      "kind": "ranking",
+      "id": "lazada-id/2026-10-23",
+      "type": "rankings",
+      "date": "2026-10-23",
+      "title": "Lazada 印尼 · 2026-10-23",
+      "summary": "30 个单品 · Lazada ID · skincare (sold) · 待核实",
+      "markets": [
+        "id"
+      ],
+      "board": "lazada-id",
+      "source_url": "https://www.lazada.co.id/catalog/?q=skincare&sort=solddesc",
+      "source_name": "Lazada ID · skincare (sold)",
+      "needs_review": true,
+      "sample": false,
+      "partial": false,
+      "page": "/rankings/lazada-id/",
+      "detail": "/v1/rankings/lazada-id/2026-10-23.json"
+    },
+    {
+      "kind": "ranking",
+      "id": "shopee-id/2026-10-23",
+      "type": "rankings",
+      "date": "2026-10-23",
+      "title": "Shopee 印尼 · 2026-10-23",
+      "summary": "16 个单品 · Shopee ID · Perawatan & Kecantikan (sales) · 部分数据 · 待核实",
+      "markets": [
+        "id"
+      ],
+      "board": "shopee-id",
+      "source_url": "https://shopee.co.id/Perawatan-Kecantikan-cat.11043254?page=0&sortBy=sales",
+      "source_name": "Shopee ID · Perawatan & Kecantikan (sales)",
+      "needs_review": true,
+      "sample": false,
+      "partial": true,
+      "page": "/rankings/shopee-id/",
+      "detail": "/v1/rankings/shopee-id/2026-10-23.json"
+    },
+    {
+      "kind": "news",
+      "id": "2026-10-17-indonesia-halal-cosmetics-2028",
+      "type": "regulation",
+      "date": "2026-10-17",
+      "title": "印尼美妆清真强制认证延期至 2028",
+      "summary": "原定 2026年10月18日生效的清真认证义务，化妆品、化学品等品类延后两年。依据是 PP 40/2026（修订 PP 42/2024），BPJPH 官方已发说明。",
+      "body_text": "最早是 Kompas 10月17日报道印尼政府要修订《清真产品保障实施条例》（PP 42/2024）。现在 印尼清真产品保障局（BPJPH）官方已确认：修订条例是 PP 40/2026。\n\n和美妆日化相关的部分：\n\n- 化妆品、化学品、日用品（barang gunaan，含服装、配饰、家用医疗用品、家居用品等）、草本药、准药品、保健品，强制持清真证书的期限延到 2028年10月17日\n\n- 这些品类原定 2026年10月18日起须有清真证书\n\n- 境外生产的食品饮料类，2028年10月18日起才强制，等清真证书互认合作谈完\n\n- BPJPH 另有 2026年第387号决定，列明哪些商品属于必须清真认证的范围（化妆品在内），时间表以 PP 40/2026 为准\n\n这意味着什么\n\n- 在 Shopee、Lazada、Tokopedia、TikTok Shop 印尼站卖化妆品的卖家，多了两年准备清真认证，不会在这个月因为没证被卡\n\n- BPJPH 明确说这是「准备期，不是拖延期」：配方里有动物源成分（胶原蛋白、胎盘、蜂蜡等）的，建议早点排认证\n\n- 延期不等于不用做别的：BPOM 备案仍然是上架前提，BPOM 新的成分技术要求也已经在执行",
+      "markets": [
+        "id"
+      ],
+      "platforms": [
+        "shopee",
+        "lazada",
+        "tokopedia",
+        "tiktok-shop"
+      ],
+      "tags": [
+        "compliance",
+        "labeling"
+      ],
+      "source_url": "https://bpjph.halal.go.id/read/penyesuaian-penahapan-kewajiban-sertifikasi-halal-diatur-dalam-pp-40-tahun-2026-begini-rinciannya",
+      "source_name": "印尼清真产品保障局 BPJPH · PP 40/2026 说明",
+      "checked": "2026-10-25",
+      "needs_review": false,
+      "sample": false,
+      "key_date": {
+        "date": "2028-10-17",
+        "label": "新截止"
+      },
+      "page": "/news/2026-10-17-indonesia-halal-cosmetics-2028/"
+    },
+    {
+      "kind": "news",
+      "id": "2026-10-15-tiktok-shop-id-false-display",
+      "type": "rules",
+      "date": "2026-10-15",
+      "title": "TikTok Shop 印尼 10月15日起严查「货不对板」，最多扣 20 分",
+      "summary": "商品和页面在类型、数量、质量、尺寸、材质、功能上明显不符，店铺健康分最多扣 20 分，商品可被下架或暂停。",
+      "body_text": "TikTok Shop 印尼站（与 Tokopedia 共用卖家中心）在政策更新页写明：2026年10月15日 起，加强处理「信息展示不实」（False Display of Information）的商品。\n\n定义：实收商品和页面展示或描述有明显差异，涉及商品类型、数量、质量、尺寸、材质、功能，或其他影响购买决定的关键属性。\n\n处罚：\n\n- 店铺健康分（AHR）每次最多扣 20 分\n\n- 商品按严重程度被停用或暂停\n\n平台要求卖家逐项核对标题、描述、图片、规格和关键宣称。\n\n美妆日化最容易出问题的地方（编辑整理，不是平台原文）：容量写 100ml 实发 50ml、套装件数、色号图与实物色差、功效宣称超出备案范围。",
+      "markets": [
+        "id"
+      ],
+      "platforms": [
+        "tiktok-shop",
+        "tokopedia"
+      ],
+      "tags": [
+        "listing",
+        "penalties"
+      ],
+      "source_url": "https://seller-id.tokopedia.com/university/essay?knowledge_id=4293090979071761&lang=en",
+      "source_name": "TikTok Shop 印尼卖家大学 · Latest Policy Updates",
+      "checked": "2026-10-22",
+      "needs_review": false,
+      "sample": false,
+      "key_date": null,
+      "page": "/news/2026-10-15-tiktok-shop-id-false-display/"
+    },
+    {
+      "kind": "news",
+      "id": "2026-10-13-tiktok-shop-sea-misleading-content",
+      "type": "rules",
+      "date": "2026-10-13",
+      "title": "TikTok Shop 东南亚五国：直播口播、字幕、封面也算宣传，美妆夸大功效一样罚",
+      "summary": "印尼、菲律宾、新加坡、泰国、越南统一执行误导内容政策：不只看商品页，短视频、直播、封面、脚本、字幕、主播昵称和简介都在审核范围；夸大功效、限时见效、修图前后对比会被处罚，屡犯加重。",
+      "body_text": "TikTok Shop 在卖家大学更新了 Misleading Content（误导内容） 政策页（页面日期 2026-10-13），写明适用 印尼、菲律宾、新加坡、泰国、越南 五个站。\n\n改了什么\n\n- 审核范围变大：以前大家主要盯标题和详情页，现在 商品页、短视频、直播 全部算，连 封面图、标题、脚本、字幕、链接、主播的言行、声音、穿着、昵称、个人简介 都在内\n\n- 夸大功效：不能说没被证明、科学上做不到、或「几天见效」这类不现实时限的效果；不能用剪辑或特效做出假效果\n\n- 货不对板：视频和直播里说的价格、品牌、退换政策、材质、产地要和挂的商品链接一致\n\n- 假认证、假背书：没拿到的奖项、认证、代言不能说；不能冒充与其他品牌有合作\n\n- 乱比价、过期促销价、假抽奖：抽奖只能用平台的 LIVE Giveaway 功能\n\n- 处罚：违规会被处理，屡犯处罚加重（第三方解读提到下架、限流、扣分、账号处罚）\n\n影响谁\n\n- 在这五个站卖 护肤、彩妆、个护、头发护理 的卖家和品牌（健康、家清、功能型商品同样受影响）\n\n- 靠 达人带货、直播 和 本地化翻译字幕 出量的店铺：商品本身合规，主播一句「用一次就不长痘」也可能让链接出事\n\n意味着什么\n\n- 卡在哪：审核从「商品页一处」变成「所有出镜内容」，达人口播、翻译字幕最容易漏；同类目的健康美妆宣称细则里，「治疗、根除、永久」「立刻、一晚、X 天见效」都是高危词\n\n- 现在该做什么：给达人一份禁用词清单和可用说法（如「改善、帮助、减少」，加「效果因人而异」）；宣称要能拿出包装原文、检测报告或政府广告批文并在镜头里展示；前后对比用未修图的真实照片；检查已发布的老视频和直播回放\n\n- 和本站此前报道的 印尼「货不对板」最多扣 20 分 (/news/2026-10-15-tiktok-shop-id-false-display/)、美妆 AIGC 规则 11月2日执法 (/news/2026-10-19-tiktok-shop-aigc-beauty/) 叠加执行，等于美妆内容在东南亚被三条规则同时看着\n\n原文：TikTok Shop · Misleading Content (https://seller-id.tokopedia.com/university/essay?knowledge_id=7753797661492993&lang=en)；健康美妆宣称细则：Misleading Claims (Health & Beauty Products) (https://seller-id.tokopedia.com/university/essay?knowledge_id=3694612986365713&lang=en)",
+      "markets": [
+        "id",
+        "ph",
+        "sg",
+        "th",
+        "vn"
+      ],
+      "platforms": [
+        "tiktok-shop"
+      ],
+      "tags": [
+        "listing",
+        "penalties"
+      ],
+      "source_url": "https://seller-id.tokopedia.com/university/essay?knowledge_id=7753797661492993&lang=en",
+      "source_name": "TikTok Shop 卖家大学 · Misleading Content（2026-10-13）",
+      "checked": "2026-10-25",
+      "needs_review": false,
+      "sample": false,
+      "key_date": null,
+      "page": "/news/2026-10-13-tiktok-shop-sea-misleading-content/"
+    },
+    {
+      "kind": "news",
+      "id": "2026-10-12-bpjph-370-cosmetics-sjph",
+      "type": "regulation",
+      "date": "2026-10-12",
+      "title": "印尼化妆品清真体系 SJPH 细则（BPJPH 370）",
+      "summary": "BPJPH 10月12日发布第370号：化妆品清真产品保障体系（SJPH）操作细则 10月18日起生效。强制持证仍按 PP 40/2026 延到 2028-10-17；现在就要拿证或做穆斯林市场定位的，要按这套搭体系。",
+      "body_text": "印尼清真产品保障局（BPJPH）2026年10月12日发布 2026年第370号决定《化妆品清真产品保障体系（SJPH）实施指南》，2026年10月18日起施行。正文与附件已核对官方副本。\n\n此前本站已报道：强制持证期限顺延到 2028年10月17日 (/news/2026-10-17-indonesia-halal-cosmetics-2028/)（PP 40/2026）。370 号不是提前强制拿证，而是把「一旦要做清真认证，体系怎么搭、原料怎么查、产线怎么隔离、标签怎么贴、事后怎么报」写成可执行细则。\n\n改了什么\n\n对企业来说，核心是整条链都要有书面 SJPH，不只交一纸证书：\n\n- 组织与人员\n\n- 书面清真政策，指定并向当局报告 Penyelia Halal（清真监督员）\n\n- 中型、大型及境外企业的监督员，须到 BPJPH 指定机构完成能力考核\n\n- 相关人员培训留痕\n\n- 原料把关\n\n- 原料、辅料、助剂、接触产线的润滑/清洁剂、包装、涂抹器都算「材料」\n\n- 属强制清真清单的材料：要有清真证或境外清真证在 BPJPH 的登记号\n\n- 清单外：工艺说明、成分、COA、无重污（Najis Berat）声明、问卷、MSDS、实验室报告等支撑材料\n\n- 人源成分（胎盘、血、毛发等）一律不可用于清真化妆品；猪基因/人基因参与的基因工程原料同样不可\n\n- 动物毛发/角/鞣制皮等有细规则，唇部/口腔区域用料更严\n\n- 产线隔离\n\n- 清真与非清真（尤其含重污）的工具、场所、清洁与保养不得混用\n\n- 共用产线有条件：非清真品不得含违禁原料，并在申请时向 BPJPH 交清单、清洁验证与污染控制文件\n\n- 猪源污染须按教法做七次洗涤等专门净化程序\n\n- 标签与追溯\n\n- 只有拿到清真证才能贴印尼清真标；小包装可贴在外盒/说明书\n\n- 境外清真证须是与 BPJPH 互认的机构，并配合印尼标与登记号\n\n- 批次留样、不合格品隔离/召回；不符合清真标准的货不得再当清真卖，也不能靠返工「洗白」\n\n- 事后监督（拿证企业）\n\n- 每年至少一次内部审核 + 管理评审，内审结果报 BPJPH\n\n- 每 6 个月向 BPJPH 报一次原料组成和/或生产过程；有变更随时报\n\n同日前后 BPJPH 还出了销售服务类 SJPH 指南（第376号等）：化妆品零售、药妆店、美妆店等销售环节另有体系要求；跨境卖家主要仍盯自家产品认证与本地经销商是否合规。\n\n影响谁\n\n- 在 Shopee / Lazada / Tokopedia / TikTok Shop 印尼站卖美妆、或计划拿清真证做穆斯林市场定位的品牌、代工厂、进口商\n\n- 配方含胶原、胎盘、蜂蜡、虫胶、乙醇、发酵原料、基因工程成分的供应链——材料证明和产线隔离最容易卡\n\n- 只卖货、短期不打算申请清真证的卖家：强制持证仍到 2028-10-17，本条不立刻改你的上架门槛；BPOM 备案照旧必做\n\n意味着什么\n\n- 卡在哪：延期只是推迟「必须持证」的日子，不是取消体系；现在申请认证的，会按 370 号查监督员资质、材料证明链、产线隔离与半年报\n\n- 省在哪：配方早做动物源/酒精/发酵介质排查，比临近 2028 再改料、改线便宜\n\n- 现在注意什么：对照 370 号列一份原料证明缺口清单；境外企业先确认监督员培训与考核路径；经销商若已推清真货，核对对方是否持有效证、标签是否印尼清真标\n\n原文（官方副本 PDF）：BPJPH Nomor 370 Tahun 2026 (https://halalmui.org/wp-content/uploads/2026/05/Salinan-370.2026.-Pedoman-Pelaksanaan-SJPH-Kosmetik-1.pdf)；强制期说明见 BPJPH · PP 40/2026 (https://bpjph.halal.go.id/read/penyesuaian-penahapan-kewajiban-sertifikasi-halal-diatur-dalam-pp-40-tahun-2026-begini-rinciannya)",
+      "markets": [
+        "id"
+      ],
+      "platforms": [
+        "shopee",
+        "lazada",
+        "tokopedia",
+        "tiktok-shop"
+      ],
+      "tags": [
+        "compliance",
+        "labeling"
+      ],
+      "source_url": "https://halalmui.org/wp-content/uploads/2026/05/Salinan-370.2026.-Pedoman-Pelaksanaan-SJPH-Kosmetik-1.pdf",
+      "source_name": "BPJPH 2026 年第 370 号决定 · 化妆品 SJPH 实施指南（官方副本）",
+      "checked": "2026-10-28",
+      "needs_review": false,
+      "sample": false,
+      "key_date": {
+        "date": "2026-10-18",
+        "label": "指南生效"
+      },
+      "page": "/news/2026-10-12-bpjph-370-cosmetics-sjph/"
+    },
+    {
+      "kind": "news",
+      "id": "2026-09-21-bpom-ingredient-rules-deadline",
+      "type": "regulation",
+      "date": "2026-09-21",
+      "title": "印尼 BPOM 美妆成分新规过渡期截止",
+      "summary": "PerBPOM 25/2025《化妆品成分技术要求》给了 12 个月过渡期。已拿到备案号的产品，要在 2026年10月3日前符合新要求。",
+      "body_text": "印尼食药监局（BPOM）的注册局 9月21日办了一场线上说明会，主题是 PerBPOM 2025年第25号条例对已备案化妆品的影响。\n\n通知里写明的时间线：\n\n- 条例 2025年10月3日 颁布，规定化妆品成分在安全、功效、质量三方面的技术要求，取代 PerBPOM 23/2019 及其 2022 年修订\n\n- 过渡期 12 个月\n\n- 持有备案号（nomor notifikasi）的企业，须在 2026年10月3日 前让已备案产品符合新要求\n\n截止日已过。在 Shopee、Lazada、Tokopedia、TikTok Shop 印尼站卖化妆品，平台都要求 BPOM 备案号。如果配方或标签还没按新条例更新，先找备案持有人确认状态。不再生产的产品，通知页也给了注销备案的入口。\n\n条例全文可在 BPK 法规库 (https://peraturan.bpk.go.id/Details/333277/peraturan-bpom-no-25-tahun-2025) 查到。",
+      "markets": [
+        "id"
+      ],
+      "platforms": [
+        "shopee",
+        "lazada",
+        "tokopedia",
+        "tiktok-shop"
+      ],
+      "tags": [
+        "ingredients",
+        "compliance"
+      ],
+      "source_url": "https://registrasiotskk.pom.go.id/kalender-kegiatan/105",
+      "source_name": "BPOM 传统药·保健品·化妆品注册局",
+      "checked": "2026-10-22",
+      "needs_review": false,
+      "sample": false,
+      "key_date": {
+        "date": "2026-10-03",
+        "label": "过渡期结束"
+      },
+      "page": "/news/2026-09-21-bpom-ingredient-rules-deadline/"
+    },
+    {
+      "kind": "news",
+      "id": "2025-03-18-shopee-id-bukti-standar-barang",
+      "type": "rules",
+      "date": "2025-03-18",
+      "title": "Shopee 印尼：上架须填报商品达标证明含化妆品许可号",
+      "summary": "印尼站卖家教育文要求按贸易部令披露达标证明；化妆品须填写注册/许可编号，并可与清真、SNI、K3L 等并列。",
+      "body_text": "Shopee 印尼卖家中心《Ketentuan Bukti Pemenuhan Standar Barang》（页面标注 18-03-2025）要求：上架前按印尼电子贸易相关规定，填写商品达标证明信息。\n\n与美妆相关的字段包括：\n\n- 化妆品、药品、食品的注册/许可/证书编号\n\n- 若法规要求，还需清真证书号、SNI 或 K3L 等\n\n未按类目正确填写可能导致下架。BPOM 通知号仍是印尼美妆上架的核心资质之一。",
+      "markets": [
+        "id"
+      ],
+      "platforms": [
+        "shopee"
+      ],
+      "tags": [
+        "listing",
+        "compliance"
+      ],
+      "source_url": "https://seller.shopee.co.id/edu/article/19552",
+      "source_name": "Shopee Seller Education ID",
+      "checked": "2026-10-23",
+      "needs_review": false,
+      "sample": false,
+      "key_date": null,
+      "page": "/news/2025-03-18-shopee-id-bukti-standar-barang/"
+    }
+  ]
+}

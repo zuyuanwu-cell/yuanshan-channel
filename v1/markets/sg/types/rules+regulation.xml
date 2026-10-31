@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>远山频道 · 新加坡</title>
+    <link>https://ys.tongzhoukuajing.com/subscribe/?markets=sg&amp;types=rules%2Cregulation</link>
+    <description>每条资讯都附来源链接。标了「待核实」的条目来自媒体或第三方转述，引用前打开原文。费用、排名和法规以官方页面为准。 公开只读，不是法律意见，也不代替来源原文。</description>
+    <language>zh-CN</language>
+    <lastBuildDate>Mon, 26 Oct 2026 12:00:00 GMT</lastBuildDate>
+    <atom:link xmlns:atom="http://www.w3.org/2005/Atom" href="https://ys.tongzhoukuajing.com/v1/markets/sg/types/rules+regulation.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>TikTok Shop 新马泰越活动门槛（美妆 SFRR）</title>
+      <link>https://ys.tongzhoukuajing.com/news/2026-10-29-tiktok-shop-sg-th-vn-campaign-qualification/</link>
+      <guid isPermaLink="false">2026-10-29-tiktok-shop-sg-th-vn-campaign-qualification</guid>
+      <pubDate>Thu, 29 Oct 2026 12:00:00 GMT</pubDate>
+      <description>10月29日卖家大学更新新/越、泰/越活动报名门槛：有店评分须≥3.0且物流履约≥2.5、AHR≥50；美妆SFRR阈值因站点后台不同（新约6.8%、泰约4.8%）。另：11月5日起按客服要求寄回买家货品才保申诉资格。</description>
+    </item>
+    <item>
+      <title>TikTok Shop 东南亚五国：直播口播、字幕、封面也算宣传，美妆夸大功效一样罚</title>
+      <link>https://ys.tongzhoukuajing.com/news/2026-10-13-tiktok-shop-sea-misleading-content/</link>
+      <guid isPermaLink="false">2026-10-13-tiktok-shop-sea-misleading-content</guid>
+      <pubDate>Tue, 13 Oct 2026 12:00:00 GMT</pubDate>
+      <description>印尼、菲律宾、新加坡、泰国、越南统一执行误导内容政策：不只看商品页，短视频、直播、封面、脚本、字幕、主播昵称和简介都在审核范围；夸大功效、限时见效、修图前后对比会被处罚，屡犯加重。</description>
+    </item>
+    <item>
+      <title>东盟化妆品指令附件 6月22日更新，新加坡 HSA 同步执行</title>
+      <link>https://ys.tongzhoukuajing.com/news/2026-06-22-asean-cosmetic-annex-update/</link>
+      <guid isPermaLink="false">2026-06-22-asean-cosmetic-annex-update</guid>
+      <pubDate>Mon, 22 Jun 2026 12:00:00 GMT</pubDate>
+      <description>东盟化妆品指令（ACD）禁用、限用、色素、防腐剂、防晒剂附件 6月22日发布新版；新加坡通报每年要重新提交一次。</description>
+    </item>
+    <item>
+      <title>新加坡修订化妆品 ACD 附属条例，2025年12月1日生效</title>
+      <link>https://ys.tongzhoukuajing.com/news/2025-11-28-sg-hsa-acd-amendment-s768/</link>
+      <guid isPermaLink="false">2025-11-28-sg-hsa-acd-amendment-s768</guid>
+      <pubDate>Fri, 28 Nov 2025 12:00:00 GMT</pubDate>
+      <description>《Health Products (Cosmetic Products — ACD) (Amendment) Regulations 2025》（S 768/2025）修订第三附表，自 2025年12月1日起施行。</description>
+    </item>
+    <item>
+      <title>Shopee 新加坡：美妆 listing 必须填写 HSA 通知号</title>
+      <link>https://ys.tongzhoukuajing.com/news/2025-01-10-shopee-sg-hsa-notification-attr/</link>
+      <guid isPermaLink="false">2025-01-10-shopee-sg-hsa-notification-attr</guid>
+      <pubDate>Fri, 10 Jan 2025 12:00:00 GMT</pubDate>
+      <description>新加坡站卖家教育要求在商品属性中填写 HSA Cosmetic Notification No.，可从通知回执或 HSA 查询页核对。</description>
+    </item>
+  </channel>
+</rss>

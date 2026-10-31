@@ -1,0 +1,102 @@
+{
+  "api": "yuanshan-channel/v1",
+  "access": "public-read",
+  "auth": null,
+  "generated": "2026-10-26",
+  "disclaimer": "每条资讯都附来源链接。标了「待核实」的条目来自媒体或第三方转述，引用前打开原文。费用、排名和法规以官方页面为准。",
+  "kind": "compliance",
+  "id": "pe",
+  "name_zh": "秘鲁",
+  "region": "拉美",
+  "region_slug": "latin-america",
+  "page": "/compliance/pe/",
+  "market": {
+    "country": "pe",
+    "name_zh": "秘鲁",
+    "flag": "🇵🇪",
+    "region": "拉美",
+    "difficulty": 3,
+    "summary": "适用安第斯强制卫生通知，但国家办事页自2022年8月17日起显示该手续停用。",
+    "items": [
+      {
+        "id": "pe-nso",
+        "name_zh": "安第斯强制卫生通知",
+        "authority": "药品局",
+        "type": "registration",
+        "mandatory": true,
+        "cost": "未知",
+        "time": "代码有效期七年",
+        "docs": [],
+        "who": "在秘鲁有法定住所的持有人",
+        "note": "第833号决定要求次区域销售前取得强制卫生通知。秘鲁主管机关为药品局。",
+        "official_url": "https://normograma.invima.gov.co/compilacion/docs/decision_comisioncandina_dec833.htm",
+        "source_checked": "2026-10-24",
+        "needs_review": false
+      },
+      {
+        "id": "pe-portal",
+        "name_zh": "国家平台手续已停用",
+        "authority": "卫生部",
+        "type": "registration",
+        "mandatory": true,
+        "cost": "未知",
+        "time": "未知",
+        "docs": [],
+        "who": "拟办理通知的企业",
+        "note": "办事页写明该服务自2022-08-17停用，页面信息可能变化。页面上的费率不作为当前可办事实。",
+        "official_url": "https://www.gob.pe/22921-solicitar-la-notificacion-sanitaria-obligatoria-nso-para-productos-cosmeticos",
+        "source_checked": "2026-10-24",
+        "needs_review": true
+      },
+      {
+        "id": "pe-import",
+        "name_zh": "进口前的经营授权",
+        "authority": "药品局",
+        "type": "local-rep",
+        "mandatory": true,
+        "cost": "未知",
+        "time": "未知",
+        "docs": [],
+        "who": "进口企业",
+        "note": "进口卫生用品前须有药店或实验室经营卫生授权。化妆品被放在该进口说明下，2018年通报正文未打开。",
+        "official_url": "https://www.digemid.minsa.gob.pe/webDigemid/establecimientos/requisitos-de-importacion/",
+        "source_checked": "2026-10-24",
+        "needs_review": true
+      },
+      {
+        "id": "pe-label",
+        "name_zh": "标签按安第斯技术法规",
+        "authority": "安第斯共同体",
+        "type": "label",
+        "mandatory": true,
+        "cost": "未知",
+        "time": "未知",
+        "docs": [],
+        "who": "通知持有人",
+        "note": "第20条要求包装符合安第斯标签技术法规。法规正文未打开。",
+        "official_url": "https://normograma.invima.gov.co/compilacion/docs/decision_comisioncandina_dec833.htm",
+        "source_checked": "2026-10-24",
+        "needs_review": true
+      }
+    ],
+    "steps": [
+      {
+        "title": "卫生通知",
+        "type": "registration"
+      },
+      {
+        "title": "确认平台是否恢复",
+        "type": "registration"
+      },
+      {
+        "title": "标签",
+        "type": "label"
+      }
+    ],
+    "last_verified": "2026-10-24",
+    "hs_codes": {
+      "status": "pending",
+      "items": []
+    }
+  }
+}

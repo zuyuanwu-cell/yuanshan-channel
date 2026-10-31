@@ -1,0 +1,102 @@
+{
+  "api": "yuanshan-channel/v1",
+  "access": "public-read",
+  "auth": null,
+  "generated": "2026-10-26",
+  "disclaimer": "每条资讯都附来源链接。标了「待核实」的条目来自媒体或第三方转述，引用前打开原文。费用、排名和法规以官方页面为准。",
+  "kind": "compliance",
+  "id": "tw",
+  "name_zh": "中国台湾",
+  "region": "东亚",
+  "region_slug": "east-asia",
+  "page": "/compliance/tw/",
+  "market": {
+    "country": "tw",
+    "name_zh": "中国台湾",
+    "flag": "🇹🇼",
+    "region": "东亚",
+    "difficulty": 2,
+    "summary": "除免办工厂登记场所生产的固态手工香皂外，供应前须完成产品登录并建档案。",
+    "items": [
+      {
+        "id": "tw-notify",
+        "name_zh": "上市前产品登录",
+        "authority": "食药署",
+        "type": "registration",
+        "mandatory": true,
+        "cost": "未知",
+        "time": "未知",
+        "docs": [],
+        "who": "制造或输入业者",
+        "note": "除免办工厂登记场所的固态手工香皂外，供应前须登录。仅外销且不在台供应者无需登录。",
+        "official_url": "https://www.fda.gov.tw/tc/newsContent.aspx?id=30612",
+        "source_checked": "2026-10-24",
+        "needs_review": false
+      },
+      {
+        "id": "tw-pif",
+        "name_zh": "产品信息档案",
+        "authority": "食药署",
+        "type": "safety",
+        "mandatory": true,
+        "cost": "未知",
+        "time": "未知",
+        "docs": [],
+        "who": "制造或输入业者",
+        "note": "法规要求与产品登录同时建立产品信息档案。档案办法正文未逐条打开。",
+        "official_url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=L0030013",
+        "source_checked": "2026-10-24",
+        "needs_review": false
+      },
+      {
+        "id": "tw-label",
+        "name_zh": "中文包装标示",
+        "authority": "食药署",
+        "type": "label",
+        "mandatory": true,
+        "cost": "未知",
+        "time": "未知",
+        "docs": [],
+        "who": "制造或输入业者",
+        "note": "须标品名、用途、用法、净含量、全成分、注意事项、业者、原产国、日期和批号。全成分可用英文。",
+        "official_url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=L0030013",
+        "source_checked": "2026-10-24",
+        "needs_review": false
+      },
+      {
+        "id": "tw-ban",
+        "name_zh": "禁用成分",
+        "authority": "食药署",
+        "type": "safety",
+        "mandatory": true,
+        "cost": "未知",
+        "time": "未知",
+        "docs": [],
+        "who": "化妆品业者",
+        "note": "不得含汞、铅或其他公告禁用成分。微量且对健康无害的残留除外。",
+        "official_url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=L0030013",
+        "source_checked": "2026-10-24",
+        "needs_review": false
+      }
+    ],
+    "steps": [
+      {
+        "title": "登录",
+        "type": "registration"
+      },
+      {
+        "title": "档案",
+        "type": "safety"
+      },
+      {
+        "title": "标示",
+        "type": "label"
+      }
+    ],
+    "last_verified": "2026-10-24",
+    "hs_codes": {
+      "status": "pending",
+      "items": []
+    }
+  }
+}

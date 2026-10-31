@@ -1,0 +1,247 @@
+{
+  "api": "yuanshan-channel/v1",
+  "access": "public-read",
+  "auth": null,
+  "generated": "2026-10-26",
+  "disclaimer": "每条资讯都附来源链接。标了「待核实」的条目来自媒体或第三方转述，引用前打开原文。费用、排名和法规以官方页面为准。",
+  "kind": "feed",
+  "id": "th",
+  "title": "泰国",
+  "markets": [
+    "th"
+  ],
+  "types": [
+    "rules",
+    "regulation",
+    "rankings"
+  ],
+  "filter": {
+    "markets": [
+      "th"
+    ],
+    "types": [
+      "rules",
+      "regulation",
+      "rankings"
+    ],
+    "include_global": false
+  },
+  "count": 9,
+  "items": [
+    {
+      "kind": "news",
+      "id": "2026-10-29-tiktok-shop-sg-th-vn-campaign-qualification",
+      "type": "rules",
+      "date": "2026-10-29",
+      "title": "TikTok Shop 新马泰越活动门槛（美妆 SFRR）",
+      "summary": "10月29日卖家大学更新新/越、泰/越活动报名门槛：有店评分须≥3.0且物流履约≥2.5、AHR≥50；美妆SFRR阈值因站点后台不同（新约6.8%、泰约4.8%）。另：11月5日起按客服要求寄回买家货品才保申诉资格。",
+      "body_text": "TikTok Shop 新加坡 / 越南卖家大学 Latest Policy Updates (https://seller-sg.tiktok.com/university/essay?knowledge_id=4242906912540433&lang=en)（页面日期 2026-10-29，适用范围写明 Singapore, Vietnam）与 泰国 / 越南 同日更新页 (https://seller-th.tiktok.com/university/essay?knowledge_id=4293090979596049&lang=en)（Applies to: Thailand, Vietnam）同步放出「活动报名资格标准更新」。细则见《Campaign Qualification Guidelines for Sellers (https://seller-sg.tiktok.com/university/essay?knowledge_id=3043429827233537&lang=en)》（标注 2026-10-29；泰站镜像 同文 (https://seller-th.tiktok.com/university/essay?knowledge_id=3043429823629057&lang=en)）。\n\n印尼站同主题已单独写过：印尼大促门槛与美妆 SFRR 1.2% (/news/2026-10-30-tiktok-shop-id-campaign-qualification/)——三国后台的退货率数字与印尼不同，勿混用。\n\n改了什么\n\n1. 有店铺评分（Store Rating）的店\n\n同时满足：\n\n- 店铺评分 ≥ 3.0，且其中 物流与履约（Logistics and Fulfillment）≥ 2.5\n\n- 账号健康分（AHR）≥ 50\n\n- 店铺未被标成风险或欺诈相关\n\n2. 还没有店铺评分的店\n\n- AHR ≥ 50\n\n- 近 7 天 延迟发货率（LDR）< 10%\n\n- 近 7 天 卖家责任取消率（SFCR）< 10%\n\n- 近 30 天卖家侧差评率 < 1.5%（仅当差评订单超过 10 单时才计）\n\n- 同样不能有风险/欺诈标记\n\n3. 商品侧（两种店都要过）\n\n- 近 30 天 商品差评率 < 1.5%（仅当差评订单超过 5 单时才计）\n\n- 近 7 天 卖家责任退货/退款率（SFRR） 按类目、按你打开的 Seller University 站点展示不同数字（美妆个护多归 FMCG / Lifestyle，以 Seller Center 为准）：\n- 新加坡域细则页：Electronics / Fashion 低于 10%；FMCG / Lifestyle 低于 6.8%（近 7 天卖家责任退货/退款订单 ≥ 4 单才计）\n\n- 泰国域细则页：Electronics 低于 5%；Fashion / FMCG 低于 4.8%；Lifestyle 低于 4.5%（≥ 5 单才计）\n\n- 越南站：上述两份 Latest Policy Updates 都写了 Applies to Vietnam，具体阈值以越南 Seller Center 当前显示为准，不要直接套印尼的 1.2%\n\n- 商品未被标「过度冒犯内容」\n\n活动期内指标掉线可能被移出活动；修好后可再报。平台保留因严重违规/合规原因随时移出的权利。\n\n4. 11月5日起：客服要求寄回买家货品，不寄就丢申诉资格\n\n同日 Latest Policy Updates 另条：自 2026年11月5日起，纠纷结案后若客服联系你、要求把退回商品再寄给买家，按指示寄回才继续保有该案申诉资格；未按要求寄回，后续申诉将不予批准。只需在客服主动联系后操作，未接到通知不用提前寄。\n\n影响谁\n\n- 准备报 11.11 / 平台官方大促 的新加坡、泰国、越南站美妆与个护店（本地与跨境）\n\n- 售后、漏发、破损、图文不符偏多的店——SFRR 和差评率会先卡报名\n\n- 物流履约子分不到 2.5 的店：总分过 3.0 也会卡\n\n- 常打退货申诉的店：11月5日后要预留「寄回买家」物流与凭证\n\n意味着什么\n\n东南亚多站把大促入场券对齐到同一套「店评分 + AHR + 履约」框架，但 SFRR 数字按站点后台走。做新/泰/越美妆的，报名前打开本站 Seller Center 看当前 SFRR 阈值，别拿印尼 1.2% 或别国页上的百分比硬套。11.11 前两周同时盯店评分拆分、AHR、近 7 天 SFRR，以及 11月5日寄回申诉新规则。\n\n核对来源：上文 SG/TH Latest Policy Updates 与 Campaign Qualification Guidelines（核对于 2026-10-31）。",
+      "markets": [
+        "sg",
+        "th",
+        "vn"
+      ],
+      "platforms": [
+        "tiktok-shop"
+      ],
+      "tags": [
+        "listing"
+      ],
+      "source_url": "https://seller-sg.tiktok.com/university/essay?knowledge_id=3043429827233537&lang=en",
+      "source_name": "TikTok Shop SG · Campaign Qualification（2026-10-29）",
+      "checked": "2026-10-31",
+      "needs_review": false,
+      "sample": false,
+      "key_date": {
+        "date": "2026-11-05",
+        "label": "退货寄回才可申诉"
+      },
+      "page": "/news/2026-10-29-tiktok-shop-sg-th-vn-campaign-qualification/"
+    },
+    {
+      "kind": "ranking",
+      "id": "lazada-th/2026-10-26",
+      "type": "rankings",
+      "date": "2026-10-26",
+      "title": "Lazada 泰国 · 2026-10-26",
+      "summary": "30 个单品 · Lazada TH skincare · 部分数据 · 待核实",
+      "markets": [
+        "th"
+      ],
+      "board": "lazada-th",
+      "source_url": "https://www.lazada.co.th/",
+      "source_name": "Lazada TH skincare",
+      "needs_review": true,
+      "sample": false,
+      "partial": true,
+      "page": "/rankings/lazada-th/",
+      "detail": "/v1/rankings/lazada-th/2026-10-26.json"
+    },
+    {
+      "kind": "ranking",
+      "id": "shopee-th/2026-10-26",
+      "type": "rankings",
+      "date": "2026-10-26",
+      "title": "Shopee 泰国 · 2026-10-26",
+      "summary": "30 个单品 · Shopee TH skincare (sales) · 部分数据 · 待核实",
+      "markets": [
+        "th"
+      ],
+      "board": "shopee-th",
+      "source_url": "https://shopee.co.th/",
+      "source_name": "Shopee TH skincare (sales)",
+      "needs_review": true,
+      "sample": false,
+      "partial": true,
+      "page": "/rankings/shopee-th/",
+      "detail": "/v1/rankings/shopee-th/2026-10-26.json"
+    },
+    {
+      "kind": "ranking",
+      "id": "lazada-th/2026-10-23",
+      "type": "rankings",
+      "date": "2026-10-23",
+      "title": "Lazada 泰国 · 2026-10-23",
+      "summary": "30 个单品 · Lazada TH · skincare (sold) · 待核实",
+      "markets": [
+        "th"
+      ],
+      "board": "lazada-th",
+      "source_url": "https://www.lazada.co.th/catalog/?q=skincare&sort=solddesc",
+      "source_name": "Lazada TH · skincare (sold)",
+      "needs_review": true,
+      "sample": false,
+      "partial": false,
+      "page": "/rankings/lazada-th/",
+      "detail": "/v1/rankings/lazada-th/2026-10-23.json"
+    },
+    {
+      "kind": "ranking",
+      "id": "shopee-th/2026-10-23",
+      "type": "rankings",
+      "date": "2026-10-23",
+      "title": "Shopee 泰国 · 2026-10-23",
+      "summary": "30 个单品 · Shopee TH · สกินแคร์ (sales sort) · 待核实",
+      "markets": [
+        "th"
+      ],
+      "board": "shopee-th",
+      "source_url": "https://shopee.co.th/search?keyword=สกินแคร์&sortBy=sales",
+      "source_name": "Shopee TH · สกินแคร์ (sales sort)",
+      "needs_review": true,
+      "sample": false,
+      "partial": false,
+      "page": "/rankings/shopee-th/",
+      "detail": "/v1/rankings/shopee-th/2026-10-23.json"
+    },
+    {
+      "kind": "news",
+      "id": "2026-10-22-thailand-tcct-gp-fee-freeze",
+      "type": "rules",
+      "date": "2026-10-22",
+      "title": "泰国竞争委员会：Shopee、Lazada、TikTok 冻结上调佣金 6 个月（至2027年2月）",
+      "summary": "据 Rainmaker 转引 Thairath：TCCT 依《贸易竞争法》第60条责令 Shopee、Lazada、TikTok 等暂停上调 GP 六个月（报道称 2026年8月至2027年2月）。事先报备草案写的是叫车与即时配送，预计12月公布。未核对委员会原文。",
+      "body_text": "背景\n\n据 Rainmaker 2026年10月22日 报道（转引 Thairath，文末给出的原文是 https://www.thairath.co.th/money/economics/thai_economics/2967598 (https://www.thairath.co.th/money/economics/thai_economics/2967598)）。泰国贸易竞争委员会（คณะกรรมการการแข่งขันทางการค้า / TCCT，办事处常称 กขค.）在加强对大企业的监管，理由是费用和 GP 上调加重了店铺成本，尤其是靠平台接触顾客的中小商家。\n\n这篇报道把两件不同的事放在一起，读的时候要拆开。\n\n第一件是货款账期，不是平台佣金。报道称，委员会把大型零售、批发与中小商家之间的商业信用期（Credit Term）公平交易指引，从原来的指引升级为委员会公告，以便检查。它要处理的是超过约定 30–45 天仍不付货款；报道称有投诉拖延超过 8 个月。这影响的是给大型零售或批发供货、被拖账的商家。\n\n第二件才是电商佣金。报道称，商家投诉 Shopee、Lazada、TikTok 这类多边平台，在没有适当事先通知的情况下上调 GP、费用和佣金。委员会依《贸易竞争法》（佛历 2560 年，即 2017 年）第 60 条，责令暂停上调 GP 6 个月，期间为佛历 2569 年 8 月至佛历 2570 年 2 月，也就是报道所写的 2026年8月至2027年2月。平台须提交调价数据和理由，供委员会办公室审查调价标准和是否适当。\n\n报道称，检查发现 6 家以上平台处于这项暂停上调措施之下。其中 Shopee 自佛历 2565 年（2022 年）以来上调 GP 10 次、累计 433%；Lazada 上调 7 次、累计 367%。TikTok 被点名为受监管的平台，这篇报道没有给出它的上调次数或累计幅度。\n\n报道在电商这段之后，另写了一项仍在征求意见的草案：监管数字平台里网约车和按需配送（人、货物、餐饮）的费率结构。该段称，佛历 2569 年 4 月至 8 月已有 8 轮费用上调；草案方向是每次上调前向委员会办公室报备 GP 结构，预计佛历 2569 年 12 月（2026年12月）公布。不要把这则草案直接当成 Shopee、Lazada、TikTok 已经生效的新规则。\n\n谁受影响\n\n- 泰国站的 Shopee、Lazada、TikTok 商家，报道强调的是依赖平台获客的中小商家。美妆日化没有被单独点名。护肤、彩妆、洗护如果走这三家泰国站，和报道里的「平台店铺」是同一类对象，但类目费率差这篇报道没有写。\n\n- 平台方：报道称须交出调价数据和理由，供审查。\n\n- 给大型零售或批发供货的工厂：账期公告是另一条，看的是货款多久到账，不是 GP。\n\n- 网约车、即时配送：12 月草案若按报道落地，约束的是这类费率，不是化妆品通报。\n\n怎么做\n\n冻结期内，报道的口径是这些平台不应再上调 GP。若泰国站后台或邮件通知佣金上调，先留存通知原文、时间和适用类目，再对照是不是报道所称的冻结范围。本站没有打开 TCCT 命令原文，不能据此认定某一次调价违规。\n\n433% 和 367% 是报道里的平台历史累计上调，不是你这个店铺的涨幅，也不能当成当前美妆类目费率。定价仍要以卖家中心当时显示的费率为准。\n\n佣金冻结不替代泰国化妆品通报和泰文标签。类目能不能发、要不要先拿泰国 FDA 通报，见站内 Lazada 泰国站 97 个美妆类目放开跨境直邮 (/news/2026-09-03-lazada-th-beauty-97-categories-open/) 和 泰国合规 (/compliance/th/)。成分禁限与这条费用新闻无关，禁用名单见 泰国 FDA 新增 24 种化妆品禁用成分 (/news/2026-06-12-thailand-24-prohibited-ingredients/)。\n\n报道说受影响的商家可以留意委员会办公室的投诉渠道和措施说明。原文没有给出投诉网址，这里不补链接。\n\n来源\n\n- 本条所据页面：Rainmaker，2026-10-22，https://www.rainmaker.in.th/tcct-control-platform-gp-fees-sme/ (https://www.rainmaker.in.th/tcct-control-platform-gp-fees-sme/)\n\n- 该文文末注明的上游：Thairath，https://www.thairath.co.th/money/economics/thai_economics/2967598 (https://www.thairath.co.th/money/economics/thai_economics/2967598)（本条未再打开这篇泰媒原文）\n\n待核实：来源是媒体转述，未找到 TCCT 原始命令。冻结期的具体起止日、6 家以上平台的名单、433% 与 367% 的计算口径，都还没有对上委员会文本。页面上的关键日期仍按报道中的「2027年2月」取月末 2027-02-28，只作提醒，不是命令载明的截止日。",
+      "markets": [
+        "th"
+      ],
+      "platforms": [
+        "shopee",
+        "lazada",
+        "tiktok-shop"
+      ],
+      "tags": [
+        "fees"
+      ],
+      "source_url": "https://www.rainmaker.in.th/tcct-control-platform-gp-fees-sme/",
+      "source_name": "Rainmaker（转引 Thairath）",
+      "checked": "2026-10-26",
+      "needs_review": true,
+      "sample": false,
+      "key_date": {
+        "date": "2027-02-28",
+        "label": "冻结期满"
+      },
+      "page": "/news/2026-10-22-thailand-tcct-gp-fee-freeze/"
+    },
+    {
+      "kind": "news",
+      "id": "2026-10-13-tiktok-shop-sea-misleading-content",
+      "type": "rules",
+      "date": "2026-10-13",
+      "title": "TikTok Shop 东南亚五国：直播口播、字幕、封面也算宣传，美妆夸大功效一样罚",
+      "summary": "印尼、菲律宾、新加坡、泰国、越南统一执行误导内容政策：不只看商品页，短视频、直播、封面、脚本、字幕、主播昵称和简介都在审核范围；夸大功效、限时见效、修图前后对比会被处罚，屡犯加重。",
+      "body_text": "TikTok Shop 在卖家大学更新了 Misleading Content（误导内容） 政策页（页面日期 2026-10-13），写明适用 印尼、菲律宾、新加坡、泰国、越南 五个站。\n\n改了什么\n\n- 审核范围变大：以前大家主要盯标题和详情页，现在 商品页、短视频、直播 全部算，连 封面图、标题、脚本、字幕、链接、主播的言行、声音、穿着、昵称、个人简介 都在内\n\n- 夸大功效：不能说没被证明、科学上做不到、或「几天见效」这类不现实时限的效果；不能用剪辑或特效做出假效果\n\n- 货不对板：视频和直播里说的价格、品牌、退换政策、材质、产地要和挂的商品链接一致\n\n- 假认证、假背书：没拿到的奖项、认证、代言不能说；不能冒充与其他品牌有合作\n\n- 乱比价、过期促销价、假抽奖：抽奖只能用平台的 LIVE Giveaway 功能\n\n- 处罚：违规会被处理，屡犯处罚加重（第三方解读提到下架、限流、扣分、账号处罚）\n\n影响谁\n\n- 在这五个站卖 护肤、彩妆、个护、头发护理 的卖家和品牌（健康、家清、功能型商品同样受影响）\n\n- 靠 达人带货、直播 和 本地化翻译字幕 出量的店铺：商品本身合规，主播一句「用一次就不长痘」也可能让链接出事\n\n意味着什么\n\n- 卡在哪：审核从「商品页一处」变成「所有出镜内容」，达人口播、翻译字幕最容易漏；同类目的健康美妆宣称细则里，「治疗、根除、永久」「立刻、一晚、X 天见效」都是高危词\n\n- 现在该做什么：给达人一份禁用词清单和可用说法（如「改善、帮助、减少」，加「效果因人而异」）；宣称要能拿出包装原文、检测报告或政府广告批文并在镜头里展示；前后对比用未修图的真实照片；检查已发布的老视频和直播回放\n\n- 和本站此前报道的 印尼「货不对板」最多扣 20 分 (/news/2026-10-15-tiktok-shop-id-false-display/)、美妆 AIGC 规则 11月2日执法 (/news/2026-10-19-tiktok-shop-aigc-beauty/) 叠加执行，等于美妆内容在东南亚被三条规则同时看着\n\n原文：TikTok Shop · Misleading Content (https://seller-id.tokopedia.com/university/essay?knowledge_id=7753797661492993&lang=en)；健康美妆宣称细则：Misleading Claims (Health & Beauty Products) (https://seller-id.tokopedia.com/university/essay?knowledge_id=3694612986365713&lang=en)",
+      "markets": [
+        "id",
+        "ph",
+        "sg",
+        "th",
+        "vn"
+      ],
+      "platforms": [
+        "tiktok-shop"
+      ],
+      "tags": [
+        "listing",
+        "penalties"
+      ],
+      "source_url": "https://seller-id.tokopedia.com/university/essay?knowledge_id=7753797661492993&lang=en",
+      "source_name": "TikTok Shop 卖家大学 · Misleading Content（2026-10-13）",
+      "checked": "2026-10-25",
+      "needs_review": false,
+      "sample": false,
+      "key_date": null,
+      "page": "/news/2026-10-13-tiktok-shop-sea-misleading-content/"
+    },
+    {
+      "kind": "news",
+      "id": "2026-09-03-lazada-th-beauty-97-categories-open",
+      "type": "rules",
+      "date": "2026-09-03",
+      "title": "Lazada 泰国站：97 个美妆类目放开跨境直邮，但喷雾/压缩罐照样禁运、泰国 FDA 证先拿再上架",
+      "summary": "9月3日起，Lazada 跨境站把发往泰国的 97 个美妆类目从「禁限运」改为「可运」，适用中国内地、香港、韩国、日本发出的 LGS 跨境直邮包裹；本地仓（3PF、FBL）不适用。压缩罐装和喷雾类一律仍按危险品禁运，需要泰国 FDA 等证书的商品必须先拿证再上架。",
+      "body_text": "以前很多美妆品发不了 Lazada 泰国站的跨境直邮，物流这一关就被拦下。2026年9月3日起，Lazada 跨境站把履约到泰国的 97 个美妆类目 改成了「可运」，在知识库禁运表里标成绿色。\n\n改了什么\n\n- 97 个美妆类目（护肤、彩妆、个护等）从「禁限运」变成「可运」\n\n- 只适用 LGS 跨境直邮：从中国内地、中国香港、韩国、日本发往泰国的包裹\n\n- 3PF（第三方仓）和 FBL（Lazada 官方仓）这类本地履约不在这次调整里\n\n两条红线没变：\n\n- 压缩罐装、喷雾类（定妆喷雾、防晒喷雾、补水喷雾、慕斯、压力瓶精华等）不管挂哪个美妆子类目，一律按危险品禁运，揽收环节就会被拦\n\n- 需要 泰国 FDA（化妆品通报）等证书 的商品，平台建议 先拿证、再上架\n\n影响谁\n\n- 走直邮的中国美妆卖家和工厂店：泰国站可上架的 SKU 一下多了不少，膏霜、粉类、滴管精华、彩妆这些非压力包装的品最受益\n\n- 靠喷雾、罐装慕斯走量的卖家：类目翻绿也发不了，别混进普通包裹，退件加处罚两头亏\n\n- 本地仓卖家：这条跟你无关，可售范围按原规则\n\n现在该做什么\n\n- 在 Lazada 卖家知识库打开《【禁限运】- 所有国家禁运产品一览表》，逐个对照你计划上架的类目是否已标绿\n\n- 想上新的产品先排泰国 FDA 化妆品通报（需要泰国本地持证方），周期通常要提前一到两个月规划\n\n- 标签按泰国要求准备泰文信息，成分表和检测报告备齐\n\n- 把喷雾、压缩罐 SKU 单独拉出来，改走本地仓或其他合规渠道\n\n注意：泰国目前平台佣金处于冻结期，可参考站内 泰国竞争委员会冻结佣金 (/news/2026-10-22-thailand-tcct-gp-fee-freeze/)。\n\n来源：AMZ123、卖家之家、出海网对 Lazada 知识库禁运表更新的报道（2026-09）。Lazada 知识库需卖家登录查看，具体 97 个类目以知识库表格为准。",
+      "markets": [
+        "th"
+      ],
+      "platforms": [
+        "lazada"
+      ],
+      "tags": [
+        "listing",
+        "compliance"
+      ],
+      "source_url": "https://www.amz123.com/kx/QzCvlElZ",
+      "source_name": "AMZ123 / 卖家之家（转述 Lazada 知识库《【禁限运】- 所有国家禁运产品一览表》）",
+      "checked": "2026-10-26",
+      "needs_review": false,
+      "sample": false,
+      "key_date": null,
+      "page": "/news/2026-09-03-lazada-th-beauty-97-categories-open/"
+    },
+    {
+      "kind": "news",
+      "id": "2026-06-12-thailand-24-prohibited-ingredients",
+      "type": "regulation",
+      "date": "2026-06-12",
+      "title": "泰国美妆禁用成分新增 24 种（Thai FDA）",
+      "summary": "泰国卫生部第 6 号禁用成分公告新增 24 种物质，并修订 3 项，其中 D4（环四硅氧烷）作为杂质超 0.1% 即禁止。",
+      "body_text": "- 新增 24 种禁用物质（第 1686–1709 项）\n\n- 修订 3 项：2-乙基己酸、茶碱、D4\n\n- D4 作为杂质超过 0.1% 即不允许\n\n- 2026年6月13日生效\n\n含硅油的护发、底妆类注意 D4 残留。",
+      "markets": [
+        "th"
+      ],
+      "platforms": [],
+      "tags": [
+        "ingredients"
+      ],
+      "source_url": "https://cosmetic.chemlinked.com/news/cosmetic-news/thailand-updates-list-of-prohibited-cosmetic-ingredients-with-24-additions-and-3-revisions",
+      "source_name": "ChemLinked",
+      "checked": "2026-10-23",
+      "needs_review": false,
+      "sample": false,
+      "key_date": null,
+      "page": "/news/2026-06-12-thailand-24-prohibited-ingredients/"
+    }
+  ]
+}

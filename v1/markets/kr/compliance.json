@@ -1,0 +1,94 @@
+{
+  "api": "yuanshan-channel/v1",
+  "access": "public-read",
+  "auth": null,
+  "generated": "2026-10-26",
+  "disclaimer": "每条资讯都附来源链接。标了「待核实」的条目来自媒体或第三方转述，引用前打开原文。费用、排名和法规以官方页面为准。",
+  "kind": "compliance",
+  "id": "kr",
+  "name_zh": "韩国",
+  "region": "东亚",
+  "region_slug": "east-asia",
+  "page": "/compliance/kr/",
+  "market": {
+    "country": "kr",
+    "name_zh": "韩国",
+    "flag": "🇰🇷",
+    "region": "东亚",
+    "difficulty": 2,
+    "summary": "进口商须登记为化妆品「责任销售业」，每次通关前预申报。",
+    "items": [
+      {
+        "id": "kr-distributor",
+        "name_zh": "化妆品责任销售业登记",
+        "authority": "MFDS",
+        "type": "local-rep",
+        "mandatory": true,
+        "cost": "未知",
+        "time": "未知",
+        "docs": [
+          "登记申请",
+          "责任销售管理人资质"
+        ],
+        "who": "韩国进口商",
+        "note": "",
+        "official_url": "https://www.mfds.go.kr/wpge/m_642/de050601l0021.do",
+        "source_checked": "2026-10-23",
+        "needs_review": false
+      },
+      {
+        "id": "kr-customs",
+        "name_zh": "通关前标准通关预申报",
+        "authority": "KPTA / 韩国海关",
+        "type": "tax-customs",
+        "mandatory": true,
+        "cost": "未知",
+        "time": "未知",
+        "docs": [],
+        "who": "进口商",
+        "note": "HS 编码待补",
+        "official_url": "https://www.customs.go.kr/call/ad/crmcc/selectFaqViewPage.do?cnslKnwlSrno=239&mi=6822",
+        "source_checked": "2026-10-23",
+        "needs_review": true
+      },
+      {
+        "id": "kr-label",
+        "name_zh": "韩文标签",
+        "authority": "MFDS",
+        "type": "label",
+        "mandatory": true,
+        "cost": "未知",
+        "time": "未知",
+        "docs": [
+          "全成分",
+          "责任销售业者",
+          "有效期"
+        ],
+        "who": "进口商",
+        "note": "2026-10-20 起（法律第22113号）：包装/标示被损毁、伪造、变造的化妆品，MFDS 可要求卖家停售并删除网店商品信息",
+        "official_url": "https://www.mfds.go.kr/eng/index.do",
+        "source_checked": "2026-10-23",
+        "needs_review": true
+      }
+    ],
+    "steps": [
+      {
+        "title": "找本地代表",
+        "type": "local-rep"
+      },
+      {
+        "title": "做标签",
+        "type": "label"
+      },
+      {
+        "title": "清关",
+        "type": "tax-customs"
+      }
+    ],
+    "last_verified": "2026-10-23",
+    "hs_codes": {
+      "status": "pending",
+      "items": []
+    }
+  }
+}

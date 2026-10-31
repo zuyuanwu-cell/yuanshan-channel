@@ -1,0 +1,38 @@
+{
+  "api": "yuanshan-channel/v1",
+  "access": "public-read",
+  "auth": null,
+  "generated": "2026-10-26",
+  "disclaimer": "每条资讯都附来源链接。标了「待核实」的条目来自媒体或第三方转述，引用前打开原文。费用、排名和法规以官方页面为准。",
+  "kind": "news",
+  "item": {
+    "kind": "news",
+    "id": "2026-10-22-thailand-tcct-gp-fee-freeze",
+    "type": "rules",
+    "date": "2026-10-22",
+    "title": "泰国竞争委员会：Shopee、Lazada、TikTok 冻结上调佣金 6 个月（至2027年2月）",
+    "summary": "据 Rainmaker 转引 Thairath：TCCT 依《贸易竞争法》第60条责令 Shopee、Lazada、TikTok 等暂停上调 GP 六个月（报道称 2026年8月至2027年2月）。事先报备草案写的是叫车与即时配送，预计12月公布。未核对委员会原文。",
+    "body_text": "背景\n\n据 Rainmaker 2026年10月22日 报道（转引 Thairath，文末给出的原文是 https://www.thairath.co.th/money/economics/thai_economics/2967598 (https://www.thairath.co.th/money/economics/thai_economics/2967598)）。泰国贸易竞争委员会（คณะกรรมการการแข่งขันทางการค้า / TCCT，办事处常称 กขค.）在加强对大企业的监管，理由是费用和 GP 上调加重了店铺成本，尤其是靠平台接触顾客的中小商家。\n\n这篇报道把两件不同的事放在一起，读的时候要拆开。\n\n第一件是货款账期，不是平台佣金。报道称，委员会把大型零售、批发与中小商家之间的商业信用期（Credit Term）公平交易指引，从原来的指引升级为委员会公告，以便检查。它要处理的是超过约定 30–45 天仍不付货款；报道称有投诉拖延超过 8 个月。这影响的是给大型零售或批发供货、被拖账的商家。\n\n第二件才是电商佣金。报道称，商家投诉 Shopee、Lazada、TikTok 这类多边平台，在没有适当事先通知的情况下上调 GP、费用和佣金。委员会依《贸易竞争法》（佛历 2560 年，即 2017 年）第 60 条，责令暂停上调 GP 6 个月，期间为佛历 2569 年 8 月至佛历 2570 年 2 月，也就是报道所写的 2026年8月至2027年2月。平台须提交调价数据和理由，供委员会办公室审查调价标准和是否适当。\n\n报道称，检查发现 6 家以上平台处于这项暂停上调措施之下。其中 Shopee 自佛历 2565 年（2022 年）以来上调 GP 10 次、累计 433%；Lazada 上调 7 次、累计 367%。TikTok 被点名为受监管的平台，这篇报道没有给出它的上调次数或累计幅度。\n\n报道在电商这段之后，另写了一项仍在征求意见的草案：监管数字平台里网约车和按需配送（人、货物、餐饮）的费率结构。该段称，佛历 2569 年 4 月至 8 月已有 8 轮费用上调；草案方向是每次上调前向委员会办公室报备 GP 结构，预计佛历 2569 年 12 月（2026年12月）公布。不要把这则草案直接当成 Shopee、Lazada、TikTok 已经生效的新规则。\n\n谁受影响\n\n- 泰国站的 Shopee、Lazada、TikTok 商家，报道强调的是依赖平台获客的中小商家。美妆日化没有被单独点名。护肤、彩妆、洗护如果走这三家泰国站，和报道里的「平台店铺」是同一类对象，但类目费率差这篇报道没有写。\n\n- 平台方：报道称须交出调价数据和理由，供审查。\n\n- 给大型零售或批发供货的工厂：账期公告是另一条，看的是货款多久到账，不是 GP。\n\n- 网约车、即时配送：12 月草案若按报道落地，约束的是这类费率，不是化妆品通报。\n\n怎么做\n\n冻结期内，报道的口径是这些平台不应再上调 GP。若泰国站后台或邮件通知佣金上调，先留存通知原文、时间和适用类目，再对照是不是报道所称的冻结范围。本站没有打开 TCCT 命令原文，不能据此认定某一次调价违规。\n\n433% 和 367% 是报道里的平台历史累计上调，不是你这个店铺的涨幅，也不能当成当前美妆类目费率。定价仍要以卖家中心当时显示的费率为准。\n\n佣金冻结不替代泰国化妆品通报和泰文标签。类目能不能发、要不要先拿泰国 FDA 通报，见站内 Lazada 泰国站 97 个美妆类目放开跨境直邮 (/news/2026-09-03-lazada-th-beauty-97-categories-open/) 和 泰国合规 (/compliance/th/)。成分禁限与这条费用新闻无关，禁用名单见 泰国 FDA 新增 24 种化妆品禁用成分 (/news/2026-06-12-thailand-24-prohibited-ingredients/)。\n\n报道说受影响的商家可以留意委员会办公室的投诉渠道和措施说明。原文没有给出投诉网址，这里不补链接。\n\n来源\n\n- 本条所据页面：Rainmaker，2026-10-22，https://www.rainmaker.in.th/tcct-control-platform-gp-fees-sme/ (https://www.rainmaker.in.th/tcct-control-platform-gp-fees-sme/)\n\n- 该文文末注明的上游：Thairath，https://www.thairath.co.th/money/economics/thai_economics/2967598 (https://www.thairath.co.th/money/economics/thai_economics/2967598)（本条未再打开这篇泰媒原文）\n\n待核实：来源是媒体转述，未找到 TCCT 原始命令。冻结期的具体起止日、6 家以上平台的名单、433% 与 367% 的计算口径，都还没有对上委员会文本。页面上的关键日期仍按报道中的「2027年2月」取月末 2027-02-28，只作提醒，不是命令载明的截止日。",
+    "markets": [
+      "th"
+    ],
+    "platforms": [
+      "shopee",
+      "lazada",
+      "tiktok-shop"
+    ],
+    "tags": [
+      "fees"
+    ],
+    "source_url": "https://www.rainmaker.in.th/tcct-control-platform-gp-fees-sme/",
+    "source_name": "Rainmaker（转引 Thairath）",
+    "checked": "2026-10-26",
+    "needs_review": true,
+    "sample": false,
+    "key_date": {
+      "date": "2027-02-28",
+      "label": "冻结期满"
+    },
+    "page": "/news/2026-10-22-thailand-tcct-gp-fee-freeze/"
+  }
+}

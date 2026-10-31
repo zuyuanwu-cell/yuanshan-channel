@@ -1,0 +1,72 @@
+{
+  "api": "yuanshan-channel/v1",
+  "access": "public-read",
+  "auth": null,
+  "generated": "2026-10-26",
+  "disclaimer": "每条资讯都附来源链接。标了「待核实」的条目来自媒体或第三方转述，引用前打开原文。费用、排名和法规以官方页面为准。",
+  "kind": "compliance",
+  "id": "tr",
+  "name_zh": "土耳其",
+  "region": "中东",
+  "region_slug": "middle-east",
+  "page": "/compliance/tr/",
+  "market": {
+    "country": "tr",
+    "name_zh": "土耳其",
+    "flag": "🇹🇷",
+    "region": "中东",
+    "difficulty": 2,
+    "summary": "化妆品首次上市前，责任人须经产品追踪系统向药品和医疗器械局通报。",
+    "items": [
+      {
+        "id": "tr-uts",
+        "name_zh": "首次上市前经产品追踪系统通报",
+        "authority": "药品和医疗器械局",
+        "type": "registration",
+        "mandatory": true,
+        "cost": "未知",
+        "time": "未知",
+        "docs": [
+          "原标签",
+          "无土语时的土语标签",
+          "包装图"
+        ],
+        "who": "责任人",
+        "note": "第5324号法要求首次上市前通报。产品或生产者变更也必须通报。局方不另发已记录文书。",
+        "official_url": "https://www.titck.gov.tr/faaliyetalanlari/kozmetik/bildirim",
+        "source_checked": "2026-10-24",
+        "needs_review": true
+      },
+      {
+        "id": "tr-label",
+        "name_zh": "无土耳其语时须附土语标签",
+        "authority": "药品和医疗器械局",
+        "type": "label",
+        "mandatory": true,
+        "cost": "未知",
+        "time": "未知",
+        "docs": [],
+        "who": "责任人",
+        "note": "原标签没有土耳其语信息时，通报须另附土耳其语标签。标签要素清单未在该页展开。",
+        "official_url": "https://www.titck.gov.tr/faaliyetalanlari/kozmetik/bildirim",
+        "source_checked": "2026-10-24",
+        "needs_review": true
+      }
+    ],
+    "steps": [
+      {
+        "title": "通报",
+        "type": "registration"
+      },
+      {
+        "title": "土语标签",
+        "type": "label"
+      }
+    ],
+    "last_verified": "2026-10-24",
+    "hs_codes": {
+      "status": "pending",
+      "items": []
+    }
+  }
+}

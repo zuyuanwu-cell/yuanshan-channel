@@ -1,0 +1,35 @@
+{
+  "api": "yuanshan-channel/v1",
+  "access": "public-read",
+  "auth": null,
+  "generated": "2026-10-26",
+  "disclaimer": "每条资讯都附来源链接。标了「待核实」的条目来自媒体或第三方转述，引用前打开原文。费用、排名和法规以官方页面为准。",
+  "kind": "news",
+  "item": {
+    "kind": "news",
+    "id": "2026-10-19-tiktok-shop-aigc-beauty",
+    "type": "rules",
+    "date": "2026-10-19",
+    "title": "TikTok Shop 美妆个护：不准用 AI 人物或 AI 手展示效果，11月2日执法",
+    "summary": "美妆个护和健康两个类目，AI 生成的人或手不能演示上脸效果、使用过程、前后对比。10月19日起有两周宽限期。",
+    "body_text": "达人在 TikTok 应用里收到一条系统通知，标题是「美妆个护与健康产品 AIGC 要求更新」。据 psyrenne 10月19日的转述：\n\n- 适用类目：美妆个护、健康\n\n- 10月19日 起生效，两周宽限期，11月2日 起执法\n\n- 不能用 AI 生成的人物或 AI 手展示：前后对比、核心功效、上脸或涂抹过程、使用体验、服用保健品\n\n文章还提到：不论真人还是 AI，前后对比在这两个类目里都按违规处理。\n\n仍可以做的：真人出镜演示、真人的手展示质地和开封、用 AI 写脚本或字幕。整段由 AI 生成或大幅修改的视频，仍要打 AI 生成内容标识。\n\n这条来自第三方对应用内通知的转述，TikTok Shop 还没在公开政策页贴出原文，各国执行口径可能不同，所以标待核实。已经发布的老视频也要检查。",
+    "markets": [],
+    "platforms": [
+      "tiktok-shop"
+    ],
+    "tags": [
+      "ai",
+      "listing"
+    ],
+    "source_url": "https://psyrenne.com/tiktok-shop-ai-rule-beauty-health/",
+    "source_name": "psyrenne（转述 TikTok 应用内通知）",
+    "checked": "2026-10-22",
+    "needs_review": true,
+    "sample": false,
+    "key_date": {
+      "date": "2026-11-02",
+      "label": "开始执法"
+    },
+    "page": "/news/2026-10-19-tiktok-shop-aigc-beauty/"
+  }
+}
