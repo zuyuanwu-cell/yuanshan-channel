@@ -1421,6 +1421,12 @@ time {
   color: var(--ink);
 }
 
+.prose h3 {
+  font-size: 1.08rem;
+  margin: 1.2em 0 0.35em;
+  color: var(--ink);
+}
+
 .prose a {
   color: var(--lime-ink);
 }
@@ -3871,6 +3877,9 @@ button.rank-thumb:focus-visible .zoom-badge {
 .hs-detail a { color: var(--teal-ink); }
 .hs-empty { text-align: center; padding: 28px 16px; color: var(--muted); margin-top: 12px; }
 .cc-hs-more { display: inline-block; margin-top: 8px; font-size: 13px; }
+.home-guide-link {
+  margin: 4px 0 18px;
+}
 .hs-entry-home {
   display: flex;
   align-items: center;

@@ -1,5 +1,5 @@
 ---
-title: "印尼 BPOM 成分新规过渡期 10月3日结束，已备案产品须调整"
+title: "印尼 BPOM 美妆成分新规过渡期截止"
 date: "2026-09-21"
 category: "regulation"
 platforms:

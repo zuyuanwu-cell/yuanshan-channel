@@ -1,5 +1,5 @@
 ---
-title: "印尼第372号基因工程产品清真指南：发酵原料要证，猪/人基因禁用"
+title: "印尼美妆转基因/发酵原料清真指南（372）"
 date: "2026-10-31"
 category: "regulation"
 platforms:

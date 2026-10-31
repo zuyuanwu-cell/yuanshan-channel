@@ -1,5 +1,5 @@
 ---
-title: "印尼第387号强制清真清单：化妆品分20类约126项；货品持证仍到2028"
+title: "印尼清真美妆产品清单（BPJPH 387）要点"
 date: "2026-10-31"
 category: "regulation"
 platforms:

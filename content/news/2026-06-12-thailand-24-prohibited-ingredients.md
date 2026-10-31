@@ -1,5 +1,5 @@
 ---
-title: "泰国 FDA 新增 24 种化妆品禁用成分，6月13日生效"
+title: "泰国美妆禁用成分新增 24 种（Thai FDA）"
 date: "2026-06-12"
 category: "regulation"
 platforms: []

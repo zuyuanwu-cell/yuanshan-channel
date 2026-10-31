@@ -1,5 +1,5 @@
 ---
-title: "印尼化妆品「销售服务」也要搭清真体系：药妆店/美妆零售按376号从10月18日适用；货品强制证仍到2028"
+title: "印尼美妆零售也要 SJPH：BPJPH 376 号"
 date: "2026-10-29"
 category: "regulation"
 platforms:

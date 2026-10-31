@@ -1,5 +1,5 @@
 ---
-title: "澳洲 TGA 公布防晒改革方向：成品须测 SPF、化妆品防晒声称将设上限"
+title: "澳洲 TGA 防晒改革：成品测 SPF 与声称上限"
 date: "2026-10-27"
 category: "regulation"
 platforms: []

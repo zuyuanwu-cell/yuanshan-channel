@@ -41,6 +41,7 @@ export const GET: APIRoute = ({ site }) => {
       lastmod: laterDate([item.date, item.checked]),
     })),
     { loc: pageUrl('/compliance', origin), lastmod: complianceLatest },
+    { loc: pageUrl('/guides/cross-border-cosmetics-regulations', origin), lastmod: contentDate },
     { loc: pageUrl('/compliance/compare', origin), lastmod: complianceLatest },
     { loc: pageUrl('/compliance/map', origin), lastmod: complianceLatest },
     { loc: pageUrl('/compliance/templates', origin), lastmod: complianceLatest },

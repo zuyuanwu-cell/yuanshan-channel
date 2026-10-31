@@ -34,6 +34,14 @@ const quietNotes = site.social.filter((item) => !item.href.startsWith('https://'
               </li>
             ))
           }
+          <li>
+            <a
+              href={url('/guides/cross-border-cosmetics-regulations')}
+              aria-current={isActivePath(path, '/guides/cross-border-cosmetics-regulations') ? 'page' : undefined}
+            >
+              法规指南
+            </a>
+          </li>
         </ul>
       </nav>
       <div class="footer-social">
