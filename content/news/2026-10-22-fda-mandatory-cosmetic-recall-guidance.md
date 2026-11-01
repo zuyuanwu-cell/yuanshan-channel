@@ -1,5 +1,5 @@
 ---
-title: "FDA 化妆品强制召回终稿（MoCRA）要点"
+title: "FDA化妆品强制召回终稿落地：相对草案无实质改动"
 date: "2026-10-22"
 category: "regulation"
 platforms:
@@ -15,6 +15,9 @@ tags:
 source_url: "https://www.fda.gov/cosmetics/cosmetics-news-events/fda-issues-final-guidance-mandatory-cosmetic-recalls"
 source_name: "FDA Cosmetics Constituent Update"
 checked: "2026-10-26"
+key_date:
+  date: "2026-10-22"
+  label: "终稿发布"
 summary: "MoCRA 下强制召回问答终稿落地，与 2025 年 12 月草案无实质改动：何时下令、怎么走流程、企业怎么配合。美国站美妆责任人要把召回预案写进合规清单。"
 needs_review: false
 sample: false

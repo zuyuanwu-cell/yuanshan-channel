@@ -1,5 +1,5 @@
 ---
-title: "TikTok Shop 新马泰越活动门槛（美妆 SFRR）"
+title: "TikTok Shop新泰越活动报名：店评分须≥3.0，美妆SFRR另有上限"
 date: "2026-10-29"
 category: "rules"
 platforms:

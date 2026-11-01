@@ -2,6 +2,7 @@
 import ServiceHint from '../../components/ServiceHint.astro';
 import Base from '../../layouts/Base.astro';
 import { getNewsBySlug, getSite } from '../../lib/content';
+import { REGULATION_DIGEST } from '../../lib/hubs';
 import { formatDate, url } from '../../lib/format';
 
 const site = getSite();
@@ -169,6 +170,11 @@ const faqLd = {
   </article>
 
   <div class="reg-list">
+    <a class="reg-row" href={url(REGULATION_DIGEST.path)}>
+      <span class="pill pill-regulation">11月</span>
+      <strong>{REGULATION_DIGEST.title}</strong>
+      <span class="muted">按国家</span>
+    </a>
     {
       newsPicks.map((item) => (
         <a class="reg-row" href={url(`/news/${item.slug}`)}>

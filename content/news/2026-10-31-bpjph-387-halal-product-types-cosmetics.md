@@ -1,5 +1,5 @@
 ---
-title: "印尼清真美妆产品清单（BPJPH 387）要点"
+title: "印尼化妆品列入强制清真产品清单，货品持证仍延到2028-10-17"
 date: "2026-10-31"
 category: "regulation"
 platforms:
