@@ -4,7 +4,7 @@
   "flag": "🇪🇺",
   "region": "欧洲",
   "difficulty": 3,
-  "summary": "必须有欧盟责任人，上市前在 CPNP 通报，并备好安全报告；REACH 自2026-10-10限制化妆品中 PFHxA（25/1000ppb）。",
+  "summary": "须有欧盟RP并CPNP通报；直邮B2C自2026-11-01起另收UHF€2/品目（无门槛），可叠€3关税。",
   "items": [
     {
       "id": "eu-rp",
@@ -156,6 +156,24 @@
       "needs_review": false
     },
     {
+      "id": "eu-uhf",
+      "name_zh": "远程销售处理费 UHF €2",
+      "authority": "欧盟海关改革",
+      "type": "tax-customs",
+      "mandatory": true,
+      "cost": "每品目€2（无货值门槛）",
+      "time": "2026-11-01起",
+      "docs": [
+        "品目/税则类别",
+        "平台或承运商清关安排"
+      ],
+      "who": "平台/卖家/承运商（可转嫁售价）",
+      "note": "第三国B2C直邮按品目收€2；可与≤€150临时€3关税叠加。",
+      "official_url": "https://taxation-customs.ec.europa.eu/customs/eu-customs-reform_en",
+      "source_checked": "2026-11-01",
+      "needs_review": false
+    },
+    {
       "id": "eu-hs",
       "name_zh": "HS 编码与关税",
       "authority": "欧盟海关",
@@ -165,9 +183,9 @@
       "time": "未知",
       "docs": [],
       "who": "进口商",
-      "note": "HS 编码待补",
+      "note": "直邮B2C另计：≤€150临时€3/品目；2026-11-01起UHF€2/品目无门槛。",
       "official_url": "https://taxation-customs.ec.europa.eu/",
-      "source_checked": "2026-10-23",
+      "source_checked": "2026-11-01",
       "needs_review": false
     }
   ],
@@ -205,7 +223,7 @@
       "type": "tax-customs"
     }
   ],
-  "last_verified": "2026-10-29",
+  "last_verified": "2026-11-01",
   "hs_codes": {
     "status": "ready",
     "items": [
