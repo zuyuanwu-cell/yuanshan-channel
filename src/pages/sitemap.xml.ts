@@ -10,6 +10,7 @@ import {
   latestNewsCheck,
   latestRankingByPlatform,
 } from '../lib/content';
+import { REGULATION_DIGEST } from '../lib/hubs';
 import { pageUrl } from '../lib/seo';
 
 interface Entry {
@@ -42,6 +43,7 @@ export const GET: APIRoute = ({ site }) => {
     })),
     { loc: pageUrl('/compliance', origin), lastmod: complianceLatest },
     { loc: pageUrl('/guides/cross-border-cosmetics-regulations', origin), lastmod: contentDate },
+    { loc: pageUrl(REGULATION_DIGEST.path, origin), lastmod: contentDate },
     { loc: pageUrl('/compliance/compare', origin), lastmod: complianceLatest },
     { loc: pageUrl('/compliance/map', origin), lastmod: complianceLatest },
     { loc: pageUrl('/compliance/templates', origin), lastmod: complianceLatest },

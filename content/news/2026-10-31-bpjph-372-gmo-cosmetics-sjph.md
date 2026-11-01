@@ -1,5 +1,5 @@
 ---
-title: "印尼美妆转基因/发酵原料清真指南（372）"
+title: "印尼发酵与转基因美妆原料须按SJPH举证，猪/人基因禁用"
 date: "2026-10-31"
 category: "regulation"
 platforms:

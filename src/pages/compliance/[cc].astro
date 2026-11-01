@@ -8,12 +8,14 @@ import Base from '../../layouts/Base.astro';
 import { complianceTypeLabels, getCompliance, getComplianceCountry, newsForCountry } from '../../lib/content';
 import { matchDoc } from '../../lib/doc-templates';
 import { formatDate, url } from '../../lib/format';
+import { REGULATION_DIGEST, countryGuide } from '../../lib/hubs';
 import { compliancePageSeo } from '../../lib/seo';
 
 export function getStaticPaths() {
   return getCompliance().map((c) => ({ params: { cc: c.country } }));
 }
 const c = getComplianceCountry(Astro.params.cc!)!;
+const guide = countryGuide(c);
 const news = newsForCountry(c.country);
 const items = [...c.items].sort((a, b) => Number(b.mandatory) - Number(a.mandatory));
 const host = (u: string) => { try { return new URL(u).hostname.replace(/^www\./, ''); } catch { return u; } };
@@ -44,11 +46,84 @@ for (const item of items) {
     <h1><Flag cc={c.country} size="lg" class="cc-flag-lg" /> {c.name_zh}合规</h1>
     <p class="lede">{c.summary}</p>
     <p class="updated-line"><span class="live-dot" aria-hidden="true"></span>核实于 <time datetime={c.last_verified}>{formatDate(c.last_verified)}</time>
+      {guide && <> · 更新于 <time datetime={guide.updated}>{formatDate(guide.updated)}</time></>}
       <span class="cc-diff" aria-label={`难度 ${c.difficulty}/3`}>{[1, 2, 3].map((n) => <i class={n <= c.difficulty ? 'on' : ''} />)}</span></p>
   </header>
 
   <div class="cc-with-help">
   <div class="cc-main">
+  {guide && (
+    <div class="cc-hub">
+      <nav class="cc-hub-nav" aria-label="本页模块">
+        <a href="#who">适用谁</a>
+        <a href="#duties">义务表</a>
+        <a href="#timeline">时间线</a>
+        <a href="#sources">官方源</a>
+      </nav>
+      <p class="muted cc-hub-lead">下面四块只重排本页已有事项和链到本国的资讯，不新增义务。</p>
+
+      <section id="who" aria-labelledby="who-title">
+        <h2 id="who-title">适用谁</h2>
+        <ul class="cc-who">
+          {guide.who.map((row) => (
+            <li>
+              <strong>{row.role}</strong>
+              <span>{row.matters.join('、')}</span>
+            </li>
+          ))}
+        </ul>
+      </section>
+
+      <section id="duties" aria-labelledby="duties-title">
+        <h2 id="duties-title">义务表（注册 · 列名 · 标签 · 责任人）</h2>
+        <ul class="cc-duty-list">
+          {guide.duties.map((row) => (
+            <li>
+              <span class="cc-duty-bucket">{row.bucket}</span>
+              <div>
+                <a href={`#${row.id}`}>{row.name}</a>
+                {row.needs_review && <span class="stamp stamp-review">待核实</span>}
+                <p class="muted">{row.who}</p>
+              </div>
+              <p class="cc-duty-point">{row.point}</p>
+            </li>
+          ))}
+        </ul>
+        <p class="muted cc-hub-lead">清真、禁限用、包装、税号等没有归进这四类的事项，仍在下方事项明细。</p>
+      </section>
+
+      <section id="timeline" aria-labelledby="timeline-title">
+        <h2 id="timeline-title">时间线</h2>
+        <p class="muted cc-hub-lead">近 12 个月，以及站内已经写明的更晚日期。新的在前。</p>
+        {guide.timeline.length === 0 ? (
+          <p class="muted">这一档还没有写上日期的资讯。</p>
+        ) : (
+          <ol class="cc-timeline">
+            {guide.timeline.map((event) => (
+              <li>
+                <time datetime={event.date}>{formatDate(event.date)}</time>
+                <a href={url(event.href)}>{event.title}</a>
+                <span class="muted">{event.label}{event.needs_review ? ' · 待核实' : ''}</span>
+              </li>
+            ))}
+          </ol>
+        )}
+      </section>
+
+      <section id="sources" aria-labelledby="sources-title">
+        <h2 id="sources-title">官方源</h2>
+        <ul class="cc-sources">
+          {guide.sources.map((source) => (
+            <li>
+              <a href={source.url} target="_blank" rel="noopener noreferrer">官方来源 · {host(source.url)} ↗</a>
+              <span class="muted">{source.authority} · {source.matters.join('、')}</span>
+            </li>
+          ))}
+        </ul>
+      </section>
+    </div>
+  )}
+
   <ol class="cc-steps scroll-x" aria-label="办理顺序">
     {c.steps.map((s, i) => <li><span class="cc-step-no">{i + 1}</span><span>{s.title}</span></li>)}
   </ol>
@@ -57,6 +132,7 @@ for (const item of items) {
     <p class="cc-doc-legend">材料名称可以打开样式，看这类文件大概长什么样。<a href={url('/compliance/templates')}>全部样式</a></p>
   )}
 
+  {guide && <h2 class="section-title" id="items">事项明细</h2>}
   <div class="cc-items">
     {items.map((it) => (
       <article class={`cc-item card ${it.mandatory ? 'is-must' : ''}`} id={it.id}>
@@ -101,6 +177,7 @@ for (const item of items) {
       <div class="news-grid">{news.map((n) => <NewsCard item={n} />)}</div>
     </section>
   )}
+  <p class="cc-digest-link"><a class="text-link" href={url(REGULATION_DIGEST.path)}>{REGULATION_DIGEST.title} →</a></p>
   <p class="muted cc-disclaimer">仅供参考，以官方最新规定为准。</p>
   </div>
   <ServiceHint

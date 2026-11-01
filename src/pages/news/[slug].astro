@@ -3,6 +3,7 @@ import Stamps from '../../components/Stamps.astro';
 import NewsCard from '../../components/NewsCard.astro';
 import Base from '../../layouts/Base.astro';
 import { daysFromToday, getNews, getNewsBySlug, getPlatform, getSite, liveBoardFor, relatedNews } from '../../lib/content';
+import { articleEndLinks } from '../../lib/hubs';
 import { fill, formatDate, url } from '../../lib/format';
 
 export function getStaticPaths() {
@@ -15,6 +16,7 @@ if (!slug) throw new Error('缺少资讯 slug');
 const item = getNewsBySlug(slug);
 if (!item) throw new Error(`找不到资讯 ${slug}`);
 const related = relatedNews(item);
+const ends = articleEndLinks(item);
 const showBanner = item.sample || item.needs_review;
 const days = item.key_date ? daysFromToday(item.key_date.date) : null;
 ---
@@ -98,6 +100,34 @@ const days = item.key_date ? daysFromToday(item.key_date.date) : null;
       }
     </aside>
   </div>
+  <section class="article-triad" aria-label="相关合规国页、相关平台页、相关热销榜">
+    <div class="article-triad-grid">
+      <article class="card article-triad-card">
+        <h2>相关合规国页</h2>
+        <ul>
+          {ends.countries.map((link) => (
+            <li><a href={url(link.href)}>{link.label}</a></li>
+          ))}
+        </ul>
+      </article>
+      <article class="card article-triad-card">
+        <h2>相关平台页</h2>
+        <ul>
+          {ends.platforms.map((link) => (
+            <li><a href={url(link.href)}>{link.label}</a></li>
+          ))}
+        </ul>
+      </article>
+      <article class="card article-triad-card">
+        <h2>相关热销榜</h2>
+        <ul>
+          {ends.rankings.map((link) => (
+            <li><a href={url(link.href)}>{link.label}</a></li>
+          ))}
+        </ul>
+      </article>
+    </div>
+  </section>
   {
     related.length > 0 && (
       <section class="related">

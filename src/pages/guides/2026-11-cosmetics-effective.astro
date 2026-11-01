@@ -1,0 +1,126 @@
+---
+import Flag from '../../components/Flag.astro';
+import ServiceHint from '../../components/ServiceHint.astro';
+import Base from '../../layouts/Base.astro';
+import { REGULATION_DIGEST, regulationDigest, type DigestBlock } from '../../lib/hubs';
+import { formatDate, url } from '../../lib/format';
+
+const digest = regulationDigest();
+const { title, path: guidePath, pillar, compiled, effectiveFrom, effectiveThrough } = REGULATION_DIGEST;
+
+function countRows(blocks: DigestBlock[]): number {
+  return blocks.reduce((sum, block) => sum + block.rows.length, 0);
+}
+---
+
+<Base
+  title={title}
+  titleBrand="channel"
+  description="按国家列出站内已核对的美妆法规：2026年10月1日至11月1日已生效，以及更晚的将生效日期。"
+  crumbs={[
+    { name: '首页', href: '/' },
+    { name: '法规指南', href: pillar },
+    { name: '11月法规盘点', href: guidePath },
+  ]}
+>
+  <header class="page-head">
+    <p class="kicker"><a href={url(pillar)}>← 跨境美妆法规怎么查</a></p>
+    <h1>{title}</h1>
+    <p class="lede">
+      这一期按国家排开站内法规资讯里已经写明的日期。已生效收 2026年10月1日至11月1日，将生效收 11月2日及以后。只转述这些资讯的标题、日期和标签，不另加法规。
+    </p>
+    <p class="updated-line">
+      <span class="live-dot" aria-hidden="true"></span>整理于 <time datetime={compiled}>{formatDate(compiled)}</time>
+      <span class="muted"> · 已生效 {countRows(digest.effective)} 条 · 将生效 {countRows(digest.upcoming)} 条</span>
+    </p>
+  </header>
+
+  <article class="prose">
+    <p>
+      收录条件：栏目是法规，并且带有生效、施行、实施、适用、投放、截止、宽限或期满这类日期标签。征求意见的截止日期不放进来。已生效一节里，批准日、发布日、终稿发布和方向公布仍用资讯原标签，不改写成施行。标了「待核实」的，来源不是官方原文，引用前打开该篇资讯。
+    </p>
+    <p>
+      先看下面的国家块，再打开对应国别页。还没定市场时，用<a href={url(pillar)}>跨境美妆法规怎么查</a>按备案、标签和责任人往下找。
+    </p>
+  </article>
+
+  <section class="digest-block" aria-labelledby="digest-effective">
+    <h2 id="digest-effective">已生效（{formatDate(effectiveFrom)} – {formatDate(effectiveThrough)}）</h2>
+    <p class="muted digest-note">各国先排本期要点：中国防晒剂新原料、口腔护理国标与新化学物质办法，印尼清真 370/376/387 与货品证节点，美国召回终稿，澳洲防晒方向。右侧标签是资讯原文。</p>
+    {
+      digest.effective.length === 0 ? (
+        <p class="muted">这一档在站内法规资讯里没有对上的日期。</p>
+      ) : (
+        digest.effective.map((block) => (
+          <section class="digest-country">
+            <h3>
+              {block.known && <Flag cc={block.country} size="sm" />}
+              <a href={url(block.href)}>{block.name_zh}</a>
+            </h3>
+            <div class="reg-list">
+              {block.rows.map((row) => (
+                <a class="reg-row" href={url(`/news/${row.slug}`)}>
+                  <time datetime={row.date}>{formatDate(row.date)}</time>
+                  <strong>
+                    {row.title}
+                    {row.needs_review && <span class="stamp stamp-review">待核实</span>}
+                  </strong>
+                  <span class="muted">{row.label}</span>
+                </a>
+              ))}
+            </div>
+          </section>
+        ))
+      )
+    }
+  </section>
+
+  <section class="digest-block" aria-labelledby="digest-upcoming">
+    <h2 id="digest-upcoming">将生效（{formatDate(effectiveThrough)} 之后）</h2>
+    <p class="muted digest-note">日期晚于本期整理日的，按资讯里的 key_date 列出，含 2027、2028 年已写明的节点。</p>
+    {
+      digest.upcoming.length === 0 ? (
+        <p class="muted">这一档在站内法规资讯里没有对上的日期。</p>
+      ) : (
+        digest.upcoming.map((block) => (
+          <section class="digest-country">
+            <h3>
+              {block.known && <Flag cc={block.country} size="sm" />}
+              <a href={url(block.href)}>{block.name_zh}</a>
+            </h3>
+            <div class="reg-list">
+              {block.rows.map((row) => (
+                <a class="reg-row" href={url(`/news/${row.slug}`)}>
+                  <time datetime={row.date}>{formatDate(row.date)}</time>
+                  <strong>
+                    {row.title}
+                    {row.needs_review && <span class="stamp stamp-review">待核实</span>}
+                  </strong>
+                  <span class="muted">{row.label}</span>
+                </a>
+              ))}
+            </div>
+          </section>
+        ))
+      )
+    }
+  </section>
+
+  <article class="prose">
+    <h2>接着查</h2>
+    <p>
+      国别框架在<a href={url('/compliance')}>国家合规速查</a>。美国、印尼、欧盟三页有适用谁、义务表、时间线和官方源。查阅顺序见
+      <a href={url(pillar)}>跨境美妆法规怎么查</a>。
+    </p>
+  </article>
+
+  <ServiceHint
+    layout="band"
+    title="需要把这些日期落到具体品类上？"
+    text="同舟跨境有自己的化妆品工厂，也做全球跨境美妆供应链。若你正在准备某个市场的上市，可以让我们帮忙把手续、材料和出口步骤对到具体品类上。"
+    points={['梳理上市资料，对照目的国公开要求', '协助美妆日化编码归类', '衔接生产、出口和当地合规售卖']}
+    note="页面信息仅供参考，不构成法律意见，也不代办平台入驻。"
+    cta="和我们聊聊"
+    prefill="我想对照11月美妆法规盘点，看某个市场的上市资料。"
+  />
+</Base>
