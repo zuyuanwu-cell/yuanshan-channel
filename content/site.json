@@ -336,57 +336,117 @@
   "rankingGaps": [
     {
       "platform": "tiktok-shop-sea",
-      "tried": "2026-10-26",
-      "reason": "本月 Apify 已触硬限额；上期质量不足未发榜，本轮无法重试专用 Actor。",
+      "tried": "2026-11-01",
+      "reason": "未重试；Apify 仍报 Monthly usage hard limit exceeded（计费周期未重置）。",
       "source_url": "https://shop.tiktok.com/my"
     },
     {
       "platform": "tiktok-shop-us",
-      "tried": "2026-10-26",
-      "reason": "本机 CDP 打开 TikTok Shop 返回下载引导页；Apify 调用时报 Monthly usage hard limit exceeded。",
+      "tried": "2026-11-01",
+      "reason": "本机 CDP 返回 404/下载引导；Apify 仍报 Monthly usage hard limit exceeded（计费周期未重置）。",
       "source_url": "https://www.tiktok.com/shop/us"
     },
     {
       "platform": "walmart",
-      "tried": "2026-10-26",
-      "reason": "本机 CDP 美妆畅销页未解析到商品卡（反爬/空壳）；未再调用 Apify（月额度硬限）。",
+      "tried": "2026-11-01",
+      "reason": "本机 CDP 仅得导航链接；Apify 仍报 Monthly usage hard limit exceeded（计费周期未重置）。",
       "source_url": "https://www.walmart.com/shop/deals/beauty/best-sellers"
     },
     {
       "platform": "ebay",
-      "tried": "2026-10-26",
-      "reason": "本机 CDP Beauty 榜页未解析到有效 /itm/ 商品卡；Apify 已触月度硬限额。",
+      "tried": "2026-11-01",
+      "reason": "本机 CDP 跳到非美妆类目页；Apify 仍报 Monthly usage hard limit exceeded（计费周期未重置）。",
       "source_url": "https://www.ebay.com/b/Beauty/26395/bn_7000259855"
     },
     {
       "platform": "mercado-livre",
-      "tried": "2026-10-26",
-      "reason": "本机 CDP 打开 mais-vendidos 页未解析到商品；Apify 已触月度硬限额。",
+      "tried": "2026-11-01",
+      "reason": "本机 CDP 未解析到商品；Apify 仍报 Monthly usage hard limit exceeded（计费周期未重置）。",
       "source_url": "https://www.mercadolivre.com.br/mais-vendidos/beleza-e-cuidado-pessoal"
     },
     {
       "platform": "aliexpress",
-      "tried": "2026-10-26",
-      "reason": "公开页/CDP 仅拿到导航类链接，无美妆热销商品卡；Apify 已触月度硬限额。",
+      "tried": "2026-11-01",
+      "reason": "本机 CDP 仅得类目导航；Apify 仍报 Monthly usage hard limit exceeded（计费周期未重置）。",
       "source_url": "https://www.aliexpress.com/"
     },
     {
       "platform": "temu",
-      "tried": "2026-10-26",
-      "reason": "CDP 结果为 App 下载引导，无商品；Apify 已触月度硬限额。",
+      "tried": "2026-11-01",
+      "reason": "本机 CDP 为 App 下载引导；Apify 仍报 Monthly usage hard limit exceeded（计费周期未重置）。",
       "source_url": "https://www.temu.com/"
     },
     {
       "platform": "noon",
-      "tried": "2026-10-26",
-      "reason": "本机 CDP 未解析到商品；Apify noon-scraper 报 Monthly usage hard limit exceeded。",
+      "tried": "2026-11-01",
+      "reason": "本机 CDP 仅得导航链接；Apify 仍报 Monthly usage hard limit exceeded（计费周期未重置）。",
       "source_url": "https://www.noon.com/uae-en/beauty-and-health/beauty/"
     },
     {
       "platform": "coupang",
-      "tried": "2026-10-26",
-      "reason": "本机 CDP 仅抓到站点导航文案（非商品）；Apify 已触月度硬限额。",
+      "tried": "2026-11-01",
+      "reason": "本机 CDP 结果混入导航、商品不足；Apify 仍报 Monthly usage hard limit exceeded（计费周期未重置）。",
       "source_url": "https://www.coupang.com/np/categories/176422"
+    },
+    {
+      "platform": "shopee-sg",
+      "tried": "2026-11-01",
+      "reason": "本机 CDP 遇 Shopee 验证墙；Apify 仍报 Monthly usage hard limit exceeded（计费周期未重置）。",
+      "source_url": "https://shopee.sg/"
+    },
+    {
+      "platform": "shopee-id",
+      "tried": "2026-11-01",
+      "reason": "本机 CDP 遇 Shopee 验证墙；Apify 仍报 Monthly usage hard limit exceeded（计费周期未重置）。",
+      "source_url": "https://shopee.co.id/"
+    },
+    {
+      "platform": "shopee-my",
+      "tried": "2026-11-01",
+      "reason": "本机 CDP 遇 Shopee 验证墙；Apify 仍报 Monthly usage hard limit exceeded（计费周期未重置）。",
+      "source_url": "https://shopee.com.my/"
+    },
+    {
+      "platform": "shopee-th",
+      "tried": "2026-11-01",
+      "reason": "本机 CDP 遇 Shopee 验证墙；Apify 仍报 Monthly usage hard limit exceeded（计费周期未重置）。",
+      "source_url": "https://shopee.co.th/"
+    },
+    {
+      "platform": "shopee-vn",
+      "tried": "2026-11-01",
+      "reason": "本机 CDP 遇 Shopee 验证墙；Apify 仍报 Monthly usage hard limit exceeded（计费周期未重置）。",
+      "source_url": "https://shopee.vn/"
+    },
+    {
+      "platform": "lazada-id",
+      "tried": "2026-11-01",
+      "reason": "本机 CDP 美妆页未解析到商品；Apify 仍报 Monthly usage hard limit exceeded（计费周期未重置）。",
+      "source_url": "https://www.lazada.co.id/"
+    },
+    {
+      "platform": "lazada-th",
+      "tried": "2026-11-01",
+      "reason": "本机 CDP 美妆页未解析到商品；Apify 仍报 Monthly usage hard limit exceeded（计费周期未重置）。",
+      "source_url": "https://www.lazada.co.th/"
+    },
+    {
+      "platform": "ozon",
+      "tried": "2026-11-01",
+      "reason": "本机 CDP 导航失败；Apify 仍报 Monthly usage hard limit exceeded（计费周期未重置）。",
+      "source_url": "https://www.ozon.ru/category/krasota-i-zdorove-6500/"
+    },
+    {
+      "platform": "wildberries",
+      "tried": "2026-11-01",
+      "reason": "本机 CDP 页未解析到商品；Apify 仍报 Monthly usage hard limit exceeded（计费周期未重置）。",
+      "source_url": "https://www.wildberries.ru/catalog/krasota/makiyazh/litso"
+    },
+    {
+      "platform": "amazon-sg",
+      "tried": "2026-11-01",
+      "reason": "本轮 A 层脚本未覆盖 SG；Apify 仍报 Monthly usage hard limit exceeded（计费周期未重置）。",
+      "source_url": "https://www.amazon.sg/gp/bestsellers/beauty"
     }
   ],
   "rankingPlatforms": [
