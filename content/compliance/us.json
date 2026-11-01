@@ -188,6 +188,23 @@
       "official_url": "https://www.cbp.gov/",
       "source_checked": "2026-10-23",
       "needs_review": false
+    },
+    {
+      "id": "ca-nail-tphp-ppn",
+      "name_zh": "加州指甲产品TPhP申报",
+      "authority": "加州 DTSC",
+      "type": "safety",
+      "mandatory": true,
+      "cost": "未知",
+      "time": "未知",
+      "docs": [
+        "配方/TPhP检测"
+      ],
+      "who": "在加州销售的制造商",
+      "note": "TPhP>250ppm的指甲产品：2026-11-30前提交优先产品通知，2027-03-30前报去除/替代/停售方案。",
+      "official_url": "https://intl.dtsc.ca.gov/scp/nail-products-containing-tphp/",
+      "source_checked": "2026-11-01",
+      "needs_review": false
     }
   ],
   "steps": [
@@ -212,7 +229,7 @@
       "type": "tax-customs"
     }
   ],
-  "last_verified": "2026-10-31",
+  "last_verified": "2026-11-01",
   "hs_codes": {
     "status": "ready",
     "items": [

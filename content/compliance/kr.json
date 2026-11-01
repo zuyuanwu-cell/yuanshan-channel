@@ -57,6 +57,23 @@
       "official_url": "https://www.mfds.go.kr/eng/index.do",
       "source_checked": "2026-10-23",
       "needs_review": true
+    },
+    {
+      "id": "kr-ai-expert-ad-ban",
+      "name_zh": "禁AI假专家广告",
+      "authority": "MFDS",
+      "type": "label",
+      "mandatory": true,
+      "cost": "未知",
+      "time": "未知",
+      "docs": [
+        "广告素材"
+      ],
+      "who": "营业者/卖家",
+      "note": "2026-11-27起禁用AI生成、真假难辨的医生、药师、教授等形象推荐化妆品；标注虚拟人物也不豁免。",
+      "official_url": "https://www.law.go.kr/LSW/lsRvsRsnListP.do?chrClsCd=010202&lsId=002015&lsRvsGubun=all",
+      "source_checked": "2026-11-01",
+      "needs_review": false
     }
   ],
   "steps": [
@@ -73,7 +90,7 @@
       "type": "tax-customs"
     }
   ],
-  "last_verified": "2026-10-23",
+  "last_verified": "2026-11-01",
   "hs_codes": {
     "status": "pending",
     "items": []
