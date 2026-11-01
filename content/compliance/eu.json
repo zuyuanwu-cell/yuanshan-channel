@@ -174,6 +174,25 @@
       "needs_review": false
     },
     {
+      "id": "eu-pid",
+      "name_zh": "直邮小包产品标识符 PID",
+      "authority": "欧盟海关（（EU）2026/1022）",
+      "type": "tax-customs",
+      "mandatory": true,
+      "cost": "无额外费用（申报数据）",
+      "time": "2026-11-01起强制",
+      "docs": [
+        "商家货号 M-PID",
+        "工厂型号 NS-PID",
+        "EAN/UPC 条码 S-PID（有则填）"
+      ],
+      "who": "平台/卖家/报关代理",
+      "note": "B2C 电商小包每个申报行必填 M-PID、NS-PID；漏填可能扣关退运，同款货会被按 PID 追踪抽查。",
+      "official_url": "https://www.douane.nl/en/themes/import-and-export/import/e-commerce/including-product-identifiers-in-your-e-commerce-declaration/",
+      "source_checked": "2026-11-01",
+      "needs_review": false
+    },
+    {
       "id": "eu-hs",
       "name_zh": "HS 编码与关税",
       "authority": "欧盟海关",
