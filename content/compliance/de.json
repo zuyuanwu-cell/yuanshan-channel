@@ -18,7 +18,7 @@
       "who": "向德国投放化妆品的责任人",
       "note": "德国化妆品条例要求标识使用德语。面向德国的网站销售同样适用。",
       "official_url": "https://www.bvl.bund.de/DE/Arbeitsbereiche/03_Verbraucherprodukte/03_AntragstellerUnternehmen/09_FAQ/02_FAQ_Kosmetik/FAQ_Kosmetik_node.html",
-      "source_checked": "2026-10-24",
+      "source_checked": "2026-11-02",
       "needs_review": true
     },
     {
@@ -33,7 +33,7 @@
       "who": "在德国有住所的化妆品企业",
       "note": "在德国有住所的企业，须向所在地或进口地主管机关申报生产地或进口地。配方改由CPNP接收。",
       "official_url": "https://www.bvl.bund.de/DE/Arbeitsbereiche/03_Verbraucherprodukte/03_AntragstellerUnternehmen/09_FAQ/02_FAQ_Kosmetik/FAQ_Kosmetik_node.html",
-      "source_checked": "2026-10-24",
+      "source_checked": "2026-11-02",
       "needs_review": true
     },
     {
@@ -48,7 +48,7 @@
       "who": "责任人",
       "note": "联邦局说明，CPNP通报已完全取代此前向该局报送配方。通报不是逐批许可。",
       "official_url": "https://www.bvl.bund.de/DE/Arbeitsbereiche/03_Verbraucherprodukte/03_AntragstellerUnternehmen/09_FAQ/02_FAQ_Kosmetik/FAQ_Kosmetik_node.html",
-      "source_checked": "2026-10-24",
+      "source_checked": "2026-11-02",
       "needs_review": true
     },
     {
@@ -63,7 +63,7 @@
       "who": "向德国最终用户销售的境外企业",
       "note": "没有德国机构、直接向最终用户销售包装产品的境外企业，须指定授权代表履行延伸责任。登记本身免费。",
       "official_url": "https://www.verpackungsregister.org/registrierung/alle-informationen-zur-registrierung",
-      "source_checked": "2026-10-24",
+      "source_checked": "2026-11-02",
       "needs_review": true
     }
   ],
@@ -81,7 +81,7 @@
       "type": "packaging"
     }
   ],
-  "last_verified": "2026-10-24",
+  "last_verified": "2026-11-02",
   "hs_codes": {
     "status": "ready",
     "items": [

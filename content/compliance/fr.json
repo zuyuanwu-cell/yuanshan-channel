@@ -18,7 +18,7 @@
       "who": "责任人",
       "note": "每个化妆品在欧盟上市前须经CPNP向欧盟委员会通报。该局写明通报免费。",
       "official_url": "https://www.economie.gouv.fr/dgccrf/les-fiches-pratiques/les-produits-cosmetiques",
-      "source_checked": "2026-10-24",
+      "source_checked": "2026-11-02",
       "needs_review": true
     },
     {
@@ -33,7 +33,7 @@
       "who": "法国境内场所经营者",
       "note": "只适用于设在法国的制造或灌装场所，即使附带经营。没有法国工厂的境外卖家不适用这一条。",
       "official_url": "https://www.economie.gouv.fr/dgccrf/les-fiches-pratiques/les-produits-cosmetiques",
-      "source_checked": "2026-10-24",
+      "source_checked": "2026-11-02",
       "needs_review": true
     },
     {
@@ -48,7 +48,7 @@
       "who": "投放该类包装的经营者",
       "note": "须分类收集以回收的产品包装，必须标示该标志。费用未知。",
       "official_url": "https://agirpourlatransition.ademe.fr/particuliers/reduire-dechets/bien-jeter/comprendre-symboles-tri",
-      "source_checked": "2026-10-24",
+      "source_checked": "2026-11-02",
       "needs_review": true
     },
     {
@@ -63,7 +63,7 @@
       "who": "在法国经营的人",
       "note": "2024年起化妆品产品和场所的市场监管由该局单独负责，不再与药品局共同承担。",
       "official_url": "https://www.economie.gouv.fr/dgccrf/actualites-dgccrf/produits-cosmetiques-la-dgccrf-assure-desormais-seule-le-controle-des-produits-et-etablissements",
-      "source_checked": "2026-10-24",
+      "source_checked": "2026-11-02",
       "needs_review": true
     }
   ],
@@ -81,7 +81,7 @@
       "type": "registration"
     }
   ],
-  "last_verified": "2026-10-24",
+  "last_verified": "2026-11-02",
   "hs_codes": {
     "status": "ready",
     "items": [
