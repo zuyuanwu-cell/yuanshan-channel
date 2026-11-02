@@ -14,7 +14,7 @@ source_url: "https://www.rainmaker.in.th/tcct-control-platform-gp-fees-sme/"
 source_name: "Rainmaker（转引 Thairath）"
 checked: "2026-10-26"
 key_date:
-  date: "2027-02-28"
+  date: "2027-02-27"
   label: "冻结期满"
 summary: "据 Rainmaker 转引 Thairath：TCCT 依《贸易竞争法》第60条责令 Shopee、Lazada、TikTok 等暂停上调 GP 六个月（报道称 2026年8月至2027年2月）。事先报备草案写的是叫车与即时配送，预计12月公布。未核对委员会原文。"
 needs_review: true
@@ -57,4 +57,6 @@ sample: false
 - 本条所据页面：Rainmaker，2026-10-22，<https://www.rainmaker.in.th/tcct-control-platform-gp-fees-sme/>
 - 该文文末注明的上游：Thairath，<https://www.thairath.co.th/money/economics/thai_economics/2967598>（本条未再打开这篇泰媒原文）
 
-**待核实**：来源是媒体转述，未找到 TCCT 原始命令。冻结期的具体起止日、6 家以上平台的名单、433% 与 367% 的计算口径，都还没有对上委员会文本。页面上的关键日期仍按报道中的「2027年2月」取月末 **2027-02-28**，只作提醒，不是命令载明的截止日。
+**待核实**：来源是媒体转述，未找到 TCCT 原始命令。冻结期的具体起止日、6 家以上平台的名单、433% 与 367% 的计算口径，都还没有对上委员会文本。页面上的关键日期按 2026-10-28 泰国政府新闻稿所写冻结期 **2026-08-27 至 2027-02-27** 取 **2027-02-27**。
+
+**后续（2026-11-02）**：三大平台已同意 12-01 起给符合条件的泰国小商家把费率回调到 1 月水平，见 [泰国小卖家 12-01 起平台费回调](/news/2026-11-02-thailand-shopee-lazada-tiktok-gp-rollback-dec/)。
