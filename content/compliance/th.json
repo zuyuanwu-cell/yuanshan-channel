@@ -4,7 +4,7 @@
   "flag": "🇹🇭",
   "region": "东南亚",
   "difficulty": 2,
-  "summary": "本地进口商在泰国 FDA 逐品通报，标签要有泰文。",
+  "summary": "本地进口商在泰国 FDA 逐品通报，标签要有泰文；泰境付费社媒广告须实名核验。",
   "items": [
     {
       "id": "th-importer",
@@ -92,6 +92,24 @@
       "official_url": "https://www.npra.gov.my/images/Guidelines_Central/Guidelines_on_Cosmetic/Annex_VII_release_-_12_December_2025.pdf",
       "source_checked": "2026-11-01",
       "needs_review": false
+    },
+    {
+      "id": "th-ads-id-verify",
+      "name_zh": "社媒付费广告实名核验",
+      "authority": "ETDA / 电子交易委员会",
+      "type": "platform",
+      "mandatory": true,
+      "cost": "未知",
+      "time": "2026-11-01 起",
+      "docs": [
+        "政府身份证件或护照",
+        "企业登记/授权文件"
+      ],
+      "who": "向泰国受众投放付费社媒广告的广告主与付费方",
+      "note": "No ID No Ads：在泰展示且平台收广告费的社媒广告须先验广告主身份；境外可用外国政府证件、不必赴泰；一年内已核验可复用；代投时发布方与付费方都可能要核。",
+      "official_url": "https://www.thaigov.go.th/th/news/170485",
+      "source_checked": "2026-11-03",
+      "needs_review": false
     }
   ],
   "steps": [
@@ -112,7 +130,7 @@
       "type": "tax-customs"
     }
   ],
-  "last_verified": "2026-11-01",
+  "last_verified": "2026-11-03",
   "hs_codes": {
     "status": "ready",
     "items": [
