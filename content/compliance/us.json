@@ -169,10 +169,10 @@
         "成分/安全资料（按需）"
       ],
       "who": "卖家",
-      "note": "部分子类需审核，以后台提示为准",
+      "note": "部分子类需审核；2026-11-02起化妆品等增强安全类目不论销量须维持≥100万美元商业责任险，中国大陆卖家新保单须走 AIA（见站内资讯）。",
       "official_url": "https://sellercentral.amazon.com/help/hub/reference/external/G200332540",
-      "source_checked": "2026-10-23",
-      "needs_review": true
+      "source_checked": "2026-11-03",
+      "needs_review": false
     },
     {
       "id": "us-hs",
@@ -229,7 +229,7 @@
       "type": "tax-customs"
     }
   ],
-  "last_verified": "2026-11-01",
+  "last_verified": "2026-11-03",
   "hs_codes": {
     "status": "ready",
     "items": [

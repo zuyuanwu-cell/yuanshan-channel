@@ -92,6 +92,23 @@
       "official_url": "https://www.npra.gov.my/images/Guidelines_Central/Guidelines_on_Cosmetic/Annex_VII_release_-_12_December_2025.pdf",
       "source_checked": "2026-11-01",
       "needs_review": false
+    },
+    {
+      "id": "ph-bht-limit",
+      "name_zh": "BHT 限量",
+      "authority": "Philippines FDA / ACD",
+      "type": "safety",
+      "mandatory": true,
+      "cost": "未知",
+      "time": "未知",
+      "docs": [
+        "配方浓度证明"
+      ],
+      "who": "生产商/进口商",
+      "note": "Circular 2026-0001：BHT 漱口水≤0.001%、牙膏≤0.1%、其他驻留/淋洗≤1%；2026-11-19起不合规不得上架并须撤市。",
+      "official_url": "https://www.fda.gov.ph/fda-circular-no-2026-0001-consolidated-amendments-to-the-asean-cosmetic-directive-acd-as-adopted-during-the-40th-to-42nd-asean-cosmetic-committee-acc-meeting-and-their-related-meetings/",
+      "source_checked": "2026-11-03",
+      "needs_review": false
     }
   ],
   "steps": [
@@ -112,7 +129,7 @@
       "type": "tax-customs"
     }
   ],
-  "last_verified": "2026-11-01",
+  "last_verified": "2026-11-03",
   "hs_codes": {
     "status": "ready",
     "items": [
