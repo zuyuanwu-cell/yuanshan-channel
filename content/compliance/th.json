@@ -110,6 +110,24 @@
       "official_url": "https://www.thaigov.go.th/th/news/170485",
       "source_checked": "2026-11-03",
       "needs_review": false
+    },
+    {
+      "id": "th-benzophenone-ban",
+      "name_zh": "二苯甲酮禁用",
+      "authority": "东盟化妆品指令 ACD / 各国主管机关",
+      "type": "safety",
+      "mandatory": true,
+      "cost": "未知",
+      "time": "未知",
+      "docs": [
+        "全成分表",
+        "原料 CAS/COA"
+      ],
+      "who": "品牌方/通报持有人",
+      "note": "2026-11-19起禁二苯甲酮(CAS119-61-9)；勿与BP3混淆；泰国已对齐（待再核）。",
+      "official_url": "https://asean.org/wp-content/uploads/2026/07/Annex-II-Release_22nd-June-2026-clean.pdf",
+      "source_checked": "2026-11-03",
+      "needs_review": true
     }
   ],
   "steps": [
