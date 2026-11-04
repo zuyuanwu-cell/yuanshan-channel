@@ -4,7 +4,7 @@
   "flag": "🇯🇵",
   "region": "东亚",
   "difficulty": 3,
-  "summary": "须由持「化妆品制造销售业许可」的日本公司进口，逐品备案；医薬部外品另走批准，外原規2021改正自2026-10-01对既批准品原则上全面适用。",
+  "summary": "须日本持许可公司进口并逐品备案；医薬部外品另批。外原規2021已10-01适用，新改正案征求意见中。",
   "items": [
     {
       "id": "jp-license",
@@ -89,10 +89,10 @@
         "外原規规格符合性"
       ],
       "who": "医薬部外品制造销售业者",
-      "note": "医薬部外品须批准。外原規2021改正自2026-10-01对既批准品原则上全面适用，否则轻微变更届出。",
-      "official_url": "https://www.mhlw.go.jp/content/001455256.pdf",
-      "source_checked": "2026-10-27",
-      "needs_review": false
+      "note": "外原規2021已10-01适用；新一轮改正案征求意见中（予定2027-03），未定稿。",
+      "official_url": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTDETAIL&Mode=0&id=495260219",
+      "source_checked": "2026-11-04",
+      "needs_review": true
     },
     {
       "id": "jp-hs",
@@ -128,7 +128,7 @@
       "type": "tax-customs"
     }
   ],
-  "last_verified": "2026-10-27",
+  "last_verified": "2026-11-04",
   "hs_codes": {
     "status": "ready",
     "items": [
