@@ -136,6 +136,45 @@
       "official_url": "https://asean.org/wp-content/uploads/2026/07/Annex-II-Release_22nd-June-2026-clean.pdf",
       "source_checked": "2026-11-03",
       "needs_review": false
+    },
+    {
+      "id": "id-refill-cosmetics",
+      "name_zh": "补充装化妆品/香水监管（草案）",
+      "authority": "BPOM",
+      "type": "registration",
+      "mandatory": false,
+      "cost": "未知",
+      "time": "未知",
+      "docs": [
+        "补充装流通提案（附件I格式）",
+        "产品通报号",
+        "设施与卫生文件",
+        "非通报持有人时的合作协议"
+      ],
+      "who": "通报持有人/补充装或调香门店",
+      "note": "征求意见至11-20；拟替2023/12。洗护补充装仅6类须先批；补充香水禁线上、≤100mL。未生效。",
+      "official_url": "https://jdih.pom.go.id/draft/detail/1791/Rancangan%20Peraturan%20BPOM%20tentang%20Pengawasan%20Pembuatan%20dan%20Peredaran%20Kosmetik",
+      "source_checked": "2026-11-06",
+      "needs_review": true
+    },
+    {
+      "id": "id-class-b-scope",
+      "name_zh": "Class B 工厂可产品类（草案）",
+      "authority": "BPOM",
+      "type": "registration",
+      "mandatory": false,
+      "cost": "未知",
+      "time": "未知",
+      "docs": [
+        "Class B 生产证",
+        "剂型/制剂/品类对照附件",
+        "附件外品类的风险评估申请"
+      ],
+      "who": "Class B 工厂/委托其代工的品牌",
+      "note": "征求意见至11-20；拟替2021/8。粉饼拟放开；美白防晒婴儿等仍禁。未生效。",
+      "official_url": "https://jdih.pom.go.id/draft/detail/1792/Rancangan%20Peraturan%20BPOM%20tentang%20Bentuk%20dan%20Jenis%20Sediaan%20Kosmetika%20Tertentu%20yang%20Dapat%20Diproduksi%20oleh%20Industri%20Kosmetik%20yang%20Memiliki%20Sertifikat%20Produksi%20Kosmetika%20Golongan%20B",
+      "source_checked": "2026-11-06",
+      "needs_review": true
     }
   ],
   "steps": [
@@ -160,7 +199,7 @@
       "type": "tax-customs"
     }
   ],
-  "last_verified": "2026-11-03",
+  "last_verified": "2026-11-06",
   "hs_codes": {
     "status": "ready",
     "items": [
