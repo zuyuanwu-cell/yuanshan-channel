@@ -1,0 +1,6 @@
+Flags added for country codes that were not already in this folder are the 4x3 SVGs
+from flag-icons (https://github.com/lipis/flag-icons), MIT License.
+Copyright (c) 2013 Panayiotis Lipiridis.
+
+Flags already in the repository before that addition are unchanged:
+ae, br, cn, eu, gb, id, jp, kr, my, ph, ru, sa, sg, th, us, vn.

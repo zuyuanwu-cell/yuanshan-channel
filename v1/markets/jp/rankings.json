@@ -1,0 +1,373 @@
+{
+  "api": "yuanshan-channel/v1",
+  "access": "public-read",
+  "auth": null,
+  "generated": "2026-10-26",
+  "disclaimer": "每条资讯都附来源链接。标了「待核实」的条目来自媒体或第三方转述，引用前打开原文。费用、排名和法规以官方页面为准。",
+  "kind": "rankings",
+  "id": "jp",
+  "count": 1,
+  "boards": [
+    {
+      "board": "amazon-jp",
+      "name": "Amazon 日本站",
+      "code": "JP",
+      "market_label": "日本",
+      "markets": [
+        "jp"
+      ],
+      "scope": "markets",
+      "status": "live",
+      "date": "2026-11-02",
+      "latest": true,
+      "captured_at": "2026-11-02T08:55:55+08:00",
+      "category": "beauty-personal-care",
+      "sample": false,
+      "needs_review": true,
+      "partial": true,
+      "coverage_note": "本机 Chrome CDP 抓取官方 Beauty Best Sellers Top30；价格本轮未解析到。页面经浏览器译成中文，原文标题以链接为准。",
+      "source_name": "Amazon Best Sellers · Beauty (amazon-jp)",
+      "source_url": "https://www.amazon.co.jp/gp/bestsellers/beauty",
+      "source_note": "本机 Chrome CDP 2026-11-02；title_zh 复用往期同 ASIN 或人工中文概括。",
+      "page": "/rankings/amazon-jp/",
+      "dates": [
+        "2026-11-02",
+        "2026-11-01",
+        "2026-10-26",
+        "2026-10-23"
+      ],
+      "items": [
+        {
+          "rank": 1,
+          "title": "Orbis Essence In Hair Milk (No Rinse/Fragrance) Hair Treatment | At Cosmetics Hall of Fame: Treatment that does not wash off",
+          "brand": "Orbis",
+          "needs_review": true,
+          "title_zh": "Orbis Essence In Hair Milk (No Rinse（译）",
+          "currency": "JPY",
+          "image_url": "https://images-fe.ssl-images-amazon.com/images/I/611K8qd+sjL._AC_UL600_SR600,400_.jpg",
+          "image_zoom_url": "https://images-fe.ssl-images-amazon.com/images/I/611K8qd+sjL._AC_UL600_SR600,400_.jpg",
+          "url": "https://www.amazon.co.jp/dp/B06X17VVNQ"
+        },
+        {
+          "rank": 2,
+          "title": "The Answer Super Lamella Shampoo Refill, 11.8 fl oz (10.8 fl oz), Bergamot & Daphne Scent, 5 Essential Ingredients for Beautiful Hair, Improves Hair Quality, Non-Silicone Formula, Kao",
+          "brand": "The",
+          "needs_review": true,
+          "title_zh": "The Answer Super｜洗发水",
+          "currency": "JPY",
+          "image_url": "https://images-fe.ssl-images-amazon.com/images/I/717zTvI4RWL._AC_UL600_SR600,400_.jpg",
+          "image_zoom_url": "https://images-fe.ssl-images-amazon.com/images/I/717zTvI4RWL._AC_UL600_SR600,400_.jpg",
+          "url": "https://www.amazon.co.jp/dp/B0DT4WN5D9"
+        },
+        {
+          "rank": 3,
+          "title": "Kirei Kirei Medicated Foaming Hand Soap, Citrus Fruity Scent, Refill, Large Capacity, 5.6 fl oz (1,760 ml), Sterilization",
+          "brand": "Kirei",
+          "needs_review": true,
+          "title_zh": "キレイキレイ 药用泡沫洗手液 4L 水果混合香 商用大包装",
+          "currency": "JPY",
+          "image_url": "https://images-fe.ssl-images-amazon.com/images/I/710WR7F7NNL._AC_UL600_SR600,400_.jpg",
+          "image_zoom_url": "https://images-fe.ssl-images-amazon.com/images/I/710WR7F7NNL._AC_UL600_SR600,400_.jpg",
+          "url": "https://www.amazon.co.jp/dp/B0C1G32J1F"
+        },
+        {
+          "rank": 4,
+          "title": "Canmake Gel Creamy Touch Liner 02 Medium Brown Single Item 0.08 g",
+          "brand": "Canmake",
+          "needs_review": true,
+          "title_zh": "Canmake Gel Creamy｜面霜",
+          "currency": "JPY",
+          "image_url": "https://images-fe.ssl-images-amazon.com/images/I/51EMdK3JhrL._AC_UL600_SR600,400_.jpg",
+          "image_zoom_url": "https://images-fe.ssl-images-amazon.com/images/I/51EMdK3JhrL._AC_UL600_SR600,400_.jpg",
+          "url": "https://www.amazon.co.jp/dp/B07B456KKP"
+        },
+        {
+          "rank": 5,
+          "title": "Sea Crystals Epsom Salt, Original, 4.9 lbs (2.2 kg), Approx. 14 Loads of Bath Solution, Unscented, Measuring Spoon Included, Bath Cosmetics, Made in Japan",
+          "brand": "Sea",
+          "needs_review": true,
+          "title_zh": "Sea Crystals Epsom Salt（译）",
+          "currency": "JPY",
+          "image_url": "https://images-fe.ssl-images-amazon.com/images/I/61lxI1i1r4L._AC_UL600_SR600,400_.jpg",
+          "image_zoom_url": "https://images-fe.ssl-images-amazon.com/images/I/61lxI1i1r4L._AC_UL600_SR600,400_.jpg",
+          "url": "https://www.amazon.co.jp/dp/B00C1CACNU"
+        },
+        {
+          "rank": 6,
+          "title": "Amazon ASIN B0HK7N3TC2（页面原文为浏览器译文，见链接）",
+          "brand": "鼻セレブ",
+          "needs_review": true,
+          "title_zh": "鼻セレブ SKINLISM 美容液面膜 白色 高保湿 防止肌肤粗糙 低刺激 敏感肌 保湿 面膜 1片",
+          "currency": "JPY",
+          "image_url": "https://images-fe.ssl-images-amazon.com/images/I/61OYNusTWPL._AC_UL600_SR600,400_.jpg",
+          "image_zoom_url": "https://images-fe.ssl-images-amazon.com/images/I/61OYNusTWPL._AC_UL600_SR600,400_.jpg",
+          "url": "https://www.amazon.co.jp/dp/B0HK7N3TC2"
+        },
+        {
+          "rank": 7,
+          "title": "VTCOSMETICS Face Mask, Skin Care, Single Item (1.CICA Daily Soothing Mask)",
+          "brand": "VTCOSMETICS",
+          "needs_review": true,
+          "title_zh": "VTCOSMETICS Face Mask｜面膜",
+          "currency": "JPY",
+          "image_url": "https://images-fe.ssl-images-amazon.com/images/I/71yfSHaERxL._AC_UL600_SR600,400_.jpg",
+          "image_zoom_url": "https://images-fe.ssl-images-amazon.com/images/I/71yfSHaERxL._AC_UL600_SR600,400_.jpg",
+          "url": "https://www.amazon.co.jp/dp/B083X5R6VR"
+        },
+        {
+          "rank": 8,
+          "title": "Athenia Skin Clear Cleansing Oil, Aroma, 5.9 fl oz (175 ml), Pores/Cuticle, Cleansing, Makeup Removal, Cleansing Oil/No Double Face Wash Required, Citrus",
+          "brand": "Athenia",
+          "needs_review": true,
+          "title_zh": "Athenia Skin Clear｜油",
+          "currency": "JPY",
+          "image_url": "https://images-fe.ssl-images-amazon.com/images/I/41QwW36fXWL._AC_UL600_SR600,400_.jpg",
+          "image_zoom_url": "https://images-fe.ssl-images-amazon.com/images/I/41QwW36fXWL._AC_UL600_SR600,400_.jpg",
+          "url": "https://www.amazon.co.jp/dp/B0CJXS8CB2"
+        },
+        {
+          "rank": 9,
+          "title": "Amazon ASIN B0CC5JWFMK（页面原文为浏览器译文，见链接）",
+          "brand": "ケアセラ",
+          "needs_review": true,
+          "title_zh": "ケアセラ(CareCera) AP 面霜 & 身体乳液 大容量本体 400ml (含有神经酰胺加上7种天然型神经酰胺) | 高保湿乳液、セラミド乳液、セラミドケア、乾燥肌、敏感肌ケア、高保湿、肌バリア",
+          "currency": "JPY",
+          "image_url": "https://images-fe.ssl-images-amazon.com/images/I/71YfRFWMf9L._AC_UL600_SR600,400_.jpg",
+          "image_zoom_url": "https://images-fe.ssl-images-amazon.com/images/I/71YfRFWMf9L._AC_UL600_SR600,400_.jpg",
+          "url": "https://www.amazon.co.jp/dp/B0CC5JWFMK"
+        },
+        {
+          "rank": 10,
+          "title": "ReKERA Little Scientist Hair Emulsion, 6.8 fl oz (200 ml)",
+          "brand": "ReKERA",
+          "needs_review": true,
+          "title_zh": "ReKERA Little Scientist Hair Emulsion（译）",
+          "currency": "JPY",
+          "image_url": "https://images-fe.ssl-images-amazon.com/images/I/51YPRn3iR+L._AC_UL600_SR600,400_.jpg",
+          "image_zoom_url": "https://images-fe.ssl-images-amazon.com/images/I/51YPRn3iR+L._AC_UL600_SR600,400_.jpg",
+          "url": "https://www.amazon.co.jp/dp/B07CZKGD7X"
+        },
+        {
+          "rank": 11,
+          "title": "Neutrogena Norwegian Formula Intense Repair Body Cream, Body Lotion, Body Milk, Moisturizing Cream, Body Emulsion, For Ultra-Dry Skin, Unscented, 15.2 fl oz (450 ml)",
+          "brand": "Neutrogena",
+          "needs_review": true,
+          "title_zh": "Neutrogena Norwegian Formula｜面霜",
+          "currency": "JPY",
+          "image_url": "https://images-fe.ssl-images-amazon.com/images/I/61IrswIviXL._AC_UL600_SR600,400_.jpg",
+          "image_zoom_url": "https://images-fe.ssl-images-amazon.com/images/I/61IrswIviXL._AC_UL600_SR600,400_.jpg",
+          "url": "https://www.amazon.co.jp/dp/B07XZ9ZRVZ"
+        },
+        {
+          "rank": 12,
+          "title": "LuLuLun Hydra-EX Masks 28 Pack Face Pack Sheet Masks Face Moisturizer Pore Large Capacity",
+          "brand": "LuLuLun",
+          "needs_review": true,
+          "title_zh": "LuLuLun Hydra-EX Masks｜保湿霜/面膜",
+          "currency": "JPY",
+          "image_url": "https://images-fe.ssl-images-amazon.com/images/I/71xPXTLw35L._AC_UL600_SR600,400_.jpg",
+          "image_zoom_url": "https://images-fe.ssl-images-amazon.com/images/I/71xPXTLw35L._AC_UL600_SR600,400_.jpg",
+          "url": "https://www.amazon.co.jp/dp/B0CJN2ZZVX"
+        },
+        {
+          "rank": 13,
+          "title": "Bioré U Foaming Hand Soap, Fruit, Refill, 50.7 fl oz (1.5 L) [Over-the-counter Drug]",
+          "brand": "Bioré",
+          "needs_review": true,
+          "title_zh": "Bioré U Foaming｜皂",
+          "currency": "JPY",
+          "image_url": "https://images-fe.ssl-images-amazon.com/images/I/81cm0ShHccL._AC_UL600_SR600,400_.jpg",
+          "image_zoom_url": "https://images-fe.ssl-images-amazon.com/images/I/81cm0ShHccL._AC_UL600_SR600,400_.jpg",
+          "url": "https://www.amazon.co.jp/dp/B0DCFNGLJY"
+        },
+        {
+          "rank": 14,
+          "title": "Amazon ASIN B0CK165RK2（页面原文为浏览器译文，见链接）",
+          "brand": "Bio",
+          "needs_review": true,
+          "title_zh": "Bio Lucia 睫毛精华液 睫毛美容液 6 ml×1瓶",
+          "currency": "JPY",
+          "image_url": "https://images-fe.ssl-images-amazon.com/images/I/61G6DRg97FL._AC_UL600_SR600,400_.jpg",
+          "image_zoom_url": "https://images-fe.ssl-images-amazon.com/images/I/61G6DRg97FL._AC_UL600_SR600,400_.jpg",
+          "url": "https://www.amazon.co.jp/dp/B0CK165RK2"
+        },
+        {
+          "rank": 15,
+          "title": "LuLuLun Precious Green Glow Up, Pack of 32, Face Pack, Sheet Mask, Large Capacity",
+          "brand": "LuLuLun",
+          "needs_review": true,
+          "title_zh": "LuLuLun Precious Green Glow Up（译）",
+          "currency": "JPY",
+          "image_url": "https://images-fe.ssl-images-amazon.com/images/I/616tgo3gvjL._AC_UL600_SR600,400_.jpg",
+          "image_zoom_url": "https://images-fe.ssl-images-amazon.com/images/I/616tgo3gvjL._AC_UL600_SR600,400_.jpg",
+          "url": "https://www.amazon.co.jp/dp/B0FS11314K"
+        },
+        {
+          "rank": 16,
+          "title": "【Large Capacity】 Success Medicated Shampoo Extra Cool, Refill, 32.4 fl oz (960 ml) [Quasi-drug] Cleans with one shot of Sebum, Wax, and Odor",
+          "brand": "Large",
+          "needs_review": true,
+          "title_zh": "【Large Capacity】 Success｜洗发水",
+          "currency": "JPY",
+          "image_url": "https://images-fe.ssl-images-amazon.com/images/I/819mfVpoPBL._AC_UL600_SR600,400_.jpg",
+          "image_zoom_url": "https://images-fe.ssl-images-amazon.com/images/I/819mfVpoPBL._AC_UL600_SR600,400_.jpg",
+          "url": "https://www.amazon.co.jp/dp/B084H16CPB"
+        },
+        {
+          "rank": 17,
+          "title": "Perfect One Focus Perfect One Focus Smooth Cleansing Balm, 2.6 oz (75 g) (Renewed) Yellow a (Single Item))",
+          "brand": "Perfect",
+          "needs_review": true,
+          "title_zh": "Perfect One Focus｜膏",
+          "currency": "JPY",
+          "image_url": "https://images-fe.ssl-images-amazon.com/images/I/6146UPInJlL._AC_UL600_SR600,400_.jpg",
+          "image_zoom_url": "https://images-fe.ssl-images-amazon.com/images/I/6146UPInJlL._AC_UL600_SR600,400_.jpg",
+          "url": "https://www.amazon.co.jp/dp/B0GCDNCH21"
+        },
+        {
+          "rank": 18,
+          "title": "Biore U Foam Hand Soap Refill 51.4 fl oz (1.52 L) [Amazon.co.jp Limited] [Quasi-drug]",
+          "brand": "Biore",
+          "needs_review": true,
+          "title_zh": "Biore U Foam｜皂",
+          "currency": "JPY",
+          "image_url": "https://images-fe.ssl-images-amazon.com/images/I/819UgWZjfXL._AC_UL600_SR600,400_.jpg",
+          "image_zoom_url": "https://images-fe.ssl-images-amazon.com/images/I/819UgWZjfXL._AC_UL600_SR600,400_.jpg",
+          "url": "https://www.amazon.co.jp/dp/B0DWKHLZF6"
+        },
+        {
+          "rank": 19,
+          "title": "Loretta Hard Jelly, 10.6 oz (300 g), Styling Agent, Gel, Hair Wax, Arrangement, Set Power, Hold, Glossy, Hair Care, Large Capacity |",
+          "brand": "Loretta",
+          "needs_review": true,
+          "title_zh": "Loretta Hard Jelly（译）",
+          "currency": "JPY",
+          "image_url": "https://images-fe.ssl-images-amazon.com/images/I/61bpiIZHFhL._AC_UL600_SR600,400_.jpg",
+          "image_zoom_url": "https://images-fe.ssl-images-amazon.com/images/I/61bpiIZHFhL._AC_UL600_SR600,400_.jpg",
+          "url": "https://www.amazon.co.jp/dp/B004WBF8EG"
+        },
+        {
+          "rank": 20,
+          "title": "Wella Wellatone 2+1 Gray Hair Dye Cream Type 7CB Bright Natural Brown, Vibrant Hair Color Lasts 6 Weeks, Quasi-Drug",
+          "brand": "Wella",
+          "needs_review": true,
+          "title_zh": "Wella Wellatone 2+1｜面霜",
+          "currency": "JPY",
+          "image_url": "https://images-fe.ssl-images-amazon.com/images/I/71gy9FZVkfL._AC_UL600_SR600,400_.jpg",
+          "image_zoom_url": "https://images-fe.ssl-images-amazon.com/images/I/71gy9FZVkfL._AC_UL600_SR600,400_.jpg",
+          "url": "https://www.amazon.co.jp/dp/B014KNY5SU"
+        },
+        {
+          "rank": 21,
+          "title": "KATE Lip Monster Lipstick 04 Pumpkin Wine 0.1 oz (3 g) x 1",
+          "brand": "KATE",
+          "needs_review": true,
+          "title_zh": "KATE Lip Monster｜口红",
+          "currency": "JPY",
+          "image_url": "https://images-fe.ssl-images-amazon.com/images/I/51tT84vq4dL._AC_UL600_SR600,400_.jpg",
+          "image_zoom_url": "https://images-fe.ssl-images-amazon.com/images/I/51tT84vq4dL._AC_UL600_SR600,400_.jpg",
+          "url": "https://www.amazon.co.jp/dp/B08YKGM5XZ"
+        },
+        {
+          "rank": 22,
+          "title": "Melt Moist Conditioning Water, Hair Lotion, 6.1 fl oz (170 ml), Resting Beauty, Mind Full Aroma, Geranium & Mug, Hair Mist, Hair Water, Hair Treatment, Before Dryer, Kao",
+          "brand": "Melt",
+          "needs_review": true,
+          "title_zh": "Melt Moist Conditioning Water（译）",
+          "currency": "JPY",
+          "image_url": "https://images-fe.ssl-images-amazon.com/images/I/61zfUbSkufL._AC_UL600_SR600,400_.jpg",
+          "image_zoom_url": "https://images-fe.ssl-images-amazon.com/images/I/61zfUbSkufL._AC_UL600_SR600,400_.jpg",
+          "url": "https://www.amazon.co.jp/dp/B0DBK6HXVH"
+        },
+        {
+          "rank": 23,
+          "title": "Cezanne Ultra Fine Core Eyebrow 03 Natural Brown",
+          "brand": "Cezanne",
+          "needs_review": true,
+          "title_zh": "Cezanne Ultra Fine Core Eyebrow 03 Natural Brown（译）",
+          "currency": "JPY",
+          "image_url": "https://images-fe.ssl-images-amazon.com/images/I/41U9DJIP35L._AC_UL600_SR600,400_.jpg",
+          "image_zoom_url": "https://images-fe.ssl-images-amazon.com/images/I/41U9DJIP35L._AC_UL600_SR600,400_.jpg",
+          "url": "https://www.amazon.co.jp/dp/B079TMJ5XV"
+        },
+        {
+          "rank": 24,
+          "title": "Amazon ASIN B083LWRKS7（页面原文为浏览器译文，见链接）",
+          "brand": "デオナチュレ",
+          "needs_review": true,
+          "title_zh": "デオナチュレ soft stone W 附2个 止汗剂 除臭棒 腋下汗 杀菌 防臭 无香料 | 20g x 2 个 直接涂抹 腋下 明矾 除臭 日本制造",
+          "currency": "JPY",
+          "image_url": "https://images-fe.ssl-images-amazon.com/images/I/71odqTnvQiL._AC_UL600_SR600,400_.jpg",
+          "image_zoom_url": "https://images-fe.ssl-images-amazon.com/images/I/71odqTnvQiL._AC_UL600_SR600,400_.jpg",
+          "url": "https://www.amazon.co.jp/dp/B083LWRKS7"
+        },
+        {
+          "rank": 25,
+          "title": "Innisfree: No Sebum Mineral Powder, 0.2 oz (5 g), Genuine Product, Make-up, Won't Break, Poreless, Oily Skin, Anti-Glare, Smooth, Oily, Korean Cosmetics, Make-Up, Portable, Sensitive Skin",
+          "brand": "Innisfree:",
+          "needs_review": true,
+          "title_zh": "Innisfree: No Sebum Mineral Powder（译）",
+          "currency": "JPY",
+          "image_url": "https://images-fe.ssl-images-amazon.com/images/I/51BjVocCkPL._AC_UL600_SR600,400_.jpg",
+          "image_zoom_url": "https://images-fe.ssl-images-amazon.com/images/I/51BjVocCkPL._AC_UL600_SR600,400_.jpg",
+          "url": "https://www.amazon.co.jp/dp/B0C851WQFJ"
+        },
+        {
+          "rank": 26,
+          "title": "Amazon ASIN B0FJLZTNLG（页面原文为浏览器译文，见链接）",
+          "brand": "Essential",
+          "needs_review": true,
+          "title_zh": "Essential Premium 保湿屏障洗发水 丝滑&光滑 替换装 340ml",
+          "currency": "JPY",
+          "image_url": "https://images-fe.ssl-images-amazon.com/images/I/71RJIflpKML._AC_UL600_SR600,400_.jpg",
+          "image_zoom_url": "https://images-fe.ssl-images-amazon.com/images/I/71RJIflpKML._AC_UL600_SR600,400_.jpg",
+          "url": "https://www.amazon.co.jp/dp/B0FJLZTNLG"
+        },
+        {
+          "rank": 27,
+          "title": "LUX Super Rich Shine Damage Repair Shampoo, Refill, Large Capacity, 5.6 oz (1,690 g)",
+          "brand": "LUX",
+          "needs_review": true,
+          "title_zh": "LUX Super Rich｜洗发水",
+          "currency": "JPY",
+          "image_url": "https://images-fe.ssl-images-amazon.com/images/I/61xbzLybf7L._AC_UL600_SR600,400_.jpg",
+          "image_zoom_url": "https://images-fe.ssl-images-amazon.com/images/I/61xbzLybf7L._AC_UL600_SR600,400_.jpg",
+          "url": "https://www.amazon.co.jp/dp/B0FKS6PXSM"
+        },
+        {
+          "rank": 28,
+          "title": "Amazon ASIN B0CB3PV5XP（页面原文为浏览器译文，见链接）",
+          "brand": "Essential",
+          "needs_review": true,
+          "title_zh": "Essential 头发结构美容修复护发素 补充装 700ml",
+          "currency": "JPY",
+          "image_url": "https://images-fe.ssl-images-amazon.com/images/I/71R34cQehiL._AC_UL600_SR600,400_.jpg",
+          "image_zoom_url": "https://images-fe.ssl-images-amazon.com/images/I/71R34cQehiL._AC_UL600_SR600,400_.jpg",
+          "url": "https://www.amazon.co.jp/dp/B0CB3PV5XP"
+        },
+        {
+          "rank": 29,
+          "title": "Amazon ASIN B0F76TLP2H（页面原文为浏览器译文，见链接）",
+          "brand": "ORBIS奥蜜思",
+          "needs_review": true,
+          "title_zh": "ORBIS奥蜜思 卸妆油 替换装 110ml",
+          "currency": "JPY",
+          "image_url": "https://images-fe.ssl-images-amazon.com/images/I/61N6u-hT0KL._AC_UL600_SR600,400_.jpg",
+          "image_zoom_url": "https://images-fe.ssl-images-amazon.com/images/I/61N6u-hT0KL._AC_UL600_SR600,400_.jpg",
+          "url": "https://www.amazon.co.jp/dp/B0F76TLP2H"
+        },
+        {
+          "rank": 30,
+          "title": "Amazon ASIN B0DK4Y2YP3（页面原文为浏览器译文，见链接）",
+          "brand": "CELIMAX",
+          "needs_review": true,
+          "title_zh": "CELIMAX Cerimax Letinal Shot 紧致增强剂 15毫升 | 霜视黄醇视黄醇维生素 A 皱纹小细纹烟酰胺色调护理毛孔保湿面部紧致夜间抗衰老护理低过敏配方",
+          "currency": "JPY",
+          "image_url": "https://images-fe.ssl-images-amazon.com/images/I/517-8NAQ8oL._AC_UL600_SR600,400_.jpg",
+          "image_zoom_url": "https://images-fe.ssl-images-amazon.com/images/I/517-8NAQ8oL._AC_UL600_SR600,400_.jpg",
+          "url": "https://www.amazon.co.jp/dp/B0DK4Y2YP3"
+        }
+      ]
+    }
+  ]
+}

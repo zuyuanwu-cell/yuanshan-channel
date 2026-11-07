@@ -1,0 +1,163 @@
+# 同舟跨境·远山频道 — Decap CMS 配置
+# 登录：GitHub OAuth（需宝塔部署 deploy/admin-oauth，见 deploy/ADMIN.md）
+# 未改 base_url / 未起 OAuth 桥之前，Login with GitHub 会失败。
+
+locale: zh_Hans
+
+backend:
+  name: github
+  repo: zuyuanwu-cell/yuanshan-channel
+  branch: main
+  # OAuth 桥对外基址。与站点同域反代时用站点根；子域则改成 https://oauth.xxx.com
+  # 宝塔按 deploy/ADMIN.md 配好 /oauth/ 反代后，下面两行即可用：
+  base_url: https://ys.tongzhoukuajing.com
+  auth_endpoint: oauth/auth
+  # 可选：减轻 GitHub API 次数
+  use_graphql: true
+
+# 直接写 main，不做 PR 工作流（省事；编辑账号需有仓库写权限）
+publish_mode: simple
+
+media_folder: content/assets
+public_folder: /media
+
+slug:
+  encoding: ascii
+  clean_accents: true
+  sanitize_replacement: "-"
+
+collections:
+  - name: news
+    label: 资讯与法规
+    label_singular: 资讯
+    folder: content/news
+    create: true
+    delete: true
+    extension: md
+    format: frontmatter
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    summary: "{{date}} · {{title}}"
+    sortable_fields: ["date", "title", "category", "checked"]
+    view_filters:
+      - label: 平台规则
+        field: category
+        pattern: rules
+      - label: 目的国法规
+        field: category
+        pattern: regulation
+      - label: 待核实
+        field: needs_review
+        pattern: true
+    fields:
+      - { label: 标题, name: title, widget: string, hint: "4–80 字，卡片主标题" }
+      - { label: 发布日, name: date, widget: datetime, format: YYYY-MM-DD, time_format: false, date_format: YYYY-MM-DD }
+      - label: 栏目
+        name: category
+        widget: select
+        options:
+          - { label: 平台规则, value: rules }
+          - { label: 目的国法规, value: regulation }
+      - label: 相关平台
+        name: platforms
+        widget: list
+        required: false
+        allow_add: true
+        field:
+          label: 平台 id
+          name: platform
+          widget: select
+          options:
+            - taobao
+            - tmall
+            - jd
+            - pinduoduo
+            - temu
+            - douyin
+            - tiktok-shop
+            - amazon-us
+            - amazon-eu
+            - walmart
+            - ebay
+            - etsy
+            - target-plus
+            - shopee
+            - lazada
+            - tokopedia
+            - amazon-sg
+            - allegro
+            - otto
+            - zalando
+            - noon
+            - amazon-ae
+            - ozon
+            - wildberries
+            - mercado-libre
+            - flipkart
+            - amazon-in
+            - rakuten
+            - coupang
+            - instagram-shopping
+      - label: 国家/地区
+        name: countries
+        widget: list
+        required: false
+        allow_add: true
+        field:
+          label: 两位小写码
+          name: country
+          widget: select
+          options:
+            - { label: 美国 us, value: us }
+            - { label: 欧盟 eu, value: eu }
+            - { label: 英国 uk, value: uk }
+            - { label: 日本 jp, value: jp }
+            - { label: 韩国 kr, value: kr }
+            - { label: 印尼 id, value: id }
+            - { label: 马来西亚 my, value: my }
+            - { label: 泰国 th, value: th }
+            - { label: 越南 vn, value: vn }
+            - { label: 菲律宾 ph, value: ph }
+            - { label: 新加坡 sg, value: sg }
+            - { label: 俄罗斯 ru, value: ru }
+            - { label: 阿联酋 ae, value: ae }
+            - { label: 沙特 sa, value: sa }
+            - { label: 巴西 br, value: br }
+      - label: 标签
+        name: tags
+        widget: select
+        multiple: true
+        min: 1
+        max: 3
+        options:
+          - { label: 费用佣金, value: fees }
+          - { label: 商品与内容, value: listing }
+          - { label: 准入备案, value: compliance }
+          - { label: 成分禁限, value: ingredients }
+          - { label: 标签标识, value: labeling }
+          - { label: 关税清关, value: customs }
+          - { label: 罚则考核, value: penalties }
+          - { label: AI 内容, value: ai }
+      - { label: 来源链接, name: source_url, widget: string, hint: "必须是你打开过的 http(s) 页面" }
+      - { label: 来源名称, name: source_name, widget: string, hint: "例如 FDA · Registration & Listing" }
+      - { label: 核对日, name: checked, widget: datetime, format: YYYY-MM-DD, time_format: false, date_format: YYYY-MM-DD }
+      - label: 关键日期
+        name: key_date
+        widget: object
+        required: false
+        fields:
+          - { label: 日期, name: date, widget: datetime, format: YYYY-MM-DD, time_format: false, date_format: YYYY-MM-DD }
+          - { label: 标签, name: label, widget: string, hint: "2–10 字，如 生效 / 截止" }
+      - { label: 首页看点, name: highlight, widget: boolean, default: false, required: false, hint: "勾选须同时填关键日期" }
+      - { label: 摘要, name: summary, widget: text, hint: "8–160 字，卡片用" }
+      - { label: 待核实, name: needs_review, widget: boolean, default: true, hint: "媒体/转述来源勾 true；官方原文勾 false" }
+      - { label: 示例占位, name: sample, widget: boolean, default: false, hint: "占位稿必须 true，且 needs_review 也要 true" }
+      - { label: 正文, name: body, widget: markdown }
+
+  - name: about
+    label: 关于页
+    files:
+      - name: about
+        label: 关于
+        file: content/about.md
+        fields:
+          - { label: 正文, name: body, widget: markdown }

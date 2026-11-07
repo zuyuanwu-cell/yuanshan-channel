@@ -1,0 +1,362 @@
+{
+  "api": "yuanshan-channel/v1",
+  "access": "public-read",
+  "auth": null,
+  "generated": "2026-10-26",
+  "disclaimer": "每条资讯都附来源链接。标了「待核实」的条目来自媒体或第三方转述，引用前打开原文。费用、排名和法规以官方页面为准。",
+  "kind": "feed",
+  "id": "eu/rules+regulation+rankings",
+  "title": "欧盟·德国",
+  "markets": [
+    "eu"
+  ],
+  "types": [
+    "rules",
+    "regulation",
+    "rankings"
+  ],
+  "filter": {
+    "markets": [
+      "eu"
+    ],
+    "types": [
+      "rules",
+      "regulation",
+      "rankings"
+    ],
+    "include_global": false
+  },
+  "count": 11,
+  "items": [
+    {
+      "kind": "news",
+      "id": "2026-11-05-sccs-phytonadione-epoxide-not-safe",
+      "type": "regulation",
+      "date": "2026-11-05",
+      "title": "欧盟SCCS初评：维生素K1氧化物≤1%也不安全，眼霜祛青配方要盯",
+      "summary": "SCCS 2026-11-04书面通过、11-05挂网初步科学建议（SCCS/1690/26）：Phytonadione Epoxide（维生素K1氧化物，CAS 25486-55-9）在化妆品中≤1%仍不安全（严重过敏皮肤反应），且给不出安全上限；征求意见至2027-01-11。尚未写入禁限用清单。",
+      "body_text": "出口 欧盟、配方里有 维生素K1氧化物（Phytonadione Epoxide / Vitamin K1 oxide，CAS 25486-55-9） 的品牌和工厂注意：欧盟消费者安全科学委员会（SCCS）2026年11月4日 书面通过初步科学建议，欧盟健康总司 11月5日 挂网公开征求意见，文件编号 SCCS/1690/26，意见截止 2027年1月11日。\n\n先说清楚：这是初步科学建议，还不是化妆品法规附件禁限用的正式修订。 今天在售合规货不受本条直接下架；但结论已经很硬，后续委员会极可能跟进限用或禁用。\n\n结论写了什么\n\n据官方 PDF 摘要（Abstract）：\n\n- ≤1% 是否安全？ — 不安全。 文献病例与严重不良事件（SUE）显示，该成分可引起常需就医的严重过敏性皮肤反应。\n\n- 安全上限是多少？ — 给不出来。 缺乏定量毒理学起点（含皮肤致敏）和消费者暴露数据，无法完成安全评估。\n\n- 还有没有别的担心？ — 致突变/遗传毒性不能排除：征集与公开文献都没提供相关实验数据。\n\n成分定位：INCI / 常用名 Phytonadione Epoxide（Vitamin K1 oxide），CAS 25486-55-9，EC 247-022-9，常出现在宣称淡化黑眼圈、改善青紫的眼霜/精华类配方里（并非所有「维生素K」都是这一氧化物形态——配方单要按 INCI/CAS 对）。\n\n影响谁\n\n- 向欧盟投放、配方含 Phytonadione Epoxide 的护肤/眼部护理品牌、RP、代工厂\n\n- 原料商：向欧供应该原料或含该原料的混合物\n\n- 不含该 CAS、只做国内或其他市场：本条不直接改你的义务；但若宣传「欧标同款」且配方有该成分，要评估后续附件修订风险\n\n意味着什么、现在注意什么\n\n- 盘点配方：按 CAS/INCI 筛欧盟在售与在研 SKU，别只搜「维生素K」。\n\n- 新品避开：2027 年前后准备进欧盟的眼霜/修护类，研发阶段就换掉该氧化物；SCCS 连安全上限都给不出，留给正式限用的空间很小。\n\n- 跟征求意见：对结论有数据要补的，按欧盟健康总司页面说明在 2027-01-11 前反馈；最终意见与委员会立法动作以官网为准。\n\n- 本站标了 needs_review，附件 II/III 正式修订后再改合规页禁限用条目。\n\n证据（核对日期 2026-11-06）\n\nSCCS/1690/26 封面：2026-11-04 书面通过初步版：\n\n摘要页：≤1% 不安全、无法给出安全上限、遗传毒性数据缺失：\n\n来源\n\n- 欧盟健康与食品安全总司 · SCCS Scientific Advice open for comments on Phytonadione Epoxide (Vitamin K1 oxide) (https://health.ec.europa.eu/latest-updates/sccs-scientific-advice-open-comments-safety-phytonadione-epoxide-vitamin-k1-oxide-deadline-11-2026-11-05_en)（2026-11-05）\n\n- 同页 PDF：SCCS/1690/26 preliminary version of 4 November 2026（本站已存证据目录）\n\n- 站内对照：欧盟合规 (/compliance/eu/)、ECHA 奥克立林限制意见 (/news/2026-11-01-echa-octocrylene-cosmetics-restriction-opinion/)",
+      "markets": [
+        "eu"
+      ],
+      "platforms": [],
+      "tags": [
+        "ingredients",
+        "compliance"
+      ],
+      "source_url": "https://health.ec.europa.eu/latest-updates/sccs-scientific-advice-open-comments-safety-phytonadione-epoxide-vitamin-k1-oxide-deadline-11-2026-11-05_en",
+      "source_name": "欧盟委员会 · 健康与食品安全总司 / SCCS",
+      "checked": "2026-11-06",
+      "needs_review": true,
+      "sample": false,
+      "key_date": {
+        "date": "2027-01-11",
+        "label": "公开征求意见截止"
+      },
+      "page": "/news/2026-11-05-sccs-phytonadione-epoxide-not-safe/"
+    },
+    {
+      "kind": "news",
+      "id": "2026-11-01-echa-octocrylene-cosmetics-restriction-opinion",
+      "type": "regulation",
+      "date": "2026-11-01",
+      "title": "欧盟拟禁含奥克立林的化妆品：ECHA两委员会已点头，防晒配方要提前找替代",
+      "summary": "ECHA 风险评估（RAC）与社会经济分析（SEAC）委员会支持法国提案：成品化妆品含奥克立林（Octocrylene）≥0.001% 即限制上市，提案过渡期 24 个月；10-30 最终意见已交欧盟委员会，还不是正式法规。",
+      "body_text": "做 防晒、带 SPF 的粉底/隔离/唇膏 出口欧洲的品牌和工厂，要开始盯一个成分了：奥克立林（Octocrylene，CAS 6197-30-4）。欧洲化学品管理局（ECHA）2026年10月30日 公布，旗下两个科学委员会都支持法国提出的 REACH 限制提案，意见已经交给欧盟委员会。\n\n先说清楚：现在还只是提案，欧盟现行规则没变，今天在卖的货不受影响。\n\n提案改了什么\n\n- 范围：成品化妆品（按欧盟化妆品法规 1223/2009 定义），只要含奥克立林 ≥0.001%（按重量） 就不能投放欧盟市场。0.001% 基本等于\"不能有\"，不是降限量，而是事实上的禁用。\n\n- 理由：环境风险，不是人体安全。洗澡、游泳时冲进河流、湖泊、海洋和土壤，难降解、会在生物体内累积，还被怀疑会干扰环境中生物的内分泌。\n\n- 过渡期：提案写的是限制生效后 24 个月（据 RPA 对 SEAC 意见的解读 (https://rpaltd.co.uk/news/octocrylene-restriction-seac-final-opinion/)）。最终数字要等欧盟委员会定稿。\n\n- 进度：法国 2025 年 7 月提交 → 公众咨询到 2026-03-24 → RAC 6 月、SEAC 9 月通过 → 10-30 最终意见发布。下一步：欧盟委员会决定是否起草限制案，交成员国 REACH 委员会表决，再经欧洲议会审查。\n\n影响谁\n\n- 防晒类化妆品品牌和代工厂：奥克立林是常用的 UVB 化学防晒剂，也常被拿来稳定阿伏苯宗。配方里有它的，进欧盟的货将来都要改。\n\n- 带防晒功能的彩妆、护肤：SPF 粉底液、BB/CC 霜、隔离、日霜、防晒唇膏，配方单里都要查一遍。\n\n- 只卖国内、美国或东南亚的货：这条只管欧盟，暂不影响。但美国加州已经在管\"海洋友好\"类宣称（见 加州 AB1744 防晒宣称新规 (/news/2026-10-31-california-ab1744-sunscreen-reef-safe-claims/)），奥克立林在环保方向上已经两头受压。\n\n现在该做什么\n\n- 盘点：把在售和在研的欧盟 SKU 配方单过一遍，标出含奥克立林的款和浓度。\n\n- 找替代：换防晒剂不是换个原料那么简单，要重做 SPF 测试、稳定性和安全评估（CPSR），通常要几个月到一年；24 个月过渡期听着长，算上测试和清库存并不宽裕。\n\n- 新品别再用：现在开发、准备 2027–2028 年进欧盟的新防晒，配方阶段就避开奥克立林，省得上市没多久就要改。\n\n- 跟进进度：欧盟委员会出正式草案后，限量、范围和过渡期都可能调整，到时以官方文本为准。",
+      "markets": [
+        "eu"
+      ],
+      "platforms": [],
+      "tags": [
+        "compliance",
+        "ingredients"
+      ],
+      "source_url": "https://www.lovguiden.dk/en/det-offentlige/det-europaeiske-kemikalieagentur/2026-10-30-echa-udvalg-stoetter-forbud-mod-octocrilen-i-kosmetik-over-0001",
+      "source_name": "ECHA 新闻稿（Lovguiden 转载）· 2026-10-30",
+      "checked": "2026-11-01",
+      "needs_review": true,
+      "sample": false,
+      "key_date": {
+        "date": "2026-10-30",
+        "label": "ECHA 意见发布"
+      },
+      "page": "/news/2026-11-01-echa-octocrylene-cosmetics-restriction-opinion/"
+    },
+    {
+      "kind": "news",
+      "id": "2026-11-01-eu-2026-909-aluminium-tphp-jan-2027",
+      "type": "regulation",
+      "date": "2026-11-01",
+      "title": "欧盟化妆品新限量还剩两个月：2027-01-01 起铝、柠檬醛、水杨酸苄酯超限的货不能再进，指甲油禁磷酸三苯酯",
+      "summary": "欧盟 (EU) 2026/909 已于 2026-05-18 生效：含铝成分按品类设上限、柠檬醛与水杨酸苄酯按品类限量、磷酸三苯酯（TPhP）全面禁用等。2027-01-01 起不合规产品不得新投放欧盟市场，2028-07-01 起在售库存也不得再卖（部分柠檬醛条目为 2028-08-01）。",
+      "body_text": "卖 止汗/香体、牙膏、口红唇彩、香水、彩妆、指甲油、染发 到欧洲的品牌和工厂，离一个硬截止日只剩两个月：2027年1月1日。\n\n欧盟委员会今年 4 月发布的 法规 (EU) 2026/909 (https://eur-lex.europa.eu/eli/reg/2026/909/oj/eng) 已在 2026-05-18 生效，一口气改了十几种常用成分的规矩（欧盟委员会的 官方解读 (https://ec.europa.eu/newsroom/growth/items/938419/en)）。过渡期分两段：\n\n- 2027-01-01 起：不符合新规的产品 不能再新投放 欧盟市场——也就是新到港、新上架的货要合规。\n\n- 2028-07-01 起：不合规产品 在售库存也不能再卖（部分柠檬醛条目放宽到 2028-08-01）。\n\n改了什么（挑和出海卖家最相关的）\n\n- 含铝成分按品类设上限（按铝计）：以前铝盐只在个别条目里管，这次按\"总暴露量\"统一设限。例如 牙膏 3.18%、唇部产品 14.62%、非喷雾止汗/香体 7.73%、喷雾止汗/香体 3.24%，彩妆、眼影、指甲油、护肤等其他品类各有数值。止汗剂、喷雾类最容易踩线。\n\n- 磷酸三苯酯（TPhP）全面禁用：常在 指甲油 里当增塑剂。科学委员会无法排除遗传毒性，直接列入禁用清单。美国加州也在同时管这个成分（见 加州 TPhP 指甲产品申报 (/news/2026-11-01-california-tphp-nail-products-notification/)），做指甲油的两边都要改。\n\n- 柠檬醛（Citral）按品类限量：这是常见的柠檬味香精成分。例如 唇部产品 0.11%、止汗/香体 0.032%、香水 0.6%、眼部及面部彩妆 0.65%、驻留型护肤 0.15%。\n\n- 水杨酸苄酯（Benzyl Salicylate）按品类限量：香精里非常常见，香水类上限 4%，其他品类另有更低数值。\n\n- 其他：水溶性锌盐（牙膏、漱口水，分年龄段限量）、乙酰化香根草油新增限量、三种染发剂（HC Blue No 18 / HC Red No 18 / HC Yellow No 16）新增使用条件、防晒剂 DHHB 中邻苯二甲酸二己酯杂质限 10ppm；银锌沸石获准作防腐剂（限喷雾香体和粉底）。\n\n影响谁\n\n- 止汗香体、牙膏、口腔护理工厂：铝和锌两条同时动，配方要逐项核算。\n\n- 香水、带香精的护肤彩妆：柠檬醛、水杨酸苄酯是香精里的\"常客\"，问题往往藏在香精供应商的复配里，品牌自己的配方单上看不出来。\n\n- 指甲油、甲油胶：含 TPhP 的一律不能再进欧盟。\n\n- 跨境直邮、FBA 欧洲仓：2027-01-01 后发出/入仓的批次都算\"新投放\"，年底备货要按新规算。\n\n现在该做什么\n\n- 向香精和原料供应商要新版声明：确认柠檬醛、水杨酸苄酯在成品里的含量，以及是否含 TPhP。\n\n- 按品类核铝含量：止汗剂、牙膏、唇膏、彩妆优先核；超了要改配方并重做安全评估（CPSR），通知欧盟责任人更新产品档案。\n\n- 排好年底备货：不合规的老配方，最好在 2026 年底前完成投放；之后只能卖到 2028 年中。\n\n- 具体条目和数值以 EUR-Lex 原文 (https://eur-lex.europa.eu/eli/reg/2026/909/oj/eng) 为准。",
+      "markets": [
+        "eu"
+      ],
+      "platforms": [],
+      "tags": [
+        "compliance",
+        "ingredients"
+      ],
+      "source_url": "https://eur-lex.europa.eu/eli/reg/2026/909/oj/eng",
+      "source_name": "EUR-Lex · 欧盟委员会法规 (EU) 2026/909",
+      "checked": "2026-11-01",
+      "needs_review": false,
+      "sample": false,
+      "key_date": {
+        "date": "2027-01-01",
+        "label": "不合规新货禁投放"
+      },
+      "page": "/news/2026-11-01-eu-2026-909-aluminium-tphp-jan-2027/"
+    },
+    {
+      "kind": "news",
+      "id": "2026-11-01-eu-low-value-parcel-product-identifier-pid",
+      "type": "regulation",
+      "date": "2026-11-01",
+      "title": "欧盟直邮小包今起每行必报商品编码（PID），漏填可能扣关退运",
+      "summary": "2026-11-01起，欧盟B2C电商小包（IOSS等）报关每个申报行必须填商家货号 M-PID 和厂家型号 NS-PID，有条码再填 S-PID；7月起只是自愿。",
+      "body_text": "往 欧盟消费者直邮 的美妆日化卖家，今天除了 每品目 €2 处理费 (/news/2026-11-01-eu-union-handling-fee-2-euro/) 之外还有第二件事：2026年11月1日 起，电商小包的进口申报里 必须写产品标识符（Product Identifier，PID）。7月1日起这只是自愿填，今天起全欧盟强制。依据是欧盟委员会授权条例 （EU）2026/1022，荷兰海关 (https://www.douane.nl/en/themes/import-and-export/import/e-commerce/including-product-identifiers-in-your-e-commerce-declaration/) 10月22日更新的说明写得最直白。\n\n改了什么\n\n每个申报行（每种商品）要带三类编码：\n\n编码\n是什么\n要求\n\nM-PID 商家编码\n卖家/平台自己系统里的货号、商品 ID\n必填\n\nNS-PID 厂家非标准编码\n工厂/供应商自己的款号、型号、目录编号\n必填\n\nS-PID 厂家标准编码\nEAN、UPC 等国际标准条码\n有就填，没有可按规则报「无」\n\n适用范围：走电商增值税安排的 B2C 申报（IOSS、特殊安排、标准 B2C 申报），也就是 ≤€150 远程销售小包这条线。\n\n影响谁\n\n- 中国/海外仓直邮欧盟的美妆个护卖家：Temu、亚马逊欧洲站跨境、TikTok Shop、Allegro 等走邮政/快递小包的都在内。Temu 已在后台上线「维护货号」功能，要求欧盟及摩纳哥在售商品补齐。\n\n- OEM/白牌货、没有 EAN 条码的小品牌：S-PID 可以没有，但 NS-PID（工厂型号）不能空。代工厂没给款号的，现在要跟工厂要一个稳定编号。\n\n- 货代、清关行：申报模板要多三个字段；数据从哪来、谁对错负责要先说清。\n\n- 欧盟本地仓发货、B2B 大货进口：不走这条 B2C 小包申报，一般不受影响。\n\n意味着什么\n\n- 漏填、乱填会卡清关：缺 PID 的包裹可能被扣、被退运，大促前最怕整批卡在海关。\n\n- 更容易被「连坐」抽查：海关拿 PID 追踪同一款货。某款面霜一旦被查出不合规（比如没有欧盟责任人 RP、没做 CPNP、成分超限），同一 PID 的后续包裹都更容易被拦下来查。以前换个品名还能混过去，现在同款货会被持续盯住。\n\n- 现在该做的：给每个在售 SKU 配好固定货号和工厂型号，跟平台/货代核对字段是否已经传到报关数据里；化妆品本身的 RP、PIF、CPNP、标签合规要同时补齐，因为 PID 会让不合规货更快暴露。",
+      "markets": [
+        "eu"
+      ],
+      "platforms": [
+        "temu",
+        "amazon-eu",
+        "tiktok-shop",
+        "allegro"
+      ],
+      "tags": [
+        "customs",
+        "compliance"
+      ],
+      "source_url": "https://www.douane.nl/en/themes/import-and-export/import/e-commerce/including-product-identifiers-in-your-e-commerce-declaration/",
+      "source_name": "荷兰海关 · 电商申报须填产品标识符（依据（EU）2026/1022）",
+      "checked": "2026-11-01",
+      "needs_review": false,
+      "sample": false,
+      "key_date": {
+        "date": "2026-11-01",
+        "label": "强制申报"
+      },
+      "page": "/news/2026-11-01-eu-low-value-parcel-product-identifier-pid/"
+    },
+    {
+      "kind": "news",
+      "id": "2026-11-01-eu-union-handling-fee-2-euro",
+      "type": "regulation",
+      "date": "2026-11-01",
+      "title": "欧盟直邮今起每品目加收 €2 处理费（无货值门槛）",
+      "summary": "2026-11-01起，第三国对欧盟消费者远程销售直邮按每个品目/税则类别收 €2 Union Handling Fee，无货值门槛；与≤€150的临时€3关税分开算。",
+      "body_text": "往 欧盟消费者 做 第三国直邮（中国仓、香港仓等发到 EU）的美妆日化卖家注意：2026年11月1日 起，欧盟统一开收远程销售 Union Handling Fee（联盟处理费）：每个品目（税则类别）€2，不设货值门槛。欧盟委员会 海关改革页 (https://taxation-customs.ec.europa.eu/customs/eu-customs-reform_en) 已写明自该日起适用；德国海关总署 10月29日新闻稿、法国 Service-Public 10月30日说明、爱尔兰税务局 UHF 专页口径一致。\n\n站内相关：欧盟 €3 小包关税与 Temu 本地仓 (/news/2026-09-04-temu-eu-3-euro-duty/)（当时只预告「11月1日前另设处理费」）、Temu 欧盟 DSA 整改 (/news/2026-10-29-temu-eu-dsa-action-plan-illegal-products/)。\n\n改了什么\n\n- €2 处理费正式开征\n\n- 适用：非欧盟关境外 电商/平台远程销售，直邮到欧盟境内 私人消费者（B2C） 的包裹。\n\n- 计费：每个不同品目/税则类别 €2（同类多件通常只算一次；口红+洗发水这类不同类别要累加）。\n\n- 无货值门槛：超过 €150 的订单同样收；这点和只覆盖 ≤€150 的临时 €3 关税 不同。\n\n- 与关税、增值税分开；法国官方说明按欧盟 组合商品名称（CN） 划分类别。\n\n- 和 €3 临时关税怎么叠\n\n- 2026-07-01 起：≤€150 小包已按品目收临时 €3 关税（做到 2028-07-01 前后由正常税率衔接）。\n\n- 今天起：同一包裹在符合条件时，€3 关税（若仍适用）+ €2 处理费 可能同时出现。\n\n- 举例（口径与法/德官方一致）：一包里面霜 + 口红 + 洗发水 = 三个类别 → 处理费约 €6；若货值 ≤€150，临时关税再按类别另计。\n\n- 谁付钱、退货退不退\n\n- 德国/法国官方：一般由 平台、卖家或承运商 办理申报与缴纳；消费者通常不会收到海关单独催款。\n\n- 商家可以把成本打进售价或运费——自己算清「多品类混包」是否还划算。\n\n- 爱尔兰税务局写明：UHF 不可退，即使货有瑕疵或已退回。\n\n- 以货物进入欧盟的时间 为准：11月1日前下的单，若清关落在生效日之后，仍可能被收。\n\n- 私人礼物\n\n- 爱尔兰税务局说明：私人对私人、非商业礼物 不适用 UHF；商售直邮不要往「礼物」上靠。\n\n影响谁\n\n- 中国/海外仓直邮欧盟的美妆、个护、香水彩妆卖家（Temu、亚马逊欧盟站跨境、TikTok Shop、Allegro 等走邮政/快递小包的）：每个 SKU 类别多 €2 固定成本，混装多品类小包最伤。\n\n- 平台与货代：申报字段、代扣代缴、账单拆分要跟上；别默认「买家到付」。\n\n- 已在欧盟本地仓/欧盟履约的卖家：货物已在欧盟关境内再卖给消费者，一般不按「第三国远程销售直邮」收这趟 UHF（仍要守化妆品 RP/CPNP 等）。\n\n- 只做 B2B 大宗进口再分销的：本条盯的是 B2C 远程销售小包，模式不同，别和一般商业进口手续混为一谈。\n\n意味着什么\n\n这不是新的化妆品成分禁令，而是 跨境小包清关的固定成本再抬一档：7月的 €3 临时关税之后，11月再加 无门槛 €2 处理费。美妆常「面霜+小样+彩妆」混包，品类一多费用线性往上加。现在该做的：按 CN/税则把在售组合拆开算账，能本地仓的评估本地履约，直邮则减少无意义的多品类拼箱，并跟平台/货代确认 谁申报、谁扣费、账单何时出。化妆品本身的 RP、PIF、CPNP、标签义务不变；不合规货被抽检下架的风险，和清关加费是两条线。",
+      "markets": [
+        "eu"
+      ],
+      "platforms": [
+        "temu",
+        "amazon-eu",
+        "tiktok-shop",
+        "allegro"
+      ],
+      "tags": [
+        "customs",
+        "fees"
+      ],
+      "source_url": "https://taxation-customs.ec.europa.eu/customs/eu-customs-reform_en",
+      "source_name": "欧盟委员会 · EU Customs Reform（含 UHF）",
+      "checked": "2026-11-01",
+      "needs_review": false,
+      "sample": false,
+      "key_date": {
+        "date": "2026-11-01",
+        "label": "生效日"
+      },
+      "page": "/news/2026-11-01-eu-union-handling-fee-2-euro/"
+    },
+    {
+      "kind": "news",
+      "id": "2026-10-29-temu-eu-dsa-action-plan-illegal-products",
+      "type": "rules",
+      "date": "2026-10-29",
+      "title": "欧盟接受 Temu DSA 整改计划：四个月加严非法商品排查，美妆无责任人/不合规货下架风险升高",
+      "summary": "欧委会10月26日接受Temu就《数字服务法》风险评失败的整改计划：平台须强化非法商品风险分析、内容审核短板与推荐算法放大效应评估；四个月内推进并做覆盖至2026-11-30的中期风险评估。美妆等不合规链接面临更紧的下架与流量收紧。",
+      "body_text": "欧盟委员会在 2026年10月26日《Daily News》中宣布：已接受 Temu 为纠正违反《数字服务法》（DSA）所作的整改计划。此前委员会认定 Temu 未充分履行对平台上非法商品相关系统性风险的评估义务，并曾处以 2 亿欧元罚款。一手来源为委员会当日新闻简报（MEX/26/2257）。\n\n这不是又一条化妆品成分禁令，而是 Temu 欧洲站接下来几个月会怎么查「不合格/违法商品」——美妆日化因为责任人、标签、安全与虚假宣传问题集中，往往落在高风险区。\n\n改了什么\n\n委员会概括 Temu 计划的 五项措施：\n\n- 做针对本平台的风险分析（用可靠、及时的信息）\n\n- 用可度量指标检验缓解措施是否真的降低了非法内容/非法商品扩散\n\n- 评估内容审核（含自动检测、人工复核、反馈与资源投入）的短板，以及这些短板如何影响推荐给用户的商品\n\n- 分析推荐系统是否会放大非法商品曝光\n\n- 排查卖家及其他用户是否利用平台功能故意操纵、放大潜在非法 listing\n\n时间表（简报口径）：\n\n- 接受计划当日：2026-10-26\n\n- Temu 须在 四个月内推进计划落地，并开展覆盖 截至 2026-11-30 共六个月的中期风险评估\n\n- 委员会将继续监督执行；数字服务委员会曾认为计划细节不够充分，委员会称已据此澄清关键要求\n\n公开跟进报道还提到：Temu 承诺做外部独立审计，审计报告需在措施实施后四个月内提交委员会；若审计有建议，须一个月内反馈处理情况。\n\n影响谁\n\n- 在 Temu 欧盟站点卖护肤、彩妆、香水、个护的卖家——缺欧盟责任人（RP）、CPNP/标签不全、禁限用成分、虚假功效或仿牌风险更高的链接，更容易被加强审核与下架\n\n- 靠「擦边 listing + 推荐流量」起量的白牌美妆：推荐侧若被要求压非法货扩散，曝光可能被动收缩\n\n- 已合规、资料齐全的品牌：相对受益（竞品不合规货被清）\n\n意味着什么 / 现在注意什么\n\n- 未来约一个季度是收紧窗口：别等链接没了再补 RP、成分与包装图；欧盟化妆品本就要求 RP、PIF/安全报告与 CPNP，平台加码排查等于把法定义务和上架资格绑得更紧\n\n- 自查：责任人信息是否与包装一致、有无禁限用/未通报纳米、宣称是否医疗化、主图是否假货仿牌风险\n\n- 与站内 Temu 美国站 PFAS/加州65申报 (/news/2026-10-29-temu-us-cosmetics-pfas-prop65/) 是不同站点、不同规则；欧洲这条是 DSA 执法，不是美国合规中心字段\n\n来源：欧盟委员会 Daily News 26/10/2026 PDF（MEX/26/2257） (https://ec.europa.eu/commission/presscorner/api/files/document/print/en/mex_26_2257/MEX_26_2257_EN.pdf)",
+      "markets": [
+        "eu"
+      ],
+      "platforms": [
+        "temu"
+      ],
+      "tags": [
+        "compliance",
+        "penalties"
+      ],
+      "source_url": "https://ec.europa.eu/commission/presscorner/api/files/document/print/en/mex_26_2257/MEX_26_2257_EN.pdf",
+      "source_name": "欧盟委员会 Daily News 26/10/2026（MEX/26/2257）",
+      "checked": "2026-10-29",
+      "needs_review": false,
+      "sample": false,
+      "key_date": {
+        "date": "2026-10-26",
+        "label": "欧委会接受整改计划"
+      },
+      "page": "/news/2026-10-29-temu-eu-dsa-action-plan-illegal-products/"
+    },
+    {
+      "kind": "news",
+      "id": "2026-10-22-eu-omnibus-vi-parliament",
+      "type": "regulation",
+      "date": "2026-10-22",
+      "title": "欧盟议会通过 Omnibus VI：CMR 化妆品清货期缩短",
+      "summary": "欧洲议会10月22日以477票赞成通过 Omnibus VI 与理事会临时协议。含新禁CMR的化妆品清货窗口缩短；纳米成分通报取消「提前6个月」。须理事会再通过才生效。",
+      "body_text": "欧洲议会 2026年10月22日 以 477 票赞成、59 票反对、41 票弃权，一读通过化学品简化一揽子（业内称 Omnibus VI，程序号 2025/0531(COD)）与理事会谈妥的临时协议。文件会改化妆品法规（EC）1223/2009、CLP 与肥料规则。理事会还要通过并在官方公报公布后才生效，现在不是立刻改标签。\n\n对美妆卖家/品牌，真正要盯的是两件事：\n\n1. 新禁 CMR 成分后的清货时间变短\n\n某物质因被列为 CMR 写进化妆品禁用表后（从「列入禁用表生效日」起算，不是从今天起算）：\n\n- 没申请豁免：还可 投放市场 6 个月、继续销售 12 个月（比委员会最初设想的 12/24 个月更紧）\n\n- 申请豁免但因安全被拒：投放 3 个月 / 可售 9 个月\n\n- 1A/1B 类因「已有合适替代物」被拒：投放 24 个月 / 可售 36 个月，并要更新产品安全报告\n\n- 豁免申请须在新 CMR 分类生效后 3 个月内提交\n\n意味着什么：欧洲站一出现新 CMR 禁令，库存和在途货的缓冲比以前短。跨境卖家要和 RP、工厂约定「禁令生效 → 立刻停产停发」的节奏，不要按旧的一年清货心理备货。\n\n2. 含纳米成分：仍要事前通报，但取消「提前 6 个月」\n\n含纳米材料的化妆品仍须通报，不再要求比上市早 6 个月；已在限用附件、符合条件的产品另有例外。上新节奏会快一点，但通报本身不能省。\n\n注意：站内 9月21日那篇「Omnibus IX」讲的是另一批具体成分禁限草案（二苯酮-1/-2 等），和本条 Omnibus VI（程序简化） 不是同一份文件。两份都要跟。\n\n来源：欧洲议会表决记录 EP Votes (https://epvotes.com/votes/198430)（A10-0104/2026）；要点综述见 2eu.brussels (https://2eu.brussels/en/news/european-parliament-approves-simplified-rules-for-cosmetics-chemicals-and-fertilisers)。",
+      "markets": [
+        "eu"
+      ],
+      "platforms": [
+        "amazon-eu",
+        "temu",
+        "zalando",
+        "otto"
+      ],
+      "tags": [
+        "ingredients",
+        "compliance"
+      ],
+      "source_url": "https://epvotes.com/votes/198430",
+      "source_name": "EP Votes（欧洲议会表决记录）",
+      "checked": "2026-10-24",
+      "needs_review": true,
+      "sample": false,
+      "key_date": {
+        "date": "2026-10-22",
+        "label": "议会通过"
+      },
+      "page": "/news/2026-10-22-eu-omnibus-vi-parliament/"
+    },
+    {
+      "kind": "news",
+      "id": "2026-10-15-sccs-acetophenone-heliotropin",
+      "type": "regulation",
+      "date": "2026-10-15",
+      "title": "欧盟SCCS终稿：苯乙酮成品最多100ppm，胡椒醛仅成人香水可到1.8%",
+      "summary": "SCCS 10月15日发布两份终稿：苯乙酮在成品中最多100ppm（含3岁以上儿童）；胡椒醛仅成人香水可到1.8%。这是科学意见，禁限用表要等委员会改附件才强制。",
+      "body_text": "卖 欧盟 的香氛、精油复配、含天然复合物（NCS）的护肤/香水品牌注意：欧盟消费者安全科学委员会（SCCS）在 2026年10月15日 公开两份终稿意见——针对可能按 CLP 被列为 生殖毒性 1B（Repr.1B） 的香料相关物质，给出「在什么浓度下可视为安全」的科学结论。\n\n这不是今天立刻改法：附件 II/III 禁限用要等欧盟委员会走立法程序。但对责任人（RP）和安评，终稿意见通常会很快写进 CPSR 论据。\n\n改了什么（科学结论）\n\n1. 苯乙酮 Acetophenone（CAS 98-86-2）— SCCS/1689/26\n\n- 终稿采纳日 2026-10-14，发布页 2026-10-15\n\n- 问题背景：天然复合物里常带出苯乙酮；若按 Repr.1B 分类，化妆品法规对 CMR 很严\n\n- 结论：成品化妆品中苯乙酮浓度 不超过 100 ppm（0.01%） 时，对成人及 3 岁及以上儿童 可视为安全（评估已计入化妆品以外来源暴露）\n\n- 边界：未评估「整支天然复合物」本身的安全性，只评估其中作为组分的苯乙酮\n\n2. 胡椒醛 Heliotropin / Piperonal（CAS 120-57-0）— SCCS/1688/26\n\n- 终稿书面程序采纳约 2026-10-12，同日窗口发布\n\n- 结论：仅在 成人用高级香水（fine fragrances） 中，最高 1.8% 可视为安全\n\n- 任务书范围就卡在「成人香水」；申请人另附了其他品类/儿童场景的安全边际测算，但 不在本次正式结论里\n\n影响谁\n\n- 配方里用 精油、天然香基、复配香精 的欧盟在售护肤/香水/个护（苯乙酮杂质或组分常见）\n\n- 主打 heliotropin/胡椒醛花香的 香水品牌\n\n- 欧盟 RP、安评实验室：写 CPSR 时要按新终稿核浓度，不能只写「天然来源所以没事」\n\n意味着什么\n\n- 先核配方实测/供应商报告：精油批与批之间苯乙酮波动大，纸面配方不够，最好有批次检测或可追溯的规格上限\n\n- 香水线单独看胡椒醛：儿童线、身体喷雾、护肤里加高比例 heliotropin，不要直接套用「1.8% 成人香水」结论\n\n- 盯 CosIng / 官方公报：一旦委员会把限值写进附件，才有统一清货期；在此之前，平台抽检与成员国市场监管仍可能按最新科学意见卡货\n\n来源\n\n- SCCS Opinion on Acetophenone（SCCS/1689/26） (https://health.ec.europa.eu/publications/sccs-opinion-safety-acetophenone-cas-no-98-86-2-ec-no-202-708-7_en)\n\n- SCCS Final Opinion on Heliotropin（SCCS/1688/26） (https://health.ec.europa.eu/latest-updates/sccs-final-opinion-safety-heliotropin-used-cosmetic-products-2026-10-15_en)",
+      "markets": [
+        "eu"
+      ],
+      "platforms": [
+        "amazon-eu",
+        "temu",
+        "zalando",
+        "otto"
+      ],
+      "tags": [
+        "ingredients",
+        "compliance"
+      ],
+      "source_url": "https://health.ec.europa.eu/publications/sccs-opinion-safety-acetophenone-cas-no-98-86-2-ec-no-202-708-7_en",
+      "source_name": "欧盟健康总司 · SCCS/1689/26",
+      "checked": "2026-10-29",
+      "needs_review": true,
+      "sample": false,
+      "key_date": {
+        "date": "2026-10-15",
+        "label": "终稿发布"
+      },
+      "page": "/news/2026-10-15-sccs-acetophenone-heliotropin/"
+    },
+    {
+      "kind": "news",
+      "id": "2026-10-10-eu-reach-pfhxa-cosmetics",
+      "type": "regulation",
+      "date": "2026-10-10",
+      "title": "欧盟 REACH：化妆品含 PFHxA 超标不得再投放，过渡期已于10月10日结束",
+      "summary": "REACH 附件 XVII 第79条：自2026-10-10起，化妆品中 PFHxA 及其盐合计≥25ppb、或相关物质合计≥1000ppb，不得投放或使用；此前已投放的可继续卖。",
+      "body_text": "欧盟条例 (EU) 2024/2462 给 REACH 附件 XVII 加了第 79 条：限制 十一氟己酸（PFHxA）、其盐类及「可降解/转化成 PFHxA 的相关物质」。化妆品在名单里，两年过渡期到 2026年10月10日 结束。\n\n改了什么\n\n自 2026年10月10日 起，在化妆品（按 1223/2009 定义）中：\n\n- PFHxA + 其盐 合计浓度 ≥ 25 ppb，或\n\n- PFHxA 相关物质 合计浓度 ≥ 1000 ppb（按均质材料计）\n\n则 不得再投放市场，也不得再使用 到这类产品里。\n\n「相关物质」按分子结构判断，常见是名字里带 perfluorohexyl 一类、用完会变成 PFHxA 的原料。限值卡的是 配方本体（霜、膏、液本身），不是连瓶子一起称。\n\n例外：在 10月10日 之前已经投放 到欧盟市场的成品（已交给经销商/零售商，或已进口入境），可以继续销售；还在工厂库房、还没进口的，必须达标才能再投。\n\n这和站内已写的 Omnibus VI（CMR 清货窗口） 不是一回事：那条改的是化妆品法规程序，这条是 REACH 化学品限制，查的是 PFAS 杂质/降解物。\n\n对谁有影响\n\n- 卖欧盟站的美妆/个护品牌与工厂：防水、长效、成膜类配方更容易踩到 PFAS 杂质\n\n- 跨境卖家（亚马逊欧站、Temu、Zalando、Otto 等）：责任人（RP）和进口商要能拿出配方/原料筛查依据\n\n- 原料采购：即便没「故意加 PFAS」，供应商杂质超标也会卡投放\n\n意味着什么\n\n- 卡在哪：新货、补货、改包装再进口——只要 10月10日之后才投放，超标就违法；平台抽检或 RP 抽查原料报告时，说不清杂质水平会直接停售。\n\n- 现在注意什么：让工厂/原料商按 25ppb / 1000ppb 出检测或声明；INCI 里带 perfluorohexyl 的先换料；法国、丹麦等国还有更宽的本国 PFAS 禁令，欧站合规不等于各国都松。全量 PFAS「一刀切」草案还在评估，和本条是分开的。\n\n法规原文：EUR-Lex (EU) 2024/2462 (https://eur-lex.europa.eu/eli/reg/2024/2462/oj)。",
+      "markets": [
+        "de",
+        "eu",
+        "fr"
+      ],
+      "platforms": [
+        "amazon-eu",
+        "temu",
+        "zalando",
+        "otto"
+      ],
+      "tags": [
+        "ingredients",
+        "compliance"
+      ],
+      "source_url": "https://eur-lex.europa.eu/eli/reg/2024/2462/oj",
+      "source_name": "EUR-Lex · 条例 (EU) 2024/2462",
+      "checked": "2026-10-25",
+      "needs_review": false,
+      "sample": false,
+      "key_date": {
+        "date": "2026-10-10",
+        "label": "投放禁令生效"
+      },
+      "page": "/news/2026-10-10-eu-reach-pfhxa-cosmetics/"
+    },
+    {
+      "kind": "news",
+      "id": "2026-09-21-eu-cmr-omnibus-draft",
+      "type": "regulation",
+      "date": "2026-09-21",
+      "title": "欧盟化妆品 CMR 修订草案送达理事会：二苯酮-1/-2 等拟禁用",
+      "summary": "委员会把修订 1223/2009 附录的草案送到理事会。新列为 CMR 的物质要进禁用表，另有几种成分拟禁用或加限。",
+      "body_text": "欧盟委员会 9月21日把一份化妆品法规（EC 1223/2009）修订草案送到理事会，文件号 13462/26。业内一般叫它 Omnibus IX。\n\n草案做两件事。\n\n第一，转化新的 CMR 分类。 委员会授权条例 (EU) 2025/1222 新列了一批致癌、致突变或生殖毒性（CMR）物质，这批分类 2027年2月1日 起适用。没有企业申请豁免，所以草案把它们加进附录 II 禁用表。\n\n第二，按 SCCS 的最新评估调整成分。 委员会向 WTO 通报（G/TBT/N/EU/1219）时写的要点：\n\n- 拟禁用：二苯酮-1、二苯酮-2、Basic Brown 16、Basic Blue 99，以及前列腺素类似物（睫毛精华里常见）\n\n- 拟新增或收紧限制：BHA、对羟基苯甲酸丁酯、大麻二酚（CBD）、纳米羟基磷灰石\n\n- 取消含汞防腐剂的现有豁免\n\n这还是草案，理事会和议会审查期间文本可能调整；除 CMR 部分外，其他条款各有过渡期，以最终公报为准。卖欧洲站的产品，现在就该拿配方表对一遍上面的名单。\n\nWTO 通报原文见 欧盟 TBT 数据库 (https://technical-barriers-trade.ec.europa.eu/en/notification/39957)。",
+      "markets": [
+        "eu"
+      ],
+      "platforms": [
+        "amazon-eu",
+        "otto",
+        "zalando",
+        "allegro",
+        "temu"
+      ],
+      "tags": [
+        "ingredients"
+      ],
+      "source_url": "https://data.consilium.europa.eu/doc/document/ST-13462-2026-INIT/en/pdf",
+      "source_name": "欧盟理事会文件 13462/26",
+      "checked": "2026-10-22",
+      "needs_review": false,
+      "sample": false,
+      "key_date": {
+        "date": "2027-02-01",
+        "label": "CMR 新分类适用"
+      },
+      "page": "/news/2026-09-21-eu-cmr-omnibus-draft/"
+    },
+    {
+      "kind": "news",
+      "id": "2026-09-04-temu-eu-3-euro-duty",
+      "type": "regulation",
+      "date": "2026-09-04",
+      "title": "欧盟 €3 小包关税实施两个月，Temu 母公司加码本地仓和本地卖家",
+      "summary": "7月1日起，欧盟对 €150 以下的电商小包按每个税则类别收 €3。PDD 在财报会上说影响「相当大」，要更多本地商家和本地仓。",
+      "body_text": "据 The Logistic News 9月4日报道，PDD（Temu 母公司）联席 CEO 陈磊在 8月24日的财报电话会上说，欧盟的新关税会降低履约效率、抬高成本，对部分业务有「相当大的影响」。公司的应对是引入更多优质本地商家，加快本地仓储和履约建设。\n\n规则本身来自 欧盟委员会 (https://commission.europa.eu/news-and-media/news/ensuring-fairness-and-safety-eur3-customs-duty-low-value-parcels-2026-06-29_en)：\n\n- 2026年7月1日 起，取消 €150 以下小包的关税豁免\n\n- 临时按每个「物品」收 €3，按税则分类算，不按数量算\n\n- 由卖家或进口方申报缴纳，不由消费者付\n\n- 临时安排持续到 2028年7月1日，之后按正常税率征收\n\n举例：一个包裹里 3 支同类口红算一个类别，收 €3；口红加一瓶洗发水是两个类别，收 €6。\n\n欧盟海关改革页面 (https://taxation-customs.ec.europa.eu/customs/eu-customs-reform_en) 还写明，欧盟将在 2026年11月1日前另设小包处理费，金额由授权法规确定。\n\nPDD 的表态来自媒体报道，标待核实。规则部分以欧盟委员会页面为准。",
+      "markets": [
+        "eu"
+      ],
+      "platforms": [
+        "temu",
+        "amazon-eu"
+      ],
+      "tags": [
+        "customs"
+      ],
+      "source_url": "https://thelogisticnews.com/temu-owner-invests-in-local-fulfillment-as-de-minimis-rules-reshape-global-trade/",
+      "source_name": "The Logistic News",
+      "checked": "2026-10-22",
+      "needs_review": true,
+      "sample": false,
+      "key_date": null,
+      "page": "/news/2026-09-04-temu-eu-3-euro-duty/"
+    }
+  ]
+}

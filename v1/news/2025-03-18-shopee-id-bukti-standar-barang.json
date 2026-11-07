@@ -1,0 +1,34 @@
+{
+  "api": "yuanshan-channel/v1",
+  "access": "public-read",
+  "auth": null,
+  "generated": "2026-10-26",
+  "disclaimer": "每条资讯都附来源链接。标了「待核实」的条目来自媒体或第三方转述，引用前打开原文。费用、排名和法规以官方页面为准。",
+  "kind": "news",
+  "item": {
+    "kind": "news",
+    "id": "2025-03-18-shopee-id-bukti-standar-barang",
+    "type": "rules",
+    "date": "2025-03-18",
+    "title": "Shopee 印尼：上架须填报商品达标证明含化妆品许可号",
+    "summary": "印尼站卖家教育文要求按贸易部令披露达标证明；化妆品须填写注册/许可编号，并可与清真、SNI、K3L 等并列。",
+    "body_text": "Shopee 印尼卖家中心《Ketentuan Bukti Pemenuhan Standar Barang》（页面标注 18-03-2025）要求：上架前按印尼电子贸易相关规定，填写商品达标证明信息。\n\n与美妆相关的字段包括：\n\n- 化妆品、药品、食品的注册/许可/证书编号\n\n- 若法规要求，还需清真证书号、SNI 或 K3L 等\n\n未按类目正确填写可能导致下架。BPOM 通知号仍是印尼美妆上架的核心资质之一。",
+    "markets": [
+      "id"
+    ],
+    "platforms": [
+      "shopee"
+    ],
+    "tags": [
+      "listing",
+      "compliance"
+    ],
+    "source_url": "https://seller.shopee.co.id/edu/article/19552",
+    "source_name": "Shopee Seller Education ID",
+    "checked": "2026-10-23",
+    "needs_review": false,
+    "sample": false,
+    "key_date": null,
+    "page": "/news/2025-03-18-shopee-id-bukti-standar-barang/"
+  }
+}

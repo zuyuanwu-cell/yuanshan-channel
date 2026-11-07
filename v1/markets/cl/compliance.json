@@ -1,0 +1,107 @@
+{
+  "api": "yuanshan-channel/v1",
+  "access": "public-read",
+  "auth": null,
+  "generated": "2026-10-26",
+  "disclaimer": "每条资讯都附来源链接。标了「待核实」的条目来自媒体或第三方转述，引用前打开原文。费用、排名和法规以官方页面为准。",
+  "kind": "compliance",
+  "id": "cl",
+  "name_zh": "智利",
+  "region": "拉美",
+  "region_slug": "latin-america",
+  "page": "/compliance/cl/",
+  "market": {
+    "country": "cl",
+    "name_zh": "智利",
+    "flag": "🇨🇱",
+    "region": "拉美",
+    "difficulty": 3,
+    "summary": "化妆品销售前须取得ISP卫生注册，标签使用西班牙语并标明注册号。",
+    "items": [
+      {
+        "id": "cl-reg",
+        "name_zh": "上市前卫生注册",
+        "authority": "公共卫生研究所",
+        "type": "registration",
+        "mandatory": true,
+        "cost": "未知",
+        "time": "收到申请后5个工作日",
+        "docs": [
+          "产品与化妆用途",
+          "定性配方",
+          "西语技术声明",
+          "使用安全证明"
+        ],
+        "who": "申请人及技术负责人",
+        "note": "进口或在智利制造的化妆品，在全国商业化和分销前须先取得卫生注册。",
+        "official_url": "https://www.bcn.cl/leychile/navegar?idNorma=211455",
+        "source_checked": "2026-10-24",
+        "needs_review": false
+      },
+      {
+        "id": "cl-label",
+        "name_zh": "西班牙语标签并印注册号",
+        "authority": "公共卫生研究所",
+        "type": "label",
+        "mandatory": true,
+        "cost": "未知",
+        "time": "未知",
+        "docs": [],
+        "who": "注册持有人、制造商或进口商",
+        "note": "所有化妆品容器标签使用西班牙语，并标明ISP注册号。",
+        "official_url": "https://www.bcn.cl/leychile/navegar?idNorma=211455",
+        "source_checked": "2026-10-24",
+        "needs_review": false
+      },
+      {
+        "id": "cl-qc",
+        "name_zh": "进口成品质量控制",
+        "authority": "公共卫生研究所",
+        "type": "testing",
+        "mandatory": true,
+        "cost": "未知",
+        "time": "未知",
+        "docs": [],
+        "who": "进口商",
+        "note": "进口成品的人须做或委托证明成品质量的分析，研究所有依据决议免除的除外。",
+        "official_url": "https://www.bcn.cl/leychile/navegar?idNorma=211455",
+        "source_checked": "2026-10-24",
+        "needs_review": false
+      },
+      {
+        "id": "cl-claim",
+        "name_zh": "不得作治疗宣称",
+        "authority": "公共卫生研究所",
+        "type": "safety",
+        "mandatory": true,
+        "cost": "未知",
+        "time": "未知",
+        "docs": [],
+        "who": "做广告的人",
+        "note": "化妆品广告或推广不得直接或间接赋予治疗属性。",
+        "official_url": "https://www.bcn.cl/leychile/navegar?idNorma=211455",
+        "source_checked": "2026-10-24",
+        "needs_review": false
+      }
+    ],
+    "steps": [
+      {
+        "title": "卫生注册",
+        "type": "registration"
+      },
+      {
+        "title": "西语标签",
+        "type": "label"
+      },
+      {
+        "title": "质控",
+        "type": "testing"
+      }
+    ],
+    "last_verified": "2026-10-24",
+    "hs_codes": {
+      "status": "pending",
+      "items": []
+    }
+  }
+}

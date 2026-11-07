@@ -1,0 +1,285 @@
+{
+  "api": "yuanshan-channel/v1",
+  "access": "public-read",
+  "auth": null,
+  "generated": "2026-10-26",
+  "disclaimer": "每条资讯都附来源链接。标了「待核实」的条目来自媒体或第三方转述，引用前打开原文。费用、排名和法规以官方页面为准。",
+  "kind": "feed",
+  "id": "ph/rules+regulation",
+  "title": "菲律宾",
+  "markets": [
+    "ph"
+  ],
+  "types": [
+    "rules",
+    "regulation"
+  ],
+  "filter": {
+    "markets": [
+      "ph"
+    ],
+    "types": [
+      "rules",
+      "regulation"
+    ],
+    "include_global": false
+  },
+  "count": 8,
+  "items": [
+    {
+      "kind": "news",
+      "id": "2026-11-03-asean-benzophenone-ban-nov-19",
+      "type": "regulation",
+      "date": "2026-11-03",
+      "title": "东盟化妆品禁用二苯甲酮 11-19 到期：别跟二苯酮-3搞混，含就得撤",
+      "summary": "ACD 附录 II Ref.1703 把二苯甲酮（Benzophenone，CAS 119-61-9，致癌分类 Carc.1B）列入禁用；菲 FDA 2026-0001 写明过渡期至 2026-11-19，届时不合规须撤市。这不是二苯酮-3（BP3）限量那条。",
+      "body_text": "做 东南亚美妆 的注意：再过两周还有一条硬禁用，很多人会跟 二苯酮-3（BP3）11-15 限量 (/news/2026-11-01-asean-benzophenone-3-limit-nov-15/) 搞混。\n\n这次禁的是 二苯甲酮（INCI/英文 Benzophenone，CAS 119-61-9），东盟化妆品指令（ACD）附录 II（禁用物质表）Ref. No. 1703，分类标注 Carc. 1B。菲律宾 FDA Circular No.2026-0001 的附件 A 写明过渡期 24 个月，至 2026年11月19日：起只能卖合规产品，不合规须撤出市场。同日还有 BHT 限量 (/news/2026-11-03-ph-fda-bht-limit-nov-19/) 到期，配方表建议一起扫。\n\n改了什么\n\n项目\n内容\n\n物质\nBenzophenone（二苯甲酮），CAS 119-61-9\n\n规则\n列入 ACD 附录 II（不得作为化妆品成分）\n\n编号\nRef. 1703\n\n节点\n2026-11-19 起不合规不得上架、须撤市（菲 FDA 2026-0001 Annex A）\n\n不要跟这两条搞混：\n\n- 二苯酮-3 / Benzophenone-3 / Oxybenzone（CAS 131-57-7）——附录 VII 限量 + 标签，节点是 11-15，见站内 BP3 稿。\n\n- 二苯甲酮 / Benzophenone（CAS 119-61-9）——附录 II 整条禁用，节点是 11-19，就是本条。\n\n名字都带 benzophenone，CAS 和附件完全不同。配方表、ERP、质检单请按 CAS 筛，别只搜英文半截词。\n\n泰国起初曾标注例外，菲通告正文记载泰国后续同意按东盟同一过渡期（2026-11-19）执行；东盟秘书处 2026-06-22 版附录 II 条目 1703 未再写 Except Thailand。泰国店铺仍建议再对一下泰国 FDA 最新通报页。\n\n影响谁\n\n- 在新加坡、马来西亚、泰国、印尼、菲律宾、越南等东盟市场卖护肤、防晒、彩妆、香氛的品牌与跨境店（Shopee / Lazada / TikTok Shop）\n\n- OEM/配方商：二苯甲酮常出现在香精、溶剂、光稳定相关原料里，不一定写在「防晒剂」栏\n\n- 采购与质检：要按 CAS 119-61-9 查原料 COA / SDS，不能只看商品中文名\n\n意味着什么、现在注意什么\n\n- 11-19 前：含 Benzophenone（119-61-9）的在售 SKU 完成换料或撤架；库存按国家撤市要求消化，别赌平台不抽检。\n\n- 和 11-15 的 BP3 限量、11-19 的 BHT 限量 分开建清单，三张表别并成一张「benzophenone 相关」糊过去。\n\n- 改配方后按各国规则更新通报（CPN / notification）与 PIF。\n\n- 欧线：欧盟对 Benzophenone 亦有 CMR/禁用路径，东盟这条是东南亚落地节点，欧线另按欧盟法规核。\n\n证据（核对日期 2026-11-03）\n\n东盟秘书处官网附录 II 第 95 页可见 Benzophenone / 119-61-9 / 1703：\n\n菲律宾 FDA Circular 2026-0001 附件 A 第 4 页写明该条 Grace Period: 19 November 2026：\n\n来源\n\n- 东盟秘书处 · ACD Annex II（Version 2026-1, 22 June 2026） (https://asean.org/wp-content/uploads/2026/07/Annex-II-Release_22nd-June-2026-clean.pdf)\n\n- Philippines FDA · FDA Circular No.2026-0001 (https://www.fda.gov.ph/fda-circular-no-2026-0001-consolidated-amendments-to-the-asean-cosmetic-directive-acd-as-adopted-during-the-40th-to-42nd-asean-cosmetic-committee-acc-meeting-and-their-related-meetings/)（附件 A PDF：Consolidated ACD Amendments (https://www.fda.gov.ph/wp-content/uploads/2026/05/Annex-A-Consolidated-ACD-Amendments-40th-42nd.pdf)）\n\n- 站内对照：二苯酮-3 限量 11-15 (/news/2026-11-01-asean-benzophenone-3-limit-nov-15/)、菲律宾 BHT 限量 11-19 (/news/2026-11-03-ph-fda-bht-limit-nov-19/)、菲 FDA 2026-0001 概述 (/news/2026-02-15-ph-fda-circular-2026-0001-acd/)",
+      "markets": [
+        "bn",
+        "id",
+        "kh",
+        "la",
+        "my",
+        "ph",
+        "sg",
+        "th",
+        "vn"
+      ],
+      "platforms": [
+        "shopee",
+        "lazada",
+        "tiktok-shop"
+      ],
+      "tags": [
+        "ingredients",
+        "compliance"
+      ],
+      "source_url": "https://asean.org/wp-content/uploads/2026/07/Annex-II-Release_22nd-June-2026-clean.pdf",
+      "source_name": "东盟秘书处 · ACD 附录 II（2026-06-22 版）",
+      "checked": "2026-11-03",
+      "needs_review": false,
+      "sample": false,
+      "key_date": {
+        "date": "2026-11-19",
+        "label": "二苯甲酮禁用执行"
+      },
+      "page": "/news/2026-11-03-asean-benzophenone-ban-nov-19/"
+    },
+    {
+      "kind": "news",
+      "id": "2026-11-03-ph-fda-bht-limit-nov-19",
+      "type": "regulation",
+      "date": "2026-11-03",
+      "title": "菲律宾化妆品 BHT 限量 11-19 到期：漱口水 0.001%、牙膏 0.1%、其他驻留/淋洗 1%",
+      "summary": "菲 FDA 2026-0001 号令落实的 ACD 附件 III BHT 限量，过渡期到 2026-11-19：起市面只能卖合规配方，超标须撤架。漱口水≤0.001%、牙膏≤0.1%、其他驻留与淋洗≤1%。",
+      "body_text": "菲律宾 FDA Circular No.2026-0001 把东盟化妆品指令（ACD）第 40–42 届会议附件修订落到本地。其中抗氧剂 BHT（丁基羟基甲苯） 写入 ACD 附件 III（Ref. No. 342），过渡期至 2026年11月19日：自该日起，菲市场只能上架合规浓度产品，不合规须撤下。站内早前有通告概述，临近到期把限量数字说清楚，方便配方与选品核对。\n\n改了什么\n\nBHT 限量（与通告一致）：\n\n产品类型\n上限\n\n漱口水 Mouthwash\n0.001%\n\n牙膏 Toothpaste\n0.1%\n\n其他驻留类与淋洗类\n1%\n\n同令还有多条附件修订（如部分新禁用、Homosalate 脸部产品限量过渡到 2027-11-19、4-MBC 等），过渡期长短不一；本周最急的是 BHT 的 11-19。\n\n影响谁\n\n- 在菲律宾生产、进口、分销化妆品的品牌与工厂\n\n- Shopee / Lazada / TikTok Shop 等菲律宾站美妆卖家（本地店与跨境店）：配方含 BHT 的护肤、彩妆、洗护、口腔护理都要核浓度\n\n- OEM/配方商：口护线最紧（漱口水几乎相当于「尽量别加」）\n\n意味着什么、现在注意什么\n\n- 11-19 前完成换料或降浓度，旧包材/旧货排期撤架或消化，不要赌平台不查。\n\n- 核对 Cosmetic Product Notification（CPN） 与实际配方一致；改配方后按菲 FDA 规则更新通报。\n\n- 出口欧盟的货不要按东盟 1%「一刀切」——欧盟对 BHT 评估更严，东盟放宽到 1% 是按区域使用数据算的，欧线仍按欧盟限量。\n\n- 更全的附件修订见通告原文；站内通告概述：菲律宾 FDA 2026-0001 (/news/2026-02-15-ph-fda-circular-2026-0001-acd/)，合规入口见 菲律宾合规 (/compliance/ph/)。\n\n来源\n\n- Philippines FDA · FDA Circular No.2026-0001 — Consolidated Amendments to the ACD (40th–42nd ACC) (https://www.fda.gov.ph/fda-circular-no-2026-0001-consolidated-amendments-to-the-asean-cosmetic-directive-acd-as-adopted-during-the-40th-to-42nd-asean-cosmetic-committee-acc-meeting-and-their-related-meetings/)",
+      "markets": [
+        "ph"
+      ],
+      "platforms": [
+        "shopee",
+        "lazada",
+        "tiktok-shop"
+      ],
+      "tags": [
+        "ingredients",
+        "compliance"
+      ],
+      "source_url": "https://www.fda.gov.ph/fda-circular-no-2026-0001-consolidated-amendments-to-the-asean-cosmetic-directive-acd-as-adopted-during-the-40th-to-42nd-asean-cosmetic-committee-acc-meeting-and-their-related-meetings/",
+      "source_name": "Philippines FDA · Circular No.2026-0001",
+      "checked": "2026-11-03",
+      "needs_review": false,
+      "sample": false,
+      "key_date": {
+        "date": "2026-11-19",
+        "label": "BHT 限量执行"
+      },
+      "page": "/news/2026-11-03-ph-fda-bht-limit-nov-19/"
+    },
+    {
+      "kind": "news",
+      "id": "2026-11-02-shopee-ph-platform-shipping-fee-nov",
+      "type": "rules",
+      "date": "2026-11-02",
+      "title": "Shopee 菲律宾跨境店 11-01 起平台运费上调：Mall 4.48%→5.008%，非 Mall 单件封顶 100→200 比索",
+      "summary": "Shopee 菲律宾站对跨境店收的 Platform Shipping Fee 从 11-01（当地时间）起的新订单上调：Mall 店 4.48% 涨到 5.008%；非 Mall 店费率仍 5.60%，但每件封顶从 100 比索提到 200 比索，客单价约 1,786 比索以上的货多交。",
+      "body_text": "Shopee 卖家教育中心（韩国跨境卖家版）更新了菲律宾站「平台运费」（Platform Shipping Fee）说明：2026年11月1日（菲律宾当地时间）起创建的订单按新费率扣。这笔钱是 2025 年取消包邮计划（FSP）后，菲律宾站跨境店换来「包邮标签、包邮专区曝光」要交的固定服务费，不管你有没有自己设运费优惠都要扣，只对已完成订单收。\n\n改了什么\n\n店铺类型\n10 月 31 日前\n11 月 1 日起\n\nMall 店\n4.48%\n5.008%\n\n非 Mall 店\n5.60%，每件最多 100 比索\n5.60%，每件最多 200 比索\n\n算法：平台运费 =（商品原价 − 卖家折扣）× 费率，每件封顶 200 比索。官方举例：卖 5,000 比索的单品，按 5% 算是 250 比索，封顶后实收 200 比索；卖 300 比索的，扣 15 比索。结算单里显示在 Service Fee 下的「Platform Shipping Fee」。\n\n影响谁\n\n- 菲律宾站 Mall 跨境店：所有订单都多扣约 0.53 个百分点。卖 1,000 比索的精华，平台运费从约 44.8 比索变成约 50.1 比索。\n\n- 非 Mall 跨境店、卖高客单的：费率没变，变的是封顶。单件约 1,786 比索以下（5.6% 还没碰到 100 比索）不受影响；1,786–3,571 比索之间按比例多交；3,571 比索以上每件多交满 100 比索。美妆里礼盒套装、美容仪、大瓶香水容易落在这个区间。\n\n- 便宜的单品（几百比索的面膜、唇釉）基本不受封顶变化影响，只有 Mall 店受费率上调影响。\n\n意味着什么、现在该做什么\n\n- 重算菲律宾站高客单 SKU 的毛利，尤其是套装和仪器类。\n\n- 别用「先涨价再打折」来消化。公告特意提醒：大幅改已上架商品原价、让折扣看起来更大，会被判「虚假折扣」处罚，商品可能被直接下架。要调价就小步调，和费用涨幅对得上。\n\n- CCB（跨境物流补贴）费率和申请流程这次没变。\n\n- 这篇是 Shopee 韩国跨境卖家中心的公告。中国跨境卖家以自己卖家中心「费用说明」页显示的费率为准，菲律宾站本地店的费率另算。\n\n费用调整不改菲律宾的化妆品要求：FDA 化妆品通报（CPN）和标签照旧，见 菲律宾合规 (/compliance/ph/)。\n\n来源\n\n- Shopee KR Seller Education Hub · [필리핀] FSP 중단 및 Platform Shipping Fee 도입 안내（含 2026-11-01 费率更新）：https://shopee.kr/edu/article/23638 (https://shopee.kr/edu/article/23638)",
+      "markets": [
+        "ph"
+      ],
+      "platforms": [
+        "shopee"
+      ],
+      "tags": [
+        "fees"
+      ],
+      "source_url": "https://shopee.kr/edu/article/23638",
+      "source_name": "Shopee KR 卖家教育中心（菲律宾站跨境店公告）",
+      "checked": "2026-11-02",
+      "needs_review": false,
+      "sample": false,
+      "key_date": {
+        "date": "2026-11-01",
+        "label": "新费率生效"
+      },
+      "page": "/news/2026-11-02-shopee-ph-platform-shipping-fee-nov/"
+    },
+    {
+      "kind": "news",
+      "id": "2026-11-01-asean-benzophenone-3-limit-nov-15",
+      "type": "regulation",
+      "date": "2026-11-01",
+      "title": "东南亚防晒/彩妆注意：11月15日起二苯酮-3（BP3）超限货须下架，标签要加警示",
+      "summary": "东盟附录VII：2026-11-15起二苯酮-3（Oxybenzone）面部/手/唇产品≤6%、身体及喷雾≤2.2%、其他≤0.5%，并须标注含二苯酮-3；新老产品都适用，超限须撤出市场。",
+      "body_text": "做 东南亚美妆 的卖家，两周后有一条硬线：东盟化妆品指令（ACD）附录 VII 对防晒剂 二苯酮-3（Benzophenone-3，又叫 Oxybenzone，CAS 131-57-7）收紧用量，2026年11月15日 起 新品和已在售的老品一律适用。东盟当年给了 36 个月过渡期，菲律宾 FDA 的公告写明：到期后只有合规产品能在市场上卖，不合规的要撤出市场。限量依据见 马来西亚 NPRA 发布的附录 VII (https://www.npra.gov.my/images/Guidelines_Central/Guidelines_on_Cosmetic/Annex_VII_release_-_12_December_2025.pdf)，东盟秘书处官网也有 同一版本 (https://asean.org/wp-content/uploads/2026/04/Annex-VII_Release_12th-December-2025-clean.pdf)。\n\n改了什么\n\n产品\n二苯酮-3 上限\n\n面部、手部、唇部产品（不含气雾/泵喷）\n6%\n\n身体产品（含气雾、泵喷）\n2.2%\n\n其他产品\n0.5%\n\n- 如果另加 0.5% 只是为了保护配方（防变色），那作为防晒剂的部分在面/手/唇产品里不能超过 5.5%，身体产品里不能超过 1.7%。\n\n- 标签必须写明 「Contains Benzophenone-3」（含二苯酮-3）。\n\n这其实就是照搬欧盟的现行限量，欧盟早已执行。\n\n影响谁\n\n- 防晒霜、防晒喷雾、带 SPF 的粉底/隔离/唇膏：老配方里二苯酮-3 用到 6% 以上、或者身体防晒喷雾超过 2.2% 的，最受影响。\n\n- 在 Shopee、Lazada、TikTok Shop 东南亚站卖防晒的跨境店和本地仓卖家：新加坡、马来西亚、泰国、印尼、菲律宾、越南等东盟成员国都按 ACD 执行。\n\n- 给东南亚客户做 OEM 的国内工厂：客户会回头要配方确认和新标签。\n\n- 已经按欧盟配方做的产品，一般本来就合规。\n\n现在该做什么\n\n- 翻一遍在售 SKU 的全成分表，找 Benzophenone-3 / Oxybenzone，核对实际添加量和产品类型对应的上限。\n\n- 超限的：停止补货，库存在 11 月 15 日前清掉或撤下，换配方后再上。\n\n- 没超限但含二苯酮-3 的：检查包装上有没有「Contains Benzophenone-3」，没有就要改标签或加贴。\n\n- 改配方的产品，按各国规定更新通报资料（比如新加坡、马来西亚的通报信息、产品信息档案 PIF）。\n\n大促期间被平台或监管抽到超限，可能就是整款下架，比提前换配方贵得多。",
+      "markets": [
+        "bn",
+        "id",
+        "kh",
+        "la",
+        "my",
+        "ph",
+        "sg",
+        "th",
+        "vn"
+      ],
+      "platforms": [
+        "shopee",
+        "lazada",
+        "tiktok-shop"
+      ],
+      "tags": [
+        "ingredients",
+        "compliance",
+        "labeling"
+      ],
+      "source_url": "https://www.npra.gov.my/images/Guidelines_Central/Guidelines_on_Cosmetic/Annex_VII_release_-_12_December_2025.pdf",
+      "source_name": "马来西亚 NPRA · 东盟化妆品指令附录 VII（2025-12-12 版）",
+      "checked": "2026-11-01",
+      "needs_review": false,
+      "sample": false,
+      "key_date": {
+        "date": "2026-11-15",
+        "label": "超限下架"
+      },
+      "page": "/news/2026-11-01-asean-benzophenone-3-limit-nov-15/"
+    },
+    {
+      "kind": "news",
+      "id": "2026-10-13-tiktok-shop-sea-misleading-content",
+      "type": "rules",
+      "date": "2026-10-13",
+      "title": "TikTok Shop 东南亚五国：直播口播、字幕、封面也算宣传，美妆夸大功效一样罚",
+      "summary": "印尼、菲律宾、新加坡、泰国、越南统一执行误导内容政策：不只看商品页，短视频、直播、封面、脚本、字幕、主播昵称和简介都在审核范围；夸大功效、限时见效、修图前后对比会被处罚，屡犯加重。",
+      "body_text": "TikTok Shop 在卖家大学更新了 Misleading Content（误导内容） 政策页（页面日期 2026-10-13），写明适用 印尼、菲律宾、新加坡、泰国、越南 五个站。\n\n改了什么\n\n- 审核范围变大：以前大家主要盯标题和详情页，现在 商品页、短视频、直播 全部算，连 封面图、标题、脚本、字幕、链接、主播的言行、声音、穿着、昵称、个人简介 都在内\n\n- 夸大功效：不能说没被证明、科学上做不到、或「几天见效」这类不现实时限的效果；不能用剪辑或特效做出假效果\n\n- 货不对板：视频和直播里说的价格、品牌、退换政策、材质、产地要和挂的商品链接一致\n\n- 假认证、假背书：没拿到的奖项、认证、代言不能说；不能冒充与其他品牌有合作\n\n- 乱比价、过期促销价、假抽奖：抽奖只能用平台的 LIVE Giveaway 功能\n\n- 处罚：违规会被处理，屡犯处罚加重（第三方解读提到下架、限流、扣分、账号处罚）\n\n影响谁\n\n- 在这五个站卖 护肤、彩妆、个护、头发护理 的卖家和品牌（健康、家清、功能型商品同样受影响）\n\n- 靠 达人带货、直播 和 本地化翻译字幕 出量的店铺：商品本身合规，主播一句「用一次就不长痘」也可能让链接出事\n\n意味着什么\n\n- 卡在哪：审核从「商品页一处」变成「所有出镜内容」，达人口播、翻译字幕最容易漏；同类目的健康美妆宣称细则里，「治疗、根除、永久」「立刻、一晚、X 天见效」都是高危词\n\n- 现在该做什么：给达人一份禁用词清单和可用说法（如「改善、帮助、减少」，加「效果因人而异」）；宣称要能拿出包装原文、检测报告或政府广告批文并在镜头里展示；前后对比用未修图的真实照片；检查已发布的老视频和直播回放\n\n- 和本站此前报道的 印尼「货不对板」最多扣 20 分 (/news/2026-10-15-tiktok-shop-id-false-display/)、美妆 AIGC 规则 11月2日执法 (/news/2026-10-19-tiktok-shop-aigc-beauty/) 叠加执行，等于美妆内容在东南亚被三条规则同时看着\n\n原文：TikTok Shop · Misleading Content (https://seller-id.tokopedia.com/university/essay?knowledge_id=7753797661492993&lang=en)；健康美妆宣称细则：Misleading Claims (Health & Beauty Products) (https://seller-id.tokopedia.com/university/essay?knowledge_id=3694612986365713&lang=en)",
+      "markets": [
+        "id",
+        "ph",
+        "sg",
+        "th",
+        "vn"
+      ],
+      "platforms": [
+        "tiktok-shop"
+      ],
+      "tags": [
+        "listing",
+        "penalties"
+      ],
+      "source_url": "https://seller-id.tokopedia.com/university/essay?knowledge_id=7753797661492993&lang=en",
+      "source_name": "TikTok Shop 卖家大学 · Misleading Content（2026-10-13）",
+      "checked": "2026-10-25",
+      "needs_review": false,
+      "sample": false,
+      "key_date": null,
+      "page": "/news/2026-10-13-tiktok-shop-sea-misleading-content/"
+    },
+    {
+      "kind": "news",
+      "id": "2026-10-01-ph-fda-auto-cpn-pilot",
+      "type": "regulation",
+      "date": "2026-10-01",
+      "title": "菲律宾 FDA：香水等试点自动发 CPN，不是放宽合规",
+      "summary": "FDA Advisory 2026-1544：10月1日–12月31日香水/花露水/古龙水可经 ePortal 自动签发 CPN；仅确认提交成功，仍须符合 ACD，并立即接受上市后监管。",
+      "body_text": "据 CIRS 对菲律宾 FDA Advisory No. 2026-1544（化妆品与家用危险物质监管中心 CCHUHSRR，2026年10月1日）的整理：FDA 在 ePortal 试点 化妆品自动通报，成功提交后 自动签发 产品通报证书（CPN）。\n\n改了什么\n\n- 试点期：2026-10-01 至 2026-12-31（约三个月）\n\n- 首批品类：香水（perfumes）、花露水（toilet waters）、古龙水（eau de Cologne）；扩围会另发公告\n\n- 仍须由持有 LTO 的持证企业，按既有程序与 东盟化妆品指令（ACD） 申报\n\n- 自动签发 ≠ 审批通过：只确认通报 提交成功，不做事先技术审评，也不等于产品已合规\n\n- 试点产品 立即 进入上市后监管（召回、PIF 审计等）；禁限用成分、超出化妆品宣称范围，可暂停或注销 CPN\n\n- FDA 可按试点结果修改、扩大、暂停或终止自动通报\n\n影响谁\n\n- 向菲律宾出口或本地上架 香水/花露水/古龙水 的品牌与 MAH\n\n- 在 Shopee / Lazada / TikTok Shop 等平台卖上述品类、依赖 CPN 上架的卖家\n\n- 其他美妆品类：本次未纳入，流程暂不变，但要盯后续是否扩围\n\n意味着什么\n\n- 卡在哪：自动出证快了，但配方/宣称不合规或拿不出 PIF，CPN 仍可能被撤，平台链接照样会挂\n\n- 现在注意什么：试点窗口可加快香水类入市；申报前自查 ACD 禁限用与宣称边界；PIF、产销记录随时能交。未核对 FDA 官网 PDF 原文，标待核实；最终以 fda.gov.ph 公告为准。\n\n整理来源：CIRS 英文摘要 (https://www.cirs-group.com/en/cosmetics/philippines-fda-pilots-automatic-notification-system-for-cosmetic-products)",
+      "markets": [
+        "ph"
+      ],
+      "platforms": [
+        "shopee",
+        "lazada",
+        "tiktok-shop"
+      ],
+      "tags": [
+        "compliance",
+        "listing"
+      ],
+      "source_url": "https://www.cirs-group.com/en/cosmetics/philippines-fda-pilots-automatic-notification-system-for-cosmetic-products",
+      "source_name": "CIRS Group · 转述 FDA Advisory 2026-1544",
+      "checked": "2026-10-25",
+      "needs_review": true,
+      "sample": false,
+      "key_date": {
+        "date": "2026-12-31",
+        "label": "试点截止"
+      },
+      "page": "/news/2026-10-01-ph-fda-auto-cpn-pilot/"
+    },
+    {
+      "kind": "news",
+      "id": "2026-02-15-ph-fda-circular-2026-0001-acd",
+      "type": "regulation",
+      "date": "2026-02-15",
+      "title": "菲律宾 FDA 发布 2026-0001 号令：合并落实 ACD 附件修订",
+      "summary": "菲 FDA 将第 40–42 届东盟化妆品委员会通过的 ACD 附件修订合并发布，本地以菲律宾过渡期为准，覆盖生产与进口商。",
+      "body_text": "菲律宾食品药品管理局（FDA）发布 Circular No.2026-0001，把第 40 至 42 届东盟化妆品委员会（ACC）及其相关会议通过的《东盟化妆品指令》（ACD）附件修订合并落地。\n\n适用对象包括化妆品的生产、进口、出口、销售与广告等环节。文中说明：除菲律宾另行给出的过渡期外，按 ACD 附件修订执行。\n\n在 Shopee / Lazada 菲律宾站上架前，应核对产品是否仍持有有效 Cosmetic Product Notification，并对照最新禁限用成分表。发布日取自文号年份，精确日历日仍建议打开 FDA 原文核对，故标待核实。",
+      "markets": [
+        "ph"
+      ],
+      "platforms": [
+        "shopee",
+        "lazada"
+      ],
+      "tags": [
+        "ingredients",
+        "compliance"
+      ],
+      "source_url": "https://www.fda.gov.ph/fda-circular-no-2026-0001-consolidated-amendments-to-the-asean-cosmetic-directive-acd-as-adopted-during-the-40th-to-42nd-asean-cosmetic-committee-acc-meeting-and-their-related-meetings/",
+      "source_name": "Philippines FDA",
+      "checked": "2026-10-23",
+      "needs_review": true,
+      "sample": false,
+      "key_date": null,
+      "page": "/news/2026-02-15-ph-fda-circular-2026-0001-acd/"
+    },
+    {
+      "kind": "news",
+      "id": "2025-05-20-ph-fda-circular-2025-002-acd",
+      "type": "regulation",
+      "date": "2025-05-20",
+      "title": "菲律宾 FDA 2025-002：跟进第 39 届 ACC 的 ACD 修订",
+      "summary": "菲 FDA 通报第 39 届 ACC 对 ACD 的更新；吡啶硫酮锌等成分限制多数东盟成员设 24 个月过渡，菲律宾部分议程另议。",
+      "body_text": "菲律宾 FDA Circular No.2025-002 汇总第 39 届东盟化妆品委员会会议对 ACD 的更新，并给出实施/过渡安排，方便企业改配方与下架旧配方。\n\n文中举例：吡啶硫酮锌（ZPT）在多数东盟成员按附件限制继续使用，并设约 24 个月过渡；2026年5月14日起不合规产品应退出市场。菲律宾对部分议程保留内部协商后再行动。\n\n卖家应打开 FDA 原文核对完整禁限用清单，不要只看转述摘要。",
+      "markets": [
+        "ph"
+      ],
+      "platforms": [
+        "shopee",
+        "lazada"
+      ],
+      "tags": [
+        "ingredients"
+      ],
+      "source_url": "https://www.fda.gov.ph/fda-circular-no-2025-002-updates-and-amendments-to-the-asean-cosmetic-directive-acd-as-adopted-during-the-39th-asean-cosmetic-committee-acc-meeting-and-its-related-meetings/",
+      "source_name": "Philippines FDA",
+      "checked": "2026-10-23",
+      "needs_review": false,
+      "sample": false,
+      "key_date": {
+        "date": "2026-05-14",
+        "label": "ZPT宽限"
+      },
+      "page": "/news/2025-05-20-ph-fda-circular-2025-002-acd/"
+    }
+  ]
+}

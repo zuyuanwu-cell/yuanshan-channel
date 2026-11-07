@@ -1,0 +1,189 @@
+{
+  "api": "yuanshan-channel/v1",
+  "access": "public-read",
+  "auth": null,
+  "generated": "2026-10-26",
+  "disclaimer": "每条资讯都附来源链接。标了「待核实」的条目来自媒体或第三方转述，引用前打开原文。费用、排名和法规以官方页面为准。",
+  "kind": "feed",
+  "id": "jp/rules+regulation+rankings",
+  "title": "日本",
+  "markets": [
+    "jp"
+  ],
+  "types": [
+    "rules",
+    "regulation",
+    "rankings"
+  ],
+  "filter": {
+    "markets": [
+      "jp"
+    ],
+    "types": [
+      "rules",
+      "regulation",
+      "rankings"
+    ],
+    "include_global": false
+  },
+  "count": 7,
+  "items": [
+    {
+      "kind": "news",
+      "id": "2026-11-04-japan-jsqi-2021-amendment-public-comment",
+      "type": "regulation",
+      "date": "2026-11-04",
+      "title": "日本外原規2021又要改：征求意见中，预计2027年3月起适用，医薬部外品配方规格再对一遍",
+      "summary": "厚劳省 10-30 起就「外原規2021」全面改正案征求意见（至11-28必着）：一般试验法与试剂有增改，规格各条拟改114品目；适用日暂定令和9年3月，另给1年6个月经过措置。还是草案，未定稿。",
+      "body_text": "做 日本医薬部外品（美白、药妆洗护、防痘/生发等走批准路径的产品）的品牌和制造销售业者注意：厚生労働省 2026年10月30日 在 e-Gov (https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTDETAIL&Mode=0&id=495260219) 挂出 「医薬部外品原料規格2021を改正する件（案）」 公众意见募集。这是 新一轮改正草案，不是站内已写过的 外原規2021 改正自 2026-10-01 全面适用 (/news/2026-10-01-japan-yakugenki-2021-full-application/) 那条落地提醒。\n\n先说清楚：现在还在征求意见，规则没定稿，今天在售货不受这条新草案直接约束。 但适用日草案写的是 令和9年3月（2027年3月，予定），后面还有 1年6个月 经过措置——医薬部外品链条长，适合提前对照各条。\n\n改了什么（草案口径）\n\n据厚劳省医薬局医薬品审查管理课 改正案概要 PDF（令和8年10月30日）：\n\n块\n草案内容\n\n定性反应（一般试验法 47）\n改正 4 项\n\n试药・试液（一般试验法 81）\n追加 4 项、改正 2 项（含中和稀乙醇、GC 用 14% 氰丙基苯基-86% 二甲基硅氧烷聚合物、定量用扁柏酚等）\n\n规格各条\n改正合计 114 品目\n\n其他\n所要规定整備\n\n- 意见募集：2026-10-30 起，2026-11-28（土）必着（e-Gov 案件页显示受付至 11-29 0:00）\n\n- 适用日（予定）：令和 9 年 3 月（约 2027-03）\n\n- 经过措置：自适用日起 1 年 6 个月\n\n具体哪 114 个各条怎么改，要以别添１（改正后全文）与别添２（新旧对照）为准；概要页只给了数量与试验法举例。\n\n影响谁\n\n- 在日本以 医薬部外品 路径拿批准的品牌、制造销售业者、OEM：原料规格写外原規各条或引用一般试验法的，要跟草案对一遍\n\n- 把「药妆 / 美白 / 防痘」当卖点、准备或已经切到医薬部外品批准的跨境团队\n\n- 只做普通化粧品製造販売届、不碰医薬部外品批准的卖家：本条不直接改你的届出义务；别把未批准功效说成医薬部外品\n\n意味着什么、现在注意什么\n\n- 别跟 10-01 全面适用那条混：10-01 管的是 上一轮 外原規改正后的落地；本条是 又一轮 草案，节点在 2027 年 3 月（予定）。\n\n- 有日方制造销售业者的：把别添２里与自家配方相关的各条抽出来，评估检验方法与规格值是否要改原料 COA / 放行标准。\n\n- 想提意见：按募集要领走 e-Gov 表单、邮件或邮寄，11-28 必着；邮件件名须写明案件名称（详见要领 PDF）。\n\n- 定稿前以 e-Gov / 厚劳省后续通知为准；本站标了 needs_review，定稿或适用日官宣后再改合规页。\n\n证据（核对日期 2026-11-04）\n\n改正案概要首页写明规格各条改正 114 品目、适用日 令和9年3月（予定）、经过措置 1年6个月：\n\n意见募集要领首页写明募集期间至 2026-11-28（土）必着：\n\n来源\n\n- e-Gov · 医薬部外品原料規格2021を改正する件（案）に関する御意見の募集（案件番号 495260219） (https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTDETAIL&Mode=0&id=495260219)\n\n- 厚劳省医薬局 · 改正案概要 PDF、意见募集要领 PDF（同页附件；本站已存证据目录）\n\n- 站内对照：外原規2021 改正 2026-10-01 全面适用 (/news/2026-10-01-japan-yakugenki-2021-full-application/)、日本合规 (/compliance/jp/)",
+      "markets": [
+        "jp"
+      ],
+      "platforms": [
+        "rakuten"
+      ],
+      "tags": [
+        "ingredients",
+        "compliance"
+      ],
+      "source_url": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTDETAIL&Mode=0&id=495260219",
+      "source_name": "e-Gov パブリックコメント · 案件 495260219（厚劳省）",
+      "checked": "2026-11-04",
+      "needs_review": true,
+      "sample": false,
+      "key_date": {
+        "date": "2026-11-28",
+        "label": "征求意见截止（必着）"
+      },
+      "page": "/news/2026-11-04-japan-jsqi-2021-amendment-public-comment/"
+    },
+    {
+      "kind": "ranking",
+      "id": "amazon-jp/2026-11-02",
+      "type": "rankings",
+      "date": "2026-11-02",
+      "title": "Amazon 日本站 · 2026-11-02",
+      "summary": "30 个单品 · Amazon Best Sellers · Beauty (amazon-jp) · 部分数据 · 待核实",
+      "markets": [
+        "jp"
+      ],
+      "board": "amazon-jp",
+      "source_url": "https://www.amazon.co.jp/gp/bestsellers/beauty",
+      "source_name": "Amazon Best Sellers · Beauty (amazon-jp)",
+      "needs_review": true,
+      "sample": false,
+      "partial": true,
+      "page": "/rankings/amazon-jp/",
+      "detail": "/v1/rankings/amazon-jp/2026-11-02.json"
+    },
+    {
+      "kind": "ranking",
+      "id": "amazon-jp/2026-11-01",
+      "type": "rankings",
+      "date": "2026-11-01",
+      "title": "Amazon 日本站 · 2026-11-01",
+      "summary": "30 个单品 · Amazon Best Sellers · Beauty (amazon-jp) · 部分数据 · 待核实",
+      "markets": [
+        "jp"
+      ],
+      "board": "amazon-jp",
+      "source_url": "https://www.amazon.co.jp/gp/bestsellers/beauty",
+      "source_name": "Amazon Best Sellers · Beauty (amazon-jp)",
+      "needs_review": true,
+      "sample": false,
+      "partial": true,
+      "page": "/rankings/amazon-jp/",
+      "detail": "/v1/rankings/amazon-jp/2026-11-01.json"
+    },
+    {
+      "kind": "ranking",
+      "id": "amazon-jp/2026-10-26",
+      "type": "rankings",
+      "date": "2026-10-26",
+      "title": "Amazon 日本站 · 2026-10-26",
+      "summary": "30 个单品 · Amazon.co.jp ビューティー売れ筋 · 待核实",
+      "markets": [
+        "jp"
+      ],
+      "board": "amazon-jp",
+      "source_url": "https://www.amazon.co.jp/gp/bestsellers/beauty",
+      "source_name": "Amazon.co.jp ビューティー売れ筋",
+      "needs_review": true,
+      "sample": false,
+      "partial": false,
+      "page": "/rankings/amazon-jp/",
+      "detail": "/v1/rankings/amazon-jp/2026-10-26.json"
+    },
+    {
+      "kind": "ranking",
+      "id": "amazon-jp/2026-10-23",
+      "type": "rankings",
+      "date": "2026-10-23",
+      "title": "Amazon 日本站 · 2026-10-23",
+      "summary": "30 个单品 · Amazon.co.jp 売れ筋ランキング · ビューティー · 部分数据 · 待核实",
+      "markets": [
+        "jp"
+      ],
+      "board": "amazon-jp",
+      "source_url": "https://www.amazon.co.jp/gp/bestsellers/beauty",
+      "source_name": "Amazon.co.jp 売れ筋ランキング · ビューティー",
+      "needs_review": true,
+      "sample": false,
+      "partial": true,
+      "page": "/rankings/amazon-jp/",
+      "detail": "/v1/rankings/amazon-jp/2026-10-23.json"
+    },
+    {
+      "kind": "news",
+      "id": "2026-10-01-japan-yakugenki-2021-full-application",
+      "type": "regulation",
+      "date": "2026-10-01",
+      "title": "日本外原規2021改正全面适用：医薬部外品既批准品10-01起原则上按新规格",
+      "summary": "厚劳省：外原規2021一部改正过渡期至2026-09-30；自10-01起，既批准医薬部外品原则上适用改正后规格，否则须轻微变更届出改为别纸规格。",
+      "body_text": "日本厚生労働省 2025年3月21日 以医薬薬審発 0321 第1号明确《医薬部外品原料規格 2021》（外原規2021）一部改正后的审批与变更取扱い；行业报道与通知口径一致：过渡期至 2026年9月30日，自 2026年10月1日 起对既批准品原则上全面适用改正后规格。\n\n改了什么\n\n对象是按日本制度批准的医薬部外品（含部分美白、防痘、生发、药妆型洗护等），不是普通「化粧品」届出品。\n\n要点（据厚劳省取扱い通知）：\n\n- 新申请：2025-03-21 后可用改正后外原規；2026-09-30 前仍可用改正前规格申请\n\n- 既批准品：2026-09-30 前可暂按旧例；2026-10-01 起原则上须按改正后外原規\n\n- 若 10-01 后仍想沿用改正前规格：须在过渡期内办轻微变更届出，把规格改为「别纸规格」并附改正前试验法内容\n\n- 批准事项里引用外原規一般试验法的，10-01 起同样改按改正后试验法\n\n- 仅试药/试液名称变更：不必单独为改名去办一变/轻微变更，可并入下次变更\n\n本次改正覆盖一般试验法多项与规格各条大量条目，并与日本薬局方等公定书对齐（行业梳理口径：一般试验法约 15 项、规格各条约 222 项有调整）。\n\n影响谁\n\n- 在日本以医薬部外品路径销售美白、药妆洗护、防痘/生发等产品的品牌与制造销售业者\n\n- 在韩国等市场是「功能性化妆品」、准备切到日本医薬部外品批准的跨境团队——质量标准与药事路径要按日本制度重做，不能直接套用产地标准\n\n- 只做普通化粧品製造販売届、不涉及医薬部外品批准的卖家：本条不改你的届出义务，但不要把「药妆」口头宣称做成未批准的医薬部外品功效\n\n意味着什么 / 现在注意什么\n\n- 10-01 已过：还在用旧规格放行/放检的既批准品，尽快与日本制造销售业者核对是否已切改正后外原規，或是否已完成「别纸规格」轻微变更届出。\n\n- 对日出口前先分清产品在日本是化粧品还是医薬部外品——后者才吃外原規这套。\n\n- 变更届出备考栏须按通知写明依据文号；具体成分是否落在改正各条，以局长通知别添与现行外原規文本为准。\n\n官方 PDF：医薬薬審発 0321 第1号「医薬部外品原料規格2021」の一部改正に伴う取扱い (https://www.mhlw.go.jp/content/001455256.pdf)。改正本体见同日医薬発 0321 第1号。",
+      "markets": [
+        "jp"
+      ],
+      "platforms": [
+        "rakuten"
+      ],
+      "tags": [
+        "ingredients",
+        "compliance"
+      ],
+      "source_url": "https://www.mhlw.go.jp/content/001455256.pdf",
+      "source_name": "厚生労働省（医薬薬審発0321第1号）",
+      "checked": "2026-10-27",
+      "needs_review": false,
+      "sample": false,
+      "key_date": {
+        "date": "2026-10-01",
+        "label": "全面适用"
+      },
+      "page": "/news/2026-10-01-japan-yakugenki-2021-full-application/"
+    },
+    {
+      "kind": "news",
+      "id": "2026-04-20-japan-triheptanoin-interim",
+      "type": "regulation",
+      "date": "2026-04-20",
+      "title": "日本厚劳省：三庚酸甘油酯配合化妆品在基准修订前的过渡处理",
+      "summary": "厚劳省 4月20日发事务联络，明确在化妆品基准修订前，配合三庚酸甘油酯（triheptanoin）的化妆品如何处理。",
+      "body_text": "- 厚生労働省 2026年4月20日 事务联络\n\n- 对象：配合 三庚酸甘油酯 的化妆品\n\n- 属于化妆品基准正式修订前的过渡措施，不是新告示\n\n日本最近一次化妆品基准告示修订是 2024年7月12日。",
+      "markets": [
+        "jp"
+      ],
+      "platforms": [],
+      "tags": [
+        "ingredients"
+      ],
+      "source_url": "https://www.mhlw.go.jp/hourei/doc/tsuchi/T260421I0040.pdf",
+      "source_name": "厚生労働省",
+      "checked": "2026-10-23",
+      "needs_review": true,
+      "sample": false,
+      "key_date": null,
+      "page": "/news/2026-04-20-japan-triheptanoin-interim/"
+    }
+  ]
+}

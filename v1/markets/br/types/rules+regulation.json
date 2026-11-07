@@ -1,0 +1,79 @@
+{
+  "api": "yuanshan-channel/v1",
+  "access": "public-read",
+  "auth": null,
+  "generated": "2026-10-26",
+  "disclaimer": "每条资讯都附来源链接。标了「待核实」的条目来自媒体或第三方转述，引用前打开原文。费用、排名和法规以官方页面为准。",
+  "kind": "feed",
+  "id": "br/rules+regulation",
+  "title": "巴西",
+  "markets": [
+    "br"
+  ],
+  "types": [
+    "rules",
+    "regulation"
+  ],
+  "filter": {
+    "markets": [
+      "br"
+    ],
+    "types": [
+      "rules",
+      "regulation"
+    ],
+    "include_global": false
+  },
+  "count": 2,
+  "items": [
+    {
+      "kind": "news",
+      "id": "2026-06-11-anvisa-rdc-1029-restricted",
+      "type": "regulation",
+      "date": "2026-06-11",
+      "title": "巴西 ANVISA 更新化妆品限用物质清单，已注册产品 24 个月内调整",
+      "summary": "RDC 1.029/2026 更新限用物质清单（转化南共市 GMC 06/25），RDC 1.030/2026 更新禁用清单；已备案产品有 24 个月调整期。",
+      "body_text": "- RDC 1.029/2026：限用物质清单第一部分，转化南共市 GMC 06/25\n\n- RDC 1.030/2026：禁用物质清单\n\n- 已备案/注册产品：24 个月内调整",
+      "markets": [
+        "br"
+      ],
+      "platforms": [],
+      "tags": [
+        "ingredients"
+      ],
+      "source_url": "https://www.gov.br/anvisa/pt-br/assuntos/noticias-anvisa/2026/anvisa-atualiza-listas-de-substancias-para-uso-em-cosmeticos",
+      "source_name": "ANVISA",
+      "checked": "2026-10-23",
+      "needs_review": false,
+      "sample": false,
+      "key_date": null,
+      "page": "/news/2026-06-11-anvisa-rdc-1029-restricted/"
+    },
+    {
+      "kind": "news",
+      "id": "2026-03-20-anvisa-cancels-banned-substance-cosmetics",
+      "type": "regulation",
+      "date": "2026-03-20",
+      "title": "巴西 ANVISA：含已禁物质的化妆品登记被批量取消",
+      "summary": "ANVISA 官方新闻称，因配方含已禁止物质，已取消大批化妆品登记；企业须对照最新禁限用清单并停售不合规 SKU。",
+      "body_text": "巴西卫生监管局（ANVISA）官网新闻报道：当局取消了一批含已禁止物质的化妆品登记。此前 RDC 等文件已调整禁限用清单，企业若未在过渡期内改配方，可能失去登记并被迫下架。\n\nMercado Livre 等平台上的巴西美妆 listing 应核对登记状态与成分合规。新闻页精确发布日请打开原文确认，故标待核实。",
+      "markets": [
+        "br"
+      ],
+      "platforms": [
+        "mercado-libre"
+      ],
+      "tags": [
+        "ingredients",
+        "penalties"
+      ],
+      "source_url": "https://www.gov.br/anvisa/pt-br/assuntos/noticias-anvisa/2026/anvisa-cancela-registro-de-cosmeticos-com-substancias-banidas",
+      "source_name": "ANVISA",
+      "checked": "2026-10-23",
+      "needs_review": true,
+      "sample": false,
+      "key_date": null,
+      "page": "/news/2026-03-20-anvisa-cancels-banned-substance-cosmetics/"
+    }
+  ]
+}

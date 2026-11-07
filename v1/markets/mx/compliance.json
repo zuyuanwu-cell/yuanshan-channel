@@ -1,0 +1,92 @@
+{
+  "api": "yuanshan-channel/v1",
+  "access": "public-read",
+  "auth": null,
+  "generated": "2026-10-26",
+  "disclaimer": "每条资讯都附来源链接。标了「待核实」的条目来自媒体或第三方转述，引用前打开原文。费用、排名和法规以官方页面为准。",
+  "kind": "compliance",
+  "id": "mx",
+  "name_zh": "墨西哥",
+  "region": "拉美",
+  "region_slug": "latin-america",
+  "page": "/compliance/mx/",
+  "market": {
+    "country": "mx",
+    "name_zh": "墨西哥",
+    "flag": "🇲🇽",
+    "region": "拉美",
+    "difficulty": 2,
+    "summary": "进口或加工须遵守西语标签规范和化妆品生产规范。逐品卫生注册本次未核实。",
+    "items": [
+      {
+        "id": "mx-label",
+        "name_zh": "预包装化妆品西语标签",
+        "authority": "COFEPRIS",
+        "type": "label",
+        "mandatory": true,
+        "cost": "未知",
+        "time": "未知",
+        "docs": [
+          "西语品名与用途",
+          "责任人名称住所",
+          "批号与净含量",
+          "成分表"
+        ],
+        "who": "加工或进口者",
+        "note": "NOM-141对在墨西哥加工或进口化妆品的人强制。香水可免列成分名。",
+        "official_url": "https://dof.gob.mx/normasOficiales/4878/salud1a11_C/salud1a11_C.html",
+        "source_checked": "2026-10-24",
+        "needs_review": false
+      },
+      {
+        "id": "mx-gmp",
+        "name_zh": "化妆品良好生产规范",
+        "authority": "COFEPRIS",
+        "type": "safety",
+        "mandatory": true,
+        "cost": "未知",
+        "time": "未知",
+        "docs": [],
+        "who": "加工或进口并销售的企业",
+        "note": "NOM-259-SSA1-2022适用于在墨西哥加工和/或进口并销售化妆品的企业。",
+        "official_url": "https://dof.gob.mx/nota_detalle.php?codigo=5657034&fecha=05/07/2022",
+        "source_checked": "2026-10-24",
+        "needs_review": false
+      },
+      {
+        "id": "mx-reg",
+        "name_zh": "逐品卫生注册未核实",
+        "authority": "COFEPRIS",
+        "type": "registration",
+        "mandatory": false,
+        "cost": "未知",
+        "time": "未知",
+        "docs": [],
+        "who": "进口商",
+        "note": "已打开的规范没有把化妆品写成必须或免除卫生注册。不编造注册路径。",
+        "official_url": "https://www.gob.mx/cofepris",
+        "source_checked": "2026-10-24",
+        "needs_review": true
+      }
+    ],
+    "steps": [
+      {
+        "title": "西语标签",
+        "type": "label"
+      },
+      {
+        "title": "生产规范",
+        "type": "safety"
+      },
+      {
+        "title": "注册状态待核",
+        "type": "registration"
+      }
+    ],
+    "last_verified": "2026-10-24",
+    "hs_codes": {
+      "status": "pending",
+      "items": []
+    }
+  }
+}

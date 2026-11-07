@@ -1,0 +1,34 @@
+{
+  "api": "yuanshan-channel/v1",
+  "access": "public-read",
+  "auth": null,
+  "generated": "2026-10-26",
+  "disclaimer": "每条资讯都附来源链接。标了「待核实」的条目来自媒体或第三方转述，引用前打开原文。费用、排名和法规以官方页面为准。",
+  "kind": "news",
+  "item": {
+    "kind": "news",
+    "id": "2026-09-04-temu-eu-3-euro-duty",
+    "type": "regulation",
+    "date": "2026-09-04",
+    "title": "欧盟 €3 小包关税实施两个月，Temu 母公司加码本地仓和本地卖家",
+    "summary": "7月1日起，欧盟对 €150 以下的电商小包按每个税则类别收 €3。PDD 在财报会上说影响「相当大」，要更多本地商家和本地仓。",
+    "body_text": "据 The Logistic News 9月4日报道，PDD（Temu 母公司）联席 CEO 陈磊在 8月24日的财报电话会上说，欧盟的新关税会降低履约效率、抬高成本，对部分业务有「相当大的影响」。公司的应对是引入更多优质本地商家，加快本地仓储和履约建设。\n\n规则本身来自 欧盟委员会 (https://commission.europa.eu/news-and-media/news/ensuring-fairness-and-safety-eur3-customs-duty-low-value-parcels-2026-06-29_en)：\n\n- 2026年7月1日 起，取消 €150 以下小包的关税豁免\n\n- 临时按每个「物品」收 €3，按税则分类算，不按数量算\n\n- 由卖家或进口方申报缴纳，不由消费者付\n\n- 临时安排持续到 2028年7月1日，之后按正常税率征收\n\n举例：一个包裹里 3 支同类口红算一个类别，收 €3；口红加一瓶洗发水是两个类别，收 €6。\n\n欧盟海关改革页面 (https://taxation-customs.ec.europa.eu/customs/eu-customs-reform_en) 还写明，欧盟将在 2026年11月1日前另设小包处理费，金额由授权法规确定。\n\nPDD 的表态来自媒体报道，标待核实。规则部分以欧盟委员会页面为准。",
+    "markets": [
+      "eu"
+    ],
+    "platforms": [
+      "temu",
+      "amazon-eu"
+    ],
+    "tags": [
+      "customs"
+    ],
+    "source_url": "https://thelogisticnews.com/temu-owner-invests-in-local-fulfillment-as-de-minimis-rules-reshape-global-trade/",
+    "source_name": "The Logistic News",
+    "checked": "2026-10-22",
+    "needs_review": true,
+    "sample": false,
+    "key_date": null,
+    "page": "/news/2026-09-04-temu-eu-3-euro-duty/"
+  }
+}

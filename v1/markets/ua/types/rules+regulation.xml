@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>远山频道 · 乌克兰</title>
+    <link>https://ys.tongzhoukuajing.com/subscribe/?markets=ua&amp;types=rules%2Cregulation</link>
+    <description>每条资讯都附来源链接。标了「待核实」的条目来自媒体或第三方转述，引用前打开原文。费用、排名和法规以官方页面为准。 公开只读，不是法律意见，也不代替来源原文。</description>
+    <language>zh-CN</language>
+    <lastBuildDate>Mon, 26 Oct 2026 12:00:00 GMT</lastBuildDate>
+    <atom:link xmlns:atom="http://www.w3.org/2005/Atom" href="https://ys.tongzhoukuajing.com/v1/markets/ua/types/rules+regulation.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>卖乌克兰的化妆品：不合新技术法规的货可投放到2027年7月31日，库存可卖到2030年</title>
+      <link>https://ys.tongzhoukuajing.com/news/2026-10-28-ukraine-cosmetics-tech-reg-transition-2027/</link>
+      <guid isPermaLink="false">2026-10-28-ukraine-cosmetics-tech-reg-transition-2027</guid>
+      <pubDate>Wed, 28 Oct 2026 12:00:00 GMT</pubDate>
+      <description>乌克兰化妆品技术法规（内阁第65号决议）的过渡期已由第976号决议从2026-08-03延到2027-07-31；卫生部10月起草修正，防止12月另一项决议把日期改回去。已投放的货可在市场上卖到2030-08-03。</description>
+    </item>
+  </channel>
+</rss>

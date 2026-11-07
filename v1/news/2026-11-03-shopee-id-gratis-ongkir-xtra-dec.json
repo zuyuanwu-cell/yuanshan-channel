@@ -1,0 +1,36 @@
+{
+  "api": "yuanshan-channel/v1",
+  "access": "public-read",
+  "auth": null,
+  "generated": "2026-10-26",
+  "disclaimer": "每条资讯都附来源链接。标了「待核实」的条目来自媒体或第三方转述，引用前打开原文。费用、排名和法规以官方页面为准。",
+  "kind": "news",
+  "item": {
+    "kind": "news",
+    "id": "2026-11-03-shopee-id-gratis-ongkir-xtra-dec",
+    "type": "rules",
+    "date": "2026-11-03",
+    "title": "Shopee 印尼包邮计划 XTRA 12-01 起涨价：美妆护理 5.5%→9%，单件封顶 4 万→6 万盾",
+    "summary": "可选包邮计划 Gratis Ongkir XTRA：非 Mall 店 12-01、Mall 店 2027-01-01 起多数类目费率上调约 3–3.5 个百分点；美妆/护理（Perawatan & Kecantikan）普通尺码 5.5% 提到 9%，单件封顶 4 万提到 6 万盾。未报名不受影响。",
+    "body_text": "Shopee 印尼卖家教育中心更新了可选包邮计划 Gratis Ongkir XTRA 费率表：非 Mall（Non-Star / Star / Star+）从 2026年12月1日 起按新表扣；Shopee Mall 从 2027年1月1日 起。这笔钱是你报名后、对每一笔已完成订单抽的计划费（买家没用包邮券也照扣），取消单不扣。没报名的店不受影响；行政费（Admin Fee）这次没一起涨。\n\n改了什么（美妆相关）\n\n对照卖家教育中心费率表（多家二次汇总与官方表一致，已交叉核对）：\n\n项目\n现行（约 5 月以来）\n12-01 起（非 Mall）\n\n美妆护理 Perawatan & Kecantikan（普通尺码）\n5.5%\n9%\n\n普通尺码单件封顶\n4 万盾\n6 万盾\n\n特殊尺码单件封顶\n6 万盾\n8 万盾\n\n特殊尺码大致指：≥5 kg，或任一边 ≥60 cm，或体积 ≥20,000 cm³，费率更高一档。基数仍是「原价 − 卖家折扣/卖家券」，不含运费。\n\n粗算：卖 8.9 万盾 的护肤，原先计划费约 4,895 盾，12 月起约 8,010 盾，多扣约 3,100 盾/单。高客单更容易撞上封顶：卖 150 万盾 的仪器/礼盒，封顶从 4 万提到 6 万，光封顶就每件多交 2 万盾。\n\n近 30 天广告净花费占比够高的店（现行约 ≥3%，12 月起多源写明将提到 ≥4%）可走「广告用户」更低一档费率；别为了够档位硬烧广告，先算 ROAS。\n\n影响谁\n\n- 已报名 XTRA 的印尼站美妆、个护、香氛店（本地与跨境都按卖家中心显示为准）：12 月起毛利再被挤一截，尤其是中低客单护肤、面膜。\n\n- Mall 店：多撑一个月，2027-01-01 才切新表，但别拖到月底才重算。\n\n- 没报名的店：零直接影响；若打算用「包邮标」冲大促流量，先按 9% 重算再决定进不进。\n\n意味着什么、现在注意什么\n\n- 12 月前用自己的客单价重算：计划费按完成单全抽，不是「只有用了包邮券才扣」。订单量要涨多少才能打平，取决于你的单件毛利，不是「费率涨几个点销量涨几个点就够」。\n\n- 可随时退出：卖家中心计划页提交退出，一般按日历日处理（常见说法是当天 17:00 WIB 前提交，次日 0 点生效）。觉得涨完不划算就退，别硬扛。\n\n- 别和 Promo XTRA / Live XTRA 叠着乱算：各项可选计划可叠加扣费，叠加前先加总再定价。\n\n- 费用调整不改 BPOM 通报、标签、清真义务，见 印尼合规 (/compliance/id/)。\n\n来源\n\n- Shopee 印尼卖家教育中心 · Biaya Program Opsional Gratis Ongkir XTRA (https://seller.shopee.co.id/edu/article/27684)（及同中心「Rincian Persentase Gratis Ongkir XTRA」费率表；需登录卖家中心查看最新表）\n\n- 费率数字已与公开二次核对页交叉（SellerFee / 转载官方表汇总，核查日约 2026-10-16–26）；以后台当前表为准，若官方改档以卖家中心为准",
+    "markets": [
+      "id"
+    ],
+    "platforms": [
+      "shopee"
+    ],
+    "tags": [
+      "fees"
+    ],
+    "source_url": "https://seller.shopee.co.id/edu/article/27684",
+    "source_name": "Shopee 印尼卖家教育中心 · Gratis Ongkir XTRA",
+    "checked": "2026-11-03",
+    "needs_review": false,
+    "sample": false,
+    "key_date": {
+      "date": "2026-12-01",
+      "label": "非Mall新费率"
+    },
+    "page": "/news/2026-11-03-shopee-id-gratis-ongkir-xtra-dec/"
+  }
+}
