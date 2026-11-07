@@ -193,6 +193,24 @@
       "needs_review": false
     },
     {
+      "id": "tiktok-shop-misleading-content",
+      "name_zh": "TikTok Shop美国站误导内容规则",
+      "authority": "TikTok Shop",
+      "type": "platform",
+      "mandatory": false,
+      "cost": "未知",
+      "time": "未知",
+      "docs": [
+        "短视频/直播/详情页一致性自检",
+        "LIVE Auction出价前披露清单"
+      ],
+      "who": "美国站卖家与达人",
+      "note": "Updated 2026-11-06：禁假布景/假稀缺/无依据低价；拍卖须口头披露小样拆封临期；滤镜前后对比高危。",
+      "official_url": "https://seller-us.tiktok.com/university/essay?knowledge_id=4581457528194817&lang=en",
+      "source_checked": "2026-11-07",
+      "needs_review": false
+    },
+    {
       "id": "us-hs",
       "name_zh": "HS 编码与关税",
       "authority": "CBP",

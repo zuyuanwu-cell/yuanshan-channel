@@ -1,0 +1,107 @@
+---
+title: "TikTok美站误导内容规则11-06加严：假布景、假稀缺、虚低价、拍卖藏样瓶都会罚；美妆滤镜前后对比仍高危"
+date: "2026-11-07"
+category: "rules"
+platforms:
+  - "tiktok-shop"
+countries:
+  - "us"
+tags:
+  - "compliance"
+  - "listing"
+  - "penalties"
+source_url: "https://seller-us.tiktok.com/university/essay?knowledge_id=4581457528194817&lang=en"
+source_name: "TikTok Shop美站卖家大学 · Misleading Content（2026-11-06）"
+checked: "2026-11-07"
+key_date:
+  date: "2026-11-06"
+  label: "卖家大学页更新日期"
+highlight: true
+summary: "美站《How to Avoid Misleading Content》Updated 2026-11-06：新增假布景、假稀缺、虚价格专章；直播拍卖须出价前口头披露小样/拆封/临期。美妆滤镜前后对比仍高危。"
+needs_review: false
+sample: false
+---
+
+TikTok Shop **美国站**卖家大学《[How to Avoid Misleading Content](https://seller-us.tiktok.com/university/essay?knowledge_id=4581457528194817&lang=en)》标注 **Updated at: 11/06/2026**。站内此前 [美国站内容政策](/news/2026-10-09-tiktok-shop-us-content-policy/)、[东南亚误导内容](/news/2026-10-13-tiktok-shop-sea-misleading-content/) 已写过功效夸大与滤镜；本轮页把 **四块新命名专章**写死了——**假布景、假稀缺、虚价格、拍卖藏样瓶**——黑五 LIVE 旺季，话术和镜头布景比标题更容易出事。
+
+## 改了什么
+
+### 1. 适用范围（官方原意）
+
+- 对 **全球** TikTok Shop 创作者与卖家适用；覆盖短视频、直播、视频描述
+- 商品宣称、属性、价格须与 **商品详情页和包装**一致；恶意对比、夸大或科学上不可能的说法、用滤镜/AI 伪造效果都不行
+- **免责声明**只允许两种场景：展示前后对比，或说明见效需要多久；其他场合乱挂「效果因人而异」盖不住违规
+
+### 2. 本轮写清楚的四块新专章
+
+| 专章 | 白话：什么不行 |
+| --- | --- |
+| **误导布景与道具（Misleading Background and Staging）** | 背景/道具制造「货很多、很贵、很抢手」的假象。例：镜头前摆三箱耳机正品盒子，实际拍的是耳机充电线；A 在拍、B 一直占主视觉引流 |
+| **误导展示与披露（Misleading Product Presentation）** | 镜头里是正装香水，发出去是未披露的小样/中样/试用装；包装看着是未拆，实际发拆封、测试装 |
+| **模糊/无依据的价格、价值、需求说法** | 「史上最大促销」「库存告急」「有史以来最低价」「While stocks last」等——过期、无依据或不写清条件就算误导 |
+| **虚假独家与稀缺（False Exclusivity and Scarcity）** | 「孤品」「最后一件」但后台还有货；「只有中拍的人能买」但同款仍在店铺固定价售卖；拍卖说成唯一购买窗口、拍完还能加购 |
+
+### 3. 直播拍卖：出价前必须口头说清
+
+官方要求：LIVE Auction 须在 **出价/购买前于直播中做实质性披露**；**只靠商品详情页写了不算**。开拍前要讲清是否属于：
+
+tester / sample / mini / travel-size、拆箱/拆封/用过/翻新/破损、临近过期、缺原包装，或礼盒内容与宣传明显不一致。
+
+香水、精华、套装拆零在拍卖场景最容易踩。
+
+### 4. 美妆仍然高危的老雷（本页继续强调）
+
+- **前后对比**：皮肤紧致、生发等须加「效果因人而异」类可用声明；用滤镜/打光/修图夸大前后差不行
+- **数字特效**：磨皮祛痘、秒白牙、一秒去皱等「假即时效果」无豁免
+- **绝对词**：「100%有效」「一次解决」「保证见效」「永久美白」等高危
+- **功效越界**：包装只写清洁保湿，口播却说祛斑、抗老、治愈湿疹——算货不对板式宣称
+
+违规可致内容下架、功能限制、扣分乃至停号；与站内 [AHR 节点处置](/news/2026-11-07-tiktok-shop-us-ahr-nodes/) 叠在一起：**内容违规打 AHR，AHR 再卡大促/发品/提现**。
+
+## 影响谁
+
+- **TikTok Shop 美国站美妆、个护、香水卖家与达人**（含跨境）：短视频与 LIVE 文案、布景、库存话术
+- **黑五 BFCM 期间开拍卖/专场直播的店**：样瓶、中样、拆封、临期、套装拆零必须先口头说
+- **靠「最后一件」「全网最低」逼单的运营**：无库存/比价依据就别喊
+
+## 意味着什么、现在注意什么
+
+1. **本周清一遍置顶视频与直播脚本**：删掉站不住脚的「最后一件」「史上最低」；布景里别放不是在卖的大件引流。  
+2. **拍卖脚本加开场披露清单**：小样/中样/拆封/临期/缺包装——详情页写了也不够，镜头前要说。  
+3. **美妆前后对比只保留真实未修图**，并按官方只用在「前后对比 / 时效结果」两种场景挂声明。  
+4. **内容违规会拖 AHR**：黑五要报超级大促的，先看账号健康分是否还在 150 线以上。
+
+## 证据（核对日期 2026-11-07）
+
+卖家大学页标题与更新日期 **11/06/2026**，摘要写明误导内容全球禁止、宣称须与详情页/包装一致：
+
+![TikTok美站：How to Avoid Misleading Content 标题与2026-11-06更新](/media/evidence/2026-11-07-tiktok-shop-us-misleading-content-nov6/01-title-updated-2026-11-06.png)
+
+LIVE Auction 出价前须披露小样/中样/拆封/临期等：
+
+![LIVE Auction 实质性披露要求](/media/evidence/2026-11-07-tiktok-shop-us-misleading-content-nov6/02-live-auction-disclosure.png)
+
+误导布景与道具、误导展示（正装镜头发小样等）专章：
+
+![Misleading Background and Staging 与 Product Presentation](/media/evidence/2026-11-07-tiktok-shop-us-misleading-content-nov6/03-staging.png)
+
+模糊/无依据的价格与需求说法专章：
+
+![Vague Pricing Value and Demand Claims](/media/evidence/2026-11-07-tiktok-shop-us-misleading-content-nov6/04-pricing-value.png)
+
+虚假独家与稀缺（「最后一件」但后台有货等）：
+
+![False Exclusivity and Scarcity Claims](/media/evidence/2026-11-07-tiktok-shop-us-misleading-content-nov6/05-scarcity.png)
+
+前后对比与美妆高危场景（页内 Before & After 专章）：
+
+![Before & After Comparisons 专章](/media/evidence/2026-11-07-tiktok-shop-us-misleading-content-nov6/06-before-after.png)
+
+滤镜/数字特效伪造效果（Digitally Generated Effects）：
+
+![Digitally Generated Effects 禁止滤镜伪造效果](/media/evidence/2026-11-07-tiktok-shop-us-misleading-content-nov6/07-filters-effects.png)
+
+## 来源
+
+- TikTok Shop 美国卖家大学 · [How to Avoid Misleading Content](https://seller-us.tiktok.com/university/essay?knowledge_id=4581457528194817&lang=en)（Updated 2026-11-06）
+- 站内相关：[美国站内容政策](/news/2026-10-09-tiktok-shop-us-content-policy/)、[东南亚误导内容](/news/2026-10-13-tiktok-shop-sea-misleading-content/)、[AHR 节点处置](/news/2026-11-07-tiktok-shop-us-ahr-nodes/)、[美国合规](/compliance/us/)
