@@ -175,6 +175,24 @@
       "needs_review": false
     },
     {
+      "id": "tiktok-shop-ahr",
+      "name_zh": "TikTok Shop美国站账号健康分(AHR)",
+      "authority": "TikTok Shop",
+      "type": "platform",
+      "mandatory": false,
+      "cost": "未知",
+      "time": "未知",
+      "docs": [
+        "Seller Center账号健康分仪表盘",
+        "违规记录与节点考试"
+      ],
+      "who": "美国站卖家",
+      "note": "满分1000初始200；建议≥150。150/100/50/0节点卡大促、禁发品、冻提现；0分或封号。卖家大学Updated 2026-11-03。",
+      "official_url": "https://seller.tiktokshopglobalselling.com/university/essay?knowledge_id=4526040723982097",
+      "source_checked": "2026-11-07",
+      "needs_review": false
+    },
+    {
       "id": "us-hs",
       "name_zh": "HS 编码与关税",
       "authority": "CBP",
@@ -229,7 +247,7 @@
       "type": "tax-customs"
     }
   ],
-  "last_verified": "2026-11-03",
+  "last_verified": "2026-11-07",
   "hs_codes": {
     "status": "ready",
     "items": [
