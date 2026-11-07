@@ -61,10 +61,10 @@
       "time": "未知",
       "docs": [],
       "who": "向德国最终用户销售的境外企业",
-      "note": "没有德国机构、直接向最终用户销售包装产品的境外企业，须指定授权代表履行延伸责任。登记本身免费。",
-      "official_url": "https://www.verpackungsregister.org/registrierung/alle-informationen-zur-registrierung",
-      "source_checked": "2026-11-02",
-      "needs_review": true
+      "note": "境外直邮德国最终用户须在LUCID挂授权代表；旧注册户变更截止2026-11-12（VerpackDG §5/§6/§68）。",
+      "official_url": "https://www.gesetze-im-internet.de/verpackdg/__68.html",
+      "source_checked": "2026-11-07",
+      "needs_review": false
     }
   ],
   "steps": [
@@ -81,7 +81,7 @@
       "type": "packaging"
     }
   ],
-  "last_verified": "2026-11-02",
+  "last_verified": "2026-11-07",
   "hs_codes": {
     "status": "ready",
     "items": [
