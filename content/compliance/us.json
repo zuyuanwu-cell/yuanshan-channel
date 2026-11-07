@@ -175,6 +175,24 @@
       "needs_review": false
     },
     {
+      "id": "amazon-us-fees-2027",
+      "name_zh": "亚马逊美国站2027年FBA/仓储费用",
+      "authority": "Amazon",
+      "type": "platform",
+      "mandatory": false,
+      "cost": "FBA配送均+$0.19/件（按尺寸售价浮动）",
+      "time": "配送费2027-01-15；仓储2027-02-01",
+      "docs": [
+        "Fee Change Comparison / Revenue Calculator",
+        "在售ASIN尺寸售价档位核对"
+      ],
+      "who": "美国站FBA卖家",
+      "note": "官方2026-11-05：FBA配送费2027-01-15起均+$0.19；2-01仓储按库龄；燃油附加费不动。",
+      "official_url": "https://sellingpartners.aboutamazon.com/update-to-us-referral-and-fulfillment-by-amazon-fees-for-2027",
+      "source_checked": "2026-11-07",
+      "needs_review": false
+    },
+    {
       "id": "tiktok-shop-ahr",
       "name_zh": "TikTok Shop美国站账号健康分(AHR)",
       "authority": "TikTok Shop",
