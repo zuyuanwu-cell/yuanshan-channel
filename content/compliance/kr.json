@@ -74,6 +74,24 @@
       "official_url": "https://www.law.go.kr/LSW/lsRvsRsnListP.do?chrClsCd=010202&lsId=002015&lsRvsGubun=all",
       "source_checked": "2026-11-01",
       "needs_review": false
+    },
+    {
+      "id": "kr-label-ad-guideline",
+      "name_zh": "化妆品表示·广告管理指针",
+      "authority": "MFDS",
+      "type": "label",
+      "mandatory": true,
+      "cost": "未知",
+      "time": "未知",
+      "docs": [
+        "表示广告资料",
+        "功效实证资料"
+      ],
+      "who": "责任销售业者/卖家",
+      "note": "2026-11修订案征求意见中（截止11-09），未定稿。拟要求含量按成品计并写单位，防晒SPF/PA须有审查或试验资料。",
+      "official_url": "https://kcia.or.kr/home/law/law_04.php?type=view&no=17968",
+      "source_checked": "2026-11-08",
+      "needs_review": true
     }
   ],
   "steps": [
@@ -90,7 +108,7 @@
       "type": "tax-customs"
     }
   ],
-  "last_verified": "2026-11-01",
+  "last_verified": "2026-11-08",
   "hs_codes": {
     "status": "pending",
     "items": []
