@@ -80,6 +80,25 @@
       "needs_review": false
     },
     {
+      "id": "sa-recall-guide-draft",
+      "name_zh": "化妆品撤回/召回程序指南（征求意见）",
+      "authority": "SFDA",
+      "type": "safety",
+      "mandatory": false,
+      "cost": "免费（征求意见）",
+      "time": "征求意见至 2026-12-04；定稿前未生效",
+      "docs": [
+        "批次/数量溯源台账",
+        "召回计划与进度/最终报告",
+        "消费者换货或退款记录"
+      ],
+      "who": "列名人、制造商、进口商、经销商、销售网点",
+      "note": "11-05征求至12-04：境外一召回须立刻报SFDA；换货/退款免运费；费用和销毁由列名人承担。草案。",
+      "official_url": "https://istitlaa.ncc.gov.sa/ar/health/sfda/CPWRPG",
+      "source_checked": "2026-11-09",
+      "needs_review": true
+    },
+    {
       "id": "sa-hs",
       "name_zh": "HS 编码与关税",
       "authority": "ZATCA",
@@ -117,7 +136,7 @@
       "type": "tax-customs"
     }
   ],
-  "last_verified": "2026-10-26",
+  "last_verified": "2026-11-09",
   "hs_codes": {
     "status": "ready",
     "items": [
