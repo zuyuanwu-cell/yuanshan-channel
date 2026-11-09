@@ -4,7 +4,7 @@
   "flag": "🇨🇳",
   "region": "东亚",
   "difficulty": 3,
-  "summary": "特殊注册/普通备案；第99/105号与牙膏目录；新原料咨询；成品免环境登记；防晒剂新原料已批；口腔护理国标已发。",
+  "summary": "特殊注册/普通备案；第99/105号；纳米铂银甲苯熊果苷等5项标准征求意见至12-11。",
   "items": [
     {
       "id": "cn-split",
@@ -123,6 +123,24 @@
       "note": "第105号：修订5项微生物检验方法并新增洋葱伯克霍尔德菌群检验；新增胶原蛋白凝胶眼刺激试验（主要适用于单一化学原料）。减少防腐体系假阴性。中检院有配套问答。",
       "official_url": "https://www.nidc.org.cn/bshff/hzhpbzh/hzhpbzhtzgg/202610291031452263803.html",
       "source_checked": "2026-11-03",
+      "needs_review": true
+    },
+    {
+      "id": "cn-stsc-nano-arbutin-draft",
+      "name_zh": "安全技术规范原料修订（征求意见）",
+      "authority": "中检院",
+      "type": "testing",
+      "mandatory": false,
+      "cost": "免费（征求意见）",
+      "time": "征求意见至 2026-12-11；定稿前未生效",
+      "docs": [
+        "配方原料核对（铂纳米/胶态铂、银纳米/胶态银、甲苯、α-熊果苷、熊果苷、硅酸铝锌银铵）",
+        "美白类氢醌残留控制（草案≤3 mg/kg）"
+      ],
+      "who": "注册人、备案人、原料商、工厂、安评机构",
+      "note": "11-09征求至12-11：拟禁纳米铂/银/甲苯；限α-熊果苷/熊果苷与硅酸铝锌银铵。草案。",
+      "official_url": "https://www.nidc.org.cn/bshff/hzhpbzh/hzhpbzhtzgg/202611090851362278252.html",
+      "source_checked": "2026-11-09",
       "needs_review": true
     },
     {
@@ -252,7 +270,7 @@
       "type": "label"
     }
   ],
-  "last_verified": "2026-11-03",
+  "last_verified": "2026-11-09",
   "hs_codes": {
     "status": "ready",
     "items": [
