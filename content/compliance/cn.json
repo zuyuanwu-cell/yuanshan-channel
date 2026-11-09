@@ -4,7 +4,7 @@
   "flag": "🇨🇳",
   "region": "东亚",
   "difficulty": 3,
-  "summary": "特殊注册/普通备案；第99/105号；纳米铂银甲苯熊果苷等5项标准征求意见至12-11。",
+  "summary": "特殊注册/普通备案；第99/105号；特殊化妆品变更11-20起分类管理；纳米铂银甲苯熊果苷等5项标准征求意见至12-11。",
   "items": [
     {
       "id": "cn-split",
@@ -140,6 +140,25 @@
       "who": "注册人、备案人、原料商、工厂、安评机构",
       "note": "11-09征求至12-11：拟禁纳米铂/银/甲苯；限α-熊果苷/熊果苷与硅酸铝锌银铵。草案。",
       "official_url": "https://www.nidc.org.cn/bshff/hzhpbzh/hzhpbzhtzgg/202611090851362278252.html",
+      "source_checked": "2026-11-09",
+      "needs_review": true
+    },
+    {
+      "id": "cn-special-cosmetics-change-class",
+      "name_zh": "特殊化妆品变更分类管理",
+      "authority": "中检院",
+      "type": "registration",
+      "mandatory": true,
+      "cost": "视变更类型；微小变更自行维护",
+      "time": "2026-11-20 起受理的申请适用；重大60工作日、中等45工作日",
+      "docs": [
+        "按分类表选择重大/中等/微小变更",
+        "重大和中等按《化妆品注册备案资料管理规定》提交资料",
+        "微小变更证明材料存档备查"
+      ],
+      "who": "特殊化妆品注册人、境内责任人",
+      "note": "11-09通知（11-20起受理）：变更分重大/中等/微小；重大60、中等45工作日；微小变更自行维护（间隔≥30日）。",
+      "official_url": "https://www.nidc.org.cn/bshff/hzhpjssp/hzpsptzgg/202611091043412278418.html",
       "source_checked": "2026-11-09",
       "needs_review": true
     },
