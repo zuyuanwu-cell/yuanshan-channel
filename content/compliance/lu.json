@@ -18,7 +18,7 @@
       "who": "欧盟境内自然人或法人",
       "note": "没有欧盟境内责任人不能上市",
       "official_url": "https://single-market-economy.ec.europa.eu/sectors/cosmetics/legislation_en",
-      "source_checked": "2026-10-24",
+      "source_checked": "2026-11-09",
       "needs_review": false
     },
     {
@@ -33,7 +33,7 @@
       "who": "责任人",
       "note": "上市前须完成产品安全报告",
       "official_url": "https://single-market-economy.ec.europa.eu/sectors/cosmetics/legislation_en",
-      "source_checked": "2026-10-24",
+      "source_checked": "2026-11-09",
       "needs_review": false
     },
     {
@@ -48,7 +48,7 @@
       "who": "欧盟责任人",
       "note": "通报一次即可，欧盟内不必再做国家通报",
       "official_url": "https://single-market-economy.ec.europa.eu/sectors/cosmetics/cosmetic-product-notification-portal_en",
-      "source_checked": "2026-10-24",
+      "source_checked": "2026-11-09",
       "needs_review": false
     },
     {
@@ -63,7 +63,7 @@
       "who": "责任人",
       "note": "成分表里纳米物质后须标 nano",
       "official_url": "https://single-market-economy.ec.europa.eu/sectors/cosmetics/legislation_en",
-      "source_checked": "2026-10-24",
+      "source_checked": "2026-11-09",
       "needs_review": false
     },
     {
@@ -78,7 +78,7 @@
       "who": "成员国主管机关",
       "note": "CPNP 后不必再做国家通报。处室入口未逐页核对。",
       "official_url": "https://santesecu.public.lu/fr.html",
-      "source_checked": "2026-10-24",
+      "source_checked": "2026-11-09",
       "needs_review": true
     },
     {
@@ -93,7 +93,7 @@
       "who": "进口商",
       "note": "TARIC 可查。税率未抄录。",
       "official_url": "https://ec.europa.eu/taxation_customs/dds2/taric/taric_consultation.jsp",
-      "source_checked": "2026-10-24",
+      "source_checked": "2026-11-09",
       "needs_review": true
     }
   ],
@@ -115,7 +115,7 @@
       "type": "tax-customs"
     }
   ],
-  "last_verified": "2026-10-24",
+  "last_verified": "2026-11-09",
   "hs_codes": {
     "status": "ready",
     "items": [
