@@ -4,7 +4,7 @@
   "flag": "🇮🇩",
   "region": "东南亚",
   "difficulty": 3,
-  "summary": "须由印尼本地公司做 BPOM 备案，标签部分内容要印尼语；清真认证 2028 年起强制。",
+  "summary": "须由印尼本地公司做 BPOM 备案（2026-11-03起按第20/2026号，废止21/2022）；标签部分内容要印尼语；清真认证 2028 年起强制。",
   "items": [
     {
       "id": "id-importer",
@@ -13,37 +13,62 @@
       "type": "local-rep",
       "mandatory": true,
       "cost": "未知",
-      "time": "未知",
+      "time": "推荐函：新申请自设施检查起最长12个工作日；变更自缴费起最长5个工作日",
       "docs": [
         "NIB 营业号",
         "NPWP 税号",
-        "品牌授权书",
-        "CFS/GMP 证明"
+        "通报申请人推荐函（当地BPOM技术执行单位设施检查）",
+        "代理指定书（须含通报、进口和经销权）",
+        "CFS/自由销售证明（东盟以外来源；境外合同生产除外）",
+        "GMP 证明",
+        "懂产品信息档案（DIP）的技术负责人"
       ],
       "who": "印尼本地公司",
-      "note": "",
-      "official_url": "https://notifkos.pom.go.id/frontend/informasi",
-      "source_checked": "2026-10-23",
-      "needs_review": false
+      "note": "进口成品须进口商申请；一般先取得通报申请人推荐函（已有工业许可除外）。20/2026自11-03施行。",
+      "official_url": "https://jdih.pom.go.id/view/slide/1796/20/2026/c92a10324374fac681719d63979d00fe",
+      "source_checked": "2026-11-11",
+      "needs_review": true
     },
     {
       "id": "id-notif",
       "name_zh": "BPOM 化妆品备案 Notifikasi",
-      "authority": "BPOM",
+      "authority": "BPOM（第20/2026号）",
       "type": "registration",
       "mandatory": true,
       "cost": "未知",
-      "time": "未知",
+      "time": "一般最长14个工作日；香水、专供出口、套装最长3个工作日（自产品ID号发出起算）",
       "docs": [
-        "配方",
-        "标签设计",
-        "授权书"
+        "产品信息档案 DIP（申请前备妥）",
+        "通报模板及行政文件",
+        "配方、标签设计",
+        "授权书/合同或代理指定书（按路径）"
       ],
       "who": "本地备案人",
-      "note": "上架电商平台须填备案号",
-      "official_url": "https://notifkos.pom.go.id/frontend/informasi",
-      "source_checked": "2026-10-23",
-      "needs_review": false
+      "note": "11-03起按20/2026（废止21/2022）。已发号一般用至到期；境外合同须2027-11-03前改到位。6个月不生产/进口可撤。",
+      "official_url": "https://jdih.pom.go.id/view/slide/1796/20/2026/c92a10324374fac681719d63979d00fe",
+      "source_checked": "2026-11-11",
+      "needs_review": true
+    },
+    {
+      "id": "id-notif-overseas-contract",
+      "name_zh": "境外合同生产通报过渡",
+      "authority": "BPOM（第20/2026号 Pasal 16、18、58）",
+      "type": "registration",
+      "mandatory": true,
+      "cost": "未知",
+      "time": "最迟 2027-11-03 改到位（自2026-11-03公布起12个月）",
+      "docs": [
+        "与境外工厂的合同（须仍有效）",
+        "无法在印尼生产的说明",
+        "境内工厂 CPKB 或与持证工厂的关联/合作文件",
+        "境外工厂 GMP 证书",
+        "逐步技术转让安排"
+      ],
+      "who": "走境外合同生产路径的品牌、印尼境内工厂或关联公司",
+      "note": "仅境内工厂或关联公司可申请，须逐步转让技术。已按21/2022取得的此类通报，须2027-11-03前改到位。",
+      "official_url": "https://jdih.pom.go.id/view/slide/1796/20/2026/c92a10324374fac681719d63979d00fe",
+      "source_checked": "2026-11-11",
+      "needs_review": true
     },
     {
       "id": "id-label",
@@ -199,7 +224,7 @@
       "type": "tax-customs"
     }
   ],
-  "last_verified": "2026-11-06",
+  "last_verified": "2026-11-11",
   "hs_codes": {
     "status": "ready",
     "items": [
