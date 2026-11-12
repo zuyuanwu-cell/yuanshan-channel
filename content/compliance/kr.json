@@ -88,10 +88,45 @@
         "功效实证资料"
       ],
       "who": "责任销售业者/卖家",
-      "note": "2026-11修订案征求意见中（截止11-09），未定稿。拟要求含量按成品计并写单位，防晒SPF/PA须有审查或试验资料。",
+      "note": "修订案征求已于2026-11-09截止，仍未见定稿。与已公布的第2026-75/76号高示不是同一文件。",
       "official_url": "https://kcia.or.kr/home/law/law_04.php?type=view&no=17968",
-      "source_checked": "2026-11-08",
+      "source_checked": "2026-11-12",
       "needs_review": true
+    },
+    {
+      "id": "kr-func-review-spf-iso",
+      "name_zh": "功能性化妆品防晒审查",
+      "authority": "MFDS",
+      "type": "testing",
+      "mandatory": true,
+      "cost": "未知",
+      "time": "2027-11-10起",
+      "docs": [
+        "SPF/PA试验资料",
+        "功能性化妆品审查申请"
+      ],
+      "who": "责任销售业者/进口商",
+      "note": "第2026-75号：SPF/PA可增列ISO人体外试验；资料免除范围收紧。2027-11-10施行。",
+      "official_url": "https://www.mfds.go.kr/law/board/boardDetail.do?brdId=data0008&menuKey=28&seq=15204",
+      "source_checked": "2026-11-12",
+      "needs_review": false
+    },
+    {
+      "id": "kr-ad-substantiation-spf",
+      "name_zh": "防晒SPF/PA广告实证",
+      "authority": "MFDS",
+      "type": "label",
+      "mandatory": true,
+      "cost": "未知",
+      "time": "2027-11-10起",
+      "docs": [
+        "SPF/PA实证资料"
+      ],
+      "who": "营业者/卖家",
+      "note": "第2026-76号：标SPF/PA须用功能性化妆品相应功能实证资料。2027-11-10施行。",
+      "official_url": "https://www.mfds.go.kr/law/board/boardDetail.do?brdId=data0008&menuKey=28&seq=15205",
+      "source_checked": "2026-11-12",
+      "needs_review": false
     }
   ],
   "steps": [
@@ -108,7 +143,7 @@
       "type": "tax-customs"
     }
   ],
-  "last_verified": "2026-11-08",
+  "last_verified": "2026-11-12",
   "hs_codes": {
     "status": "pending",
     "items": []
