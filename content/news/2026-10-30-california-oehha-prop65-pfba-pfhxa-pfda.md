@@ -1,0 +1,99 @@
+---
+title: "加州拟把三种PFAS列入65号法案：化妆品里检出过的PFDA也在列，意见收到11月30日"
+date: "2026-10-30"
+category: "regulation"
+platforms:
+  - "amazon-us"
+  - "temu"
+  - "tiktok-shop"
+  - "walmart"
+countries:
+  - "us"
+tags:
+  - "compliance"
+  - "labeling"
+source_url: "https://oehha.ca.gov/sites/default/files/media/2026-10/PFDANOIL103026.pdf"
+source_name: "加州环境健康危害评估办公室（OEHHA）"
+checked: "2026-11-12"
+key_date:
+  date: "2026-11-30"
+  label: "意见截止"
+highlight: true
+summary: "加州OEHHA 10月30日发布拟列入通知：拟将PFBA、PFHxA、PFDA及其相关盐作为生殖毒物列入65号法案；PFDA通知写明曾在化妆品中检出。意见收到11月30日。这还不是正式列入，也不等于检出就要贴警示。"
+needs_review: false
+sample: false
+---
+
+卖货会进 **美国加州** 的美妆品牌、工厂和跨境卖家注意：加州环境健康危害评估办公室（[OEHHA](https://oehha.ca.gov/sites/default/files/media/2026-10/PFDANOIL103026.pdf)）在 **2026年10月30日** 连发三份「拟列入通知」（Notice of Intent to List），打算把三种常见的短链/长链 PFAS 及其相关盐，作为「已知会对生殖造成危害」的物质，列入加州 **65号法案**（Proposition 65）清单。我们于 **2026年11月12日** 下载并核对了这三份官方 PDF。
+
+先把界限划清：**这还只是征求意见，不是已经列入。** 现在没有新的强制贴标义务。意见收到 **2026年11月30日（周一）**。
+
+站内相关：[Temu 美国站美妆 PFAS 申报 / 加州65警示](/news/2026-10-29-temu-us-cosmetics-pfas-prop65/)、[加州防晒不得再打 reef safe](/news/2026-10-31-california-ab1744-sunscreen-reef-safe-claims/)。
+
+## 改了什么
+
+OEHHA 用的是 65 号法案里的「权威机构机制」：依据美国环保署（US EPA）已发布的毒性评估，认为这三种物质符合列入生殖毒物的标准。三份通知对应的物质、CAS 号和拟认定的终点如下（相关盐的范围以各份通知原文为准）：
+
+1. **PFDA（全氟癸酸，CASRN 335-76-2）及相应盐**  
+   拟认定终点：发育毒性，以及男性和女性生殖毒性。  
+   官方通知写明：PFDA **曾在包括化妆品在内的消费品中被检出**（并引用 Whitehead 等 2021 年北美化妆品含氟化合物研究），也出现在户外纺织、地毯、滑雪蜡和皮革等产品中。
+
+2. **PFHxA（全氟己酸，CASRN 307-24-4）及相应盐**  
+   拟认定终点：发育毒性。  
+   通知写明：PFHxA 是含氟调聚物类化学品（包括 6:2 氟调醇）的代谢物和降解产物。
+
+3. **PFBA（全氟丁酸，CASRN 375-22-4）及相应盐**  
+   拟认定终点：发育毒性，以及男性和女性生殖毒性。  
+   通知写明：PFBA 及相应盐曾用于消费品，且 PFBA 也是其他 PFAS 的降解产物。
+
+书面意见须在 **2026年11月30日** 前通过 [OEHHA 评论入口](https://oehha.ca.gov/comments)、邮寄或当面提交。三份通知的截止日相同。
+
+## 影响谁
+
+- **产品可能进入加州的化妆品、个护、香水卖家**：尤其是配方或原料里可能带有防油、防水、成膜、含氟杂质的货。PFDA 这份通知点名了化妆品，值得优先对一下供应链。
+- **已经在 Temu 等平台填过「是否含 PFAS」、或维护过加州65页面警示的店铺**：这是监管清单本身可能扩围，和平台申报是两条线，不要混成一件事。
+- **现在还不必立刻改包装的卖家**：通知不是正式列入，也没有给出「即日起必须贴标」的日期。
+
+## 意味着什么 / 现在注意什么
+
+65 号法案的警示，看的是 **消费者会不会以超过安全港的水平接触到列名物质**，不是实验室「检出一点」就自动要贴标。即便这三种物质日后被正式列入，也要结合含量、用途和暴露来判断，不要现在就给所有美妆链接统一挂上 65 警示。
+
+眼下比较务实的做法：
+
+- 向原料商要一份声明或检测，确认配方和工艺里是否可能带有 **PFBA、PFHxA、PFDA 或其相关盐**（包括不是故意添加、但可能作为杂质或降解产物出现的情况）
+- 想提意见的，赶上 **11月30日** 截止；正式列入结果以 OEHHA 后续公告为准
+- 平台后台已有的 PFAS / 加州65字段，仍按现有要求填，不要等这次征求意见结束再补
+
+## 证据（核对日期 2026-11-12）
+
+OEHHA 官方 PDF《拟将 PFDA 及其相关盐列入 65 号法案的通知》首页：发布日 **2026年10月30日**，并写明 PFDA 曾在包括化妆品在内的消费品中被检出：
+
+![OEHHA 拟将 PFDA 及其相关盐列入加州65号法案通知封面](/media/evidence/2026-10-30-california-oehha-prop65-pfba-pfhxa-pfda/00-oehha-pfda-noil-p1.png)
+
+<small>来源：加州 OEHHA 官方 PDF「Notice of Intent to List … PFDA and related salts」（2026-10-30）第1页，核对日期 2026-11-12。</small>
+
+同一份官方 PDF 第4页：书面意见须在 **Monday, November 30, 2026** 前提交，并推荐通过官网评论入口提交：
+
+![OEHHA PFDA 拟列入通知：意见截止2026年11月30日](/media/evidence/2026-10-30-california-oehha-prop65-pfba-pfhxa-pfda/01-oehha-pfda-comment-deadline.png)
+
+<small>来源：同上官方 PDF 第4页「Submission of Comments」，核对日期 2026-11-12。</small>
+
+PFHxA、PFBA 两份官方拟列入通知封面（发布日同为 2026年10月30日）：
+
+![OEHHA 拟将 PFHxA 及其相关盐列入加州65号法案通知封面](/media/evidence/2026-10-30-california-oehha-prop65-pfba-pfhxa-pfda/02-oehha-pfhxa-noil-p1.png)
+
+<small>来源：加州 OEHHA 官方 PDF「Notice of Intent to List … PFHxA and related salts」（2026-10-30）第1页，核对日期 2026-11-12。</small>
+
+![OEHHA 拟将 PFBA 及其相关盐列入加州65号法案通知封面](/media/evidence/2026-10-30-california-oehha-prop65-pfba-pfhxa-pfda/03-oehha-pfba-noil-p1.png)
+
+<small>来源：加州 OEHHA 官方 PDF「Notice of Intent to List … PFBA and related salts」（2026-10-30）第1页，核对日期 2026-11-12。</small>
+
+本轮未能打开 OEHHA 网站 HTML 公告页（站点对非浏览器请求返回 Incapsula 拦截页），以上证据均来自已成功下载的官方 PDF 原文。
+
+## 来源
+
+- 加州 OEHHA · [拟将 PFDA 及其相关盐列入 65 号法案的通知（官方 PDF，2026-10-30）](https://oehha.ca.gov/sites/default/files/media/2026-10/PFDANOIL103026.pdf)
+- 加州 OEHHA · [拟将 PFHxA 及其相关盐列入 65 号法案的通知（官方 PDF，2026-10-30）](https://oehha.ca.gov/sites/default/files/media/2026-10/PFHxANOIL103026.pdf)
+- 加州 OEHHA · [拟将 PFBA 及其相关盐列入 65 号法案的通知（官方 PDF，2026-10-30）](https://oehha.ca.gov/sites/default/files/media/2026-10/PFBANOIL103026.pdf)
+- 书面意见入口（通知原文推荐）：[https://oehha.ca.gov/comments](https://oehha.ca.gov/comments)
+- 站内对照：[Temu 美国站美妆 PFAS / 加州65](/news/2026-10-29-temu-us-cosmetics-pfas-prop65/)、[加州防晒 AB 1744](/news/2026-10-31-california-ab1744-sunscreen-reef-safe-claims/)、[美国合规](/compliance/us/)

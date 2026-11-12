@@ -4,7 +4,7 @@
   "flag": "🇺🇸",
   "region": "北美",
   "difficulty": 2,
-  "summary": "不用事先审批，但要注册设施、列名产品、标签合规；加州防晒含化学滤光剂禁 reef safe 类宣称（2027-01-01）。",
+  "summary": "不用事先审批，但要注册设施、列名产品、标签合规；加州防晒禁 reef safe（2027-01-01）；拟将三种PFAS列入65号法案（意见至11-30）。",
   "items": [
     {
       "id": "mocra-facility",
@@ -136,6 +136,23 @@
       "official_url": "https://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260AB1744",
       "source_checked": "2026-10-31",
       "needs_review": false
+    },
+    {
+      "id": "ca-prop65-pfba-pfhxa-pfda-noil",
+      "name_zh": "加州65号法案拟增列PFBA/PFHxA/PFDA",
+      "authority": "加州 OEHHA",
+      "type": "label",
+      "mandatory": false,
+      "cost": "未知",
+      "time": "意见至 2026-11-30；尚未正式列入",
+      "docs": [
+        "配方及供应链是否可能含 PFBA、PFHxA、PFDA 或其相关盐"
+      ],
+      "who": "产品可能进入加州的化妆品品牌、工厂与跨境卖家",
+      "note": "2026-10-30拟列入，尚未进清单；PFDA通知写明曾在化妆品检出。意见截止11-30。列入不等于检出就要贴标。",
+      "official_url": "https://oehha.ca.gov/sites/default/files/media/2026-10/PFDANOIL103026.pdf",
+      "source_checked": "2026-11-12",
+      "needs_review": true
     },
     {
       "id": "pa-animal-testing-ban",
@@ -283,7 +300,7 @@
       "type": "tax-customs"
     }
   ],
-  "last_verified": "2026-11-07",
+  "last_verified": "2026-11-12",
   "hs_codes": {
     "status": "ready",
     "items": [
