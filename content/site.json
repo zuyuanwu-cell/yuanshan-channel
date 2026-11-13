@@ -336,98 +336,98 @@
   "rankingGaps": [
     {
       "platform": "temu",
-      "tried": "2026-11-09",
-      "reason": "公开页仅返回空壳；本机 CDP offline 未跑；Apify 本月 11-02 已触 hard limit，本轮未调用。",
+      "tried": "2026-11-13",
+      "reason": "公开页仅返回约3KB脚本空壳，无商品列表；本机两台电脑 CDP offline 未跑；Apify 自11-02月度硬限记录仍在，本轮未调用。",
       "source_url": "https://www.temu.com/"
     },
     {
       "platform": "mercado-livre",
-      "tried": "2026-11-09",
-      "reason": "公开榜页跳转账号验证墙；本机 CDP offline 未跑；Apify 本月 11-02 已触 hard limit，本轮未调用。",
+      "tried": "2026-11-13",
+      "reason": "公开榜页仍跳转账号验证墙（account-verification / suspicious-traffic）；本机两台电脑 CDP offline 未跑；Apify 自11-02月度硬限记录仍在，本轮未调用。",
       "source_url": "https://www.mercadolivre.com.br/mais-vendidos/MLB1246"
     },
     {
       "platform": "tiktok-shop-sea",
-      "tried": "2026-11-09",
-      "reason": "本机两台电脑 offline，B/C 层 CDP 跳过；Apify 本月 11-02 已触 hard limit，本轮未调用。",
+      "tried": "2026-11-13",
+      "reason": "本机两台电脑（PC-20241115WXXG、PC-20260813CAMP）offline，B/C 层 CDP 跳过；Apify 自11-02月度硬限记录仍在，本轮未调用。",
       "source_url": "https://shop.tiktok.com/my"
     },
     {
       "platform": "tiktok-shop-us",
-      "tried": "2026-11-09",
-      "reason": "本机两台电脑 offline，B/C 层 CDP 跳过；Apify 本月 11-02 已触 hard limit，本轮未调用。",
+      "tried": "2026-11-13",
+      "reason": "本机两台电脑（PC-20241115WXXG、PC-20260813CAMP）offline，B/C 层 CDP 跳过；Apify 自11-02月度硬限记录仍在，本轮未调用。",
       "source_url": "https://www.tiktok.com/shop/us"
     },
     {
       "platform": "ebay",
-      "tried": "2026-11-09",
-      "reason": "本机两台电脑 offline，B/C 层 CDP 跳过；Apify 本月 11-02 已触 hard limit，本轮未调用。",
+      "tried": "2026-11-13",
+      "reason": "本机两台电脑（PC-20241115WXXG、PC-20260813CAMP）offline，B/C 层 CDP 跳过；Apify 自11-02月度硬限记录仍在，本轮未调用。",
       "source_url": "https://www.ebay.com/b/Beauty/26395/bn_7000259855"
     },
     {
       "platform": "noon",
-      "tried": "2026-11-09",
-      "reason": "本机两台电脑 offline，B/C 层 CDP 跳过；Apify 本月 11-02 已触 hard limit，本轮未调用。",
+      "tried": "2026-11-13",
+      "reason": "本机两台电脑（PC-20241115WXXG、PC-20260813CAMP）offline，B/C 层 CDP 跳过；Apify 自11-02月度硬限记录仍在，本轮未调用。",
       "source_url": "https://www.noon.com/uae-en/beauty-and-health/beauty/"
     },
     {
       "platform": "coupang",
-      "tried": "2026-11-09",
-      "reason": "本机两台电脑 offline，B/C 层 CDP 跳过；Apify 本月 11-02 已触 hard limit，本轮未调用。",
+      "tried": "2026-11-13",
+      "reason": "本机两台电脑（PC-20241115WXXG、PC-20260813CAMP）offline，B/C 层 CDP 跳过；Apify 自11-02月度硬限记录仍在，本轮未调用。",
       "source_url": "https://www.coupang.com/np/categories/176422"
     },
     {
       "platform": "shopee-sg",
-      "tried": "2026-11-09",
-      "reason": "本机两台电脑 offline，B/C 层 CDP 跳过；Apify 本月 11-02 已触 hard limit，本轮未调用。",
+      "tried": "2026-11-13",
+      "reason": "本机两台电脑（PC-20241115WXXG、PC-20260813CAMP）offline，B/C 层 CDP 跳过；Apify 自11-02月度硬限记录仍在，本轮未调用。",
       "source_url": "https://shopee.sg/"
     },
     {
       "platform": "shopee-id",
-      "tried": "2026-11-09",
-      "reason": "本机两台电脑 offline，B/C 层 CDP 跳过；Apify 本月 11-02 已触 hard limit，本轮未调用。",
+      "tried": "2026-11-13",
+      "reason": "本机两台电脑（PC-20241115WXXG、PC-20260813CAMP）offline，B/C 层 CDP 跳过；Apify 自11-02月度硬限记录仍在，本轮未调用。",
       "source_url": "https://shopee.co.id/"
     },
     {
       "platform": "shopee-my",
-      "tried": "2026-11-09",
-      "reason": "本机两台电脑 offline，B/C 层 CDP 跳过；Apify 本月 11-02 已触 hard limit，本轮未调用。",
+      "tried": "2026-11-13",
+      "reason": "本机两台电脑（PC-20241115WXXG、PC-20260813CAMP）offline，B/C 层 CDP 跳过；Apify 自11-02月度硬限记录仍在，本轮未调用。",
       "source_url": "https://shopee.com.my/"
     },
     {
       "platform": "shopee-th",
-      "tried": "2026-11-09",
-      "reason": "本机两台电脑 offline，B/C 层 CDP 跳过；Apify 本月 11-02 已触 hard limit，本轮未调用。",
+      "tried": "2026-11-13",
+      "reason": "本机两台电脑（PC-20241115WXXG、PC-20260813CAMP）offline，B/C 层 CDP 跳过；Apify 自11-02月度硬限记录仍在，本轮未调用。",
       "source_url": "https://shopee.co.th/"
     },
     {
       "platform": "shopee-vn",
-      "tried": "2026-11-09",
-      "reason": "本机两台电脑 offline，B/C 层 CDP 跳过；Apify 本月 11-02 已触 hard limit，本轮未调用。",
+      "tried": "2026-11-13",
+      "reason": "本机两台电脑（PC-20241115WXXG、PC-20260813CAMP）offline，B/C 层 CDP 跳过；Apify 自11-02月度硬限记录仍在，本轮未调用。",
       "source_url": "https://shopee.vn/"
     },
     {
       "platform": "lazada-id",
-      "tried": "2026-11-09",
-      "reason": "本机两台电脑 offline，B/C 层 CDP 跳过；Apify 本月 11-02 已触 hard limit，本轮未调用。",
+      "tried": "2026-11-13",
+      "reason": "本机两台电脑（PC-20241115WXXG、PC-20260813CAMP）offline，B/C 层 CDP 跳过；Apify 自11-02月度硬限记录仍在，本轮未调用。",
       "source_url": "https://www.lazada.co.id/"
     },
     {
       "platform": "lazada-th",
-      "tried": "2026-11-09",
-      "reason": "本机两台电脑 offline，B/C 层 CDP 跳过；Apify 本月 11-02 已触 hard limit，本轮未调用。",
+      "tried": "2026-11-13",
+      "reason": "本机两台电脑（PC-20241115WXXG、PC-20260813CAMP）offline，B/C 层 CDP 跳过；Apify 自11-02月度硬限记录仍在，本轮未调用。",
       "source_url": "https://www.lazada.co.th/"
     },
     {
       "platform": "ozon",
-      "tried": "2026-11-09",
-      "reason": "本机两台电脑 offline，B/C 层 CDP 跳过；Apify 本月 11-02 已触 hard limit，本轮未调用。",
+      "tried": "2026-11-13",
+      "reason": "本机两台电脑（PC-20241115WXXG、PC-20260813CAMP）offline，B/C 层 CDP 跳过；Apify 自11-02月度硬限记录仍在，本轮未调用。",
       "source_url": "https://www.ozon.ru/category/krasota-i-zdorove-6500/"
     },
     {
       "platform": "wildberries",
-      "tried": "2026-11-09",
-      "reason": "本机两台电脑 offline，B/C 层 CDP 跳过；Apify 本月 11-02 已触 hard limit，本轮未调用。",
+      "tried": "2026-11-13",
+      "reason": "本机两台电脑（PC-20241115WXXG、PC-20260813CAMP）offline，B/C 层 CDP 跳过；Apify 自11-02月度硬限记录仍在，本轮未调用。",
       "source_url": "https://www.wildberries.ru/catalog/krasota/makiyazh/litso"
     }
   ],

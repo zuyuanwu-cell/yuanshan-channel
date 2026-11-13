@@ -4,7 +4,7 @@
   "flag": "🇯🇵",
   "region": "东亚",
   "difficulty": 3,
-  "summary": "须日本持许可公司进口并逐品备案；医薬部外品另批。外原規2021已10-01适用，新改正案征求意见中。",
+  "summary": "须日本持许可公司进口并逐品备案；医薬部外品另批。外原規2021已10-01适用；选任商地址表示改正案征求意见中。",
   "items": [
     {
       "id": "jp-license",
@@ -71,9 +71,9 @@
         "批号"
       ],
       "who": "制造销售业者",
-      "note": "",
+      "note": "选任制造销售业者容器「住所」拟可改印责任人办公地，意见至11-26，未定稿。",
       "official_url": "https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/kenkou_iryou/iyakuhin/keshouhin/index.html",
-      "source_checked": "2026-10-26",
+      "source_checked": "2026-11-13",
       "needs_review": true
     },
     {
