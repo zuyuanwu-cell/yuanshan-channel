@@ -335,93 +335,99 @@
   },
   "rankingGaps": [
     {
+      "platform": "aliexpress",
+      "tried": "2026-11-14",
+      "reason": "箱侧公开页与本机 CDP（PC-20241115WXXG）均跳转登录墙（ug-login-page），未拿到商品列表；Apify 自11-02月度硬限仍在，本轮未调用。",
+      "source_url": "https://www.aliexpress.com/w/wholesale-beauty.html?SortType=total_tranpro_desc&SearchText=skincare"
+    },
+    {
       "platform": "temu",
       "tried": "2026-11-14",
-      "reason": "公开页仍仅返回约3KB脚本空壳；本机 CDP（PC-20241115WXXG）跳转登录页，未拿到商品列表；另一台电脑 offline；Apify 自11-02月度硬限记录仍在，本轮未调用。",
+      "reason": "公开页仍是脚本空壳；本机 CDP 跳转登录页，未拿到商品列表；Apify 自11-02月度硬限仍在，本轮未调用。",
       "source_url": "https://www.temu.com/"
     },
     {
       "platform": "mercado-livre",
       "tried": "2026-11-14",
-      "reason": "公开页与本机 CDP（PC-20241115WXXG）均跳转账号验证墙（account-verification / suspicious-traffic）；另一台电脑 offline；Apify 自11-02月度硬限记录仍在，本轮未调用。",
+      "reason": "公开页与本机 CDP 均跳转账号验证墙（account-verification）；Apify 自11-02月度硬限仍在，本轮未调用。",
       "source_url": "https://www.mercadolivre.com.br/mais-vendidos/MLB1246"
     },
     {
       "platform": "tiktok-shop-sea",
-      "tried": "2026-11-13",
-      "reason": "本机两台电脑（PC-20241115WXXG、PC-20260813CAMP）offline，B/C 层 CDP 跳过；Apify 自11-02月度硬限记录仍在，本轮未调用。",
+      "tried": "2026-11-14",
+      "reason": "本机 CDP 搜索页 404，主站落到 Security Check，未取到商品列表；Apify 自11-02月度硬限仍在，本轮未调用。",
       "source_url": "https://shop.tiktok.com/my"
     },
     {
       "platform": "tiktok-shop-us",
       "tried": "2026-11-14",
-      "reason": "本机 CDP（PC-20241115WXXG）打开美妆入口后落到 404，未取到商品列表；另一台电脑 offline；Apify 自11-02月度硬限记录仍在，本轮未调用。",
+      "reason": "本机 CDP 搜索页无商品卡，shop.tiktok.com/us 落到 Security Check；Apify 自11-02月度硬限仍在，本轮未调用。",
       "source_url": "https://www.tiktok.com/shop/us"
     },
     {
       "platform": "ebay",
       "tried": "2026-11-14",
-      "reason": "本机 CDP（PC-20241115WXXG）打开 Beauty 入口后被转到 Collectibles & Art，未拿到美妆商品列表；另一台电脑 offline；Apify 自11-02月度硬限记录仍在，本轮未调用。",
+      "reason": "Beauty 入口被转到 Video Games；Makeup 页无商品卡；skincare 搜索结果含导航占位和重复图，非热销口径，未入库。",
       "source_url": "https://www.ebay.com/b/Beauty/26395/bn_7000259855"
     },
     {
       "platform": "noon",
       "tried": "2026-11-14",
-      "reason": "本机 CDP（PC-20241115WXXG）打开了美妆人气页，但只能抽到导航/类目链接、没有商品卡；另一台电脑 offline；Apify 自11-02月度硬限记录仍在，本轮未调用。",
-      "source_url": "https://www.noon.com/uae-en/beauty-and-health/beauty/"
+      "reason": "本机 CDP 打开了美妆热销页（被切到阿语 uae-ar），未抽到商品卡；Apify 自11-02月度硬限仍在，本轮未调用。",
+      "source_url": "https://www.noon.com/uae-en/beauty-and-health/best-sellers/"
     },
     {
       "platform": "coupang",
       "tried": "2026-11-14",
-      "reason": "本机 CDP（PC-20241115WXXG）访问分类页连接被关闭（ERR_CONNECTION_CLOSED）；另一台电脑 offline；Apify 自11-02月度硬限记录仍在，本轮未调用。",
-      "source_url": "https://www.coupang.com/np/categories/176422"
+      "reason": "本机 CDP 访问分类页连接被关闭（ERR_CONNECTION_CLOSED）；Apify 自11-02月度硬限仍在，本轮未调用。",
+      "source_url": "https://www.coupang.com/np/categories/176551"
     },
     {
       "platform": "shopee-sg",
       "tried": "2026-11-14",
-      "reason": "本机 CDP（PC-20241115WXXG）跳转 verify/captcha，未等人过验证；另一台电脑 offline；Apify 自11-02月度硬限记录仍在，本轮未调用。",
+      "reason": "本机 CDP 跳转 verify/captcha，未等人过验证；Apify 自11-02月度硬限仍在，本轮未调用。",
       "source_url": "https://shopee.sg/"
     },
     {
       "platform": "shopee-id",
       "tried": "2026-11-14",
-      "reason": "本机 CDP（PC-20241115WXXG）跳转 verify/traffic/error，未等人过验证；另一台电脑 offline；Apify 自11-02月度硬限记录仍在，本轮未调用。",
+      "reason": "本机 CDP 跳转 verify/traffic/error，未等人过验证；Apify 自11-02月度硬限仍在，本轮未调用。",
       "source_url": "https://shopee.co.id/"
     },
     {
       "platform": "shopee-my",
       "tried": "2026-11-14",
-      "reason": "本机 CDP（PC-20241115WXXG）跳转 verify/traffic/error，未等人过验证；另一台电脑 offline；Apify 自11-02月度硬限记录仍在，本轮未调用。",
+      "reason": "本机 CDP 跳转 verify/traffic/error，未等人过验证；Apify 自11-02月度硬限仍在，本轮未调用。",
       "source_url": "https://shopee.com.my/"
     },
     {
       "platform": "shopee-th",
       "tried": "2026-11-14",
-      "reason": "本机 CDP（PC-20241115WXXG）跳转 verify/captcha 或 traffic/error，未等人过验证；另一台电脑 offline；Apify 自11-02月度硬限记录仍在，本轮未调用。",
+      "reason": "本机 CDP 跳转 verify/captcha，未等人过验证；Apify 自11-02月度硬限仍在，本轮未调用。",
       "source_url": "https://shopee.co.th/"
     },
     {
       "platform": "shopee-vn",
       "tried": "2026-11-14",
-      "reason": "本机 CDP（PC-20241115WXXG）跳转 verify/traffic/error，未等人过验证；另一台电脑 offline；Apify 自11-02月度硬限记录仍在，本轮未调用。",
+      "reason": "本机 CDP 跳转 verify/traffic/error，未等人过验证；Apify 自11-02月度硬限仍在，本轮未调用。",
       "source_url": "https://shopee.vn/"
     },
     {
       "platform": "lazada-id",
       "tried": "2026-11-14",
-      "reason": "本机 CDP（PC-20241115WXXG）搜索页落到惩罚页（tmd/punish），类目页未抽到商品；另一台电脑 offline；Apify 自11-02月度硬限记录仍在，本轮未调用。",
+      "reason": "本机 CDP 搜索页落到惩罚页（tmd/punish），类目页未抽到商品；Apify 自11-02月度硬限仍在，本轮未调用。",
       "source_url": "https://www.lazada.co.id/"
     },
     {
       "platform": "lazada-th",
       "tried": "2026-11-14",
-      "reason": "本机 CDP（PC-20241115WXXG）搜索页落到惩罚页（tmd/punish），类目页未抽到商品；另一台电脑 offline；Apify 自11-02月度硬限记录仍在，本轮未调用。",
+      "reason": "本机 CDP 搜索页落到惩罚页（tmd/punish），类目页未抽到商品；Apify 自11-02月度硬限仍在，本轮未调用。",
       "source_url": "https://www.lazada.co.th/"
     },
     {
       "platform": "ozon",
       "tried": "2026-11-14",
-      "reason": "本机 CDP（PC-20241115WXXG）打开类目页但未抽到商品列表；另一台电脑 offline；Apify 自11-02月度硬限记录仍在，本轮未调用。",
+      "reason": "本机 CDP 访问类目页超时（ERR_TIMED_OUT），未抽到商品列表；Apify 自11-02月度硬限仍在，本轮未调用。",
       "source_url": "https://www.ozon.ru/category/krasota-i-zdorove-6500/"
     }
   ],
