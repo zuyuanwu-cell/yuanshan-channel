@@ -1,0 +1,68 @@
+{
+  "api": "yuanshan-channel/v1",
+  "access": "public-read",
+  "auth": null,
+  "generated": "2026-10-26",
+  "disclaimer": "每条资讯都附来源链接。标了「待核实」的条目来自媒体或第三方转述，引用前打开原文。费用、排名和法规以官方页面为准。",
+  "kind": "compliance",
+  "id": "tj",
+  "name_zh": "塔吉克斯坦",
+  "region": "中亚",
+  "region_slug": "central-asia",
+  "page": "/compliance/tj/",
+  "market": {
+    "country": "tj",
+    "name_zh": "塔吉克斯坦",
+    "flag": "🇹🇯",
+    "region": "中亚",
+    "difficulty": 2,
+    "summary": "不是欧亚经济联盟成员。卫生部首页未给出化妆品上市前注册或通报。",
+    "items": [
+      {
+        "id": "tj-not-eaeu",
+        "name_zh": "不能套用联盟化妆品法规",
+        "authority": "欧亚经济联盟",
+        "type": "platform",
+        "mandatory": false,
+        "cost": "未知",
+        "time": "未知",
+        "docs": [],
+        "who": "出口商",
+        "note": "现行成员名单没有塔吉克斯坦，不能直接套用ТР ТС 009。",
+        "official_url": "https://www.eaeunion.org/?about-info=&lang=en",
+        "source_checked": "2026-10-24",
+        "needs_review": false
+      },
+      {
+        "id": "tj-gap",
+        "name_zh": "未核到上市前程序",
+        "authority": "卫生与社会保障部",
+        "type": "registration",
+        "mandatory": false,
+        "cost": "未知",
+        "time": "未知",
+        "docs": [],
+        "who": "进口商",
+        "note": "卫生部首页可打开，没有化妆品通知或注册入口。不编造备案路径。",
+        "official_url": "https://moh.tj/",
+        "source_checked": "2026-10-24",
+        "needs_review": true
+      }
+    ],
+    "steps": [
+      {
+        "title": "排除联盟路径",
+        "type": "platform"
+      },
+      {
+        "title": "核对卫生部",
+        "type": "registration"
+      }
+    ],
+    "last_verified": "2026-10-24",
+    "hs_codes": {
+      "status": "pending",
+      "items": []
+    }
+  }
+}

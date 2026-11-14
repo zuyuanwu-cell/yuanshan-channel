@@ -1,0 +1,83 @@
+{
+  "api": "yuanshan-channel/v1",
+  "access": "public-read",
+  "auth": null,
+  "generated": "2026-10-26",
+  "disclaimer": "每条资讯都附来源链接。标了「待核实」的条目来自媒体或第三方转述，引用前打开原文。费用、排名和法规以官方页面为准。",
+  "kind": "compliance",
+  "id": "ke",
+  "name_zh": "肯尼亚",
+  "region": "非洲",
+  "region_slug": "africa",
+  "page": "/compliance/ke/",
+  "market": {
+    "country": "ke",
+    "name_zh": "肯尼亚",
+    "flag": "🇰🇪",
+    "region": "非洲",
+    "difficulty": 2,
+    "summary": "KRA 2026-11-05公告将化妆品、盥洗美容及美发/散沫花列入200万先令集中清关排除清单（第18、28项）。药房与毒药委员会是否主管化妆品，仍待核对。",
+    "items": [
+      {
+        "id": "ke-entry",
+        "name_zh": "监管入口待核对",
+        "authority": "药房与毒药委员会",
+        "type": "registration",
+        "mandatory": false,
+        "cost": "未知",
+        "time": "未知",
+        "docs": [],
+        "who": "进口商",
+        "note": "首页写明监管药学职业和医疗产品。化妆品是否在列，未核对。",
+        "official_url": "https://web.pharmacyboardkenya.org/",
+        "source_checked": "2026-10-24",
+        "needs_review": true
+      },
+      {
+        "id": "ke-customs-consolidated",
+        "name_zh": "200万先令集中清关排除化妆品",
+        "authority": "肯尼亚税务局",
+        "type": "tax-customs",
+        "mandatory": true,
+        "cost": "未知",
+        "time": "未知",
+        "docs": [],
+        "who": "向肯尼亚发货的进口商与货代",
+        "note": "KRA 2026-11-05公告：化妆品与美发/散沫花列入200万先令集中清关排除清单；整批发美妆须常规报关，混装第12–30项合计体积不超过5%。",
+        "official_url": "https://www.kra.go.ke/news-center/public-notices/2411-items-excluded-from-the-consolidated-cargo-clearance-for-consignments-under-the-kshs-2-million-framework",
+        "source_checked": "2026-11-08",
+        "needs_review": false
+      },
+      {
+        "id": "ke-hs",
+        "name_zh": "HS 编码与关税",
+        "authority": "药房与毒药委员会",
+        "type": "tax-customs",
+        "mandatory": true,
+        "cost": "未知",
+        "time": "未知",
+        "docs": [],
+        "who": "进口商",
+        "note": "链接不是税则。税号和税率未抄录。",
+        "official_url": "https://web.pharmacyboardkenya.org/",
+        "source_checked": "2026-10-24",
+        "needs_review": true
+      }
+    ],
+    "steps": [
+      {
+        "title": "核对监管入口",
+        "type": "registration"
+      },
+      {
+        "title": "清关",
+        "type": "tax-customs"
+      }
+    ],
+    "last_verified": "2026-11-08",
+    "hs_codes": {
+      "status": "pending",
+      "items": []
+    }
+  }
+}

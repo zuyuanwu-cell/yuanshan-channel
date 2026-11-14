@@ -1,0 +1,187 @@
+{
+  "api": "yuanshan-channel/v1",
+  "access": "public-read",
+  "auth": null,
+  "generated": "2026-10-26",
+  "disclaimer": "每条资讯都附来源链接。标了「待核实」的条目来自媒体或第三方转述，引用前打开原文。费用、排名和法规以官方页面为准。",
+  "kind": "feed",
+  "id": "sa",
+  "title": "沙特",
+  "markets": [
+    "sa"
+  ],
+  "types": [
+    "rules",
+    "regulation",
+    "rankings"
+  ],
+  "filter": {
+    "markets": [
+      "sa"
+    ],
+    "types": [
+      "rules",
+      "regulation",
+      "rankings"
+    ],
+    "include_global": false
+  },
+  "count": 6,
+  "items": [
+    {
+      "kind": "news",
+      "id": "2026-11-09-sfda-cosmetics-recall-withdrawal-guide-draft",
+      "type": "regulation",
+      "date": "2026-11-09",
+      "title": "沙特化妆品召回指南征求意见至12月4日：境外召回须立刻申报，换货退款免运费、费用由列名人承担",
+      "summary": "沙特「意见征询」平台挂出SFDA《化妆品撤回与召回程序指南》，征求意见2026-11-05至12-04。境外召回须立刻申报；消费者可换货或退款且免运费；全部费用及逾期销毁由列名人承担。仍是草案。",
+      "body_text": "在沙特卖化妆品、或者把货交给当地公司做 SFDA 列名的品牌注意：沙特国家竞争力中心「意见征询」平台（Istitlaa）挂出了食品药品总局（SFDA）起草的 《化妆品撤回与召回程序指南》 (https://istitlaa.ncc.gov.sa/ar/health/sfda/CPWRPG)。官网项目卡写明：征求意见从 2026年11月5日到 12月4日，页脚最后更新是 2026年11月3日。\n\n先说清楚：现在还是征求意见稿，不是已经生效的正式指南。 它是把《化妆品法》第 23、24、26 条和执行条例里已有的「下架、召回、销毁」权限，写成一套可操作的流程。定稿前，今天在售货不会因为这份草案本身立刻多出新罚则；但列名人（المُدرِج，即以自己名义在 SFDA 列名的人）如果真遇到召回，后面多半就按这个口径走。\n\n改了什么（草案口径）\n\n指南把两件事分开了：\n\n- 撤回（السحب）：由 SFDA 自己把产品从市场上拿下来\n\n- 召回（الاستدعاء）：由列名人主动发起，或应 SFDA 要求，把不安全或违规产品从消费者手里收回，并停止流通\n\n适用范围写得很宽：所有受《化妆品法》约束、在沙特流通的化妆品，列名人、制造商、进口商、经销商和销售网点都按各自角色承担责任。\n\n1. 境外一召回，也要立刻报 SFDA\n\n草案要求流通链条上的企业，一旦知道下面任一情况，立即通知 SFDA：\n\n- 产品造成了伤害\n\n- 出现生产错误\n\n- 该产品在任何国家被召回\n\n- 出现其他可能需要撤回或召回的信息\n\n决定一经下达，要马上停止制造、进口、经销、陈列和销售；还要按批次/生产日期清点数量、通知下游、把收回来的货单独隔离存放，在 SFDA 发话之前不得自行处理。\n\n对中国工厂和品牌来说：如果同一配方在中国、欧盟或美国先召回，沙特这边的列名人和进口商按草案也不能假装不知道，要同步报过去。\n\n2. 消费者：换合格货，或退全款，运费不能让买家出\n\n列名人要和经销商、网点一起，给消费者一个明确的回收入口，并处理两类请求：\n\n- 换成符合法规的合格产品，或\n\n- 退回货款\n\n草案写明：换货或退款不得让消费者承担任何费用，包括退货和运输费用。换货或退款也不等于人身损害赔偿，消费者仍可按其他法律另行索赔。相关申请记录要留档，SFDA 随时可能要。\n\n3. 钱谁出：广告、运输、仓储、销毁、换货退款都由列名人承担\n\n一般条款写：列名人承担执行撤回/召回的全部费用，包括公告、运输、仓储、（如果决定销毁的）销毁，以及按规定换货或退款的费用。如果列名人没有在决定规定的期限内执行，SFDA 可以按法律和执行条例自己去撤回并销毁，费用记在列名人头上。\n\n另外几条也很硬：\n\n- 收回来的货，未经 SFDA 同意，不得再上市、不得自行销毁、不得再出口\n\n- 列名人可以主动发起自愿召回，但必须立刻向 SFDA 说明原因、范围、拟采取的措施，以及打算销毁还是把进口货再出口；销毁或再出口必须先得到 SFDA 批准\n\n- 要按官方程序和表格提交执行计划，并定期报告进度；SFDA 批准最终报告后，这次撤回/召回才算结束\n\n- 执行了撤回/召回，并不免除列名人或链条上其他企业对违规行为的责任\n\n法律依据在引言里写得很明白：产品影响公共健康时，SFDA 应公开警示（第 23 条）；产品不安全、有害健康或未列名时，可以取消列名、禁止流通、撤回或召回、或暂停流通（第 24 条）；列名人不按期执行的，由 SFDA 代为撤回并销毁、费用由其承担（第 26 条）。\n\n影响谁\n\n- 在沙特做 SFDA 化妆品列名 的本地公司（列名人）及其授权的中国品牌、工厂\n\n- 往沙特出口化妆品的进口商、经销商和销售网点\n\n- 同一款货同时在其他国家上市的品牌：境外召回会触发向 SFDA 申报\n\n- 只通过跨境小包散卖、并未在沙特列名的卖家：本草案直接点名的是受《化妆品法》约束并在沙特流通的产品；未列名本身按第 24 条也可能被撤回或禁止流通，不能当成「没列名就没事」\n\n意味着什么、现在注意什么\n\n- 别把草案当成已经生效：12月4日前可在意见征询页面 (https://istitlaa.ncc.gov.sa/ar/health/sfda/CPWRPG)提交意见；定稿公布前，仍以现行《化妆品法》和执行条例为准。本站标了 needs_review，正式文本出来后再改合规页。\n\n- 已经在沙特列名的品牌：现在就可以把「境外召回 → 通知沙特列名人 → 报 SFDA」写进召回 SOP，并核对该不该留得下批次、销量和库存台账。\n\n- 合同里最好提前写清：一旦召回，公告、物流、仓储、销毁、对消费者换货退款这些费用怎么在品牌和列名人之间分摊。草案把法定义务放在列名人身上，商业上最后多半会转给品牌。\n\n- 不要自行把问题货销毁或运回国内：草案要求先得到 SFDA 批准。\n\n- 这和站内已写过的 针管/安瓿包装限制 (/news/2026-08-04-sfda-syringe-ampoule-packaging/) 不是同一件事——那条管包装形态，这条管出事后怎么下架和召回。\n\n证据（核对日期 2026-11-09）\n\n沙特国家竞争力中心「意见征询」平台项目页（标题为《化妆品撤回与召回程序指南》，征求意见 2026-11-05 至 2026-12-04，最后更新 2026-11-03）：\n\n引言：依据《化妆品法》第23、24、26条，说明指南目的和适用范围（列名人、制造商、进口商、经销商、销售网点）：\n\n定义：撤回由 SFDA 实施，召回由列名人主动或应 SFDA 要求实施：\n\n企业责任：须立即申报伤害、生产错误或在任何国家发生的召回，并停止产销、清点隔离：\n\n撤回与召回程序：自愿召回须先报备，销毁或再出口须经 SFDA 批准：\n\n对消费者义务：换合格产品或退款，不得让消费者承担退货或运输费用：\n\n一般条款：全部费用由列名人承担；逾期不执行的，SFDA 可代为撤回并销毁、费用由其承担：\n\n来源\n\n- 沙特国家竞争力中心「意见征询」平台（Istitlaa）· 食品药品总局 SFDA · دليل إجراءات سحب واستدعاء منتجات التجميل (https://istitlaa.ncc.gov.sa/ar/health/sfda/CPWRPG)（征求意见 05/11/2026–04/12/2026，最后更新 03 نوفمبر 2026）\n\n- 站内对照：沙特合规 (/compliance/sa/)",
+      "markets": [
+        "sa"
+      ],
+      "platforms": [],
+      "tags": [
+        "compliance"
+      ],
+      "source_url": "https://istitlaa.ncc.gov.sa/ar/health/sfda/CPWRPG",
+      "source_name": "沙特国家竞争力中心「意见征询」平台 · SFDA",
+      "checked": "2026-11-09",
+      "needs_review": true,
+      "sample": false,
+      "key_date": {
+        "date": "2026-12-04",
+        "label": "征求意见截止"
+      },
+      "page": "/news/2026-11-09-sfda-cosmetics-recall-withdrawal-guide-draft/"
+    },
+    {
+      "kind": "ranking",
+      "id": "noon/2026-10-23",
+      "type": "rankings",
+      "date": "2026-10-23",
+      "title": "noon · 2026-10-23",
+      "summary": "30 个单品 · noon UAE · Beauty (popularity) · 待核实",
+      "markets": [
+        "ae",
+        "sa"
+      ],
+      "board": "noon",
+      "source_url": "https://www.noon.com/uae-en/beauty/?sort[by]=popularity&sort[dir]=desc",
+      "source_name": "noon UAE · Beauty (popularity)",
+      "needs_review": true,
+      "sample": false,
+      "partial": false,
+      "page": "/rankings/noon/",
+      "detail": "/v1/rankings/noon/2026-10-23.json"
+    },
+    {
+      "kind": "news",
+      "id": "2026-08-04-sfda-syringe-ampoule-packaging",
+      "type": "regulation",
+      "date": "2026-08-04",
+      "title": "沙特禁针管形化妆品包装：安瓿/西林瓶须双语警示「勿注射」，年底前整改",
+      "summary": "SFDA：外用化妆品不得用针管形包装；安瓿/西林瓶须阿英双语警示。整改截止2026-12-31，2027-01-01起执法。",
+      "body_text": "沙特食品药品管理局（SFDA）2026年8月4日发通告：市场上有外用化妆品用 针管、安瓿、西林瓶 等「像药」的形态卖，容易让人当成可注射药品。通告明确包装、标签和广告怎么改，整改到 2026年12月31日；2027年1月1日起对未合规产品与企业采取监管措施。\n\n官方通告页写明发布日 2026-08-04、适用日 2027-01-01；Gulf News、Saudi Gazette、Cotecna 等对同一通告的英文复述与官方要点一致。\n\n改了什么\n\n- 针管形包装：禁止流通\n外用化妆品不得再以注射器/针管形态上市销售。\n\n- 安瓿、西林瓶：可以卖，但内外包装都要双语警示\n阿拉伯语 + 英语，字迹清楚可读，至少包括：\n\n- Cosmetic product for external use only / 仅限外用化妆品\n\n- Do not inject / 勿注射、非注射用途\n\n- Avoid contact with eyes / 避免接触眼睛\n\n- Open with caution / 小心开启\n\n- 广告不能暗示可注射\n推广、详情页、直播话术不得声称或暗示本品可注射，或可配合穿刺皮肤的器械使用。\n\n- 整改窗口\n生产商、进口商、经销商须在 2026年12月31日前 召回不合规货或改包装/改标签；逾期未改，SFDA 将对产品和经营主体采取措施。\n\n影响谁\n\n- 向沙特供货、或在 noon / Amazon.ae 卖 精华针管、安瓿原液、西林瓶小样 的品牌和工厂\n\n- 包装已开模、在途或仓里还有针管形库存的卖家——窗口只剩约两个月\n\n- 详情页/主图用「医美注射感」卖点的运营：话术也要改，不只是包材\n\n普通瓶、管、泵头包装不受这条「药妆形态」通告直接约束，但仍须满足 GSO 1943 标签与 SFDA 列名。\n\n意味着什么 / 现在该做什么\n\n- 立刻盘点沙特在售与在产 SKU：有没有针管形、安瓿、西林瓶\n\n- 针管形：停产停发，改瓶型或下架；不要赌 2027 年后还能清货\n\n- 安瓿/西林瓶：内外包装补齐阿英四句警示，同步改详情页与广告素材\n\n- 把改包计划排进 12月31日前；进口代理/本地列名人一并核对 GHAD 列名标签图是否与实物一致\n\n来源：SFDA 通告页「تداول منتجات التجميل المسوقة في أشكال صيدلانية」（发布 2026-08-04，适用 2027-01-01）；核对日 2026-10-26。",
+      "markets": [
+        "sa"
+      ],
+      "platforms": [
+        "noon",
+        "amazon-ae"
+      ],
+      "tags": [
+        "labeling",
+        "compliance"
+      ],
+      "source_url": "https://www.sfda.gov.sa/ar/circulars/19229",
+      "source_name": "沙特食品药品管理局 SFDA 通告",
+      "checked": "2026-10-26",
+      "needs_review": false,
+      "sample": false,
+      "key_date": {
+        "date": "2026-12-31",
+        "label": "整改截止"
+      },
+      "page": "/news/2026-08-04-sfda-syringe-ampoule-packaging/"
+    },
+    {
+      "kind": "news",
+      "id": "2026-06-24-sfda-circular-1043-ingredients",
+      "type": "regulation",
+      "date": "2026-06-24",
+      "title": "沙特 SFDA 更新化妆品禁限用成分清单，新进口 2027年7月起须合规",
+      "summary": "SFDA 第 1043 号通函更新禁限用成分、防腐剂和防晒剂清单；新进口产品 2027年7月1日起须合规，在售库存到 2028年7月1日。",
+      "body_text": "- 更新禁用/限用成分、允许的防腐剂和紫外线过滤剂\n\n- 新进口：2027年7月1日起须合规\n\n- 在售库存：2028年7月1日前处理完\n\n来源为 SFDA 通函页，具体条目未逐条核对，标为待核实。",
+      "markets": [
+        "sa"
+      ],
+      "platforms": [],
+      "tags": [
+        "ingredients"
+      ],
+      "source_url": "https://oldsfda.sfda.gov.sa/ar/circulars/5521986",
+      "source_name": "SFDA",
+      "checked": "2026-10-23",
+      "needs_review": true,
+      "sample": false,
+      "key_date": {
+        "date": "2027-07-01",
+        "label": "新进口执行"
+      },
+      "page": "/news/2026-06-24-sfda-circular-1043-ingredients/"
+    },
+    {
+      "kind": "news",
+      "id": "2025-06-24-sfda-gso-1943-2528-update",
+      "type": "regulation",
+      "date": "2025-06-24",
+      "title": "沙特 SFDA 更新海湾化妆品安全与宣称技术法规",
+      "summary": "SFDA 宣布采用 SFDA.CO/GSO 1943:2024 与 2528:2024；禁限用清单改挂官网，不合规可按化妆品法规处罚。",
+      "body_text": "沙特食品药品局（SFDA）2025年6月24日宣布，更新海湾技术法规：\n\n- SFDA.CO/GSO 1943:2024 化妆品与个护安全要求\n\n- SFDA.CO/GSO 2528:2024 化妆品宣称规则\n\n禁限用、防腐剂、着色剂、防晒剂等清单改由 SFDA 网站维护；本地与进口企业须对照最新版本。文本与规格可在 SFDA 标准商店获取。违规可能按《化妆品法》及执行条例罚款。",
+      "markets": [
+        "sa"
+      ],
+      "platforms": [
+        "noon",
+        "amazon-ae"
+      ],
+      "tags": [
+        "compliance",
+        "labeling"
+      ],
+      "source_url": "https://www.sfda.gov.sa/ar/news/18685",
+      "source_name": "SFDA",
+      "checked": "2026-10-23",
+      "needs_review": false,
+      "sample": false,
+      "key_date": null,
+      "page": "/news/2025-06-24-sfda-gso-1943-2528-update/"
+    },
+    {
+      "kind": "news",
+      "id": "2025-03-11-sfda-cosmetics-clearance-conditions",
+      "type": "regulation",
+      "date": "2025-03-11",
+      "title": "沙特 SFDA 更新化妆品清关条件页（含原料）",
+      "summary": "SFDA 英文站「化妆品及生产原料清关条件」页显示最近更新为 2025年3月11日，进口清关前应对照该页与 GHAD 登记要求。",
+      "body_text": "沙特 SFDA 英文站页面 Conditions of cosmetic products clearance and raw materials used in their manufacturing 标注最近更新为 2025年3月11日（沙特时间）。\n\n进口美妆在港口清关前，应同时核对：\n\n- GHAD / 产品登记信息是否与货件一致\n\n- 是否满足现行安全与宣称技术法规\n\n- 是否具备清关所需的符合性文件\n\n具体条款以 SFDA 页面及关联 PDF 为准；到港后缺件常见会导致延误或退运。",
+      "markets": [
+        "sa"
+      ],
+      "platforms": [
+        "noon"
+      ],
+      "tags": [
+        "customs",
+        "compliance"
+      ],
+      "source_url": "https://www.sfda.gov.sa/en/regulations/%D8%B4%D8%B1%D9%88%D8%B7-%D9%81%D8%B3%D8%AD-%D9%85%D9%86%D8%AA%D8%AC%D8%A7%D8%AA-%D8%A7%D9%84%D8%AA%D8%AC%D9%85%D9%8A%D9%84-%D9%88%D8%A7%D9%84%D9%85%D9%88%D8%A7%D8%AF-%D8%A7%D9%84%D8%A3%D9%88%D9%84%D9%8A%D8%A9-%D8%A7%D9%84%D8%AF%D8%A7%D8%AE%D8%A7%D9%84%D8%A9-%D9%81%D9%8A-%D8%AA%D8%B5%D9%86%D9%8A%D8%B9%D9%87%D8%A7",
+      "source_name": "SFDA",
+      "checked": "2026-10-23",
+      "needs_review": false,
+      "sample": false,
+      "key_date": null,
+      "page": "/news/2025-03-11-sfda-cosmetics-clearance-conditions/"
+    }
+  ]
+}

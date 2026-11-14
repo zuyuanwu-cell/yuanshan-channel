@@ -1,0 +1,85 @@
+{
+  "api": "yuanshan-channel/v1",
+  "access": "public-read",
+  "auth": null,
+  "generated": "2026-10-26",
+  "disclaimer": "每条资讯都附来源链接。标了「待核实」的条目来自媒体或第三方转述，引用前打开原文。费用、排名和法规以官方页面为准。",
+  "kind": "feed",
+  "id": "au/regulation+rankings",
+  "title": "澳大利亚",
+  "markets": [
+    "au"
+  ],
+  "types": [
+    "regulation",
+    "rankings"
+  ],
+  "filter": {
+    "markets": [
+      "au"
+    ],
+    "types": [
+      "regulation",
+      "rankings"
+    ],
+    "include_global": false
+  },
+  "count": 2,
+  "items": [
+    {
+      "kind": "news",
+      "id": "2026-10-27-tga-sunscreen-reforms",
+      "type": "regulation",
+      "date": "2026-10-27",
+      "title": "澳洲 TGA 防晒改革：成品测 SPF 与声称上限",
+      "summary": "TGA 10月27日公布防晒监管改革方向：成品上市前及存续期须测 SPF 并交 TGA；化妆品防晒 SPF 声称将设上限。落地时间表另定。",
+      "body_text": "澳大利亚治疗商品管理局（TGA）2026年10月27日发媒体稿并更新 Sunscreen reforms (https://www.tga.gov.au/products/regulations-all-products/tga-reforms/sunscreen-reforms) 专页：在 3–5 月公开征求意见（约 120 份反馈）后，确定将推进的防晒监管改革方向。这是改革路线图，不是今天立刻改标签或立刻禁卖；各条落地要另订时间表，部分还要再咨询或改法规。\n\n改了什么（方向）\n\n官方列明将推进的几块：\n\n- 加强 SPF 检测要求：可在合适情形用体外（in vitro）或体内（in vivo）方法；强化检测实验室认可；在法规中直接引用 ISO；成品在列入澳大利亚治疗商品登记册（ARTG）时须做 SPF 检测，并在存续期内周期性复测；赞助商须在列名时把检测数据交给 TGA（保密保存）。\n\n- 特定防晒原料质量要求：为关键防晒成分制定质量标准，降低「配方纸面达标、货上架后 SPF 不稳」的风险。\n\n- 化妆品防晒（secondary / cosmetic sunscreen）的 SPF 声称设一致上限：把「主打防晒」的治疗类防晒和「附带防晒」的化妆品分得更清楚，避免化妆品随便打出很高 SPF。\n\n- 回顾防晒 GMP 指引：把生产质量责任写清楚。\n\n- SPF 标签怎么标：本次先不做改标签；要再评审、再征求意见后才推进。\n\n媒体稿与专页都写明：改革将分阶段、成比例落地；专页会随进度更新。\n\n影响谁\n\n- 向澳洲出口或本地上架防晒乳/喷雾/棒，尤其已进或准备进 ARTG 的治疗类防晒赞助商、代工厂\n\n- 在面霜、粉底、身体乳等化妆品上标 SPF / 防晒效果的品牌——将来声称上限可能收紧，和治疗类防晒要分清路径\n\n- 在亚马逊澳洲、独立站、本地零售铺防晒的跨境团队：检测、周期复测和资料留存成本会上去，宜提前和实验室、责任人谈产能与报价\n\n意味着什么 / 现在注意什么\n\n- 今天不用改包装：没有写「即日执法」的截止日期；先盯专页和下一步咨询稿。\n\n- 新做澳洲防晒立项：优先按「成品 SPF 证据 + 可追溯实验室」准备，别只依赖母液/半成品数据。\n\n- 化妆品路径打高 SPF 的 SKU，评估要不要改成治疗类列名，或下调声称、改主卖点。\n\n- Choice 等机构曾点名多款防晒实测 SPF 不达标；TGA 称改革目标是让标签 SPF 更可靠，并让赞助商对证据负责。\n\n来源：\n\n- TGA 媒体稿（2026-10-27） (https://www.tga.gov.au/news/media-releases/tga-strengthening-sunscreen-regulation-improve-confidence-sun-protection-factor-spf-claims)\n\n- TGA Sunscreen reforms 专页（同日更新） (https://www.tga.gov.au/products/regulations-all-products/tga-reforms/sunscreen-reforms)",
+      "markets": [
+        "au"
+      ],
+      "platforms": [],
+      "tags": [
+        "compliance",
+        "labeling"
+      ],
+      "source_url": "https://www.tga.gov.au/news/media-releases/tga-strengthening-sunscreen-regulation-improve-confidence-sun-protection-factor-spf-claims",
+      "source_name": "TGA 媒体稿 · 加强防晒 SPF 声称监管",
+      "checked": "2026-10-27",
+      "needs_review": false,
+      "sample": false,
+      "key_date": {
+        "date": "2026-10-27",
+        "label": "方向公布"
+      },
+      "page": "/news/2026-10-27-tga-sunscreen-reforms/"
+    },
+    {
+      "kind": "news",
+      "id": "2026-10-01-australia-poisons-standard-bpa-acrylates",
+      "type": "regulation",
+      "date": "2026-10-01",
+      "title": "澳洲 Poisons Standard 10月版生效：含 BPA 缩水甘油丙烯酸酯类的化妆品进入附表6，要按毒物加警示",
+      "summary": "TGA 现行《毒物标准》已是 October 2026 版（取代 June 2026）。行业转述：用于化妆品的 BPA glycidyl dimethacrylate / diacrylate 被列入附表6，须按要求做警示与急救说明；出口澳洲美妆/美甲类原料需对照正式文本。",
+      "body_text": "澳大利亚治疗商品管理局（TGA）页面写明：当前生效的 Poisons Standard 法律标题是 Therapeutic Goods (Poisons Standard — October 2026) Instrument 2026，取代此前的 June 2026 版；电子版以联邦立法登记册（FRL）为准。\n\n改了什么（对美妆有关的部分）\n\n官方 SUSMP 页确认 October 2026 已是现行版，细节见该文书的 Explanatory Statement。据 ChemLinked 对本次修订的整理（转述，待用 FRL 全文核对）：\n\n- BPA glycidyl dimethacrylate、BPA glycidyl diacrylate 在化妆品用途制剂中被列入 Schedule 6（附表6「毒物」）\n\n- 含上述物质的制剂须按附表配套的 Appendix E / F 提供急救说明与警示用语（行业关注点：皮肤致敏风险）\n\n附表6一类物质通常意味着：不是禁售，但供应、包装、标签要按各州采纳的毒物控制要求加警示，不能当普通日化随便贴签。\n\n影响谁\n\n- 往澳洲卖美妆、美甲胶/树脂类、含相关丙烯酸酯体系的工厂和卖家\n\n- 在亚马逊澳洲站、独立站或本地零售铺货、配方里带 BPA 缩水甘油丙烯酸酯类原料的品牌\n\n意味着什么\n\n先打开 TGA SUSMP 页与 FRL 上的 October 2026 文书，用正式附表核对自己的 INCI；命中就要改标签/包装话术，并和澳洲进口商确认州立法如何落地。本次资讯标了「待核实」，因为具体物质条目以 FRL 原文为准，媒体转述仅作线索。\n\n核对来源：TGA SUSMP 介绍页（确认 October 2026 为现行版）；物质明细另需打开 FRL 上该 Instrument 及 Explanatory Statement。ChemLinked 2026-10-16 文可作行业摘要对照。",
+      "markets": [
+        "au"
+      ],
+      "platforms": [],
+      "tags": [
+        "ingredients",
+        "labeling",
+        "compliance"
+      ],
+      "source_url": "https://www.tga.gov.au/products/regulations-all-products/legislation-and-legislative-instruments/poisons-standard-susmp",
+      "source_name": "TGA · The Poisons Standard (SUSMP)（October 2026 Instrument）",
+      "checked": "2026-10-26",
+      "needs_review": true,
+      "sample": false,
+      "key_date": {
+        "date": "2026-10-01",
+        "label": "现行版生效"
+      },
+      "page": "/news/2026-10-01-australia-poisons-standard-bpa-acrylates/"
+    }
+  ]
+}

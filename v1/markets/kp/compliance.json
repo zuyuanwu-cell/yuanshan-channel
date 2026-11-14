@@ -1,0 +1,98 @@
+{
+  "api": "yuanshan-channel/v1",
+  "access": "public-read",
+  "auth": null,
+  "generated": "2026-10-26",
+  "disclaimer": "每条资讯都附来源链接。标了「待核实」的条目来自媒体或第三方转述，引用前打开原文。费用、排名和法规以官方页面为准。",
+  "kind": "compliance",
+  "id": "kp",
+  "name_zh": "朝鲜",
+  "region": "东亚",
+  "region_slug": "east-asia",
+  "page": "/compliance/kp/",
+  "market": {
+    "country": "kp",
+    "name_zh": "朝鲜",
+    "flag": "🇰🇵",
+    "region": "东亚",
+    "difficulty": 3,
+    "summary": "商业化妆品受奢侈品制裁约束，不是普通备案市场。未核到可走的注册路径。",
+    "items": [
+      {
+        "id": "kp-luxury",
+        "name_zh": "奢侈品不得供应",
+        "authority": "安理会1718委员会",
+        "type": "tax-customs",
+        "mandatory": true,
+        "cost": "未知",
+        "time": "未知",
+        "docs": [],
+        "who": "出口商",
+        "note": "成员国须阻止直接或间接向朝鲜供应、销售或转让奢侈品。",
+        "official_url": "https://main.un.org/securitycouncil/en/sanctions/1718",
+        "source_checked": "2026-10-24",
+        "needs_review": false
+      },
+      {
+        "id": "kp-eu-list",
+        "name_zh": "欧盟对朝清单含化妆品",
+        "authority": "欧盟理事会",
+        "type": "tax-customs",
+        "mandatory": false,
+        "cost": "未知",
+        "time": "未知",
+        "docs": [],
+        "who": "受欧盟规则约束的主体",
+        "note": "2017/2062附件八列香水、化妆品（3303至3307）及假睫毛。不是中国海关公告。",
+        "official_url": "https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:32017R2062",
+        "source_checked": "2026-10-24",
+        "needs_review": false
+      },
+      {
+        "id": "kp-cn",
+        "name_zh": "中国实施清单未逐条打开",
+        "authority": "商务部 / 海关总署",
+        "type": "tax-customs",
+        "mandatory": false,
+        "cost": "未知",
+        "time": "未知",
+        "docs": [],
+        "who": "中国出口经营者",
+        "note": "已打开的对朝公告未逐条列出化妆品。出口前须核对现行禁令。",
+        "official_url": "http://www.mofcom.gov.cn/zcfb/dwmygl/art/2016/art_e8c3e67fc52b419abe7d78cd65b9e2d7.html",
+        "source_checked": "2026-10-24",
+        "needs_review": true
+      },
+      {
+        "id": "kp-no-path",
+        "name_zh": "没有已核到的产品通报",
+        "authority": "安理会1718委员会",
+        "type": "registration",
+        "mandatory": true,
+        "cost": "未知",
+        "time": "未知",
+        "docs": [],
+        "who": "出口商",
+        "note": "未找到朝鲜化妆品主管机关的上市通报。此处不提供任何发运办法。",
+        "official_url": "https://main.un.org/securitycouncil/en/sanctions/1718",
+        "source_checked": "2026-10-24",
+        "needs_review": true
+      }
+    ],
+    "steps": [
+      {
+        "title": "核对制裁",
+        "type": "tax-customs"
+      },
+      {
+        "title": "不要走普通备案",
+        "type": "registration"
+      }
+    ],
+    "last_verified": "2026-10-24",
+    "hs_codes": {
+      "status": "pending",
+      "items": []
+    }
+  }
+}

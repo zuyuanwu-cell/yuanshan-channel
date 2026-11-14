@@ -1,0 +1,40 @@
+{
+  "api": "yuanshan-channel/v1",
+  "access": "public-read",
+  "auth": null,
+  "generated": "2026-10-26",
+  "disclaimer": "每条资讯都附来源链接。标了「待核实」的条目来自媒体或第三方转述，引用前打开原文。费用、排名和法规以官方页面为准。",
+  "kind": "news",
+  "item": {
+    "kind": "news",
+    "id": "2026-10-17-indonesia-halal-cosmetics-2028",
+    "type": "regulation",
+    "date": "2026-10-17",
+    "title": "印尼美妆清真强制认证延期至 2028",
+    "summary": "原定 2026年10月18日生效的清真认证义务，化妆品、化学品等品类延后两年。依据是 PP 40/2026（修订 PP 42/2024），BPJPH 官方已发说明。",
+    "body_text": "最早是 Kompas 10月17日报道印尼政府要修订《清真产品保障实施条例》（PP 42/2024）。现在 印尼清真产品保障局（BPJPH）官方已确认：修订条例是 PP 40/2026。\n\n和美妆日化相关的部分：\n\n- 化妆品、化学品、日用品（barang gunaan，含服装、配饰、家用医疗用品、家居用品等）、草本药、准药品、保健品，强制持清真证书的期限延到 2028年10月17日\n\n- 这些品类原定 2026年10月18日起须有清真证书\n\n- 境外生产的食品饮料类，2028年10月18日起才强制，等清真证书互认合作谈完\n\n- BPJPH 另有 2026年第387号决定，列明哪些商品属于必须清真认证的范围（化妆品在内），时间表以 PP 40/2026 为准\n\n这意味着什么\n\n- 在 Shopee、Lazada、Tokopedia、TikTok Shop 印尼站卖化妆品的卖家，多了两年准备清真认证，不会在这个月因为没证被卡\n\n- BPJPH 明确说这是「准备期，不是拖延期」：配方里有动物源成分（胶原蛋白、胎盘、蜂蜡等）的，建议早点排认证\n\n- 延期不等于不用做别的：BPOM 备案仍然是上架前提，BPOM 新的成分技术要求也已经在执行",
+    "markets": [
+      "id"
+    ],
+    "platforms": [
+      "shopee",
+      "lazada",
+      "tokopedia",
+      "tiktok-shop"
+    ],
+    "tags": [
+      "compliance",
+      "labeling"
+    ],
+    "source_url": "https://bpjph.halal.go.id/read/penyesuaian-penahapan-kewajiban-sertifikasi-halal-diatur-dalam-pp-40-tahun-2026-begini-rinciannya",
+    "source_name": "印尼清真产品保障局 BPJPH · PP 40/2026 说明",
+    "checked": "2026-10-25",
+    "needs_review": false,
+    "sample": false,
+    "key_date": {
+      "date": "2028-10-17",
+      "label": "新截止"
+    },
+    "page": "/news/2026-10-17-indonesia-halal-cosmetics-2028/"
+  }
+}

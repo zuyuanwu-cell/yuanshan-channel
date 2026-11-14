@@ -1,0 +1,220 @@
+{
+  "api": "yuanshan-channel/v1",
+  "access": "public-read",
+  "auth": null,
+  "generated": "2026-10-26",
+  "disclaimer": "每条资讯都附来源链接。标了「待核实」的条目来自媒体或第三方转述，引用前打开原文。费用、排名和法规以官方页面为准。",
+  "kind": "directory",
+  "human": "/subscribe/",
+  "access_note": "V1 is an unauthenticated public read of content already published on the site. No API key is checked.",
+  "auth_later": {
+    "required": false,
+    "header": "Authorization",
+    "scheme": "Bearer",
+    "scope": "A future paid key is limited to one market package (compliance country ids). V1 does not issue or check keys. Do not put secrets in client JavaScript."
+  },
+  "non_goals": [
+    "no write API",
+    "no unfiltered bulk export as a subscription — MCP search_updates requires markets, since, query, or a narrowed types list",
+    "not legal advice and not a substitute for source_url"
+  ],
+  "content_types": [
+    {
+      "id": "rules",
+      "label_zh": "平台规则"
+    },
+    {
+      "id": "regulation",
+      "label_zh": "市场法规"
+    },
+    {
+      "id": "rankings",
+      "label_zh": "热销榜"
+    }
+  ],
+  "paths": {
+    "markets": "/v1/markets.json",
+    "updates": "/v1/updates.json",
+    "news": "/v1/news/{slug}.json",
+    "rankings": "/v1/rankings.json",
+    "ranking_latest": "/v1/rankings/{board}.json",
+    "ranking_date": "/v1/rankings/{board}/{date}.json",
+    "compliance": "/v1/markets/{id}/compliance.json",
+    "market_rankings": "/v1/markets/{id}/rankings.json",
+    "market_feed": "/v1/markets/{id}/feed.json",
+    "market_feed_rss": "/v1/markets/{id}/feed.xml",
+    "market_types": "/v1/markets/{id}/types/{combo}.json",
+    "market_types_rss": "/v1/markets/{id}/types/{combo}.xml",
+    "package": "/v1/packages/{slug}.json",
+    "package_rss": "/v1/packages/{slug}.xml"
+  },
+  "path_note": "Paths are site-root paths without the deploy base. On ys.tongzhoukuajing.com the base is /. On GitHub Pages prefix /yuanshan-channel.",
+  "filter": {
+    "markets": "Comma-separated compliance country ids. An item matches when item.markets intersects. Items with scope=global match only if include_global=1.",
+    "types": "Comma-separated subset of rules,regulation,rankings. Omit for all three.",
+    "since": "YYYY-MM-DD, inclusive on item.date.",
+    "include_global": "Set to 1 to add GL ranking boards when markets is set. Market packages leave them out.",
+    "static_host": "A static server returns this file unchanged and ignores the query string. Apply the query in the client, or use a prebuilt /v1/markets/{id}/feed.json, /v1/markets/{id}/types/{combo}.json, or /v1/packages/{slug}.json."
+  },
+  "regions": [
+    {
+      "slug": "north-america",
+      "title": "北美",
+      "markets": [
+        "ca",
+        "us"
+      ]
+    },
+    {
+      "slug": "latin-america",
+      "title": "拉美",
+      "markets": [
+        "ar",
+        "br",
+        "cl",
+        "co",
+        "cr",
+        "ec",
+        "mx",
+        "pa",
+        "pe",
+        "uy"
+      ]
+    },
+    {
+      "slug": "europe",
+      "title": "欧洲",
+      "markets": [
+        "at",
+        "be",
+        "bg",
+        "ch",
+        "cy",
+        "cz",
+        "de",
+        "dk",
+        "ee",
+        "es",
+        "eu",
+        "fi",
+        "fr",
+        "gr",
+        "hr",
+        "hu",
+        "ie",
+        "is",
+        "it",
+        "lt",
+        "lu",
+        "lv",
+        "mt",
+        "nl",
+        "no",
+        "pl",
+        "pt",
+        "ro",
+        "rs",
+        "se",
+        "si",
+        "sk",
+        "uk"
+      ]
+    },
+    {
+      "slug": "cis",
+      "title": "俄语区",
+      "markets": [
+        "am",
+        "az",
+        "by",
+        "md",
+        "ru",
+        "ua"
+      ]
+    },
+    {
+      "slug": "east-asia",
+      "title": "东亚",
+      "markets": [
+        "cn",
+        "hk",
+        "jp",
+        "kp",
+        "kr",
+        "mn",
+        "mo",
+        "tw"
+      ]
+    },
+    {
+      "slug": "southeast-asia",
+      "title": "东南亚",
+      "markets": [
+        "bn",
+        "id",
+        "kh",
+        "la",
+        "my",
+        "ph",
+        "sg",
+        "th",
+        "vn"
+      ]
+    },
+    {
+      "slug": "south-asia",
+      "title": "南亚",
+      "markets": [
+        "bd",
+        "in",
+        "lk",
+        "pk"
+      ]
+    },
+    {
+      "slug": "central-asia",
+      "title": "中亚",
+      "markets": [
+        "kg",
+        "kz",
+        "tj",
+        "tm",
+        "uz"
+      ]
+    },
+    {
+      "slug": "middle-east",
+      "title": "中东",
+      "markets": [
+        "ae",
+        "bh",
+        "jo",
+        "om",
+        "qa",
+        "sa",
+        "tr"
+      ]
+    },
+    {
+      "slug": "africa",
+      "title": "非洲",
+      "markets": [
+        "eg",
+        "ke",
+        "ma",
+        "ng",
+        "tz",
+        "za"
+      ]
+    },
+    {
+      "slug": "oceania",
+      "title": "大洋洲",
+      "markets": [
+        "au",
+        "nz"
+      ]
+    }
+  ],
+  "global_package": "/v1/packages/global.json"
+}

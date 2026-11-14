@@ -1,0 +1,31 @@
+{
+  "api": "yuanshan-channel/v1",
+  "access": "public-read",
+  "auth": null,
+  "generated": "2026-10-26",
+  "disclaimer": "每条资讯都附来源链接。标了「待核实」的条目来自媒体或第三方转述，引用前打开原文。费用、排名和法规以官方页面为准。",
+  "kind": "news",
+  "item": {
+    "kind": "news",
+    "id": "2026-11-08-kenya-kra-cosmetics-consolidated-clearance",
+    "type": "regulation",
+    "date": "2026-11-08",
+    "title": "肯尼亚化妆品被剔出200万先令集中清关：整批发美妆须常规报关，混装不能超体积5%",
+    "summary": "KRA 2026-11-05公告：化妆品、盥洗及美容产品和美发产品/散沫花被列入200万肯尼亚先令集中清关排除清单。第12–30项合计体积不超过整批货柜5%（立方米）并完整申报时，才可能仍走集中清关；整批发美妆须常规报关。",
+    "body_text": "往肯尼亚发**化妆品、盥洗用品、美容产品、美发产品或散沫花（海娜）**的品牌、工厂、进口商和货代注意：肯尼亚税务局（KRA）在官网公共公告栏挂出一份日期为 2026年11月5日 的通知，把这些货写进了「200万肯尼亚先令（KES 2 million）框架下集中清关」的排除清单。\n\n公告原文：ITEMS EXCLUDED FROM THE CONSOLIDATED CARGO CLEARANCE FOR CONSIGNMENTS UNDER THE KSHS 2 MILLION FRAMEWORK (https://www.kra.go.ke/news-center/public-notices/2411-items-excluded-from-the-consolidated-cargo-clearance-for-consignments-under-the-kshs-2-million-framework)。页脚写的是 PUBLIC NOTICES 05/11/2026。公告说这些商品「are excluded」，没有另给一个未来生效日，按这份已公开的通知，应视为现在清关就要按新口径走。\n\n这不是成分禁令，也不是不让卖；改的是走不走那条更简便的集中清关。以前靠「货值不超过 200 万先令、好几种货拼在一起集中报关」进肯尼亚的美妆货，现在很容易被卡住。\n\n改了什么\n\nKRA 列了 30 类不再默认适用该集中清关框架的商品，并分成两档：\n\n- 第 1–11 项：排除得更干净，公告没有给它们后面那条 5% 体积例外。里面包括食品、智能手机和智能手表、旧衣旧鞋、电视机等。\n\n- 第 12–30 项：写明「在符合下列条件时，仍可能被允许作为集中货物申报」。美妆落在这一档，而且被点了两次：\n- 第 18 项：Cosmetics, toiletries and beauty products（化妆品、盥洗及美容产品）\n\n- 第 28 项：Cosmetic & haircare products/Henna（美妆与美发产品 / 散沫花）\n\n第 12–30 项想继续走集中清关，必须同时满足公告 NOTES 里的三条：\n\n- 体积上限：排除清单第 12 至 30 项的合计体积，不得超过整批货物总体积的 5%，按立方米（CBM）计算。\n\n- 完整申报：这些被排除但仍装进该票货的商品，必须在发票、报关单和进口商清单上完整申报，写清每项的品名和数量。\n\n- 套单位价值：这些商品要按适用的海关估价办法，套用相应的单位价值。申报价格不好再往低了写。\n\n换句话说：一整票、一整柜几乎都是化妆品，体积占比远超 5%，就不能再走这条集中清关，得改走常规报关。只有美妆在混装货里只占很小一截、并且如实申报时，才可能仍走集中清关。\n\n影响谁\n\n- 往肯尼亚发化妆品、护肤品、洗护、彩妆、美发产品和散沫花的跨境卖家、品牌和工厂：尤其是走海运拼箱、货代集中报关、货值按 200 万先令框架操作的。\n\n- 肯尼亚进口商和货代：以前帮客户用集中清关「捎带」美妆的，现在要重分票、重做申报，否则可能被要求改走常规手续。\n\n- 整柜或专线几乎全是美妆的货：5% 这条红线过不去，基本只能常规报关，文件、时间和查验都会按普通进口来。\n\n- 不走肯尼亚、或不做一般贸易进口的平台小包卖家：这条盯的是海关集中清关框架，不是某个电商平台的上架规则；但只要货以一般贸易/集中报关进肯尼亚，一样会被问到。\n\n意味着什么\n\n清关路径变了，成本、时效和被估价的方式都会跟着变。整批发美妆，别再默认「货值不到 200 万先令就能集中报一次」。该做的几件事：\n\n- 先问清你的肯尼亚进口商或货代：手头在途、即将出的货，是不是还在用这套 200 万先令集中清关。若是，美妆比重要重新算。\n\n- 整票几乎都是美妆：按常规报关准备单证，别指望再挤进集中清关。\n\n- 混装货：把第 12–30 项（美妆只是其中两类）的体积加总，看有没有超过整批货的 5%；发票、报关单、进口商清单上的品名和数量要写全。\n\n- 不要把化妆品藏在集中货物里不申报。公告明确要求完整申报，海关还会套单位价值。\n\n- 化妆品在肯尼亚还要满足产品本身的合规要求；站内肯尼亚合规页 (/compliance/ke/)里，监管入口目前仍标了待核对，这次只补上清关这一条，配方和上市许可不因为这份公告自动过关。\n\n证据（核对日期 2026-11-08）\n\nKRA 官网公共公告页标题与正文开头：通知名称为「ITEMS EXCLUDED FROM THE CONSOLIDATED CARGO CLEARANCE FOR CONSIGNMENTS UNDER THE KSHS 2 MILLION FRAMEWORK」，写明下列商品被排除出该集中清关框架：\n\n排除清单第 12–30 项中的第 18 项原文：Cosmetics, toiletries and beauty products：\n\n同一清单第 28 项原文：Cosmetic & haircare products/Henna；并写明第 12–30 项在符合下列条件时仍可能被允许作为集中货物：\n\nNOTES：体积上限为第 12 至 30 项合计不得超过整批货物体积的 5%（立方米），须在发票、报关单和进口商清单完整申报，并按海关估价办法适用单位价值。页脚日期为 PUBLIC NOTICES 05/11/2026：\n\n来源\n\n- 肯尼亚税务局（Kenya Revenue Authority）· Items excluded from the consolidated cargo clearance for consignments under the KShs 2 million framework (https://www.kra.go.ke/news-center/public-notices/2411-items-excluded-from-the-consolidated-cargo-clearance-for-consignments-under-the-kshs-2-million-framework)（页脚 PUBLIC NOTICES 05/11/2026）\n\n- 站内对照：肯尼亚合规 (/compliance/ke/)",
+    "markets": [
+      "ke"
+    ],
+    "platforms": [],
+    "tags": [
+      "customs"
+    ],
+    "source_url": "https://www.kra.go.ke/news-center/public-notices/2411-items-excluded-from-the-consolidated-cargo-clearance-for-consignments-under-the-kshs-2-million-framework",
+    "source_name": "肯尼亚税务局 KRA · 公共公告",
+    "checked": "2026-11-08",
+    "needs_review": false,
+    "sample": false,
+    "key_date": null,
+    "page": "/news/2026-11-08-kenya-kra-cosmetics-consolidated-clearance/"
+  }
+}

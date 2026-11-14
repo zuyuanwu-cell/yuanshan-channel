@@ -1,0 +1,315 @@
+{
+  "api": "yuanshan-channel/v1",
+  "access": "public-read",
+  "auth": null,
+  "generated": "2026-10-26",
+  "disclaimer": "每条资讯都附来源链接。标了「待核实」的条目来自媒体或第三方转述，引用前打开原文。费用、排名和法规以官方页面为准。",
+  "kind": "compliance",
+  "id": "th",
+  "name_zh": "泰国",
+  "region": "东南亚",
+  "region_slug": "southeast-asia",
+  "page": "/compliance/th/",
+  "market": {
+    "country": "th",
+    "name_zh": "泰国",
+    "flag": "🇹🇭",
+    "region": "东南亚",
+    "difficulty": 2,
+    "summary": "本地进口商在泰国 FDA 逐品通报，标签要有泰文；泰境付费社媒广告须实名核验。",
+    "items": [
+      {
+        "id": "th-importer",
+        "name_zh": "本地进口商（需泰国身份号开户）",
+        "authority": "Thai FDA",
+        "type": "local-rep",
+        "mandatory": true,
+        "cost": "未知",
+        "time": "未知",
+        "docs": [
+          "营业资料",
+          "仓储场所"
+        ],
+        "who": "泰国本地公司",
+        "note": "",
+        "official_url": "https://en.fda.moph.go.th/entrepreneurs-cosmetics/category/how-to-apply-for-permission-on-cosmetics",
+        "source_checked": "2026-10-23",
+        "needs_review": false
+      },
+      {
+        "id": "th-notif",
+        "name_zh": "化妆品通报 e-Submission",
+        "authority": "Thai FDA",
+        "type": "registration",
+        "mandatory": true,
+        "cost": "未知",
+        "time": "未知",
+        "docs": [
+          "产品名称类型",
+          "成分",
+          "用法"
+        ],
+        "who": "本地进口商",
+        "note": "收据有效 3 年",
+        "official_url": "https://www.fda.moph.go.th/e-serivice/e-submission/",
+        "source_checked": "2026-10-23",
+        "needs_review": false
+      },
+      {
+        "id": "th-label",
+        "name_zh": "泰文标签",
+        "authority": "Thai FDA",
+        "type": "label",
+        "mandatory": true,
+        "cost": "未知",
+        "time": "未知",
+        "docs": [
+          "泰文标签"
+        ],
+        "who": "进口商",
+        "note": "",
+        "official_url": "https://catalog.fda.moph.go.th/dataset/1e51956a-5718-4aa9-8b23-076349ed1856/resource/848bf9fe-ee17-4d7d-89e3-f4d6e304e6eb/download/cosmetics-act-b.e.-2015.pdf",
+        "source_checked": "2026-10-23",
+        "needs_review": false
+      },
+      {
+        "id": "th-hs",
+        "name_zh": "HS 编码与关税",
+        "authority": "泰国海关",
+        "type": "tax-customs",
+        "mandatory": true,
+        "cost": "未知",
+        "time": "未知",
+        "docs": [],
+        "who": "进口商",
+        "note": "HS 编码待补",
+        "official_url": "https://www.customs.go.th/",
+        "source_checked": "2026-10-23",
+        "needs_review": false
+      },
+      {
+        "id": "th-bp3-limit",
+        "name_zh": "二苯酮-3 限量",
+        "authority": "东盟化妆品指令 ACD",
+        "type": "safety",
+        "mandatory": true,
+        "cost": "未知",
+        "time": "未知",
+        "docs": [
+          "全成分表",
+          "标签"
+        ],
+        "who": "品牌方/通报持有人",
+        "note": "2026-11-15起新老产品：面/手/唇≤6%、身体及喷雾≤2.2%、其他≤0.5%，须标注 Contains Benzophenone-3；超限须撤市。",
+        "official_url": "https://www.npra.gov.my/images/Guidelines_Central/Guidelines_on_Cosmetic/Annex_VII_release_-_12_December_2025.pdf",
+        "source_checked": "2026-11-01",
+        "needs_review": false
+      },
+      {
+        "id": "th-ads-id-verify",
+        "name_zh": "社媒付费广告实名核验",
+        "authority": "ETDA / 电子交易委员会",
+        "type": "platform",
+        "mandatory": true,
+        "cost": "未知",
+        "time": "2026-11-01 起",
+        "docs": [
+          "政府身份证件或护照",
+          "企业登记/授权文件"
+        ],
+        "who": "向泰国受众投放付费社媒广告的广告主与付费方",
+        "note": "No ID No Ads：在泰展示且平台收广告费的社媒广告须先验广告主身份；境外可用外国政府证件、不必赴泰；一年内已核验可复用；代投时发布方与付费方都可能要核。",
+        "official_url": "https://www.thaigov.go.th/th/news/170485",
+        "source_checked": "2026-11-03",
+        "needs_review": false
+      },
+      {
+        "id": "th-benzophenone-ban",
+        "name_zh": "二苯甲酮禁用",
+        "authority": "东盟化妆品指令 ACD / 各国主管机关",
+        "type": "safety",
+        "mandatory": true,
+        "cost": "未知",
+        "time": "未知",
+        "docs": [
+          "全成分表",
+          "原料 CAS/COA"
+        ],
+        "who": "品牌方/通报持有人",
+        "note": "2026-11-19起禁二苯甲酮(CAS119-61-9)；勿与BP3混淆；泰国已对齐（待再核）。",
+        "official_url": "https://asean.org/wp-content/uploads/2026/07/Annex-II-Release_22nd-June-2026-clean.pdf",
+        "source_checked": "2026-11-03",
+        "needs_review": true
+      }
+    ],
+    "steps": [
+      {
+        "title": "找本地代表",
+        "type": "local-rep"
+      },
+      {
+        "title": "备案/注册",
+        "type": "registration"
+      },
+      {
+        "title": "做标签",
+        "type": "label"
+      },
+      {
+        "title": "清关",
+        "type": "tax-customs"
+      }
+    ],
+    "last_verified": "2026-11-03",
+    "hs_codes": {
+      "status": "ready",
+      "items": [
+        {
+          "code": "33030000",
+          "name_zh": "香水",
+          "source_url": "http://itd.customs.go.th/igtf/viewerImportTariff.do?param=main"
+        },
+        {
+          "code": "33030000",
+          "name_zh": "淡香水",
+          "source_url": "http://itd.customs.go.th/igtf/viewerImportTariff.do?param=main"
+        },
+        {
+          "code": "33041000",
+          "name_zh": "唇部彩妆",
+          "source_url": "http://itd.customs.go.th/igtf/viewerImportTariff.do?param=main"
+        },
+        {
+          "code": "33042000",
+          "name_zh": "眼部彩妆",
+          "source_url": "http://itd.customs.go.th/igtf/viewerImportTariff.do?param=main"
+        },
+        {
+          "code": "33043000",
+          "name_zh": "美甲产品",
+          "source_url": "http://itd.customs.go.th/igtf/viewerImportTariff.do?param=main"
+        },
+        {
+          "code": "33049100",
+          "name_zh": "粉类（散粉/粉饼）",
+          "source_url": "http://itd.customs.go.th/igtf/viewerImportTariff.do?param=main"
+        },
+        {
+          "code": "33049930",
+          "name_zh": "面霜/乳液/精华（护肤）",
+          "source_url": "http://itd.customs.go.th/igtf/viewerImportTariff.do?param=main"
+        },
+        {
+          "code": "33049990",
+          "name_zh": "防晒",
+          "source_url": "http://itd.customs.go.th/igtf/viewerImportTariff.do?param=main"
+        },
+        {
+          "code": "33049990",
+          "name_zh": "卸妆产品",
+          "source_url": "http://itd.customs.go.th/igtf/viewerImportTariff.do?param=main"
+        },
+        {
+          "code": "33051090",
+          "name_zh": "洗发水",
+          "source_url": "http://itd.customs.go.th/igtf/viewerImportTariff.do?param=main"
+        },
+        {
+          "code": "33059000",
+          "name_zh": "护发素",
+          "source_url": "http://itd.customs.go.th/igtf/viewerImportTariff.do?param=main"
+        },
+        {
+          "code": "33059000",
+          "name_zh": "染发剂",
+          "source_url": "http://itd.customs.go.th/igtf/viewerImportTariff.do?param=main"
+        },
+        {
+          "code": "33053000",
+          "name_zh": "发胶/定型喷雾",
+          "source_url": "http://itd.customs.go.th/igtf/viewerImportTariff.do?param=main"
+        },
+        {
+          "code": "33061090",
+          "name_zh": "牙膏",
+          "source_url": "http://itd.customs.go.th/igtf/viewerImportTariff.do?param=main"
+        },
+        {
+          "code": "33069000",
+          "name_zh": "漱口水",
+          "source_url": "http://itd.customs.go.th/igtf/viewerImportTariff.do?param=main"
+        },
+        {
+          "code": "33062000",
+          "name_zh": "牙线",
+          "source_url": "http://itd.customs.go.th/igtf/viewerImportTariff.do?param=main"
+        },
+        {
+          "code": "33072000",
+          "name_zh": "止汗/香体",
+          "source_url": "http://itd.customs.go.th/igtf/viewerImportTariff.do?param=main"
+        },
+        {
+          "code": "33071000",
+          "name_zh": "剃须膏",
+          "source_url": "http://itd.customs.go.th/igtf/viewerImportTariff.do?param=main"
+        },
+        {
+          "code": "34013000",
+          "name_zh": "沐浴露",
+          "source_url": "http://itd.customs.go.th/igtf/viewerImportTariff.do?param=main"
+        },
+        {
+          "code": "34011150",
+          "name_zh": "香皂（块）",
+          "source_url": "http://itd.customs.go.th/igtf/viewerImportTariff.do?param=main"
+        },
+        {
+          "code": "34013000",
+          "name_zh": "液体洗手液",
+          "source_url": "http://itd.customs.go.th/igtf/viewerImportTariff.do?param=main"
+        },
+        {
+          "code": "33079040",
+          "name_zh": "脱毛膏",
+          "source_url": "http://itd.customs.go.th/igtf/viewerImportTariff.do?param=main"
+        },
+        {
+          "code": "33049990",
+          "name_zh": "面膜（片状）",
+          "source_url": "http://itd.customs.go.th/igtf/viewerImportTariff.do?param=main"
+        },
+        {
+          "code": "96032900",
+          "name_zh": "化妆刷",
+          "source_url": "http://itd.customs.go.th/igtf/viewerImportTariff.do?param=main"
+        },
+        {
+          "code": "96162000",
+          "name_zh": "化妆海绵/粉扑",
+          "source_url": "http://itd.customs.go.th/igtf/viewerImportTariff.do?param=main"
+        },
+        {
+          "code": "67041900",
+          "name_zh": "假睫毛（合成纤维）",
+          "source_url": "http://itd.customs.go.th/igtf/viewerImportTariff.do?param=main"
+        },
+        {
+          "code": "85103000",
+          "name_zh": "电动脱毛器",
+          "source_url": "http://itd.customs.go.th/igtf/viewerImportTariff.do?param=main"
+        },
+        {
+          "code": "85163200",
+          "name_zh": "美发电器（卷/直发器）",
+          "source_url": "http://itd.customs.go.th/igtf/viewerImportTariff.do?param=main"
+        },
+        {
+          "code": "85437090",
+          "name_zh": "电动美容仪（面部）",
+          "source_url": "http://itd.customs.go.th/igtf/viewerImportTariff.do?param=main"
+        }
+      ]
+    }
+  }
+}

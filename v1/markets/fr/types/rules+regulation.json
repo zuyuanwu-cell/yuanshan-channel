@@ -1,0 +1,64 @@
+{
+  "api": "yuanshan-channel/v1",
+  "access": "public-read",
+  "auth": null,
+  "generated": "2026-10-26",
+  "disclaimer": "每条资讯都附来源链接。标了「待核实」的条目来自媒体或第三方转述，引用前打开原文。费用、排名和法规以官方页面为准。",
+  "kind": "feed",
+  "id": "fr/rules+regulation",
+  "title": "法国",
+  "markets": [
+    "fr"
+  ],
+  "types": [
+    "rules",
+    "regulation"
+  ],
+  "filter": {
+    "markets": [
+      "fr"
+    ],
+    "types": [
+      "rules",
+      "regulation"
+    ],
+    "include_global": false
+  },
+  "count": 1,
+  "items": [
+    {
+      "kind": "news",
+      "id": "2026-10-10-eu-reach-pfhxa-cosmetics",
+      "type": "regulation",
+      "date": "2026-10-10",
+      "title": "欧盟 REACH：化妆品含 PFHxA 超标不得再投放，过渡期已于10月10日结束",
+      "summary": "REACH 附件 XVII 第79条：自2026-10-10起，化妆品中 PFHxA 及其盐合计≥25ppb、或相关物质合计≥1000ppb，不得投放或使用；此前已投放的可继续卖。",
+      "body_text": "欧盟条例 (EU) 2024/2462 给 REACH 附件 XVII 加了第 79 条：限制 十一氟己酸（PFHxA）、其盐类及「可降解/转化成 PFHxA 的相关物质」。化妆品在名单里，两年过渡期到 2026年10月10日 结束。\n\n改了什么\n\n自 2026年10月10日 起，在化妆品（按 1223/2009 定义）中：\n\n- PFHxA + 其盐 合计浓度 ≥ 25 ppb，或\n\n- PFHxA 相关物质 合计浓度 ≥ 1000 ppb（按均质材料计）\n\n则 不得再投放市场，也不得再使用 到这类产品里。\n\n「相关物质」按分子结构判断，常见是名字里带 perfluorohexyl 一类、用完会变成 PFHxA 的原料。限值卡的是 配方本体（霜、膏、液本身），不是连瓶子一起称。\n\n例外：在 10月10日 之前已经投放 到欧盟市场的成品（已交给经销商/零售商，或已进口入境），可以继续销售；还在工厂库房、还没进口的，必须达标才能再投。\n\n这和站内已写的 Omnibus VI（CMR 清货窗口） 不是一回事：那条改的是化妆品法规程序，这条是 REACH 化学品限制，查的是 PFAS 杂质/降解物。\n\n对谁有影响\n\n- 卖欧盟站的美妆/个护品牌与工厂：防水、长效、成膜类配方更容易踩到 PFAS 杂质\n\n- 跨境卖家（亚马逊欧站、Temu、Zalando、Otto 等）：责任人（RP）和进口商要能拿出配方/原料筛查依据\n\n- 原料采购：即便没「故意加 PFAS」，供应商杂质超标也会卡投放\n\n意味着什么\n\n- 卡在哪：新货、补货、改包装再进口——只要 10月10日之后才投放，超标就违法；平台抽检或 RP 抽查原料报告时，说不清杂质水平会直接停售。\n\n- 现在注意什么：让工厂/原料商按 25ppb / 1000ppb 出检测或声明；INCI 里带 perfluorohexyl 的先换料；法国、丹麦等国还有更宽的本国 PFAS 禁令，欧站合规不等于各国都松。全量 PFAS「一刀切」草案还在评估，和本条是分开的。\n\n法规原文：EUR-Lex (EU) 2024/2462 (https://eur-lex.europa.eu/eli/reg/2024/2462/oj)。",
+      "markets": [
+        "de",
+        "eu",
+        "fr"
+      ],
+      "platforms": [
+        "amazon-eu",
+        "temu",
+        "zalando",
+        "otto"
+      ],
+      "tags": [
+        "ingredients",
+        "compliance"
+      ],
+      "source_url": "https://eur-lex.europa.eu/eli/reg/2024/2462/oj",
+      "source_name": "EUR-Lex · 条例 (EU) 2024/2462",
+      "checked": "2026-10-25",
+      "needs_review": false,
+      "sample": false,
+      "key_date": {
+        "date": "2026-10-10",
+        "label": "投放禁令生效"
+      },
+      "page": "/news/2026-10-10-eu-reach-pfhxa-cosmetics/"
+    }
+  ]
+}

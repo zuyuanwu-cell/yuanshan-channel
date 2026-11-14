@@ -1,0 +1,102 @@
+{
+  "api": "yuanshan-channel/v1",
+  "access": "public-read",
+  "auth": null,
+  "generated": "2026-10-26",
+  "disclaimer": "每条资讯都附来源链接。标了「待核实」的条目来自媒体或第三方转述，引用前打开原文。费用、排名和法规以官方页面为准。",
+  "kind": "feed",
+  "id": "by/rules+regulation+rankings",
+  "title": "白俄罗斯",
+  "markets": [
+    "by"
+  ],
+  "types": [
+    "rules",
+    "regulation",
+    "rankings"
+  ],
+  "filter": {
+    "markets": [
+      "by"
+    ],
+    "types": [
+      "rules",
+      "regulation",
+      "rankings"
+    ],
+    "include_global": false
+  },
+  "count": 2,
+  "items": [
+    {
+      "kind": "news",
+      "id": "2026-10-28-eaeu-tr-cu-009-decision-74-effective",
+      "type": "regulation",
+      "date": "2026-10-28",
+      "title": "欧亚五国美妆禁限用清单生效（ТР ТС 009）",
+      "summary": "欧亚经济委员会确认：理事会第74号对ТР ТС 009/2011的多数修订今天起生效，禁限用等清单按新表执行；此前已办声明/СГР仍可用到原到期日。甲醛警示阈值仍到2027-01-01才降到0.001%。",
+      "body_text": "卖俄罗斯、哈萨克斯坦、白俄罗斯、亚美尼亚、吉尔吉斯斯坦的美妆注意：今天（2026-10-28）起，欧亚经济联盟化妆品技术法规 ТР ТС 009/2011 按理事会 第74号决定 的多数修订执行。欧亚经济委员会 10月27日 发了生效确认稿，和决定文本一致。\n\n本站此前已写过细则：欧亚五国化妆品法规 10月28日起改禁限用清单 (/news/2025-09-12-eaeu-tr-cu-009-decision-74/)。今天这篇只强调「已生效」和卖家现在该盯什么。\n\n改了什么（今天起算）\n\n- 禁限用、着色剂、防腐剂、防晒剂等清单按新表\n新办符合性声明、国家注册证（СГР），以及到期换证、改配方，都要按第74号更新后的附件过一遍。踩到新禁用或超限用的，不能再按旧表申报。\n\n- 老证书不用今天作废\n2026-10-28 前办妥的声明/СГР，有效到原到期日，期内可继续生产、投放；已上架货可卖到保质期结束。别因为「法规改了」就一窝蜂重办。\n\n- 甲醛警示还不在今天\n「含甲醛」类警示阈值从 0.05% → 0.001% 仍是 2027-01-01 才执行。含甲醛释放体防腐的 SKU，留给改标的窗口还有大约两个月。\n\n影响谁\n\n- Ozon / Wildberries 及哈萨克等联盟市场的中国美妆品牌、工厂店、跨境店：今天起新办或换证必须对新表；老证还能撑，但配方命中新禁限用的要尽早排换料。\n\n- 只卖欧盟/东盟、不进欧亚五国的：这条与你无关。\n\n现在该做什么\n\n- 拿现行配方对照第74号附件（禁限用等），有命中的排换料或停售。\n\n- 盘点声明/СГР 到期日：能撑过旺季就别急着重办；临近到期的按新表准备检测与申报。\n\n- 含甲醛释放体的产品：年底前改好俄文（及当地语）标签，避免 2027 年一刀切。\n\n- 平台侧证书、税号、诚信标志等材料规则没松，别只盯成分表。\n\n官方确认：委员会今日生效新闻 (https://eec.eaeunion.org/news/28-oktyabrya-2026-goda-vstupayut-v-silu-izmeneniya-v-tekhreglament-na-parfyumerno-kosmeticheskuyu-pr/)、理事会第74号决定文档 (https://docs.eaeunion.org/documents/447/10246/)。",
+      "markets": [
+        "am",
+        "by",
+        "kg",
+        "kz",
+        "ru"
+      ],
+      "platforms": [
+        "ozon",
+        "wildberries"
+      ],
+      "tags": [
+        "ingredients",
+        "labeling",
+        "compliance"
+      ],
+      "source_url": "https://eec.eaeunion.org/news/28-oktyabrya-2026-goda-vstupayut-v-silu-izmeneniya-v-tekhreglament-na-parfyumerno-kosmeticheskuyu-pr/",
+      "source_name": "欧亚经济委员会新闻（2026-10-27）",
+      "checked": "2026-10-28",
+      "needs_review": false,
+      "sample": false,
+      "key_date": {
+        "date": "2026-10-28",
+        "label": "多数修订生效"
+      },
+      "page": "/news/2026-10-28-eaeu-tr-cu-009-decision-74-effective/"
+    },
+    {
+      "kind": "news",
+      "id": "2025-09-12-eaeu-tr-cu-009-decision-74",
+      "type": "regulation",
+      "date": "2025-09-12",
+      "title": "欧亚五国化妆品法规 10月28日起改禁限用清单：老证书还能用到过期，甲醛警示门槛 2027 年收紧到 0.001%",
+      "summary": "理事会第74号决定修订欧亚化妆品法规ТР ТС 009/2011：10月28日起禁限用等清单更新（附件1新增14种禁用物质）；此前已发的符合性声明/国家注册证可沿用至到期。甲醛警示阈值从2027-01-01起由0.05%降至0.001%。",
+      "body_text": "卖俄罗斯、哈萨克斯坦、白俄罗斯、亚美尼亚、吉尔吉斯斯坦的美妆，合规底线是 ТР ТС 009/2011（香水化妆品安全技术法规）。欧亚经济委员会理事会 2025年9月12日第74号决定 改了这份法规：多数条款 2026年10月28日生效（官方公布日 2025-10-28，满 12 个月）；其中 甲醛警示阈值 延后到 2027年1月1日。\n\n委员会官网新闻、文档库条目与 КонсультантПлюс 对禁限用清单的复述相互印证。\n\n改了什么\n\n- 禁限用、着色剂、防腐剂、防晒剂等清单更新\n附件 1 禁用表新增 14 种物质（序号 1681–1694），其中包括四氟乙烯、3-甲基吡唑、甲基异丁基酮（MIBK）、烯酰吗啉、咪草烟、噻虫嗪等。允许但受限的成分表也同步调整。卖欧亚五国的配方，要按新表过一遍。\n\n- 老证书不用立刻重办\n委员会管理委员会 2026年3月10日第31号决定写明：\n\n- 2026-10-28 前 办好的符合性声明、国家注册证（СГР），有效到原到期日\n\n- 在有效期内可继续生产、投放市场\n\n- 已投放的货可卖到 保质期结束\n注意：此前已单独处理过的「长期有效」国家注册证，不按这次过渡条款重开口子。\n\n- 甲醛警示门槛大幅收紧（2027-01-01）\n现在：成品理论甲醛浓度 超过 0.05% 才要在标签写「含甲醛」类警示。\n2027年1月1日起：阈值降到 0.001%（10 ppm）——用甲醛释放体防腐的配方，很多以前不用标的也要改标。\n\n影响谁\n\n- 做俄站 Ozon / Wildberries、以及哈萨克等联盟市场的中国美妆品牌和工厂店：配方里若踩到新禁限用物质，新办声明/注册按新表；老证还能撑一阵，但到期换证、改配方就要对齐新清单。\n\n- 含甲醛释放体（如部分防腐体系）的产品：留给改标的窗口到 2026 年底，2027 年起按 0.001% 执行。\n\n- 只卖欧盟/东盟、不进欧亚五国的卖家：这条跟你无关。\n\n现在该做什么\n\n- 本周：拿现行配方对照附件 1 新增 14 项（以及同步修订的限用/着色剂/防腐剂/防晒剂表），有命中的排换料或停售计划。\n\n- 盘点在用声明/СГР 到期日：能撑过旺季就别急着重办；临近到期的按新表准备检测与申报。\n\n- 含甲醛释放体的 SKU：2026 年底前改好俄文（及当地语）标签文案与印刷，避免 2027 年一刀切下架。\n\n- Ozon/WB 上架仍要证书、ТН ВЭД、诚信标志等平台材料齐——法规清单变了，平台卡证规则没松。\n\n官方入口： 理事会第 74 号决定文档页 (https://docs.eaeunion.org/documents/447/10246/)、委员会英文新闻（过渡安排） (https://eec.eaeunion.org/en/news/ustanovlen-poryadok-vvedeniya-v-deystvie-izmeneniy-tekhreglamenta-na-parfyumerno-kosmeticheskuyu-pro/)、委员会俄语新闻（甲醛阈值） (https://eec.eaeunion.org/news/sovet-eek-prinyal-izmeneniya-v-tekhnicheskiy-reglament-na-parfyumerno-kosmeticheskuyu-produktsiyu/)。",
+      "markets": [
+        "am",
+        "by",
+        "kg",
+        "kz",
+        "ru"
+      ],
+      "platforms": [
+        "ozon",
+        "wildberries"
+      ],
+      "tags": [
+        "ingredients",
+        "labeling",
+        "compliance"
+      ],
+      "source_url": "https://docs.eaeunion.org/documents/447/10246/",
+      "source_name": "欧亚经济委员会理事会第 74 号决定（ТР ТС 009/2011 修订）",
+      "checked": "2026-10-26",
+      "needs_review": false,
+      "sample": false,
+      "key_date": {
+        "date": "2026-10-28",
+        "label": "多数修订生效"
+      },
+      "page": "/news/2025-09-12-eaeu-tr-cu-009-decision-74/"
+    }
+  ]
+}

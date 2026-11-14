@@ -1,0 +1,83 @@
+{
+  "api": "yuanshan-channel/v1",
+  "access": "public-read",
+  "auth": null,
+  "generated": "2026-10-26",
+  "disclaimer": "每条资讯都附来源链接。标了「待核实」的条目来自媒体或第三方转述，引用前打开原文。费用、排名和法规以官方页面为准。",
+  "kind": "compliance",
+  "id": "am",
+  "name_zh": "亚美尼亚",
+  "region": "俄语区",
+  "region_slug": "cis",
+  "page": "/compliance/am/",
+  "market": {
+    "country": "am",
+    "name_zh": "亚美尼亚",
+    "flag": "🇦🇲",
+    "region": "俄语区",
+    "difficulty": 3,
+    "summary": "欧亚成员，适用ТР ТС 009/2011；第74号决定多数修订2026-10-28生效。",
+    "items": [
+      {
+        "id": "am-member",
+        "name_zh": "联盟成员适用同一法规",
+        "authority": "欧亚经济联盟",
+        "type": "registration",
+        "mandatory": true,
+        "cost": "未知",
+        "time": "未知",
+        "docs": [],
+        "who": "联盟成员国",
+        "note": "官网列明五国成员：亚美尼亚、白俄罗斯、哈萨克斯坦、吉尔吉斯斯坦、俄罗斯",
+        "official_url": "https://www.eaeunion.org/?lang=en",
+        "source_checked": "2026-10-24",
+        "needs_review": false
+      },
+      {
+        "id": "am-tr",
+        "name_zh": "化妆品技术法规 ТР ТС 009",
+        "authority": "欧亚经济委员会",
+        "type": "registration",
+        "mandatory": true,
+        "cost": "未知",
+        "time": "未知",
+        "docs": [],
+        "who": "联盟内申请人",
+        "note": "2012-07-01起生效。第74号多数修订2026-10-28生效；老证用至到期。",
+        "official_url": "https://eec.eaeunion.org/comission/department/deptexreg/tr/bezopParfum.php",
+        "source_checked": "2026-10-28",
+        "needs_review": false
+      },
+      {
+        "id": "am-hs",
+        "name_zh": "HS 编码与关税",
+        "authority": "欧亚经济委员会",
+        "type": "tax-customs",
+        "mandatory": true,
+        "cost": "未知",
+        "time": "未知",
+        "docs": [],
+        "who": "进口商",
+        "note": "税号未抄录。俄罗斯诚信标志不自动套用到本国。",
+        "official_url": "https://eec.eaeunion.org/comission/department/deptexreg/tr/bezopParfum.php",
+        "source_checked": "2026-10-24",
+        "needs_review": true
+      }
+    ],
+    "steps": [
+      {
+        "title": "确认联盟法规",
+        "type": "registration"
+      },
+      {
+        "title": "清关",
+        "type": "tax-customs"
+      }
+    ],
+    "last_verified": "2026-10-28",
+    "hs_codes": {
+      "status": "pending",
+      "items": []
+    }
+  }
+}

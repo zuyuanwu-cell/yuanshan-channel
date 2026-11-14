@@ -1,0 +1,104 @@
+{
+  "api": "yuanshan-channel/v1",
+  "access": "public-read",
+  "auth": null,
+  "generated": "2026-10-26",
+  "disclaimer": "每条资讯都附来源链接。标了「待核实」的条目来自媒体或第三方转述，引用前打开原文。费用、排名和法规以官方页面为准。",
+  "kind": "compliance",
+  "id": "bn",
+  "name_zh": "文莱",
+  "region": "东南亚",
+  "region_slug": "southeast-asia",
+  "page": "/compliance/bn/",
+  "market": {
+    "country": "bn",
+    "name_zh": "文莱",
+    "flag": "🇧🇳",
+    "region": "东南亚",
+    "difficulty": 2,
+    "summary": "卫生部官网已打开。东盟化妆品指令是否在本国落地，本次未核对。",
+    "items": [
+      {
+        "id": "bn-entry",
+        "name_zh": "化妆品监管入口",
+        "authority": "卫生部",
+        "type": "registration",
+        "mandatory": false,
+        "cost": "未知",
+        "time": "未知",
+        "docs": [],
+        "who": "进口商",
+        "note": "不能直接套用新加坡的通报规则。注册路径未核对。",
+        "official_url": "https://www.moh.gov.bn/",
+        "source_checked": "2026-10-24",
+        "needs_review": true
+      },
+      {
+        "id": "bn-hs",
+        "name_zh": "HS 编码与关税",
+        "authority": "目的国海关",
+        "type": "tax-customs",
+        "mandatory": true,
+        "cost": "未知",
+        "time": "未知",
+        "docs": [],
+        "who": "进口商",
+        "note": "链接不是税则。税号和税率未抄录。",
+        "official_url": "https://www.moh.gov.bn/",
+        "source_checked": "2026-10-24",
+        "needs_review": true
+      },
+      {
+        "id": "bn-bp3-limit",
+        "name_zh": "二苯酮-3 限量",
+        "authority": "东盟化妆品指令 ACD",
+        "type": "safety",
+        "mandatory": true,
+        "cost": "未知",
+        "time": "未知",
+        "docs": [
+          "全成分表",
+          "标签"
+        ],
+        "who": "品牌方/通报持有人",
+        "note": "2026-11-15起新老产品：面/手/唇≤6%、身体及喷雾≤2.2%、其他≤0.5%，须标注 Contains Benzophenone-3；超限须撤市。",
+        "official_url": "https://www.npra.gov.my/images/Guidelines_Central/Guidelines_on_Cosmetic/Annex_VII_release_-_12_December_2025.pdf",
+        "source_checked": "2026-11-01",
+        "needs_review": false
+      },
+      {
+        "id": "bn-benzophenone-ban",
+        "name_zh": "二苯甲酮禁用",
+        "authority": "东盟化妆品指令 ACD / 各国主管机关",
+        "type": "safety",
+        "mandatory": true,
+        "cost": "未知",
+        "time": "未知",
+        "docs": [
+          "全成分表",
+          "原料 CAS/COA"
+        ],
+        "who": "品牌方/通报持有人",
+        "note": "2026-11-19起禁二苯甲酮(Benzophenone,CAS119-61-9)；勿与BP3限量混淆。",
+        "official_url": "https://asean.org/wp-content/uploads/2026/07/Annex-II-Release_22nd-June-2026-clean.pdf",
+        "source_checked": "2026-11-03",
+        "needs_review": false
+      }
+    ],
+    "steps": [
+      {
+        "title": "核对监管入口",
+        "type": "registration"
+      },
+      {
+        "title": "清关",
+        "type": "tax-customs"
+      }
+    ],
+    "last_verified": "2026-11-03",
+    "hs_codes": {
+      "status": "pending",
+      "items": []
+    }
+  }
+}
