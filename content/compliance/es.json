@@ -18,7 +18,7 @@
       "who": "责任人",
       "note": "CPNP通报一次后，欧盟内不必再做国别产品通报。法规正文本次超时。",
       "official_url": "https://single-market-economy.ec.europa.eu/sectors/cosmetics/cosmetic-product-notification-portal_en",
-      "source_checked": "2026-10-24",
+      "source_checked": "2026-11-16",
       "needs_review": true
     },
     {
@@ -33,7 +33,7 @@
       "who": "在西班牙销售的责任企业",
       "note": "最短保存期、标称含量、特殊使用注意和产品功能须用西班牙语。",
       "official_url": "https://www.aemps.gob.es/cosmeticos/garantias-sanitarias-de-los-productos-cosmeticos/garantias-sanitarias/",
-      "source_checked": "2026-10-24",
+      "source_checked": "2026-11-16",
       "needs_review": true
     },
     {
@@ -48,7 +48,7 @@
       "who": "在西制造者或从第三国进口者",
       "note": "在西班牙实际制造、灌装或贴标，以及从非欧盟进口，开始前须提交。只翻译标签的品牌方页面写明不必交。",
       "official_url": "https://www.aemps.gob.es/preguntas-y-respuestas-mas-frecuentes-sobre-la-declaracion-responsable-de-actividades-de-fabricacion-y-o-importacion-de-productos-cosmeticos/",
-      "source_checked": "2026-10-24",
+      "source_checked": "2026-11-16",
       "needs_review": true
     },
     {
@@ -63,7 +63,7 @@
       "who": "化妆品经营者",
       "note": "AEMPS代表西班牙参加欧盟化妆品监管与科学委员会。自治区共同监管。",
       "official_url": "https://www.aemps.gob.es/cosmeticos/garantias-sanitarias-de-los-productos-cosmeticos/papel-de-las-autoridades-sanitarias/",
-      "source_checked": "2026-10-24",
+      "source_checked": "2026-11-16",
       "needs_review": true
     }
   ],
@@ -81,7 +81,7 @@
       "type": "registration"
     }
   ],
-  "last_verified": "2026-10-24",
+  "last_verified": "2026-11-16",
   "hs_codes": {
     "status": "ready",
     "items": [
