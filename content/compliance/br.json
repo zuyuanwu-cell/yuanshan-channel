@@ -43,6 +43,21 @@
       "needs_review": false
     },
     {
+      "id": "br-aladi-20-decreto-13169",
+      "name_zh": "ALADI第20号协定国内程序（跟踪）",
+      "authority": "MDIC / ANVISA",
+      "type": "registration",
+      "mandatory": false,
+      "cost": "尚未适用",
+      "time": "须再有一个签署国向ALADI秘书处完成通知，满60日才适用",
+      "docs": [],
+      "who": "拟进入巴西或把巴西作为拉美枢纽的化妆品企业",
+      "note": "11-17第13.169号法令率先完成国内程序；再有一国通知ALADI并满60日才适用。现行ANVISA程序不变。",
+      "official_url": "https://www.gov.br/mdic/pt-br/assuntos/noticias/2026/novembro/acordo-facilita-exportacoes-brasileiras-de-cosmeticos-e-reduz-obstaculos-ao-comercio-na-america-latina",
+      "source_checked": "2026-11-19",
+      "needs_review": true
+    },
+    {
       "id": "br-label",
       "name_zh": "葡萄牙语标签",
       "authority": "ANVISA",
