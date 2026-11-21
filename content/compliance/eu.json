@@ -58,9 +58,9 @@
         "RP 信息"
       ],
       "who": "RP",
-      "note": "一次通报全欧盟有效；含纳米须另报。Omnibus VI 拟取消纳米「提前6个月」通报要求（待理事会通过后生效）。",
+      "note": "一次通报全欧盟有效；含纳米须另报。理事会11-19通过Omnibus VI，取消提前6个月，须OJ公布满20日生效。",
       "official_url": "https://single-market-economy.ec.europa.eu/sectors/cosmetics/cosmetic-product-notification-portal_en",
-      "source_checked": "2026-10-24",
+      "source_checked": "2026-11-21",
       "needs_review": true
     },
     {
@@ -96,9 +96,24 @@
         "配方逐项比对附件 II–VI"
       ],
       "who": "品牌/RP",
-      "note": "2026/909铝等限量2027-01起；SCCS：VitK1氧化物≤1%不安全（征求至2027-01-11）；Omnibus VI待定。",
+      "note": "2026/909铝等2027-01起；SCCS：VitK1氧化物≤1%不安全。Omnibus VI已11-19通过，CMR清货期待OJ生效。",
       "official_url": "https://ec.europa.eu/growth/tools-databases/cosing/",
-      "source_checked": "2026-11-06",
+      "source_checked": "2026-11-21",
+      "needs_review": true
+    },
+    {
+      "id": "eu-omnibus-vi-cmr-transition",
+      "name_zh": "Omnibus VI CMR清货期（跟踪）",
+      "authority": "欧盟理事会 / 欧洲议会",
+      "type": "safety",
+      "mandatory": false,
+      "cost": "尚未生效",
+      "time": "官方公报公布后第20日生效",
+      "docs": [],
+      "who": "在欧盟投放或销售化妆品的品牌、RP、跨境卖家",
+      "note": "理事会11-19终审通过；未申请豁免清货6/12个月。须OJ公布满20日生效，现行义务不变。",
+      "official_url": "https://www.consilium.europa.eu/en/policies/chemicals/",
+      "source_checked": "2026-11-21",
       "needs_review": true
     },
     {
