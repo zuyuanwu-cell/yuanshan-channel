@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>远山频道 · 老挝</title>
+    <link>https://ys.tongzhoukuajing.com/subscribe/?markets=la&amp;types=regulation</link>
+    <description>每条资讯都附来源链接。标了「待核实」的条目来自媒体或第三方转述，引用前打开原文。费用、排名和法规以官方页面为准。 公开只读，不是法律意见，也不代替来源原文。</description>
+    <language>zh-CN</language>
+    <lastBuildDate>Mon, 26 Oct 2026 12:00:00 GMT</lastBuildDate>
+    <atom:link xmlns:atom="http://www.w3.org/2005/Atom" href="https://ys.tongzhoukuajing.com/v1/markets/la/types/regulation.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>东盟化妆品禁用二苯甲酮 11-19 到期：别跟二苯酮-3搞混，含就得撤</title>
+      <link>https://ys.tongzhoukuajing.com/news/2026-11-03-asean-benzophenone-ban-nov-19/</link>
+      <guid isPermaLink="false">2026-11-03-asean-benzophenone-ban-nov-19</guid>
+      <pubDate>Tue, 03 Nov 2026 12:00:00 GMT</pubDate>
+      <description>ACD 附录 II Ref.1703 把二苯甲酮（Benzophenone，CAS 119-61-9，致癌分类 Carc.1B）列入禁用；菲 FDA 2026-0001 写明过渡期至 2026-11-19，届时不合规须撤市。这不是二苯酮-3（BP3）限量那条。</description>
+    </item>
+    <item>
+      <title>东南亚防晒/彩妆注意：11月15日起二苯酮-3（BP3）超限货须下架，标签要加警示</title>
+      <link>https://ys.tongzhoukuajing.com/news/2026-11-01-asean-benzophenone-3-limit-nov-15/</link>
+      <guid isPermaLink="false">2026-11-01-asean-benzophenone-3-limit-nov-15</guid>
+      <pubDate>Sun, 01 Nov 2026 12:00:00 GMT</pubDate>
+      <description>东盟附录VII：2026-11-15起二苯酮-3（Oxybenzone）面部/手/唇产品≤6%、身体及喷雾≤2.2%、其他≤0.5%，并须标注含二苯酮-3；新老产品都适用，超限须撤出市场。</description>
+    </item>
+  </channel>
+</rss>

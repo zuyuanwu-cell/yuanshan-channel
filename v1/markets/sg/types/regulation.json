@@ -1,0 +1,162 @@
+{
+  "api": "yuanshan-channel/v1",
+  "access": "public-read",
+  "auth": null,
+  "generated": "2026-10-26",
+  "disclaimer": "每条资讯都附来源链接。标了「待核实」的条目来自媒体或第三方转述，引用前打开原文。费用、排名和法规以官方页面为准。",
+  "kind": "feed",
+  "id": "sg/regulation",
+  "title": "新加坡",
+  "markets": [
+    "sg"
+  ],
+  "types": [
+    "regulation"
+  ],
+  "filter": {
+    "markets": [
+      "sg"
+    ],
+    "types": [
+      "regulation"
+    ],
+    "include_global": false
+  },
+  "count": 4,
+  "items": [
+    {
+      "kind": "news",
+      "id": "2026-11-03-asean-benzophenone-ban-nov-19",
+      "type": "regulation",
+      "date": "2026-11-03",
+      "title": "东盟化妆品禁用二苯甲酮 11-19 到期：别跟二苯酮-3搞混，含就得撤",
+      "summary": "ACD 附录 II Ref.1703 把二苯甲酮（Benzophenone，CAS 119-61-9，致癌分类 Carc.1B）列入禁用；菲 FDA 2026-0001 写明过渡期至 2026-11-19，届时不合规须撤市。这不是二苯酮-3（BP3）限量那条。",
+      "body_text": "做 东南亚美妆 的注意：再过两周还有一条硬禁用，很多人会跟 二苯酮-3（BP3）11-15 限量 (/news/2026-11-01-asean-benzophenone-3-limit-nov-15/) 搞混。\n\n这次禁的是 二苯甲酮（INCI/英文 Benzophenone，CAS 119-61-9），东盟化妆品指令（ACD）附录 II（禁用物质表）Ref. No. 1703，分类标注 Carc. 1B。菲律宾 FDA Circular No.2026-0001 的附件 A 写明过渡期 24 个月，至 2026年11月19日：起只能卖合规产品，不合规须撤出市场。同日还有 BHT 限量 (/news/2026-11-03-ph-fda-bht-limit-nov-19/) 到期，配方表建议一起扫。\n\n改了什么\n\n项目\n内容\n\n物质\nBenzophenone（二苯甲酮），CAS 119-61-9\n\n规则\n列入 ACD 附录 II（不得作为化妆品成分）\n\n编号\nRef. 1703\n\n节点\n2026-11-19 起不合规不得上架、须撤市（菲 FDA 2026-0001 Annex A）\n\n不要跟这两条搞混：\n\n- 二苯酮-3 / Benzophenone-3 / Oxybenzone（CAS 131-57-7）——附录 VII 限量 + 标签，节点是 11-15，见站内 BP3 稿。\n\n- 二苯甲酮 / Benzophenone（CAS 119-61-9）——附录 II 整条禁用，节点是 11-19，就是本条。\n\n名字都带 benzophenone，CAS 和附件完全不同。配方表、ERP、质检单请按 CAS 筛，别只搜英文半截词。\n\n泰国起初曾标注例外，菲通告正文记载泰国后续同意按东盟同一过渡期（2026-11-19）执行；东盟秘书处 2026-06-22 版附录 II 条目 1703 未再写 Except Thailand。泰国店铺仍建议再对一下泰国 FDA 最新通报页。\n\n影响谁\n\n- 在新加坡、马来西亚、泰国、印尼、菲律宾、越南等东盟市场卖护肤、防晒、彩妆、香氛的品牌与跨境店（Shopee / Lazada / TikTok Shop）\n\n- OEM/配方商：二苯甲酮常出现在香精、溶剂、光稳定相关原料里，不一定写在「防晒剂」栏\n\n- 采购与质检：要按 CAS 119-61-9 查原料 COA / SDS，不能只看商品中文名\n\n意味着什么、现在注意什么\n\n- 11-19 前：含 Benzophenone（119-61-9）的在售 SKU 完成换料或撤架；库存按国家撤市要求消化，别赌平台不抽检。\n\n- 和 11-15 的 BP3 限量、11-19 的 BHT 限量 分开建清单，三张表别并成一张「benzophenone 相关」糊过去。\n\n- 改配方后按各国规则更新通报（CPN / notification）与 PIF。\n\n- 欧线：欧盟对 Benzophenone 亦有 CMR/禁用路径，东盟这条是东南亚落地节点，欧线另按欧盟法规核。\n\n证据（核对日期 2026-11-03）\n\n东盟秘书处官网附录 II 第 95 页可见 Benzophenone / 119-61-9 / 1703：\n\n菲律宾 FDA Circular 2026-0001 附件 A 第 4 页写明该条 Grace Period: 19 November 2026：\n\n来源\n\n- 东盟秘书处 · ACD Annex II（Version 2026-1, 22 June 2026） (https://asean.org/wp-content/uploads/2026/07/Annex-II-Release_22nd-June-2026-clean.pdf)\n\n- Philippines FDA · FDA Circular No.2026-0001 (https://www.fda.gov.ph/fda-circular-no-2026-0001-consolidated-amendments-to-the-asean-cosmetic-directive-acd-as-adopted-during-the-40th-to-42nd-asean-cosmetic-committee-acc-meeting-and-their-related-meetings/)（附件 A PDF：Consolidated ACD Amendments (https://www.fda.gov.ph/wp-content/uploads/2026/05/Annex-A-Consolidated-ACD-Amendments-40th-42nd.pdf)）\n\n- 站内对照：二苯酮-3 限量 11-15 (/news/2026-11-01-asean-benzophenone-3-limit-nov-15/)、菲律宾 BHT 限量 11-19 (/news/2026-11-03-ph-fda-bht-limit-nov-19/)、菲 FDA 2026-0001 概述 (/news/2026-02-15-ph-fda-circular-2026-0001-acd/)",
+      "markets": [
+        "bn",
+        "id",
+        "kh",
+        "la",
+        "my",
+        "ph",
+        "sg",
+        "th",
+        "vn"
+      ],
+      "platforms": [
+        "shopee",
+        "lazada",
+        "tiktok-shop"
+      ],
+      "tags": [
+        "ingredients",
+        "compliance"
+      ],
+      "source_url": "https://asean.org/wp-content/uploads/2026/07/Annex-II-Release_22nd-June-2026-clean.pdf",
+      "source_name": "东盟秘书处 · ACD 附录 II（2026-06-22 版）",
+      "checked": "2026-11-03",
+      "needs_review": false,
+      "sample": false,
+      "key_date": {
+        "date": "2026-11-19",
+        "label": "二苯甲酮禁用执行"
+      },
+      "page": "/news/2026-11-03-asean-benzophenone-ban-nov-19/"
+    },
+    {
+      "kind": "news",
+      "id": "2026-11-01-asean-benzophenone-3-limit-nov-15",
+      "type": "regulation",
+      "date": "2026-11-01",
+      "title": "东南亚防晒/彩妆注意：11月15日起二苯酮-3（BP3）超限货须下架，标签要加警示",
+      "summary": "东盟附录VII：2026-11-15起二苯酮-3（Oxybenzone）面部/手/唇产品≤6%、身体及喷雾≤2.2%、其他≤0.5%，并须标注含二苯酮-3；新老产品都适用，超限须撤出市场。",
+      "body_text": "做 东南亚美妆 的卖家，两周后有一条硬线：东盟化妆品指令（ACD）附录 VII 对防晒剂 二苯酮-3（Benzophenone-3，又叫 Oxybenzone，CAS 131-57-7）收紧用量，2026年11月15日 起 新品和已在售的老品一律适用。东盟当年给了 36 个月过渡期，菲律宾 FDA 的公告写明：到期后只有合规产品能在市场上卖，不合规的要撤出市场。限量依据见 马来西亚 NPRA 发布的附录 VII (https://www.npra.gov.my/images/Guidelines_Central/Guidelines_on_Cosmetic/Annex_VII_release_-_12_December_2025.pdf)，东盟秘书处官网也有 同一版本 (https://asean.org/wp-content/uploads/2026/04/Annex-VII_Release_12th-December-2025-clean.pdf)。\n\n改了什么\n\n产品\n二苯酮-3 上限\n\n面部、手部、唇部产品（不含气雾/泵喷）\n6%\n\n身体产品（含气雾、泵喷）\n2.2%\n\n其他产品\n0.5%\n\n- 如果另加 0.5% 只是为了保护配方（防变色），那作为防晒剂的部分在面/手/唇产品里不能超过 5.5%，身体产品里不能超过 1.7%。\n\n- 标签必须写明 「Contains Benzophenone-3」（含二苯酮-3）。\n\n这其实就是照搬欧盟的现行限量，欧盟早已执行。\n\n影响谁\n\n- 防晒霜、防晒喷雾、带 SPF 的粉底/隔离/唇膏：老配方里二苯酮-3 用到 6% 以上、或者身体防晒喷雾超过 2.2% 的，最受影响。\n\n- 在 Shopee、Lazada、TikTok Shop 东南亚站卖防晒的跨境店和本地仓卖家：新加坡、马来西亚、泰国、印尼、菲律宾、越南等东盟成员国都按 ACD 执行。\n\n- 给东南亚客户做 OEM 的国内工厂：客户会回头要配方确认和新标签。\n\n- 已经按欧盟配方做的产品，一般本来就合规。\n\n现在该做什么\n\n- 翻一遍在售 SKU 的全成分表，找 Benzophenone-3 / Oxybenzone，核对实际添加量和产品类型对应的上限。\n\n- 超限的：停止补货，库存在 11 月 15 日前清掉或撤下，换配方后再上。\n\n- 没超限但含二苯酮-3 的：检查包装上有没有「Contains Benzophenone-3」，没有就要改标签或加贴。\n\n- 改配方的产品，按各国规定更新通报资料（比如新加坡、马来西亚的通报信息、产品信息档案 PIF）。\n\n大促期间被平台或监管抽到超限，可能就是整款下架，比提前换配方贵得多。",
+      "markets": [
+        "bn",
+        "id",
+        "kh",
+        "la",
+        "my",
+        "ph",
+        "sg",
+        "th",
+        "vn"
+      ],
+      "platforms": [
+        "shopee",
+        "lazada",
+        "tiktok-shop"
+      ],
+      "tags": [
+        "ingredients",
+        "compliance",
+        "labeling"
+      ],
+      "source_url": "https://www.npra.gov.my/images/Guidelines_Central/Guidelines_on_Cosmetic/Annex_VII_release_-_12_December_2025.pdf",
+      "source_name": "马来西亚 NPRA · 东盟化妆品指令附录 VII（2025-12-12 版）",
+      "checked": "2026-11-01",
+      "needs_review": false,
+      "sample": false,
+      "key_date": {
+        "date": "2026-11-15",
+        "label": "超限下架"
+      },
+      "page": "/news/2026-11-01-asean-benzophenone-3-limit-nov-15/"
+    },
+    {
+      "kind": "news",
+      "id": "2026-06-22-asean-cosmetic-annex-update",
+      "type": "regulation",
+      "date": "2026-06-22",
+      "title": "东盟化妆品指令附件 6月22日更新，新加坡 HSA 同步执行",
+      "summary": "东盟化妆品指令（ACD）禁用、限用、色素、防腐剂、防晒剂附件 6月22日发布新版；新加坡通报每年要重新提交一次。",
+      "body_text": "- ACD 附件 II（禁用）、III（限用）、IV（色素）、VI（防腐剂）、VII（防晒剂）发布 2026年6月22日版\n\n- 新加坡供货前要先核对附件，再在 PRISM 系统通报\n\n- 通报 有效 1 年，每年重新通报\n\n马来西亚、泰国、越南、印尼等东盟国家同样以 ACD 为基础。",
+      "markets": [
+        "sg"
+      ],
+      "platforms": [],
+      "tags": [
+        "ingredients",
+        "compliance"
+      ],
+      "source_url": "https://www.hsa.gov.sg/cosmetic-products/asean-cosmetic-directive/",
+      "source_name": "HSA",
+      "checked": "2026-10-23",
+      "needs_review": false,
+      "sample": false,
+      "key_date": null,
+      "page": "/news/2026-06-22-asean-cosmetic-annex-update/"
+    },
+    {
+      "kind": "news",
+      "id": "2025-11-28-sg-hsa-acd-amendment-s768",
+      "type": "regulation",
+      "date": "2025-11-28",
+      "title": "新加坡修订化妆品 ACD 附属条例，2025年12月1日生效",
+      "summary": "《Health Products (Cosmetic Products — ACD) (Amendment) Regulations 2025》（S 768/2025）修订第三附表，自 2025年12月1日起施行。",
+      "body_text": "新加坡卫生科学局（HSA）经卫生部长批准，制定 S 768/2025，修订 2007 年化妆品（东盟化妆品指令）条例的第三附表，2025年12月1日起生效。\n\n条例正文由 Singapore Statutes Online 公布。经销商仍须在 PRISM 完成产品通知/续通知，并自行保证成分与标签符合最新 ACD 附件。通知回执不等于 HSA 对产品安全的背书。",
+      "markets": [
+        "sg"
+      ],
+      "platforms": [
+        "shopee",
+        "amazon-sg",
+        "lazada"
+      ],
+      "tags": [
+        "ingredients",
+        "compliance"
+      ],
+      "source_url": "https://sso.agc.gov.sg/SL-Supp/S768-2025/Published/20251128?DocDate=20251128",
+      "source_name": "Singapore Statutes Online",
+      "checked": "2026-10-23",
+      "needs_review": false,
+      "sample": false,
+      "key_date": {
+        "date": "2025-12-01",
+        "label": "生效"
+      },
+      "page": "/news/2025-11-28-sg-hsa-acd-amendment-s768/"
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "api": "yuanshan-channel/v1",
+  "access": "public-read",
+  "auth": null,
+  "generated": "2026-10-26",
+  "disclaimer": "每条资讯都附来源链接。标了「待核实」的条目来自媒体或第三方转述，引用前打开原文。费用、排名和法规以官方页面为准。",
+  "kind": "feed",
+  "id": "tw/rules+regulation",
+  "title": "中国台湾",
+  "markets": [
+    "tw"
+  ],
+  "types": [
+    "rules",
+    "regulation"
+  ],
+  "filter": {
+    "markets": [
+      "tw"
+    ],
+    "types": [
+      "rules",
+      "regulation"
+    ],
+    "include_global": false
+  },
+  "count": 1,
+  "items": [
+    {
+      "kind": "news",
+      "id": "2026-10-26-shopee-tw-delete-inactive-listings",
+      "type": "rules",
+      "date": "2026-10-26",
+      "title": "Shopee 台湾站今天起清理「僵尸」未上架商品：超一年未上架且零销量会被删，删了不能恢复",
+      "summary": "10月26日起，台湾站会陆续删除同时满足「未上架超一年、近一年无编辑、历史销量为0」的商品；已上架或下架未满一年的不受影响，删后卖家中心看不到也无法恢复。",
+      "body_text": "Shopee 台湾站卖家帮助中心写明：为清理长期停售资料，系统预计自 2026年10月26日 起陆续删除「僵尸」未上架商品。三条要同时满足才会动刀。\n\n改了什么\n\n符合以下 全部 条件的商品会被删除：\n\n- 持续处于「未上架」超过一年\n\n- 近一年没有编辑记录\n\n- 历史售出数量为 0\n\n不会被删的情况：正在上架的商品；下架未满一年；或者上述三条里只要有一条不满足（例如曾经卖出过、最近改过资料）。\n\n删完之后：\n\n- 卖家中心「我的商品」里看不到，也不能重新上架或恢复，平台也不协助恢复\n\n- 平台仍可能因合规、争议等需要保留后台记录\n\n影响谁\n\n- 台湾站本土店、有大量历史未上架草稿的卖家：尤其是做过一波铺货、后来一直停着的美妆/个护 SKU\n\n- 跨境卖家若开了台湾站店铺、后台堆着从未开卖的 listing，也要进「未上架」页看有没有「即將刪除」标签\n\n意味着什么\n\n这是清库存资料，不是禁售美妆。想留链接：在删除开始前（或仍显示「即將刪除」时）重新上架，或至少编辑一次；暂时不卖也建议先导出备份。官方从约 9月24 日起会陆续发系统/邮件提醒。\n\n核对来源：打开上文 source_url（Shopee 台湾卖家教育中心原文，核对于 2026-10-26）。",
+      "markets": [
+        "tw"
+      ],
+      "platforms": [
+        "shopee"
+      ],
+      "tags": [
+        "listing"
+      ],
+      "source_url": "https://seller.shopee.tw/edu/article/27658",
+      "source_name": "Shopee 台湾卖家帮助中心 · 長期未上架商品刪除提醒",
+      "checked": "2026-10-26",
+      "needs_review": false,
+      "sample": false,
+      "key_date": {
+        "date": "2026-10-26",
+        "label": "开始删除"
+      },
+      "page": "/news/2026-10-26-shopee-tw-delete-inactive-listings/"
+    }
+  ]
+}

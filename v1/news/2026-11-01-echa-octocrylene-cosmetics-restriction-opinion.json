@@ -1,0 +1,35 @@
+{
+  "api": "yuanshan-channel/v1",
+  "access": "public-read",
+  "auth": null,
+  "generated": "2026-10-26",
+  "disclaimer": "每条资讯都附来源链接。标了「待核实」的条目来自媒体或第三方转述，引用前打开原文。费用、排名和法规以官方页面为准。",
+  "kind": "news",
+  "item": {
+    "kind": "news",
+    "id": "2026-11-01-echa-octocrylene-cosmetics-restriction-opinion",
+    "type": "regulation",
+    "date": "2026-11-01",
+    "title": "欧盟拟禁含奥克立林的化妆品：ECHA两委员会已点头，防晒配方要提前找替代",
+    "summary": "ECHA 风险评估（RAC）与社会经济分析（SEAC）委员会支持法国提案：成品化妆品含奥克立林（Octocrylene）≥0.001% 即限制上市，提案过渡期 24 个月；10-30 最终意见已交欧盟委员会，还不是正式法规。",
+    "body_text": "做 防晒、带 SPF 的粉底/隔离/唇膏 出口欧洲的品牌和工厂，要开始盯一个成分了：奥克立林（Octocrylene，CAS 6197-30-4）。欧洲化学品管理局（ECHA）2026年10月30日 公布，旗下两个科学委员会都支持法国提出的 REACH 限制提案，意见已经交给欧盟委员会。\n\n先说清楚：现在还只是提案，欧盟现行规则没变，今天在卖的货不受影响。\n\n提案改了什么\n\n- 范围：成品化妆品（按欧盟化妆品法规 1223/2009 定义），只要含奥克立林 ≥0.001%（按重量） 就不能投放欧盟市场。0.001% 基本等于\"不能有\"，不是降限量，而是事实上的禁用。\n\n- 理由：环境风险，不是人体安全。洗澡、游泳时冲进河流、湖泊、海洋和土壤，难降解、会在生物体内累积，还被怀疑会干扰环境中生物的内分泌。\n\n- 过渡期：提案写的是限制生效后 24 个月（据 RPA 对 SEAC 意见的解读 (https://rpaltd.co.uk/news/octocrylene-restriction-seac-final-opinion/)）。最终数字要等欧盟委员会定稿。\n\n- 进度：法国 2025 年 7 月提交 → 公众咨询到 2026-03-24 → RAC 6 月、SEAC 9 月通过 → 10-30 最终意见发布。下一步：欧盟委员会决定是否起草限制案，交成员国 REACH 委员会表决，再经欧洲议会审查。\n\n影响谁\n\n- 防晒类化妆品品牌和代工厂：奥克立林是常用的 UVB 化学防晒剂，也常被拿来稳定阿伏苯宗。配方里有它的，进欧盟的货将来都要改。\n\n- 带防晒功能的彩妆、护肤：SPF 粉底液、BB/CC 霜、隔离、日霜、防晒唇膏，配方单里都要查一遍。\n\n- 只卖国内、美国或东南亚的货：这条只管欧盟，暂不影响。但美国加州已经在管\"海洋友好\"类宣称（见 加州 AB1744 防晒宣称新规 (/news/2026-10-31-california-ab1744-sunscreen-reef-safe-claims/)），奥克立林在环保方向上已经两头受压。\n\n现在该做什么\n\n- 盘点：把在售和在研的欧盟 SKU 配方单过一遍，标出含奥克立林的款和浓度。\n\n- 找替代：换防晒剂不是换个原料那么简单，要重做 SPF 测试、稳定性和安全评估（CPSR），通常要几个月到一年；24 个月过渡期听着长，算上测试和清库存并不宽裕。\n\n- 新品别再用：现在开发、准备 2027–2028 年进欧盟的新防晒，配方阶段就避开奥克立林，省得上市没多久就要改。\n\n- 跟进进度：欧盟委员会出正式草案后，限量、范围和过渡期都可能调整，到时以官方文本为准。",
+    "markets": [
+      "eu"
+    ],
+    "platforms": [],
+    "tags": [
+      "compliance",
+      "ingredients"
+    ],
+    "source_url": "https://www.lovguiden.dk/en/det-offentlige/det-europaeiske-kemikalieagentur/2026-10-30-echa-udvalg-stoetter-forbud-mod-octocrilen-i-kosmetik-over-0001",
+    "source_name": "ECHA 新闻稿（Lovguiden 转载）· 2026-10-30",
+    "checked": "2026-11-01",
+    "needs_review": true,
+    "sample": false,
+    "key_date": {
+      "date": "2026-10-30",
+      "label": "ECHA 意见发布"
+    },
+    "page": "/news/2026-11-01-echa-octocrylene-cosmetics-restriction-opinion/"
+  }
+}

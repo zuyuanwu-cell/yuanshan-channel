@@ -1,0 +1,210 @@
+{
+  "api": "yuanshan-channel/v1",
+  "access": "public-read",
+  "auth": null,
+  "generated": "2026-10-26",
+  "disclaimer": "每条资讯都附来源链接。标了「待核实」的条目来自媒体或第三方转述，引用前打开原文。费用、排名和法规以官方页面为准。",
+  "kind": "feed",
+  "id": "de/rules+regulation+rankings",
+  "title": "德国",
+  "markets": [
+    "de"
+  ],
+  "types": [
+    "rules",
+    "regulation",
+    "rankings"
+  ],
+  "filter": {
+    "markets": [
+      "de"
+    ],
+    "types": [
+      "rules",
+      "regulation",
+      "rankings"
+    ],
+    "include_global": false
+  },
+  "count": 8,
+  "items": [
+    {
+      "kind": "ranking",
+      "id": "amazon-de/2026-11-14",
+      "type": "rankings",
+      "date": "2026-11-14",
+      "title": "Amazon 德国站 · 2026-11-14",
+      "summary": "30 个单品 · Amazon Best Sellers · Beauty (amazon-de) · 部分数据 · 待核实",
+      "markets": [
+        "de"
+      ],
+      "board": "amazon-de",
+      "source_url": "https://www.amazon.de/gp/bestsellers/beauty",
+      "source_name": "Amazon Best Sellers · Beauty (amazon-de)",
+      "needs_review": true,
+      "sample": false,
+      "partial": true,
+      "page": "/rankings/amazon-de/",
+      "detail": "/v1/rankings/amazon-de/2026-11-14.json"
+    },
+    {
+      "kind": "ranking",
+      "id": "amazon-de/2026-11-09",
+      "type": "rankings",
+      "date": "2026-11-09",
+      "title": "Amazon 德国站 · 2026-11-09",
+      "summary": "30 个单品 · Amazon Best Sellers · Beauty (amazon-de) · 部分数据 · 待核实",
+      "markets": [
+        "de"
+      ],
+      "board": "amazon-de",
+      "source_url": "https://www.amazon.de/gp/bestsellers/beauty",
+      "source_name": "Amazon Best Sellers · Beauty (amazon-de)",
+      "needs_review": true,
+      "sample": false,
+      "partial": true,
+      "page": "/rankings/amazon-de/",
+      "detail": "/v1/rankings/amazon-de/2026-11-09.json"
+    },
+    {
+      "kind": "news",
+      "id": "2026-11-07-de-verpackdg-bevollmaechtigter-nov12",
+      "type": "regulation",
+      "date": "2026-11-07",
+      "title": "德国包装法倒计时：境外直邮卖家须在11-12前在LUCID挂上授权代表，美妆纸盒瓶子都算",
+      "summary": "德国《包装法实施法》VerpackDG：无德国住所、直接向德国最终用户卖包装货的境外厂家须指定延伸生产者责任授权代表（Bevollmächtigter）并在LUCID登记。过渡条款§68第2款要求：按旧法已注册的，须在2026-11-12前完成§6第1款第2句规定的变更（含授权代表信息）。",
+      "body_text": "在 Temu 德站、亚马逊欧洲站、独立站直邮 往德国卖 有包装的化妆品、个护 的跨境卖家注意：德国联邦法律文本里写死了一个近在眼前的日子——2026年11月12日。\n\n依据联邦司法部在 gesetze-im-internet.de (https://www.gesetze-im-internet.de/verpackdg/__68.html) 公布的 《包装法实施法》（Verpackungsrecht-Durchführungsgesetz，VerpackDG）§ 68 第 2 款：以前按旧《包装法》§ 9 已经在中央包装登记处（LUCID）注册过的厂家，视为已按新法 § 6 注册；但 § 6 第 1 款第 2 句规定的注册数据变更，必须在 2026年11月12日之前办完。同条第 1 款第 3 句写明：这类变更 尤其包括 延伸生产者责任 授权代表（Bevollmächtigter）的委托变更或终止——也就是说，该挂代表的，要在这个日子前把代表写进 LUCID。\n\n改了什么\n\n三块条文连在一起看：\n\n- 谁必须请德国授权代表（§ 5）\n在联邦境内 没有住所/营业场所、却直接向德国最终用户提供包装或包装产品的境外厂家，须在 首次投放前 委托一名德国延伸生产者责任授权代表（书面德文委托；每人只能委托一名；登记本身仍由厂家自己做，代表不替代注册）。\n\n- LUCID 注册要写什么（§ 6）\n有义务委托代表时，注册须同时填代表的名称、地址、联系方式，并提交书面委托；之后代表变更或结束也要立刻报登记处。\n\n- 已注册老户的死线（§ 68 第 2 款）\n旧法时期已经注册的 → 2026-11-12 前 补齐 § 6 第 1 款第 2 句要求的变更（含授权代表信息）。\n新法下首次才有义务注册、且旧法下本不必注册的 → 过渡条款写的是 2026-09-12 前 完成注册（该日已过，仍未注册的按现行义务尽快补）。\n\n中央包装登记处（ZSVR）Bevollmächtigung 帮助页 (https://www.verpackungsregister.org/hilfe/bevollmaechtigung) 用白话复述了同一套规则：境外、无德国机构、直接卖给德国最终用户 → 要有代表；LUCID 仪表盘有「Beauftragter Bevollmächtigter」入口可补登。\n\n说明： 条文写的是「须完成变更」，没有在公开法条里写「11-12 当天自动删号」。不办可能面临监管与平台侧下架/罚款风险；Temu 等平台后台已单独催德站卖家在 11-12 前完成 AR/LUCID 绑定，以卖家中心通知为准。\n\n影响谁\n\n- 没有德国公司/分支、却用包裹直邮德国消费者 的美妆、个护、香水品牌与工厂（纸盒、瓶罐、外箱都算包装产品）\n\n- Temu 德站、亚马逊欧洲站 FBM/直邮、独立站小包 里主体仍是境外公司的卖家\n\n- 已有 LUCID 号、但 还没在登记里挂上德国授权代表 的老户——正是 § 68 第 2 款盯的那批\n\n- 已在德国有住所、或只卖给德国企业不面向最终用户 的路径：义务范围不同，以 § 5 / ZSVR 说明为准，勿机械套用\n\n意味着什么、现在注意什么\n\n- 这周内登录 LUCID：看仪表盘是否提示要补「Bevollmächtigter」；没有代表 ID 的，先签德文书面委托，再在登记里提交并由代表确认。\n\n- 别把「化妆品责任人（RP）」和「包装授权代表」混为一谈：欧盟化妆品责任人管配方与安全；VerpackDG 授权代表管德国包装延伸责任（系统参与、数量申报等）。两边都可能要，但不是同一个合同。\n\n- 平台催办不等于法律全文：Temu 等写「逾期 LUCID 可能失效」是运营侧表述；法律文本确认的硬节点是 11-12 前完成注册变更。以 § 68 (https://www.gesetze-im-internet.de/verpackdg/__68.html)、§ 5 (https://www.gesetze-im-internet.de/verpackdg/__5.html)、§ 6 (https://www.gesetze-im-internet.de/verpackdg/__6.html) 与 ZSVR 后台为准。\n\n- 本站德国合规页「包装登记与授权代表」条目已按本轮核对刷新。\n\n证据（核对日期 2026-11-07）\n\n§ 68 第 2 款原文写明：旧法已注册者视为按 § 6 注册，Änderungen nach § 6 Absatz 1 Satz 2 sind bis zum 12. November 2026 vorzunehmen：\n\n§ 5：无德国住所的境外厂家须在首次投放前委托延伸生产者责任授权代表：\n\n§ 6：变更义务涵盖授权代表委托变更/终止；有义务时注册须填代表信息：\n\nZSVR 帮助页复述境外直邮须指定授权代表，并说明如何在 LUCID 补登：\n\n来源\n\n- VerpackDG § 68 Übergangsvorschriften (https://www.gesetze-im-internet.de/verpackdg/__68.html)（联邦司法部 / gesetze-im-internet.de）\n\n- VerpackDG § 5 Beauftragung Dritter und Bevollmächtigung (https://www.gesetze-im-internet.de/verpackdg/__5.html)\n\n- VerpackDG § 6 Registrierung (https://www.gesetze-im-internet.de/verpackdg/__6.html)\n\n- ZSVR · Bevollmächtigung 帮助页 (https://www.verpackungsregister.org/hilfe/bevollmaechtigung)\n\n- 站内：德国合规 (/compliance/de/)",
+      "markets": [
+        "de"
+      ],
+      "platforms": [
+        "temu",
+        "amazon-eu"
+      ],
+      "tags": [
+        "compliance",
+        "customs"
+      ],
+      "source_url": "https://www.gesetze-im-internet.de/verpackdg/__68.html",
+      "source_name": "gesetze-im-internet.de · VerpackDG § 68（联邦司法部公布文本）",
+      "checked": "2026-11-07",
+      "needs_review": false,
+      "sample": false,
+      "key_date": {
+        "date": "2026-11-12",
+        "label": "旧户变更截止"
+      },
+      "page": "/news/2026-11-07-de-verpackdg-bevollmaechtigter-nov12/"
+    },
+    {
+      "kind": "ranking",
+      "id": "amazon-de/2026-11-02",
+      "type": "rankings",
+      "date": "2026-11-02",
+      "title": "Amazon 德国站 · 2026-11-02",
+      "summary": "30 个单品 · Amazon Best Sellers · Beauty (amazon-de) · 部分数据 · 待核实",
+      "markets": [
+        "de"
+      ],
+      "board": "amazon-de",
+      "source_url": "https://www.amazon.de/gp/bestsellers/beauty",
+      "source_name": "Amazon Best Sellers · Beauty (amazon-de)",
+      "needs_review": true,
+      "sample": false,
+      "partial": true,
+      "page": "/rankings/amazon-de/",
+      "detail": "/v1/rankings/amazon-de/2026-11-02.json"
+    },
+    {
+      "kind": "ranking",
+      "id": "amazon-de/2026-11-01",
+      "type": "rankings",
+      "date": "2026-11-01",
+      "title": "Amazon 德国站 · 2026-11-01",
+      "summary": "30 个单品 · Amazon Best Sellers · Beauty (amazon-de) · 部分数据 · 待核实",
+      "markets": [
+        "de"
+      ],
+      "board": "amazon-de",
+      "source_url": "https://www.amazon.de/gp/bestsellers/beauty",
+      "source_name": "Amazon Best Sellers · Beauty (amazon-de)",
+      "needs_review": true,
+      "sample": false,
+      "partial": true,
+      "page": "/rankings/amazon-de/",
+      "detail": "/v1/rankings/amazon-de/2026-11-01.json"
+    },
+    {
+      "kind": "ranking",
+      "id": "amazon-de/2026-10-26",
+      "type": "rankings",
+      "date": "2026-10-26",
+      "title": "Amazon 德国站 · 2026-10-26",
+      "summary": "30 个单品 · Amazon.de Bestseller · Kosmetik · 部分数据 · 待核实",
+      "markets": [
+        "de"
+      ],
+      "board": "amazon-de",
+      "source_url": "https://www.amazon.de/gp/bestsellers/beauty",
+      "source_name": "Amazon.de Bestseller · Kosmetik",
+      "needs_review": true,
+      "sample": false,
+      "partial": true,
+      "page": "/rankings/amazon-de/",
+      "detail": "/v1/rankings/amazon-de/2026-10-26.json"
+    },
+    {
+      "kind": "ranking",
+      "id": "amazon-de/2026-10-23",
+      "type": "rankings",
+      "date": "2026-10-23",
+      "title": "Amazon 德国站 · 2026-10-23",
+      "summary": "30 个单品 · Amazon.de Bestseller · Kosmetik · 部分数据 · 待核实",
+      "markets": [
+        "de"
+      ],
+      "board": "amazon-de",
+      "source_url": "https://www.amazon.de/gp/bestsellers/beauty",
+      "source_name": "Amazon.de Bestseller · Kosmetik",
+      "needs_review": true,
+      "sample": false,
+      "partial": true,
+      "page": "/rankings/amazon-de/",
+      "detail": "/v1/rankings/amazon-de/2026-10-23.json"
+    },
+    {
+      "kind": "news",
+      "id": "2026-10-10-eu-reach-pfhxa-cosmetics",
+      "type": "regulation",
+      "date": "2026-10-10",
+      "title": "欧盟 REACH：化妆品含 PFHxA 超标不得再投放，过渡期已于10月10日结束",
+      "summary": "REACH 附件 XVII 第79条：自2026-10-10起，化妆品中 PFHxA 及其盐合计≥25ppb、或相关物质合计≥1000ppb，不得投放或使用；此前已投放的可继续卖。",
+      "body_text": "欧盟条例 (EU) 2024/2462 给 REACH 附件 XVII 加了第 79 条：限制 十一氟己酸（PFHxA）、其盐类及「可降解/转化成 PFHxA 的相关物质」。化妆品在名单里，两年过渡期到 2026年10月10日 结束。\n\n改了什么\n\n自 2026年10月10日 起，在化妆品（按 1223/2009 定义）中：\n\n- PFHxA + 其盐 合计浓度 ≥ 25 ppb，或\n\n- PFHxA 相关物质 合计浓度 ≥ 1000 ppb（按均质材料计）\n\n则 不得再投放市场，也不得再使用 到这类产品里。\n\n「相关物质」按分子结构判断，常见是名字里带 perfluorohexyl 一类、用完会变成 PFHxA 的原料。限值卡的是 配方本体（霜、膏、液本身），不是连瓶子一起称。\n\n例外：在 10月10日 之前已经投放 到欧盟市场的成品（已交给经销商/零售商，或已进口入境），可以继续销售；还在工厂库房、还没进口的，必须达标才能再投。\n\n这和站内已写的 Omnibus VI（CMR 清货窗口） 不是一回事：那条改的是化妆品法规程序，这条是 REACH 化学品限制，查的是 PFAS 杂质/降解物。\n\n对谁有影响\n\n- 卖欧盟站的美妆/个护品牌与工厂：防水、长效、成膜类配方更容易踩到 PFAS 杂质\n\n- 跨境卖家（亚马逊欧站、Temu、Zalando、Otto 等）：责任人（RP）和进口商要能拿出配方/原料筛查依据\n\n- 原料采购：即便没「故意加 PFAS」，供应商杂质超标也会卡投放\n\n意味着什么\n\n- 卡在哪：新货、补货、改包装再进口——只要 10月10日之后才投放，超标就违法；平台抽检或 RP 抽查原料报告时，说不清杂质水平会直接停售。\n\n- 现在注意什么：让工厂/原料商按 25ppb / 1000ppb 出检测或声明；INCI 里带 perfluorohexyl 的先换料；法国、丹麦等国还有更宽的本国 PFAS 禁令，欧站合规不等于各国都松。全量 PFAS「一刀切」草案还在评估，和本条是分开的。\n\n法规原文：EUR-Lex (EU) 2024/2462 (https://eur-lex.europa.eu/eli/reg/2024/2462/oj)。",
+      "markets": [
+        "de",
+        "eu",
+        "fr"
+      ],
+      "platforms": [
+        "amazon-eu",
+        "temu",
+        "zalando",
+        "otto"
+      ],
+      "tags": [
+        "ingredients",
+        "compliance"
+      ],
+      "source_url": "https://eur-lex.europa.eu/eli/reg/2024/2462/oj",
+      "source_name": "EUR-Lex · 条例 (EU) 2024/2462",
+      "checked": "2026-10-25",
+      "needs_review": false,
+      "sample": false,
+      "key_date": {
+        "date": "2026-10-10",
+        "label": "投放禁令生效"
+      },
+      "page": "/news/2026-10-10-eu-reach-pfhxa-cosmetics/"
+    }
+  ]
+}

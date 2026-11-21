@@ -1,0 +1,40 @@
+{
+  "api": "yuanshan-channel/v1",
+  "access": "public-read",
+  "auth": null,
+  "generated": "2026-10-26",
+  "disclaimer": "每条资讯都附来源链接。标了「待核实」的条目来自媒体或第三方转述，引用前打开原文。费用、排名和法规以官方页面为准。",
+  "kind": "news",
+  "item": {
+    "kind": "news",
+    "id": "2026-10-29-bpjph-376-cosmetics-sales-services-sjph",
+    "type": "regulation",
+    "date": "2026-10-29",
+    "title": "印尼美妆零售也要 SJPH：BPJPH 376 号",
+    "summary": "BPJPH第376号把「销售服务」SJPH写清：化妆品相关零售（药妆店、香水店、美妆店等）从2026-10-18适用；收货/仓储/陈列要防交叉污染，电商平台与卖家也有分工。货品本身强制清真证仍按PP40延到2028-10-17，别和这条混。",
+    "body_text": "印尼清真产品保障局（BPJPH）2026年10月12日发布 2026年第376号决定《销售服务清真产品保障体系（SJPH）实施指南》。决定正文写明：化妆品相关销售服务从 2026年10月18日起适用。官方副本已核对。\n\n站内已有：化妆品产品强制持证延到 2028-10-17 (/news/2026-10-17-indonesia-halal-cosmetics-2028/)、化妆品工厂/品牌怎么搭 SJPH（第370号） (/news/2026-10-12-bpjph-370-cosmetics-sjph/)。376 号管的是「卖的环节」，不是再发一遍产品证时间表。\n\n改了什么\n\n1. 化妆品销售服务：10月18日起按指南执行\n\n决定「第二项」分品类给了适用日，其中：\n\n- 食品饮料、化妆品、天然药/准药品/保健品相关销售服务 → 2026-10-18\n\n- 非处方药相关 → 2029-10-18\n\n- 处方药（除精神药品）相关 → 2034-10-18\n\n「销售服务」覆盖：面向终端消费者的零售，含超市/便利店、药店、香水店、药妆店/美妆个护店，以及营销、仓储物流、标签展示、顾客服务，和 电商/电子交易系统（PMSE）。\n\n2. 谁要做、谁可豁免（大白话）\n\n- 要做：在印尼境内做化妆品相关零售服务、且不只是「只卖自家已持清真证的原包装密封货」的经营者\n\n- 可豁免倾向：只卖本集团自有品牌、且货已有清真证/境外清真证登记号、原包装密封不拆封不分装；或只卖法规明确豁免持证的商品\n\n- 关键货、仓储、陈列、收银环节要分清真与非清真；空间不够时至少要有书面隔离、封箱、物理隔断、标识与清洁程序（含重污净化规则）\n\n3. 电商怎么分责（平台 / 卖家 / 配送）\n\n指南单独写了 PMSE：\n\n- 平台（PPMSE）：便于展示清真状态；给配送员提供处理指引，避免清真货与可能污染的货混装；在系统能力范围内让配送端看到订单清真状态\n\n- 销售伙伴（店铺）：强制清单内的货要有清真证或按规定标非清真；纯零售转卖要核对包装上的清真标；对平台上展示的清真信息负责\n\n- 配送伙伴：不拆封、不毁封条，按平台指引处理\n\n4. 和「产品延到 2028」怎么并存\n\nPP 40/2026 (https://bpjph.halal.go.id/read/penyesuaian-penahapan-kewajiban-sertifikasi-halal-diatur-dalam-pp-40-tahun-2026-begini-rinciannya) 把化妆品等产品强制持证延到 2028-10-17；公开说明里延期的「相关服务」主要点到的是食品饮料相关服务，并未把化妆品销售服务一并改口到 2028。376 号本身把化妆品销售服务适用日写在 2026-10-18。\n\n实操上：货还没到强制拿证日，不代表药妆店/美妆零售可以完全无视销售环节体系；跨境卖家更要分清「自己的产品证」和「本地经销商/门店的销售服务证」。\n\n影响谁\n\n- 在印尼开/合作 药妆店、美妆集合店、香水店 的品牌与经销商——最先被问到销售服务 SJPH、监督员与隔离程序\n\n- 在 Shopee / Lazada / Tokopedia / TikTok Shop 印尼站铺货的跨境卖家：产品强制证仍看 2028；但要配合平台清真信息展示，并留意本地仓配是否按指南防交叉污染\n\n- 只做全托管/平台仓、不碰本地实体零售的：优先盯 370 号产品体系 (/news/2026-10-12-bpjph-370-cosmetics-sjph/) 与 BPOM，同时把 376 转给印尼渠道商对照\n\n意味着什么 / 现在注意什么\n\n- 别混两条线：产品证 2028 ≠ 销售服务指南「不适用」\n\n- 有印尼实体渠道的：让对方对照 376，查清真政策、监督员、收货/仓/柜隔离与半年材料报备习惯\n\n- 纯跨境店铺：核对 listing 清真声明是否与包装一致，勿在无证阶段乱挂印尼清真标\n\n- 同批还有第372号（转基因产品 SJPH），配方走基因工程原料的另查一条链\n\n原文（官方 PDF）：BPJPH Nomor 376 Tahun 2026 (https://jdih.halal.go.id/api/jdih/pdf?path=jdih%2Fdokumen%2F1792634999408_salinan_-_376.2026._pedoman_pelaksanaan_sjph_jasa_penjualan.pdf)；产品延期说明见 BPJPH · PP 40/2026 (https://bpjph.halal.go.id/read/penyesuaian-penahapan-kewajiban-sertifikasi-halal-diatur-dalam-pp-40-tahun-2026-begini-rinciannya)",
+    "markets": [
+      "id"
+    ],
+    "platforms": [
+      "shopee",
+      "lazada",
+      "tokopedia",
+      "tiktok-shop"
+    ],
+    "tags": [
+      "compliance",
+      "labeling"
+    ],
+    "source_url": "https://jdih.halal.go.id/api/jdih/pdf?path=jdih%2Fdokumen%2F1792634999408_salinan_-_376.2026._pedoman_pelaksanaan_sjph_jasa_penjualan.pdf",
+    "source_name": "BPJPH 2026 年第 376 号决定 · 销售服务 SJPH 实施指南（官方副本）",
+    "checked": "2026-10-29",
+    "needs_review": false,
+    "sample": false,
+    "key_date": {
+      "date": "2026-10-18",
+      "label": "化妆品销售服务适用"
+    },
+    "page": "/news/2026-10-29-bpjph-376-cosmetics-sales-services-sjph/"
+  }
+}

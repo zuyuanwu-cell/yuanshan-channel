@@ -1,0 +1,36 @@
+{
+  "api": "yuanshan-channel/v1",
+  "access": "public-read",
+  "auth": null,
+  "generated": "2026-10-26",
+  "disclaimer": "每条资讯都附来源链接。标了「待核实」的条目来自媒体或第三方转述，引用前打开原文。费用、排名和法规以官方页面为准。",
+  "kind": "news",
+  "item": {
+    "kind": "news",
+    "id": "2026-10-19-tiktok-shop-us-bfcm-campaign",
+    "type": "rules",
+    "date": "2026-10-19",
+    "title": "TikTok Shop美国站黑五BFCM报名门槛：店评分≥3.5、近30天延迟发货≤20%；11-11至12-31订单退货可延到2027-02-10",
+    "summary": "美国站卖家大学10-19放出2026黑五BFCM指南：活动11-11至11-30（太平洋时区）；店评分SPS≥3.5、近30天LDR≤20%、AHR宜>150；商品要库存充足、描述准确、无假货/IP问题。11-11至12-31符合条件订单退货窗可自动延到2027-02-10。",
+    "body_text": "TikTok Shop 美国站卖家大学《2026 Black Friday & Cyber Monday (BFCM) Seller Campaign Guide (https://seller-us.tiktok.com/university/essay?knowledge_id=26854147802894)》（页面日期 2026-10-19）与《Campaign FAQs (https://seller-us.tiktok.com/university/essay?knowledge_id=7823403742840619&lang=en)》（2026-10-15）给出了今年黑五活动入场条件。活动时段：2026年11月11日—11月30日（太平洋时区）。\n\n与站内已有的 新/泰/越活动门槛 (/news/2026-10-29-tiktok-shop-sg-th-vn-campaign-qualification/)、印尼大促门槛 (/news/2026-10-30-tiktok-shop-id-campaign-qualification/) 不是同一套数字：美国站看的是 SPS / LDR / AHR，不要拿东南亚的店评分 3.0 或美妆 SFRR 去套。\n\n改了什么\n\n1. 店铺侧入场线\n\n同时满足（官方 Key Takeaways）：\n\n- 店铺表现分（SPS）≥ 3.5；还没有 SPS 的新店：近 30 天严重违规 少于 3 次 也可报\n\n- 近 30 天延迟发货率（LDR）≤ 20%\n\n- 账号健康分（AHR）宜高于 150；AHR ≤ 150 时，报名当下可能被临时限制注册活动\n\n- 通过平台安全核验（含刷单等恶意行为排查）\n\n- 关闭 Holiday Mode；仓库要可接单\n\n活动中 SPS 掉到 3.0 以下，平台可收回活动权益（角标、资源位等）。SPS 到 4.0+ 的高表现店，可能拿额外曝光/重点商品资源。\n\n2. 商品侧也要过\n\n店铺过了，每个报名 SKU 还要：\n\n- 相对同类 投诉率偏低\n\n- 标题/图/视频描述准确、不误导\n\n- 内容符合美国站政策（含近期 禁恶心护肤特写 (/news/2026-10-26-tiktok-shop-us-graphic-skincare-closeups/)）\n\n- 无假货、无知识产权问题\n\n- 有库存、可买、能发出\n\n常见踢出原因：投诉高、内容违规、缺货、Holiday Mode、订单量限制（OVL）、账号风险、逾期未发占比高等。修好后多数可再提交；部分风险类可能没有线上申诉入口。\n\n3. 旺季履约 SLA 放宽（不是免责）\n\n本地发货 / 跨境发货在 11-11—12-5 若干区间，发货、自动取消、妥投 SLA 会 +1～+2 天（订制/定制另有说明）。预售、缺货回补订单不适用放宽。\n\n4. 退货窗自动延长——对美妆现金流影响大\n\n符合条件的订单：\n\n- 售出时段：2026-11-11 16:00 PT — 12-31 23:59 PT\n\n- 买家可退到：2027-02-10\n\n- 平台延长窗 优先于 你在后台自设的退货天数\n\n- 部分电子、珠宝等类目可能仍走标准退货；拍卖单不延长\n\n售后审核时限不变：超时可能自动按买家胜；乱拒退会抬高 Invalid Seller Rejection Rate，触发平台代审。可用无退货退款、自动同意退货/退款、部分退款、自动换货等自动化减轻峰值压力。\n\n5. 怎么报、多久审\n\nSeller Center → Marketing → Campaigns：看店铺是否合格 → Register Products 提交商品。审核通常 5—14 个工作日；建议至少提前两周建好新品 listing。活动中 不能 给已报名商品加减规格（颜色/尺码）；要改规格须先撤再改。\n\n活动价低于日常价才会划线价；活动价与店铺自设折扣/闪购 多数不能叠，以活动价为准。\n\n影响谁\n\n- 准备吃美国站 11.11—黑五周末 官方活动流量的美妆、个护、香氛店（本地仓与跨境）\n\n- SPS 卡在 3.0—3.5、LDR 偏高、AHR 被达人违规表述拖下去的店——先修分再报，硬报只烧审核天数\n\n- 靠达人带货的品牌：达人夸大功效会打到卖家 AHR，活动期要盯内容\n\n- 备货薄、售后人手少的店：拉长退货窗意味着 库存占用与退货处理拖到 2027 年 2 月\n\n意味着什么\n\n美国站把黑五入场券绑在 表现分 + 发货准时 + 账号健康 上，且活动中途掉分会摘权益。美妆卖家这周就要在 Seller Center 核对 SPS / LDR / AHR，筛出能报的 SKU（库存、合规、图文），按 5—14 天审核倒推提交；同时把 11月中旬到次年2月 的退货仓容、客服班次和现金流算进去。报不上官方活动仍可卖——平台流量会涨，但拿不到活动角标与平台加持资源。\n\n具体活动价是否必须低于「历史最低价」、免邮门槛、Smart Promotion / GMV Max 等细则以 报名页当前展示 为准；第三方解读里的额外指标未全部写进上述两份官方页，勿当硬门槛。\n\n核对来源：BFCM Seller Campaign Guide（2026-10-19）、Campaign FAQs（2026-10-15）；核对于 2026-10-31。",
+    "markets": [
+      "us"
+    ],
+    "platforms": [
+      "tiktok-shop"
+    ],
+    "tags": [
+      "listing"
+    ],
+    "source_url": "https://seller-us.tiktok.com/university/essay?knowledge_id=26854147802894",
+    "source_name": "TikTok Shop US · 2026 BFCM Seller Campaign Guide（2026-10-19）",
+    "checked": "2026-10-31",
+    "needs_review": false,
+    "sample": false,
+    "key_date": {
+      "date": "2026-11-11",
+      "label": "BFCM 活动开始"
+    },
+    "page": "/news/2026-10-19-tiktok-shop-us-bfcm-campaign/"
+  }
+}

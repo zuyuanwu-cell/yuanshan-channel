@@ -1,0 +1,66 @@
+{
+  "api": "yuanshan-channel/v1",
+  "access": "public-read",
+  "auth": null,
+  "generated": "2026-10-26",
+  "disclaimer": "每条资讯都附来源链接。标了「待核实」的条目来自媒体或第三方转述，引用前打开原文。费用、排名和法规以官方页面为准。",
+  "kind": "feed",
+  "id": "my/rankings",
+  "title": "马来西亚",
+  "markets": [
+    "my"
+  ],
+  "types": [
+    "rankings"
+  ],
+  "filter": {
+    "markets": [
+      "my"
+    ],
+    "types": [
+      "rankings"
+    ],
+    "include_global": false
+  },
+  "count": 2,
+  "items": [
+    {
+      "kind": "ranking",
+      "id": "shopee-my/2026-10-26",
+      "type": "rankings",
+      "date": "2026-10-26",
+      "title": "Shopee 马来西亚 · 2026-10-26",
+      "summary": "30 个单品 · Shopee MY skincare (sales) · 部分数据 · 待核实",
+      "markets": [
+        "my"
+      ],
+      "board": "shopee-my",
+      "source_url": "https://shopee.com.my/",
+      "source_name": "Shopee MY skincare (sales)",
+      "needs_review": true,
+      "sample": false,
+      "partial": true,
+      "page": "/rankings/shopee-my/",
+      "detail": "/v1/rankings/shopee-my/2026-10-26.json"
+    },
+    {
+      "kind": "ranking",
+      "id": "shopee-my/2026-10-23",
+      "type": "rankings",
+      "date": "2026-10-23",
+      "title": "Shopee 马来西亚 · 2026-10-23",
+      "summary": "30 个单品 · Shopee MY · skincare (sales sort) · 待核实",
+      "markets": [
+        "my"
+      ],
+      "board": "shopee-my",
+      "source_url": "https://shopee.com.my/search?keyword=skincare&sortBy=sales",
+      "source_name": "Shopee MY · skincare (sales sort)",
+      "needs_review": true,
+      "sample": false,
+      "partial": false,
+      "page": "/rankings/shopee-my/",
+      "detail": "/v1/rankings/shopee-my/2026-10-23.json"
+    }
+  ]
+}
