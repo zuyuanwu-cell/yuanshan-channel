@@ -1,0 +1,115 @@
+---
+title: "俄勒冈2027年1月1日起禁售含PFAS、甲醛释放体等化妆品，制造商网站还要挂高关注成分提示"
+date: "2026-10-30"
+category: "regulation"
+platforms:
+  - "amazon-us"
+  - "temu"
+  - "tiktok-shop"
+  - "walmart"
+countries:
+  - "us"
+tags:
+  - "compliance"
+  - "ingredients"
+  - "labeling"
+source_url: "https://www.oregon.gov/oha/PH/HEALTHYENVIRONMENTS/HEALTHYNEIGHBORHOODS/TOXICSUBSTANCES/Documents/333-016%20Notice%20of%20Proposed%20Rulemaking%2010.30.2026.pdf"
+source_name: "俄勒冈卫生局（OHA）"
+checked: "2026-11-22"
+key_date:
+  date: "2027-01-01"
+  label: "生效"
+highlight: true
+summary: "俄勒冈卫生局10月30日提交无毒化妆品法实施规则草案：2027年1月1日起，含有意添加的PFAS、甲醛及释放体、邻苯二甲酸酯等成分的化妆品不得在该州销售；高关注成分须在制造商网站做提示。规则尚未终稿，意见收到太平洋时间11月23日17:00。"
+needs_review: true
+sample: false
+---
+
+卖货会进 **美国俄勒冈州** 的美妆品牌、工厂和跨境卖家注意：俄勒冈卫生局（[OHA](https://www.healthoregon.org/toxicfreecosmetics)）已把「无毒化妆品法」的实施规则提交州务卿备案。我们于 **2026年11月22日** 打开并核对了 [拟议规则全文（2026年10月30日提交）](https://www.oregon.gov/oha/PH/HEALTHYENVIRONMENTS/HEALTHYNEIGHBORHOODS/TOXICSUBSTANCES/Documents/333-016%20Notice%20of%20Proposed%20Rulemaking%2010.30.2026.pdf)、两份限量附件，以及 OHA **11月17日** 给厂商的说明。
+
+先把界限划清：
+
+1. **2027年1月1日这个日子，以及「哪些类物质不得再卖」，已经写在州法里**（2023年 SB 546 / ORS 431A.345），不会因为实施规则还没终稿就自动推迟。
+2. **怎么执行——高关注成分（HPC）名单、网站上怎么提示、各类物质的检出限（PQL）——目前还是草案。** 书面意见收到 **太平洋时间 2026年11月23日 17:00**（北京时间 **11月24日 09:00**）。11月17日的听证会已经开过。
+3. 这不是美国联邦 FDA / MoCRA 的新规，只约束在俄勒冈销售、供货或供人使用的化妆品。联邦侧的设施注册、产品列名和英文标签义务还在，见 [美国合规](/compliance/us/)。
+
+## 改了什么
+
+**一、2027年1月1日起，下列有意添加、且超过拟议检出限的成分，不能再在俄勒冈卖**
+
+OHA 11月17日说明写得很直白：自这一天起，含这些有意添加化学物质、且达到「微量门槛（de minimis）」的化妆品，不得在俄勒冈销售、分销或上架。拟议规则把这个门槛落成一张检出限表（Exhibit A，文末有图），拟议数值是：
+
+- **邻苯二甲酸酯（ortho-phthalates）**：25 ppm。草案举例包括邻苯二甲酸二乙酯（DEP，常见于香精溶剂）、DBP、DEHP 等，名单是「包括但不限于」。
+- **PFAS**：0.001 ppm。草案举例包括 PTFE（聚四氟乙烯，常见于部分彩妆、护肤触感剂）以及多种全氟/多氟原料。这个检出限非常低，几乎等于「配方里只要有意加了 PFAS，就不能在俄勒冈卖」。
+- **甲醛及甲醛释放体**：5 ppm。草案举例包括美妆里很常见的防腐剂，如 DMDM Hydantoin、咪唑烷基脲、重氮咪唑烷基脲、季铵盐-15、Bronopol、羟甲基甘氨酸钠等，以及部分直发产品里的相关物质。
+- **亚甲基二醇（methylene glycol）**：5 ppm（常见于某些直发/烫发产品）。
+- **汞及汞化合物**：0.5 ppm。
+- **三氯生（triclosan）**：0.0001 ppm（同样极低）。
+- **间苯二胺、邻苯二胺及其盐**：各 100 ppm（常见于部分染发剂）。
+- **铅或铅化合物**：10 ppm。这一项按含量算，不是只看「有没有故意加进去」。
+
+外包装、用完即弃的包装，以及产品的容器/涂抹器，原则上不在禁售和提示范围内；但如果这些部件把上述物质转移到膏体、液体里，并被检出超过门槛，规则就会落到产品本身。拟议规则还写明：即使产品里同时含有受 FDA 药品规则约束的成分，这条禁售规定仍然适用。肥皂、膳食补充剂不在化妆品定义里。
+
+**二、没被禁售、但必须在制造商网站做提示的「高关注成分」（HPC）**
+
+同一天起，产品如果含拟议 HPC 名单上的物质，且达到微量门槛，制造商必须在 **自己的官网产品详情页** 给俄勒冈消费者做提示。这不是改包装，也不是亚马逊详情页的强制格式；草案要求的位置是制造商网站。
+
+拟议名单一共 17 种，里面有不少工厂和品牌会碰到的原料，例如：**丁基对羟基苯甲酸酯（丁基对羟苯甲酸酯 / butylparaben）**、防晒里常用的 **甲氧基肉桂酸乙基己酯（octinoxate）**、硅氧烷 **D4**、磷酸三苯酯（TPP/TPhP）、以及作为杂质常见的 **1,4-二氧六环** 等。完整名单和拟议有意添加检出限见文末证据图。
+
+微量门槛在草案里是两档：有意添加的，按各物质自己的 PQL；作为杂质（contaminant）存在的，按 **100 ppm**。以 1,4-二氧六环为例：如果是有意添加，拟议 PQL 是 20 ppm；如果只是生产杂质，要到 100 ppm 才触发提示义务。
+
+提示怎么写，草案也给了固定句式：产品详情页上要有醒目、可点击的英文 **「Oregon Toxic-Free Cosmetics Act - Warning」**（不能让人翻很久才找着）；点进去后，须列出该产品含有的全部 HPC，并链到 OHA 的 [healthoregon.org/toxicfreecosmetics](https://www.healthoregon.org/toxicfreecosmetics)。「醒目」的要求包括：紧挨产品图或商品信息，字号至少是相邻文字的 75%。
+
+**三、谁要负责**
+
+拟议规则里的「制造商」不只是工厂：生产这款化妆品的人，以及 **进口商或美国境内经销商** 都算；其中进口商被写成「产品的所有权人」。**转售第三方产品的零售商不算。** 所以，货会进入俄勒冈的中国品牌、跨境店主，只要自己是产品所有权人，就不能把这件事只当成「美国零售商的事」。专业线美妆也在范围内。
+
+## 影响谁、意味着什么
+
+- **亚马逊美国站、沃尔玛、Temu、TikTok Shop 等会把货发到俄勒冈的店**：只要订单能送到这个州，就可能被认定「在该州销售或供货」。官方备案材料的财政影响说明里写过，制造商需要把禁售产品从俄勒冈市场挪走，并确保该州消费者不能在网上买到。
+- **配方里用了甲醛释放体防腐剂、香精里的 DEP、彩妆里的 PTFE、染发剂里的苯二胺、或直发类产品的工厂和品牌**：这是最容易被卡住的一批。离 2027 年 1 月 1 日只剩大约六周，来得及的要先对配方和检测，来不及改方的要准备对俄勒冈停售或改链路。
+- **配方不含禁售物质、但含丁基尼泊金酯、octinoxate、D4 等 HPC 的品牌**：不必为了这条州法立刻改方，但要准备官网产品页的提示文案和链接；没有官网的，需要提前想清楚提示要挂在哪一页。
+- **只做联邦 MoCRA、没盯州法的团队**：加州之外，俄勒冈这条会单独卡销售和官网提示。它和站内已发的 [加州拟将三种 PFAS 列入 65 号法案](/news/2026-10-30-california-oehha-prop65-pfba-pfhxa-pfda/)、[加州指甲产品 TPhP 申报](/news/2026-11-01-california-tphp-nail-products-notification/) 不是同一套义务，但 PFAS、TPhP 会在不同州重复出现，值得放在同一张配方排查表里。
+
+现在该做的：先按禁售清单和 HPC 名单核对配方与杂质；有禁售物质的，赶在 1 月 1 日前决定是改方、换原料，还是对俄勒冈收口线上购买；准备官网提示。想对检出限（尤其是 PFAS 0.001 ppm、三氯生 0.0001 ppm 这两档极低的拟议值）提意见，须在截止日期前发给 publichealth.rules@odhsoha.oregon.gov。规则终稿仍可能改数字或名单，成稿后请再对一次 OHA 页面。
+
+OHA 在厂商说明里写：生效后会先帮企业处理禁售成分合规，再帮制造商把官网 HPC 提示做对。拟议罚则是：收到书面通知后，提示类问题大约有 90 天整改窗口，逾期可处最高 5,000 美元，持续违规还可再处最高 10,000 美元；禁售类问题要求在 10 天内提交合规说明，并用第三方实验室检测证明产品未超检出限。
+
+## 证据（核对日期 2026-11-22）
+
+俄勒冈州务卿档案馆收文的拟议规则通知首页：提交于 **2026年10月30日 12:16**，意见截止 **2026年11月23日 17:00**（文件未另行标注时区；同批利害关系人通知写明为太平洋时间）：
+
+![俄勒冈州务卿拟议规则通知首页：无毒化妆品实施规则，2026年10月30日提交，意见截止11月23日17:00](/media/evidence/2026-10-30-oregon-toxic-free-cosmetics-rules/01-nprm-cover-filed-2026-10-30.png)
+
+OHA 2026年11月17日厂商说明：州法 **2027年1月1日** 生效，列出禁售化学物质类别，并说明制造商须在网站为高关注成分做提示：
+
+![OHA 2026年11月17日厂商说明：2027年1月1日起禁售特定有意添加化学物质，并须在制造商网站提示高关注成分](/media/evidence/2026-10-30-oregon-toxic-free-cosmetics-rules/02-oha-factsheet-2026-11-17.png)
+
+拟议规则中的高关注成分（HPC）名单：
+
+![拟议规则 OAR 333-016-4020：17种高关注化学物质名单](/media/evidence/2026-10-30-oregon-toxic-free-cosmetics-rules/03-nprm-hpc-list.png)
+
+拟议规则中的禁售物质名单（含邻苯二甲酸酯、PFAS、甲醛释放体等举例，续页含铅的 10 ppm 限值）：
+
+![拟议规则 OAR 333-016-4060 禁售物质名单首页，含邻苯二甲酸酯与PFAS举例](/media/evidence/2026-10-30-oregon-toxic-free-cosmetics-rules/04-nprm-prohibited-chemicals-p12.png)
+
+![拟议规则禁售名单续页：甲醛释放体举例，以及汞、三氯生、苯二胺和铅的限值](/media/evidence/2026-10-30-oregon-toxic-free-cosmetics-rules/05-nprm-prohibited-chemicals-p13.png)
+
+拟议禁售物质检出限表（Exhibit A，标明 PROPOSED，生效日 2027年1月1日），其中 PFAS 为 0.001 ppm、三氯生为 0.0001 ppm：
+
+![拟议规则附件：禁售有意添加化学物质的检出限表](/media/evidence/2026-10-30-oregon-toxic-free-cosmetics-rules/06-exhibit-4075-prohibited-pql.png)
+
+拟议 HPC 有意添加检出限表（杂质一律按 100 ppm）：
+
+![拟议规则附件：高关注成分有意添加的检出限表](/media/evidence/2026-10-30-oregon-toxic-free-cosmetics-rules/07-exhibit-4025-hpc-pql.png)
+
+拟议规则中的官网提示要求：产品详情页须醒目展示可点击的 “Oregon Toxic-Free Cosmetics Act - Warning”，并链到规定提示正文和 OHA 网站：
+
+![拟议规则 OAR 333-016-4040：制造商网站高关注成分提示的固定句式与位置要求](/media/evidence/2026-10-30-oregon-toxic-free-cosmetics-rules/08-nprm-hpc-notice-requirements.png)
+
+## 来源
+
+- 俄勒冈州务卿档案馆 / 俄勒冈卫生局 · [Notice of Proposed Rulemaking：实施无毒化妆品项目的规则（2026-10-30 提交）](https://www.oregon.gov/oha/PH/HEALTHYENVIRONMENTS/HEALTHYNEIGHBORHOODS/TOXICSUBSTANCES/Documents/333-016%20Notice%20of%20Proposed%20Rulemaking%2010.30.2026.pdf)（2026-11-22 下载核对；含 OAR 333-016-4001 至 4080 草案及两份 Exhibit A）
+- 俄勒冈卫生局 · [厂商说明：俄勒冈无毒化妆品法将于 2027年1月1日生效（11.17.2026 Version）](https://www.oregon.gov/oha/PH/HEALTHYENVIRONMENTS/HEALTHYNEIGHBORHOODS/TOXICSUBSTANCES/Documents/Cosmetic%20product%20manufacturers%20%26%20Oregon%20TFC%20Act_final.pdf)
+- 俄勒冈卫生局 · [无毒化妆品法项目页](https://www.healthoregon.org/toxicfreecosmetics)（2026-11-22 打开）
+- 书面意见邮箱：publichealth.rules@odhsoha.oregon.gov；项目咨询：ToxicFreeCosmetics@oha.oregon.gov

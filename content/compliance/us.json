@@ -4,7 +4,7 @@
   "flag": "🇺🇸",
   "region": "北美",
   "difficulty": 2,
-  "summary": "不用事先审批，但要注册设施、列名产品、标签合规；加州防晒禁 reef safe（2027-01-01）；拟将三种PFAS列入65号法案（意见至11-30）。",
+  "summary": "不用事先审批，须注册列名标签合规；加州 reef safe/65号法案；俄勒冈2027-01-01禁售特定成分并须官网HPC提示（规则未终稿）。",
   "items": [
     {
       "id": "mocra-facility",
@@ -276,6 +276,24 @@
       "official_url": "https://intl.dtsc.ca.gov/scp/nail-products-containing-tphp/",
       "source_checked": "2026-11-01",
       "needs_review": false
+    },
+    {
+      "id": "or-toxic-free-cosmetics",
+      "name_zh": "俄勒冈无毒化妆品法（实施规则征求意见）",
+      "authority": "俄勒冈卫生局（OHA）",
+      "type": "safety",
+      "mandatory": true,
+      "cost": "未知",
+      "time": "2027-01-01 起；实施规则意见至 2026-11-23",
+      "docs": [
+        "配方是否含邻苯二甲酸酯、PFAS、甲醛及释放体、亚甲基二醇、汞、三氯生、苯二胺、铅等",
+        "高关注化学物质（HPC）名单核对及制造商官网提示文案"
+      ],
+      "who": "向俄勒冈销售化妆品的制造商、进口商或产品所有权人（转售第三方产品的零售商除外）",
+      "note": "2027-01-01起禁售含特定有意添加成分（超拟议PQL）的化妆品，制造商网站须做HPC提示；规则未终稿，意见至11-23。",
+      "official_url": "https://www.oregon.gov/oha/PH/HEALTHYENVIRONMENTS/HEALTHYNEIGHBORHOODS/TOXICSUBSTANCES/Documents/333-016%20Notice%20of%20Proposed%20Rulemaking%2010.30.2026.pdf",
+      "source_checked": "2026-11-22",
+      "needs_review": true
     }
   ],
   "steps": [
