@@ -336,20 +336,20 @@
   "rankingGaps": [
     {
       "platform": "aliexpress",
-      "tried": "2026-11-16",
-      "reason": "箱侧 curl TLS 失败，Chrome headless 与本机 CDP 均跳转登录墙（ug-login-page），未拿到商品列表；本轮无法确认11月Apify用量，未调用。",
+      "tried": "2026-11-22",
+      "reason": "箱侧 curl 仍跳转登录墙（ug-login-page），未拿到商品列表；本轮未调本机验证码站，无法确认11月Apify用量，未调用。",
       "source_url": "https://www.aliexpress.com/w/wholesale-beauty.html?SortType=total_tranpro_desc&SearchText=skincare"
     },
     {
       "platform": "temu",
-      "tried": "2026-11-16",
-      "reason": "公开页仍是脚本空壳；本机 CDP 跳转登录页，抽取结果为下载 App 等导航链接，非商品列表；本轮无法确认11月Apify用量，未调用。",
+      "tried": "2026-11-22",
+      "reason": "公开页仍是脚本空壳，未抽到商品列表；本轮未调本机验证码站，无法确认11月Apify用量，未调用。",
       "source_url": "https://www.temu.com/"
     },
     {
       "platform": "mercado-livre",
-      "tried": "2026-11-16",
-      "reason": "公开页与本机 CDP 均跳转账号验证墙（account-verification）；本轮无法确认11月Apify用量，未调用。",
+      "tried": "2026-11-22",
+      "reason": "公开页跳转账号验证墙（account-verification），未拿到商品列表；本轮未调本机验证码站，无法确认11月Apify用量，未调用。",
       "source_url": "https://www.mercadolivre.com.br/mais-vendidos/MLB1246"
     },
     {
