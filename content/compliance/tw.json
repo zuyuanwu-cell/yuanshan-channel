@@ -18,7 +18,7 @@
       "who": "制造或输入业者",
       "note": "除免办工厂登记场所的固态手工香皂外，供应前须登录。仅外销且不在台供应者无需登录。",
       "official_url": "https://www.fda.gov.tw/tc/newsContent.aspx?id=30612",
-      "source_checked": "2026-10-24",
+      "source_checked": "2026-11-23",
       "needs_review": false
     },
     {
@@ -33,7 +33,7 @@
       "who": "制造或输入业者",
       "note": "法规要求与产品登录同时建立产品信息档案。档案办法正文未逐条打开。",
       "official_url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=L0030013",
-      "source_checked": "2026-10-24",
+      "source_checked": "2026-11-23",
       "needs_review": false
     },
     {
@@ -48,7 +48,7 @@
       "who": "制造或输入业者",
       "note": "须标品名、用途、用法、净含量、全成分、注意事项、业者、原产国、日期和批号。全成分可用英文。",
       "official_url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=L0030013",
-      "source_checked": "2026-10-24",
+      "source_checked": "2026-11-23",
       "needs_review": false
     },
     {
@@ -63,7 +63,7 @@
       "who": "化妆品业者",
       "note": "不得含汞、铅或其他公告禁用成分。微量且对健康无害的残留除外。",
       "official_url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=L0030013",
-      "source_checked": "2026-10-24",
+      "source_checked": "2026-11-23",
       "needs_review": false
     }
   ],
@@ -81,7 +81,7 @@
       "type": "label"
     }
   ],
-  "last_verified": "2026-10-24",
+  "last_verified": "2026-11-23",
   "hs_codes": {
     "status": "pending",
     "items": []

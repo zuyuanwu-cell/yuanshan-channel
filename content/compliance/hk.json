@@ -18,7 +18,7 @@
       "who": "制造商、进口商和供应商",
       "note": "条例不规定出售前强制安全测试。未被其他法例覆盖的化妆品按一般安全要求管理。",
       "official_url": "https://www.customs.gov.hk/en/service-enforcement-information/consumer-protection/goods-safety/index.html",
-      "source_checked": "2026-10-24",
+      "source_checked": "2026-11-23",
       "needs_review": false
     },
     {
@@ -33,7 +33,7 @@
       "who": "供应商",
       "note": "只在产品已标注保存或使用警示时，该警示须中英对照。页面没有把全成分中英标示写成强制。",
       "official_url": "https://www.info.gov.hk/gia/general/201806/27/P2018062700331.htm",
-      "source_checked": "2026-10-24",
+      "source_checked": "2026-11-23",
       "needs_review": false
     },
     {
@@ -48,7 +48,7 @@
       "who": "供应含药或作药品宣称的产品者",
       "note": "普通化妆品不按此条注册。符合药剂业及毒药条例药品定义的，须先向药剂业及毒药管理局注册。",
       "official_url": "https://www.info.gov.hk/gia/general/201806/27/P2018062700331.htm",
-      "source_checked": "2026-10-24",
+      "source_checked": "2026-11-23",
       "needs_review": false
     }
   ],
@@ -62,7 +62,7 @@
       "type": "registration"
     }
   ],
-  "last_verified": "2026-10-24",
+  "last_verified": "2026-11-23",
   "hs_codes": {
     "status": "pending",
     "items": []
