@@ -127,6 +127,23 @@
       "official_url": "https://www.mfds.go.kr/law/board/boardDetail.do?brdId=data0008&menuKey=28&seq=15205",
       "source_checked": "2026-11-12",
       "needs_review": false
+    },
+    {
+      "id": "kr-func-exemption-report-guide",
+      "name_zh": "功能性化妆品免审报告指南",
+      "authority": "MFDS",
+      "type": "registration",
+      "mandatory": false,
+      "cost": "未知",
+      "time": "提交后不可改",
+      "docs": [
+        "功能性化妆品审查免除品目报告"
+      ],
+      "who": "责任销售业者/制造业者",
+      "note": "2026-11-18修订（11-23挂网）：新增要件确认不可及案例；定制妆最多一次报10个。指南无对外法律效力。",
+      "official_url": "https://www.mfds.go.kr/brd/m_1060/view.do?seq=16000",
+      "source_checked": "2026-11-24",
+      "needs_review": false
     }
   ],
   "steps": [
