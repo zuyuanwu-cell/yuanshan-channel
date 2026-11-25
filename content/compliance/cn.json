@@ -181,6 +181,25 @@
       "needs_review": false
     },
     {
+      "id": "cn-customs-162",
+      "name_zh": "进出口化妆品监管要求（第162号公告）",
+      "authority": "海关总署",
+      "type": "tax-customs",
+      "mandatory": true,
+      "cost": "未知",
+      "time": "2026-12-01 起",
+      "docs": [
+        "与药监平台标签样稿相关内容一致的中文标签",
+        "出口检验检疫申请单：616化妆品生产许可证",
+        "出口产品注册或备案编号"
+      ],
+      "who": "进口收货人/境内责任人、出口生产企业/发货人或其代理人",
+      "note": "与第284号同日施行。进口中文标签须与药监平台标签样稿相关内容一致；免税免贴（海南离岛免税除外）；跨境零售按原规定。出口单填616许可证及注册备案号。",
+      "official_url": "http://www.customs.gov.cn/customs/2026-11/24/article_2026112410594082896.html",
+      "source_checked": "2026-11-25",
+      "needs_review": false
+    },
+    {
       "id": "cn-nci-innovation",
       "name_zh": "新原料创新指导（试行）",
       "authority": "中检院",
