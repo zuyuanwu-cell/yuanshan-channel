@@ -4,7 +4,7 @@
   "flag": "🇨🇦",
   "region": "北美",
   "difficulty": 2,
-  "summary": "首次销售后 10 日内向卫生部通报，不收费，通报不等于批准；香精过敏原超阈值须单独标示（新品已按 81 项，在售品宽限至 2028-08-01）。",
+  "summary": "首次销售后10日内通报，不等于批准；香精过敏原新品按81项披露。2026-11热列表已更新碱性染料与PHMB限用。",
   "items": [
     {
       "id": "ca-notify",
@@ -27,18 +27,22 @@
     },
     {
       "id": "ca-hotlist",
-      "name_zh": "成分禁限用清单",
+      "name_zh": "成分禁限用清单（Hotlist）",
       "authority": "加拿大卫生部",
       "type": "safety",
       "mandatory": true,
       "cost": "未知",
-      "time": "未知",
-      "docs": [],
+      "time": "2026-11 变更已上线（变更页 Date modified 2026-11-23）",
+      "docs": [
+        "对照现行热列表核配方（禁限用）",
+        "碱性紫4 / 碱性蓝7 / PHMB 限用条件",
+        "聚合草（Symphytum）与马钱子碱（Brucine）禁用"
+      ],
       "who": "制造商或进口商",
-      "note": "官网写明有禁限用清单。具体物质本次未逐条打开。",
-      "official_url": "https://www.canada.ca/en/health-canada/services/consumer-product-safety/cosmetics.html",
-      "source_checked": "2026-10-24",
-      "needs_review": true
+      "note": "2026-11变更已上线：碱性紫4/蓝7与PHMB限用，聚合草例外取消，马钱子碱及其盐禁用。",
+      "official_url": "https://www.canada.ca/en/health-canada/services/consumer-product-safety/cosmetics/cosmetic-ingredient-hotlist-prohibited-restricted-ingredients/hotlist.html",
+      "source_checked": "2026-11-25",
+      "needs_review": false
     },
     {
       "id": "ca-label",
