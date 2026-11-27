@@ -58,6 +58,24 @@
       "needs_review": false
     },
     {
+      "id": "vn-ecom-customs-417",
+      "name_zh": "电商平台进出口海关管理（第417/2026号政令，跟踪）",
+      "authority": "越南政府 / 海关",
+      "type": "tax-customs",
+      "mandatory": true,
+      "cost": "单笔完税价格≤100万盾免进口关税（每买家每年不超过4800万盾）；其他税照旧",
+      "time": "2027-03-01 起施行",
+      "docs": [
+        "订单信息（平台或受托方须在运载工具入境前传海关系统）",
+        "海关申报"
+      ],
+      "who": "通过电商平台向越南跨境进口或从保税仓出货的卖家、平台、物流与报关方",
+      "note": "2027-03-01起：单笔≤100万盾免进口关税（每买家每年≤4800万盾），其他税照旧。分组通关不替代化妆品公告。",
+      "official_url": "https://vanban.chinhphu.vn/?classid=1&docid=220347&pageid=27160&typegroupid=4",
+      "source_checked": "2026-11-27",
+      "needs_review": true
+    },
+    {
       "id": "vn-bp3-limit",
       "name_zh": "二苯酮-3 限量",
       "authority": "东盟化妆品指令 ACD",
