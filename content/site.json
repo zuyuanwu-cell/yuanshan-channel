@@ -336,116 +336,110 @@
   "rankingGaps": [
     {
       "platform": "aliexpress",
-      "tried": "2026-11-23",
-      "reason": "箱侧 curl 仍跳转登录墙（ug-login-page），未拿到商品列表；本轮未调本机验证码站，无法确认11月Apify用量，未调用。",
+      "tried": "2026-11-27",
+      "reason": "箱侧 curl 仍跳转登录墙（ug-login-page），未拿到商品列表；用户电脑离线无法走本机CDP，未确认11月Apify用量，未调用。",
       "source_url": "https://www.aliexpress.com/w/wholesale-beauty.html?SortType=total_tranpro_desc&SearchText=skincare"
     },
     {
       "platform": "temu",
-      "tried": "2026-11-23",
-      "reason": "公开页仍是脚本空壳，未抽到商品列表；本轮未调本机验证码站，无法确认11月Apify用量，未调用。",
+      "tried": "2026-11-27",
+      "reason": "公开页仍是脚本空壳，未抽到商品列表；用户电脑离线无法走本机CDP，未确认11月Apify用量，未调用。",
       "source_url": "https://www.temu.com/"
     },
     {
       "platform": "mercado-livre",
-      "tried": "2026-11-23",
-      "reason": "公开页跳转账号验证墙（account-verification），未拿到商品列表；本轮未调本机验证码站，无法确认11月Apify用量，未调用。",
+      "tried": "2026-11-27",
+      "reason": "公开页仍为账号验证墙（account-verification），未拿到商品列表；用户电脑离线无法走本机CDP，未确认11月Apify用量，未调用。",
       "source_url": "https://www.mercadolivre.com.br/mais-vendidos/MLB1246"
     },
     {
       "platform": "tiktok-shop-sea",
-      "tried": "2026-11-23",
-      "reason": "本机离线无法走CDP（上次搜索页404/安全检查）。未确认11月Apify用量，未调用。",
+      "tried": "2026-11-27",
+      "reason": "用户电脑离线无法走本机CDP（上次搜索页404/安全检查）。未确认11月Apify用量，未调用。",
       "source_url": "https://shop.tiktok.com/my"
     },
     {
       "platform": "tiktok-shop-us",
-      "tried": "2026-11-23",
-      "reason": "本机离线无法走CDP（上次落到Security Check）。未确认11月Apify用量，未调用。",
+      "tried": "2026-11-27",
+      "reason": "用户电脑离线无法走本机CDP（上次落到Security Check）。未确认11月Apify用量，未调用。",
       "source_url": "https://www.tiktok.com/shop/us"
     },
     {
       "platform": "ebay",
-      "tried": "2026-11-23",
-      "reason": "本机离线无法重试公开页/CDP；上次Beauty入口偏离热销口径。未确认11月Apify用量，未调用。",
+      "tried": "2026-11-27",
+      "reason": "用户电脑离线无法重试公开页/CDP；上次Beauty入口偏离热销口径。未确认11月Apify用量，未调用。",
       "source_url": "https://www.ebay.com/b/Beauty/26395/bn_7000259855"
     },
     {
       "platform": "noon",
-      "tried": "2026-11-23",
-      "reason": "本机离线无法走CDP（上次Access Denied）。未确认11月Apify用量，未调用。",
+      "tried": "2026-11-27",
+      "reason": "用户电脑离线无法走本机CDP（上次Access Denied）。未确认11月Apify用量，未调用。",
       "source_url": "https://www.noon.com/uae-en/beauty-and-health/beauty/?sort%5Bby%5D=popularity&sort%5Bdir%5D=desc"
     },
     {
       "platform": "coupang",
-      "tried": "2026-11-23",
-      "reason": "本机离线无法走CDP（上次分类页被转走）。未确认11月Apify用量，未调用。",
+      "tried": "2026-11-27",
+      "reason": "用户电脑离线无法走本机CDP（上次分类页被转走）。未确认11月Apify用量，未调用。",
       "source_url": "https://www.coupang.com/np/categories/176422?listSize=60&sorter=saleCountDesc"
     },
     {
       "platform": "shopee-sg",
-      "tried": "2026-11-23",
-      "reason": "本机离线无法走CDP（上次跳转verify/captcha）。未确认11月Apify用量，未调用。",
+      "tried": "2026-11-27",
+      "reason": "用户电脑离线无法走本机CDP（上次跳转verify/captcha）。未确认11月Apify用量，未调用。",
       "source_url": "https://shopee.sg/"
     },
     {
       "platform": "shopee-id",
-      "tried": "2026-11-23",
-      "reason": "本机离线无法走CDP（上次跳转verify/traffic/error）。未确认11月Apify用量，未调用。",
+      "tried": "2026-11-27",
+      "reason": "用户电脑离线无法走本机CDP（上次跳转verify/traffic/error）。未确认11月Apify用量，未调用。",
       "source_url": "https://shopee.co.id/"
     },
     {
       "platform": "shopee-my",
-      "tried": "2026-11-23",
-      "reason": "本机离线无法走CDP（上次跳转verify/traffic/error）。未确认11月Apify用量，未调用。",
+      "tried": "2026-11-27",
+      "reason": "用户电脑离线无法走本机CDP（上次跳转verify/traffic/error）。未确认11月Apify用量，未调用。",
       "source_url": "https://shopee.com.my/"
     },
     {
       "platform": "shopee-th",
-      "tried": "2026-11-23",
-      "reason": "本机离线无法走CDP（上次跳转verify/captcha）。未确认11月Apify用量，未调用。",
+      "tried": "2026-11-27",
+      "reason": "用户电脑离线无法走本机CDP（上次跳转verify/captcha）。未确认11月Apify用量，未调用。",
       "source_url": "https://shopee.co.th/"
     },
     {
       "platform": "shopee-vn",
-      "tried": "2026-11-23",
-      "reason": "本机离线无法走CDP（上次跳转verify/traffic/error）。未确认11月Apify用量，未调用。",
+      "tried": "2026-11-27",
+      "reason": "用户电脑离线无法走本机CDP（上次跳转verify/traffic/error）。未确认11月Apify用量，未调用。",
       "source_url": "https://shopee.vn/"
     },
     {
       "platform": "lazada-id",
-      "tried": "2026-11-23",
-      "reason": "本机离线无法走CDP（上次落到惩罚页）。未确认11月Apify用量，未调用。",
+      "tried": "2026-11-27",
+      "reason": "用户电脑离线无法走本机CDP（上次落到惩罚页）。未确认11月Apify用量，未调用。",
       "source_url": "https://www.lazada.co.id/"
     },
     {
       "platform": "lazada-th",
-      "tried": "2026-11-23",
-      "reason": "本机离线无法走CDP（上次落到惩罚页）。未确认11月Apify用量，未调用。",
+      "tried": "2026-11-27",
+      "reason": "用户电脑离线无法走本机CDP（上次落到惩罚页）。未确认11月Apify用量，未调用。",
       "source_url": "https://www.lazada.co.th/"
     },
     {
-      "platform": "amazon-jp",
-      "tried": "2026-11-23",
-      "reason": "箱侧 TLS 连不上公开页；WebFetch 无 ASIN/主图，未入库。本机离线、未确认11月Apify用量，未调用。",
-      "source_url": "https://www.amazon.co.jp/gp/bestsellers/beauty"
-    },
-    {
       "platform": "walmart",
-      "tried": "2026-11-23",
-      "reason": "公开页跳转机器人验证（/blocked），未拿到商品列表；本机离线、未确认11月Apify用量，未调用。",
+      "tried": "2026-11-27",
+      "reason": "公开页跳转机器人验证（/blocked），未拿到商品列表；用户电脑离线无法走本机CDP，未确认11月Apify用量，未调用。",
       "source_url": "https://www.walmart.com/c/best-sellers/face-moisturizers"
     },
     {
       "platform": "wildberries",
-      "tried": "2026-11-23",
-      "reason": "最新榜仍为11-14；本机离线无法走CDP，未确认11月Apify用量，未调用，未入库新榜。",
+      "tried": "2026-11-27",
+      "reason": "最新榜仍为11-14；用户电脑离线无法走本机CDP，未确认11月Apify用量，未调用，未入库新榜。",
       "source_url": "https://www.wildberries.ru/catalog/krasota/makiyazh/litso"
     },
     {
       "platform": "ozon",
-      "tried": "2026-11-23",
-      "reason": "最新榜仍为11-16；本机离线无法走CDP，未确认11月Apify用量，未调用，未入库新榜。",
+      "tried": "2026-11-27",
+      "reason": "最新榜仍为11-16；用户电脑离线无法走本机CDP，未确认11月Apify用量，未调用，未入库新榜。",
       "source_url": "https://www.ozon.ru/category/krasota-i-zdorove-6500/?__rr=1"
     }
   ],
