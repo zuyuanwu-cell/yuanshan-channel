@@ -1,0 +1,87 @@
+{
+  "api": "yuanshan-channel/v1",
+  "access": "public-read",
+  "auth": null,
+  "generated": "2026-10-26",
+  "disclaimer": "每条资讯都附来源链接。标了「待核实」的条目来自媒体或第三方转述，引用前打开原文。费用、排名和法规以官方页面为准。",
+  "kind": "feed",
+  "id": "ca/rules+regulation+rankings",
+  "title": "加拿大",
+  "markets": [
+    "ca"
+  ],
+  "types": [
+    "rules",
+    "regulation",
+    "rankings"
+  ],
+  "filter": {
+    "markets": [
+      "ca"
+    ],
+    "types": [
+      "rules",
+      "regulation",
+      "rankings"
+    ],
+    "include_global": false
+  },
+  "count": 2,
+  "items": [
+    {
+      "kind": "news",
+      "id": "2026-11-23-canada-hotlist-update",
+      "type": "regulation",
+      "date": "2026-11-23",
+      "title": "加拿大化妆品成分热列表11月更新：碱性紫4和碱性蓝7设限，PHMB喷雾禁用，聚合草不再例外",
+      "summary": "加拿大卫生部官网列出2026年11月热列表变更，页脚修改日为11月23日：碱性紫4、碱性蓝7和PHMB列入限用；驻留护发禁用前两种染料，喷雾禁用PHMB；聚合草取消例外，马钱子碱及其盐改为禁用。现行热列表已写入这些条件。",
+      "body_text": "向加拿大卖美妆、个护的注意这条：我们于 2026-11-25 打开了加拿大卫生部化妆品成分热列表变更页 (https://www.canada.ca/en/health-canada/services/consumer-product-safety/cosmetics/cosmetic-ingredient-hotlist-prohibited-restricted-ingredients/changes.html)。页上列出 「November 2026 Changes to the Cosmetic Ingredient Hotlist」，页脚 Date modified: 2026-11-23。同一站点的现行热列表 (https://www.canada.ca/en/health-canada/services/consumer-product-safety/cosmetics/cosmetic-ingredient-hotlist-prohibited-restricted-ingredients/hotlist.html)（页眉为 2026 版，页脚同样是 2026-11-23）已经写入下面这些禁限用条件。\n\n先说清楚边界：热列表是卫生部的行政工具，用来提示某些成分出现在化妆品里，可能违反《食品药品法》第 16 条一般禁令或化妆品法规，它不是一部新通过的法律文本。但向加拿大销售时，配方、标签和通报表（CNF）都要按现行清单来对。这两页都没有写过渡期或宽限日。\n\n站内相关：加拿大香精过敏原标示 (/news/2026-08-01-canada-fragrance-allergen-labelling/)。\n\n改了什么\n\n1. 新列入限用：两种染发染料，驻留护发不能用\n\n变更页写明，碱性紫 4（Basic Violet 4，CI 42600，CAS 2390-59-2）和 碱性蓝 7（Basic Blue 7，CI 42595，CAS 2390-60-5）因化学品管理计划（CMP）评估的潜在致癌性被列入限用；卫生部在评估之后收到的化妆品通报显示，暴露水平已上升，可能构成风险。\n\n现行限用表（我们打开后核对）写的是：\n\n成分\n驻留护发\n染发产品\n淋洗护发\n其他条件\n\n碱性紫 4（CI 42600）\n禁用\n最高 0.4%\n最高 0.2%\n「其他化妆品」未规定浓度上限\n\n碱性蓝 7（CI 42595）\n禁用\n最高 0.4%\n最高 0.2%\n美甲最高 0.8%，浴用产品最高 2%；「其他化妆品」未规定浓度上限\n\n「未规定浓度上限」不是官网写了「可以任意添加」，而是限用表「最大浓度」这一栏是空的。按热列表阅读说明第 4 条：这一栏空白，表示未规定最大浓度。驻留类护发产品（发膜、免洗精华、留在头发上的造型乳等）对这两种染料仍是明确禁用。\n\n2. 新列入限用：PHMB 不能做喷雾，其他剂型最高 0.2%\n\n聚氨丙基双胍（Polyaminopropyl Biguanide，又名聚六亚甲基双胍、PHMB、Polihexanide；CAS 32289-58-0、27083-27-8、28757-47-3）被列入限用。变更页的理由是：喷雾或气雾吸入可能影响肺功能，其他外用产品存在皮肤致敏风险。\n\n现行限用表写的是：\n\n- 喷雾或气雾剂型：禁用\n\n- 其他化妆品：最高 0.2%\n\n喷雾防晒、喷雾护发、气雾型消毒或定型产品，如果防腐体系靠 PHMB，这条会直接卡住。\n\n3. 两项禁用修订：聚合草不再例外，马钱子碱及其盐改为禁用\n\n- 聚合草（Symphytum spp.，英文 Comfrey）：原先有一条例外，认为药用聚合草（Symphytum officinale）不含肝毒性生物碱 echimidine，可以排除在外。变更页写明，后来在部分 S. officinale 衍生物中检出了 echimidine，且该种还含有其他致癌吡咯里西啶生物碱（如 lasiocarpine），因此取消例外，整属禁用。现行禁用表只列 Symphytum spp. / Comfrey，不再附加例外。不要和中药里的「紫草」混为一谈，这里指的是聚合草属。\n\n- 马钱子碱及其盐（Brucine and its salts）：因急性毒性高、有神经毒性、容易经皮吸收，条目改为禁用，并扩大到盐类（例如硫酸马钱子碱，CAS 357-57-3、4845-99-2）。\n\n影响谁\n\n- 向加拿大出口，或在亚马逊加拿大等渠道卖美妆个护的品牌、进口商和代工厂\n\n- 染发膏、彩色护发、淋洗/驻留护发里用了碱性紫 4 或碱性蓝 7 的配方团队\n\n- 用 PHMB 做防腐的护理、湿巾或喷雾产品\n\n- 配方里写了 Comfrey / Symphytum / 聚合草提取物的「植物护肤」\n\n- 成分表或原料库里出现 Brucine 及其盐的产品（相对少见，但现在是禁用）\n\n意味着什么 / 现在注意什么\n\n- 先对照现行热列表核一遍配方和原料代码，不要沿用旧版清单，也不要用其他国家的禁限用表代替加拿大的表。\n\n- 驻留护发只要还含这两种碱性染料，就过不了现行条件；淋洗护发和染发要核对浓度。碱性蓝 7 还要看美甲和浴用产品。\n\n- 含 PHMB 的喷雾、气雾要改防腐体系或改剂型；非喷雾产品把含量卡在 0.2% 以内。\n\n- 以前靠「只用了 officinale、不在禁用之列」的聚合草配方，现在这条路没有了，要改配方或停售相关 SKU。\n\n- 通报（CNF）不等于批准。清单更新后，不合规产品仍可能被执法。官网变更页和现行清单都没有写宽限期，按现列条件执行。\n\n- 具体物质、同义词和 CAS 以现行热列表 (https://www.canada.ca/en/health-canada/services/consumer-product-safety/cosmetics/cosmetic-ingredient-hotlist-prohibited-restricted-ingredients/hotlist.html)为准，配方一变就要再对一次。\n\n证据（核对日期 2026-11-25）\n\n加拿大卫生部变更页列出「2026年11月变更」，含三项新增限用和两项修订，页脚修改日为 2026-11-23：\n\n来源：加拿大卫生部 Health Canada《Changes to the Cosmetic Ingredient Hotlist》，核对日期 2026-11-25。\n\n来源：同上变更页页脚，核对日期 2026-11-25。\n\n现行热列表页眉为 2026 版，禁用清单与限用清单均在同一页：\n\n来源：加拿大卫生部 Health Canada《Cosmetic Ingredient Hotlist》，核对日期 2026-11-25。\n\n限用表中碱性蓝 7、碱性紫 4 的剂型与浓度条件：\n\n来源：同上现行热列表限用表，核对日期 2026-11-25。\n\n限用表中 PHMB 的喷雾禁用与 0.2% 上限：\n\n来源：同上现行热列表限用表，核对日期 2026-11-25。\n\n禁用表中的马钱子碱及其盐、聚合草属：\n\n来源：同上现行热列表禁用表，核对日期 2026-11-25。\n\n来源：同上现行热列表禁用表，核对日期 2026-11-25。\n\n现行热列表页脚修改日同样为 2026-11-23；表注第 4 条说明最大浓度栏空白表示未规定上限：\n\n来源：同上现行热列表页脚，核对日期 2026-11-25。\n\n来源：同上现行热列表表注，核对日期 2026-11-25。",
+      "markets": [
+        "ca"
+      ],
+      "platforms": [],
+      "tags": [
+        "ingredients",
+        "compliance"
+      ],
+      "source_url": "https://www.canada.ca/en/health-canada/services/consumer-product-safety/cosmetics/cosmetic-ingredient-hotlist-prohibited-restricted-ingredients/changes.html",
+      "source_name": "加拿大卫生部 · 化妆品成分热列表变更页",
+      "checked": "2026-11-25",
+      "needs_review": false,
+      "sample": false,
+      "key_date": {
+        "date": "2026-11-23",
+        "label": "官网变更页修改日"
+      },
+      "page": "/news/2026-11-23-canada-hotlist-update/"
+    },
+    {
+      "kind": "news",
+      "id": "2026-08-01-canada-fragrance-allergen-labelling",
+      "type": "regulation",
+      "date": "2026-08-01",
+      "title": "加拿大香精过敏原标示：新品已按 81 项披露，在售品宽限至 2028-08-01",
+      "summary": "加拿大要求香精过敏原超阈值时在成分表单独列出：2026-04-12 起 24 项；2026-08-01 起新品扩至 81 项；2026-08-01 前已在售产品宽限至 2028-08-01。",
+      "body_text": "加拿大卫生部（Health Canada）在化妆品标签与成分说明页写明：法规已要求，当特定香精过敏原超过浓度阈值时，须在成分表中单独列出，不能只写在「parfum / fragrance」里。披露清单与欧盟香精过敏原思路对齐，并会随欧盟清单调整保持一致。\n\n改了什么\n\n阈值（配方浓度）：\n\n- 驻留类（leave-on）：超过 0.001%\n\n- 淋洗类（rinse-off）：超过 0.01%\n\n分阶段清单：\n\n时点\n要求\n\n2026-04-12 起\n须披露 24 种香精过敏原（超阈值时）\n\n2026-08-01 起\n新投放加拿大市场的化妆品按扩展清单披露，共 81 项\n\n2028-08-01 起\n2026-08-01 前已在售的产品也须按 81 项清单披露\n\n过敏原名称须出现在成分表中「parfum」之外；成组过敏原按规定组名标示。通报表（CNF）侧另有填写说明：达标过敏原一般逐行勾选，浓度填写多数情形可选（Hotlist 有浓度条件的除外）。\n\n影响谁\n\n- 向加拿大出口或在加站（含亚马逊加拿大、本地零售）卖美妆个护的品牌与进口商\n\n- 配方含香精/复配香基、又想继续用「parfum」笼统写法的工厂——超阈值过敏原必须拆出来写\n\n- 2026-08-01 前已铺货、标签还没改的在售 SKU：还有到 2028-08-01 的窗口，但新品已不能再拖\n\n意味着什么 / 现在注意什么\n\n- 通报（CNF）≠批准；标签不合规照样会被查。先对配方做过敏原筛查，再改中英法标签与包材。\n\n- 新品（2026-08-01 后首次投放）现在就应按 81 项清单自查；在售老品排期改版，别堆到 2028 年底。\n\n- 宣称「无香 / fragrance-free」时，若实际用了掩蔽剂，成分表仍可能出现 parfum——宣传口径要和成分表一致。\n\n- 具体物质名单以法规附件与卫生部现行说明为准，配方变更后重新核对阈值。\n\n官方说明：Health Canada · Cosmetic advertising, labelling and ingredients (https://www.canada.ca/en/health-canada/services/cosmetics/cosmetic-advertising-labelling-ingredients.html)（「Disclosure of certain fragrance allergens」一节）。",
+      "markets": [
+        "ca"
+      ],
+      "platforms": [],
+      "tags": [
+        "labeling",
+        "ingredients",
+        "compliance"
+      ],
+      "source_url": "https://www.canada.ca/en/health-canada/services/cosmetics/cosmetic-advertising-labelling-ingredients.html",
+      "source_name": "加拿大卫生部 Health Canada",
+      "checked": "2026-10-27",
+      "needs_review": false,
+      "sample": false,
+      "key_date": {
+        "date": "2028-08-01",
+        "label": "在售品截止"
+      },
+      "page": "/news/2026-08-01-canada-fragrance-allergen-labelling/"
+    }
+  ]
+}

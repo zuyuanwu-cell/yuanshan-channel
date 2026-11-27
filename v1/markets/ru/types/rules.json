@@ -1,0 +1,170 @@
+{
+  "api": "yuanshan-channel/v1",
+  "access": "public-read",
+  "auth": null,
+  "generated": "2026-10-26",
+  "disclaimer": "每条资讯都附来源链接。标了「待核实」的条目来自媒体或第三方转述，引用前打开原文。费用、排名和法规以官方页面为准。",
+  "kind": "feed",
+  "id": "ru/rules",
+  "title": "俄罗斯",
+  "markets": [
+    "ru"
+  ],
+  "types": [
+    "rules"
+  ],
+  "filter": {
+    "markets": [
+      "ru"
+    ],
+    "types": [
+      "rules"
+    ],
+    "include_global": false
+  },
+  "count": 5,
+  "items": [
+    {
+      "kind": "news",
+      "id": "2026-10-16-ozon-commission-formula-dec",
+      "type": "rules",
+      "date": "2026-10-16",
+      "title": "Ozon 12月1日起按新公式算销售佣金，先重算定价和回款",
+      "summary": "Ozon 资费清单新版：佣金以后台「上限价」为基数，打折部分从佣金里扣。跨仓经提货点改按货件计费。",
+      "body_text": "监测站 ferta.su 10月16日记录到 Ozon《佣金与资费完整清单》的新版本：2026年12月1日 起，销售佣金按新公式计算。\n\n公式（文件原文的意思）：每笔销售或退货的佣金，取下面两者中较大的一个——\n\n- 上限价 × (上限费率 − 修正值) × 1%\n\n- 上限价 × (上限费率 − 修正值 − 折扣系数)\n\n其中「上限价」是下单时卖家后台设置的价格；「折扣系数」是上限价与实际售价（含合作方忠诚度补贴）之差占上限价的比例；「修正值」用于延期回款折扣等机制。\n\nferta 给的算例：上限价 1,000 ₽、费率 20%。按 900 ₽ 卖出，佣金 100 ₽（原来 200 ₽），卖家到手 800 ₽；按 1,100 ₽ 卖出，佣金 300 ₽，到手仍是 800 ₽。也就是说，到手金额主要由上限价决定。\n\n同一版本里，经提货点的交叉配送改成每个货件 15 ₽，不再按每升 5 ₽。\n\nOzon 卖家文档站从这里打不开，内容来自第三方监测站对原文的摘录，所以标待核实。调价前到 Ozon 卖家后台核对资费清单原文。",
+      "markets": [
+        "ru"
+      ],
+      "platforms": [
+        "ozon"
+      ],
+      "tags": [
+        "fees"
+      ],
+      "source_url": "https://ferta.su/ozon/polnyy-spisok-komissiy-tarifov/2026-10-16-schitaet-komissiyu-prodazhu-novoy-formule-620",
+      "source_name": "ferta.su（Ozon 资费文件变更监测）",
+      "checked": "2026-10-22",
+      "needs_review": true,
+      "sample": false,
+      "key_date": {
+        "date": "2026-12-01",
+        "label": "新公式生效"
+      },
+      "page": "/news/2026-10-16-ozon-commission-formula-dec/"
+    },
+    {
+      "kind": "news",
+      "id": "2026-10-12-wildberries-fbw-beauty-packaging-penalty",
+      "type": "rules",
+      "date": "2026-10-12",
+      "title": "Wildberries：美妆/日化 FBW 包装不合规，全仓每件罚 40 卢布",
+      "summary": "АВОШОП 转述 WB：10月12日起 FBW「仓库 WB」所有发货点，对「美妆」「日化」类包装不合规按件扣 40₽；此前仅部分仓执行。",
+      "body_text": "АВОШОП 转载的 Wildberries 卖家说明写明：自 2026年10月12日 起，按 「仓库 WB」（FBW） 发货时，不正确包装的罚款扩到所有发货点——以前只在部分仓/发货点执行。\n\n改了什么\n\n- 范围：目前仍只盯两类——「美妆 / Товары для красоты」 和 「日化 / Бытовая химия」（洗发水、凝胶、面霜、卸甲液等液体/易损品最容易中招）\n\n- 金额：每件 40 ₽；一箱一百件不合格就是 4,000 ₽\n\n- 模式：只说 FBW（入平台仓）；自家仓发货的 FBS 不在这条「入仓验收扣款」里，但买家侧包装要求仍要守\n\n- 平台解释：这类货运输中更容易漏液、破损，还会污染同箱其他商品\n\n卖家中心另有 FBW 包装总则与「不正确包装」说明页，发货前应对着包装清单（气泡膜、固定泵头、单件独立包装等）自查。\n\n影响谁\n\n- 在 Wildberries 用 FBW 卖美妆、个护、洗护、家清的跨境与本地卖家\n\n- 低客单价 SKU 更疼：件货 200–300 ₽ 时，40 ₽ 直接啃掉一截毛利\n\n- 多工厂/多代发：扣款记在你头上，包装标准要写进供应商约定\n\n意味着什么 / 现在注意什么\n\n- 已在仓里的货改不了包装；风险在接下来几批发货\n\n- 换仓、新方向首发更容易踩坑——第一次发某仓前先按最新包装说明试装\n\n- 包装做好一举两得：少罚、也少因破损导致的退货\n\n来源为 АВОШОП 转载的 WB 卖家说明（未逐字核对卖家后台登录页原文），以卖家中心现行包装说明与财务报告扣款为准。包装说明入口：不正确包装商品 (https://seller.wildberries.ru/instructions/ru/ru/material/incorrect-packaging-of-goods)。",
+      "markets": [
+        "ru"
+      ],
+      "platforms": [
+        "wildberries"
+      ],
+      "tags": [
+        "penalties",
+        "labeling"
+      ],
+      "source_url": "https://avoshop.ru/company/news/2026/wildberries_fbw_shtraf_za_nepravilnuyu_upakovku_nachnyet_deystvovat_dlya_vsekh_postavok_bytovoy_khim/",
+      "source_name": "Wildberries 卖家公告（АВОШОП 转载）",
+      "checked": "2026-10-27",
+      "needs_review": true,
+      "sample": false,
+      "key_date": {
+        "date": "2026-10-12",
+        "label": "全仓执行"
+      },
+      "page": "/news/2026-10-12-wildberries-fbw-beauty-packaging-penalty/"
+    },
+    {
+      "kind": "news",
+      "id": "2026-10-07-ozon-realfbs-wb-fbs-penalties",
+      "type": "rules",
+      "date": "2026-10-07",
+      "title": "Ozon realFBS 11月19日起错误率超 2% 就罚；WB 把 FBS 延迟罚款封顶 1%",
+      "summary": "两家俄罗斯平台对卖家自发货的罚则反向调整：Ozon 收紧，罚款门槛从 5% 降到 2%；Wildberries 放松，FBS 延迟发货最多罚 1%。",
+      "body_text": "ECOMHUB 10月7日整理了两家平台对卖家仓发货的罚则变化。\n\nOzon realFBS（卖家自配送）\n\n- 11月19日 起，错误率超过 2% 就开始罚，新罚款区间从 2.1% 起\n\n- 现在的主要门槛是 5%\n\n- 文章提到，Ozon 9月刚把一档取消订单的罚款下调，不到两个月又改回去\n\nWildberries FBS（卖家仓、平台配送）\n\n- 10月7日 起，延迟发货的罚款最多为 1%\n\n- 按旧的阶梯，严重延迟最高可到 9%\n\n美妆日化走 realFBS 的多是跨境直发小件。11月19日前把错误率拉到 2% 以下，最直接的办法是减少取消和超时。\n\n具体分档以 Ozon、WB 卖家后台公告为准。本条来自行业媒体整理，标待核实。",
+      "markets": [
+        "ru"
+      ],
+      "platforms": [
+        "ozon",
+        "wildberries"
+      ],
+      "tags": [
+        "penalties"
+      ],
+      "source_url": "https://ecomhub.ru/ozon-realfbs-wildberries-fbs-penalties-seller-warehouse-2026/",
+      "source_name": "ECOMHUB",
+      "checked": "2026-10-22",
+      "needs_review": true,
+      "sample": false,
+      "key_date": {
+        "date": "2026-11-19",
+        "label": "Ozon 新罚则"
+      },
+      "page": "/news/2026-10-07-ozon-realfbs-wb-fbs-penalties/"
+    },
+    {
+      "kind": "news",
+      "id": "2026-10-01-wildberries-penalty-list",
+      "type": "rules",
+      "date": "2026-10-01",
+      "title": "Wildberries 新罚款清单 10月1日生效：标识码和 ТН ВЭД 填错按件罚",
+      "summary": "WB 卖家报价的罚款附件 10月1日起执行。强制标识商品的 ТН ВЭД 填错每件 1,500 卢布，好评返现每次 50,000 卢布。",
+      "body_text": "Wildberries 公开的《罚款清单》（卖家报价附件）标明 2026年10月1日 起生效。和美妆日化卖家关系最大的几项：\n\n违规\n罚款\n\n商品卡侵犯第三方知识产权，或拿不出无侵权证明\n每次 10,000 ₽\n\n上架违法生产、违法进口或禁售商品\n每次 25,000 ₽\n\n商品卡、包装插页承诺好评返现\n每次 50,000 ₽\n\n交付 УПД 时标识码状态不对、不全或与实物不符\n每件 1 ₽\n\n强制标识商品没填或填错 ТН ВЭД 编码\n每件 1,500 ₽\n\n在买家聊天里引导去其他平台或社媒\n每次 25,000 ₽\n\nТН ВЭД 那一项也反过来适用：不属于强制标识的商品，却填了强制标识品类的编码，同样按件罚。\n\n如果你的品类在俄罗斯「Честный знак」强制标识范围内，上架前核对编码和标识码流转，是这份清单里最容易被按件累计的部分。",
+      "markets": [
+        "ru"
+      ],
+      "platforms": [
+        "wildberries"
+      ],
+      "tags": [
+        "penalties",
+        "labeling"
+      ],
+      "source_url": "https://static-basket-02.wb.ru/vol20/portal/education/instruction/Perechen_shtrafov_po_oferte.pdf",
+      "source_name": "Wildberries 报价附件 · 罚款清单",
+      "checked": "2026-10-22",
+      "needs_review": false,
+      "sample": false,
+      "key_date": null,
+      "page": "/news/2026-10-01-wildberries-penalty-list/"
+    },
+    {
+      "kind": "news",
+      "id": "2026-10-01-wildberries-permit-documents-check",
+      "type": "rules",
+      "date": "2026-10-01",
+      "title": "Wildberries 开始核查商品卡「合格证明」：新卡不填证书存不了，老卡 180 天内随时可能被隐藏，俄罗斯美妆卖家要尽快补",
+      "summary": "Wildberries 10月1日起检查商品卡里的合格声明/国家注册证书（СГР）：10月1日后新建的卡必须当场填好证书、ТН ВЭД 和（强制赋码商品的）GTIN，否则保存不了；老卡有 180 天过渡期，但期间随时会被抽查隐藏。Ozon 也要求证书审核通过才能卖，并表示将隐藏 GTIN 未在诚信标志注册的商品。",
+      "body_text": "改了什么\n\nWildberries 从 2026年10月1日 起，开始核查商品卡里填的 许可文件（合格声明 Декларация、合格证书、国家注册证书 СГР 等），背景是俄罗斯平台经济法（第 289-ФЗ 号联邦法）同日生效。\n\n- 10月1日以后新建的商品卡：必须当场填好许可文件；有合格声明或证书的，要填 ТН ВЭД 编码，并且和证书上的一致；属于「诚信标志」强制赋码的商品（化妆品、香水都在内），还要填 GTIN，并且和贴在货上的码一致。缺一项，卡片就 保存不了。\n\n- 10月1日前建的老卡：给 180 天过渡期（按天数算，最晚约 2027年3月30日）。但 WB 说得很直白：这 180 天是「最晚补完」的期限，不是保证不下架的期限，期间随时会抽查，没填对就隐藏。\n\n- 一个商品要几份文件的（比如儿童用品要 СГР + 合格声明），现在可以一张卡传多份。\n\n- 坑点：还没拿到证书的老卡，别改商品内容（属性、图片、描述）。一改就会触发检查，过不了就被封卡、货被退回。只改价格不受影响。\n\nOzon 那边也一样：文件要在后台「商品 → 质量证书」上传，审核时会对品牌、型号、货号、ТН ВЭД、品名和生产商；同时 Ozon 表示将开始隐藏 GTIN 没在诚信标志注册的商品。\n\n影响谁\n\n- 在 Wildberries / Ozon 卖 护肤、彩妆、香水、洗护 的中国卖家，尤其是早期用别人证书、或者证书和商品卡对不上的店铺\n\n- 做 「别人的牌子」铺货/分销 的：证书在品牌方或进口商手里，你要找对方要号码和文件\n\n- 已经被强制赋码的品类（化妆品 3304 等）：GTIN 填错会被直接拦下\n\n现在该做什么\n\n- 拉出全部美妆商品卡，逐张核对：有没有填合格声明/СГР，ТН ВЭД 和证书是否一字不差\n\n- 强制赋码的商品，把 GTIN 和诚信标志系统里注册的核一遍\n\n- 没证书的老卡先别动内容，抓紧办证再补；办不下来的 SKU 提前准备清货\n\n- 按 2027年3月30日倒排，但别等到最后——过渡期内随时会被隐藏\n\n相关：Wildberries 新罚款清单 (/news/2026-10-01-wildberries-penalty-list/)（ТН ВЭД 填错每件罚 1,500 卢布）、俄罗斯卫生用品赋码 (/news/2026-10-01-russia-hygiene-goods-marking/)。\n\n来源：Wildberries 卖家公告「10月1日起核查商品卡许可文件」（АВОШОП 转载，2026-10-01）；SELEQT《化妆品在电商平台需要哪些文件》（2026-10-16 更新，含 Ozon 规则说明）。过渡期截止日按公告「180 天」推算，以平台后台通知为准。",
+      "markets": [
+        "ru"
+      ],
+      "platforms": [
+        "wildberries",
+        "ozon"
+      ],
+      "tags": [
+        "compliance",
+        "labeling"
+      ],
+      "source_url": "https://www.avoshop.ru/company/news/2026/wildberries_s_1_oktyabrya_nachnyem_proveryat_razreshitelnye_dokumenty_v_kartochkakh_tovarov/",
+      "source_name": "Wildberries 卖家公告（АВОШОП 转载）",
+      "checked": "2026-10-25",
+      "needs_review": true,
+      "sample": false,
+      "key_date": {
+        "date": "2027-03-30",
+        "label": "WB 老卡补证书截止"
+      },
+      "page": "/news/2026-10-01-wildberries-permit-documents-check/"
+    }
+  ]
+}

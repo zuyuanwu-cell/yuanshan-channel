@@ -1,0 +1,40 @@
+{
+  "api": "yuanshan-channel/v1",
+  "access": "public-read",
+  "auth": null,
+  "generated": "2026-10-26",
+  "disclaimer": "每条资讯都附来源链接。标了「待核实」的条目来自媒体或第三方转述，引用前打开原文。费用、排名和法规以官方页面为准。",
+  "kind": "news",
+  "item": {
+    "kind": "news",
+    "id": "2026-10-12-bpjph-370-cosmetics-sjph",
+    "type": "regulation",
+    "date": "2026-10-12",
+    "title": "印尼化妆品清真体系 SJPH 细则（BPJPH 370）",
+    "summary": "BPJPH 10月12日发布第370号：化妆品清真产品保障体系（SJPH）操作细则 10月18日起生效。强制持证仍按 PP 40/2026 延到 2028-10-17；现在就要拿证或做穆斯林市场定位的，要按这套搭体系。",
+    "body_text": "印尼清真产品保障局（BPJPH）2026年10月12日发布 2026年第370号决定《化妆品清真产品保障体系（SJPH）实施指南》，2026年10月18日起施行。正文与附件已核对官方副本。\n\n此前本站已报道：强制持证期限顺延到 2028年10月17日 (/news/2026-10-17-indonesia-halal-cosmetics-2028/)（PP 40/2026）。370 号不是提前强制拿证，而是把「一旦要做清真认证，体系怎么搭、原料怎么查、产线怎么隔离、标签怎么贴、事后怎么报」写成可执行细则。\n\n改了什么\n\n对企业来说，核心是整条链都要有书面 SJPH，不只交一纸证书：\n\n- 组织与人员\n\n- 书面清真政策，指定并向当局报告 Penyelia Halal（清真监督员）\n\n- 中型、大型及境外企业的监督员，须到 BPJPH 指定机构完成能力考核\n\n- 相关人员培训留痕\n\n- 原料把关\n\n- 原料、辅料、助剂、接触产线的润滑/清洁剂、包装、涂抹器都算「材料」\n\n- 属强制清真清单的材料：要有清真证或境外清真证在 BPJPH 的登记号\n\n- 清单外：工艺说明、成分、COA、无重污（Najis Berat）声明、问卷、MSDS、实验室报告等支撑材料\n\n- 人源成分（胎盘、血、毛发等）一律不可用于清真化妆品；猪基因/人基因参与的基因工程原料同样不可\n\n- 动物毛发/角/鞣制皮等有细规则，唇部/口腔区域用料更严\n\n- 产线隔离\n\n- 清真与非清真（尤其含重污）的工具、场所、清洁与保养不得混用\n\n- 共用产线有条件：非清真品不得含违禁原料，并在申请时向 BPJPH 交清单、清洁验证与污染控制文件\n\n- 猪源污染须按教法做七次洗涤等专门净化程序\n\n- 标签与追溯\n\n- 只有拿到清真证才能贴印尼清真标；小包装可贴在外盒/说明书\n\n- 境外清真证须是与 BPJPH 互认的机构，并配合印尼标与登记号\n\n- 批次留样、不合格品隔离/召回；不符合清真标准的货不得再当清真卖，也不能靠返工「洗白」\n\n- 事后监督（拿证企业）\n\n- 每年至少一次内部审核 + 管理评审，内审结果报 BPJPH\n\n- 每 6 个月向 BPJPH 报一次原料组成和/或生产过程；有变更随时报\n\n同日前后 BPJPH 还出了销售服务类 SJPH 指南（第376号等）：化妆品零售、药妆店、美妆店等销售环节另有体系要求；跨境卖家主要仍盯自家产品认证与本地经销商是否合规。\n\n影响谁\n\n- 在 Shopee / Lazada / Tokopedia / TikTok Shop 印尼站卖美妆、或计划拿清真证做穆斯林市场定位的品牌、代工厂、进口商\n\n- 配方含胶原、胎盘、蜂蜡、虫胶、乙醇、发酵原料、基因工程成分的供应链——材料证明和产线隔离最容易卡\n\n- 只卖货、短期不打算申请清真证的卖家：强制持证仍到 2028-10-17，本条不立刻改你的上架门槛；BPOM 备案照旧必做\n\n意味着什么\n\n- 卡在哪：延期只是推迟「必须持证」的日子，不是取消体系；现在申请认证的，会按 370 号查监督员资质、材料证明链、产线隔离与半年报\n\n- 省在哪：配方早做动物源/酒精/发酵介质排查，比临近 2028 再改料、改线便宜\n\n- 现在注意什么：对照 370 号列一份原料证明缺口清单；境外企业先确认监督员培训与考核路径；经销商若已推清真货，核对对方是否持有效证、标签是否印尼清真标\n\n原文（官方副本 PDF）：BPJPH Nomor 370 Tahun 2026 (https://halalmui.org/wp-content/uploads/2026/05/Salinan-370.2026.-Pedoman-Pelaksanaan-SJPH-Kosmetik-1.pdf)；强制期说明见 BPJPH · PP 40/2026 (https://bpjph.halal.go.id/read/penyesuaian-penahapan-kewajiban-sertifikasi-halal-diatur-dalam-pp-40-tahun-2026-begini-rinciannya)",
+    "markets": [
+      "id"
+    ],
+    "platforms": [
+      "shopee",
+      "lazada",
+      "tokopedia",
+      "tiktok-shop"
+    ],
+    "tags": [
+      "compliance",
+      "labeling"
+    ],
+    "source_url": "https://halalmui.org/wp-content/uploads/2026/05/Salinan-370.2026.-Pedoman-Pelaksanaan-SJPH-Kosmetik-1.pdf",
+    "source_name": "BPJPH 2026 年第 370 号决定 · 化妆品 SJPH 实施指南（官方副本）",
+    "checked": "2026-10-28",
+    "needs_review": false,
+    "sample": false,
+    "key_date": {
+      "date": "2026-10-18",
+      "label": "指南生效"
+    },
+    "page": "/news/2026-10-12-bpjph-370-cosmetics-sjph/"
+  }
+}

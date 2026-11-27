@@ -1,0 +1,39 @@
+{
+  "api": "yuanshan-channel/v1",
+  "access": "public-read",
+  "auth": null,
+  "generated": "2026-10-26",
+  "disclaimer": "每条资讯都附来源链接。标了「待核实」的条目来自媒体或第三方转述，引用前打开原文。费用、排名和法规以官方页面为准。",
+  "kind": "news",
+  "item": {
+    "kind": "news",
+    "id": "2026-11-01-korea-ai-fake-expert-cosmetic-ads-ban",
+    "type": "regulation",
+    "date": "2026-11-01",
+    "title": "韩国11月27日起禁止用AI假医生、假专家给化妆品带货，违者最高判1年",
+    "summary": "韩国《化妆品法》第21709号修订2026-11-27施行：用AI生成、真假难辨的医生、药师、教授等专家形象推荐化妆品的广告一律禁止，标注「虚拟人物」也不能豁免。",
+    "body_text": "在韩国卖化妆品、或者投韩国广告的卖家注意：韩国《化妆品法》修订（法律第 21709 号，2026年5月26日公布）将于 2026年11月27日 施行。原文见 韩国国家法令信息中心 (https://www.law.go.kr/LSW/lsRvsRsnListP.do?chrClsCd=010202&lsId=002015&lsRvsGubun=all)。\n\n改了什么\n\n《化妆品法》第13条禁止的广告里新增一类：用 AI 生成的、和真人难以区分的声音、图片或视频，让人以为是 医生、牙医、韩医、兽医、药师、大学教授或其他相关领域专家 在为化妆品担保、推荐、指导或亲自使用。\n\n- 贴了「虚拟人物」标注也不行。韩国公平交易委员会 6月1日起的推荐广告审查指南要求 AI 虚拟人物带货要注明是虚拟的；但化妆品法这条是直接禁止「AI 专家」形象，没有「标注就放行」的例外。\n\n- 违反第13条，按《化妆品法》可处 1年以下有期徒刑或1000万韩元以下罚金。\n\n- 同一天，韩国《食品标示广告法》和《药事法》也有同样的禁令；医疗器械 12月10日起跟进。\n\n影响谁\n\n- 在 Coupang、韩国站独立站、TikTok/Instagram/YouTube 投韩国广告的美妆卖家，尤其是用 AI 数字人「皮肤科医生」「成分专家」讲解功效的素材。\n\n- 代运营和内容工厂：批量用 AI 生成「穿白大褂讲成分」视频的，需要在韩国投放线上全部替换。\n\n- 普通 AI 虚拟主播（不扮专家、不冒充真人用后感受）仍可用，但要明显标注是虚拟人物，且所讲体验不能是编的。\n\n现在该做什么\n\n在 11 月 27 日前把韩国在投的详情页、短视频、信息流素材过一遍：凡是 AI 生成、看起来像专家在推荐或使用的，直接下线或换成真人有资质的专家（并保留授权）；其余 AI 虚拟人物素材补上「虚拟人物」标注。",
+    "markets": [
+      "kr"
+    ],
+    "platforms": [
+      "coupang",
+      "tiktok-shop"
+    ],
+    "tags": [
+      "listing",
+      "ai",
+      "compliance"
+    ],
+    "source_url": "https://www.law.go.kr/LSW/lsRvsRsnListP.do?chrClsCd=010202&lsId=002015&lsRvsGubun=all",
+    "source_name": "韩国国家法令信息中心 · 化妆品法第21709号修订理由",
+    "checked": "2026-11-01",
+    "needs_review": false,
+    "sample": false,
+    "key_date": {
+      "date": "2026-11-27",
+      "label": "AI广告禁令"
+    },
+    "page": "/news/2026-11-01-korea-ai-fake-expert-cosmetic-ads-ban/"
+  }
+}

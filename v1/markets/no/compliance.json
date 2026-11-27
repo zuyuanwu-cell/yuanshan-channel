@@ -1,0 +1,102 @@
+{
+  "api": "yuanshan-channel/v1",
+  "access": "public-read",
+  "auth": null,
+  "generated": "2026-10-26",
+  "disclaimer": "每条资讯都附来源链接。标了「待核实」的条目来自媒体或第三方转述，引用前打开原文。费用、排名和法规以官方页面为准。",
+  "kind": "compliance",
+  "id": "no",
+  "name_zh": "挪威",
+  "region": "欧洲",
+  "region_slug": "europe",
+  "page": "/compliance/no/",
+  "market": {
+    "country": "no",
+    "name_zh": "挪威",
+    "flag": "🇳🇴",
+    "region": "欧洲",
+    "difficulty": 2,
+    "summary": "欧盟化妆品法规经欧洲经济区协议适用。另有挪威语标识，并向食品安全局登记企业。",
+    "items": [
+      {
+        "id": "no-eea",
+        "name_zh": "经欧洲经济区适用欧盟法规",
+        "authority": "卫生与护理部",
+        "type": "safety",
+        "mandatory": true,
+        "cost": "未知",
+        "time": "未知",
+        "docs": [],
+        "who": "在挪威投放化妆品的经营者",
+        "note": "化妆品法规写明，欧盟1223/2009按欧洲经济区协议附件作适配后作为挪威法规适用。",
+        "official_url": "https://lovdata.no/dokument/SF/forskrift/2013-04-08-391/%C2%A71",
+        "source_checked": "2026-10-24",
+        "needs_review": false
+      },
+      {
+        "id": "no-lang",
+        "name_zh": "指定标识事项须用挪威语",
+        "authority": "挪威食品安全局",
+        "type": "label",
+        "mandatory": true,
+        "cost": "未知",
+        "time": "未知",
+        "docs": [],
+        "who": "在挪威销售的化妆品",
+        "note": "法规第4条要求欧盟法规第19条第1款d项和f项使用挪威语。各款具体字段未在本页展开。",
+        "official_url": "https://lovdata.no/dokument/SF/forskrift/2013-04-08-391/%C2%A74",
+        "source_checked": "2026-10-24",
+        "needs_review": false
+      },
+      {
+        "id": "no-biz",
+        "name_zh": "向食品安全局登记企业",
+        "authority": "挪威食品安全局",
+        "type": "registration",
+        "mandatory": true,
+        "cost": "未知",
+        "time": "未知",
+        "docs": [],
+        "who": "生产商或进口商",
+        "note": "生产商、自欧洲经济区以外进口的人，以及从区内进货后批发的人，开业前须登记。须有挪威营业地址。",
+        "official_url": "https://www.mattilsynet.no/kosmetikk-og-kroppspleieprodukter/registrering-og-melding",
+        "source_checked": "2026-10-24",
+        "needs_review": true
+      },
+      {
+        "id": "no-cpnp",
+        "name_zh": "向CPNP通报产品",
+        "authority": "挪威食品安全局",
+        "type": "registration",
+        "mandatory": true,
+        "cost": "未知",
+        "time": "未知",
+        "docs": [],
+        "who": "挪威生产商或进口商",
+        "note": "挪威生产商或进口商须把产品通报到CPNP。页面写明挪威没有化妆品批准制。",
+        "official_url": "https://www.mattilsynet.no/kosmetikk-og-kroppspleieprodukter/registrering-og-melding",
+        "source_checked": "2026-10-24",
+        "needs_review": true
+      }
+    ],
+    "steps": [
+      {
+        "title": "欧洲经济区规则",
+        "type": "safety"
+      },
+      {
+        "title": "挪威语",
+        "type": "label"
+      },
+      {
+        "title": "企业登记与通报",
+        "type": "registration"
+      }
+    ],
+    "last_verified": "2026-10-24",
+    "hs_codes": {
+      "status": "pending",
+      "items": []
+    }
+  }
+}

@@ -1,0 +1,157 @@
+{
+  "api": "yuanshan-channel/v1",
+  "access": "public-read",
+  "auth": null,
+  "generated": "2026-10-26",
+  "disclaimer": "每条资讯都附来源链接。标了「待核实」的条目来自媒体或第三方转述，引用前打开原文。费用、排名和法规以官方页面为准。",
+  "kind": "feed",
+  "id": "br",
+  "title": "巴西",
+  "markets": [
+    "br"
+  ],
+  "types": [
+    "rules",
+    "regulation",
+    "rankings"
+  ],
+  "filter": {
+    "markets": [
+      "br"
+    ],
+    "types": [
+      "rules",
+      "regulation",
+      "rankings"
+    ],
+    "include_global": false
+  },
+  "count": 5,
+  "items": [
+    {
+      "kind": "news",
+      "id": "2026-11-17-br-decreto-13169-aladi-cosmetics-tbt",
+      "type": "regulation",
+      "date": "2026-11-17",
+      "title": "巴西率先完成拉美化妆品技术壁垒协定国内程序：将取消CFS、推动按风险通报，须再有一国通知满60日才适用",
+      "summary": "11月17日巴西《联邦公报》公布第13.169号法令，率先完成ALADI第20号化妆品技术壁垒协定国内程序。协定拟取消自由销售证明、推动按风险以通报替代部分注册，不改关税；须再有一个签署国通知并满60日才适用，现行ANVISA程序不变。",
+      "body_text": "在巴西卖化妆品、或者想把巴西当作拉美中转枢纽的品牌注意：巴西发展、工业、贸易和服务业部（MDIC）在 11月17日的官方新闻 (https://www.gov.br/mdic/pt-br/assuntos/noticias/2026/novembro/acordo-facilita-exportacoes-brasileiras-de-cosmeticos-e-reduz-obstaculos-ao-comercio-na-america-latina) 里写明，当天《联邦公报》（Diário Oficial da União）公布了 第13.169号法令，在巴西执行拉美一体化协会（ALADI）《消除化妆品技术性贸易壁垒部分范围协定》（第20号协定）。\n\n先说清楚：这不是今天起就可以跳过巴西现行 ANVISA 程序。 法令把这份协定纳入了国内法，巴西也成了第一个走完国内程序的签署国；但协定要真正用起来，还得再有一个签署国向 ALADI 总秘书处完成通知，满 60 个自然日之后，才在已经完成程序的国家之间适用。\n\n改了什么\n\n根据 MDIC 官方新闻（发布于 2026年11月17日 16:08，更新于 16:40）：\n\n- 第13.169号法令于 11月17日 在《联邦公报》公布，在巴西执行上述第20号协定。MDIC 写明：法令自公布之日起生效。\n\n- 巴西是第一个完成实施该协定所需国内程序的签署国。\n\n- 协定于 2026年2月 签署（官方新闻只写到月份，没有写到具体哪一天），签署方是巴西、阿根廷、玻利维亚、智利、厄瓜多尔、巴拉圭、秘鲁和乌拉圭。其他 ALADI 成员国经谈判可以加入。墨西哥参加了谈判，但还没有加入。\n\n- 协定本身的适用时间表是：至少两个缔约方把国内程序完成情况通知 ALADI 总秘书处后，再过 60 个自然日 才开始适用；之后每多一个签署国完成通知，也是满 60 日再对该国适用。\n\n- 按 MDIC 的说明，协定落地后的主要安排包括：\n- 取消自由销售证明（Certificado de Livre Venda，常称 CFS）这一常见跨境文件要求；\n\n- 标签、良好生产规范（GMP）和成分审查向国际参考靠拢；\n\n- 在卫生注册上，各国将按本国当局划定的风险，寻求用通报替代部分事前许可或注册；如果仍要注册，办理应当客观、透明、公正，并在合理短的期限内完成；\n\n- 不改变进口关税，重点是减少技术性壁垒、让规则更接近。\n\nMDIC 新闻把法令链到了《联邦公报》上的 第13.169号法令（2026年11月16日） (https://www.in.gov.br/web/dou/-/decreto-n-13.169-de-16-de-novembro-de-2026-744722285) 页面。本轮核验时该公报页无法打开，文中条款以我们已经打开并截图的 MDIC 官方新闻为准。\n\n影响谁\n\n- 已经在巴西做、或准备进入巴西的化妆品品牌、代工厂、进口商，以及持有 ANVISA 经营许可、负责产品通报或注册的本地公司\n\n- 打算把巴西当作拉美区域枢纽、再分到其他签署国的企业\n\n- 只在其他市场销售、不进入巴西和这些签署国的卖家：这条不改你现在的上架义务\n\n意味着什么 / 现在注意什么\n\n- 今天该办的手续一件都不能少。 本地公司仍要持有 ANVISA 经营许可（AFE）和地方卫生许可，产品仍要按 1/2 级做通报或注册，标签仍要葡萄牙语。详情见站内 巴西合规 (/compliance/br/)。\n\n- 真正的价值在后面：如果协定按 MDIC 所说的时间表适用，拉美签署国之间有望少交一份 CFS，标签、生产和成分规则也可能更接近，想把巴西当区域枢纽的品牌，要盯的是第二个签署国有没有向 ALADI 秘书处完成通知。通知后再数 60 天。\n\n- 「将寻求以通报替代部分注册」不等于巴西已经改掉现行分级通报/注册。在 ANVISA 正式改规则之前，仍按现在的办法办。\n\n- 这不是关税优惠，不能按降税来算成本。\n\n- 本站已在巴西合规页补了一句跟踪事项，并标了 needs_review；等协定实际适用或 ANVISA 另发执行细则时再改义务表。\n\n证据（核对日期 2026-11-19）\n\nMDIC 官方新闻页：标题、发布与更新日期（2026年11月17日 16:08 / 16:40），以及第13.169号法令在《联邦公报》公布、巴西率先完成国内程序、协定于2026年2月签署并列出签署国：\n\n来源：巴西发展、工业、贸易和服务业部（MDIC）官方新闻，核对日期 2026-11-19。\n\n同一篇新闻写明：取消自由销售证明，标签、良好生产规范和成分审查趋同，卫生注册将按风险寻求以通报替代部分事前许可或注册，且协定不改变进口关税：\n\n来源：巴西 MDIC 官方新闻「Menos burocracia e mais previsibilidade para exportar」一节，核对日期 2026-11-19。\n\n「Internalização e próximos passos」一节写明：法令自公布之日起生效；协定适用须至少两个缔约方通知 ALADI 总秘书处后满 60 个自然日：\n\n来源：巴西 MDIC 官方新闻「Internalização e próximos passos」一节，核对日期 2026-11-19。\n\n来源\n\n- 巴西发展、工业、贸易和服务业部（MDIC）· Acordo facilita exportações brasileiras de cosméticos e reduz obstáculos ao comércio na América Latina (https://www.gov.br/mdic/pt-br/assuntos/noticias/2026/novembro/acordo-facilita-exportacoes-brasileiras-de-cosmeticos-e-reduz-obstaculos-ao-comercio-na-america-latina)（发布于 17/11/2026 16h08，更新于 17/11/2026 16h40，2026-11-19 核对）\n\n- 同新闻所链《联邦公报》· Decreto nº 13.169, de 16 de novembro de 2026 (https://www.in.gov.br/web/dou/-/decreto-n-13.169-de-16-de-novembro-de-2026-744722285)（本轮核验时页面未能打开，未作为正文依据）\n\n- 站内对照：巴西合规 (/compliance/br/)、美客多热销榜 (/rankings/mercado-livre/)",
+      "markets": [
+        "br"
+      ],
+      "platforms": [
+        "mercado-libre"
+      ],
+      "tags": [
+        "compliance",
+        "customs"
+      ],
+      "source_url": "https://www.gov.br/mdic/pt-br/assuntos/noticias/2026/novembro/acordo-facilita-exportacoes-brasileiras-de-cosmeticos-e-reduz-obstaculos-ao-comercio-na-america-latina",
+      "source_name": "巴西发展、工业、贸易和服务业部（MDIC）",
+      "checked": "2026-11-19",
+      "needs_review": true,
+      "sample": false,
+      "key_date": {
+        "date": "2026-11-17",
+        "label": "法令公布"
+      },
+      "page": "/news/2026-11-17-br-decreto-13169-aladi-cosmetics-tbt/"
+    },
+    {
+      "kind": "news",
+      "id": "2026-11-17-shopee-br-3pf-gnre",
+      "type": "rules",
+      "date": "2026-11-17",
+      "title": "Shopee巴西三方仓11-24起收GNRE：跨州税差改由卖家承担，近90天订单将补收",
+      "summary": "中国卖家学习中心11-17公告：自巴西当地时间11-24起，通过账单调整向巴西三方仓卖家收取GNRE（跨州ICMS税差）；8-26至11-24已完成订单预计11月底一次性补收。跨境直邮不受影响。",
+      "body_text": "做巴西站、并且走当地三方仓发货的美妆个护卖家，先看账单：Shopee 卖家学习中心在 2026年11月17日 发布了《Shopee巴西站点三方仓征收GNRE款项通知 (https://shopee.cn/edu/article/28878)》。我们于 2026-11-26 打开了这篇官方公告和「政策与物流」列表，页面显示适用站点是巴西，适用卖家是三方仓卖家，生效日期是 2026年11月24日（当地时间）。\n\n简单说：以前这笔跨州税差由平台垫着，现在要向卖家收，而且会往回补近 90 天已完成的订单。 跨境直邮（SLS）店不用跟着慌。\n\n改了什么\n\n公告写的是：商品跨州销售时，各州 ICMS 税率有差异，需要通过 GNRE（跨州 ICMS 税率差额缴纳凭证）向目的地州补税，差额部分就是常说的 DIFAL。为了让订单能正常发出去，Shopee 此前已为巴西站点三方仓卖家先行垫付。系统升级后，自 2026年11月24日（当地时间） 起，平台改为通过「平台打款 > 账单 > 账单调整（manual adjustment）」向三方仓卖家收取这笔 GNRE。公告也提醒：卖家要按自身情况酌情调整定价；Shopee 收 GNRE，不代表它承担卖家其他税务责任。\n\n怎么收，分两块：\n\n- 历史订单： 针对 11月24日当地时间回溯 90 天内已完成的订单，也就是 2026年8月26日至2026年11月24日 期间的已完成订单，平台预计在 11 月底 通过账单调整一次性收取。\n\n- 之后的订单： 11月24日当地时间起已完成的订单，按月在每月最后一周用同样的账单调整方式收取。\n\n公告给的计算公式是：\n\nGNRE = DIFAL + FECOEP（部分目的州适用） + 利息（逾期适用） + 罚金（逾期适用）\n\n其中，DIFAL = 发票（NF-e）金额 ×（目的地州 ICMS 税率 − 跨州税率）。公告写：目的地州税率因州和商品类别而异，通常为 17%–20%；跨州税率由巴西政府统一设定为 12%（发货州在南部/东南部）或 7%（发货州在北部/东北部/中部）。部分州还会加收扶贫基金 FECOEP，税率通常为 0%–2%，而且只对已设立该基金、且属于征税范围的商品。利息按巴西基准 SELIC 利率从应缴日起按日计；许多州还会对逾期另加罚金，公告称通常为应纳税额的 10%–75%。\n\n公告举例：从米纳斯吉拉斯州（MG）发到塞阿拉州（CE），跨州税率 7%、CE 州内税率 20%，DIFAL 税率 13%；发票金额 219.33 巴西雷亚尔，DIFAL 为 28.51 雷亚尔。这个例子里该商品不收 FECOEP，且税单在期限内缴纳，所以没有利息和罚金。具体金额仍以税单和卖家中心账单为准，不要拿这一单去套所有品类、所有州。\n\n影响谁\n\n- 在巴西站用当地三方仓（3PF）发货的卖家（含美妆、个护、香水）：会进这次账单。货从当地仓发到另一个州，就可能被扣 GNRE。\n\n- 跨境直邮（SLS）卖家：不受影响。 公告常见问题写得很清楚。\n\n- 同州发货：不收 GNRE。 是不是跨州，以巴西税务局的认定为准。\n\n- 不要把 GNRE 和店铺本身要缴的 ICMS 混在一起。 公告说，三方仓店铺应缴的 ICMS（区别于 GNRE）要自行与第三方服务商确认征税细节，Shopee 不会向卖家或买家代收该笔 ICMS。\n\n意味着什么、现在该做什么\n\n- 先盯 11 月底那一笔补收。 8月26日到11月24日已完成的跨州 3PF 订单，可能在月底集中从「账单调整」里扣。这是现金流问题，不是「以后再改价就行」。可到中国卖家中心「平台打款 > 账单 > 账单调整」核对记录。\n\n- 定价要重新算。 按公告给出的税率区间，DIFAL 大约是发票金额再乘目的州税率与跨州税率的差；东南部仓库发往高税率州时，差价可能到大约 8 到 13 个百分点，个别州还可能加上 FECOEP。薄利面膜、小样、活动价尤其容易被这笔税差吃掉。11月24日起完成的单，会在每月最后一周扣，要按这个节奏预留款项。\n\n- 有异议只有 10 个工作日。 公告写：对具体账单调整有异议，须自收到调整通知之日起 十（10）个工作日内 联系 Shopee 客服或客户经理。\n\n- 目的州税率更低也不会退税。 公告明确：跨州税率始终低于各州 ICMS 税率，不会出现 DIFAL 为负或可退税。\n\n- 这次改的是平台向三方仓卖家收回垫付税款的方式，不是巴西化妆品注册或标签规则本身的变化，ANVISA 那边的要求见 巴西合规 (/compliance/br/)。公告也写了：文中税费信息只供了解收费安排，不构成税务或法律建议，具体认定和金额以巴西当地税务机关的最终结果为准。\n\n证据（核对日期 2026-11-26）\n\nShopee 卖家学习中心「卖家公告栏 > 政策与物流」列出该通知，页面日期为 2026-11-17：\n\n通知正文抬头：适用站点为巴西、适用卖家为三方仓卖家，生效日期 2026年11月24日；写明此前由平台垫付，自当天当地时间起通过账单调整向三方仓卖家收取 GNRE：\n\n「GNRE征收方式」写明：8月26日至11月24日已完成订单预计11月底一次性收取；11月24日起的已完成订单按月在每月最后一周收取，并给出计算公式：\n\n同一官方页下方给出公式分项说明，并附塞阿拉州 GNRE 缴税单示例（DIFAL 28.51 雷亚尔）：\n\n常见问题写明：当地三方仓（3PF）卖家受影响，跨境直邮（SLS）不受影响；同州发货不收 GNRE；对账单调整有异议须在收到通知起 10 个工作日内联系平台：\n\n来源\n\n- Shopee 卖家学习中心 · Shopee巴西站点三方仓征收GNRE款项通知 (https://shopee.cn/edu/article/28878)（页面显示发布于 2026-11-17；2026-11-26 打开核对）",
+      "markets": [
+        "br"
+      ],
+      "platforms": [
+        "shopee"
+      ],
+      "tags": [
+        "fees"
+      ],
+      "source_url": "https://shopee.cn/edu/article/28878",
+      "source_name": "Shopee 卖家学习中心",
+      "checked": "2026-11-26",
+      "needs_review": false,
+      "sample": false,
+      "key_date": {
+        "date": "2026-11-24",
+        "label": "开始向卖家收取"
+      },
+      "page": "/news/2026-11-17-shopee-br-3pf-gnre/"
+    },
+    {
+      "kind": "ranking",
+      "id": "mercado-livre/2026-10-23",
+      "type": "rankings",
+      "date": "2026-10-23",
+      "title": "Mercado Livre 巴西 · 2026-10-23",
+      "summary": "14 个单品 · Mercado Livre · Mais Vendidos Beleza · 部分数据 · 待核实",
+      "markets": [
+        "br"
+      ],
+      "board": "mercado-livre",
+      "source_url": "https://www.mercadolivre.com.br/mais-vendidos/MLB1246",
+      "source_name": "Mercado Livre · Mais Vendidos Beleza",
+      "needs_review": true,
+      "sample": false,
+      "partial": true,
+      "page": "/rankings/mercado-livre/",
+      "detail": "/v1/rankings/mercado-livre/2026-10-23.json"
+    },
+    {
+      "kind": "news",
+      "id": "2026-06-11-anvisa-rdc-1029-restricted",
+      "type": "regulation",
+      "date": "2026-06-11",
+      "title": "巴西 ANVISA 更新化妆品限用物质清单，已注册产品 24 个月内调整",
+      "summary": "RDC 1.029/2026 更新限用物质清单（转化南共市 GMC 06/25），RDC 1.030/2026 更新禁用清单；已备案产品有 24 个月调整期。",
+      "body_text": "- RDC 1.029/2026：限用物质清单第一部分，转化南共市 GMC 06/25\n\n- RDC 1.030/2026：禁用物质清单\n\n- 已备案/注册产品：24 个月内调整",
+      "markets": [
+        "br"
+      ],
+      "platforms": [],
+      "tags": [
+        "ingredients"
+      ],
+      "source_url": "https://www.gov.br/anvisa/pt-br/assuntos/noticias-anvisa/2026/anvisa-atualiza-listas-de-substancias-para-uso-em-cosmeticos",
+      "source_name": "ANVISA",
+      "checked": "2026-10-23",
+      "needs_review": false,
+      "sample": false,
+      "key_date": null,
+      "page": "/news/2026-06-11-anvisa-rdc-1029-restricted/"
+    },
+    {
+      "kind": "news",
+      "id": "2026-03-20-anvisa-cancels-banned-substance-cosmetics",
+      "type": "regulation",
+      "date": "2026-03-20",
+      "title": "巴西 ANVISA：含已禁物质的化妆品登记被批量取消",
+      "summary": "ANVISA 官方新闻称，因配方含已禁止物质，已取消大批化妆品登记；企业须对照最新禁限用清单并停售不合规 SKU。",
+      "body_text": "巴西卫生监管局（ANVISA）官网新闻报道：当局取消了一批含已禁止物质的化妆品登记。此前 RDC 等文件已调整禁限用清单，企业若未在过渡期内改配方，可能失去登记并被迫下架。\n\nMercado Livre 等平台上的巴西美妆 listing 应核对登记状态与成分合规。新闻页精确发布日请打开原文确认，故标待核实。",
+      "markets": [
+        "br"
+      ],
+      "platforms": [
+        "mercado-libre"
+      ],
+      "tags": [
+        "ingredients",
+        "penalties"
+      ],
+      "source_url": "https://www.gov.br/anvisa/pt-br/assuntos/noticias-anvisa/2026/anvisa-cancela-registro-de-cosmeticos-com-substancias-banidas",
+      "source_name": "ANVISA",
+      "checked": "2026-10-23",
+      "needs_review": true,
+      "sample": false,
+      "key_date": null,
+      "page": "/news/2026-03-20-anvisa-cancels-banned-substance-cosmetics/"
+    }
+  ]
+}

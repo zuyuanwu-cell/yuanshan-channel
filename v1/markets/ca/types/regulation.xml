@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>远山频道 · 加拿大</title>
+    <link>https://ys.tongzhoukuajing.com/subscribe/?markets=ca&amp;types=regulation</link>
+    <description>每条资讯都附来源链接。标了「待核实」的条目来自媒体或第三方转述，引用前打开原文。费用、排名和法规以官方页面为准。 公开只读，不是法律意见，也不代替来源原文。</description>
+    <language>zh-CN</language>
+    <lastBuildDate>Mon, 26 Oct 2026 12:00:00 GMT</lastBuildDate>
+    <atom:link xmlns:atom="http://www.w3.org/2005/Atom" href="https://ys.tongzhoukuajing.com/v1/markets/ca/types/regulation.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>加拿大化妆品成分热列表11月更新：碱性紫4和碱性蓝7设限，PHMB喷雾禁用，聚合草不再例外</title>
+      <link>https://ys.tongzhoukuajing.com/news/2026-11-23-canada-hotlist-update/</link>
+      <guid isPermaLink="false">2026-11-23-canada-hotlist-update</guid>
+      <pubDate>Mon, 23 Nov 2026 12:00:00 GMT</pubDate>
+      <description>加拿大卫生部官网列出2026年11月热列表变更，页脚修改日为11月23日：碱性紫4、碱性蓝7和PHMB列入限用；驻留护发禁用前两种染料，喷雾禁用PHMB；聚合草取消例外，马钱子碱及其盐改为禁用。现行热列表已写入这些条件。</description>
+    </item>
+    <item>
+      <title>加拿大香精过敏原标示：新品已按 81 项披露，在售品宽限至 2028-08-01</title>
+      <link>https://ys.tongzhoukuajing.com/news/2026-08-01-canada-fragrance-allergen-labelling/</link>
+      <guid isPermaLink="false">2026-08-01-canada-fragrance-allergen-labelling</guid>
+      <pubDate>Sat, 01 Aug 2026 12:00:00 GMT</pubDate>
+      <description>加拿大要求香精过敏原超阈值时在成分表单独列出：2026-04-12 起 24 项；2026-08-01 起新品扩至 81 项；2026-08-01 前已在售产品宽限至 2028-08-01。</description>
+    </item>
+  </channel>
+</rss>
